@@ -123,3 +123,4 @@ tags: [fingering_model, ergonomics, biomechanics, computational_model, span_tabl
 - [[concept_piano_fingering_principles]]
 - [[concept_finger_span_table]]
 - [[concept_thumb_technique]]
+- [[src_computational_fingering]]

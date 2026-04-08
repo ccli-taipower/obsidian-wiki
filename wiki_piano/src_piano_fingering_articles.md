@@ -101,3 +101,4 @@ tags: [piano_fingering, technique, pedagogy, chords, scales, modes, minimalist_f
 - [[concept_piano_fingering_principles]]
 - [[concept_thumb_technique]]
 - [[concept_chord_fingering]]
+- [[concept_scale_fingering]]

@@ -1,6 +1,6 @@
 # Piano Fingering Wiki
 
-> Last updated: 2026-04-08 | Sources: 10 | Pages: 22
+> Last updated: 2026-04-09 | Sources: 11 | Pages: 27
 
 ## Sources — Computational Models
 
@@ -24,6 +24,10 @@
 - [Graham Fitch & Tim Stein 影片系列（6 部）](src_graham_fitch_video_series.md) — 音階琶音指群法、Rubinstein 方案、手部重分配
 - [鋼琴指法教學第二批（7 篇）](src_piano_fingering_articles_batch2.md) — 手指個性、音域適應指法、換指進階
 
+## Sources — Music Analysis & Interpretation
+
+- [音樂家的無聊人生 Musecow（4 部影片）](src_musecow_music_analysis.md) — 蕭邦三大好聽原因、Op.9-1 和聲心理學、幻想波蘭舞曲 Op.61、德布西《月光》踏板技法
+
 ## Concepts
 
 - [Finger Span Table](concept_finger_span_table.md) — ⭐ Parncutt 跨度表與 V6 FINGER_COMFORT_SPAN 對應
@@ -36,7 +40,10 @@
 - [Minimalist Fingering](concept_minimalist_fingering.md) — Cory Hall 2024，用最少手指+最多拇指穿越
 - [Hand Distribution](concept_hand_distribution.md) — 手部重分配：何時該用、何時不該用
 - [Musical Fingering](concept_musical_fingering.md) — 指法選擇如何影響音色與分句
+- [Chromatic Harmony](concept_chromatic_harmony.md) — 半音化和聲：多聲部半音移動、蕭邦內聲部、三度關係
+- [Pedal Technique](concept_pedal_technique.md) — 踏板技法：半踏板、延遲換踏板、粗弦/細弦差異
 
 ## Analyses
 
-_(No analysis pages yet.)_
+- [指法如何表現或強化力度？](analysis_fingering_and_dynamics.md) — 六個層面：手指力量差異、強/弱指選擇、觸鍵方式、手位策略、速度交互、V6 限制
+- [拍子強弱能否加入指法考量？](analysis_metric_accent_and_fingering.md) — 結論：不建議，例外太多（切分、rubato、對位）；力度標記優先於節拍位置

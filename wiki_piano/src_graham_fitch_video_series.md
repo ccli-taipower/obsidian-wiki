@@ -146,4 +146,5 @@ Pianist Magazine 的 6 部影片逐字稿，從入門到進階完整覆蓋指法
 - [[concept_hand_distribution]]
 - [[concept_musical_fingering]]
 - [[concept_minimalist_fingering]]
+- [[concept_scale_fingering]]
 - [[src_piano_fingering_articles]]

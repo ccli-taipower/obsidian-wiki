@@ -57,3 +57,4 @@ V6 的 `FINGER_COMFORT_SPAN` 字典：
 
 - [[src_parncutt1997_ergonomic_model]]
 - [[concept_piano_fingering_principles]]
+- [[src_computational_fingering]]

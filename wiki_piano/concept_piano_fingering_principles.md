@@ -52,3 +52,5 @@ tags: [piano_fingering, technique, pedagogy, motor_learning]
 
 - [[src_piano_fingering_wikipedia]]
 - [[src_piano_fingering_articles]]
+- [[concept_scale_fingering]]
+- [[src_computational_fingering]]
