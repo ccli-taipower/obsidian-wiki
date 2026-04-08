@@ -50,4 +50,17 @@ Key: 分解和弦（連續 ≥3 音、音程 ≥3 半音、單方向）應用 C(
 
 Source: Clarke, Parncutt, Raekallio & Sloboda (1997). Musicae Scientiae, Vol.I No.1, 87-107.
 Pages: `src_talking_fingers_interview`
-Key: ⭐ Qualitative companion to Parncutt 1997 model. Five themes: (1) standard fingerings as foundation, (2) thumb on black keys — generally avoided but sometimes deliberate for tone, (3) pedal-fingering relationship debated, (4) tempo affects finger choice, (5) interpretation is THE primary determinant. Finger "personalities": thumb=horn, 4=violin, 5=oboe. Procedural knowledge dominates — pianists can't fully articulate rules. V6 implications: model is purely biomechanical but experts prioritize interpretation; speed-dependent fingering not modeled; repeat-passage consistency is debated among experts.
+Key: ⭐ Qualitative companion to Parncutt 1997 model.
+
+## [2026-04-08] lint | Wiki health check
+
+Result: 0 broken links, 0 orphan pages. Suggested 3 new concept pages for frequently mentioned but uncovered topics.
+
+## [2026-04-08] lint-fix | Added 3 concept pages
+
+Pages: `concept_chopin_method`, `concept_scale_fingering`, `concept_finger_substitution`
+Key: Chopin's teaching method (natural hand position, black-key-first, five-finger-five-colors). Scale fingering (finger groups, families, chromatic, double notes). Finger substitution (silent key change for legato extension).
+Total pages: 17 → 20.
+
+---
+End of log. Next entry: Key: Five themes: (1) standard fingerings as foundation, (2) thumb on black keys — generally avoided but sometimes deliberate for tone, (3) pedal-fingering relationship debated, (4) tempo affects finger choice, (5) interpretation is THE primary determinant. Finger "personalities": thumb=horn, 4=violin, 5=oboe. Procedural knowledge dominates — pianists can't fully articulate rules. V6 implications: model is purely biomechanical but experts prioritize interpretation; speed-dependent fingering not modeled; repeat-passage consistency is debated among experts.
