@@ -85,3 +85,7 @@ Filed as `analysis_fingering_and_dynamics`. Synthesized from 7 wiki pages. Six d
 ## [2026-04-09] query | 拍子強弱能否加入指法考量？
 
 Filed as `analysis_metric_accent_and_fingering`. Conclusion: not recommended. Evidence supports the concept (Peterson Tip #4 phrasing, Talking Fingers finger personalities, Sloboda strong-finger preference), but too many exceptions in real music (syncopation, rubato, counterpoint). V6 already handles phrase-start stability via W_PHRASE_ANCHOR. If implemented, must be very small penalty (0.2-0.3) on weak fingers at strong beats, single-note only. Priority suggestion: MusicXML `<dynamics>` tags (explicit composer intent) are more valuable than metric position (default pattern). Total pages: 27.
+
+## [2026-04-09] query | 不同樂派/作曲家/時期的指法差異
+
+Filed as `analysis_period_style_fingering`. Three dimensions: (1) historical evolution — pre-Bach no thumb → Bach thumb revolution → Chopin natural hand position → Liszt technical neutrality → 2024 minimalism; (2) composer fingering as interpretation — Beethoven structural, Chopin tonal, Busoni timbral, contemporary creative; (3) style influences — Baroque strictest legato (no pedal), Classical phrase-aware, Romantic pedal-relaxed + chromatic black keys, Impressionist half-pedal precision. Pedal availability is a key driver of fingering differences across periods. V6 DP is style-neutral; suggested improvements: style profiles from MusicXML metadata, composer fingering as soft constraint, pedal-aware legato relaxation. Total pages: 28.
