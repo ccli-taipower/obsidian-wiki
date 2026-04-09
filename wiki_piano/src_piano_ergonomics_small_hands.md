@@ -1,5 +1,5 @@
 ---
-title: "鋼琴人體工學、小手策略與傷害預防（5 篇）"
+title: "鋼琴人體工學、小手策略與傷害預防（6 篇）"
 date_ingested: 2026-04-09
 source_type: academic_paper_collection
 sources:
@@ -8,6 +8,7 @@ sources:
   - "Jurinič, Aljoša et al. (2026). The biomechanics of piano playing: a systematic review. Frontiers in Psychology 16:1690422."
   - "Chong, Tina (2021). Pianism for small hands: strategies and solutions. DM dissertation, Indiana University."
   - "Farzana, S.F. Mariyam & Mathew, Ashish A. (2021). Effect of Finger and Hand Exercises among Amateur Pianist. Indian J Forensic Medicine & Toxicology 15(1), 591-596."
+  - "Suchitphanit, Somruedi (2017). Small Hands on a Grand Piano: Understanding Individual Differences and Approaches for Small-Handed Pianists. DMA dissertation, University of Kansas."
 tags:
   - ergonomics
   - small_hands
@@ -20,7 +21,7 @@ tags:
 
 # 鋼琴人體工學、小手策略與傷害預防
 
-5 篇論文，涵蓋手部解剖、人體工學系統回顧、小手鋼琴家的障礙與策略、生物力學系統回顧、運動介入效果。
+6 篇論文，涵蓋手部解剖、人體工學系統回顧、小手鋼琴家的障礙與策略、生物力學系統回顧、運動介入效果、個體差異與心態。
 
 ## 1. Tworko (2020) — 鋼琴演奏的生理學與人體工學
 
@@ -206,6 +207,52 @@ tags:
 ### 限制
 
 樣本小（n=20）、年齡範圍窄、方案時間短。
+
+## 6. Suchitphanit (2017) — 小手在大鋼琴上：理解個體差異與策略
+
+### 核心觀點
+
+⭐ 從**障礙研究（disability studies）**視角重新框架小手議題：小手不是缺陷，而是社會建構的「障礙」——問題在於標準化鍵盤和曲目偏向大手，而非小手本身。
+
+### 小手的具體定義
+
+根據 TheSmallHandedPianist.com：
+- 1-5 指展開跨度 ≤ **8 英寸**
+- 2-5 指跨度 < 1-5 跨度的 **75%**
+- 可舒適彈八度，但九度需在白鍵邊緣勉強觸及
+- 需要 **7.5 英寸**主動跨度才能舒適彈白鍵八度（Boyle & Boyle 研究）
+
+### 心態的影響（Dweck 理論）
+
+- **固定心態**：認為小手是不可改變的限制 → 自我否定、放棄嘗試
+- **成長心態**：視差異為正常人類變異 → 探索可能性和策略
+- 作者自身經歷：曾被老師告知「不可能成為成功鋼琴家」→ 內化負面評價 → 後來發現問題在於教師不了解如何適應小手學生
+
+### 個體差異（Ortmann 研究）
+
+Otto Ortmann（1929, *Physiological and Mechanics of Piano Technique*）對 50,000 人的手部觀察：
+- 發現 **6 種自然手位**
+- 個體差異因素：手的大小、手指長度和質量、手臂重量、肌肉位置和力量、骨骼結構、關節靈活度
+- 教師應先了解學生手的生理結構，再選擇適合的指法
+- 較輕的手指需要更大的肌肉收縮來產生同等觸鍵力度
+- 手的適應性取決於：手指長度、手掌寬度、手指外展角度
+
+### 鍵盤標準化歷史
+
+- 14-18 世紀：鍵盤尺寸多樣，較小
+- 19 世紀：鑄鐵框架、更重的觸鍵、加高的黑鍵、更長的鍵
+- 約 **1880 年**：標準化為現代尺寸
+- Manchester (2006)：樂器設計者多為歐洲男性 → 樂器為同質化群體設計 → 現代演奏者更多元但樂器未變
+
+### 著名小手鋼琴家
+
+- **Maria João Pires**（葡萄牙）
+- **Alicia de Larrocha**（西班牙）
+- **Josef Casimir Hoffmann**（波蘭裔美國）
+
+### 應用：兩首蕭邦練習曲
+
+Chapter 4 將策略應用於 Chopin Etude Op.25 No.2 和 Op.25 No.10，提供具體的替代指法和手部重分配方案。
 
 ## 與 V6 DP 的關聯
 

@@ -1,11 +1,12 @@
 ---
-title: "鋼琴指法演算法論文 — 第二批（3 篇）"
+title: "鋼琴指法演算法論文 — 第二批（4 篇）"
 date_ingested: 2026-04-09
 source_type: academic_paper_collection
 sources:
   - "Telles, Ana (2020). Piano fingering strategies as expressive and analytical tools for the performer. In Contemporary Piano Music (Cambridge Scholars), pp.151-180."
   - "Nellåker, Eric & Lu, Xingye. Optimal piano fingering for simple melodies. KTH Royal Institute of Technology, DD143X."
   - "Andersson, Mikael & Håkansson, Mira Yao. Generating Ergonomic Fingerings for Piano. KTH Royal Institute of Technology, DD143X."
+  - "Liao, Wei & Fan, Cheng (2025). A Multimodal-Based Fingering Analysis Method for Piano Playing. IEEE Access 13, 205288-205300."
 tags:
   - fingering_algorithm
   - dp
@@ -16,7 +17,7 @@ tags:
 
 # 鋼琴指法演算法論文 — 第二批
 
-3 篇論文：1 篇學術書章節（指法作為分析與表現工具）、2 篇 KTH 學位論文（Parncutt 模型的演算法實作）。
+4 篇論文：1 篇學術書章節（指法作為分析與表現工具）、2 篇 KTH 學位論文（Parncutt 模型的演算法實作）、1 篇多模態 Transformer 指法分析（IEEE Access 2025）。
 
 ## 1. Telles (2020) — 指法策略作為表現與分析工具
 
@@ -155,6 +156,60 @@ V6 使用類似的 DP 方法但有更豐富的 cost model：
 - `_transition_cost`（接力規則、雙聲部交替接力等）解決了「大量低品質」問題
 - 樂句感知 DP + 重複段落一致性進一步篩選
 - 同時處理左右手與和弦（非僅右手單音）
+
+## 4. Liao & Fan (2025) — 多模態鋼琴指法分析方法
+
+### 核心貢獻
+
+⭐ **IEEE Access 2025**——基於 Transformer 的多模態指法分析框架，達到 **Finger Accuracy 0.96、Direction Accuracy 0.94**。
+
+### 方法
+
+- **Transformer encoder** + 兩個專用模組：
+  - **Position-Aware Encoding (PAE)**：嵌入絕對和相對時間特徵（onset 時間、duration、IOI），處理音樂中不規則的時間間隔（rubato、非同步觸法）
+  - **Dynamic Channel Attention (DCA)**：自適應地重新加權不同模態的重要性——速度在表現性分句中主導，踏板狀態和運動方向在和弦區域更顯著
+- **雙輸出頭**：MLP_id（預測 Finger ID: L1-L5, R1-R5）+ MLP_dir（預測 Finger Motion Direction: up/down/left/right）
+- **訓練損失**：cross-entropy (finger ID) + cross-entropy (direction) + Jensen-Shannon Divergence (temporal smoothness)
+
+### 數據集
+
+- **MAESTRO**（~200 小時 Disklavier 鋼琴錄音）作為基礎
+- **RoboPianist**（物理模擬）產生初始指法標注 → 由 3 位專家鋼琴家手動驗證修正（Cohen's κ = 0.87）
+- 另收集小規模真實演奏數據集（3 位鋼琴教師在 Yamaha MIDI 鋼琴上演奏 Czerny、Bach Inventions）
+
+### 多模態特徵
+
+| 特徵 | 說明 | 範例值 |
+|------|------|------|
+| Note Name | 科學音高記號 | B4 |
+| Note Duration | 持續時間 | 0.75s |
+| Pitch | MIDI 音高 | 71 |
+| Velocity | 觸鍵力度 (0-127) | 96 |
+| Pedal State | 延音踏板狀態 | Sustain=ON |
+| Finger ID | 使用的手指 | R3 |
+| Finger Motion Direction | 觸鍵前手指運動方向 | up |
+| Inter-Onset Interval | 與前音的時間間隔 | 0.35s |
+| Pitch Interval | 與前音的音程 | +2 半音 |
+
+### 結果
+
+| 指標 | 數值 |
+|------|------|
+| Finger Accuracy | **0.96** |
+| Finger Direction Accuracy | **0.94** |
+
+### 與 V6 DP 的關聯
+
+| Liao & Fan 2025 | V6 DP |
+|----------------|-------|
+| 多模態（MIDI+生物力學+踏板） | 僅用音高序列 |
+| Transformer（全局注意力） | 樂句內 DP（局部最佳化） |
+| 預測 Finger Direction | V6 不預測手指運動方向 |
+| 96% 準確率 | 未與 PIG Dataset 比較 |
+| 需要 MIDI velocity/pedal | V6 僅需 MusicXML 音高 |
+| 需要 GPU 訓練 | V6 純 CPU、即時推理 |
+
+**啟示**：Liao & Fan 證明加入速度、踏板、時間間隔等多模態特徵可顯著提升指法預測準確率。V6 未來可考慮從 MusicXML 讀取 velocity 和 pedal 資訊作為額外評分維度。
 
 ## 相關頁面
 

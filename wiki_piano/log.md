@@ -120,3 +120,9 @@ Result: 0 broken links, 0 orphan pages (fixed 3: src_historical_fingering_interp
 ## [2026-04-09] query | 小手學習者的技巧與曲目建議
 
 Filed as `analysis_small_hands_advice`. Synthesized from 6 wiki pages. Seven coping strategies: alternative fingering (Roskell register adaptation), hand redistribution, rolling chords, note omission, pedal assistance, audiation (Fink), warm-up exercises (Farzana 4-week protocol). Core principle: maintain neutral wrist position (Meinke's 4 laws, Wristen's checklists). Repertoire: Baroque (Bach) and Impressionist (Debussy) most suitable; Romantic late period (Liszt, Rachmaninoff) most challenging. Specific pieces listed. ESPK keyboards as permanent solution. V6 DP: HAND_SIZE_SCALE parameter (×0.9) suggested. Total pages: 34.
+
+## [2026-04-09] ingest | 4 new papers (multimodal fingering, small hands, Chinese style)
+
+Sources: Liao & Fan 2025 (IEEE Access, Transformer multimodal fingering 96% accuracy), Suchitphanit 2017 (small hands DMA, U Kansas), 2 Chinese-style piano music papers.
+Pages updated: `src_fingering_algorithms_batch2` (3→4), `src_piano_ergonomics_small_hands` (5→6). New: `src_chinese_style_piano`.
+Key: ⭐ Liao & Fan achieve 96% finger accuracy with Transformer + PAE + DCA on MAESTRO + RoboPianist data — current SOTA for multimodal fingering analysis. Suchitphanit adds disability studies perspective to small hands (growth vs fixed mindset), Ortmann's 6 natural hand positions (50K people), quantitative small-hand definition (≤8" span, need 7.5" for octave), famous small-handed pianists (Pires, de Larrocha, Hoffmann). Chinese-style papers cover pentatonic scale fingering and traditional instrument imitation techniques. Total pages: 35.
