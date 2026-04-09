@@ -1,6 +1,6 @@
 # Piano Fingering Wiki
 
-> Last updated: 2026-04-09 | Sources: 14 | Pages: 32
+> Last updated: 2026-04-09 | Sources: 15 | Pages: 33
 
 ## Sources — Computational Models
 
@@ -14,6 +14,7 @@
 - [Motor Control & Tactile (8 篇)](src_piano_motor_control.md) — 手指力量、觸覺回饋、敲擊能力、運動遷移、音樂手勢
 - [Talking Fingers — 鋼琴家指法訪談](src_talking_fingers_interview.md) — ⭐ Clarke/Parncutt 1997，7 位專家的指法哲學
 - [人體工學、小手策略與傷害預防（5 篇）](src_piano_ergonomics_small_hands.md) — 手部解剖、小手障礙、ESPK 鍵盤、53 篇生物力學系統回顧、運動介入
+- [技巧、表現力與傷害預防（3 篇）](src_technique_expressiveness_injury.md) — 技巧歷史演變、延伸技巧教學、Wristen 7 個生物力學清單
 
 ## Sources — Technology
 
