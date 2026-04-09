@@ -1,12 +1,13 @@
 	# Piano Fingering Wiki
 
-> Last updated: 2026-04-09 | Sources: 16 | Pages: 35
+> Last updated: 2026-04-10 | Sources: 21 | Pages: 39
 
 ## Sources — Computational Models
 
 - [Parncutt et al. (1997) — Ergonomic Model](src_parncutt1997_ergonomic_model.md) — ⭐ 指法計算奠基論文：12 條規則、跨度表、與 V6 DP 對應
-- [Computational Fingering Models (2 篇)](src_computational_fingering.md) — ⭐ Nakamura HMM（state-of-the-art）+ PIG Dataset；Moryosef 影片指法提取（F1=97%）
+- [Computational Fingering Models (3 篇)](src_computational_fingering.md) — ⭐ Nakamura HMM + PIG Dataset；Moryosef 影片指法提取（F1=97%）；⭐ Ramoneda 2022 ArGNN + ThumbSet（新 SOTA，超越 HMM +8%）
 - [鋼琴指法演算法第二批（4 篇）](src_fingering_algorithms_batch2.md) — Telles 指法作為分析工具、兩篇 KTH 學位論文、⭐ Liao 2025 Transformer 多模態（96%準確率）
+- [強化學習與元啟發式指法演算法（3 篇）](src_fingering_rl_metaheuristic.md) — Ramoneda DQN、⭐ Gao MBRL（Invalid Action Masking）、⭐ Balliauw VNS（多聲部、個人化距離矩陣）
 
 ## Sources — Biomechanics & Motor Control
 
@@ -14,11 +15,17 @@
 - [Motor Control & Tactile (8 篇)](src_piano_motor_control.md) — 手指力量、觸覺回饋、敲擊能力、運動遷移、音樂手勢
 - [Talking Fingers — 鋼琴家指法訪談](src_talking_fingers_interview.md) — ⭐ Clarke/Parncutt 1997，7 位專家的指法哲學
 - [人體工學、小手策略與傷害預防（6 篇）](src_piano_ergonomics_small_hands.md) — 手部解剖、小手障礙、ESPK 鍵盤、53 篇生物力學系統回顧、運動介入、Suchitphanit 個體差異
+- [鋼琴家手部跨度測量與人體工學鍵盤（3 篇）](src_hand_span_keyboards.md) — ⭐ Boyle 2015（473 人跨度數據）、Ortmann 生物力學、Yoshimura DS6.0 臨床疼痛降低
 - [技巧、表現力與傷害預防（4 篇）](src_technique_expressiveness_injury.md) — 技巧歷史演變、延伸技巧教學、Wristen 7 個生物力學清單、Hanon 技法應用
 
-## Sources — Technology
+## Sources — Voice Separation
 
-- [Detection & Tracking of Pianist Hands](src_detect_track_pianist.md) — 電腦視覺從影片偵測手指
+- [聲部分離演算法（2 篇）](src_voice_separation.md) — McLeod HMM（Huron 感知原則）、⭐ Karystinaios GNN Link Prediction（SOTA，F1=0.97）
+
+## Sources — Technology & Datasets
+
+- [手部偵測與追蹤技術（2 篇）](src_detect_track_pianist.md) — 鋼琴家手指追蹤、⭐ MediaPipe Hands（21 關鍵點、即時、開源）
+- [ASAP 數據集](src_asap_dataset.md) — ⭐ 222 樂譜 × 1068 演奏、MusicXML+MIDI+音訊、拍級對齊
 
 ## Sources — Teaching Articles & Videos
 

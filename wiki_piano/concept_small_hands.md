@@ -36,13 +36,17 @@ tags:
 
 ## 手部大小的性別與族裔差異
 
-2015 年研究（Boyle et al.，473 位成年鋼琴家）：
+⭐ Boyle, Boyle & Booker (2015)，473 位成年鋼琴家（314 女 / 159 男）的大規模測量：
+
+**全體 1-5 跨度**：範圍 6.4"-10.8"（差距 4.4" ≈ 4.5 白鍵），平均 8.2"，中位數 8.2"，**雙峰分布**（女 ~8" / 男 ~9"）。
 
 | 比較 | 差距 |
 |------|------|
-| 男性 vs 女性 1-5 跨度 | 男性平均大 **1 英寸（2.5cm）** |
-| 女性白種人 vs 女性亞洲人 | 白種人平均大 **0.4 英寸（1cm）** |
-| 國際知名鋼琴家 vs 平均男性 | 知名鋼琴家手大於平均 |
+| 男性 vs 女性 1-5 跨度 | 男性平均大 **~1 英寸（2.5cm）**，p < 0.0000 |
+| 男性最小值 7.8" ≈ 女性平均 7.9" | 幾乎所有男性 > 平均女性 |
+| 女性白種人 vs 女性亞洲人 | 白種人平均大 **~0.4 英寸（1cm）** |
+| 國際知名鋼琴家 vs 平均 | 知名鋼琴家手大於平均 |
+| **87% 女性**、24% 男性 | 1-5 跨度 < 8.5"（無法 legato 八度） |
 
 ## ESPK（人體工學縮放鋼琴鍵盤）
 
@@ -101,7 +105,8 @@ V6 DP 的跨度表（`FINGER_COMFORT_SPAN`）基於 Parncutt 1997，假設「平
 ## 相關頁面
 
 - [[concept_finger_span_table]] — ⭐ Parncutt 跨度表（V6 FINGER_COMFORT_SPAN 的基礎）
-- [[src_piano_ergonomics_small_hands]] — 5 篇人體工學/小手論文的詳細摘要
+- [[src_piano_ergonomics_small_hands]] — 6 篇人體工學/小手論文的詳細摘要
+- [[src_hand_span_keyboards]] — ⭐ Boyle 跨度測量、Ortmann 生物力學、DS 鍵盤臨床實證
 - [[concept_hand_distribution]] — 手部重分配（小手的重要應對策略）
 - [[src_parncutt1997_ergonomic_model]] — Parncutt 模型的 ×0.9 建議
 - [[concept_piano_fingering_principles]] — 五大共識原則
