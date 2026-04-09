@@ -1,6 +1,6 @@
 # Piano Fingering Wiki
 
-> Last updated: 2026-04-09 | Sources: 15 | Pages: 33
+> Last updated: 2026-04-09 | Sources: 15 | Pages: 34
 
 ## Sources — Computational Models
 
@@ -53,3 +53,4 @@
 - [指法如何表現或強化力度？](analysis_fingering_and_dynamics.md) — 六個層面：手指力量差異、強/弱指選擇、觸鍵方式、手位策略、速度交互、V6 限制
 - [拍子強弱能否加入指法考量？](analysis_metric_accent_and_fingering.md) — 結論：不建議，例外太多（切分、rubato、對位）；力度標記優先於節拍位置
 - [不同樂派/作曲家/時期的指法差異](analysis_period_style_fingering.md) — 歷史演變（Bach→Chopin→Liszt→現代）、作曲家指法即詮釋、樂派風格隱性影響、踏板差異
+- [小手學習者的技巧與曲目建議](analysis_small_hands_advice.md) — 7 種應對策略、Meinke 4 法則、各時期曲目推薦、音域適應指法

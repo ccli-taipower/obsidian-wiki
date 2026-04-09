@@ -116,3 +116,7 @@ Key: Hanon's 60 exercises in 3 parts (preparatory/transcendent/virtuoso); adopte
 ## [2026-04-09] lint | Wiki health check
 
 Result: 0 broken links, 0 orphan pages (fixed 3: src_historical_fingering_interpretation, src_technique_expressiveness_injury, analysis_metric_accent_and_fingering — added inbound links from concept_piano_fingering_principles, concept_chopin_method, analysis_fingering_and_dynamics, src_piano_ergonomics_small_hands). Total pages: 33.
+
+## [2026-04-09] query | 小手學習者的技巧與曲目建議
+
+Filed as `analysis_small_hands_advice`. Synthesized from 6 wiki pages. Seven coping strategies: alternative fingering (Roskell register adaptation), hand redistribution, rolling chords, note omission, pedal assistance, audiation (Fink), warm-up exercises (Farzana 4-week protocol). Core principle: maintain neutral wrist position (Meinke's 4 laws, Wristen's checklists). Repertoire: Baroque (Bach) and Impressionist (Debussy) most suitable; Romantic late period (Liszt, Rachmaninoff) most challenging. Specific pieces listed. ESPK keyboards as permanent solution. V6 DP: HAND_SIZE_SCALE parameter (×0.9) suggested. Total pages: 34.
