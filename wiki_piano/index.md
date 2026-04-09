@@ -1,6 +1,6 @@
 # Piano Fingering Wiki
 
-> Last updated: 2026-04-09 | Sources: 13 | Pages: 31
+> Last updated: 2026-04-09 | Sources: 14 | Pages: 32
 
 ## Sources — Computational Models
 
@@ -25,6 +25,7 @@
 - [鋼琴指法教學文章合集（8 篇）](src_piano_fingering_articles.md) — 基礎原則、和弦指法、極簡主義指法、7 條規則
 - [Graham Fitch & Tim Stein 影片系列（6 部）](src_graham_fitch_video_series.md) — 音階琶音指群法、Rubinstein 方案、手部重分配
 - [鋼琴指法教學第二批（7 篇）](src_piano_fingering_articles_batch2.md) — 手指個性、音域適應指法、換指進階
+- [鍵盤指法歷史與詮釋（4 篇）](src_historical_fingering_interpretation.md) — ⭐ 16 世紀至今的指法哲學演變、Beethoven/Chopin/Schenker 的詮釋性指法、Mozart 指法選擇
 
 ## Sources — Music Analysis & Interpretation
 
