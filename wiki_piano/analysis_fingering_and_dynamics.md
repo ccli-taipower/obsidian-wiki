@@ -108,3 +108,4 @@ V6 DP 間接反映力度考量的機制：
 - [[concept_musical_fingering]] — 指法 = 音色選擇
 - [[concept_chopin_method]] — 五指五色
 - [[concept_piano_fingering_principles]] — 弱指策略的專家-新手差異
+- [[analysis_metric_accent_and_fingering]] — 拍子強弱與指法的延伸討論

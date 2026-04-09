@@ -112,3 +112,7 @@ Key: Jia traces technique evolution from Baroque to contemporary (7 aspects of e
 
 Source: Su & Hirunrak 2024 (Journal of Modern Learning Development). Added to `src_technique_expressiveness_injury` (now 4 papers).
 Key: Hanon's 60 exercises in 3 parts (preparatory/transcendent/virtuoso); adopted by Paris, Brussels, Moscow conservatories; Rachmaninoff confirms Moscow used Hanon for first 5 years; China inherited via Soviet system. Pros: systematic, low barrier, dual-hand training. Cons: mechanical habit, no musicality/sight-reading/harmony training. Application to Chopin Ballade No.1 Op.23: finger independence for rapid passages, but cannot substitute musical understanding. Total pages: 33.
+
+## [2026-04-09] lint | Wiki health check
+
+Result: 0 broken links, 0 orphan pages (fixed 3: src_historical_fingering_interpretation, src_technique_expressiveness_injury, analysis_metric_accent_and_fingering — added inbound links from concept_piano_fingering_principles, concept_chopin_method, analysis_fingering_and_dynamics, src_piano_ergonomics_small_hands). Total pages: 33.

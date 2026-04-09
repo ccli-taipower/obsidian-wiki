@@ -222,6 +222,7 @@ tags:
 ## 相關頁面
 
 - [[src_piano_biomechanics_papers]] — 先前的生物力學論文合集
+- [[src_technique_expressiveness_injury]] — Wristen 生物力學清單、Hanon 技法
 - [[src_piano_motor_control]] — 運動控制與觸覺論文
 - [[concept_finger_span_table]] — Parncutt 跨度表
 - [[concept_small_hands]] — 小手鋼琴家概念頁
