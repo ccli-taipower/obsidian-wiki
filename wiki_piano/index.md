@@ -1,17 +1,19 @@
 # Piano Fingering Wiki
 
-> Last updated: 2026-04-09 | Sources: 11 | Pages: 28
+> Last updated: 2026-04-09 | Sources: 13 | Pages: 31
 
 ## Sources — Computational Models
 
 - [Parncutt et al. (1997) — Ergonomic Model](src_parncutt1997_ergonomic_model.md) — ⭐ 指法計算奠基論文：12 條規則、跨度表、與 V6 DP 對應
 - [Computational Fingering Models (2 篇)](src_computational_fingering.md) — ⭐ Nakamura HMM（state-of-the-art）+ PIG Dataset；Moryosef 影片指法提取（F1=97%）
+- [鋼琴指法演算法第二批（3 篇）](src_fingering_algorithms_batch2.md) — Telles 指法作為分析工具、兩篇 KTH 學位論文（樹搜尋+DP trellis）
 
 ## Sources — Biomechanics & Motor Control
 
 - [Biomechanics & Kinematics (5 篇)](src_piano_biomechanics_papers.md) — Sloboda 視譜驗證、Furuya 手指協同、Dalla Bella 速度效應、Ferrario 3D 分析、Neuhaus 技巧哲學
 - [Motor Control & Tactile (8 篇)](src_piano_motor_control.md) — 手指力量、觸覺回饋、敲擊能力、運動遷移、音樂手勢
 - [Talking Fingers — 鋼琴家指法訪談](src_talking_fingers_interview.md) — ⭐ Clarke/Parncutt 1997，7 位專家的指法哲學
+- [人體工學、小手策略與傷害預防（5 篇）](src_piano_ergonomics_small_hands.md) — 手部解剖、小手障礙、ESPK 鍵盤、53 篇生物力學系統回顧、運動介入
 
 ## Sources — Technology
 
@@ -42,6 +44,7 @@
 - [Musical Fingering](concept_musical_fingering.md) — 指法選擇如何影響音色與分句
 - [Chromatic Harmony](concept_chromatic_harmony.md) — 半音化和聲：多聲部半音移動、蕭邦內聲部、三度關係
 - [Pedal Technique](concept_pedal_technique.md) — 踏板技法：半踏板、延遲換踏板、粗弦/細弦差異
+- [Small Hands](concept_small_hands.md) — 小手鋼琴家：定義、障礙、ESPK 鍵盤、傷害統計、應對策略
 
 ## Analyses
 
