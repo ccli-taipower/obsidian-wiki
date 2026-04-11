@@ -132,8 +132,36 @@ Key: ⭐ Liao & Fan achieve 96% finger accuracy with Transformer + PAE + DCA on 
 Source: Ramoneda et al. 2022 (ACM Multimedia). Added to `src_computational_fingering` (now 3 papers).
 Key: ⭐ ThumbSet dataset (2523 pieces from MuseScore, partial/noisy annotations) + autoregressive neural networks (ArLSTM, ArGNN). ArGNNThumb-s achieves M_gen=62.77 on PIG test set, surpassing Nakamura HMM by +8.06. Key innovations: GGNN encoder with onset/next edges for polyphonic structure, beam search decoding (k=6), soft labels for noisy data (30% smoothing), data augmentation (hand/time inversion, octave transposition). M_cp=0.99 (hand position changes nearly identical to expert). Open resources: ThumbSet on Zenodo, code on GitHub. Total pages: 39.
 
+## [2026-04-11] ingest | 腕關節中立 + RH f3-f4 不對稱（raw/ 輕量 ingest）
+
+Source: `raw/` 新增 9 份原始資料（Ortmann 1929、Matthay 1903、Taubman/Golandsky、Wikipedia 解剖、CTS、PMC 臨床論文、Altenmüller）。本次僅 ingest 兩項有直接實證的發現，Taubman rotation 相關內容暫不 ingest（材料缺口）。
+Pages updated: `concept_finger_span_table`（新增「傷害風險的不對稱性」+「腕關節延伸限制」章節、hand-span r=−0.69 數據）、`concept_piano_fingering_principles`（新增「腕關節中立原則」章節，含 CTS tunnel pressure ×8/×10 倍率、20° extension 門檻、累積損傷原則）。
+Key findings:
+1. **RH f3-f4 span 為臨床 RSI 風險因子**（Sakai & Shimawaki case-control，via PMC7007903）。DP 意涵：RH 的 f3-f4 span cost 可加權（建議 ×1.2-1.5）；f3-f4 靜態同時按住也是風險（不僅 transition）。
+2. **腕關節 extension > 20° 為硬門檻**（PMC6300245）。Tunnel 壓力：中立 2-10 mmHg，屈曲 ×8，伸展 ×10。DP 意涵：未來若加 wrist-angle cost，優先做 RH f1/f5 reach cost，必須累積型（phrase-level sum）而非 per-note peak。
+3. Hand span 與手部 MSD：r = −0.69（p ≤ 0.004）。小手鋼琴家是真實臨床風險群，不只是舒適度問題。
+Not ingested（原因）：
+- Taubman 單/雙 rotation 機制 → 付費材料缺口，現在 ingest 易寫入猜測
+- Altenmüller dystonia → 描述性為主、無可操作的 fingering 規則
+- Ortmann/Matthay 歷史文本 → 保留為深度參考，暫不萃取 concept
+Next step: 需使用者決定是否實作 (A) wrist-angle cost、(C) RH f3-f4 不對稱 span。
+Total pages: 39（無新頁，僅更新既有 2 頁）。
+
 ## [2026-04-10] ingest | 10 new papers (RL/VNS fingering, hand spans, voice separation, ASAP, MediaPipe)
 
 Sources: Ramoneda 2021 (DQN RL fingering, arXiv), Gao 2023 (MBRL fingering, Applied Sciences), Balliauw 2017 (VNS polyphonic fingering, ITOR), Boyle 2013 (reduced-size keyboards biomechanics, APPCA), Boyle et al. 2015 (473 pianist hand spans, APPCA), Yoshimura & Chesky 2009 (DS keyboard pain reduction, MTNA), McLeod & Steedman 2016 (HMM voice separation), Karystinaios et al. 2023 (GNN voice separation, IJCAI), Foscarin et al. 2020 (ASAP dataset, ISMIR), Zhang et al. 2020 (MediaPipe Hands, Google).
 New pages: `src_fingering_rl_metaheuristic`, `src_hand_span_keyboards`, `src_voice_separation`, `src_asap_dataset`. Updated: `src_detect_track_pianist` (1→2 papers), `concept_small_hands` (added Boyle 2015 detailed statistics).
 Key: ⭐ Balliauw VNS is the first algorithm handling complex polyphonic fingering with user-customizable distance matrices (15 rules adapted from Parncutt). Gao MBRL introduces hand feature matrix M_f and invalid action masking. Boyle 2015 provides the largest pianist hand span dataset (473 adults, range 6.4-10.8", bimodal distribution, 87% of females < 8.5"). Yoshimura confirms DS 15/16 keyboard significantly reduces pain (p<0.01) and tension (p<0.05). Karystinaios GMTT achieves new SOTA for voice separation using heterogeneous GNN (F1=0.97 on Bach inventions, 0.87 on Haydn quartets). ASAP provides 222 scores × 1068 performances with beat-level alignment. MediaPipe Hands enables real-time 21-keypoint hand tracking on mobile (1.98M params, 16ms on Pixel 3). Total pages: 39.
+
+## [2026-04-11] ingest | Biomechanics & Anatomy — wiki_piano/raw/ full ingest (5 sources)
+
+Sources: `anatomy/wikipedia_hand_muscles.md`, `anatomy/wikipedia_pronation_supination.md`, `forearm_rotation/taubman_golandsky_rotation.md`, `pianist_injury/pmc_kinematics_and_review.md`, `pianist_injury/altenmuller_dystonia.md`. (weight_transfer/ Ortmann + Matthay retained as deep-reference, not fully ingested.)
+New pages: `src_biomechanics_anatomy`, `concept_forearm_rotation`, `concept_hand_anatomy`.
+Key findings:
+1. **指伸肌腱聯合（juncturae tendinum）** 是 f4 無法獨立抬起的機械根源；現有 `ADJACENT_COUPLING_PENALTY` 正確但應擴展至 f3-f4 同時靜態持按場景。
+2. **蚓狀肌雙神經支配**（f2/f3 = 正中神經，f4/f5 = 尺神經）是 f3-f4 跨越神經邊界、耦合感更強的神經學根源。
+3. **Taubman/Golandsky 旋轉教學法**：前臂旋轉應做手指抬起，而非手指主動伸展。若此主張正確，`FINGER_COMFORT_SPAN` 測量的是錯誤物理量。尚缺 paywalled 單/雙旋轉細節；**暫不實作旋轉成本項目**。
+4. **PMC7007903（Sakai）**：右手 f3-f4 跨度為臨床獨立傷害預測因子。建議 RH f3-f4 span cost ×1.2-1.5 不對稱加權（已記入 `concept_finger_span_table` + `concept_hand_anatomy`）。
+5. **Altenmüller 焦點失張力症**：上行音階（thumb-pass）是神經上最昂貴的動作，累積次數過多可能是長期風險因子。DP 目前無累積拇指穿越計數懲罰。
+Not ingested: Ortmann 1929 + Matthay 1903（保留為深度參考）。
+Total pages: 41（+2 新 concept 頁，+1 新 src 頁）。

@@ -1,6 +1,6 @@
 	# Piano Fingering Wiki
 
-> Last updated: 2026-04-10 | Sources: 21 | Pages: 39
+> Last updated: 2026-04-11 | Sources: 22 | Pages: 41 | Raw: 9 files (見 `raw/INDEX.md`)
 
 ## Sources — Computational Models
 
@@ -8,6 +8,10 @@
 - [Computational Fingering Models (3 篇)](src_computational_fingering.md) — ⭐ Nakamura HMM + PIG Dataset；Moryosef 影片指法提取（F1=97%）；⭐ Ramoneda 2022 ArGNN + ThumbSet（新 SOTA，超越 HMM +8%）
 - [鋼琴指法演算法第二批（4 篇）](src_fingering_algorithms_batch2.md) — Telles 指法作為分析工具、兩篇 KTH 學位論文、⭐ Liao 2025 Transformer 多模態（96%準確率）
 - [強化學習與元啟發式指法演算法（3 篇）](src_fingering_rl_metaheuristic.md) — Ramoneda DQN、⭐ Gao MBRL（Invalid Action Masking）、⭐ Balliauw VNS（多聲部、個人化距離矩陣）
+
+## Sources — Anatomy & Injury (New)
+
+- [⭐ 生物力學與解剖新批：手部肌腱、前臂旋轉、臨床傷害研究（5 份）](src_biomechanics_anatomy.md) — 指伸肌腱聯合（f3-f4 耦合解剖根源）、蚓狀肌雙神經支配、Taubman 旋轉教學法、PMC 臨床 f3-f4 RH 傷害預測、Altenmüller 焦點失張力症
 
 ## Sources — Biomechanics & Motor Control
 
@@ -39,6 +43,11 @@
 ## Sources — Music Analysis & Interpretation
 
 - [音樂家的無聊人生 Musecow（4 部影片）](src_musecow_music_analysis.md) — 蕭邦三大好聽原因、Op.9-1 和聲心理學、幻想波蘭舞曲 Op.61、德布西《月光》踏板技法
+
+## Concepts (New)
+
+- [⭐ Forearm Rotation 前臂旋轉](concept_forearm_rotation.md) — Taubman 七大支柱、單/雙旋轉、旋後肌解剖、旋前圓肌症候群、DP 對應（旋轉成本尚未實作）
+- [⭐ Hand Anatomy 手部解剖](concept_hand_anatomy.md) — 蚓狀肌雙神經支配、指伸肌腱聯合（juncturae tendinum）、f3-f4 RH 不對稱臨床實證、f3-f4 靜態同時耦合建議
 
 ## Concepts
 
