@@ -31,6 +31,12 @@ tags: [piano_fingering, musical_expression, tone_color, phrasing]
 - 有時：刻意選擇「不效率」的指法以獲得更具表現力的音色
 - 這種取捨是鋼琴演奏藝術的核心之一
 
+## 延伸：非西方風格的音色指法
+
+「以指法塑造音色」並非西方獨有的議題。在中國風鋼琴作品中，指法與觸鍵被用來模仿古箏、琵琶、笛等民族樂器的音響，與 Chopin 的「五指五色」概念互為對照。
+
+- [[src_chinese_style_piano]] — 李映海《夕陽簫鼓》等作品的中國風演奏技巧分析
+
 ## 來源
 
 - [[src_graham_fitch_video_series]]
@@ -38,3 +44,4 @@ tags: [piano_fingering, musical_expression, tone_color, phrasing]
 - [[concept_piano_fingering_principles]]
 - [[concept_hand_distribution]]
 - [[src_piano_motor_control]]
+- [[src_chinese_style_piano]]

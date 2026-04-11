@@ -165,3 +165,21 @@ Key findings:
 5. **Altenmüller 焦點失張力症**：上行音階（thumb-pass）是神經上最昂貴的動作，累積次數過多可能是長期風險因子。DP 目前無累積拇指穿越計數懲罰。
 Not ingested: Ortmann 1929 + Matthay 1903（保留為深度參考）。
 Total pages: 41（+2 新 concept 頁，+1 新 src 頁）。
+
+## [2026-04-11] update | Translate src_biomechanics_anatomy.md to bilingual Chinese
+
+把 `src_biomechanics_anatomy.md` 從純英文改寫為中文雙語格式（與其他 `src_*.md` 一致）：標題中文化、5 份來源的「關鍵發現 / 與 V6 的關聯」全部中譯、末尾加上「本批對 V6 模型的整體影響」優先級表。技術術語保留英文括註。
+
+## [2026-04-11] lint | Wiki health check
+
+掃描範圍：40 個內容頁（index、log 不計）。
+
+Mechanical checks：
+- **Orphan pages**：修復前 1 個（`src_chinese_style_piano`）→ 修復後 0 個。
+- **Broken [[links]]**：0（最初偵測到的 `concept_minimalist_fingering\|...` 為 table cell 中以 `\|` 逃逸的別名連結，實際目標存在，false positive）。
+- **Pages not in index.md**：0。
+
+Fix：
+- `concept_musical_fingering.md` 新增「延伸：非西方風格的音色指法」段落，連結到 `src_chinese_style_piano`。中國風鋼琴的指法與觸鍵被用來模仿古箏、琵琶、笛等民族樂器的音響，與 Chopin「五指五色」概念在「以指法塑造音色」主題上互為對照，放在此概念頁是最自然的歸屬。
+
+Total pages: 41, 全部 healthy。
