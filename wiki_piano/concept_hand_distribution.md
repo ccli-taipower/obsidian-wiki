@@ -1,5 +1,6 @@
 ---
 concept: 手部重分配 (Hand Distribution / Redistribution)
+date_created: 2026-04-08
 tags: [piano_fingering, hand_distribution, technique, interpretation]
 ---
 

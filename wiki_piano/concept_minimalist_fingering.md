@@ -1,5 +1,6 @@
 ---
 concept: 極簡主義指法 (Minimalist Piano Fingering)
+date_created: 2026-04-08
 tags: [piano_fingering, minimalist, technique, pedagogy, Cory_Hall]
 ---
 

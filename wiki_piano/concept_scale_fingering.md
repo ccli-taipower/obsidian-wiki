@@ -1,5 +1,6 @@
 ---
 concept: 音階指法 (Scale Fingering)
+date_created: 2026-04-08
 tags: [piano_fingering, scales, finger_groups, thumb_under, technique]
 ---
 

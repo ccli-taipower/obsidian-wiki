@@ -1,5 +1,6 @@
 ---
 concept: 換指 (Finger Substitution)
+date_created: 2026-04-08
 tags: [piano_fingering, substitution, legato, technique]
 ---
 

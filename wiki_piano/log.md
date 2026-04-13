@@ -183,3 +183,22 @@ Fix：
 - `concept_musical_fingering.md` 新增「延伸：非西方風格的音色指法」段落，連結到 `src_chinese_style_piano`。中國風鋼琴的指法與觸鍵被用來模仿古箏、琵琶、笛等民族樂器的音響，與 Chopin「五指五色」概念在「以指法塑造音色」主題上互為對照，放在此概念頁是最自然的歸屬。
 
 Total pages: 41, 全部 healthy。
+
+## [2026-04-13] query | 常見錯誤指法與生理傷害排列
+
+Web 搜尋中英文資料，整理 7 類常見錯誤指法依生理傷害嚴重度排列（腕隧道症候群→肌腱炎→尺偏損傷→前臂肌腱炎→拇指關節炎→小指塌陷→肩頸痠痛），含原因、避免方式與 wiki 交叉引用。
+
+新增頁面：`analysis_common_fingering_injuries.md`
+更新：`index.md`（頁數 41→42）
+Total pages: 42.
+
+## [2026-04-13] lint | Wiki health check — fix orphan, index count, concept dates
+
+Findings:
+- 0 broken links ✓
+- 41 content pages all in index ✓
+- 1 orphan: `analysis_common_fingering_injuries` — added inbound links from `concept_forearm_rotation`, `concept_hand_anatomy`, `src_technique_expressiveness_injury`
+- Index header Sources: 22→21（實際 src_* 檔案數）
+- 15 concept pages 補上 `date_created` 欄位（依 git 首次 commit 日期）
+
+Total pages: 42, all healthy.

@@ -1,5 +1,6 @@
 ---
 concept: "Small Hands（小手鋼琴家）"
+date_created: 2026-04-09
 tags:
   - small_hands
   - ergonomics

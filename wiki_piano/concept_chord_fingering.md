@@ -1,5 +1,6 @@
 ---
 concept: 和弦指法 (Chord Fingering)
+date_created: 2026-04-08
 tags: [piano_fingering, chords, inversions, triads]
 ---
 

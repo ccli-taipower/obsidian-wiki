@@ -1,5 +1,6 @@
 ---
 concept: 鋼琴指法原則 (Piano Fingering Principles)
+date_created: 2026-04-08
 tags: [piano_fingering, technique, pedagogy, motor_learning]
 ---
 

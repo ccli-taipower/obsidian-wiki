@@ -1,5 +1,6 @@
 ---
 concept: "Chromatic Harmony（半音化和聲）"
+date_created: 2026-04-09
 tags:
   - harmony
   - chopin

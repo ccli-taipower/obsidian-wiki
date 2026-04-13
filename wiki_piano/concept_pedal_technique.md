@@ -1,5 +1,6 @@
 ---
 concept: "Pedal Technique（踏板技法）"
+date_created: 2026-04-09
 tags:
   - pedal
   - interpretation

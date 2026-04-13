@@ -1,5 +1,6 @@
 ---
 concept: Chopin 教學法 (Chopin's Teaching Method)
+date_created: 2026-04-08
 tags: [piano_fingering, pedagogy, Chopin, natural_hand_position, black_keys]
 ---
 

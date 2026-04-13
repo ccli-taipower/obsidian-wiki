@@ -1,5 +1,6 @@
 ---
 concept: hand_anatomy
+date_created: 2026-04-11
 tags: [anatomy, biomechanics, finger-coupling, lumbricals, juncturae-tendinum, f3-f4]
 ---
 
@@ -107,3 +108,4 @@ Altenmüller 等的研究指出焦點失張力症的典型症狀：
 - [[concept_thumb_technique]] — 拇指（f1）的解剖特殊性
 - [[concept_small_hands]] — 小手鋼琴家的手部解剖差異
 - [[src_biomechanics_anatomy]] — 本頁的原始文件來源
+- [[analysis_common_fingering_injuries]] — 常見錯誤指法與生理傷害排列

@@ -203,3 +203,4 @@ Hanon 練習曲的指法是完全標準化的（C 大調基本手位），屬於
 - [[src_fingering_algorithms_batch2]] — Telles 的 martellato/延伸技巧指法
 - [[analysis_period_style_fingering]] — 不同時期的技巧差異
 - [[analysis_fingering_and_dynamics]] — 指法與力度
+- [[analysis_common_fingering_injuries]] — 常見錯誤指法與生理傷害排列

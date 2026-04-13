@@ -1,5 +1,6 @@
 ---
 concept: 音樂性指法 (Musical Fingering)
+date_created: 2026-04-08
 tags: [piano_fingering, musical_expression, tone_color, phrasing]
 ---
 

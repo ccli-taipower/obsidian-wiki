@@ -1,5 +1,6 @@
 ---
 concept: 手指跨度表 (Finger Span Table)
+date_created: 2026-04-08
 tags: [biomechanics, ergonomics, span, fingering_model, Parncutt]
 ---
 

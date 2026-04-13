@@ -1,5 +1,6 @@
 ---
 concept: 拇指技巧 (Thumb Technique)
+date_created: 2026-04-08
 tags: [piano_fingering, thumb, technique, scales]
 ---
 
