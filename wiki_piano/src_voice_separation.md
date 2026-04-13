@@ -153,6 +153,6 @@ L_reg = L1 損失 + L2 損失，強制稀疏性，穩定訓練。
 
 ## 相關頁面
 
-- [[src_computational_fingering]] — Nakamura HMM（指法）
-- [[src_fingering_rl_metaheuristic]] — 多聲部指法演算法
-- [[concept_piano_fingering_principles]] — 五大共識原則
+- [src_computational_fingering](src_computational_fingering.md) — Nakamura HMM（指法）
+- [src_fingering_rl_metaheuristic](src_fingering_rl_metaheuristic.md) — 多聲部指法演算法
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 五大共識原則

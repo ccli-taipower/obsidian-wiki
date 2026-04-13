@@ -63,5 +63,5 @@ tags: [piano_fingering, chords, inversions, triads]
 
 ## 來源
 
-- [[src_piano_fingering_articles]]
-- [[concept_piano_fingering_principles]]
+- [src_piano_fingering_articles](src_piano_fingering_articles.md)
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)

@@ -30,7 +30,7 @@ tags: [biomechanics, anatomy, injury, taubman, rotation, forearm, carpal-tunnel,
 
 ### 與 V6 的關聯
 - 現行的 `ADJACENT_COUPLING_PENALTY = 0.6`（f3↔f4）方向正確，但應擴展至**同時（靜態）持按**的場景（f3 持續按住、f4 同時動作），不只是前後轉換。
-- → 見 [[concept_hand_anatomy]]
+- → 見 [concept_hand_anatomy](concept_hand_anatomy.md)
 
 ---
 
@@ -47,7 +47,7 @@ tags: [biomechanics, anatomy, injury, taubman, rotation, forearm, carpal-tunnel,
 
 ### 與 V6 的關聯
 - 旋轉軸偏 f5 的事實，支持把「手型中心」放在 f3-f4 之間而非 f2 的設計。
-- → 見 [[concept_forearm_rotation]]
+- → 見 [concept_forearm_rotation](concept_forearm_rotation.md)
 
 ---
 
@@ -65,7 +65,7 @@ tags: [biomechanics, anatomy, injury, taubman, rotation, forearm, carpal-tunnel,
 - **尚未到位的資訊**：單次 vs 雙重旋轉的精確規則尚未釐清。在取得更多 Taubman 一手材料（Golandsky tonebase、DVD）之前，**先不要**在 DP 裡加入旋轉成本項，避免擬合錯誤。
 
 ### 與 V6 的關聯
-- → 見 [[concept_forearm_rotation]]
+- → 見 [concept_forearm_rotation](concept_forearm_rotation.md)
 
 ---
 
@@ -85,7 +85,7 @@ tags: [biomechanics, anatomy, injury, taubman, rotation, forearm, carpal-tunnel,
 - 關節同步性：專家展現**肘-腕負相關**（肘伸展時腕屈曲），是一種效率模式。
 
 ### 與 V6 的關聯
-- → 見 [[concept_finger_span_table]]、[[concept_small_hands]]
+- → 見 [concept_finger_span_table](concept_finger_span_table.md)、[concept_small_hands](concept_small_hands.md)
 - 直接支持把右手 f3-f4 的跨距罰項加權高於左手。
 
 ---
@@ -103,7 +103,7 @@ tags: [biomechanics, anatomy, injury, taubman, rotation, forearm, carpal-tunnel,
 - DP 推論：上行音階的拇指穿越成本應**略高於**下行；應計入**累計拇指穿越次數**，避免單次成本便宜而導致過度使用。
 
 ### 與 V6 的關聯
-- → 見 [[concept_forearm_rotation]]、[[concept_thumb_technique]]
+- → 見 [concept_forearm_rotation](concept_forearm_rotation.md)、[concept_thumb_technique](concept_thumb_technique.md)
 
 ---
 
@@ -128,4 +128,4 @@ tags: [biomechanics, anatomy, injury, taubman, rotation, forearm, carpal-tunnel,
 | 拇指穿越需預期性協調 | 上行拇指穿越成本 > 下行；計入累計次數 | 中 |
 | Taubman 旋轉模型 | **暫不實作**（資料不足以量化） | 待定 |
 
-→ 詳見 [[concept_hand_anatomy]]、[[concept_forearm_rotation]]、[[concept_finger_span_table]]
+→ 詳見 [concept_hand_anatomy](concept_hand_anatomy.md)、[concept_forearm_rotation](concept_forearm_rotation.md)、[concept_finger_span_table](concept_finger_span_table.md)

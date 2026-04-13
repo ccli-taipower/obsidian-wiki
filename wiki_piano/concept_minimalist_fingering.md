@@ -50,6 +50,6 @@ tags: [piano_fingering, minimalist, technique, pedagogy, Cory_Hall]
 
 ## 來源
 
-- [[src_piano_fingering_articles]]
-- [[concept_piano_fingering_principles]]
-- [[concept_thumb_technique]]
+- [src_piano_fingering_articles](src_piano_fingering_articles.md)
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)
+- [concept_thumb_technique](concept_thumb_technique.md)

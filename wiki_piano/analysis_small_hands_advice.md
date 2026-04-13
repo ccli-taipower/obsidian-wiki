@@ -18,10 +18,10 @@ tags:
 | 策略 | 說明 | 適用場景 |
 |------|------|---------|
 | **替代指法** | 使用非標準指法避免過度伸展。Roskell 的音域適應指法：低音域用 2-3-5 取代 1-3-5（避免拇指扭手）；高音域用 1-2-4 取代 1-3-5（避免小指扭手） | 和弦、琶音 |
-| **手部重分配** | 將一隻手的音符轉移給另一隻手。小手演奏者的物理限制優先於作曲家原始意圖。錄音時更可接受；現場演出視情況（[[concept_hand_distribution]]） | 寬跨度段落 |
+| **手部重分配** | 將一隻手的音符轉移給另一隻手。小手演奏者的物理限制優先於作曲家原始意圖。錄音時更可接受；現場演出視情況（[concept_hand_distribution](concept_hand_distribution.md)） | 寬跨度段落 |
 | **滾奏和弦** | 將同時和弦改為快速琶音，減少瞬間跨度需求 | 無法一次按下所有音的和弦 |
 | **省略音符** | 在不影響和聲本質的前提下省略和弦中的某些音（通常省略重複音或內聲部） | 厚重和弦織體 |
-| **踏板輔助** | 用踏板延續音符，減少手指必須同時按住的音。但注意 Roskell 警告：不要用踏板掩蓋糟糕的指法（[[concept_pedal_technique]]） | legato 連接困難時 |
+| **踏板輔助** | 用踏板延續音符，減少手指必須同時按住的音。但注意 Roskell 警告：不要用踏板掩蓋糟糕的指法（[concept_pedal_technique](concept_pedal_technique.md)） | legato 連接困難時 |
 | **聽覺想像（Audiation）** | Seymour Fink 認為音樂意圖是防止傷害的保護機制——先在腦中聽到聲音再演奏，讓身體自然找到最有效率的動作 | 所有練習 |
 | **暖身與收操** | Farzana & Mathew (2021) 證實 4 週手指運動方案顯著減少疼痛（VAS 5.15→3.75）並增強握力（10.25→12.50 kg）。伸展前臂屈伸肌、手指開合、彈力帶阻力訓練 | 每次練習前後 |
 
@@ -83,7 +83,7 @@ Chong (2021) 特別指出：女性鋼琴家可能「偏好」Bach、Mozart、Deb
 
 ## 五、音域適應指法（Register Adaptation）
 
-Roskell 指出同一和弦在不同音域需要不同指法（[[src_piano_fingering_articles_batch2]]）：
+Roskell 指出同一和弦在不同音域需要不同指法（[src_piano_fingering_articles_batch2](src_piano_fingering_articles_batch2.md)）：
 
 | 音域 | D 大調三和弦指法 | 原因 |
 |------|-------------|------|
@@ -106,11 +106,11 @@ David Steinbuhler（賓州）生產多種尺寸的人體工學縮放鋼琴鍵盤
 
 ## Sources cited
 
-- [[concept_small_hands]] — 小手鋼琴家：定義、障礙、ESPK、傷害統計、應對策略
-- [[src_piano_ergonomics_small_hands]] — Chong 2021 小手策略、Chi 2020 系統回顧、Farzana 運動介入
-- [[concept_hand_distribution]] — 手部重分配（何時該/不該重分配）
-- [[src_piano_fingering_articles_batch2]] — Roskell 音域適應指法、手指個性
-- [[src_technique_expressiveness_injury]] — Wristen 生物力學清單、Meinke 4 法則、傷害預防建議
-- [[analysis_fingering_and_dynamics]] — 指法與力度（小手在 forte 段落更受限）
-- [[concept_pedal_technique]] — 踏板輔助但不掩蓋
-- [[concept_finger_span_table]] — Parncutt 跨度表（×0.9 建議）
+- [concept_small_hands](concept_small_hands.md) — 小手鋼琴家：定義、障礙、ESPK、傷害統計、應對策略
+- [src_piano_ergonomics_small_hands](src_piano_ergonomics_small_hands.md) — Chong 2021 小手策略、Chi 2020 系統回顧、Farzana 運動介入
+- [concept_hand_distribution](concept_hand_distribution.md) — 手部重分配（何時該/不該重分配）
+- [src_piano_fingering_articles_batch2](src_piano_fingering_articles_batch2.md) — Roskell 音域適應指法、手指個性
+- [src_technique_expressiveness_injury](src_technique_expressiveness_injury.md) — Wristen 生物力學清單、Meinke 4 法則、傷害預防建議
+- [analysis_fingering_and_dynamics](analysis_fingering_and_dynamics.md) — 指法與力度（小手在 forte 段落更受限）
+- [concept_pedal_technique](concept_pedal_technique.md) — 踏板輔助但不掩蓋
+- [concept_finger_span_table](concept_finger_span_table.md) — Parncutt 跨度表（×0.9 建議）

@@ -34,5 +34,5 @@ Bach 引入了拇指在鍵盤演奏中的廣泛使用。在此之前，演奏很
 
 ## 相關頁面
 
-- [[concept_piano_fingering_principles]]
-- [[concept_thumb_technique]]
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)
+- [concept_thumb_technique](concept_thumb_technique.md)

@@ -268,11 +268,11 @@ Chapter 4 將策略應用於 Chopin Etude Op.25 No.2 和 Op.25 No.10，提供具
 
 ## 相關頁面
 
-- [[src_piano_biomechanics_papers]] — 先前的生物力學論文合集
-- [[src_technique_expressiveness_injury]] — Wristen 生物力學清單、Hanon 技法
-- [[src_piano_motor_control]] — 運動控制與觸覺論文
-- [[concept_finger_span_table]] — Parncutt 跨度表
-- [[concept_small_hands]] — 小手鋼琴家概念頁
-- [[concept_piano_fingering_principles]] — 五大共識原則
-- [[concept_hand_distribution]] — 手部重分配
-- [[analysis_fingering_and_dynamics]] — 指法與力度
+- [src_piano_biomechanics_papers](src_piano_biomechanics_papers.md) — 先前的生物力學論文合集
+- [src_technique_expressiveness_injury](src_technique_expressiveness_injury.md) — Wristen 生物力學清單、Hanon 技法
+- [src_piano_motor_control](src_piano_motor_control.md) — 運動控制與觸覺論文
+- [concept_finger_span_table](concept_finger_span_table.md) — Parncutt 跨度表
+- [concept_small_hands](concept_small_hands.md) — 小手鋼琴家概念頁
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 五大共識原則
+- [concept_hand_distribution](concept_hand_distribution.md) — 手部重分配
+- [analysis_fingering_and_dynamics](analysis_fingering_and_dynamics.md) — 指法與力度

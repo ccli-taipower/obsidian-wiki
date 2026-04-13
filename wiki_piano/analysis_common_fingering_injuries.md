@@ -16,7 +16,7 @@ tags:
 
 - **原因：** 椅子高度不對，前臂未與琴鍵平行，手腕被迫過度屈曲或背曲
 - **避免：** 調整座椅高度，保持前臂平行地板，手腕自然放鬆不塌陷也不拱起
-- 相關：[[concept_forearm_rotation]] Taubman 旋轉法強調手腕中立位
+- 相關：[concept_forearm_rotation](concept_forearm_rotation.md) Taubman 旋轉法強調手腕中立位
 
 ## 2. 手指過度捲曲 — 肌腱炎、腱鞘炎（嚴重）
 
@@ -24,7 +24,7 @@ tags:
 
 - **原因：** 誤以為手指要「立起來」而過度用力彎曲
 - **避免：** 手指自然弧形彎曲，不刻意內勾，用指腹接近指尖處觸鍵
-- 相關：[[concept_hand_anatomy]] 指伸肌腱聯合結構
+- 相關：[concept_hand_anatomy](concept_hand_anatomy.md) 指伸肌腱聯合結構
 
 ## 3. 手掌扭轉（尺偏）— 三角軟骨韌帶損傷（中高）
 
@@ -32,7 +32,7 @@ tags:
 
 - **原因：** 彈奏大跨度時手掌歪斜，小指與手腕未保持對齊
 - **避免：** 保持小指、手腕、手肘成一直線，大跨度用手臂移動而非手腕扭轉
-- 相關：[[concept_small_hands]] 小手鋼琴家更容易出現此問題
+- 相關：[concept_small_hands](concept_small_hands.md) 小手鋼琴家更容易出現此問題
 
 ## 4. 只用手指不用手臂 — 前臂肌腱炎、網球肘（中高）
 
@@ -40,7 +40,7 @@ tags:
 
 - **原因：** 沒有學會全臂彈奏法，手指孤立發力
 - **避免：** 學習運用手臂重量傳遞到指尖，放鬆肩膀和手臂
-- 相關：[[concept_forearm_rotation]] 前臂旋轉可大幅減輕手指孤立負擔
+- 相關：[concept_forearm_rotation](concept_forearm_rotation.md) 前臂旋轉可大幅減輕手指孤立負擔
 
 ## 5. 大拇指過度伸展 — 拇指根部關節炎（中等）
 
@@ -48,7 +48,7 @@ tags:
 
 - **原因：** 音階轉指時拇指硬塞，手掌不跟著移動
 - **避免：** 轉指時整隻手跟著平移，拇指輕鬆穿過不硬撐
-- 相關：[[concept_thumb_technique]] 拇指穿越技巧
+- 相關：[concept_thumb_technique](concept_thumb_technique.md) 拇指穿越技巧
 
 ## 6. 小指塌陷 — 指間關節損傷（中等）
 
@@ -56,7 +56,7 @@ tags:
 
 - **原因：** 小指力量不足又硬彈，關節支撐不住
 - **避免：** 小指用指尖彈奏，保持關節微彎不塌，循序漸進訓練力量
-- 相關：[[concept_hand_anatomy]] f3-f4 耦合與小指獨立性
+- 相關：[concept_hand_anatomy](concept_hand_anatomy.md) f3-f4 耦合與小指獨立性
 
 ## 7. 聳肩與身體緊繃 — 肩頸痠痛（慢性累積）
 
@@ -80,6 +80,6 @@ tags:
 - Heho 健康〈孩子學鋼琴小心姿勢不正確〉
 - International Musician〈Piano Playing and Preventing Carpal Tunnel Syndrome〉
 - Body in Balance〈Overcoming Piano Tendonitis〉
-- [[src_piano_ergonomics_small_hands]] Wristen 7 個生物力學清單
-- [[src_biomechanics_anatomy]] 手部肌腱與臨床傷害研究
-- [[src_technique_expressiveness_injury]] 技巧與傷害預防文獻
+- [src_piano_ergonomics_small_hands](src_piano_ergonomics_small_hands.md) Wristen 7 個生物力學清單
+- [src_biomechanics_anatomy](src_biomechanics_anatomy.md) 手部肌腱與臨床傷害研究
+- [src_technique_expressiveness_injury](src_technique_expressiveness_injury.md) 技巧與傷害預防文獻

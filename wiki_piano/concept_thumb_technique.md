@@ -29,7 +29,7 @@ tags: [piano_fingering, thumb, technique, scales]
 
 ## 來源
 
-- [[src_piano_fingering_wikipedia]]
-- [[src_piano_fingering_articles]]
-- [[concept_piano_fingering_principles]]
-- [[concept_scale_fingering]]
+- [src_piano_fingering_wikipedia](src_piano_fingering_wikipedia.md)
+- [src_piano_fingering_articles](src_piano_fingering_articles.md)
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)
+- [concept_scale_fingering](concept_scale_fingering.md)

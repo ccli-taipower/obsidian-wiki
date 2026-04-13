@@ -38,7 +38,7 @@ Pianist Magazine 的 6 部影片逐字稿，從入門到進階完整覆蓋指法
 
 ## Graham Fitch Part 1：基本原則
 
-（影片 Part 1 的自動轉錄品質極差，無法提取有效內容。核心觀點已收錄於 [[src_piano_fingering_articles]] 的 Graham Fitch 段落。）
+（影片 Part 1 的自動轉錄品質極差，無法提取有效內容。核心觀點已收錄於 [src_piano_fingering_articles](src_piano_fingering_articles.md) 的 Graham Fitch 段落。）
 
 ## Graham Fitch Part 2：音樂性指法與大師方案
 
@@ -109,7 +109,7 @@ Pianist Magazine 的 6 部影片逐字稿，從入門到進階完整覆蓋指法
 ### 非傳統音階指法
 - F 小調和聲左手：傳統 5-4-3-2-1-3-2-1 → 替代 2-1-3-2-1-**4**-3-2-1
 - 原則：長指上黑鍵、短指上白鍵，符合手型自然形狀
-- 參考 [[concept_minimalist_fingering|極簡主義指法]] 的類似觀點
+- 參考 [極簡主義指法](concept_minimalist_fingering.md) 的類似觀點
 
 ### 雙音音階 (Double Note Scales)
 - 同樣短組+長組原則（雙拇指：2-1 / 3-1）
@@ -141,10 +141,10 @@ Pianist Magazine 的 6 部影片逐字稿，從入門到進階完整覆蓋指法
 
 ## 相關頁面
 
-- [[concept_piano_fingering_principles]]
-- [[concept_thumb_technique]]
-- [[concept_hand_distribution]]
-- [[concept_musical_fingering]]
-- [[concept_minimalist_fingering]]
-- [[concept_scale_fingering]]
-- [[src_piano_fingering_articles]]
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)
+- [concept_thumb_technique](concept_thumb_technique.md)
+- [concept_hand_distribution](concept_hand_distribution.md)
+- [concept_musical_fingering](concept_musical_fingering.md)
+- [concept_minimalist_fingering](concept_minimalist_fingering.md)
+- [concept_scale_fingering](concept_scale_fingering.md)
+- [src_piano_fingering_articles](src_piano_fingering_articles.md)

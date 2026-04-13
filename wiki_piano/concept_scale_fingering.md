@@ -33,11 +33,11 @@ tags: [piano_fingering, scales, finger_groups, thumb_under, technique]
 - 傳統 C 大調指法（123-12345）不是唯一選擇
 - F 大調指法（1234-1234）更均等，可作為「預設」
 - 至少 8 種有效替代指法
-- 詳見 [[concept_minimalist_fingering]]
+- 詳見 [concept_minimalist_fingering](concept_minimalist_fingering.md)
 
 ### 人體工學觀點（Graham Fitch）
 - F 小調和聲左手替代指法：長指上黑鍵、短指上白鍵
-- 符合手的自然形狀，呼應 [[concept_chopin_method|Chopin 教學法]]
+- 符合手的自然形狀，呼應 [Chopin 教學法](concept_chopin_method.md)
 
 ## 半音階指法
 
@@ -57,11 +57,11 @@ tags: [piano_fingering, scales, finger_groups, thumb_under, technique]
 音階的核心技巧。練習法（Tim Stein）：
 - 三音反覆練習拇指轉位
 - 保持手腕放鬆，不要把拇指強推到手下方
-- 詳見 [[concept_thumb_technique]]
+- 詳見 [concept_thumb_technique](concept_thumb_technique.md)
 
 ## 來源
 
-- [[src_graham_fitch_video_series]]
-- [[src_piano_fingering_articles]]
-- [[src_piano_fingering_articles_batch2]]
-- [[concept_piano_fingering_principles]]
+- [src_graham_fitch_video_series](src_graham_fitch_video_series.md)
+- [src_piano_fingering_articles](src_piano_fingering_articles.md)
+- [src_piano_fingering_articles_batch2](src_piano_fingering_articles_batch2.md)
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)

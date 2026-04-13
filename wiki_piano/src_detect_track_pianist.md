@@ -102,6 +102,6 @@ Full 模型在質量和速度之間取得最佳平衡。
 
 ## 相關頁面
 
-- [[src_computational_fingering]] — Moryosef 影片指法提取（使用類似技術）
-- [[concept_piano_fingering_principles]]
-- [[src_piano_biomechanics_papers]] — 手指運動學
+- [src_computational_fingering](src_computational_fingering.md) — Moryosef 影片指法提取（使用類似技術）
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)
+- [src_piano_biomechanics_papers](src_piano_biomechanics_papers.md) — 手指運動學

@@ -113,7 +113,7 @@ Heinrich Neuhaus（俄派鋼琴教育大師，Richter 和 Gilels 的老師）的
 - 演奏由三要素組成：作品（音樂）、演奏者、鋼琴
 - **Chopin 的教學法**：先練多黑鍵的調（B 大調、D♭ 大調），最後才練「最難的」C 大調
   - 原因：黑鍵的地形符合手的自然形狀，C 大調的全白鍵反而不符合
-  - 這與 [[concept_minimalist_fingering|極簡主義指法]] 的理念一致
+  - 這與 [極簡主義指法](concept_minimalist_fingering.md) 的理念一致
 - F = 手施加的力 → 轉化為琴鍵的能量 → 轉化為聲音的能量
 - 鋼琴是「複雜而精密的機械」，演奏者必須讓身體適應這個機械
 
@@ -123,7 +123,7 @@ Neuhaus/Chopin 的「黑鍵優先」哲學支持重新審視 V6 中 Thumb-on-Bla
 
 ## 相關頁面
 
-- [[src_parncutt1997_ergonomic_model]]
-- [[concept_finger_span_table]]
-- [[concept_piano_fingering_principles]]
-- [[concept_thumb_technique]]
+- [src_parncutt1997_ergonomic_model](src_parncutt1997_ergonomic_model.md)
+- [concept_finger_span_table](concept_finger_span_table.md)
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)
+- [concept_thumb_technique](concept_thumb_technique.md)

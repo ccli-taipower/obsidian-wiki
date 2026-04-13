@@ -15,9 +15,9 @@ tags:
 
 ## 支持的證據
 
-1. **Peterson Tip #4**（[[src_piano_fingering_articles_batch2]]）：指法要強調分句——有時故意跳位產生斷句。強拍是分句的自然重音點。
-2. **Talking Fingers**（[[src_talking_fingers_interview]]）：詮釋是指法首要決定因素。手指音色個性（拇指=法國號渾厚、4指=小提琴柔和）可與節拍強弱匹配。
-3. **Sloboda (1998)**（[[src_piano_biomechanics_papers]]）：大師寧可移位也要在關鍵位置用強指——暗示重要節拍位置值得動用強指。
+1. **Peterson Tip #4**（[src_piano_fingering_articles_batch2](src_piano_fingering_articles_batch2.md)）：指法要強調分句——有時故意跳位產生斷句。強拍是分句的自然重音點。
+2. **Talking Fingers**（[src_talking_fingers_interview](src_talking_fingers_interview.md)）：詮釋是指法首要決定因素。手指音色個性（拇指=法國號渾厚、4指=小提琴柔和）可與節拍強弱匹配。
+3. **Sloboda (1998)**（[src_piano_biomechanics_papers](src_piano_biomechanics_papers.md)）：大師寧可移位也要在關鍵位置用強指——暗示重要節拍位置值得動用強指。
 4. **V6 已有的樂句感知**：`_detect_phrase_starts` 已用 `curr_off % BEATS_PER_MEASURE < 0.5` 辨認強拍（downbeat），作為樂句邊界判斷依據。
 
 ## 反對的理由（弊大於利）
@@ -28,7 +28,7 @@ tags:
 | **與生物力學衝突** | 強拍硬用強指 → 可能迫使中間弱拍用尷尬的手指組合，反而破壞整條旋律線的流暢性 |
 | **和弦不適用** | 和弦所有音同時發聲，無法為同一拍的不同音分配強/弱指 |
 | **已有機制部分覆蓋** | V6 的 `W_PHRASE_ANCHOR` 已在樂句開頭（通常落在強拍）給予手位偏好；樂句首音自然傾向穩定指法 |
-| **Parncutt 模型的教訓** | Parncutt 1997（[[src_parncutt1997_ergonomic_model]]）刻意不加入音樂詮釋因素（分句、力度、節拍），因為例外太多、程序性知識主導——鋼琴家自己也無法完全用規則解釋指法 |
+| **Parncutt 模型的教訓** | Parncutt 1997（[src_parncutt1997_ergonomic_model](src_parncutt1997_ergonomic_model.md)）刻意不加入音樂詮釋因素（分句、力度、節拍），因為例外太多、程序性知識主導——鋼琴家自己也無法完全用規則解釋指法 |
 | **對位風格的例外** | Bach Inventions 等對位作品中，兩個聲部各有獨立的重音邏輯，節拍強弱不一定對應旋律重心 |
 
 ## 如果要做：軟性 bonus 方案
@@ -59,8 +59,8 @@ if is_strong_beat and finger in (4, 5):
 
 ## Sources cited
 
-- [[src_talking_fingers_interview]] — 詮釋優先、手指音色個性
-- [[src_piano_biomechanics_papers]] — Sloboda 大師偏好強指、Dalla Bella 速度效應
-- [[src_piano_fingering_articles_batch2]] — Peterson Tip #4 分句與指法
-- [[src_parncutt1997_ergonomic_model]] — 模型刻意不含音樂詮釋因素
-- [[analysis_fingering_and_dynamics]] — 指法與力度的六個層面
+- [src_talking_fingers_interview](src_talking_fingers_interview.md) — 詮釋優先、手指音色個性
+- [src_piano_biomechanics_papers](src_piano_biomechanics_papers.md) — Sloboda 大師偏好強指、Dalla Bella 速度效應
+- [src_piano_fingering_articles_batch2](src_piano_fingering_articles_batch2.md) — Peterson Tip #4 分句與指法
+- [src_parncutt1997_ergonomic_model](src_parncutt1997_ergonomic_model.md) — 模型刻意不含音樂詮釋因素
+- [analysis_fingering_and_dynamics](analysis_fingering_and_dynamics.md) — 指法與力度的六個層面

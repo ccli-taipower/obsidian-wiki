@@ -22,7 +22,7 @@ tags: [piano_fingering, technique, pedagogy, motor_learning]
 
 ## 傳統 vs 極簡主義
 
-| 面向 | 傳統指法 | [[concept_minimalist_fingering\|極簡主義指法]] |
+| 面向 | 傳統指法 | [極簡主義指法](concept_minimalist_fingering\.md) |
 |------|----------|------|
 | 預設模型 | C 大調 (123-12345) | F 大調 (1234-1234) |
 | 小指使用 | 盡量使用所有 5 指 | 盡量省略小指 |
@@ -78,12 +78,12 @@ V6 目前無任何腕關節模型，這是已知缺口。短期內不打算建 f
 
 ## 來源
 
-- [[src_piano_fingering_wikipedia]]
-- [[src_piano_fingering_articles]]
-- [[concept_scale_fingering]]
-- [[concept_finger_span_table]]
-- [[src_computational_fingering]]
-- [[src_historical_fingering_interpretation]]
-- [[src_technique_expressiveness_injury]]
+- [src_piano_fingering_wikipedia](src_piano_fingering_wikipedia.md)
+- [src_piano_fingering_articles](src_piano_fingering_articles.md)
+- [concept_scale_fingering](concept_scale_fingering.md)
+- [concept_finger_span_table](concept_finger_span_table.md)
+- [src_computational_fingering](src_computational_fingering.md)
+- [src_historical_fingering_interpretation](src_historical_fingering_interpretation.md)
+- [src_technique_expressiveness_injury](src_technique_expressiveness_injury.md)
 - Raw：`raw/wrist_neutral/wikipedia_carpal_tunnel.md`（CTS tunnel pressure）
 - Raw：`raw/pianist_injury/pmc_kinematics_and_review.md`（PMC6300245 腕關節 20° 門檻）

@@ -79,7 +79,7 @@ tags:
 | 策略 | 說明 |
 |------|------|
 | **替代指法** | 使用非標準指法避免過度伸展（如 Roskell 的音域適應指法：低音域用 2-3-5 取代 1-3-5） |
-| **手部重分配** | 將一隻手的音符轉移給另一隻手（見 [[concept_hand_distribution]]） |
+| **手部重分配** | 將一隻手的音符轉移給另一隻手（見 [concept_hand_distribution](concept_hand_distribution.md)） |
 | **滾奏和弦** | 將同時和弦改為快速琶音，減少瞬間跨度需求 |
 | **省略音符** | 在不影響和聲本質的前提下省略和弦中的某些音 |
 | **踏板使用** | 用踏板延續音符，減少手指必須同時按住的音 |
@@ -105,10 +105,10 @@ V6 DP 的跨度表（`FINGER_COMFORT_SPAN`）基於 Parncutt 1997，假設「平
 
 ## 相關頁面
 
-- [[concept_finger_span_table]] — ⭐ Parncutt 跨度表（V6 FINGER_COMFORT_SPAN 的基礎）
-- [[src_piano_ergonomics_small_hands]] — 6 篇人體工學/小手論文的詳細摘要
-- [[src_hand_span_keyboards]] — ⭐ Boyle 跨度測量、Ortmann 生物力學、DS 鍵盤臨床實證
-- [[concept_hand_distribution]] — 手部重分配（小手的重要應對策略）
-- [[src_parncutt1997_ergonomic_model]] — Parncutt 模型的 ×0.9 建議
-- [[concept_piano_fingering_principles]] — 五大共識原則
-- [[analysis_fingering_and_dynamics]] — 指法與力度（小手在 forte 段落更受限）
+- [concept_finger_span_table](concept_finger_span_table.md) — ⭐ Parncutt 跨度表（V6 FINGER_COMFORT_SPAN 的基礎）
+- [src_piano_ergonomics_small_hands](src_piano_ergonomics_small_hands.md) — 6 篇人體工學/小手論文的詳細摘要
+- [src_hand_span_keyboards](src_hand_span_keyboards.md) — ⭐ Boyle 跨度測量、Ortmann 生物力學、DS 鍵盤臨床實證
+- [concept_hand_distribution](concept_hand_distribution.md) — 手部重分配（小手的重要應對策略）
+- [src_parncutt1997_ergonomic_model](src_parncutt1997_ergonomic_model.md) — Parncutt 模型的 ×0.9 建議
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 五大共識原則
+- [analysis_fingering_and_dynamics](analysis_fingering_and_dynamics.md) — 指法與力度（小手在 forte 段落更受限）

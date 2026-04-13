@@ -177,7 +177,7 @@ tags:
 
 ## 相關頁面
 
-- [[concept_small_hands]] — 小手鋼琴家概念頁
-- [[concept_finger_span_table]] — Parncutt 跨度表
-- [[src_piano_ergonomics_small_hands]] — 6 篇人體工學論文
-- [[analysis_small_hands_advice]] — 小手學習者建議
+- [concept_small_hands](concept_small_hands.md) — 小手鋼琴家概念頁
+- [concept_finger_span_table](concept_finger_span_table.md) — Parncutt 跨度表
+- [src_piano_ergonomics_small_hands](src_piano_ergonomics_small_hands.md) — 6 篇人體工學論文
+- [analysis_small_hands_advice](analysis_small_hands_advice.md) — 小手學習者建議

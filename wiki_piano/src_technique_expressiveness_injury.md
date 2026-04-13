@@ -194,13 +194,13 @@ Hanon 練習曲的指法是完全標準化的（C 大調基本手位），屬於
 
 ## 相關頁面
 
-- [[src_piano_ergonomics_small_hands]] — 小手策略與傷害預防
-- [[src_piano_biomechanics_papers]] — 生物力學論文合集
-- [[concept_small_hands]] — 小手鋼琴家
-- [[concept_piano_fingering_principles]] — 五大共識原則
-- [[concept_pedal_technique]] — 踏板藝術
-- [[concept_scale_fingering]] — 音階指法
-- [[src_fingering_algorithms_batch2]] — Telles 的 martellato/延伸技巧指法
-- [[analysis_period_style_fingering]] — 不同時期的技巧差異
-- [[analysis_fingering_and_dynamics]] — 指法與力度
-- [[analysis_common_fingering_injuries]] — 常見錯誤指法與生理傷害排列
+- [src_piano_ergonomics_small_hands](src_piano_ergonomics_small_hands.md) — 小手策略與傷害預防
+- [src_piano_biomechanics_papers](src_piano_biomechanics_papers.md) — 生物力學論文合集
+- [concept_small_hands](concept_small_hands.md) — 小手鋼琴家
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 五大共識原則
+- [concept_pedal_technique](concept_pedal_technique.md) — 踏板藝術
+- [concept_scale_fingering](concept_scale_fingering.md) — 音階指法
+- [src_fingering_algorithms_batch2](src_fingering_algorithms_batch2.md) — Telles 的 martellato/延伸技巧指法
+- [analysis_period_style_fingering](analysis_period_style_fingering.md) — 不同時期的技巧差異
+- [analysis_fingering_and_dynamics](analysis_fingering_and_dynamics.md) — 指法與力度
+- [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) — 常見錯誤指法與生理傷害排列

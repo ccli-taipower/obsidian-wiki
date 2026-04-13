@@ -77,7 +77,7 @@ tags:
   - 第三次：絕望中看到一絲希望
 - 在這些和聲變化中，左手伴奏暗藏連續下行音階內聲部，深情地從希望走向絕望
 
-**蕭邦的半音化和聲在當時極為前衛**，同時代作曲家幾乎無人能做到同樣程度。詳見 [[concept_chromatic_harmony]]。
+**蕭邦的半音化和聲在當時極為前衛**，同時代作曲家幾乎無人能做到同樣程度。詳見 [concept_chromatic_harmony](concept_chromatic_harmony.md)。
 
 ## 影片 2：蕭邦第一首夜曲 Op.9-1 和聲分析（2021-06-05）
 
@@ -267,7 +267,7 @@ Op.9 的第三首 B 大調夜曲——蕭邦做出大膽突破，在中間寫了
 |---------|-----------|
 | 內聲部線條需要特定手指連接半音階移動 | V6 純生物力學，不考慮內聲部連貫性；未來可加入 |
 | 踏板可延續音符 → 影響是否需要 finger substitution | V6 不建模踏板效果 |
-| 蕭邦大量使用分解和弦 | V6 已有分解和弦偵測（見 [[concept_chord_fingering]]） |
+| 蕭邦大量使用分解和弦 | V6 已有分解和弦偵測（見 [concept_chord_fingering](concept_chord_fingering.md)） |
 | 裝飾旋律（33 連音等）對指法有特殊需求 | V6 按一般音符處理，無裝飾音特殊邏輯 |
 | 多聲部對位需同時控制多條旋律線 | V6 按 hand 分組但不區分聲部 |
 | 蕭邦曲子升降記號多 → 大量黑鍵 | V6 的 Thumb-on-Black 懲罰 = 0（黑鍵不額外懲罰） |
@@ -275,11 +275,11 @@ Op.9 的第三首 B 大調夜曲——蕭邦做出大膽突破，在中間寫了
 
 ## Cross-references
 
-- [[concept_chromatic_harmony]] — 半音化和聲概念
-- [[concept_pedal_technique]] — 踏板技法與鋼琴演奏
-- [[concept_chopin_method]] — 蕭邦教學法（自然手位、黑鍵優先）
-- [[concept_musical_fingering]] — 指法選擇如何影響音色與分句
-- [[concept_finger_substitution]] — 換指技巧（踏板不足時的 legato 手段）
-- [[concept_chord_fingering]] — 和弦與分解和弦指法
-- [[src_talking_fingers_interview]] — 鋼琴家的指法哲學（詮釋 > 人體工學）
-- [[src_piano_biomechanics_papers]] — Neuhaus 的技巧哲學
+- [concept_chromatic_harmony](concept_chromatic_harmony.md) — 半音化和聲概念
+- [concept_pedal_technique](concept_pedal_technique.md) — 踏板技法與鋼琴演奏
+- [concept_chopin_method](concept_chopin_method.md) — 蕭邦教學法（自然手位、黑鍵優先）
+- [concept_musical_fingering](concept_musical_fingering.md) — 指法選擇如何影響音色與分句
+- [concept_finger_substitution](concept_finger_substitution.md) — 換指技巧（踏板不足時的 legato 手段）
+- [concept_chord_fingering](concept_chord_fingering.md) — 和弦與分解和弦指法
+- [src_talking_fingers_interview](src_talking_fingers_interview.md) — 鋼琴家的指法哲學（詮釋 > 人體工學）
+- [src_piano_biomechanics_papers](src_piano_biomechanics_papers.md) — Neuhaus 的技巧哲學

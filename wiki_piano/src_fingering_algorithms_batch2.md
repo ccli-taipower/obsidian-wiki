@@ -213,9 +213,9 @@ V6 使用類似的 DP 方法但有更豐富的 cost model：
 
 ## 相關頁面
 
-- [[src_parncutt1997_ergonomic_model]] — Parncutt 1997 原始模型（3 篇論文共同基礎）
-- [[src_computational_fingering]] — Nakamura HMM + Moryosef 影片提取
-- [[concept_musical_fingering]] — 指法 = 音色/詮釋選擇
-- [[concept_piano_fingering_principles]] — 五大共識原則
-- [[concept_thumb_technique]] — 拇指穿越技巧的歷史演變
-- [[analysis_period_style_fingering]] — 不同時期的指法差異
+- [src_parncutt1997_ergonomic_model](src_parncutt1997_ergonomic_model.md) — Parncutt 1997 原始模型（3 篇論文共同基礎）
+- [src_computational_fingering](src_computational_fingering.md) — Nakamura HMM + Moryosef 影片提取
+- [concept_musical_fingering](concept_musical_fingering.md) — 指法 = 音色/詮釋選擇
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 五大共識原則
+- [concept_thumb_technique](concept_thumb_technique.md) — 拇指穿越技巧的歷史演變
+- [analysis_period_style_fingering](analysis_period_style_fingering.md) — 不同時期的指法差異

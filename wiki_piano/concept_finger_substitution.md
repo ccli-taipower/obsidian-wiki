@@ -31,7 +31,7 @@ tags: [piano_fingering, substitution, legato, technique]
 手指用完了（連奏中跨距超過 5 個音），必須換指才能繼續。
 
 ### 2. 音樂表現
-不是必須，但換指產生更**優雅的手臂動作**與更有表現力的線條。指法選擇本身就是音樂詮釋的一部分（見 [[concept_musical_fingering]]）。
+不是必須，但換指產生更**優雅的手臂動作**與更有表現力的線條。指法選擇本身就是音樂詮釋的一部分（見 [concept_musical_fingering](concept_musical_fingering.md)）。
 
 ## 與 V6 DP 的對應
 
@@ -41,6 +41,6 @@ V6 演算法中的「同音換指 (Substitution Relay)」規則：
 
 ## 來源
 
-- [[src_piano_fingering_articles_batch2]]（Roskell 專述）
-- [[src_graham_fitch_video_series]]
-- [[concept_piano_fingering_principles]]
+- [src_piano_fingering_articles_batch2](src_piano_fingering_articles_batch2.md)（Roskell 專述）
+- [src_graham_fitch_video_series](src_graham_fitch_video_series.md)
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)

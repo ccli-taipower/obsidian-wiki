@@ -176,7 +176,7 @@ Total pages: 41（+2 新 concept 頁，+1 新 src 頁）。
 
 Mechanical checks：
 - **Orphan pages**：修復前 1 個（`src_chinese_style_piano`）→ 修復後 0 個。
-- **Broken [[links]]**：0（最初偵測到的 `concept_minimalist_fingering\|...` 為 table cell 中以 `\|` 逃逸的別名連結，實際目標存在，false positive）。
+- **Broken [links](links.md)**：0（最初偵測到的 `concept_minimalist_fingering\|...` 為 table cell 中以 `\|` 逃逸的別名連結，實際目標存在，false positive）。
 - **Pages not in index.md**：0。
 
 Fix：

@@ -98,7 +98,7 @@ tags: [piano_fingering, technique, pedagogy, chords, scales, modes, minimalist_f
 
 ## 相關頁面
 
-- [[concept_piano_fingering_principles]]
-- [[concept_thumb_technique]]
-- [[concept_chord_fingering]]
-- [[concept_scale_fingering]]
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)
+- [concept_thumb_technique](concept_thumb_technique.md)
+- [concept_chord_fingering](concept_chord_fingering.md)
+- [concept_scale_fingering](concept_scale_fingering.md)

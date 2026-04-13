@@ -112,7 +112,7 @@ tags:
 
 ## 與鋼琴指法的關聯
 
-踏板與指法的關係是鋼琴家之間意見分歧最大的主題之一（見 [[src_talking_fingers_interview]]）。
+踏板與指法的關係是鋼琴家之間意見分歧最大的主題之一（見 [src_talking_fingers_interview](src_talking_fingers_interview.md)）。
 
 ### 踏板減少 legato 指法需求
 
@@ -122,7 +122,7 @@ tags:
 
 ### 無踏板段落需要 finger substitution
 
-沒有踏板延音時，保持長音需要 silent key change（在按鍵不放的情況下換手指）。見 [[concept_finger_substitution]]。
+沒有踏板延音時，保持長音需要 silent key change（在按鍵不放的情況下換手指）。見 [concept_finger_substitution](concept_finger_substitution.md)。
 
 ### 踏板掩蓋 vs 踏板輔助
 
@@ -140,10 +140,10 @@ tags:
 
 ## Cross-references
 
-- [[src_musecow_music_analysis]] — 德布西《月光》四個踏板場景詳解、蕭邦 Op.9-1 踏板延續隱藏音
-- [[concept_chromatic_harmony]] — 半音化和聲需要精密的踏板控制
-- [[concept_finger_substitution]] — 無踏板時的替代 legato 技法
-- [[concept_musical_fingering]] — 指法選擇影響音色，踏板也影響音色 → 二者交互
-- [[src_talking_fingers_interview]] — 7 位專家對踏板-指法關係的分歧觀點
-- [[src_piano_motor_control]] — 踏板-指法關係在學術文獻中被討論（Goebl & Palmer: touch & tempo）
-- [[src_parncutt1997_ergonomic_model]] — Parncutt 模型不考慮踏板（純手指模型的限制）
+- [src_musecow_music_analysis](src_musecow_music_analysis.md) — 德布西《月光》四個踏板場景詳解、蕭邦 Op.9-1 踏板延續隱藏音
+- [concept_chromatic_harmony](concept_chromatic_harmony.md) — 半音化和聲需要精密的踏板控制
+- [concept_finger_substitution](concept_finger_substitution.md) — 無踏板時的替代 legato 技法
+- [concept_musical_fingering](concept_musical_fingering.md) — 指法選擇影響音色，踏板也影響音色 → 二者交互
+- [src_talking_fingers_interview](src_talking_fingers_interview.md) — 7 位專家對踏板-指法關係的分歧觀點
+- [src_piano_motor_control](src_piano_motor_control.md) — 踏板-指法關係在學術文獻中被討論（Goebl & Palmer: touch & tempo）
+- [src_parncutt1997_ergonomic_model](src_parncutt1997_ergonomic_model.md) — Parncutt 模型不考慮踏板（純手指模型的限制）

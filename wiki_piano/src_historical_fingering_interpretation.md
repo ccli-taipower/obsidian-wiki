@@ -201,13 +201,13 @@ Swinkin 歸結為兩種不同的美學意識形態：
 
 ## 相關頁面
 
-- [[analysis_period_style_fingering]] — ⭐ 不同樂派/作曲家/時期的指法差異（本來源的完美補充）
-- [[src_talking_fingers_interview]] — 7 位專家的指法哲學（與 Swinkin 的歷史分析呼應）
-- [[concept_piano_fingering_principles]] — 歷史演變（Bach→Chopin→現代）
-- [[concept_chopin_method]] — Chopin 教學法
-- [[concept_musical_fingering]] — 指法 = 音色/詮釋選擇
-- [[concept_thumb_technique]] — 拇指從禁忌到核心的歷史
-- [[concept_finger_substitution]] — Chopin 技法 2（同音換指）
-- [[concept_pedal_technique]] — 踏板與指法的關係
-- [[src_fingering_algorithms_batch2]] — Telles 的歷史指法總結
-- [[src_piano_fingering_wikipedia]] — Bach 的指法革新
+- [analysis_period_style_fingering](analysis_period_style_fingering.md) — ⭐ 不同樂派/作曲家/時期的指法差異（本來源的完美補充）
+- [src_talking_fingers_interview](src_talking_fingers_interview.md) — 7 位專家的指法哲學（與 Swinkin 的歷史分析呼應）
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 歷史演變（Bach→Chopin→現代）
+- [concept_chopin_method](concept_chopin_method.md) — Chopin 教學法
+- [concept_musical_fingering](concept_musical_fingering.md) — 指法 = 音色/詮釋選擇
+- [concept_thumb_technique](concept_thumb_technique.md) — 拇指從禁忌到核心的歷史
+- [concept_finger_substitution](concept_finger_substitution.md) — Chopin 技法 2（同音換指）
+- [concept_pedal_technique](concept_pedal_technique.md) — 踏板與指法的關係
+- [src_fingering_algorithms_batch2](src_fingering_algorithms_batch2.md) — Telles 的歷史指法總結
+- [src_piano_fingering_wikipedia](src_piano_fingering_wikipedia.md) — Bach 的指法革新

@@ -101,11 +101,11 @@ V6 DP 間接反映力度考量的機制：
 
 ## Sources cited
 
-- [[src_talking_fingers_interview]] — 手指音色個性、速度影響指法、詮釋優先
-- [[src_piano_motor_control]] — Parlitz 手指力量、Goebl 觸覺與速度、Aoki 敲擊能力
-- [[src_piano_biomechanics_papers]] — Sloboda 視譜實驗、Furuya 手指耦合、Dalla Bella 速度效應、Ferrario 3D 分析
-- [[src_piano_fingering_articles_batch2]] — Roskell 手指個性、Peterson 十大技巧
-- [[concept_musical_fingering]] — 指法 = 音色選擇
-- [[concept_chopin_method]] — 五指五色
-- [[concept_piano_fingering_principles]] — 弱指策略的專家-新手差異
-- [[analysis_metric_accent_and_fingering]] — 拍子強弱與指法的延伸討論
+- [src_talking_fingers_interview](src_talking_fingers_interview.md) — 手指音色個性、速度影響指法、詮釋優先
+- [src_piano_motor_control](src_piano_motor_control.md) — Parlitz 手指力量、Goebl 觸覺與速度、Aoki 敲擊能力
+- [src_piano_biomechanics_papers](src_piano_biomechanics_papers.md) — Sloboda 視譜實驗、Furuya 手指耦合、Dalla Bella 速度效應、Ferrario 3D 分析
+- [src_piano_fingering_articles_batch2](src_piano_fingering_articles_batch2.md) — Roskell 手指個性、Peterson 十大技巧
+- [concept_musical_fingering](concept_musical_fingering.md) — 指法 = 音色選擇
+- [concept_chopin_method](concept_chopin_method.md) — 五指五色
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 弱指策略的專家-新手差異
+- [analysis_metric_accent_and_fingering](analysis_metric_accent_and_fingering.md) — 拍子強弱與指法的延伸討論

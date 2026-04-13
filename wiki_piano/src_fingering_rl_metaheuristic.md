@@ -164,8 +164,8 @@ tags:
 
 ## 相關頁面
 
-- [[src_parncutt1997_ergonomic_model]] — Parncutt 12 條規則（Balliauw 改編為 15 條）
-- [[src_computational_fingering]] — Nakamura HMM、PIG Dataset、⭐ Ramoneda 2022 ArGNN（同一團隊的後續工作）
-- [[src_fingering_algorithms_batch2]] — Telles、KTH 論文、Liao Transformer
-- [[concept_finger_span_table]] — 跨度表（VNS 的距離矩陣對應）
-- [[concept_piano_fingering_principles]] — 五大共識原則
+- [src_parncutt1997_ergonomic_model](src_parncutt1997_ergonomic_model.md) — Parncutt 12 條規則（Balliauw 改編為 15 條）
+- [src_computational_fingering](src_computational_fingering.md) — Nakamura HMM、PIG Dataset、⭐ Ramoneda 2022 ArGNN（同一團隊的後續工作）
+- [src_fingering_algorithms_batch2](src_fingering_algorithms_batch2.md) — Telles、KTH 論文、Liao Transformer
+- [concept_finger_span_table](concept_finger_span_table.md) — 跨度表（VNS 的距離矩陣對應）
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 五大共識原則

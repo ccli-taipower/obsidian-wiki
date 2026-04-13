@@ -31,5 +31,5 @@ tags: [piano_fingering, hand_distribution, technique, interpretation]
 
 ## 來源
 
-- [[src_graham_fitch_video_series]]
-- [[concept_piano_fingering_principles]]
+- [src_graham_fitch_video_series](src_graham_fitch_video_series.md)
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md)

@@ -88,6 +88,6 @@ ASAP 的獨特優勢：**同時擁有**真實演奏 MIDI、數位樂譜、和拍
 
 ## 相關頁面
 
-- [[src_computational_fingering]] — PIG Dataset（指法數據集）
-- [[src_voice_separation]] — McLeod（ASAP 共同作者之一）
-- [[concept_piano_fingering_principles]] — 五大共識原則
+- [src_computational_fingering](src_computational_fingering.md) — PIG Dataset（指法數據集）
+- [src_voice_separation](src_voice_separation.md) — McLeod（ASAP 共同作者之一）
+- [concept_piano_fingering_principles](concept_piano_fingering_principles.md) — 五大共識原則

@@ -30,7 +30,7 @@ tags: [anatomy, biomechanics, finger-coupling, lumbricals, juncturae-tendinum, f
 - 蚓狀肌是**小型肌肉，容易疲勞**。反覆高速使用蚓狀肌（音階、跑句）是鋼琴重量學派（weight school）存在的主要原因：改用手臂重力取代蚓狀肌主動施力，可大幅延緩疲勞。
 - 3-4 蚓狀肌的雙羽狀結構（bipennate，附著於**兩根**相鄰屈肌腱）使 f4 的獨立控制本身就比 f2/f3 困難。
 
-→ 見 [[concept_forearm_rotation]]（為何不應讓手指自行抬起）
+→ 見 [concept_forearm_rotation](concept_forearm_rotation.md)（為何不應讓手指自行抬起）
 
 ---
 
@@ -75,7 +75,7 @@ RH_F3F4_ASYMMETRY_FACTOR = 1.2 ~ 1.5
 # 建議：在 span_cost 中對 RH f3-f4 pair 加權
 ```
 
-→ 見 [[concept_finger_span_table]]（已記載此建議）
+→ 見 [concept_finger_span_table](concept_finger_span_table.md)（已記載此建議）
 
 ---
 
@@ -97,15 +97,15 @@ Altenmüller 等的研究指出焦點失張力症的典型症狀：
 
 失張力症的發作實際上是大腦**失去對相鄰手指的區分能力**——這在神經學層面驗證了腱聯合在機械層面造成的 f3↔f4 耦合：兩者來自不同機制，但最終都表現為相同的問題——f4 的獨立控制能力最弱，最先崩潰。
 
-→ 見 [[concept_forearm_rotation]]（Taubman 的解法：以旋轉代替獨立抬指）
+→ 見 [concept_forearm_rotation](concept_forearm_rotation.md)（Taubman 的解法：以旋轉代替獨立抬指）
 
 ---
 
 ## 相關概念
 
-- [[concept_forearm_rotation]] — 以前臂旋轉取代獨立抬指
-- [[concept_finger_span_table]] — Parncutt 跨度表與 f3-f4 不對稱建議
-- [[concept_thumb_technique]] — 拇指（f1）的解剖特殊性
-- [[concept_small_hands]] — 小手鋼琴家的手部解剖差異
-- [[src_biomechanics_anatomy]] — 本頁的原始文件來源
-- [[analysis_common_fingering_injuries]] — 常見錯誤指法與生理傷害排列
+- [concept_forearm_rotation](concept_forearm_rotation.md) — 以前臂旋轉取代獨立抬指
+- [concept_finger_span_table](concept_finger_span_table.md) — Parncutt 跨度表與 f3-f4 不對稱建議
+- [concept_thumb_technique](concept_thumb_technique.md) — 拇指（f1）的解剖特殊性
+- [concept_small_hands](concept_small_hands.md) — 小手鋼琴家的手部解剖差異
+- [src_biomechanics_anatomy](src_biomechanics_anatomy.md) — 本頁的原始文件來源
+- [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) — 常見錯誤指法與生理傷害排列
