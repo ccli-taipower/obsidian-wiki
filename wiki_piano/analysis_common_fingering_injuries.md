@@ -75,11 +75,11 @@ tags:
 
 ## 參考來源
 
-- NiceChord〈彈鋼琴時，把自己弄受傷的 9 個方法〉
-- Jacky Lau Piano Studio〈如何避免手部受傷及正確彈奏技巧〉
-- Heho 健康〈孩子學鋼琴小心姿勢不正確〉
-- International Musician〈Piano Playing and Preventing Carpal Tunnel Syndrome〉
-- Body in Balance〈Overcoming Piano Tendonitis〉
+- [NiceChord〈彈鋼琴時，把自己弄受傷的 9 個方法〉](https://nicechord.com/post/how-to-get-hurt/)
+- [Jacky Lau Piano Studio〈如何避免手部受傷及正確彈奏技巧〉](https://www.jackylau.org/?p=22)
+- [Heho 健康〈孩子學鋼琴小心姿勢不正確〉](https://heho.com.tw/archives/296310)
+- [International Musician〈Piano Playing and Preventing Carpal Tunnel Syndrome〉](https://internationalmusician.org/piano-playing-and-preventing-carpal-tunnel-syndrome/)
+- [Body in Balance〈Overcoming Piano Tendonitis〉](https://bodyinbalance.com/1706/piano-tendonitis/)
 - [src_piano_ergonomics_small_hands](src_piano_ergonomics_small_hands.md) Wristen 7 個生物力學清單
 - [src_biomechanics_anatomy](src_biomechanics_anatomy.md) 手部肌腱與臨床傷害研究
 - [src_technique_expressiveness_injury](src_technique_expressiveness_injury.md) 技巧與傷害預防文獻
