@@ -2,7 +2,7 @@
 title: "An Ergonomic Model of Keyboard Fingering for Melodic Fragments"
 date_ingested: 2026-04-08
 source_type: academic_paper
-source_file: "raw/PaSlClRaDe97_FingeringModel.pdf"
+source_file: "raw/piano_fingering/PaSlClRaDe97_FingeringModel.pdf"
 authors: "Richard Parncutt, John A. Sloboda, Eric F. Clarke, Matti Raekallio, Peter Desain"
 journal: "Music Perception, Summer 1997, Vol.14, No.4, 341-382"
 tags: [fingering_model, ergonomics, biomechanics, computational_model, span_table, Czerny, DP_algorithm]

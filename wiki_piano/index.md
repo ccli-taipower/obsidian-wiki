@@ -1,6 +1,6 @@
 	# Piano Fingering Wiki
 
-> Last updated: 2026-04-13 | Sources: 21 | Pages: 42 | Raw: 9 files (見 `raw/INDEX.md`)
+> Last updated: 2026-04-13 | Sources: 21 | Pages: 42 | Raw: 9 files (見 `raw/piano_fingering/INDEX.md`)
 
 ## Sources — Computational Models
 
