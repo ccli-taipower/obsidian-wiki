@@ -1,6 +1,6 @@
 # Refractory Hypotension Post-Parathyroidectomy Wiki
 
-> Last updated: 2026-05-07 | Sources: 11 | Pages: 14 | Raw: 11 files in `raw/hypocalcemia/`
+> Last updated: 2026-05-07 | Sources: 11 | Pages: 15 | Raw: 11 files in `raw/hypocalcemia/`
 
 ## Sources — PTX 與血壓變化
 
@@ -27,3 +27,7 @@
 - [concept_pth_cardiovascular_effects](concept_pth_cardiovascular_effects.md) — PTH 的雙重心血管作用
 - [concept_post_ptx_hemodynamic_changes](concept_post_ptx_hemodynamic_changes.md) — PTX 後血流動力學變化的頻譜與機轉
 - [concept_baroreflex_sensitivity_ckd](concept_baroreflex_sensitivity_ckd.md) — CKD 患者 BRS 降低的原因、後果與改善策略
+
+## Analyses
+
+- [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md) — PTX 後 iPTH 過度抑制合併頑固性 IDH 的治療策略
