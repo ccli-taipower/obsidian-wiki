@@ -1,6 +1,6 @@
 # Refractory Hypotension Post-Parathyroidectomy Wiki
 
-> Last updated: 2026-05-11 | Sources: 11 | Pages: 19 | Raw: 11 files in `raw/hypocalcemia/`
+> Last updated: 2026-05-11 (revised) | Sources: 11 | Pages: 19 | Raw: 11 files in `raw/hypocalcemia/`
 
 ## Sources — PTX 與血壓變化
 
