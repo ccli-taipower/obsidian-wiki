@@ -41,3 +41,18 @@ Query: 48 歲男性 ADPKD 透析 11 年，PTX 後 iPTH 過度抑制（17.5），
 - 三個 reset 假說從機轉段獨立出來
 - 新增 RAAS 抑制 + McCarron 悖論 + 治療對策表
 - 心肌路徑改為短段 + cross-link 到新的 hypocalcemia_cardiac_effects
+
+## [2026-05-11] lint | wiki 健康檢查 — 17 頁、2 處不對稱修復
+
+掃描 17 個頁面建立連結圖。檢查結果：
+- ✅ 無 orphan page（每頁皆有 inbound link）
+- ✅ 無 broken link
+- ✅ 無內部矛盾陳述（dialysate Ca 1.75 mmol/L 用於圍術期 HBS vs 慢性 adynamic bone 場景避免——是情境分流不是矛盾）
+- ✅ 無強制需新增的概念專頁
+
+修復：2 處不對稱的 concept-concept 連結
+- `concept_pth_cardiovascular_effects` 加上 → `concept_hypocalcemia_cardiac_effects`
+- `concept_baroreflex_sensitivity_ckd` 加上 → `concept_perioperative_calcium_management`
+
+未自動修復的觀察（需內容改寫，僅報告）：
+- `analysis_refractory_idh_treatment_plan` 未引用 Shih 2013、Sofronie 2018、Pizzarelli 1993，但這 3 篇與「post-PTX IDH 治療」高度相關。分析寫作時聚焦於 iPTH 過度抑制 + BRS 框架，刻意未涉及這 3 篇的觀點（PTX 整體上減少 IDH、BP 改善 meta-analysis、長期 BP 趨勢）。未來若擴充分析可考慮納入。

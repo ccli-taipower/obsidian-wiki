@@ -55,6 +55,7 @@ tags: [baroreflex_sensitivity, CKD, ESRD, hemodialysis, autonomic_dysfunction, i
 
 - [concept_pth_cardiovascular_effects](concept_pth_cardiovascular_effects.md)
 - [concept_post_ptx_hemodynamic_changes](concept_post_ptx_hemodynamic_changes.md)
+- [concept_perioperative_calcium_management](concept_perioperative_calcium_management.md)
 - [src_chesterton2005_baroreflex_sensitivity_ckd](src_chesterton2005_baroreflex_sensitivity_ckd.md)
 - [src_chesterton2010_hemodynamic_response_hd](src_chesterton2010_hemodynamic_response_hd.md)
 - [src_petraki2008_exercise_training_brs](src_petraki2008_exercise_training_brs.md)

@@ -37,6 +37,7 @@ tags: [PTH, cardiovascular, vascular_smooth_muscle, calcium, blood_pressure, vas
 ## 相關頁面
 
 - [concept_post_ptx_hemodynamic_changes](concept_post_ptx_hemodynamic_changes.md)
+- [concept_hypocalcemia_cardiac_effects](concept_hypocalcemia_cardiac_effects.md)
 - [concept_baroreflex_sensitivity_ckd](concept_baroreflex_sensitivity_ckd.md)
 - [src_campese1989_calcium_pth_blood_pressure](src_campese1989_calcium_pth_blood_pressure.md)
 - [src_kawashima1990_pth_intracellular_calcium_vsmc](src_kawashima1990_pth_intracellular_calcium_vsmc.md)
