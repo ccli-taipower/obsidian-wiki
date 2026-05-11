@@ -56,3 +56,9 @@ Query: 48 歲男性 ADPKD 透析 11 年，PTX 後 iPTH 過度抑制（17.5），
 
 未自動修復的觀察（需內容改寫，僅報告）：
 - `analysis_refractory_idh_treatment_plan` 未引用 Shih 2013、Sofronie 2018、Pizzarelli 1993，但這 3 篇與「post-PTX IDH 治療」高度相關。分析寫作時聚焦於 iPTH 過度抑制 + BRS 框架，刻意未涉及這 3 篇的觀點（PTX 整體上減少 IDH、BP 改善 meta-analysis、長期 BP 趨勢）。未來若擴充分析可考慮納入。
+
+## [2026-05-11] query | CAD 對 PTX 後頑固性 IDH 的貢獻
+
+Query: 同一位 48 歲男性 ADPKD 透析 11 年、PTX 後 iPTH 過度抑制（17.5）、頑固性 IDH，新增資訊 RCA 完全阻塞 + LCX 於 2023/03 安裝支架——心血管疾病是否是 IDH 的原因？如何改善？
+
+產生 `analysis_cad_contribution_to_refractory_idh`，定位 CAD 為「慢性 substrate」、PTH 過度抑制為「acute trigger」的協同模型。改善策略涵蓋冠脈評估、cardiac-protective HD（UF rate < 10-13 mL/kg/h、cool dialysate、HDF）、β-blocker 優化（cardioselective 最低劑量取代 carvedilol）、乾體重保守設定、Shih 2013 補進引用。引用 8 篇 src，與既有 `analysis_refractory_idh_treatment_plan` 互補（後者血管軸，本篇心臟軸）。
