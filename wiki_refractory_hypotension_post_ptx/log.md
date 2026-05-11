@@ -62,3 +62,13 @@ Query: 48 歲男性 ADPKD 透析 11 年，PTX 後 iPTH 過度抑制（17.5），
 Query: 同一位 48 歲男性 ADPKD 透析 11 年、PTX 後 iPTH 過度抑制（17.5）、頑固性 IDH，新增資訊 RCA 完全阻塞 + LCX 於 2023/03 安裝支架——心血管疾病是否是 IDH 的原因？如何改善？
 
 產生 `analysis_cad_contribution_to_refractory_idh`，定位 CAD 為「慢性 substrate」、PTH 過度抑制為「acute trigger」的協同模型。改善策略涵蓋冠脈評估、cardiac-protective HD（UF rate < 10-13 mL/kg/h、cool dialysate、HDF）、β-blocker 優化（cardioselective 最低劑量取代 carvedilol）、乾體重保守設定、Shih 2013 補進引用。引用 8 篇 src，與既有 `analysis_refractory_idh_treatment_plan` 互補（後者血管軸，本篇心臟軸）。
+
+## [2026-05-11] query | 藥物盤點識別醫源性 IDH 加重因子
+
+Query: 同一位 48 歲 ADPKD HD 病人完整藥單——保栓通 75 + 伯基 100 + 冠脂妥 10 + 沛暢 75，有沒有可調整的醫源性 IDH 加重因子？
+
+確認沛暢 = Peysan = Dipyridamole（透過 CTH 仿單頁面）。產生 `analysis_iatrogenic_factors_in_refractory_idh`，識別 Dipyridamole 為最大可調整因子：PDE 抑制 → cAMP 累積 → 血管擴張，且 adenosine 重吸收抑制再強化擴張作用。在 PTX 後 PTH 撤除已造成血管路徑 2 失能的情境下，cAMP-elevating drug 是雪上加霜。
+
+構成三軸框架：血管軸（既有）+ 心臟軸（既有）+ 藥物軸（本篇）。本軸介入成本最低、effect 最快，建議從這軸先試（停或減 dipyridamole 1-2 週評估 IDH 改善）。
+
+註記：缺少 β-blocker 與 ACE/ARB 的觀察可能反映「已試過但因 IDH 停掉」——若如此，停 dipyridamole 比停 β-blocker 更該被優先考慮。
