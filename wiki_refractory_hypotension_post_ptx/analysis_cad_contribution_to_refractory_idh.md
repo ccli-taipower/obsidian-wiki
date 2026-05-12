@@ -9,26 +9,17 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 
 本分析為 [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md) 的補充（心臟軸），並於 2026/05/11 依病人個人醫療摘要（含心超 2026/04、核醫 2025/08、腦部 MRI/MRA 2023/12）大幅修正心臟病理框架。
 
-## 病人摘要（更新自個人醫療摘要 2026/05）
+## 病人摘要
+
+完整病人摘要見 [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)。以下僅列心臟軸特有數據：
 
 | 維度 | 內容 |
 |------|------|
-| 基本資料 | 48 歲男性，ADPKD + ESRD，HD 11 年（PD 4 年後 2019/10 轉 HD） |
 | PCI 史 | 2023/03 LCX 支架；RCA CTO 未處理 |
-| PTX | 2023/10 subtotal PTX，術前 iPTH > 1300、術前 SBP ~160 |
-| 目前 iPTH | 17.5 pg/mL（過度抑制） |
-| 目前血鈣 | 9.0 mg/dL（正常下緣） |
-| 血壓 | 透析前 100-110，透析中後段 80-90 mmHg |
 | 心超 2026/04 | **EF 73.7%（hyperdynamic）、E/A 0.62（impaired LV relaxation）、WMSI 1.19、LV mass 103.2** |
 | 核醫 2025/08 | **SSS=16（severe）、ΔTPD=16%、可逆缺血、心尖+基底前壁+側壁+下壁** |
-| 腦部 MRI/MRA 2023/12 | **顱內動脈瘤陰性、無微出血、輕微 WMH（可能 IDH 累積）** |
-| 已做 IDH 介入 | 停所有降血壓藥 ✅、乾體重 +10 kg ✅、Midodrine 洗前 + 中段 ✅、每週 HDF 1 次 ✅、4.5 小時 ✅、透析液 36°C ✅ |
-| 用藥 | 保栓通 75 + 伯基 100 + 冠脂妥 10 + 沛暢 75 + Midodrine + 佳立鈣 1,200 mg elemental Ca/日 |
-| 透析液 Ca | 3.0 mEq/L（1.5 mmol/L，中等濃度）|
-| 乾體重 | 72.5 kg（兩年內已上調 10 kg） |
-| 脫水量 | 平均 3.67 L/次（最近 3 次 3.6/3.8/3.6）|
-| **UF rate** | **11.2 mL/kg/hr（intermediate 區，< 10 為理想）**|
-| IDWG | ~5.06%（理想 < 4%，有壓縮空間）|
+| 腦部 MRI/MRA 2023/12 | 顱內動脈瘤陰性、無微出血、輕微 WMH |
+| CTR | 0.4（正常，排除心因性容量過載） |
 
 ## 簡答
 
@@ -100,8 +91,8 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 ### A. 缺鐵性貧血（MCV 69.2, MCH 21.0, RDW 19.3，Hb 12.3）
 - Hb 12.3 看似達標，但 microcytic + RDW 偏高 = 鐵儲備耗盡
 - 對 HFpEF + active ischemia 病人：氧供應 marginal → 任何脫水都更不耐受
-- **介入**：查 ferritin + TSAT，必要時補鐵——**首選把佳立鈣換成 ferric citrate（鐵爾思）**：口服同步解決鈣負擔 + 缺鐵兩個問題（詳見 [analysis_iatrogenic_factors](analysis_iatrogenic_factors_in_refractory_idh.md) #8）；若仍不足再加 IV iron
-- 預期：補鐵後 Hb 拉到 13-14、氧供應改善 → 疲倦改善 + IDH tolerance 提升
+- **介入**：首選佳立鈣換 ferric citrate（同步解決鈣負擔 + 缺鐵），詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)；若仍不足再加 IV iron
+- 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升
 
 ### B. 高血鉀（K 6.0，上升趨勢）
 - 直接加重洗腎後段抽筋
@@ -144,19 +135,12 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 3. **透析處方微調**
    - 透析液溫度 36°C → **35.5°C 試**（病人摘要也列同樣建議）
    - HDF 從每週 1 次提升到 2-3 次（如機器與處方允許）
-   - **透析液 Ca 目前 3.0 mEq/L（1.5 mmol/L）暫維持不動**——IDH 保護需要；真正的鈣負擔來自鈣型 binder，先動 binder（換 ferric citrate）見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)
-   - **UF rate 目前 11.2 mL/kg/hr（intermediate 區）**，理想 < 10。可選路徑：
-
-   | 方法 | 預期 UF rate | 可行性 |
-   |------|-------------|--------|
-   | 減 IDWG 0.5 kg/次（鹽限制，目前 IDWG 5%偏高） | 11.2 → 9.7 | 病人配合度決定 |
-   | 延長透析時間 4.5 → 5 hr | 11.2 → 10.1 | 機器與工作配合 |
-   | HDF 1 → 2-3 次/週 | 單次 UF 量分散 | 機器允許即可 |
-   | 加做 4 次/週 HD（週末加一場） | 單次 UF ~2.4 kg → rate 7.3 | 工作配合（病人正常上班）|
+   - 透析液 Ca 3.0 mEq/L 暫維持不動（先動 binder）
+   - UF rate 11.2 mL/kg/hr（intermediate），改善路徑見 [analysis_refractory_idh §5](analysis_refractory_idh_treatment_plan.md)
 
 4. **客觀乾體重重估**
    - BIA + 下腔靜脈超音波（之前未做）
-   - **弔詭觀察**：乾體重已從 62.5 → 72.5（兩年 +10 kg）IDH 仍頑固 → **volume 不是主軸問題**，volume axis 剩餘空間極小。BIA + IVC US 主要功能是 confirm 而非 lever
+   - 乾體重已 +10 kg、CTR 0.4 → volume 非主軸（詳見 [analysis_refractory_idh 問題定位段](analysis_refractory_idh_treatment_plan.md)）
 
 5. **缺鐵 + 高血鉀 + 通路備援**（前述 A-C）
 
@@ -165,26 +149,16 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 - ❌ 過度脫水（HFpEF + CAD 雙重不耐受）
 - ❌ 透析中再加 antihypertensive
 
-## 整合到三軸框架
-
-PTH 過度抑制（vascular path 2）+ HFpEF + active ischemia + BRS↓ 是**疊加而非孤立**：
-
-| 軸 | 主問題 | 主要介入 | 預期 timing |
-|----|--------|---------|------------|
-| 心臟（本篇） | HFpEF + 進展中 CAD | 心臟科再評估、RCA CTO 開通考量、重啟 BB、35.5°C | 數週至數月 |
-| 血管 / PTH（[analysis_refractory_idh](analysis_refractory_idh_treatment_plan.md)） | 路徑 2 失能 | iPTH 回升 150-300、停 PTH 抑制藥、carbonate 減量 | 數週 |
-| 藥物（[analysis_iatrogenic](analysis_iatrogenic_factors_in_refractory_idh.md)） | 可能的 dipyridamole 醫源性血管擴張 | 釐清 indication，必要時停 | 1-2 週 |
-
-**長期收斂點：腎臟移植** — 心臟改善 → 通過移植評估 → 移植後 PTH/CAD/IDH 整體病理回到 non-uremic 狀態。
-
 ## 結論（2026/05 修訂）
+
+三軸整合框架見 [analysis_refractory_idh_treatment_plan 結論段](analysis_refractory_idh_treatment_plan.md)。
 
 1. **心臟病理不是「儲備不足」，是 HFpEF（diastolic dysfunction）+ active progressive CAD（SSS=16）**
 2. 大多數 cardiac-protective HD 介入**已做**——剩 35.5°C、HDF 頻率、客觀乾體重
 3. **可能最高槓桿的單一新介入：RCA CTO 開通評估**（為心臟 + 為移植，IDH 為次要 outcome）
 4. **重啟 BB 在 HFpEF + active ischemia 框架下證據強**，但需從 cardioselective 低劑量開始
 5. 補上 K、anemia、AVG access 的非心臟修飾因子，整體 cardiac stress 才會降低
-6. **把佳立鈣（1,200 mg elemental Ca/日）換成 ferric citrate** —— 對冠脈鈣化進展、adynamic bone、缺鐵性貧血三個問題同時減壓
+6. **佳立鈣換 ferric citrate** —— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方（詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)）
 
 ## 引用來源
 

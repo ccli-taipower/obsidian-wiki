@@ -158,3 +158,15 @@ Query: 同一位 48 歲 ADPKD HD 病人完整藥單——保栓通 75 + 伯基 1
 Query: 為什麼 PTX 前乾體重可以調到那麼低？術後兩年半已調高 10 公斤仍低血壓，CTR 僅 0.4。
 
 新增臨床追蹤數據（DW+10kg、CTR 0.4），交叉比對 6 篇文獻。結論：排除心因性與單純容量不足，確認問題為 iPTH 17.5 導致的血管阻力不足（low SVR）。與 Leiba 2013 Case I 高度吻合。治療策略修正：不再上調乾體重，最高優先讓 iPTH 回升。
+
+## [2026-05-13] consolidate | 四份 analysis 整併為三份
+
+原有 4 份 analysis 存在大量重複（病人摘要 ×3、ferric citrate ×3、K/anemia ×3、三軸總結 ×3）。
+
+整併：
+- `analysis_pre_ptx_dry_weight_tolerance` **刪除**，獨特內容（CTR 0.4 排除心因性 + 術前三機轉對比 + Leiba Case I 對照表）併入 `analysis_refractory_idh_treatment_plan` 問題定位段
+- `analysis_refractory_idh_treatment_plan`（#1 血管軸）：保留為 master，新增 CTR/DW 段，K/anemia 精簡為 cross-link → #2，ferric citrate 精簡為 cross-link → #3，Ca 收支精簡為 cross-link → #3
+- `analysis_cad_contribution`（#2 心臟軸）：病人摘要精簡為心臟特有數據 + cross-link → #1，UF rate 表精簡為 cross-link → #1，三軸總結移除
+- `analysis_iatrogenic_factors`（#3 藥物軸）：ferric citrate §8 保留為 authoritative，三軸總結移除
+
+結果：19 頁（-1），三份 analysis 各有清晰焦點，重複內容統一歸屬。

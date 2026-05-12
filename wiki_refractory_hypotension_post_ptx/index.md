@@ -1,6 +1,6 @@
 # Refractory Hypotension Post-Parathyroidectomy Wiki
 
-> Last updated: 2026-05-13 | Sources: 11 | Pages: 20 | Raw: 11 files in `raw/hypocalcemia/`
+> Last updated: 2026-05-13 (consolidated) | Sources: 11 | Pages: 19 | Raw: 11 files in `raw/hypocalcemia/`
 
 ## Sources — PTX 與血壓變化
 
@@ -35,4 +35,3 @@
 - [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md) — PTX 後 iPTH 過度抑制合併頑固性 IDH 的治療策略
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md) — CAD（RCA CTO + LCX-stent）對 PTX 後頑固性 IDH 的貢獻與改善策略
 - [analysis_iatrogenic_factors_in_refractory_idh](analysis_iatrogenic_factors_in_refractory_idh.md) — 藥物盤點識別醫源性 IDH 加重因子（Dipyridamole 為最大可調整目標）
-- [analysis_pre_ptx_dry_weight_tolerance](analysis_pre_ptx_dry_weight_tolerance.md) — PTX 前後乾體重耐受差異：血管阻力 vs 容量問題（CTR 0.4, DW+10kg）

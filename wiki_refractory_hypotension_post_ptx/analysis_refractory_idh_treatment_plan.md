@@ -31,6 +31,32 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 此病人高度符合 [Leiba 2013](src_leiba2013_severe_hypotension_after_ptx.md) 描述的 PTX 後持續性低血壓模式：術前高 iPTH + 高血壓 → PTX 後血壓急劇且持久下降。關鍵特徵是 iPTH 17.5 過度抑制（建議下限 130 的 1/8），不只是數字問題，而是可能直接導致低血壓的機轉。
 
+### 為什麼 PTX 前乾體重可以那麼低？（CTR 0.4 的診斷價值）
+
+術前高 iPTH（>1300）是內建的「血管張力維持劑」，三個機轉讓術前可以耐受大量超濾：
+
+| 機轉 | 文獻依據 | 說明 |
+|------|---------|------|
+| PTH 升壓許可作用 | [Campese 1989](src_campese1989_calcium_pth_blood_pressure.md), [Kawashima 1990](src_kawashima1990_pth_intracellular_calcium_vsmc.md) | iPTH >1300 持續透過 L-type Ca channel 將鈣推入血管平滑肌 → [Ca²⁺]i 高 → 血管張力高 |
+| 增強升壓反應性 | [Campese 1989](src_campese1989_calcium_pth_blood_pressure.md) | 高 PTH 增強血管對 NE、angiotensin II 的反應 → 超濾脫水時交感代償更有效 |
+| 血管壁鈣沉積 | [Pizzarelli 1993](src_pizzarelli1993_ptx_blood_pressure_hd.md) | 長期高 PTH → 鈣沉積於血管壁 → 動脈硬化 → 基線血壓偏高 → 超濾緩衝空間大 |
+
+術後 iPTH 17.5 → 三個機制同時瓦解 → 血管張力不足 + 交感代償失效 + 血管壁鈣外流「變軟」。
+
+**CTR 0.4**（正常）進一步鎖定問題：心臟未擴大 → 排除心因性低血壓 → 排除單純容量過載（若 10 kg 全是水，CTR 應偏高）→ **確認問題為純粹的全身血管阻力不足（low SVR）**。
+
+與 [Leiba 2013](src_leiba2013_severe_hypotension_after_ptx.md) Case I 高度吻合：
+
+| 指標 | Leiba Case I | 本案 |
+|------|-------------|------|
+| 術前 iPTH | 2408 | >1300 |
+| 術後 iPTH | 6 | 17.5 |
+| 術後血壓 | 70/50（持續 10 年） | 80-90（持續 2.5 年） |
+| SVR | 586（正常下限 742） | 未測（高度懷疑偏低） |
+| 升壓措施效果 | midodrine 等均無效 | 乾體重 +10 kg 仍不足 |
+
+**結論：不再繼續上調乾體重**（CTR 正常 + 已 +10 kg），最高優先讓 iPTH 回升以恢復血管張力。iPTH 改善後應逐步下修乾體重。
+
 ## 治療策略（依優先序）
 
 ### 1. 讓 iPTH 回升（最關鍵）
@@ -41,10 +67,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **具體做法：**
 - 停用所有抑制 PTH 的藥物（活性維生素 D、擬鈣劑）
-- **減少 / 替換碳酸鈣**（佳立鈣 500 mg × 6/日 = 1,200 mg elemental Ca/日，磷已控制良好 P=4.6）：
-  - 第一選擇：**換成 ferric citrate（鐵爾思 / Auryxia）** — 同步解決 Ca load + 缺鐵性貧血兩個問題
-  - 替代：sevelamer (福斯靈)、lanthanum carbonate (福斯耐爾)
-  - 詳見 [analysis_iatrogenic_factors](analysis_iatrogenic_factors_in_refractory_idh.md) #8
+- **減少 / 替換碳酸鈣**（佳立鈣 1,200 mg elemental Ca/日，P=4.6 已控制良好）→ 換成 ferric citrate 同步解決 Ca load + 缺鐵。詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)
 - 必要時考慮低劑量 teriparatide，目標 iPTH 回升至 150-300
 
 ### 2. 透析中監測離子鈣，必要時鈣輸注
@@ -95,19 +118,9 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **弔詭觀察**：乾體重已從 62.5 → 72.5 兩年內加 10 kg、IDH 仍頑固 → **volume 不是主軸問題**。Volume axis 剩餘空間小，主軸還是 vascular tone (PTH) + cardiac (HFpEF) + 醫源性 (dipyridamole)。
 
-### 6. 補進的修飾因子（2026/05 新增）
+### 6. 修飾因子（K 6.0 + 缺鐵性貧血）
 
-**高血鉀 K 6.0（上升趨勢）：**
-- 加重透析後段抽筋（病人主訴）
-- active ischemia 患者增加心律不整風險
-- 介入：飲食 review、Lokelma 或 Patiromer、透析液 K 從 2.0 改 1.5 mEq/L
-- 與 IDH 不直接相關但**同 visit 應一併處理**
-
-**缺鐵性貧血（MCV 69.2、RDW 19.3）：**
-- Hb 12.3 看似達標但鐵儲備耗盡
-- 在 HFpEF + active ischemia 患者，氧供應 marginal → 任何脫水都更不耐受
-- 介入：查 ferritin + TSAT，必要時 IV iron（venofer/ferinject）
-- 預期：補鐵後 Hb 拉到 13-14、energy 改善、IDH 耐受性可能提升、隔日疲倦緩解
+高血鉀與缺鐵性貧血雖非 IDH 直接原因，但加重整體 cardiac stress。詳見 [analysis_cad_contribution §A-B](analysis_cad_contribution_to_refractory_idh.md)。
 
 ## 鈣的兩難（Calcium Dilemma）
 
@@ -120,18 +133,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **整合策略**（[Campese 1989](src_campese1989_calcium_pth_blood_pressure.md) + [Shinoda 1992](src_shinoda1992_hypocalcemic_heart_failure.md)）：分開處理——不靠透析液鈣解決 IDH（改用 midodrine、低溫、運動），不靠透析液鈣治療 adynamic bone（從源頭讓 iPTH 回升），**透析液鈣維持中等（目前實際 3.0 mEq/L = 1.5 mmol/L 是合理的 IDH 保護設定）**。
 
-**鈣 load 全貌（2026/05 更新）**：
-
-| 來源 | 估算 |
-|------|------|
-| 佳立鈣（鈣型 binder） | ~1,200 mg elemental Ca/日 |
-| 飲食 | ~400-800 mg/日 |
-| 透析液 1.5 mmol/L 淨流入 | ~65-170 mg/日 平均 |
-| **總計** | **~1,600-2,000 mg/日（遠超 KDIGO 1,500 mg/日上限）** |
-
-→ 雙高設定（鈣型 binder + 中高 dialysate Ca）在 adynamic bone + 血管鈣化已證實的情境下是長期淨鈣正平衡的主動推手。
-
-**Sequencing**：**先換 binder（移除 1,200 mg Ca 來源，不影響 IDH），dialysate Ca 暫維持 3.0 mEq/L 不動**。換成 ferric citrate 同步解決缺鐵性貧血，是兩難中的清晰一步。詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)。
+**鈣 load 全貌**：佳立鈣 + 飲食 + 透析液 = ~1,600-2,000 mg/日（遠超 KDIGO 1,500 mg/日上限）。**Sequencing：先換 binder（不影響 IDH），dialysate Ca 3.0 mEq/L 暫不動**。完整收支計算與替代方案見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)。
 
 ## 結論（2026/05 修訂）
 
