@@ -19,6 +19,8 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 - ALP 61（偏低，呼應 adynamic bone）
 - K 6.0（2026/04，3/19 為 5.7，**上升趨勢**）
 - MCV 69.2、MCH 21.0、RDW 19.3（小球性貧血，缺鐵）
+- 主動脈 + 冠脈鈣化（腹部 MRI 2025/12）
+- 佳立鈣 500 mg × 6/日 = 1,200 mg elemental Ca/日（鈣型 phosphate binder）
 - 已嘗試介入：停所有降血壓藥、乾體重 +10 kg、Midodrine 洗前+中段、每週 HDF 1 次、透析延長 4.5h、透析液 36°C
 
 ## 問題定位
@@ -35,7 +37,10 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **具體做法：**
 - 停用所有抑制 PTH 的藥物（活性維生素 D、擬鈣劑）
-- 減少碳酸鈣劑量（磷控制良好的話）
+- **減少 / 替換碳酸鈣**（佳立鈣 500 mg × 6/日 = 1,200 mg elemental Ca/日，磷已控制良好 P=4.6）：
+  - 第一選擇：**換成 ferric citrate（鐵爾思 / Auryxia）** — 同步解決 Ca load + 缺鐵性貧血兩個問題
+  - 替代：sevelamer (福斯靈)、lanthanum carbonate (福斯耐爾)
+  - 詳見 [analysis_iatrogenic_factors](analysis_iatrogenic_factors_in_refractory_idh.md) #8
 - 必要時考慮低劑量 teriparatide，目標 iPTH 回升至 150-300
 
 ### 2. 透析中監測離子鈣，必要時鈣輸注
@@ -96,6 +101,8 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 | Adynamic bone | 減少鈣負擔 → 避免鈣沉積在血管 | 低離子鈣 → 加重 IDH |
 
 **整合策略**（[Campese 1989](src_campese1989_calcium_pth_blood_pressure.md) + [Shinoda 1992](src_shinoda1992_hypocalcemic_heart_failure.md)）：分開處理——不靠透析液鈣解決 IDH（改用 midodrine、低溫、運動），不靠透析液鈣治療 adynamic bone（從源頭讓 iPTH 回升），透析液鈣暫維持中等（2.5 mEq/L）。
+
+**鈣 load 的補充觀察（2026/05 更新）**：病人實際每日從佳立鈣攝取 1,200 mg elemental Ca，這是 adynamic bone + 血管鈣化加重的隱形推手。換成非鈣型 binder（首選 **ferric citrate**，同時解決缺鐵）是兩難中的清晰一步——既減少 Ca load，又不需要犧牲磷控制。
 
 ## 結論（2026/05 修訂）
 

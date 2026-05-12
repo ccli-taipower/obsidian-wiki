@@ -92,3 +92,21 @@ Query: 同一位 48 歲 ADPKD HD 病人完整藥單——保栓通 75 + 伯基 1
 - `analysis_refractory_idh_treatment_plan.md`：標註已完成介入 ✅；新增 K 與 anemia 修飾因子段；加結尾三軸整合段；補相關頁面連結。
 
 無 analysis 被刪除——三軸（血管/PTH、心臟/CAD、藥物/iatrogenic）各自獨立未重疊。
+
+## [2026-05-12] update | 補上佳立鈣劑量資訊 + ferric citrate switch 建議
+
+病人補充：**佳立鈣錠 500 mg × 6/日 = 1,200 mg elemental Ca/日**（鈣型 phosphate binder）。
+
+關鍵分析：
+- KDIGO 上限警戒（< 1,500 mg/日）：1,200 mg 在上限
+- 磷已控制良好（P=4.6）→ 不需這麼強的 binder
+- adynamic bone 強烈懷疑（iPTH 17.5 + ALP 61）→ 多餘鈣跑去血管 / 軟組織
+- 腹部 MRI 證實主動脈 + 冠脈鈣化 → 直接加重
+- 合併缺鐵性貧血（MCV 69.2、RDW 19.3）
+
+→ **理想對策：換成 ferric citrate（鐵爾思 / Auryxia）**——一石二鳥：減少 Ca load + 提供腸吸收鐵改善貧血。
+
+三份 analysis 補入：
+- `analysis_iatrogenic_factors`：藥物表加入佳立鈣 + Midodrine（之前漏列）；新增 §8 鈣 binder 換 ferric citrate 完整論述（含三個替代選項比較）；結論段升級為「第一級 dipyridamole + 第二級 ferric citrate switch」雙層
+- `analysis_refractory_idh_treatment_plan`：病人摘要段加入 1,200 mg Ca/日 + 主動脈/冠脈鈣化；治療策略 §1 「減少碳酸鈣劑量」具體化為「換 ferric citrate」；鈣的兩難段補上 ferric citrate 是清晰一步
+- `analysis_cad_contribution`：anemia 段把 IV iron 改為「首選 ferric citrate switch」；結論加入第 6 點 ferric citrate 三合一解方

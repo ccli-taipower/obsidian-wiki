@@ -94,7 +94,7 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 ### A. 缺鐵性貧血（MCV 69.2, MCH 21.0, RDW 19.3，Hb 12.3）
 - Hb 12.3 看似達標，但 microcytic + RDW 偏高 = 鐵儲備耗盡
 - 對 HFpEF + active ischemia 病人：氧供應 marginal → 任何脫水都更不耐受
-- **介入**：查 ferritin + TSAT，必要時 IV iron（venofer / ferinject）
+- **介入**：查 ferritin + TSAT，必要時補鐵——**首選把佳立鈣換成 ferric citrate（鐵爾思）**：口服同步解決鈣負擔 + 缺鐵兩個問題（詳見 [analysis_iatrogenic_factors](analysis_iatrogenic_factors_in_refractory_idh.md) #8）；若仍不足再加 IV iron
 - 預期：補鐵後 Hb 拉到 13-14、氧供應改善 → 疲倦改善 + IDH tolerance 提升
 
 ### B. 高血鉀（K 6.0，上升趨勢）
@@ -169,6 +169,7 @@ PTH 過度抑制（vascular path 2）+ HFpEF + active ischemia + BRS↓ 是**疊
 3. **可能最高槓桿的單一新介入：RCA CTO 開通評估**（為心臟 + 為移植，IDH 為次要 outcome）
 4. **重啟 BB 在 HFpEF + active ischemia 框架下證據強**，但需從 cardioselective 低劑量開始
 5. 補上 K、anemia、AVG access 的非心臟修飾因子，整體 cardiac stress 才會降低
+6. **把佳立鈣（1,200 mg elemental Ca/日）換成 ferric citrate** —— 對冠脈鈣化進展、adynamic bone、缺鐵性貧血三個問題同時減壓
 
 ## 引用來源
 
