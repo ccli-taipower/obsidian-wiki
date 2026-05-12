@@ -110,3 +110,23 @@ Query: 同一位 48 歲 ADPKD HD 病人完整藥單——保栓通 75 + 伯基 1
 - `analysis_iatrogenic_factors`：藥物表加入佳立鈣 + Midodrine（之前漏列）；新增 §8 鈣 binder 換 ferric citrate 完整論述（含三個替代選項比較）；結論段升級為「第一級 dipyridamole + 第二級 ferric citrate switch」雙層
 - `analysis_refractory_idh_treatment_plan`：病人摘要段加入 1,200 mg Ca/日 + 主動脈/冠脈鈣化；治療策略 §1 「減少碳酸鈣劑量」具體化為「換 ferric citrate」；鈣的兩難段補上 ferric citrate 是清晰一步
 - `analysis_cad_contribution`：anemia 段把 IV iron 改為「首選 ferric citrate switch」；結論加入第 6 點 ferric citrate 三合一解方
+
+## [2026-05-12] update | 補上透析液 Ca 3.0 mEq/L + Ca 收支總帳 + sequencing 邏輯
+
+病人補充：**透析液 Ca = 3.0 mEq/L（= 1.5 mmol/L，中等濃度，IDH 保護偏好設定）**。
+
+每日 Ca 收支算出：
+- 佳立鈣 binder：~1,200 mg elemental Ca/日
+- 飲食：~400-800 mg/日
+- 透析液淨流入（1.5 mmol/L vs ionized Ca ~1.1）：~65-170 mg/日 平均
+- **總計 ~1,600-2,000 mg/日，遠超 KDIGO 1,500 mg/日上限**
+
+關鍵 sequencing 邏輯：透析液 3.0 mEq/L 本身**不是錯**——IDH 保護偏好需要。問題是**疊加鈣型 binder 後總量過高**。正確順序：
+1. 先換 binder（佳立鈣 → ferric citrate）：移除 1,200 mg/日 Ca 來源，**不影響 IDH**
+2. Dialysate Ca 3.0 mEq/L 暫維持不動
+3. 換 binder 後重新評估（追蹤 Ca、P、Hb 後再決定 dialysate 是否需要微調）
+
+三份 analysis 補入：
+- `analysis_iatrogenic_factors §8`：補上 Ca 收支表 + sequencing 表（先動 binder 不動 dialysate）
+- `analysis_refractory_idh_treatment_plan`：病人摘要補透析液 3.0 mEq/L；鈣兩難段加 Ca 收支總帳表 + sequencing 結論
+- `analysis_cad_contribution`：病人摘要補用藥 + 透析液 Ca；剩餘可動段把「透析液 Ca 2.5」改為「目前 3.0 暫維持，先動 binder」

@@ -23,6 +23,8 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 | 核醫 2025/08 | **SSS=16（severe）、ΔTPD=16%、可逆缺血、心尖+基底前壁+側壁+下壁** |
 | 腦部 MRI/MRA 2023/12 | **顱內動脈瘤陰性、無微出血、輕微 WMH（可能 IDH 累積）** |
 | 已做 IDH 介入 | 停所有降血壓藥 ✅、乾體重 +10 kg ✅、Midodrine 洗前 + 中段 ✅、每週 HDF 1 次 ✅、4.5 小時 ✅、透析液 36°C ✅ |
+| 用藥 | 保栓通 75 + 伯基 100 + 冠脂妥 10 + 沛暢 75 + Midodrine + 佳立鈣 1,200 mg elemental Ca/日 |
+| 透析液 Ca | 3.0 mEq/L（1.5 mmol/L，中等濃度）|
 
 ## 簡答
 
@@ -138,7 +140,7 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 3. **透析處方微調**
    - 透析液溫度 36°C → **35.5°C 試**（病人摘要也列同樣建議）
    - HDF 從每週 1 次提升到 2-3 次（如機器與處方允許）
-   - 透析液 Ca 維持 2.5 mEq/L（鈣兩難下中等）
+   - **透析液 Ca 目前 3.0 mEq/L（1.5 mmol/L）暫維持不動**——IDH 保護需要；真正的鈣負擔來自鈣型 binder，先動 binder（換 ferric citrate）見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)
 
 4. **客觀乾體重重估**
    - BIA + 下腔靜脈超音波（之前未做）
