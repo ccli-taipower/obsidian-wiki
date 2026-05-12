@@ -28,6 +28,7 @@ Query: 48 歲男性 ADPKD 透析 11 年，PTX 後 iPTH 過度抑制（17.5），
 
 產生 analysis_refractory_idh_treatment_plan，交叉比對 8 篇文獻，提出 5 項治療策略及鈣的兩難整合方案。同步輸出 PDF 至 /Users/ccli/Documents/病歷/wiki_treatment_analysis.pdf。
 
+<<<<<<< HEAD
 ## [2026-05-11] update | 新增 2 個 concept + 重構 hemodynamic_changes
 
 從「低血鈣症」角度補強現有 wiki（曾短暫嘗試獨立 wiki_hypocalcemia/，發現與本 wiki 機轉內容重疊嚴重，改為合併）。
@@ -151,3 +152,9 @@ Query: 同一位 48 歲 ADPKD HD 病人完整藥單——保栓通 75 + 伯基 1
 兩份 analysis 補入：
 - `analysis_cad_contribution`：病人摘要補乾體重/脫水/UF rate/IDWG；透析處方段加 UF rate 改善表 + 弔詭觀察（volume 不是主軸）
 - `analysis_refractory_idh_treatment_plan`：病人摘要補同上；§5 透析處方微調段補 UF rate 表 + 弔詭觀察
+
+## [2026-05-13] query | PTX 前後乾體重耐受差異分析
+
+Query: 為什麼 PTX 前乾體重可以調到那麼低？術後兩年半已調高 10 公斤仍低血壓，CTR 僅 0.4。
+
+新增臨床追蹤數據（DW+10kg、CTR 0.4），交叉比對 6 篇文獻。結論：排除心因性與單純容量不足，確認問題為 iPTH 17.5 導致的血管阻力不足（low SVR）。與 Leiba 2013 Case I 高度吻合。治療策略修正：不再上調乾體重，最高優先讓 iPTH 回升。
