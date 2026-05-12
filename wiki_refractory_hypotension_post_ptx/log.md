@@ -130,3 +130,24 @@ Query: 同一位 48 歲 ADPKD HD 病人完整藥單——保栓通 75 + 伯基 1
 - `analysis_iatrogenic_factors §8`：補上 Ca 收支表 + sequencing 表（先動 binder 不動 dialysate）
 - `analysis_refractory_idh_treatment_plan`：病人摘要補透析液 3.0 mEq/L；鈣兩難段加 Ca 收支總帳表 + sequencing 結論
 - `analysis_cad_contribution`：病人摘要補用藥 + 透析液 Ca；剩餘可動段把「透析液 Ca 2.5」改為「目前 3.0 暫維持，先動 binder」
+
+## [2026-05-12] update | 補上乾體重 + UF rate + IDWG 數據與 volume axis 結論
+
+病人補充：
+- 乾體重 72.5 kg（兩年內已上調 10 kg）
+- 最近 3 次脫水量 3.6 / 3.8 / 3.6 kg
+
+算出：
+- 平均 UF 量 3.67 L/次
+- **UF rate = 11.2 mL/kg/hr（intermediate 區，理想 < 10）**
+- IDWG = 3.67 / 72.5 = **5.06%（理想 < 4%）**
+
+關鍵結論：volume axis 剩餘空間極小
+- 乾體重已從 62.5 → 72.5 兩年加 10 kg、IDH 仍頑固 → volume 不是主軸
+- UF rate 11.2 雖在 intermediate 邊緣偏高，但接近理想 < 10
+- 可動的選項：減 IDWG（5% → 4%）、延長 HD 時間 +30 min、HDF 提頻、加 4 次/週 HD
+- 主軸還是 vascular tone (PTH) + cardiac (HFpEF/CAD) + 醫源性 (dipyridamole)
+
+兩份 analysis 補入：
+- `analysis_cad_contribution`：病人摘要補乾體重/脫水/UF rate/IDWG；透析處方段加 UF rate 改善表 + 弔詭觀察（volume 不是主軸）
+- `analysis_refractory_idh_treatment_plan`：病人摘要補同上；§5 透析處方微調段補 UF rate 表 + 弔詭觀察

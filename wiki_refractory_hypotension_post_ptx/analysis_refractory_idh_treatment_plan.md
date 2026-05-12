@@ -22,6 +22,9 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 - 主動脈 + 冠脈鈣化（腹部 MRI 2025/12）
 - 佳立鈣 500 mg × 6/日 = 1,200 mg elemental Ca/日（鈣型 phosphate binder）
 - 透析液 Ca 3.0 mEq/L（1.5 mmol/L，中等濃度，IDH 保護偏好）
+- 乾體重 72.5 kg（兩年內已上調 10 kg）
+- 平均脫水 3.67 L/次 → **UF rate 11.2 mL/kg/hr**（intermediate 區）
+- IDWG ~5.06%（理想 < 4%）
 - 已嘗試介入：停所有降血壓藥、乾體重 +10 kg、Midodrine 洗前+中段、每週 HDF 1 次、透析延長 4.5h、透析液 36°C
 
 ## 問題定位
@@ -74,9 +77,23 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 - [Chesterton 2005](src_chesterton2005_baroreflex_sensitivity_ckd.md)：低溫透析、無醋酸鹽透析可能改善 BRS
 
 **具體做法（2026/05 進度更新）：**
-- ✅ 透析液溫度從 36°C 試 35.5°C：**目前 36°C，還沒降到 35.5**
+- ⏳ 透析液溫度從 36°C 試 35.5°C：**目前 36°C，還沒降到 35.5**
 - ✅ Midodrine 改為固定中段預防性加量：**已做**（洗前 5 mg + 中段加 5 mg）
 - ⏳ 考慮增加 HDF 頻率或夜間長時間透析：**目前每週 1 次 HDF + 4.5 小時透析，可考慮 HDF 提到 2-3 次**
+
+**UF rate 補充（2026/05 新增）：**
+
+實際 UF rate = 3.67 L/次 ÷ 4.5 hr ÷ 72.5 kg = **11.2 mL/kg/hr**（intermediate 區，理想 < 10）。
+
+可改善路徑（依可行性）：
+| 方法 | 預期 UF rate | 備註 |
+|------|-------------|------|
+| 減 IDWG 0.5 kg（鹽限制）| 11.2 → 9.7 | 目前 IDWG 5% 偏高 |
+| 延長透析時間 +30 min | 11.2 → 10.1 | |
+| HDF 提升頻率 | 單次量分散 | |
+| 加 1 次 HD/週 | 11.2 → 7.3 | 工作配合 |
+
+**弔詭觀察**：乾體重已從 62.5 → 72.5 兩年內加 10 kg、IDH 仍頑固 → **volume 不是主軸問題**。Volume axis 剩餘空間小，主軸還是 vascular tone (PTH) + cardiac (HFpEF) + 醫源性 (dipyridamole)。
 
 ### 6. 補進的修飾因子（2026/05 新增）
 

@@ -25,6 +25,10 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 | 已做 IDH 介入 | 停所有降血壓藥 ✅、乾體重 +10 kg ✅、Midodrine 洗前 + 中段 ✅、每週 HDF 1 次 ✅、4.5 小時 ✅、透析液 36°C ✅ |
 | 用藥 | 保栓通 75 + 伯基 100 + 冠脂妥 10 + 沛暢 75 + Midodrine + 佳立鈣 1,200 mg elemental Ca/日 |
 | 透析液 Ca | 3.0 mEq/L（1.5 mmol/L，中等濃度）|
+| 乾體重 | 72.5 kg（兩年內已上調 10 kg） |
+| 脫水量 | 平均 3.67 L/次（最近 3 次 3.6/3.8/3.6）|
+| **UF rate** | **11.2 mL/kg/hr（intermediate 區，< 10 為理想）**|
+| IDWG | ~5.06%（理想 < 4%，有壓縮空間）|
 
 ## 簡答
 
@@ -141,9 +145,18 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
    - 透析液溫度 36°C → **35.5°C 試**（病人摘要也列同樣建議）
    - HDF 從每週 1 次提升到 2-3 次（如機器與處方允許）
    - **透析液 Ca 目前 3.0 mEq/L（1.5 mmol/L）暫維持不動**——IDH 保護需要；真正的鈣負擔來自鈣型 binder，先動 binder（換 ferric citrate）見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)
+   - **UF rate 目前 11.2 mL/kg/hr（intermediate 區）**，理想 < 10。可選路徑：
+
+   | 方法 | 預期 UF rate | 可行性 |
+   |------|-------------|--------|
+   | 減 IDWG 0.5 kg/次（鹽限制，目前 IDWG 5%偏高） | 11.2 → 9.7 | 病人配合度決定 |
+   | 延長透析時間 4.5 → 5 hr | 11.2 → 10.1 | 機器與工作配合 |
+   | HDF 1 → 2-3 次/週 | 單次 UF 量分散 | 機器允許即可 |
+   | 加做 4 次/週 HD（週末加一場） | 單次 UF ~2.4 kg → rate 7.3 | 工作配合（病人正常上班）|
 
 4. **客觀乾體重重估**
    - BIA + 下腔靜脈超音波（之前未做）
+   - **弔詭觀察**：乾體重已從 62.5 → 72.5（兩年 +10 kg）IDH 仍頑固 → **volume 不是主軸問題**，volume axis 剩餘空間極小。BIA + IVC US 主要功能是 confirm 而非 lever
 
 5. **缺鐵 + 高血鉀 + 通路備援**（前述 A-C）
 
