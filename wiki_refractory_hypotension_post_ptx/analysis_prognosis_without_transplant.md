@@ -40,6 +40,7 @@ tags: [prognosis, survival, CAD, SSS, dialysis_mortality, ADPKD, modifiable_risk
 |------|------|
 | **年齡 48（相對年輕）** | 比 65+ 透析患者有更大生理儲備 |
 | **ADPKD 病因** | ADPKD 透析患者存活率優於糖尿病腎病變（較好營養、較少全身性微血管病變） |
+| **ADPKD 保留 EPO 分泌** | 透析 11 年不用 EPO、不輸血、Hb 自維持 12.3 → 囊腫壁細胞仍能分泌 EPO（ADPKD 特殊優勢）；不再輸血 = PRA 不會繼續升高 |
 | **Albumin 4.2** | 營養狀態好是透析患者存活的強力保護因子 |
 | **EF 73.7%** | 收縮功能保留（雖有 HFpEF 但收縮儲備仍在） |
 | **CTR 0.4** | 心臟結構尚未不可逆損傷 |
@@ -95,7 +96,9 @@ tags: [prognosis, survival, CAD, SSS, dialysis_mortality, ADPKD, modifiable_risk
 
 **Class I PRA 44% = 每 100 個潛在捐贈者中，約 44 個因 HLA Class I 抗體不合而配對失敗**。等待時間顯著延長。
 
-致敏原因：最可能是透析 11 年間反覆輸血（ADPKD 本身不增加致敏風險）。
+致敏原因：透析 11 年間歷次輸血累積（手術、急性事件）。ADPKD 本身不增加致敏風險。
+
+**重要更新**：病人目前不用 EPO 也不輸血（ADPKD 囊腫壁細胞仍能分泌 EPO，Hb 12.3 自維持）。HLA 抗體由記憶 B 細胞維持，不會自行消失，但**不再輸血 = PRA 不會繼續升高**。
 
 ### 相對有利點
 

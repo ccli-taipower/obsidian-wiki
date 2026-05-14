@@ -176,8 +176,12 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 ### A. 缺鐵性貧血（MCV 69.2, MCH 21.0, RDW 19.3，Hb 12.3）
 - Hb 12.3 看似達標，但 microcytic + RDW 偏高 = 鐵儲備耗盡
 - 對 HFpEF + active ischemia 病人：氧供應 marginal → 任何脫水都更不耐受
+- **重要發現：病人目前不用 EPO 也不輸血** → ADPKD 囊腫壁細胞仍能分泌 EPO（ADPKD 特殊優勢）
+  - 這代表補鐵效果會比一般透析病人更好（自產 EPO + 鐵充足 → Hb 可升至 13-14）
+  - 不需外打 EPO，光補鐵就可能拉上去
+  - 不再輸血 = FlowPRA（PRA 44%）不會繼續升高 → 保護移植機會
 - **介入**：首選佳立鈣換 ferric citrate（同步解決鈣負擔 + 缺鐵），詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)；若仍不足再加 IV iron
-- 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升
+- 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升 + 減少未來輸血需求
 
 ### B. 高血鉀（K 6.0，上升趨勢）
 - 直接加重洗腎後段抽筋
