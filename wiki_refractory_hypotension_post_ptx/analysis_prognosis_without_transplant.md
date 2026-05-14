@@ -32,6 +32,7 @@ tags: [prognosis, survival, CAD, SSS, dialysis_mortality, ADPKD, modifiable_risk
 | **Adynamic bone**（iPTH 17.5 + ALP 61） | 🟠 中 | 鈣無法進入骨骼 → 血管沉積 |
 | HD 11 年 | 🟡 中 | 累積尿毒素、血管通路消耗 |
 | AVG 反覆狹窄 | 🟡 中 | 通路壽命有限；2026/02 PTA 90% |
+| **FlowPRA Class I 44%** | 🟡 中 | 中度致敏，移植配對池縮小；MFI 563 偏低是緩衝 |
 
 ### 有利因子（延長壽命）
 
@@ -74,6 +75,51 @@ tags: [prognosis, survival, CAD, SSS, dialysis_mortality, ADPKD, modifiable_risk
 | **3** | iPTH 回升至 150-300 | 改善 IDH + 減緩血管鈣化 | [analysis_refractory_idh](analysis_refractory_idh_treatment_plan.md) |
 | **4** | 停沛暢 + 換 ferric citrate | 改善 IDH + 減少鈣負擔 + 補鐵 | [analysis_iatrogenic_factors](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **5** | 重啟 BB（bisoprolol） | HFpEF + ischemia 雙重保護 | [analysis_cad_contribution](analysis_cad_contribution_to_refractory_idh.md) |
+
+## 移植免疫障礙：FlowPRA 數據（2026/03/02）
+
+雖然本分析以「無移植」為前提，但移植仍是排序第一的預後改變槓桿。以下數據直接影響移植可行性。
+
+### FlowPRA 結果
+
+| 項目 | 數值 | 解讀 |
+|------|------|------|
+| **FlowPRA Class I (%)** | **44%** | 中度致敏（20-80% 區間） |
+| FlowPRA Class I MFI | 563 | 抗體強度偏低（<1,000） |
+| **FlowPRA Class II (%)** | **11%** | 輕度致敏（10-20% 區間） |
+| FlowPRA Class II MFI | 355 | 抗體強度低 |
+
+同日其他數據：Potassium K 6.1（115/02/12，與既有 K 6.0 趨勢一致）
+
+### 臨床意義
+
+**Class I PRA 44% = 每 100 個潛在捐贈者中，約 44 個因 HLA Class I 抗體不合而配對失敗**。等待時間顯著延長。
+
+致敏原因：最可能是透析 11 年間反覆輸血（ADPKD 本身不增加致敏風險）。
+
+### 相對有利點
+
+MFI 563 / 355 均偏低 → 抗體存在但**強度不高**：
+- 虛擬交叉試驗（virtual crossmatch）結果可能比 PRA 百分比樂觀
+- 若做 single antigen bead（SAB）細分，部分抗體 MFI 可能低到可接受範圍
+- 不是所有 44% 的不合都會造成超急性排斥
+
+### 移植的兩道關卡
+
+| 關卡 | 狀態 | 對策 |
+|------|------|------|
+| **心臟（SSS=16）** | 嚴重可逆缺血，移植前需先處理 | RCA CTO 開通 + LCX 再評估 |
+| **免疫（PRA 44%）** | 中度致敏，配對池縮小 | SAB 細分 + acceptable mismatch + 活體評估 |
+
+兩個關卡都需要**主動積極處理**，不能被動等待。
+
+### 免疫對策建議
+
+1. **確認是否已做 SAB（單抗原珠檢測）** → 精確辨識是哪幾個 HLA 抗原有抗體，排除「可接受的不匹配」
+2. **加入 acceptable mismatch program**（台大/長庚等移植中心）→ 擴大有效配對池
+3. **評估 desensitization（脫敏治療）可行性** → 若出現合適捐贈者但交叉試驗弱陽性，可用 IVIG / rituximab / plasmapheresis
+4. **活體捐贈評估** → 如有家人願意，可針對特定 donor 交叉試驗；44% 對單一已知捐贈者不一定是障礙
+5. **減少未來致敏** → 盡量避免不必要輸血（EPO + IV iron 維持 Hb；ferric citrate switch 有助於此）
 
 ## 核心訊息
 
