@@ -177,6 +177,10 @@ Query: 停沛暢以改善 IDH，但沛暢是否對人工血管（AVG）有保護
 
 在 `analysis_iatrogenic_factors` 新增 AVG patency 段落。DAC Trial（Dixon 2009, AJKD）為最大型 RCT，結果陰性——dipyridamole + aspirin 未顯著改善 AVG primary unassisted patency。AVG 反覆狹窄主因為新生內膜增生非血栓，DAPT 已提供足夠抗血小板覆蓋。停沛暢不增加 AVG 風險，反而可能透過改善 IDH 間接保護 AVG。
 
+## [2026-05-14] update | 移植三道關卡完整框架（心臟 + 免疫 + 解剖）
+
+在 `analysis_prognosis_without_transplant` 補入 ADPKD 巨腎解剖障礙段：原生腎佔據腹腔空間→移植腎放置困難、三種切除時機比較（移植前/同時/移植後）、TKV 評估建議。移植關卡表從兩道擴充為三道（心臟 SSS=16 + 免疫 PRA 44% + 解剖 ADPKD 巨腎）。
+
 ## [2026-05-14] update | FlowPRA 移植免疫數據補入預後分析
 
 來源：健康存摺截圖（115/03/02 移植門診抽血）。FlowPRA Class I 44%（MFI 563）、Class II 11%（MFI 355）。在 `analysis_prognosis_without_transplant` 新增移植免疫障礙段：中度致敏（Class I 44%）為配對障礙，但 MFI 偏低是緩衝。移植有兩道關卡（心臟 SSS=16 + 免疫 PRA 44%），均需主動處理。對策含 SAB 細分、acceptable mismatch、desensitization、活體評估、減少未來致敏。風險分層表新增 PRA 44% 為不利因子。
