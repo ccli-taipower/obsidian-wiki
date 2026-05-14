@@ -177,6 +177,10 @@ Query: 停沛暢以改善 IDH，但沛暢是否對人工血管（AVG）有保護
 
 在 `analysis_iatrogenic_factors` 新增 AVG patency 段落。DAC Trial（Dixon 2009, AJKD）為最大型 RCT，結果陰性——dipyridamole + aspirin 未顯著改善 AVG primary unassisted patency。AVG 反覆狹窄主因為新生內膜增生非血栓，DAPT 已提供足夠抗血小板覆蓋。停沛暢不增加 AVG 風險，反而可能透過改善 IDH 間接保護 AVG。
 
+## [2026-05-14] update | Bisoprolol 處方建議補入 CAD analysis
+
+在 `analysis_cad_contribution_to_refractory_idh` β-blocker 段新增具體處方建議：Concor（康肯）1.25 mg QD 起步、非透析日開始、滴定至 5 mg 目標。說明 bisoprolol 選擇理由（高 β1 選擇性、無 α-block、有 1.25 mg 最小劑型）與應避免的 BB（carvedilol、propranolol、labetalol）。
+
 ## [2026-05-14] query | 無移植情境下的預後推估
 
 Query: 綜合所有臨床資料，假設無腎臟移植，能否預測這位病人的壽命？

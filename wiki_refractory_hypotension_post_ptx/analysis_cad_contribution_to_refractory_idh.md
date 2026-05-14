@@ -80,7 +80,30 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 - 抗 ischemia 效益對這位 SSS=16 患者**極為重要**
 - → **如果他目前沒在用 BB**（病人摘要僅列 midodrine + 碳酸鈣），應該與心臟科討論：
   - 過去是否試過 BB 因 IDH 停掉？
-  - 是否可重新挑戰 cardioselective 低劑量（bisoprolol 1.25 mg QD 起步，避免 carvedilol 因 α-block 加重 IDH）
+  - 是否可重新挑戰 cardioselective 低劑量
+
+#### Bisoprolol 處方建議
+
+| 項目 | 建議 |
+|------|------|
+| **首選藥物** | **Concor（康肯）1.25 mg**（Merck 原廠，有 1.25/2.5/5/10 mg 四種劑型） |
+| 起步劑量 | 1.25 mg QD |
+| 起步時機 | **非透析日早上**（避免透析日疊加 IDH） |
+| 上調 | 觀察 2-4 週無明顯 IDH 惡化 → 2.5 mg QD → 最終目標 5 mg QD |
+| 穩定後替代 | 可考慮學名藥節省費用（倍適能 Bisolen / 畢舒適 Bisotol / 百穩 BisoTab，多為 5 mg 劑型） |
+
+**為何選 bisoprolol 而非其他 BB：**
+- **高度 β1 選擇性**：β1/β2 選擇性比約 75:1，透析 IDH 患者最需要避免 β2 阻斷（周邊血管阻力下降）
+- **無 α-blocking**：carvedilol（達利全 Dilatrend）有 α-block 效應，會直接加重 IDH → **絕對避免**
+- **腎排泄 50% / 肝代謝 50%**：透析患者不需大幅調整劑量
+- **有最小劑型 1.25 mg**：不需掰藥，IDH 高風險患者能精確滴定
+
+**絕對避免的 BB：**
+- ❌ Carvedilol（達利全 Dilatrend）— α-block 加重 IDH
+- ❌ Propranolol（恩特來 Inderal）— 非選擇性，β2 阻斷 + 代謝副作用
+- ❌ Labetalol — α + β 阻斷，同 carvedilol 問題
+
+> ⚠️ BB 啟動建議與心臟科共管，時機可與 RCA CTO 開通評估同步討論。
 
 ### 抗血小板現況
 - 病人的藥單列保栓通 + 伯基 + 沛暢 + 冠脂妥（本 wiki [analysis_iatrogenic_factors](analysis_iatrogenic_factors_in_refractory_idh.md) 詳述）
