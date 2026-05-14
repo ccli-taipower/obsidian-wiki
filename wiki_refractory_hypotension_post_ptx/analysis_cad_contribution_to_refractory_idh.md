@@ -52,6 +52,68 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 - **二、四、六早上極度疲倦**（病人摘要）：透析後 hypovolemia → preload-sensitive 心室 → 隔天 CO 仍 marginal → 疲倦
 - **眼前發黑、心跳變快**：低 preload + 反射性 tachycardia 但被 BB 部分壓住
 
+## HFpEF 的治療策略——搬開壓在上面的四座山
+
+HFpEF **目前沒有特效藥**（不像 HFrEF 有明確藥物修復收縮力）。治療核心：**減少讓僵硬心室崩潰的觸發因子**。
+
+### 已完成的介入（方向正確：保護 preload）
+
+| 介入 | HFpEF 原理 | 狀態 |
+|------|-----------|------|
+| 乾體重 +10 kg | 保住 preload，不讓心室「打空氣」 | ✅ |
+| 停所有降壓藥 | 避免血管擴張加重 preload 不足 | ✅ |
+| Midodrine | 撐住血管張力，維持回心血量 | ✅ |
+| 透析 4.5 hr | 慢速脫水比快速脫水安全 | ✅ |
+| 透析液 36°C | 低溫減少血管擴張 | ✅ |
+
+→ IDH 仍頑固，因為 HFpEF 只是四個維度之一。
+
+### 剩餘可動的介入（依優先序）
+
+**第一：處理 CAD → 最高槓桿**
+- 缺血 → 心肌更僵硬 → 舒張功能更差 → HFpEF 惡化（惡性循環）
+- RCA CTO 開通 + LCX 再評估 → 減少缺血面積 → 心室順應性可能改善
+- 不是治好 HFpEF，是**把惡化的推手拿掉**
+
+**第二：重啟 Bisoprolol → 直接改善舒張功能**
+- 心率減慢 → 舒張期延長 → 心室有更多時間填充 → stroke volume 回升
+- 抗缺血 → 減少 oxygen demand → 心肌僵硬度降低
+- 長期可部分逆轉 LV remodeling
+- 處方詳見下方 [§ β-blocker](#β-blocker-在-hfpef--active-ischemia-的角色)
+
+**第三：透析處方再微調**
+
+| 介入 | 原理 |
+|------|------|
+| 溫度 36°C → 35.5°C | 再壓縮血管擴張空間 |
+| HDF 1 次/週 → 2-3 次 | 更好的中大分子清除 + 血流動力學穩定 |
+| IDWG 5% → <4% | 減少每次脫水量 → UF rate 降低 |
+| **BIA + IVC 超音波** | HFpEF 患者臨床判斷容量不可靠，需客觀工具 |
+
+**第四：讓 iPTH 回升 → 間接幫助**
+- iPTH 17.5 → 血管張力不足 → 回心血量下降 → preload 不夠 → HFpEF 心室更撐不住
+- iPTH 回升至 150-300（減碳酸鈣 / 換 ferric citrate / 考慮低劑量 calcitriol）→ 血管張力恢復 → preload 維持 → HFpEF 衝擊被緩衝
+- 詳見 [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)
+
+**第五：糾正貧血 → 改善氧供應**
+- MCV 69.2 缺鐵性貧血 → 氧運送能力差 → 缺血心肌更缺氧 → 更僵硬
+- Ferric citrate 換佳立鈣 → 減鈣負擔 + 補鐵 → Hb 上升 → 心肌氧供改善
+- 詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)
+
+### 禁忌
+
+- ❌ 積極脫水（HFpEF 最怕 preload 下降）
+- ❌ 血管擴張劑降後負荷（HFrEF 策略，對 HFpEF + IDH 是災難）
+- ❌ 期待藥物「治好」HFpEF（目前醫學做不到）
+
+### 現實期望
+
+HFpEF 不會消失，但可以把衝擊降到最低：
+- **目前**：HFpEF + active ischemia + iPTH 過低 + 貧血 + dipyridamole → 四因子疊加 → IDH 頑固
+- **目標**：HFpEF（不變）+ 缺血改善 + iPTH 回升 + Hb 上升 + 停沛暢 → 只剩 HFpEF 本身 → IDH 可能改善到可管理程度
+
+**不是治好 HFpEF，是把壓在它上面的四座山搬開。**
+
 ## CAD 維度的關鍵更新
 
 ### Active progressing 而非穩定狀態
