@@ -177,6 +177,10 @@ Query: 停沛暢以改善 IDH，但沛暢是否對人工血管（AVG）有保護
 
 在 `analysis_iatrogenic_factors` 新增 AVG patency 段落。DAC Trial（Dixon 2009, AJKD）為最大型 RCT，結果陰性——dipyridamole + aspirin 未顯著改善 AVG primary unassisted patency。AVG 反覆狹窄主因為新生內膜增生非血栓，DAPT 已提供足夠抗血小板覆蓋。停沛暢不增加 AVG 風險，反而可能透過改善 IDH 間接保護 AVG。
 
+## [2026-05-14] update | 病人自我管理建議（工作安全、猝死預警、飲食、運動）
+
+在 `analysis_prognosis_without_transplant` 新增病人自我管理建議段。涵蓋：工作安全（透析隔天為最脆弱時段、緊急聯絡卡）、心臟猝死預警症狀辨識、K 6.0 飲食管理（楊桃禁忌、高鉀水果、低鈉鹽陷阱）、運動建議（Petraki 2008 透析中運動改善 BRS +23%）、推動心臟科再評估為最重要單一行動。
+
 ## [2026-05-14] update | Bisoprolol 處方建議補入 CAD analysis
 
 在 `analysis_cad_contribution_to_refractory_idh` β-blocker 段新增具體處方建議：Concor（康肯）1.25 mg QD 起步、非透析日開始、滴定至 5 mg 目標。說明 bisoprolol 選擇理由（高 β1 選擇性、無 α-block、有 1.25 mg 最小劑型）與應避免的 BB（carvedilol、propranolol、labetalol）。
