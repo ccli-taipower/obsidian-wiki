@@ -98,7 +98,7 @@ HFpEF **目前沒有特效藥**（不像 HFrEF 有明確藥物修復收縮力）
 **第五：糾正貧血 → 改善氧供應**
 - MCV 69.2 缺鐵性貧血 → 氧運送能力差 → 缺血心肌更缺氧 → 更僵硬
 - Ferric citrate 換佳立鈣 → 減鈣負擔 + 補鐵 → Hb 上升 → 心肌氧供改善
-- 詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)
+- 詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 
 ### 禁忌
 
@@ -180,7 +180,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
   - 這代表補鐵效果會比一般透析病人更好（自產 EPO + 鐵充足 → Hb 可升至 13-14）
   - 不需外打 EPO，光補鐵就可能拉上去
   - 不再輸血 = FlowPRA（PRA 44%）不會繼續升高 → 保護移植機會
-- **介入**：首選佳立鈣換 ferric citrate（同步解決鈣負擔 + 缺鐵），詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)；若仍不足再加 IV iron
+- **介入**：首選佳立鈣換 ferric citrate（同步解決鈣負擔 + 缺鐵），詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)；若仍不足再加 IV iron
 - 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升 + 減少未來輸血需求
 
 ### B. 高血鉀（K 6.0，上升趨勢）
@@ -247,7 +247,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 3. **可能最高槓桿的單一新介入：RCA CTO 開通評估**（為心臟 + 為移植，IDH 為次要 outcome）
 4. **重啟 BB 在 HFpEF + active ischemia 框架下證據強**，但需從 cardioselective 低劑量開始
 5. 補上 K、anemia、AVG access 的非心臟修飾因子，整體 cardiac stress 才會降低
-6. **佳立鈣換 ferric citrate** —— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方（詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)）
+6. **佳立鈣換 ferric citrate** —— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方（詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)）
 
 ## 引用來源
 

@@ -67,7 +67,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **具體做法：**
 - 停用所有抑制 PTH 的藥物（活性維生素 D、擬鈣劑）
-- **減少 / 替換碳酸鈣**（佳立鈣 1,200 mg elemental Ca/日，P=4.6 已控制良好）→ 換成 ferric citrate 同步解決 Ca load + 缺鐵。詳見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)
+- **減少 / 替換碳酸鈣**（佳立鈣 1,200 mg elemental Ca/日，P=4.6 已控制良好）→ 換成 ferric citrate 同步解決 Ca load + 缺鐵。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 - 必要時考慮低劑量 teriparatide，目標 iPTH 回升至 150-300
 
 ### 2. 透析中監測離子鈣，必要時鈣輸注
@@ -133,7 +133,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **整合策略**（[Campese 1989](src_campese1989_calcium_pth_blood_pressure.md) + [Shinoda 1992](src_shinoda1992_hypocalcemic_heart_failure.md)）：分開處理——不靠透析液鈣解決 IDH（改用 midodrine、低溫、運動），不靠透析液鈣治療 adynamic bone（從源頭讓 iPTH 回升），**透析液鈣維持中等（目前實際 3.0 mEq/L = 1.5 mmol/L 是合理的 IDH 保護設定）**。
 
-**鈣 load 全貌**：佳立鈣 + 飲食 + 透析液 = ~1,600-2,000 mg/日（遠超 KDIGO 1,500 mg/日上限）。**Sequencing：先換 binder（不影響 IDH），dialysate Ca 3.0 mEq/L 暫不動**。完整收支計算與替代方案見 [analysis_iatrogenic_factors §8](analysis_iatrogenic_factors_in_refractory_idh.md)。
+**鈣 load 全貌**：佳立鈣 + 飲食 + 透析液 = ~1,600-2,000 mg/日（遠超 KDIGO 1,500 mg/日上限）。**Sequencing：先換 binder（不影響 IDH），dialysate Ca 3.0 mEq/L 暫不動**。完整收支計算與替代方案見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)。
 
 ## 結論（2026/05 修訂）
 

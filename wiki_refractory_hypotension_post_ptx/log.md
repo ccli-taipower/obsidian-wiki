@@ -28,7 +28,6 @@ Query: 48 歲男性 ADPKD 透析 11 年，PTX 後 iPTH 過度抑制（17.5），
 
 產生 analysis_refractory_idh_treatment_plan，交叉比對 8 篇文獻，提出 5 項治療策略及鈣的兩難整合方案。同步輸出 PDF 至 /Users/ccli/Documents/病歷/wiki_treatment_analysis.pdf。
 
-<<<<<<< HEAD
 ## [2026-05-11] update | 新增 2 個 concept + 重構 hemodynamic_changes
 
 從「低血鈣症」角度補強現有 wiki（曾短暫嘗試獨立 wiki_hypocalcemia/，發現與本 wiki 機轉內容重疊嚴重，改為合併）。
@@ -209,3 +208,24 @@ Query: 停沛暢以改善 IDH，但沛暢是否對人工血管（AVG）有保護
 Query: 綜合所有臨床資料，假設無腎臟移植，能否預測這位病人的壽命？
 
 新增 `analysis_prognosis_without_transplant`。基線 48 歲 HD 中位存活 5-7 年，但 SSS=16 嚴重可逆缺血為最大單一威脅（年心臟事件率 10-15%）。三情境推估：不處理 3-5 年、處理可調因子但不處理 CAD 5-7 年、積極處理 CAD + 可調因子 7-10+ 年。有利因子包括年輕、ADPKD 病因（優於 DM）、Alb 4.2、EF 73.7%、仍正常上班。核心訊息：可調空間不小，但 SSS=16 的時間窗口有限。
+
+## [2026-05-15] update | Dipyridamole indication 確認 = AVG 保護 → reframe 為 N=1 trial-off + Aggrenox ER upgrade option
+
+病人補充：**醫師回覆當初開沛暢是為了保護人工血管（AVG）**——確認了 5/14 上游已預先推測的 AVG 保護 indication。
+
+整合兩個視角（rebased onto 5/14 upstream）：
+
+| 來源 | 主要論點 |
+|------|---------|
+| 5/14 上游 | DAC trial 結果 marginal、AVG 狹窄機轉是 neointimal hyperplasia 而非血栓、低 BP 反而是 AVG 血栓風險（停藥可能間接保護 AVG）|
+| 本次補充 | DAC trial 用 Aggrenox ER 200/25 mg BID，病人是沛暢 75 mg IR — formulation 不一致；N=1 trial-off 8 週 + access flow 監測 decision tree；若需重啟建議升級到 Aggrenox ER 而非回到 IR |
+
+合併後 §1-§5 重寫：
+- §indication 場景 #5 AVG 保護描述補上 DAC trial 絕對數字（28% vs 23%, p=0.03）+ KDOQI Grade 2B
+- 「RCT 證據其實 marginal」段保留上游 3 個論點（狹窄機轉、formulation 不一致、已有 DAPT）+ 反向思考（停藥可能保護 AVG）
+- §2 新增 N=1 trial-off 8 週 + access flow 監測方案 + decision tree
+- §3 替代方案首選改為 Aggrenox ER（升級 formulation）
+- §4 β-blocker 段整合為「為何沒在用 + 是否該重啟」雙重評估
+- §5-§7 編號精簡（移除重複的 BB 段）
+
+教訓：「沒有 indication」的強斷論在 5/12 已被 5/14 上游修正，本次再被病人 ground truth 確認 → 維持「需 indication 確認 + 客觀 N=1 trial 測量 net effect」的開放態度比較穩健。
