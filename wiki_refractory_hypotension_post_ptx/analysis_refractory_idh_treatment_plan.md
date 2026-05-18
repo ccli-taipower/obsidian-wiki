@@ -162,6 +162,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md)
 - [analysis_iatrogenic_factors_in_refractory_idh](analysis_iatrogenic_factors_in_refractory_idh.md)
+- [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) — 整合本軸介入對無移植情境下壽命的影響
 - [concept_post_ptx_hemodynamic_changes](concept_post_ptx_hemodynamic_changes.md)
 - [concept_perioperative_calcium_management](concept_perioperative_calcium_management.md)
 - [concept_baroreflex_sensitivity_ckd](concept_baroreflex_sensitivity_ckd.md)

@@ -265,6 +265,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 
 - [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)
 - [analysis_iatrogenic_factors_in_refractory_idh](analysis_iatrogenic_factors_in_refractory_idh.md)
+- [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) — CAD（SSS=16）為無移植情境最大單一壽命威脅
 - [concept_post_ptx_hemodynamic_changes](concept_post_ptx_hemodynamic_changes.md)
 - [concept_hypocalcemia_cardiac_effects](concept_hypocalcemia_cardiac_effects.md)
 - [concept_baroreflex_sensitivity_ckd](concept_baroreflex_sensitivity_ckd.md)
