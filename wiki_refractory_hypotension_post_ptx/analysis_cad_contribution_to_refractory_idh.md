@@ -92,7 +92,7 @@ HFpEF **目前沒有特效藥**（不像 HFrEF 有明確藥物修復收縮力）
 
 **第四：讓 iPTH 回升 → 間接幫助**
 - iPTH 17.5 → 血管張力不足 → 回心血量下降 → preload 不夠 → HFpEF 心室更撐不住
-- iPTH 回升至 150-300（減碳酸鈣 / 換 ferric citrate / 考慮低劑量 calcitriol）→ 血管張力恢復 → preload 維持 → HFpEF 衝擊被緩衝
+- iPTH 回升至 150-300（減碳酸鈣 / 換非鈣型 binder / 考慮低劑量 calcitriol）→ 血管張力恢復 → preload 維持 → HFpEF 衝擊被緩衝
 - 詳見 [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)
 
 **第五：糾正貧血 → 改善氧供應**
@@ -180,7 +180,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
   - 這代表補鐵效果會比一般透析病人更好（自產 EPO + 鐵充足 → Hb 可升至 13-14）
   - 不需外打 EPO，光補鐵就可能拉上去
   - 不再輸血 = FlowPRA（PRA 44%）不會繼續升高 → 保護移植機會
-- **介入**：首選佳立鈣換 ferric citrate（同步解決鈣負擔 + 缺鐵），詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)；若仍不足再加 IV iron
+- **介入**：佳立鈣換**非鈣型 binder**（腎潔磷 / ferric citrate / Fosrenol）+ 鐵補充（ferric citrate 內建；腎潔磷或 Fosrenol 需另補口服或 IV iron）。腎潔磷對你個案有 LDL ↓ bonus 對應 [Q4 LDL 100 議題](#)；詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 - 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升 + 減少未來輸血需求
 
 ### B. 高血鉀（K 6.0，上升趨勢）
@@ -247,7 +247,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 3. **可能最高槓桿的單一新介入：RCA CTO 開通評估**（為心臟 + 為移植，IDH 為次要 outcome）
 4. **重啟 BB 在 HFpEF + active ischemia 框架下證據強**，但需從 cardioselective 低劑量開始
 5. 補上 K、anemia、AVG access 的非心臟修飾因子，整體 cardiac stress 才會降低
-6. **佳立鈣換 ferric citrate** —— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方（詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)）
+6. **佳立鈣換非鈣型 binder**（腎潔磷 / ferric citrate / Fosrenol 三選一）—— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方；**腎潔磷對本病例有 LDL ↓ bonus**（順便處理 Q4 LDL 100）。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 
 ## 引用來源
 

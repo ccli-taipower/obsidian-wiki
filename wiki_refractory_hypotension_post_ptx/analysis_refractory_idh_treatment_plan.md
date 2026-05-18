@@ -67,7 +67,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **具體做法：**
 - 停用所有抑制 PTH 的藥物（活性維生素 D、擬鈣劑）
-- **減少 / 替換碳酸鈣**（佳立鈣 1,200 mg elemental Ca/日，P=4.6 已控制良好）→ 換成 ferric citrate 同步解決 Ca load + 缺鐵。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
+- **減少 / 替換碳酸鈣**（佳立鈣 1,200 mg elemental Ca/日，P=4.6 已控制良好）→ 換成**非鈣型 binder**（腎潔磷 sevelamer / ferric citrate / Fosrenol 三選一，依 LDL、補鐵需求、簡化用藥取捨）。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 - 必要時考慮低劑量 teriparatide，目標 iPTH 回升至 150-300
 
 ### 2. 透析中監測離子鈣，必要時鈣輸注
