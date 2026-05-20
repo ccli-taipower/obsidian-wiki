@@ -329,3 +329,29 @@ Query: 綜合所有臨床資料，假設無腎臟移植，能否預測這位病�
   - 跟 2025/08 SSS=16、ΔTPD=16% 比較 → 決定是否推進到 CT angio / cath / RCA CTO PCI 評估
   - 醫師的策略邏輯：fair medical therapy trial → reassess → 依結果決定介入
   - 最可能的場景：SSS 改善但仍 ≥ 13 → 推動 cath / CT angio → RCA CTO PCI 進入排程
+
+## [2026-05-20] update | 5/19 下肢動脈超音波（移植團隊 order）+ 年齡更新 49
+
+病人從健康存摺發現 2026/05/19 早上 8:32（心臟科門診之前）的**下肢動脈超音波**報告——**移植團隊 pre-op vascular evaluation**，非症狀驅動。報告內容（病人無被醫師解釋，自行從健康存摺看到）：
+
+| 項目 | 結果 |
+|------|------|
+| 主要發現 | 左 CFA（總股動脈）moderate stenosis |
+| 整體判讀 | **無 > 50% 顯著狹窄** |
+| 臨床症狀 | 病人無下肢 claudication / 冰冷 / 傷口 |
+| 結尾 | "Please correlation with clinical status" |
+
+**對移植準備的意涵**：解剖關卡的血管面**基本通過**——移植腎多接右側 external iliac，左 CFA 中度狹窄不影響首選位置；即使選左側，< 50% 也通常可接受。**主要剩下原生腎切除（ADPKD 巨腎）這個 sub-關卡**。
+
+**對 IDH / 心臟治療影響**：直接影響極小；間接讓 DAPT 維持的論證更扎實（多一個 antiplatelet indication）。
+
+**年齡更新**：48 → 49（2026/05 已過生日）。
+
+`analysis_prognosis_without_transplant` 更新：
+- 「移植兩道關卡」改為「**三道關卡**」並補上血管面 sub-status
+- 「解剖障礙」段補入 2026/05/19 下肢動脈超音波獨立小段
+- 補充：血管面 green light + 巨腎仍是主要 anatomic 障礙
+
+`analysis_refractory_idh_treatment_plan`：病人摘要年齡標註更新（48 → 49）。
+
+教訓：**台灣健康存摺的雙刃劍**——病人能即時看到所有檢驗 / 影像結果，但**沒有醫師解釋層**，容易產生焦慮（看到 "moderate stenosis" 時不知該怎麼想）。wiki 在這裡的功能就是當「自助式解讀層」，幫病人理解報告對個案的真實意涵（這份報告其實是好消息）。

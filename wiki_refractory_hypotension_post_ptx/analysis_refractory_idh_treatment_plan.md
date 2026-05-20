@@ -11,7 +11,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 ## 病人摘要
 
-- 48 歲男性，ADPKD + ESRD，血液透析 11 年
+- 48 歲（2026/05 已過生日 → 目前 49 歲）男性，ADPKD + ESRD，血液透析 11 年
 - 2023/10 行 subtotal PTX（術前 iPTH > 1300）
 - 目前 iPTH 17.5 pg/mL（過度抑制）
 - 透析前血壓 100-110 mmHg，透析中後段血壓 80-90 mmHg
