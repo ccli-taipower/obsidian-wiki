@@ -297,3 +297,31 @@ Query: 綜合所有臨床資料，假設無腎臟移植，能否預測這位病�
 - `analysis_cad_contribution`：3 處 ferric citrate 提及改為更中立的「非鈣型 binder」，標註腎潔磷的 LDL bonus 對應 Q4
 
 教訓：跟「沒有 indication 就停藥」的強斷論一樣，把單一選項標為「首選」也是過早收斂。應該維持「多條 valid 路徑、依個案因素決定」的開放態度，把選項表 + decision factors 攤在病人/醫師面前。
+
+## [2026-05-18] update | 實際臨床處置：沛暢 trial-off + Concor 1.25 mg QOD 啟動（心臟科處方）
+
+病人 2026/05/18 心臟科門診實際處方變動：
+1. ✅ **沛暢（dipyridamole 75 mg）暫停**——進入 N=1 trial-off 8 週
+2. ✅ **Concor（bisoprolol 1.25 mg）QOD 啟動**——服用日 = 二/四/六早上
+
+服用日設計的合理性（透析 = M/W/F 晚上）：
+- 透析時血藥濃度都很低（最近一次 Concor 距透析 36-60 hr → < 12% peak）→ 不加重 IDH
+- 服藥日 2-4 hr peak 提供心肌保護 / 抗缺血 / diastolic filling time 延長
+- 平均日劑量 0.54 mg（QD 的 43%）——極溫和
+
+意義：三軸框架的「第一級可調整因子」+「第二級 BB 重啟」**同步啟動**，由心臟科主導執行。
+
+對 IDH 改善歸因分析：兩個動作方向相反（停沛暢 → IDH 改善；加 BB → 可能輕微影響 IDH），任何 net 改善都可保守歸功於停沛暢。
+
+更新 wiki：
+- `analysis_iatrogenic_factors`：§1-§2 trial-off 從「建議」改「✅ 已啟動 2026/05/18」；§4 從「為何沒在用 + 是否該重啟」改為「已執行 + 服藥 schedule 表 + 滴定計畫 + 監測要點」；結論從「建議」改「✅ 已執行」
+- `analysis_cad_contribution`：§HFpEF 治療策略第二項從「重啟 Bisoprolol」改為「✅ 已啟動 2026/05/18」；§Bisoprolol 處方建議新增「實際執行」並列表對照原建議 vs 實際處方（QD → QOD 更保守一階）；新增 QOD 比 QD 更安全的藥動學說明
+- `analysis_refractory_idh_treatment_plan`：病人摘要補上實際處置
+
+接下來預定追蹤：
+- 每次透析 BP / HR / nadir 紀錄
+- 服 Concor 當天清晨 BP / HR
+- AVG bruit / thrill 每日
+- 抽筋頻率
+- 8 週後（2026/07/13）evaluate dipyridamole trial-off 是否要重啟（決策樹見 iatrogenic §2）
+- 2-4 週後評估 Concor 是否上調至 QD（滴定 phase 2）

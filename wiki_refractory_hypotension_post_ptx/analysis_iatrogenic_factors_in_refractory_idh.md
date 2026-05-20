@@ -169,6 +169,12 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 ## 行動建議（依優先序，2026/05 修訂為 AVG-protection-aware 版本）
 
+> **2026-05-18 實際處置更新**：心臟科已執行兩項調整——
+> - ✅ **沛暢 暫停**（dipyridamole trial-off 開始）
+> - ✅ **Concor（bisoprolol）1.25 mg QOD 啟動**，服用日 = 二/四/六早上（非透析日上午）
+>
+> 詳細紀錄與 schedule 設計理由見下方 §1-§2、§4 標註「**已執行**」段落；後續監測指標見 §1 baseline 表。
+
 ### 1. ✅ Indication 已確認 = AVG 保護（DAC trial）
 
 不需再追問為什麼開——已知是 AVG 保護用途。轉問題：**這個 indication 在這位病人身上的 net effect 是否仍 positive？**
@@ -180,17 +186,17 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 | **AVG 真的有被保護嗎？** | 2026/02 PTA 90% 狹窄、反覆 PTA → 不像有效 | 削弱「為了 AVG 必須繼續」的論證 |
 | **Formulation 對嗎？** | DAC trial 用 Aggrenox ER 200 mg + aspirin 25 mg BID；病人是沛暢 75 mg IR | IR formulation 缺乏 AVG 保護的 evidence base |
 
-### 2. 🔑 建議：N=1 trial-off 1-2 個月 + 客觀監測
+### 2. 🔑 N=1 trial-off + 客觀監測 — ✅ 已啟動 2026/05/18
 
 **不是「直接停」也不是「不動」，是「客觀測量 net effect 後再決定」。**
 
-具體方案：
+| 階段 | 動作 | 監測 | 狀態 |
+|------|------|------|------|
+| Baseline（試停前 2 週）| 紀錄目前 IDH 頻率/深度、access flow rate、AVG bruit/thrill 變化 | 抽血 baseline + Doppler access flow（如可）| ⚠️ 跳過——直接進入 trial-off |
+| **Trial-off（8 週）**| 停 dipyridamole | 每 4 週 access flow + 每次透析 IDH 紀錄 | **✅ 啟動 2026/05/18，預計 evaluate 2026/07/13** |
+| 評估（停藥滿 8 週）| 客觀比較 IDH 改善 vs AVG flow 變化 | 同上 | 待行 |
 
-| 階段 | 動作 | 監測 |
-|------|------|------|
-| Baseline（試停前 2 週）| 紀錄目前 IDH 頻率/深度、access flow rate、AVG bruit/thrill 變化 | 抽血 baseline + Doppler access flow（如可）|
-| Trial-off（8 週）| 停 dipyridamole | 每 4 週 access flow + 每次透析 IDH 紀錄 |
-| 評估（停藥滿 8 週）| 客觀比較 IDH 改善 vs AVG flow 變化 | 同上 |
+**注意**：因同步啟動 Concor 1.25 mg QOD（見 §4），停沛暢的 IDH 改善 vs BB 影響在分析上會疊加。但兩者方向相反（停沛暢 → IDH 改善；加 BB → 可能微影響 IDH）→ 任何 net IDH 改善都可歸功於停沛暢（保守歸因）。
 
 **Decision tree（停藥後 8 週）：**
 
@@ -209,22 +215,40 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 - 加 fish oil：DAC trial 也有 fish oil arm（小幅 benefit），可能可同時試
 - 改純 DAPT（aspirin + clopidogrel）：已有了，AVG 保護論證最弱（KDOQI 未列）
 
-### 4. β-blocker 雙重評估：為何沒在用 + 是否該重啟
+### 4. β-blocker 啟動 — ✅ 已執行 2026/05/18（心臟科處方）
 
-藥單沒列 β-blocker。LCX-stent 後 + HFpEF + SSS=16 標準應該要用。
+藥單原本沒列 β-blocker。LCX-stent 後 + HFpEF + SSS=16 標準應該要用。
 
-**第一步：確認過去用藥史**
-- 已試過但因 IDH 停掉？
-- 從未開（少見）？
-- 病人自行停藥？
+**心臟科 2026/05/18 處方：Concor（bisoprolol）1.25 mg QOD，服用日 = 二/四/六早上**
 
-→ 跟主治確認。**如果是「停藥因 IDH」**，那 dipyridamole 反而**正是被誤留下來**的 culprit——應該優先處理 dipyridamole 而非 β-blocker。
+**為什麼這個 schedule 設計聰明：**
 
-**第二步：重新挑戰 BB（先解決 dipyridamole 後）**
+| 日 | 一 | 二 | 三 | 四 | 五 | 六 | 日 |
+|---|---|---|---|---|---|---|---|
+| 透析 | **晚** | — | **晚** | — | **晚** | — | — |
+| Concor | — | **早** | — | **早** | — | **早** | — |
+
+- 透析時血藥濃度都很低（最近一次 Concor 距透析 36-60 hr，bisoprolol 半衰期 10-12 hr → < 12% peak）→ 不加重 IDH
+- 服藥日 2-4 hr peak 提供心肌保護 + 抗缺血 + diastolic filling time 延長
+- 平均日劑量 = 3 × 1.25 ÷ 7 = **0.54 mg/日**，極溫和起步
+
+**Indication 基礎：**
 - 心超 E/A 0.62 是 **HFpEF physiology**，BB 減慢 HR 延長 diastolic filling time 對 stiff ventricle 有助益
 - 核醫 SSS=16 是 **active reversible ischemia**，BB 抗 ischemia 效益強
-- 起始：bisoprolol 1.25 mg QD（cardioselective、無 α-block）；避免 carvedilol（α-block 加重 IDH）
-- 詳細處方建議見 [analysis_cad_contribution §β-blocker](analysis_cad_contribution_to_refractory_idh.md#β-blocker-在-hfpef--active-ischemia-的角色)
+- Bisoprolol cardioselective、無 α-block；避免 carvedilol（α-block 加重 IDH）
+
+**滴定計畫（預期）：**
+- Phase 1（目前）：1.25 mg QOD T/Th/Sa AM
+- Phase 2（2-4 週後 if tolerated）：1.25 mg QD（每天）
+- Phase 3（再 2-4 週）：2.5 mg QD
+- Phase 4（長期目標）：5 mg QD
+
+**監測要點**（每次透析 + 服藥日清晨）：
+- HR < 50 → 暫停下一次
+- 透析中 BP nadir 比 baseline 更低 → 通報醫師
+- 新的胸悶 / 喘到躺不下 → 急診
+
+詳細處方理由見 [analysis_cad_contribution §β-blocker](analysis_cad_contribution_to_refractory_idh.md#β-blocker-在-hfpef--active-ischemia-的角色)
 
 ### 5. 不要為了 IDH 停 aspirin / clopidogrel / statin
 
@@ -369,8 +393,8 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 ## 結論（2026/05 修訂 — AVG-protection-aware 版本）
 
-**第一級可調整因子：Dipyridamole N=1 trial-off + 客觀監測**（不是直接停，是「測量」）
-**第二級可調整因子：碳酸鈣換成非鈣型 binder**（腎潔磷 / ferric citrate / Fosrenol 三選一；對本病例個案推薦腎潔磷因 LDL ↓ bonus 對應 Q4）
+**✅ 第一級可調整因子已執行 2026/05/18**：Dipyridamole trial-off 啟動 + Concor 1.25 mg QOD（心臟科處方）
+**第二級可調整因子（待行）**：碳酸鈣換成非鈣型 binder（腎潔磷 / ferric citrate / Fosrenol 三選一；對本病例個案推薦腎潔磷因 LDL ↓ bonus 對應 Q4）
 
 醫師確認 dipyridamole 用於 AVG 保護（DAC trial indication），但這位病人 AVG 反覆狹窄 + IR 75 mg 不是 DAC trial 的 ER 200 mg formulation → indication 真實但效果可疑。
 
