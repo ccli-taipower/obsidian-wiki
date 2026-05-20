@@ -325,3 +325,7 @@ Query: 綜合所有臨床資料，假設無腎臟移植，能否預測這位病�
 - 抽筋頻率
 - 8 週後（2026/07/13）evaluate dipyridamole trial-off 是否要重啟（決策樹見 iatrogenic §2）
 - 2-4 週後評估 Concor 是否上調至 QD（滴定 phase 2）
+- **🔑 2026/07/29 預定重複核醫（cardiac SPECT）—— medical therapy 2 個月評估點**
+  - 跟 2025/08 SSS=16、ΔTPD=16% 比較 → 決定是否推進到 CT angio / cath / RCA CTO PCI 評估
+  - 醫師的策略邏輯：fair medical therapy trial → reassess → 依結果決定介入
+  - 最可能的場景：SSS 改善但仍 ≥ 13 → 推動 cath / CT angio → RCA CTO PCI 進入排程
