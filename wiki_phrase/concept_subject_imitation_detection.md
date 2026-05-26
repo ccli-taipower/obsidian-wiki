@@ -207,22 +207,32 @@ Phase 1 實作只處理 2-voice 情況；Sinfonias / Fugues 為 Phase 2。
 - 與 [[concept_cadence_detection]] 互補：cadence 適用古典 / 浪漫主調作品，subject detection 適用對位作品
 - 兩者**可以並存**：對位作品偶有 cadence 結尾段（如 fugue 結束部），cadence 偵測仍有用
 
-## 12. 實作風險與漸進路線
+## 12. 實作風險與漸進路線（含實測修正）
 
-**Phase 1**：
-- 只實作 2-voice Bach Invention 情況
-- 只支援 rectus（正向）模仿
-- 對 PIG 001-010 Bach Inventions 跑 A/B
-- 看 GMR / override match 改善
+**Phase 1（完成 2026-05-26）**：
+- 實作 `_detect_subject_entries(groups)` 於 `program/run.py`
+- 每隻手 self-extract subject from opening N=8 groups（per-hand 模式，TI signature 自然對齊 2-voice imitation）
+- 含 ghost placeholder 過濾 fix（LH 在 Bach Inv 1-2 m 是 cross-hand fix-A 補的 ghost，會污染 subject signature 必須 skip）
+- 對 Bach Inv 1-8 (1002 user overrides) 跑 A/B：
+  - subject_only: -0.2pp aggregate (essentially 無變化)
+  - all_three (figural+thumb+subject): +1.1pp（≈ figural+thumb 單獨的 +1.2pp）
 
-**Phase 2**：
-- 加 inversion / retrograde 變體
-- 加 cross-hand entry detection
+**關鍵發現**：subject detection 演算法正確（standalone 輸出與 concept §3 推測完全相符 — mvt4 RH m1/m5/m26/m44, LH m3/m38/m46），但 **subject re-entries 落在曲式大段落點**（exposition / middle entries / recap），這些位置 DP 跟 user override 本來就大致對齊。**真正讓 DP 跟 user 分歧的是 episode 內部**，那邊 [[concept_figural_boundary_detection]] 才有效。
+
+→ Subject detection 是「曲式正確性」工具，不是「override match 提升」工具。對未來：
+- WTC fugues / Art of Fugue（3+ voice）會有更顯著效益
+- Cost-based red-line 評估（非 GMR）可能顯示不同 picture
+- 對 user 不熟的對位作品（沒教 override），純粹靠 subject detection 仍給 DP 正確的 phrase reset
+
+**Phase 2 候選**：
+- 加 inversion / retrograde 變體 (concept §6.2-6.4)
+- 加 cross-hand entry detection（同主題在 RH 與 LH 對位 stretto）
 - 對 WTC fugues 嘗試
 
-**Phase 3**：
-- Voice separation 前置（用 wiki_piano 提到的 Karystinaios GNN 或 music21 stream splitting）
-- 處理 3-voice Sinfonias
+**Phase 3 候選**：
+- Voice separation 前置（用 [[../wiki_piano/src_voice_separation]] 提到的 Karystinaios GNN）
+- 處理 Bach 3-voice Sinfonias
 
 ## 變更日誌
-- 2026-05-26: 創立。延伸 concept_fugue §7 草案，補完整演算法 + 變體匹配 + 整合方案。Phase 1 (2-voice rectus only) 為下一步實作目標。
+- 2026-05-26 創立：延伸 concept_fugue §7 草案，補完整演算法 + 變體匹配 + 整合方案
+- 2026-05-26 Phase 1 實作落地：默認 OFF。aggregate impact 中性 (-0.2pp subject_only)，但演算法驗證正確 (mvt4 entries 與預測完全相符)
