@@ -19,3 +19,33 @@
 **Next**:
 - P0: `analysis_bach_inv_4_d_minor.md` — 把 mvt4 m50 case 寫成可驗證的單元（包含當前 RH 在 m50 漏接的根因 + subject identification）
 - P1: `concept_subject_imitation_detection.md` — 主題偵測演算法（草案在 concept_fugue §7）
+
+## [2026-05-26] expand | PIG-driven coverage to 89% (6 new pages)
+
+User 指出 PIG 包含不同時期 / 不同作曲家，phrase 切錯會系統性影響指法評估。決定按 PIG 覆蓋優先序批次新增 6 頁，把覆蓋率從 15% 提到約 89%。
+
+**Pages created (6)**:
+- `concept_classical_period_sentence.md` (P0) — 古典 period (4+4) / sentence (2+2+4) / cadence (PAC/IAC/HC/DC)；涵蓋 Mozart 20 + Beethoven 21 + Schubert 5 = 46 曲
+- `concept_chopin_lyrical_phrase.md` (P1) — 浪漫派不規律長樂句、禁用 4-bar fallback、texture / pattern 訊號；涵蓋 Chopin 23+ 其他浪漫 = 39 曲
+- `composer_beethoven_phrasing.md` (P2) — phrase expansion / compression / hemiola / tempo 切換；按早 / 中 / 晚期細分；涵蓋 Beethoven 21 曲
+- `concept_impressionist_phrasing.md` (P3) — Debussy/Ravel texture-driven、cadence 失效、modal scales；涵蓋 12 曲
+- `composer_schubert_long_phrase.md` (P4a) — Lied 旋律 + 遠系轉調訊號；涵蓋 Schubert 5 曲
+- `composer_grieg_lyric_pieces.md` (P4b) — Lyric Pieces 規律結構 + modal + drone bass；涵蓋 Grieg 10 曲
+
+**Index updates**:
+- 新增 PIG dataset 覆蓋狀態表（89% 覆蓋率）
+- 路線圖重排：P0 改為 cadence_detection / subject_imitation_detection / bach_inv_4 analysis
+
+**Key insights for fingering system**:
+1. 古典時期：4-bar 週期大致 OK，但 sentence 結構需要 2+2+4 偵測避免在 bar 3 切
+2. 浪漫派（Chopin）：**禁用 4-bar fallback**，改靠 LH pattern / texture 訊號
+3. Beethoven 中晚期：phrase expansion / compression 普遍，禁用週期 fallback
+4. 印象派：cadence 訊號失效，改用 texture / dynamic / tempo 訊號
+5. Schubert：古典基底 + 轉調訊號 + 較長樂句（8-16 bar）
+6. Grieg：規律 4-8 bar，LH drone 時不參與樂句訊號
+
+**Next**:
+- P0: `concept_cadence_detection.md` — 4 種 cadence 偵測（多頁需要）
+- P0: `concept_texture_change_detection.md` — 印象派 + 浪漫派需要
+- P0: `analysis_bach_inv_4_d_minor.md` — 把 mvt4 m50 case 寫成可驗證單元
+- 中期目標：實作 composer-aware `_detect_phrase_starts` dispatcher
