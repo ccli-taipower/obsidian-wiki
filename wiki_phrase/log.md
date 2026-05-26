@@ -164,3 +164,20 @@ penalty=5.0 為必要值（W_PHRASE_ANCHOR + transition seam 在 thumb 上的累
 3. 未來路徑：per-piece config（單曲 opt-in）+ 改用 cost-based 紅線檢查（而非 GMR）
 
 **長期啟示**：phrase-aware cost rules 可能需要「per-style scope」而非「global enable」。對位作品 + 用戶教過 override 的場合 ON；其他場合 OFF。下一輪 wiki 應該考慮 `concept_per_style_cost_rule_scoping` 之類的元規則。
+
+## [2026-05-26] roadmap batch | 5 pages (3 composer + 2 concept)
+
+清理 index.md 上的高 ROI TODO，連續寫 5 頁。
+
+**Composer pages (3)**:
+- `composer_chopin_phrasing.md` — Chopin 23 PIG 曲，按 genre 細分 (Nocturne/Etude/Ballade/Mazurka/Waltz/Prelude/Polonaise/Scherzo/Impromptu) + 邊界訊號優先序 + 為何禁用 4-bar fallback 對 Chopin 特別重要
+- `composer_mozart_phrasing.md` — Mozart 20 PIG 曲，sonata-allegro 段落結構詳解 + 為何是 cadence detection 演算法的純正驗證 baseline + vs Beethoven 對比
+- `composer_debussy_phrasing.md` — Debussy 9 PIG 曲，按 collection 細分 (Suite Bergamasque / Préludes / Études / Images / Children's Corner) + Whole-tone/Pentatonic/Octatonic 對指法的影響 + Pedal 重要性
+
+**Concept pages (2)**:
+- `concept_phrase_elision.md` — 樂句重疊問題（一句結尾 = 下句開始）；「歸前」決定 + 對 motif/cadence detection 的影響；浪漫派頻繁
+- `concept_modulation_as_phrase_signal.md` — 第四類樂句邊界訊號（轉調）；music21 key signature change 偵測 + filter tonicization；對 Schubert/Beethoven/Chopin 關鍵
+
+**Index 路線圖**：5 個 TODO 已標完成；剩下 P0 (cadence+subject 實作), P1 (texture_change), P4 (Rachmaninoff, modal_scale), P5 (二十世紀, 雜項) 等。
+
+**PIG 覆蓋度**：composer pages 從 3 個（Beethoven/Schubert/Grieg）增到 6 個（+ Chopin/Mozart/Debussy），三大 composer bloc (Bach/Mozart/Chopin) + Debussy 全部有專頁。

@@ -1,6 +1,6 @@
 # Phrase Analysis Wiki 樂句分析 Wiki
 
-> Last updated: 2026-05-26 | Sources: 1 | Concepts: 9 | Composers: 3 | Analyses: 1 | Raw: 0
+> Last updated: 2026-05-26 | Sources: 1 | Concepts: 11 | Composers: 6 | Analyses: 1 | Raw: 0
 
 樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]] 並列，是獨立的學習與知識累積 track。
 
@@ -43,12 +43,17 @@
 - [⭐ Subject Imitation Detection](concept_subject_imitation_detection.md) — fugue / Invention 主題重入聲偵測；正向 + 倒影 + 逆行 + 逆行倒影 + 時值變化
 - [⭐ Figural Boundary Detection](concept_figural_boundary_detection.md) — 第三類樂句邊界（figure 切換）；處理 episode / coda 段不被 subject + cadence 涵蓋的部分；mvt4 m50 case 揭露
 - [⭐ Running Passage Thumb Reservation](concept_running_passage_thumb_reservation.md) — phrase-start anchor cost rule；長階運行音起手避免「最外側 finger」以保留 thumb 給 thumb-under；解 mvt4 m50 case 揭露的 DP 短視野問題；實測 penalty=5.0 為必要值
+- [Phrase Elision](concept_phrase_elision.md) — 樂句重疊（一句結尾 = 下句開始）；「歸前」決定 + 對 motif/cadence detection 的影響；浪漫派頻繁
+- [Modulation as Phrase Signal](concept_modulation_as_phrase_signal.md) — 第四類樂句邊界訊號（轉調）；key signature change 偵測 + filter tonicization；對 Schubert/Beethoven/Chopin 關鍵
 
 ## Composers (作曲家特化)
 
 - [Beethoven](composer_beethoven_phrasing.md) — 對古典 period/sentence 的擴張與壓縮；按早 / 中 / 晚期細分
 - [Schubert](composer_schubert_long_phrase.md) — Lied 旋律 + 遠系轉調作為樂句訊號
 - [Grieg](composer_grieg_lyric_pieces.md) — Lyric Pieces 系列，規律結構 + modal 色彩
+- [⭐ Chopin (per-genre)](composer_chopin_phrasing.md) — Nocturne / Etude / Ballade / Mazurka / Waltz / Prelude / Polonaise / Scherzo / Impromptu 各 genre 樂句邏輯；最大 PIG composer bloc (23 曲)
+- [⭐ Mozart (per-form)](composer_mozart_phrasing.md) — sonata-allegro / slow mov / rondo 形式；古典 period/sentence **純正範本**；驗證 cadence detection 演算法的 baseline
+- [⭐ Debussy (per-collection)](composer_debussy_phrasing.md) — Suite Bergamasque / Préludes / Études / Images / Children's Corner 各 collection；time-period 對 cadence 適用性影響大
 
 ## Analyses (per-piece)
 
@@ -73,12 +78,12 @@
 | ~~P0~~ | ~~實作 figural detection~~ | ✅ 完成 (Phase 1 落地、A/B 驗證 -0.1pp 中性) |
 | ~~P0~~ | ~~實作 thumb reservation~~ | ✅ 完成 (Phase B 落地、penalty=5.0 → +1.2pp aggregate) |
 | **P0** | 實作 cadence + subject detection 到 `_detect_phrase_starts` | TODO |
+| ~~P1~~ | ~~`concept_phrase_elision`~~ | ✅ 完成 |
+| ~~P2~~ | ~~`concept_modulation_as_phrase_signal`~~ | ✅ 完成 |
+| ~~P3~~ | ~~`composer_chopin_phrasing`~~ | ✅ 完成 |
+| ~~P3~~ | ~~`composer_mozart_phrasing`~~ | ✅ 完成 |
+| ~~P3~~ | ~~`composer_debussy_phrasing`~~ | ✅ 完成 |
 | P1 | `concept_texture_change_detection` — 印象派需要 | TODO |
-| P1 | `concept_phrase_elision` — 古典 / 浪漫共用 | TODO |
-| P2 | `concept_modulation_as_phrase_signal` — Schubert / Beethoven | TODO |
-| P3 | `composer_chopin_phrasing` — Chopin 細分（Nocturne / Ballade / Etude / Mazurka / Waltz / Prelude） | TODO |
-| P3 | `composer_mozart_phrasing` — Mozart 細分 | TODO |
-| P3 | `composer_debussy_phrasing` — Debussy 細分 | TODO |
 | P4 | `composer_rachmaninoff_phrasing` — 後期浪漫補完 | TODO |
 | P4 | `concept_modal_scale_fingering` (mode 對指法 + 樂句的影響) | TODO |
 | P5 | 二十世紀 / 現代 (Scriabin, Bartok) | TODO |
