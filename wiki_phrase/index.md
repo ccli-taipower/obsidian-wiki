@@ -1,6 +1,6 @@
 # Phrase Analysis Wiki 樂句分析 Wiki
 
-> Last updated: 2026-05-26 | Sources: 1 | Concepts: 7 | Composers: 3 | Analyses: 1 | Raw: 0
+> Last updated: 2026-05-26 | Sources: 1 | Concepts: 8 | Composers: 3 | Analyses: 1 | Raw: 0
 
 樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]] 並列，是獨立的學習與知識累積 track。
 
@@ -41,6 +41,7 @@
 - [Impressionist Phrasing](concept_impressionist_phrasing.md) — Debussy/Ravel texture-driven phrasing；cadence 失效
 - [⭐ Cadence Detection](concept_cadence_detection.md) — PAC/IAC/HC/DC 偵測演算法 (music21 RomanNumeral)；工具頁，多概念引用
 - [⭐ Subject Imitation Detection](concept_subject_imitation_detection.md) — fugue / Invention 主題重入聲偵測；正向 + 倒影 + 逆行 + 逆行倒影 + 時值變化
+- [⭐ Figural Boundary Detection](concept_figural_boundary_detection.md) — 第三類樂句邊界（figure 切換）；處理 episode / coda 段不被 subject + cadence 涵蓋的部分；mvt4 m50 case 揭露
 
 ## Composers (作曲家特化)
 
@@ -67,7 +68,8 @@
 | ~~P0~~ | ~~`analysis_bach_inv_4_d_minor`~~ | ✅ 完成 (揭露 figural boundary 缺失) |
 | ~~P0~~ | ~~`concept_cadence_detection`~~ | ✅ 完成 (含 music21 演算法) |
 | ~~P0~~ | ~~`concept_subject_imitation_detection`~~ | ✅ 完成 (含 4 種變體 + 時值變化) |
-| **P0** | `concept_figural_boundary_detection` — episode / coda 內 figure 切換偵測（從 mvt4 m50 case 揭露） | TODO |
+| ~~P0~~ | ~~`concept_figural_boundary_detection`~~ | ✅ 完成 (direction reversal + closure 處理) |
+| **P0** | **實作**：把 cadence + subject + figural 三軸落地到 `program/run.py` 的 `_detect_phrase_starts` | **進行中** |
 | P1 | `concept_texture_change_detection` — 印象派需要 | TODO |
 | P1 | `concept_phrase_elision` — 古典 / 浪漫共用 | TODO |
 | P2 | `concept_modulation_as_phrase_signal` — Schubert / Beethoven | TODO |

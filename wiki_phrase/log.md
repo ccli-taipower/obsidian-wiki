@@ -89,3 +89,19 @@ mvt4 subject (len=8) 的入聲位置實測：
 - P0: `concept_figural_boundary_detection.md` (新)
 - 中期目標：實作 composer-aware `_detect_phrase_starts` dispatcher (combines 3-4 軸偵測)
 - 第一波實作驗證：在 score-claude 端做 PAC 偵測 + Bach Invention subject 偵測的 Phase 1 prototype
+
+## [2026-05-26] 3rd boundary class concept | concept_figural_boundary_detection
+
+接續 analysis_bach_inv_4 揭露第三類樂句邊界 (figural / coda)，補完 concept 頁。
+
+**Page created (1)**:
+- `concept_figural_boundary_detection.md` — Figure 操作型定義 (方向一致 + 節奏一致 + 音域 ≤ octave + 無內部休止) + 4 種 figural boundary 事件類型 + 完整偵測演算法（Python 偽碼）+ closure 音歸屬問題（mvt4 m50 為例）+ 與 subject/cadence detection 整合 + Phase 1/2/3 漸進實作路線
+
+**三軸偵測架構至此齊全**：
+| 軸 | 工具 | 對應 PIG 範圍 |
+|---|---|---|
+| Subject entry | concept_subject_imitation_detection | 對位作品 (Bach ~23 曲) |
+| Cadence | concept_cadence_detection | 古典 + 浪漫主調 (~80+ 曲) |
+| Figural | concept_figural_boundary_detection | episode / coda / etude (其他) |
+
+**Next**: 落地到 `program/run.py` Phase 1 prototype，跑 A/B 看 mvt4 + PIG GMR 影響
