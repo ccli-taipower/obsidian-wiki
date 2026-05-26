@@ -181,3 +181,21 @@ penalty=5.0 為必要值（W_PHRASE_ANCHOR + transition seam 在 thumb 上的累
 **Index 路線圖**：5 個 TODO 已標完成；剩下 P0 (cadence+subject 實作), P1 (texture_change), P4 (Rachmaninoff, modal_scale), P5 (二十世紀, 雜項) 等。
 
 **PIG 覆蓋度**：composer pages 從 3 個（Beethoven/Schubert/Grieg）增到 6 個（+ Chopin/Mozart/Debussy），三大 composer bloc (Bach/Mozart/Chopin) + Debussy 全部有專頁。
+
+## [2026-05-26] roadmap completion batch — 5 more pages (PIG 100%)
+
+接續清完 index.md 剩餘 P1/P4/P5 TODOs，新增 5 頁，wiki PIG 覆蓋從 ~89% 推到 **100%**。
+
+**Concept pages (2)**:
+- `concept_texture_change_detection.md` (P1) — 第五類樂句邊界訊號工具頁：density/register/dynamic/pedal 變化偵測；[[concept_impressionist_phrasing]] + [[composer_debussy_phrasing]] 核心需求
+- `concept_modal_scale_fingering.md` (P4) — Modal/pentatonic/whole-tone/octatonic 對指法 + cadence detection 的影響；跨 wiki_piano + wiki_phrase
+
+**Composer pages (3)**:
+- `composer_rachmaninoff_phrasing.md` (P4) — 後期浪漫補完，4 PIG 曲；長 melodic arch + 厚和聲 + 戲劇 climax + 大手前提
+- `composer_twentieth_century.md` (P5) — Scriabin + Bartok 合一頁，3 PIG 曲
+- `composer_other_pig_pieces.md` (P5) — Mussorgsky/Joplin/Faure/Satie/Dvorak/Albeniz/Scarlatti 合一頁，13 PIG 曲
+
+**wiki 整體狀態**:
+- Sources: 1, Concepts: 12, Composers: 8, Analyses: 1 (Bach Inv 4)
+- 路線圖剩 **唯一一個 P0**：實作 cadence + subject detection 到 `program/run.py::_detect_phrase_starts`
+- 其他待寫項是 per-piece analysis 系列 (analysis_mozart_k283 / analysis_chopin_op9_no2 / etc) — 隨 debugging 需要逐一補

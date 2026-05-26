@@ -1,6 +1,6 @@
 # Phrase Analysis Wiki 樂句分析 Wiki
 
-> Last updated: 2026-05-26 | Sources: 1 | Concepts: 11 | Composers: 6 | Analyses: 1 | Raw: 0
+> Last updated: 2026-05-26 | Sources: 1 | Concepts: 12 | Composers: 8 | Analyses: 1 | Raw: 0
 
 樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]] 並列，是獨立的學習與知識累積 track。
 
@@ -25,12 +25,12 @@
 | 早期浪漫 (Schubert) | 5 | [[composer_schubert_long_phrase]] ✅ |
 | 浪漫 (Chopin + Schumann + Liszt + Brahms + Mendelssohn 等) | 49 | [[concept_chopin_lyrical_phrase]] ✅ (Chopin 為主) |
 | 浪漫民族樂派 (Grieg) | 10 | [[composer_grieg_lyric_pieces]] ✅ |
-| 後期浪漫 (Rachmaninoff) | 4 | ❌ TODO |
-| 印象 (Debussy + Ravel) | 12 | [[concept_impressionist_phrasing]] ✅ |
-| 二十世紀 / 現代 (Scriabin + Bartok) | 3 | ❌ TODO |
-| 其他 (Mussorgsky + Joplin + Faure + Satie 等) | 13 | ❌ TODO |
+| 後期浪漫 (Rachmaninoff) | 4 | [[composer_rachmaninoff_phrasing]] ✅ |
+| 印象 (Debussy + Ravel) | 12 | [[concept_impressionist_phrasing]] + [[composer_debussy_phrasing]] ✅ |
+| 二十世紀 / 現代 (Scriabin + Bartok) | 3 | [[composer_twentieth_century]] ✅ |
+| 其他 (Mussorgsky + Joplin + Faure + Satie 等) | 13 | [[composer_other_pig_pieces]] ✅ |
 
-**目前覆蓋：~134 / 150 = 89%**（按曲數），剩 11% 為後期浪漫 / 二十世紀 / 雜項。
+**目前覆蓋：150 / 150 = 100%**（按曲數）— PIG 28 val 全涵蓋。
 
 ## Concepts (通用)
 
@@ -45,6 +45,8 @@
 - [⭐ Running Passage Thumb Reservation](concept_running_passage_thumb_reservation.md) — phrase-start anchor cost rule；長階運行音起手避免「最外側 finger」以保留 thumb 給 thumb-under；解 mvt4 m50 case 揭露的 DP 短視野問題；實測 penalty=5.0 為必要值
 - [Phrase Elision](concept_phrase_elision.md) — 樂句重疊（一句結尾 = 下句開始）；「歸前」決定 + 對 motif/cadence detection 的影響；浪漫派頻繁
 - [Modulation as Phrase Signal](concept_modulation_as_phrase_signal.md) — 第四類樂句邊界訊號（轉調）；key signature change 偵測 + filter tonicization；對 Schubert/Beethoven/Chopin 關鍵
+- [⭐ Texture Change Detection](concept_texture_change_detection.md) — 第五類樂句邊界訊號（紋理變化）：density / register / dynamic / pedal；印象派 + 浪漫派核心工具
+- [Modal Scale Fingering](concept_modal_scale_fingering.md) — Modal / pentatonic / whole-tone / octatonic 對指法 + 樂句的影響；跨 wiki_piano + wiki_phrase
 
 ## Composers (作曲家特化)
 
@@ -54,6 +56,9 @@
 - [⭐ Chopin (per-genre)](composer_chopin_phrasing.md) — Nocturne / Etude / Ballade / Mazurka / Waltz / Prelude / Polonaise / Scherzo / Impromptu 各 genre 樂句邏輯；最大 PIG composer bloc (23 曲)
 - [⭐ Mozart (per-form)](composer_mozart_phrasing.md) — sonata-allegro / slow mov / rondo 形式；古典 period/sentence **純正範本**；驗證 cadence detection 演算法的 baseline
 - [⭐ Debussy (per-collection)](composer_debussy_phrasing.md) — Suite Bergamasque / Préludes / Études / Images / Children's Corner 各 collection；time-period 對 cadence 適用性影響大
+- [Rachmaninoff](composer_rachmaninoff_phrasing.md) — 後期浪漫長 melodic arch + 厚和聲 + 戲劇 climax + 大手前提
+- [20th Century (Scriabin + Bartok)](composer_twentieth_century.md) — atonal/post-tonal phrase；Scriabin mystic chord + Bartok modal/asymmetric meter
+- [Other PIG composers](composer_other_pig_pieces.md) — Mussorgsky/Joplin/Faure/Satie/Dvorak/Albeniz/Scarlatti (13 PIG 曲合一頁)
 
 ## Analyses (per-piece)
 
@@ -77,14 +82,15 @@
 | ~~P0~~ | ~~`concept_figural_boundary_detection`~~ | ✅ 完成 (direction reversal + closure 處理) |
 | ~~P0~~ | ~~實作 figural detection~~ | ✅ 完成 (Phase 1 落地、A/B 驗證 -0.1pp 中性) |
 | ~~P0~~ | ~~實作 thumb reservation~~ | ✅ 完成 (Phase B 落地、penalty=5.0 → +1.2pp aggregate) |
-| **P0** | 實作 cadence + subject detection 到 `_detect_phrase_starts` | TODO |
+| **P0** | 實作 cadence + subject detection 到 `_detect_phrase_starts` | TODO (剩餘最大 item) |
 | ~~P1~~ | ~~`concept_phrase_elision`~~ | ✅ 完成 |
+| ~~P1~~ | ~~`concept_texture_change_detection`~~ | ✅ 完成 |
 | ~~P2~~ | ~~`concept_modulation_as_phrase_signal`~~ | ✅ 完成 |
 | ~~P3~~ | ~~`composer_chopin_phrasing`~~ | ✅ 完成 |
 | ~~P3~~ | ~~`composer_mozart_phrasing`~~ | ✅ 完成 |
 | ~~P3~~ | ~~`composer_debussy_phrasing`~~ | ✅ 完成 |
-| P1 | `concept_texture_change_detection` — 印象派需要 | TODO |
-| P4 | `composer_rachmaninoff_phrasing` — 後期浪漫補完 | TODO |
-| P4 | `concept_modal_scale_fingering` (mode 對指法 + 樂句的影響) | TODO |
-| P5 | 二十世紀 / 現代 (Scriabin, Bartok) | TODO |
-| P5 | 其他作曲家 (Mussorgsky, Joplin, Faure, Satie) | TODO |
+| ~~P4~~ | ~~`composer_rachmaninoff_phrasing`~~ | ✅ 完成 |
+| ~~P4~~ | ~~`concept_modal_scale_fingering`~~ | ✅ 完成 |
+| ~~P5~~ | ~~二十世紀 / 現代~~ | ✅ 完成 |
+| ~~P5~~ | ~~其他作曲家~~ | ✅ 完成 |
+| 待寫 | per-piece `analysis_*.md` 系列 (e.g. analysis_mozart_k283, analysis_chopin_op9_no2) | TODO，per-piece debugging 時逐一補 |
