@@ -236,3 +236,30 @@ mvt4 啟用 cadence flag 後實測：
 - 對 Mozart/Beethoven PIG 啟用 cadence flag 跑 A/B
 - Cost-based 紅線 (Cost(DP) ≤ Cost(PIG_min)) 取代 GMR 為 deployment 判準
 - Per-piece thumb-reservation 啟用其他 mvt（用戶教過 override 的）
+
+## [2026-05-26] per-piece analysis batch — 3 representative pieces
+
+清完 index.md 上 "per-piece analysis 系列" TODO，寫 3 個 PIG 代表曲分析
+(Mozart K283 / Chopin Op.9-2 / Debussy Clair de Lune)。這些是 concept
+pages §5/§6 點名引用的驗證曲目，現在有了配套的具體分析。
+
+**Pages created (3)**:
+- `analysis_mozart_k283_first_mov.md` (PIG 011) — sonata-allegro 教科書範例；
+  預期 cadence detection 偵測 3-5 PACs；驗證對純古典作品命中率
+- `analysis_chopin_op9_no2_nocturne.md` (PIG 023) — 浪漫派 lyrical 範本；
+  揭露 figural detection 對 fioritura 過濾需求 + Op.9-2 中段 elision 案例
+- `analysis_debussy_clair_de_lune.md` (PIG 037) — 印象派 ABA' 結構；
+  B 段 arpeggio wash 揭露 [[concept_texture_change_detection]] Phase 1
+  實作為下一輪 P0
+
+**揭露下一輪實作優先**：
+1. concept_texture_change_detection Phase 1 落地（Clair de Lune B 段需要）
+2. 對 Mozart/Beethoven/Chopin/Schubert PIG 啟用 cadence flag 跑 A/B
+3. Cadence Phase 2 (IAC/HC/DC) - 對浪漫派擴張和聲
+4. Fioritura / ornament 過濾 - Chopin Nocturne 需要
+
+**wiki_phrase 最終狀態**:
+- Pages: 25 (1 source + 12 concepts + 8 composers + **4 analyses** + index/log)
+- PIG 覆蓋: 100% (composer 層面)
+- Analyses 層面: 4 個代表曲（每個風格至少一個 deep-dive）
+- 路線圖：原 P0/P1/P2/P3/P4/P5 全清完；下一輪重點在實作端 + per-PIG 啟用

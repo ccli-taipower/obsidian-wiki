@@ -1,6 +1,6 @@
 # Phrase Analysis Wiki 樂句分析 Wiki
 
-> Last updated: 2026-05-26 | Sources: 1 | Concepts: 12 | Composers: 8 | Analyses: 1 | Raw: 0
+> Last updated: 2026-05-26 | Sources: 1 | Concepts: 12 | Composers: 8 | Analyses: 4 | Raw: 0
 
 樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]] 並列，是獨立的學習與知識累積 track。
 
@@ -63,6 +63,9 @@
 ## Analyses (per-piece)
 
 - [⭐ Bach Invention 4 in D minor (BWV 775)](analysis_bach_inv_4_d_minor.md) — 第一個 end-to-end case study；揭露**第三類樂句邊界**（figural / coda）— subject detection + cadence detection 都不涵蓋；驅動下一輪 concept TODO
+- [Mozart K283 G major 1st mov](analysis_mozart_k283_first_mov.md) — PIG 011, sonata-allegro 教科書範例；驗證 cadence detection 對純古典作品命中率（預期 3-5 PACs）
+- [Chopin Nocturne Op.9 No.2 E♭ major](analysis_chopin_op9_no2_nocturne.md) — PIG 023, 浪漫派 lyrical 範本；揭露 figural detection 對 fioritura 過濾需求 + elision 案例
+- [Debussy Clair de Lune](analysis_debussy_clair_de_lune.md) — PIG 037, 印象派 ABA' + B 段 arpeggio wash；揭露 [[concept_texture_change_detection]] Phase 1 實作為下一輪優先
 
 ## Sources
 
@@ -93,4 +96,8 @@
 | ~~P4~~ | ~~`concept_modal_scale_fingering`~~ | ✅ 完成 |
 | ~~P5~~ | ~~二十世紀 / 現代~~ | ✅ 完成 |
 | ~~P5~~ | ~~其他作曲家~~ | ✅ 完成 |
-| 待寫 | per-piece `analysis_*.md` 系列 (e.g. analysis_mozart_k283, analysis_chopin_op9_no2) | TODO，per-piece debugging 時逐一補 |
+| ~~待寫~~ | ~~per-piece `analysis_*.md` 系列~~ | ✅ 已寫 4 個代表曲 (Bach Inv 4 / Mozart K283 / Chopin Op.9-2 / Debussy Clair de Lune)；其他依 debugging 需要逐一補 |
+| **下輪** | `concept_texture_change_detection` Phase 1 落地（從 Clair de Lune 分析揭露為新 P0）| TODO |
+| **下輪** | 對 Mozart/Beethoven/Chopin/Schubert 啟用 cadence flag 跑 A/B | TODO |
+| **下輪** | Cost-based 紅線 (Cost(DP) ≤ Cost(PIG_min)) 取代 GMR 為 deployment 判準 | TODO |
+| **下輪** | Per-piece thumb-reservation 啟用其他用戶教過 override 的 mvt | TODO |
