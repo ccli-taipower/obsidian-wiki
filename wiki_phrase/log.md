@@ -105,3 +105,34 @@ mvt4 subject (len=8) 的入聲位置實測：
 | Figural | concept_figural_boundary_detection | episode / coda / etude (其他) |
 
 **Next**: 落地到 `program/run.py` Phase 1 prototype，跑 A/B 看 mvt4 + PIG GMR 影響
+
+## [2026-05-26] Phase 1 + Phase B 落地 + Validation
+
+**Phase 1: figural boundary detection 落地** (score-claude commit e942cd4):
+- `_detect_figural_boundaries(groups)` 函式 + USE_FIGURAL_BOUNDARY_DETECTION flag (default OFF)
+- 含 fix: 加 FIGURAL_MAX_STEP_SEMITONES=4 限制，避免 closure leap 把 figure range 撐爆 octave 上限
+- Validation: m50 pos2 正確被偵測；221 tests pass
+
+**Phase 2.1 mvt4 A/B**: Override match -1.7pp (39.0% → 37.3%). m50 詳 0 變化 — 揭露關鍵發現「樂句邊界必要但不充分」: DP 在新樂句內仍 local-min 選 thumb，需要新 cost rule
+
+**Phase 2.2 Bach Inv 全本** (mvt 1-8, 1002 overrides): aggregate **-0.1pp** (37.4 → 37.3). high variance: mvt1/2 +2-4pp (好), mvt4/6/7 -1.6 to -3.4pp (mvt6 過 red line). 啟發式分不出「真樂句邊界」vs「同樂句內 figural 變化」
+
+**Phase B: 新 concept + 新 cost rule** (`concept_running_passage_thumb_reservation.md`):
+- 機制：phrase start 看後續 4 音，若為 stepwise > 5 半音 ascending/descending → 罰「方向 outer finger」
+- 目標：捕捉 thumb-under / substitution 慣例 (Bach 風格長階串聯)
+- 實作：`_running_passage_thumb_reservation_cost()` + USE_THUMB_RESERVATION flag
+
+**Phase B 實測 penalty sweep** (Bach Inv 1-8):
+| penalty | Δ aggregate | m50 flip? |
+|---|---|---|
+| 0.5-1.5 | -0.4pp | ❌ |
+| 3.0 | +0.1pp | ❌ |
+| 4.0 | +0.6pp | ❌ |
+| **5.0** | **+1.2pp** | **✓** |
+
+penalty=5.0 為必要值（W_PHRASE_ANCHOR + transition seam 在 thumb 上的累積偏好 ~2-3 units 要被克服）。已設為 default。
+
+**Next**:
+- PIG val 驗證（28 首）以確認對其他作曲家無 negative spillover
+- 若 PIG 健康 → 把 flags default 改 ON
+- 加 RUNNING_PASSAGE_OUTER_START_PENALTY 到 _TUNE_SCALARS
