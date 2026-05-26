@@ -126,5 +126,3 @@ output: list of phrase-start indices
 
 此演算法待驗證 — 先做 mvt4 case study ([[analysis_bach_inv_4_d_minor]]) 看是否正確抓到 m50 boundary。
 
-## 變更日誌
-- 2026-05-26: 創立。內容來源 [[src_epochtimes_fugue_zhou_2005]] + P1 通用音樂理論知識擴增。所有「TODO」連結為占位，未來補。

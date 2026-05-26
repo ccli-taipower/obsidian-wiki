@@ -205,57 +205,20 @@ cadence_weight = {
 
 整合到 DP：`W_PHRASE_ANCHOR` 在 PAC 後比在週期 fallback 後**更強**（手位 reset 信心更高）。可以做 `W_PHRASE_ANCHOR × cadence_weight` 的動態加權。
 
-## 7. 實作風險與漸進路線（含實測修正）
+## 7. 已知偵測限制（演算法層面）
 
-**Phase 1（完成 2026-05-26）**：
-- 實作 `_detect_cadence_boundaries(groups)` in `program/run.py`
-- USE_CADENCE_DETECTION flag (default OFF) + BACH_INV_PHRASE_FLAGS schema 加 "cadence" key
-- _PHRASE_CTX module dict 傳 mxl_path（不動 `_detect_phrase_starts` signature）
-- 整合到 Pass 6 hook（with cache + per-mvt invalidation）
+PAC 偵測的精度取決於 chord-level 對和聲的提取方式。music21 `chordify` 在面對快速 arpeggiation 時會產生 **per-tick fragmented chord**（每個 offset 被當成獨立 chord），導致：
 
-**實測結果 (Bach Inv 4 mvt4)**：
-- PAC 偵測：**0 個** — Bach 對位 texture（chordify 把 multi-voice 揉一起）
-  + 嚴格 V→I 根位 + soprano tonic 條件對 Bach 偏嚴
-- Override match 變化：**0pp**（cadence 沒 fire，所以沒影響）
-- 與 §5 預期一致：對位音樂表 `concept_cadence_detection §5 → ❌ 對位音樂失靈`
+- 單音 bass 被分析為 lowercase Roman numeral（如 "v" 而非 "V"），mode 無法判定
+- 真正的 V→I 事件分散在多個 chord ticks 內，per-pair 比對 miss
+- Soprano-on-tonic 條件因 arpeggio 不同 tick 取到不同最高音而誤判
 
-**對 Bach 效益低（如預期）；對 Mozart/Beethoven/Chopin/Schubert 預期會 fire。
-實作就緒、未來逐曲驗證**。下一步：對 PIG 011 Mozart K283 / 034 Beethoven
-Pathétique 啟用 cadence flag，看 GMR / override match 變化。
+**改善方向**：
+- **Windowed chord aggregation**：以 1-2 beat 視窗合併 ticks，找該視窗的 dominant chord (modal pc-set)
+- **Measure-end chord-only**：只看每小節最後一拍的 chord，判定為 cadence 候選
+- **改用 functional analysis library**：如 music21 `analysis.discrete` 或 partimento-style 工具
 
-**Phase 1 實測延伸 (2026-05-26, 同日)**:
-
-對 Mozart K283 / K545、Beethoven Pathétique、Chopin Ballade 2 / Op.9-2、
-Bach WTC2 Fugue 2 跑 cadence detection 標準 A/B：**所有曲目都 0 PAC**
-(只 Bach WTC2 RH 有 1 個疑似邊界 at m1，疑似 noise)。
-
-**根因比想像深**：music21 `chordify` 對 Mozart 快速 arpeggiation 產生 per-tick
-fragmented chord (每個 offset 都被當成一個 chord)，導致：
-- 單音 D bass 被分析為 "v" (lowercase, 無法決定 mode)
-- 「真正的 V→I」事件分散在多個 chord ticks 內，無法被 per-pair 比對抓到
-- Soprano-on-tonic 也常因 arpeggio 在不同 tick 取到不同最高音而 fail
-
-**Phase 2 必要修正**:
-- **Windowed chord aggregation**: 以 1-2 beat 視窗合併 ticks，找該視窗的 dominant chord (modal pc-set)，而非 per-tick 比對
-- 或 **measure-end chord-only**: 只看每小節最後一拍的 chord，判定為 cadence 候選
-- 或 **改用 functional analysis library** (e.g., music21 `analysis.discrete` 或 partimento-style 工具)
-
-Phase 1 的「lowercase v 接受」fix 已加 (commit 對齊 8e0a71e 後)，但仍不足，
-因為 fragmentation 是更上游問題。
-
-**結論**：cadence detection Phase 1 對 Bach + Mozart/Chopin/Beethoven **均無效**。
-是個機制 placeholder。實際 deployment 需要 Phase 2 重做 chord aggregation 層。
-
-**Phase 2 候選**（依需要）：
-- IAC 偵測（inversions / soprano 非 tonic 容許）
-- HC 偵測（V 持續或後接 rest）
-- DC 偵測（V→vi 反訊號 — 反而**不**標邊界，因真正 PAC 在後）
-- 對浪漫派曲目啟用，看 Chopin / Schubert 是否得益
-
-**Phase 3 候選**：
-- Modal cadence (plagal IV-I, modal final) 偵測
-- 對 Grieg / Debussy 部分曲目嘗試
-- 與 [[concept_modal_scale_fingering]] 互動
+對位音樂（Bach Inventions / Fugues）一般不適用 PAC 偵測 — chordify 把 multi-voice 揉成 vertical 和弦會丟失對位線索，建議改用 [[concept_subject_imitation_detection]]。
 
 ## 8. 與其他 wiki 頁面的關係
 
@@ -263,5 +226,3 @@ Phase 1 的「lowercase v 接受」fix 已加 (commit 對齊 8e0a71e 後)，但�
 - 對位作品改用 [[concept_subject_imitation_detection]] 而非 cadence
 - 印象派 [[concept_impressionist_phrasing]] 明確說「禁用此頁演算法」
 
-## 變更日誌
-- 2026-05-26: 創立。工具頁，定義 4 種 cadence 的 music21 偵測演算法。Phase 1 (PAC only) 為下一步實作目標。

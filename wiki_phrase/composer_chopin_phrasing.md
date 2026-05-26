@@ -136,5 +136,3 @@ Chopin 樂句長度統計分佈（合成估計）：
   - [[analysis_chopin_ballade_no2]]
   - [[concept_dance_metric_accent]] — Mazurka / Waltz / Polonaise 節奏共通
 
-## 變更日誌
-- 2026-05-26: 創立。Chopin 按 genre 細分，補完 PIG 最大 composer bloc 的覆蓋。

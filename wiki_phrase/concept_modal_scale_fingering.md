@@ -152,5 +152,3 @@ def assign_fingering_v6_modal_aware(matched, hand):
   - [[concept_modal_cadence_patterns]] (mode-specific cadence)
   - [[../wiki_piano/concept_pentatonic_finger_groups]] (跨 wiki 新頁)
 
-## 變更日誌
-- 2026-05-26: 創立。Mode 對指法 + 樂句邊界的影響。跨 wiki 概念頁。

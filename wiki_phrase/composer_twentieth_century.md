@@ -108,5 +108,3 @@
   - [[concept_rhythmic_cell_detection]] (Bartok / Stravinsky 節奏 cell)
   - [[concept_asymmetric_meter]] (5/8, 7/8 對 phrase 的影響)
 
-## 變更日誌
-- 2026-05-26: 創立。Scriabin + Bartok 合一頁。PIG 覆蓋從 ~92% 推到 ~94%。

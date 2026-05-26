@@ -127,5 +127,3 @@ Debussy 的「sound color」與 sostenuto / damper pedal **不可分**。Pedal �
   - [[concept_modal_scale_fingering]] (modal 對指法的影響)
   - [[concept_pedal_as_phrase_signal]]
 
-## 變更日誌
-- 2026-05-26: 創立。Debussy 按 collection 細分，補完印象派概念的細部。

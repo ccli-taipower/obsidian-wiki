@@ -107,5 +107,3 @@ schubert_phrase_detector(groups, hand):
 - 待寫：
   - [[concept_modulation_as_phrase_signal]] (轉調作為樂句訊號的細化)
 
-## 變更日誌
-- 2026-05-26: 創立。Schubert 特化頁。古典基底 + Lied 旋律 + 轉調訊號。

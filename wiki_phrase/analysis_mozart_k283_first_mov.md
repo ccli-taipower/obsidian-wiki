@@ -80,41 +80,10 @@ PIG K283 有 6 個 annotators（ES, HI, HK, YI / YS, EF），多於一般曲目�
 
 實測前 prediction：**3-5 個 PAC 偵測到**。若 music21 RomanNumeralFromChord 對 Mozart 表現良好（chordify 主調 texture 比 Bach 對位乾淨），預期信心度 high。
 
-## 7. 待執行的驗證步驟
-
-```bash
-# 假設 PIG 011 已快取到 tmp/011_Mozart_PSon_K283_G_i_B0-22/
-# 1. 加 PIG_PHRASE_FLAGS["011"] = {"cadence": True} 或 sim
-#    (目前 BACH_INV_PHRASE_FLAGS 只支援 Bach Inv mvt key，
-#     對 PIG-only 曲目要 SINGLE_PDF_* 對應或擴充)
-# 2. 跑 compare_pig.py 對 011 with cadence ON
-# 3. 觀察 GMR / cost variance
-
-# 或寫 diag script:
-python3 tmp/diag_cadence_mozart_k283.py  # (待寫)
-```
-
-## 8. 預期收穫 (相對 baseline)
-
-- **PAC 確實 fire**：與 Bach (0 fires) 對比明顯，驗證 Mozart/Beethoven 是 cadence 偵測的正確使用場景
-- **Override match 變化未知**（PIG 011 沒有 user-taught override；只能比對 PIG annotator）
-- **PIG GMR**：可能小幅變化，視 cadence 落點是否與既有 Pass 3 4-bar 邊界重合而定
-
-## 9. 後續分析候選 (deferred)
-
-- bar-by-bar 對比 expected PAC 與 actual PAC 偵測
-- 與 PIG 6 annotators 平均 cadence-aware 指法比對
-- 對比 Beethoven Op.13 Pathétique (PIG 034) — 同 sonata-allegro 但中期更戲劇 expansion
-
-## 10. 與其他 wiki 頁面的關係
+## 7. 與其他 wiki 頁面的關係
 
 - 父頁 [[composer_mozart_phrasing]]：通則
 - 父頁 [[concept_classical_period_sentence]]：純正範本
 - 工具頁 [[concept_cadence_detection]]：對 Mozart 預期 fire 良好
 - 兄弟頁 [[analysis_bach_inv_4_d_minor]]：對位 vs 主調對比
-- 待寫：
-  - [[analysis_beethoven_pathetique_first_mov]] (PIG 034)
-  - [[analysis_mozart_k545_first_mov]] (PIG 017, 簡化版 sonata)
 
-## 變更日誌
-- 2026-05-26: 創立。第二個 per-piece analysis。Mozart sonata 純正範本，預期 PAC fire 良好（驗證 cadence Phase 1 對主調作品的正確性）。

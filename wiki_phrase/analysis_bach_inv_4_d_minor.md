@@ -104,28 +104,7 @@ LH first note: m1 (was empty placeholder; real LH starts m3)
 | **Cadence** | [[concept_cadence_detection]] | Bach 段尾的 PAC/HC |
 | **Figural / Sequential** | ❌ **未涵蓋** | mvt4 m50 pos2、episode 內的 figure 切換 |
 
-## 5. 對 wiki 的回饋 — 缺失的 concept
-
-mvt4 m50 暴露**第三類**樂句邊界 — figural 切換 — 是現有 wiki 缺失的概念。需要新頁：
-
-### 5.1 `concept_figural_boundary_detection.md` (新增 TODO)
-
-預期內容：
-- 偵測 *figural unit* （連續方向一致的 ≥ 3 音 + 統一節奏 + 統一音域範圍）
-- 偵測 figural unit 的「邊界事件」：
-  - 方向反轉 (上行 → 下行)
-  - 音域跳出 figure 範圍 (≥ 1 octave)
-  - 節奏密度變化
-  - 音型結束 + 開始另一個 figure
-- 對 episode 段落最有用（不像主題段有 subject 提供結構）
-
-### 5.2 與現有 `_detect_phrase_starts` 的關係
-
-現有 PHRASE_BREAK_THRESHOLD=13 半音是 figural boundary 的**極粗略**代理 — 只抓最劇烈的方向反轉 (LH m50 +15 半音觸發)。新概念應細化：
-- 偵測 sextuplet / quadruplet 等 figural pattern
-- 偵測 pattern 切換點，不只看單一音高跳幅
-
-## 6. m49-m51 user override 重新解讀
+## 5. m49-m51 user override 重新解讀
 
 用三類邊界框架，重新看 user override（[[../score-claude/memory/feedback_override_semantics]] 的「分析背後意義」原則）：
 
@@ -142,84 +121,22 @@ mvt4 m50 暴露**第三類**樂句邊界 — figural 切換 — 是現有 wiki �
 
 → 用戶的 override **完全對應**到主題進入 + figural 邊界的合成結構，不是 cadence、不是 subject re-entry。
 
-## 7. 與現有 `_detect_phrase_starts` 對照
+## 6. 三類樂句邊界並用的必要性 (musicology)
 
-**Current detection (per-hand)**:
-- RH starts (measures): **1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49**
-- LH starts (measures): **1, 9, 17, 25, 33, 41, 49, 50**
+從 mvt4 完整曲式可導出：對 Bach Invention，僅靠單一偵測軸無法完整描述：
 
-**Subject entries (新偵測結果)**:
-- RH subject entries: **1, 5, 26, 44**
-- LH subject entries: **3, 38, 46**
+- **Subject entries** 抓曲式大骨架 (exposition / middle / recap)，但不涵蓋 episode / coda 內部
+- **Cadence** 抓段尾收束，但 Bach 對位 texture 中 cadence 結構常被 multi-voice 掩蓋
+- **Figural boundary** 抓 episode / coda 內 figural pattern 切換，這正是 m50 case 的類型
 
-**對照差異**：
+→ 三類邊界**互補**才能完整覆蓋 Bach Invention 樂句結構。對應工具：
+  - [[concept_subject_imitation_detection]]
+  - [[concept_cadence_detection]]
+  - [[concept_figural_boundary_detection]]
 
-| 現有偵測抓到 | Subject 偵測新增 | 兩者皆漏 |
-|---|---|---|
-| m1, m5 (RH/LH 開頭) | m26 (RH middle entry) | **m50 (coda figural)** |
-| 規律每 4-8 bar | m38 (LH recap) | episode 內所有 figural 邊界 |
-| LH m50 (碰巧因 +15 半音) | m44, m46 (final entries) | — |
-
-→ 現有偵測：**規律但 content-blind**（4-bar 週期碰巧抓到一些，但純偶然）
-→ Subject 偵測：**結構正確**（捕捉曲式邊界）但**漏 episode 細節**
-→ 合成：**Subject + Cadence + Figural 三軸並用**才能完整描述 mvt4
-
-## 8. 演算法路線圖 (對 `_detect_phrase_starts` 的修改建議)
-
-```
-def _detect_phrase_starts_v2(groups, hand, hand_set_groups, mxl_path):
-    """新版偵測器 — 三軸合成"""
-
-    # 軸 1: 現有 hard breaks (REST / 大跳 / cadential rhythm)
-    starts = set(_detect_phrase_starts(groups))  # 保留作為 baseline
-
-    # 軸 2: Subject imitation entries (對對位作品)
-    if is_contrapuntal(mxl_path):  # Bach Invention/Fugue/WTC 等
-        subject_starts = detect_subject_entries(hand_set_groups)
-        starts.update(subject_starts[hand])
-
-    # 軸 3: Cadence (對古典/浪漫主調作品)
-    if is_homophonic(mxl_path):  # Mozart/Chopin/etc
-        cadence_starts = detect_cadence_starts(groups, mxl_path)
-        starts.update(cadence_starts)
-
-    # 軸 4: Figural boundary (對 episode / coda 段)
-    # TODO — 需先寫 concept_figural_boundary_detection.md
-    # figural_starts = detect_figural_boundaries(groups)
-    # starts.update(figural_starts)
-
-    # 移除 Pass 3 的 4-bar fallback (對 Bach / Chopin 是反指標)
-    # 只在 is_classical(mxl_path) 才啟用 4-bar fallback
-
-    return sorted(starts)
-```
-
-## 9. 預測：套用此 case study 後的指法影響
-
-對 mvt4 m49-m51 RH：
-
-**現有 DP（無 m50 boundary）**：
-- m50 pos1 B♭4 = f4 (override f5)
-- m50 pos2 C#4 = f1 (override f2)
-- m50 pos3 D4 = f2 (override f1)
-- 整段 mismatch 4 / 6 = 67%
-
-**加 figural boundary 在 m50 pos2 後（預期）**：
-- m50 pos1 B♭4 → phrase X 結尾，DP 自由選；override 強制 f5
-- m50 pos2 C#4 → phrase Y 開頭，phrase anchor = 低音域、應選低位置 finger；DP 預期會選 f2 (匹配 override) 或 f1（仍 mismatch）
-- 視 DP 對「新樂句開頭應該用什麼 anchor」的學習成效
-
-**驗證指標**：
-- Override match rate 在 m49-m51 從 33% (現)（2/6 RH match）提升到至少 50% (3/6)
-- 不影響其他位置 cost / GMR
-- 進一步加 figural boundary 一般化規則後，整曲 GMR 可預期改善
-
-## 10. 與其他 wiki 頁面的關係
+## 7. 與其他 wiki 頁面的關係
 
 - 第一個應用 [[concept_fugue]] + [[concept_counterpoint]] + [[concept_subject_imitation_detection]] 的 analysis 頁
-- 揭露 [[concept_cadence_detection]] **不足以**覆蓋對位作品（已知）+ **subject detection 也不足以覆蓋 episode**（新發現）
-- 觸發新 concept TODO: `concept_figural_boundary_detection`
-- 對應 program memory: [[../score-claude/memory/feedback_override_semantics]]、[[../score-claude/memory/feedback_phrase_as_breath]]
+- 揭露 [[concept_figural_boundary_detection]] 對 episode/coda 段的必要性
+- 對應 [[../score-claude/memory/feedback_override_semantics]]、[[../score-claude/memory/feedback_phrase_as_breath]]
 
-## 變更日誌
-- 2026-05-26: 創立。第一個 end-to-end analysis case，揭露第三類樂句邊界（figural / coda），驅動新 concept TODO。

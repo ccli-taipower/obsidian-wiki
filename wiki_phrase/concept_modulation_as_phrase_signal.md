@@ -152,5 +152,3 @@ def _detect_phrase_starts_with_modulation(groups, mxl_path):
 - 對 [[concept_impressionist_phrasing]] 是**反指標**（Debussy modal 不適用）
 - 對 [[concept_fugue]] §3.2 development 段相關
 
-## 變更日誌
-- 2026-05-26: 創立。轉調作為第四類樂句邊界訊號，特別對 Schubert / Beethoven / Chopin 適用。

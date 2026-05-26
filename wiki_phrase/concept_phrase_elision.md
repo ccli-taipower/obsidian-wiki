@@ -112,5 +112,3 @@ def _detect_phrase_starts_with_elision(groups, mxl_path):
 - 待寫：
   - [[analysis_chopin_op9_no2_nocturne]] 應該有 elision 範例
 
-## 變更日誌
-- 2026-05-26: 創立。Phrase elision 概念頁，含「歸前」操作型決定 + 整合到 `_detect_phrase_starts` 的方案。

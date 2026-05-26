@@ -140,5 +140,3 @@ beethoven_phrase_detector(groups, period_estimate):
    若無 Op. 號則保守用早期規則
 ```
 
-## 變更日誌
-- 2026-05-26: 創立。Beethoven 特化頁。早期 / 中期 / 晚期區分為主軸。

@@ -216,5 +216,3 @@ boundaries = (
 - 與 [[concept_cadence_detection]] 互補：cadence 處理和聲收束，本頁處理 melodic 形狀切換
 - 觸發頁：[[analysis_bach_inv_4_d_minor]] §4 揭露此 concept 缺失
 
-## 變更日誌
-- 2026-05-26: 創立。第三類樂句邊界工具頁。Phase 1 (direction reversal) 為下一步實作目標。

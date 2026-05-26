@@ -108,26 +108,12 @@ Chopin 浪漫派指法比 Mozart classical 變異更大（個人風格 + 大手�
 | Fioritura 段 | 5-finger group 不重新洗牌（連續 thumb-pass 避免）|
 | 同音換指 (sub_from) | 多個 annotators 標記點位置一致性 |
 
-## 11. 待執行驗證
-
-```bash
-# 對 PIG 023 跑 compare_pig.py with default flags
-python3 program/compare_pig.py --analyze 023  # (待擴展為 per-pid invoke)
-
-# 加 cadence flag 後重跑，比對 GMR 變化
-# 加 figural flag 後檢查 fioritura 是否誤切
-```
-
-## 12. 與其他 wiki 頁面的關係
+## 11. 與其他 wiki 頁面的關係
 
 - 父頁 [[composer_chopin_phrasing]]：通則 (per-genre, 本曲 = Nocturne)
 - 父頁 [[concept_chopin_lyrical_phrase]]：通則 (浪漫派 lyrical)
 - 工具頁 [[concept_phrase_elision]]：Op.9-2 為主要驗證 case
 - 反向：[[concept_figural_boundary_detection]] 對 fioritura 的處理
 - 兄弟頁 [[analysis_mozart_k283_first_mov]]：古典 vs 浪漫對比
-- 待寫：
-  - [[analysis_chopin_etude_op10_no3_tristesse]] — 另一 lyrical Chopin
   - [[analysis_chopin_ballade_2]] — 大型 narrative
 
-## 變更日誌
-- 2026-05-26: 創立。第三個 per-piece analysis，浪漫派 lyrical 範本，揭露 figural detection 對 fioritura 過濾需求。

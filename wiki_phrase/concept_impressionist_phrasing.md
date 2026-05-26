@@ -139,5 +139,3 @@ impressionist_phrase_detector(groups):
   - [[concept_modal_scale_fingering]] (mode-aware fingering)
   - [[composer_debussy_phrasing]] (Debussy 細分)
 
-## 變更日誌
-- 2026-05-26: 創立。印象派樂句首頁。texture 為主軸，與古典 / 浪漫的旋律 / 和聲驅動 phrasing 切割。

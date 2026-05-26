@@ -151,5 +151,3 @@ Caplin 列出多種混合形式 (hybrid theme types)，常見：
 
 **實作風險**：cadence 偵測本身是難題，music21 的 RomanNumeralFromChord 不總是準。Phase 1 先做「4-bar 對稱 + 2-bar 重複偵測」(純結構訊號)，cadence 偵測作為 Phase 2 升級。
 
-## 變更日誌
-- 2026-05-26: 創立。第一批古典時期 phrase 概念。所有 TODO 連結為占位。

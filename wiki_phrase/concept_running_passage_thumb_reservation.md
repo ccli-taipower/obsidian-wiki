@@ -143,65 +143,32 @@ def _running_passage_thumb_reservation_cost(
 
 **預期 mvt4 m50 pos2 改 f2**（與 override 一致）。
 
-## 8. 風險與調參（含實測修正）
+## 8. 調參考量
 
-**過度懲罰風險**：
-- penalty 太大 → 短 phrase（4-5 音）也會被誤罰
-- penalty 太小 → m50 case 無效
+**Penalty 大小的權衡**：
+- 太大 → 短 phrase（4-5 音）也會被誤罰
+- 太小 → 無法翻轉 DP 在 phrase-start 的自然偏好
 
-**初始假設**：penalty = 0.5（介於 W_PHRASE_ANCHOR=0.4 與 STEP_AGILITY_WEIGHT=0.4 之間）
+**Penalty 為何可能需要顯著大於其他 cost 常數**：
 
-**實測結果 2026-05-26（Bach Inv mvt 1-8, 1002 overrides）**：
-
-| penalty | Bach Inv aggregate Δ | mvt4 m50 pos2 flip? |
-|---|---|---|
-| 0.5 | -0.4pp | ❌ |
-| 1.5 | -0.4pp | ❌ |
-| 3.0 | +0.1pp | ❌ |
-| 4.0 | +0.6pp | ❌ |
-| **5.0** | **+1.2pp** ✓ | **✓** |
-
-**修正**：實際需要 penalty = 5.0，不是 0.5。原因：
-
-`_run_phrase_dp` 對 phrase 第一個 chord 計算 cost 時，f1 (thumb at C#4) 同時得到兩個「自然優勢」：
+`_run_phrase_dp` 對 phrase 第一個 chord 計算 cost 時，「外側 finger」(如 RH 上行的 thumb) 可能同時得到兩個自然優勢：
 1. `W_PHRASE_ANCHOR × 0` ≈ 0 cost（thumb 落在 anchor target）
-2. `PHRASE_SEAM_TC_SCALE × _transition_cost(prev_f4@B♭4 → f1@C#4)` 比 → f2 路徑便宜，因為 (1,4) span comfort 比 (2,4) 寬
+2. `PHRASE_SEAM_TC_SCALE × _transition_cost(prev → thumb)` 較便宜，因為大跨度 finger pair 的 comfort span 較寬
 
-f1 vs f2 在 mvt4 m50 phrase start 的總 cost 差距 ≈ 2-3 units。要翻轉，penalty 必須 > 2×typical。
-
-5.0 是必要值，**不是過度懲罰** — 它是修正 anchor 原則的 over-application。其他 cost 常數（0.4-1.5 範圍）是「微調」，5.0 是「結構性修正」，scale 不同。
+要翻轉這個累積偏好，penalty 必須 > 兩者之和。在實務上這意味著本規則的 penalty **不是 micro-tuning** 而是「結構性修正」— 修正一個 over-applied 的 anchor 原則 — 因此 magnitude 與一般 cost 常數（0.4-1.5）的 scale 不同。
 
 **look_ahead 過大**：
 - 看太遠 → phrase 內 figure 變化會被當成 monotonic（過度觸發）
-- look_ahead=4 限制：只看接下來 4 音
+- look_ahead=4 是一個 reasonable cap：只看接下來 4 音
 
-**該偵測「running passage」的 stepwise + monotonic 是否與 [[concept_figural_boundary_detection]] 衝突**？
-- 部分重疊。Figural boundary 偵測「figure 結束」；本頁偵測「figure 開始時的起手」
-- 兩者**互補不互斥** — 都基於同一個「stepwise monotonic > 5 半音」結構，但用在不同 cost 維度
+**與 [[concept_figural_boundary_detection]] 的關係**：
+- 部分重疊（都基於「stepwise monotonic > 5 半音」結構）
+- Figural boundary 偵測「figure 結束」；本頁偵測「figure 開始時的起手」
+- 兩者**互補不互斥** — 用在不同 cost 維度
 
 ## 9. 與其他 wiki 頁面的關係
 
 - 對應 [[../wiki_piano/concept_thumb_technique]] §thumb-under — 提供啟動的指法選擇支援
 - 對應 [[../wiki_piano/concept_finger_span_table]] — 限制 5-指範圍假設的數理基礎
 - 對應 [[concept_fugue]] §episode — episode 段大量 running passage
-- 對應 [[analysis_bach_inv_4_d_minor]] §6 — 直接解釋 m50 user override 的選擇
-
-## 10. 漸進實作路線（含實測修正）
-
-**Phase 1（完成 2026-05-26）**：實作路線 A (look-ahead local cost)，penalty=5.0（實測必要值，非 0.5）
-- A/B 測試 mvt4: m50 pos2 改選 f2 ✓
-- A/B 測試 Bach Inv 全本: override match +1.2pp ✓
-
-**Phase 2（完成 2026-05-26）**：對 PIG val 28 首測試 — **負面結果，default 維持 OFF**
-- RH GMR -1.07pp、LH GMR -2.73pp、TOTAL -1.74pp
-- 12 / 28 首 per-piece regression > 2pp
-- 揭露：本規則對「user 教過 override 的曲子」改善，但對 PIG 默認的曲子推離 PIG 平均
-- 與 `feedback_personal_biomechanics.md` 一致：user 個人 idiom ≠ PIG 多人平均，規則做對的事，但 global default 風險高
-
-**Phase 3 候選方向**：
-- Per-piece flag：把 USE_THUMB_RESERVATION 加進 SINGLE_PDF_* / BACH_INV_* 的 per-piece config，只在 user 已教 override 的曲目啟用
-- Cost-based red-line（取代 GMR-based）：用 `_cost_sanity_breaches` 而非 GMR 判定是否安全；若 cost 仍 ≤ PIG_min，GMR 變化可接受
-- 與 [[concept_figural_boundary_detection]] 整合：兩個 rule 同時啟用對相同 case 的累積效果
-
-## 變更日誌
-- 2026-05-26: 創立。源於 Phase 2.1 mvt4 m50 加 phrase boundary 無效的發現。提出 thumb-reservation cost rule 作為 phrase-aware DP 的擴增。
+- 對應 [[analysis_bach_inv_4_d_minor]] §5 — 直接解釋 m50 user override 的選擇

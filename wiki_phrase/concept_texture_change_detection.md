@@ -174,5 +174,3 @@ phrases = union(
 
 **Phase 3**：複合 voting score + threshold 調參
 
-## 變更日誌
-- 2026-05-26: 創立。Texture change detection 工具頁，補完印象派 + 浪漫派偵測缺口。

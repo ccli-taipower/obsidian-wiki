@@ -128,5 +128,3 @@ Chopin 風格的樂句訊號比一般浪漫派更具體：
   - [[concept_rubato_phrasing]] — rubato 對樂句邊界的影響
   - [[concept_phrase_elision]] — elision 通用處理
 
-## 變更日誌
-- 2026-05-26: 創立。第一批浪漫派樂句概念。Chopin 為主，可後續擴增 Schumann/Brahms/Liszt 等。

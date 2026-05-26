@@ -115,5 +115,3 @@ ABACA / ABACABA 結構。A 段為 refrain，B/C 段為 episode。**段落切換�
   - [[analysis_mozart_k283_first_mov]]
   - [[analysis_mozart_k545_first_mov]]
 
-## 變更日誌
-- 2026-05-26: 創立。Mozart 細分頁，補完 PIG 第二大 composer bloc。

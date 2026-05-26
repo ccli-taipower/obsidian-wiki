@@ -107,5 +107,3 @@
 - [[analysis_bach_inv_4_d_minor]] — mvt4 case study
 - [[composer_bach_invention_phrasing]] — Bach Invention 風格特化
 
-## 變更日誌
-- 2026-05-26: 創立。與 [[concept_fugue]] 同時種下。

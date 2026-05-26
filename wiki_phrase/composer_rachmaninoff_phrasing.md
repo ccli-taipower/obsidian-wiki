@@ -100,5 +100,3 @@ Rachmaninoff 自己手張 12 度。樂譜上常有：
 - 待寫：
   - [[analysis_rachmaninoff_prelude_op3_2]]
 
-## 變更日誌
-- 2026-05-26: 創立。後期浪漫補完。Rachmaninoff 4 PIG 曲，PIG 覆蓋從約 89% 推到約 92%。

@@ -94,5 +94,3 @@ grieg_phrase_detector(groups, hand):
   - [[concept_modal_cadence_detection]] (modal final 而非 tonic 的 cadence 處理)
   - [[concept_drone_bass_pattern]] (drone / ostinato 對樂句偵測的影響)
 
-## 變更日誌
-- 2026-05-26: 創立。Grieg Lyric Pieces 特化頁。規律結構 + modal 色彩 + drone bass。

@@ -97,35 +97,11 @@ Debussy 在 A 段大量使用平行三度六度（modal flavoring），但 B 段
 - A 段 RH chord voicing — 哪個音給 thumb 取決於手張
 - Pedal-dependent 指法（Debussy 預設 pedal）— annotator 對 pedal 假設可能不同
 
-## 10. 待執行驗證
-
-```bash
-# 對 PIG 037 跑 compare_pig.py with default flags
-# 預期：B 段大量 mismatch (no texture detector available)
-# 加 texture detector (Phase 1 待實作) 後比對改善
-
-# 短期可手動寫 SINGLE_PDF_PHRASE_FLAGS["clair"] = {"figural": True} 看 arpeggio
-# Pattern change 是否被 figural detector 部分捕捉
-```
-
-## 11. 對 wiki 的回饋
-
-Clair de Lune 揭露下一輪實作優先序：
-
-1. **[[concept_texture_change_detection]] Phase 1 實作**：B 段 arpeggio wash 必須偵測
-2. **Cadence detection mode awareness**：modal-tinged passages 不能用嚴格 V-I 條件
-3. **Pedal marking 偵測**：Audiveris 是否抽取需驗證
-
-## 12. 與其他 wiki 頁面的關係
+## 10. 與其他 wiki 頁面的關係
 
 - 父頁 [[composer_debussy_phrasing]] §3.1 Suite Bergamasque
 - 父頁 [[concept_impressionist_phrasing]] §6 驗證樣本
-- 工具頁 [[concept_texture_change_detection]] §7 驗證 case (Phase 1 待實作)
+- 工具頁 [[concept_texture_change_detection]] §7 驗證 case
 - 對比 [[analysis_mozart_k283_first_mov]] (古典 vs 印象派)
 - 對比 [[analysis_chopin_op9_no2_nocturne]] (浪漫 lyrical vs 印象派 texture)
-- 待寫：
-  - [[analysis_debussy_arabesque_1]] (PIG 035, 早期更古典)
-  - [[concept_pedal_as_phrase_signal]] (Debussy 系列需要)
 
-## 變更日誌
-- 2026-05-26: 創立。第四個 per-piece analysis，印象派 texture-driven 範本，揭露 texture change detection 為下一輪實作優先。
