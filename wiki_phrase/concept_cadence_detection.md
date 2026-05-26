@@ -223,6 +223,29 @@ cadence_weight = {
 實作就緒、未來逐曲驗證**。下一步：對 PIG 011 Mozart K283 / 034 Beethoven
 Pathétique 啟用 cadence flag，看 GMR / override match 變化。
 
+**Phase 1 實測延伸 (2026-05-26, 同日)**:
+
+對 Mozart K283 / K545、Beethoven Pathétique、Chopin Ballade 2 / Op.9-2、
+Bach WTC2 Fugue 2 跑 cadence detection 標準 A/B：**所有曲目都 0 PAC**
+(只 Bach WTC2 RH 有 1 個疑似邊界 at m1，疑似 noise)。
+
+**根因比想像深**：music21 `chordify` 對 Mozart 快速 arpeggiation 產生 per-tick
+fragmented chord (每個 offset 都被當成一個 chord)，導致：
+- 單音 D bass 被分析為 "v" (lowercase, 無法決定 mode)
+- 「真正的 V→I」事件分散在多個 chord ticks 內，無法被 per-pair 比對抓到
+- Soprano-on-tonic 也常因 arpeggio 在不同 tick 取到不同最高音而 fail
+
+**Phase 2 必要修正**:
+- **Windowed chord aggregation**: 以 1-2 beat 視窗合併 ticks，找該視窗的 dominant chord (modal pc-set)，而非 per-tick 比對
+- 或 **measure-end chord-only**: 只看每小節最後一拍的 chord，判定為 cadence 候選
+- 或 **改用 functional analysis library** (e.g., music21 `analysis.discrete` 或 partimento-style 工具)
+
+Phase 1 的「lowercase v 接受」fix 已加 (commit 對齊 8e0a71e 後)，但仍不足，
+因為 fragmentation 是更上游問題。
+
+**結論**：cadence detection Phase 1 對 Bach + Mozart/Chopin/Beethoven **均無效**。
+是個機制 placeholder。實際 deployment 需要 Phase 2 重做 chord aggregation 層。
+
 **Phase 2 候選**（依需要）：
 - IAC 偵測（inversions / soprano 非 tonic 容許）
 - HC 偵測（V 持續或後接 rest）
