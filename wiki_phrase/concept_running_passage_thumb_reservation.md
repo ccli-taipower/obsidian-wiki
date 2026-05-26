@@ -186,18 +186,22 @@ f1 vs f2 在 mvt4 m50 phrase start 的總 cost 差距 ≈ 2-3 units。要翻轉�
 - 對應 [[concept_fugue]] §episode — episode 段大量 running passage
 - 對應 [[analysis_bach_inv_4_d_minor]] §6 — 直接解釋 m50 user override 的選擇
 
-## 10. 漸進實作路線
+## 10. 漸進實作路線（含實測修正）
 
-**Phase 1**：實作路線 A (look-ahead local cost)，penalty=0.5，look_ahead=4
-- A/B 測試 mvt4: 是否 m50 pos2 改選 f2？
-- A/B 測試 Bach Inv 全本: override match rate 改善？
+**Phase 1（完成 2026-05-26）**：實作路線 A (look-ahead local cost)，penalty=5.0（實測必要值，非 0.5）
+- A/B 測試 mvt4: m50 pos2 改選 f2 ✓
+- A/B 測試 Bach Inv 全本: override match +1.2pp ✓
 
-**Phase 2**：對 PIG val 測試
-- 古典 / 浪漫派長運行音 (Mozart 副題、Chopin etudes) 是否得益？
+**Phase 2（完成 2026-05-26）**：對 PIG val 28 首測試 — **負面結果，default 維持 OFF**
+- RH GMR -1.07pp、LH GMR -2.73pp、TOTAL -1.74pp
+- 12 / 28 首 per-piece regression > 2pp
+- 揭露：本規則對「user 教過 override 的曲子」改善，但對 PIG 默認的曲子推離 PIG 平均
+- 與 `feedback_personal_biomechanics.md` 一致：user 個人 idiom ≠ PIG 多人平均，規則做對的事，但 global default 風險高
 
-**Phase 3**：與 [[concept_figural_boundary_detection]] 整合
-- 兩個 rule 同時啟用對相同 case 的累積效果
-- 探討是否該共享 detection (避免重複計算)
+**Phase 3 候選方向**：
+- Per-piece flag：把 USE_THUMB_RESERVATION 加進 SINGLE_PDF_* / BACH_INV_* 的 per-piece config，只在 user 已教 override 的曲目啟用
+- Cost-based red-line（取代 GMR-based）：用 `_cost_sanity_breaches` 而非 GMR 判定是否安全；若 cost 仍 ≤ PIG_min，GMR 變化可接受
+- 與 [[concept_figural_boundary_detection]] 整合：兩個 rule 同時啟用對相同 case 的累積效果
 
 ## 變更日誌
 - 2026-05-26: 創立。源於 Phase 2.1 mvt4 m50 加 phrase boundary 無效的發現。提出 thumb-reservation cost rule 作為 phrase-aware DP 的擴增。

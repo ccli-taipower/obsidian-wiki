@@ -136,3 +136,31 @@ penalty=5.0 為必要值（W_PHRASE_ANCHOR + transition seam 在 thumb 上的累
 - PIG val 驗證（28 首）以確認對其他作曲家無 negative spillover
 - 若 PIG 健康 → 把 flags default 改 ON
 - 加 RUNNING_PASSAGE_OUTER_START_PENALTY 到 _TUNE_SCALARS
+
+## [2026-05-26] Phase 2.3 PIG val + Phase 2.4 Decision
+
+**PIG val 28 首 (GMR-based, both flags ON @ penalty=5.0)**:
+| Hand | OFF | ON | Δ |
+|---|---|---|---|
+| RH | 57.75% | 56.69% | -1.07pp |
+| LH | 64.88% | 62.14% | -2.73pp |
+| TOTAL | 60.65% | 58.90% | **-1.74pp** |
+
+12 / 28 首 per-piece regression > 2pp（包括 001/002 Bach PIG、011/017 Mozart、021 Chopin、035 Debussy、124 LH -9pp）。
+4 首改善（086/097/135/140 RH +3 to +9pp）但被退步遠超。
+
+**這結果與 Phase B Bach Inv (+1.2pp) 並不矛盾** — 兩個 ground truth：
+- Bach Inv user override = user 個人 idiom（規則改善 ✓）
+- PIG 多人 majority = annotator 平均 idiom（規則推離 ✗）
+
+→ 規則正在做它該做的事：把 DP 推往 user 個人 hand，而非 PIG 平均。
+**與 `feedback_personal_biomechanics.md` 完全一致** — user 個人 ≠ PIG 多人平均，PIG 是「上限參考」非「優化目標」。
+
+**Phase 2.4 Decision: default 維持 OFF**
+
+理由：
+1. 雖然 GMR ≠ cost red line (`_cost_sanity_breaches`)，12 / 28 首顯著退步部署風險高
+2. 規則受益需 user 已教過該曲 override；無 override 時只是把 DP 推離 PIG 平均（對陌生曲子變差）
+3. 未來路徑：per-piece config（單曲 opt-in）+ 改用 cost-based 紅線檢查（而非 GMR）
+
+**長期啟示**：phrase-aware cost rules 可能需要「per-style scope」而非「global enable」。對位作品 + 用戶教過 override 的場合 ON；其他場合 OFF。下一輪 wiki 應該考慮 `concept_per_style_cost_rule_scoping` 之類的元規則。
