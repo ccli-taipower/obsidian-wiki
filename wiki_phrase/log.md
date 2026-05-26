@@ -237,6 +237,32 @@ mvt4 啟用 cadence flag 後實測：
 - Cost-based 紅線 (Cost(DP) ≤ Cost(PIG_min)) 取代 GMR 為 deployment 判準
 - Per-piece thumb-reservation 啟用其他 mvt（用戶教過 override 的）
 
+## [2026-05-26] 下輪 (1)(2)(3)(4) 全部落地 + Phase 2.4 翻轉跡象
+
+接續 P0 final 後，把 "下輪" 4 個 TODO 全部跑完：
+
+**(4) Per-piece flag expansion** (score-claude 8e0a71e):
+BACH_INV_PHRASE_FLAGS 加 mvt1/2/5 (figural+thumb), 維持 mvt4 (target case), 不加 mvt3/6/7/8 (neutral or red-line). 細項見 [[../score-claude/memory/project_phrase_detection_v1_phase1_phaseB]].
+
+**(1) Texture change detection** (score-claude 8e0a71e):
+Pass 7 hook + `_detect_texture_boundaries(groups)` Phase 1 (density + registral + range voting score). Validation 在 PIG 034 Beethoven Pathétique B1-134 抓到 LH **m12** Grave→Allegro 切換 ✓. Bach mvt4 (monophonic) 0 fires ✓.
+
+**(2) Cadence A/B on non-Bach** (score-claude 135f956 + wiki c4937d7):
+對 Mozart/Beethoven/Chopin/Bach WTC2 跑 A/B — **全部 0 PACs**。即使加 lowercase v fix 仍 0。根因 music21 chordify 對快速 arpeggiation 產生 per-tick fragmented chord，per-pair V→I 比對 miss。Phase 1 cadence 確認為 placeholder，需 Phase 2 windowed chord aggregation。
+
+**(3) Cost-based red-line check** (tmp/diag_cost_redline.py, not committed since tmp/ gitignored):
+5 首 PIG val sample × 2 configs (baseline / flagged figural+thumb+texture):
+- **0 NEW cost-red-line breaches**（per-piece Cost(DP) ≤ Cost(PIG_min) 全綠）
+- Bach Inv 1 cost +63.9 RH / +57.0 LH (DP 變貴但仍 ≤ ref bound)
+- Chopin Op.9-2 RH + Debussy Clair RH baseline 算不出 cost (phrase 全空), flagged 可算 ← "healed"
+
+**重大含義**：Phase 2.3 GMR -1.74pp 不是真 red-line。真正判準 (cost ≤ PIG_min) **全綠**。
+GMR 下降反映 DP 不再嘗試對齊 PIG 平均 — 這正是 personal-biomech 原則想要的。
+若 user 接受此哲學定位，可考慮把 flags default ON。
+
+**保守 deferral**：5-piece sample 還小，需擴大到 PIG 28 完整跑 cost-based 才下 deployment 結論。
+Memory `project_phrase_detection_v1_phase1_phaseB` 已更新此 finding。
+
 ## [2026-05-26] per-piece analysis batch — 3 representative pieces
 
 清完 index.md 上 "per-piece analysis 系列" TODO，寫 3 個 PIG 代表曲分析
