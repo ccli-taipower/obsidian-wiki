@@ -199,3 +199,40 @@ penalty=5.0 為必要值（W_PHRASE_ANCHOR + transition seam 在 thumb 上的累
 - Sources: 1, Concepts: 12, Composers: 8, Analyses: 1 (Bach Inv 4)
 - 路線圖剩 **唯一一個 P0**：實作 cadence + subject detection 到 `program/run.py::_detect_phrase_starts`
 - 其他待寫項是 per-piece analysis 系列 (analysis_mozart_k283 / analysis_chopin_op9_no2 / etc) — 隨 debugging 需要逐一補
+
+## [2026-05-26] P0 final — cadence detection (PAC Phase 1) 實作落地
+
+完成 wiki_phrase concept_cadence_detection.md 的 Phase 1 (PAC only) 落地。
+score-claude commit d344183.
+
+Architecture:
+- `_detect_cadence_boundaries(groups)` 用 music21 chordify + RomanNumeralFromChord
+- `_PHRASE_CTX` module-level dict 傳 mxl_path（不動 `_detect_phrase_starts` signature）
+- Pass 6 hook in `_detect_phrase_starts`（only fires if mxl_path in ctx）
+- BACH_INV_PHRASE_FLAGS schema 加 "cadence" key
+- _process_mvt_book 寫 mvt_path 進 ctx，per-mvt 清 cache
+
+mvt4 啟用 cadence flag 後實測：
+- **PAC 偵測 0 個** — Bach 對位 texture (chordify 把 multi-voice 揉一起)
+  + 嚴格 V→I 根位 + soprano tonic 條件對 Bach 偏嚴
+- DP 0 finger changes; aggregate match unchanged
+- 與 concept §5 預期一致：對位音樂失靈
+
+**對 Bach 效益低（如預期）；對 Mozart/Beethoven/Chopin/Schubert 預期會 fire**
+（傳統 cadence 常見）。實作就緒、未來逐曲驗證可加進 BACH_INV_PHRASE_FLAGS。
+
+**wiki_phrase 整體狀態 (final)**:
+- Pages: 22 total (1 source + 12 concepts + 8 composers + 1 analysis + index/log)
+- PIG 覆蓋: 100% (150/150)
+- 5 類偵測器全 implemented in `_detect_phrase_starts`:
+  Pass 1 (hard breaks) + Pass 1b (anacrusis) + Pass 2 (period inference) +
+  Pass 3 (週期 fallback) + Pass 4 (figural, opt-in) + Pass 5 (subject, opt-in) +
+  Pass 6 (cadence PAC, opt-in)
+- 路線圖 P0 全完成；剩 per-piece analysis 隨 debugging 補
+
+**Next session 可能方向**:
+- Per-piece analysis 系列（analysis_mozart_k283, analysis_chopin_op9_no2）
+- Cadence Phase 2 (IAC/HC/DC)
+- 對 Mozart/Beethoven PIG 啟用 cadence flag 跑 A/B
+- Cost-based 紅線 (Cost(DP) ≤ Cost(PIG_min)) 取代 GMR 為 deployment 判準
+- Per-piece thumb-reservation 啟用其他 mvt（用戶教過 override 的）

@@ -82,7 +82,7 @@
 | ~~P0~~ | ~~`concept_figural_boundary_detection`~~ | ✅ 完成 (direction reversal + closure 處理) |
 | ~~P0~~ | ~~實作 figural detection~~ | ✅ 完成 (Phase 1 落地、A/B 驗證 -0.1pp 中性) |
 | ~~P0~~ | ~~實作 thumb reservation~~ | ✅ 完成 (Phase B 落地、penalty=5.0 → +1.2pp aggregate) |
-| **P0** | 實作 cadence + subject detection 到 `_detect_phrase_starts` | TODO (剩餘最大 item) |
+| ~~P0~~ | ~~實作 cadence + subject detection~~ | ✅ 完成 (cadence d344183, subject 7971cfd) — Bach 端 cadence 0 fires (預期); Mozart/Chopin 待逐曲驗證 |
 | ~~P1~~ | ~~`concept_phrase_elision`~~ | ✅ 完成 |
 | ~~P1~~ | ~~`concept_texture_change_detection`~~ | ✅ 完成 |
 | ~~P2~~ | ~~`concept_modulation_as_phrase_signal`~~ | ✅ 完成 |

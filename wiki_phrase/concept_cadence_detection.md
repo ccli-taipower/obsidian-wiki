@@ -205,20 +205,34 @@ cadence_weight = {
 
 整合到 DP：`W_PHRASE_ANCHOR` 在 PAC 後比在週期 fallback 後**更強**（手位 reset 信心更高）。可以做 `W_PHRASE_ANCHOR × cadence_weight` 的動態加權。
 
-## 7. 實作風險與漸進路線
+## 7. 實作風險與漸進路線（含實測修正）
 
-**Phase 1**（最小可行）：
-- 只實作 PAC 偵測，加進 `_detect_phrase_starts` 作為新 hard break 訊號
-- 對 PIG Mozart 20 + Beethoven 21 跑 A/B 測試
-- 看 GMR 改善
+**Phase 1（完成 2026-05-26）**：
+- 實作 `_detect_cadence_boundaries(groups)` in `program/run.py`
+- USE_CADENCE_DETECTION flag (default OFF) + BACH_INV_PHRASE_FLAGS schema 加 "cadence" key
+- _PHRASE_CTX module dict 傳 mxl_path（不動 `_detect_phrase_starts` signature）
+- 整合到 Pass 6 hook（with cache + per-mvt invalidation）
 
-**Phase 2**：
-- 加 HC + DC 偵測
+**實測結果 (Bach Inv 4 mvt4)**：
+- PAC 偵測：**0 個** — Bach 對位 texture（chordify 把 multi-voice 揉一起）
+  + 嚴格 V→I 根位 + soprano tonic 條件對 Bach 偏嚴
+- Override match 變化：**0pp**（cadence 沒 fire，所以沒影響）
+- 與 §5 預期一致：對位音樂表 `concept_cadence_detection §5 → ❌ 對位音樂失靈`
+
+**對 Bach 效益低（如預期）；對 Mozart/Beethoven/Chopin/Schubert 預期會 fire。
+實作就緒、未來逐曲驗證**。下一步：對 PIG 011 Mozart K283 / 034 Beethoven
+Pathétique 啟用 cadence flag，看 GMR / override match 變化。
+
+**Phase 2 候選**（依需要）：
+- IAC 偵測（inversions / soprano 非 tonic 容許）
+- HC 偵測（V 持續或後接 rest）
+- DC 偵測（V→vi 反訊號 — 反而**不**標邊界，因真正 PAC 在後）
 - 對浪漫派曲目啟用，看 Chopin / Schubert 是否得益
 
-**Phase 3**：
-- Modal cadence (plagal, modal final) 偵測
+**Phase 3 候選**：
+- Modal cadence (plagal IV-I, modal final) 偵測
 - 對 Grieg / Debussy 部分曲目嘗試
+- 與 [[concept_modal_scale_fingering]] 互動
 
 ## 8. 與其他 wiki 頁面的關係
 
