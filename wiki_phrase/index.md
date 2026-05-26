@@ -1,6 +1,6 @@
 # Phrase Analysis Wiki 樂句分析 Wiki
 
-> Last updated: 2026-05-26 | Sources: 1 | Concepts: 5 | Composers: 3 | Analyses: 0 | Raw: 0
+> Last updated: 2026-05-26 | Sources: 1 | Concepts: 7 | Composers: 3 | Analyses: 1 | Raw: 0
 
 樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]] 並列，是獨立的學習與知識累積 track。
 
@@ -39,6 +39,8 @@
 - [Classical Period & Sentence](concept_classical_period_sentence.md) — 古典時期 4+4 period 與 2+2+4 sentence 結構；四種 cadence (PAC/IAC/HC/DC)
 - [Chopin & 浪漫派抒情樂句](concept_chopin_lyrical_phrase.md) — 不規律長樂句 + 禁用 4-bar fallback；浪漫派 cadence 退化
 - [Impressionist Phrasing](concept_impressionist_phrasing.md) — Debussy/Ravel texture-driven phrasing；cadence 失效
+- [⭐ Cadence Detection](concept_cadence_detection.md) — PAC/IAC/HC/DC 偵測演算法 (music21 RomanNumeral)；工具頁，多概念引用
+- [⭐ Subject Imitation Detection](concept_subject_imitation_detection.md) — fugue / Invention 主題重入聲偵測；正向 + 倒影 + 逆行 + 逆行倒影 + 時值變化
 
 ## Composers (作曲家特化)
 
@@ -48,7 +50,7 @@
 
 ## Analyses (per-piece)
 
-_尚無。第一個目標：`analysis_bach_inv_4_d_minor.md` (mvt4 m50 case study)_
+- [⭐ Bach Invention 4 in D minor (BWV 775)](analysis_bach_inv_4_d_minor.md) — 第一個 end-to-end case study；揭露**第三類樂句邊界**（figural / coda）— subject detection + cadence detection 都不涵蓋；驅動下一輪 concept TODO
 
 ## Sources
 
@@ -62,9 +64,10 @@ _尚無。第一個目標：`analysis_bach_inv_4_d_minor.md` (mvt4 m50 case stud
 
 | 優先序 | 項目 | 狀態 |
 |---|---|---|
-| **P0** | `analysis_bach_inv_4_d_minor` — mvt4 m50 case study | TODO（debugging context） |
-| **P0** | `concept_cadence_detection` — PAC/IAC/HC/DC 演算法（多概念頁需要） | TODO |
-| **P0** | `concept_subject_imitation_detection` — fugue 主題重入聲偵測 | TODO |
+| ~~P0~~ | ~~`analysis_bach_inv_4_d_minor`~~ | ✅ 完成 (揭露 figural boundary 缺失) |
+| ~~P0~~ | ~~`concept_cadence_detection`~~ | ✅ 完成 (含 music21 演算法) |
+| ~~P0~~ | ~~`concept_subject_imitation_detection`~~ | ✅ 完成 (含 4 種變體 + 時值變化) |
+| **P0** | `concept_figural_boundary_detection` — episode / coda 內 figure 切換偵測（從 mvt4 m50 case 揭露） | TODO |
 | P1 | `concept_texture_change_detection` — 印象派需要 | TODO |
 | P1 | `concept_phrase_elision` — 古典 / 浪漫共用 | TODO |
 | P2 | `concept_modulation_as_phrase_signal` — Schubert / Beethoven | TODO |

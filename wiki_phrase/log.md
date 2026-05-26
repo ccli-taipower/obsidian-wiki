@@ -49,3 +49,43 @@ User 指出 PIG 包含不同時期 / 不同作曲家，phrase 切錯會系統性
 - P0: `concept_texture_change_detection.md` — 印象派 + 浪漫派需要
 - P0: `analysis_bach_inv_4_d_minor.md` — 把 mvt4 m50 case 寫成可驗證單元
 - 中期目標：實作 composer-aware `_detect_phrase_starts` dispatcher
+
+## [2026-05-26] tools + first analysis | cadence + subject detection + Bach Inv 4 case study
+
+接續 PIG-driven expansion，把所有 concept 頁引用的工具頁補完，並做第一個 end-to-end analysis 驗證。
+
+**Pages created (3)**:
+- `concept_cadence_detection.md` — 4 種 cadence (PAC/IAC/HC/DC) 偵測演算法，music21 實作範例，confidence weight；工具頁，被多 era 概念頁引用
+- `concept_subject_imitation_detection.md` — fugue/Invention 主題重入聲偵測，含 4 種模仿變體 (rectus/inversion/retrograde/RI) + 時值變化 (augmentation/diminution) + voice separation 前置考量
+- `analysis_bach_inv_4_d_minor.md` — 第一個 end-to-end case，用 [[concept_subject_imitation_detection]] 跑 mvt4 實際資料
+
+**Bach Inv 4 案例的關鍵發現**：
+
+mvt4 subject (len=8) 的入聲位置實測：
+- RH: m1, m5, m26, m44 (exposition opening, exposition cont, middle entry, final entry)
+- LH: m3, m38, m46 (LH imitation, recap LH, final LH)
+
+→ 結構正確，符合典型 Bach Invention exposition + episode + middle entries + recap + coda 形式
+
+**但 m50 邊界 subject detection 沒找到**：
+- m50 在 coda 段（m48-m52）
+- 邊界是「figural / sequential boundary」— 一個 sextuplet figure 結束、下一個 figure 開始
+- subject detection 與 cadence detection 都不涵蓋此類邊界
+
+**揭露第三類樂句邊界**：
+| 類型 | 工具 | mvt4 範例 |
+|---|---|---|
+| Subject entry | concept_subject_imitation_detection | m1/5/26/44/3/38/46 |
+| Cadence | concept_cadence_detection | (典型在段尾) |
+| **Figural / Sequential** | **❌ 待寫** | **m50 pos2** |
+
+→ 新 P0：`concept_figural_boundary_detection.md`（從 mvt4 m50 case 揭露）
+
+**Index 更新**：
+- 加 cadence + subject + analysis 三筆連結
+- 路線圖：標記 3 個 P0 完成，新增 figural boundary 為新 P0
+
+**Next**:
+- P0: `concept_figural_boundary_detection.md` (新)
+- 中期目標：實作 composer-aware `_detect_phrase_starts` dispatcher (combines 3-4 軸偵測)
+- 第一波實作驗證：在 score-claude 端做 PAC 偵測 + Bach Invention subject 偵測的 Phase 1 prototype
