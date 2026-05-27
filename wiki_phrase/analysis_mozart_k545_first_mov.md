@@ -50,6 +50,14 @@ Both rules are opt-in via `SINGLE_PDF_PHRASE_FLAGS["017_Mozart_PSon_K545_C_i_B1-
 - Position guard: hardcoded `offset % 5 == 2` matches C-major-style pivot; may need
   per-key-signature work to generalise
 
+**v2 update (2026-05-27)**: Position guard refactored from hardcoded `offset % 5 == 2`
+to direction-aware modular pattern + uniform end-guard (see
+[[../wiki_piano/concept_long_scale_thumb_under]] §4). K545 RH **IMPROVED from
+v1 74.08% to v2 77.59% (+3.51pp gain)** — m9's long ascending segment now fires
+multiple thumb-unders correctly (v1 only fired once). m5 fingering still
+`1-2-3-1-2-3-4-5` matching PIG 6/6. Both v1 deviation notes (direction guard
++ position guard hack) are now RESOLVED.
+
 ## 5. HC over-fire concern (why HC was not included in Phase 2)
 
 K545 m1, m2, m4 all have measures ending on a single bass note D (dominant), which music21 classifies as `v` (incomplete minor dominant) or `V`. Including HC detection would add false boundaries at m2, m3, m5 — one per bar in the opening. This is the main reason HC is excluded from Phase 2 scope.

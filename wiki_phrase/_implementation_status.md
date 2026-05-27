@@ -152,6 +152,17 @@ Key lookup: `for key, flags in SINGLE_PDF_PHRASE_FLAGS.items(): if key in stem: 
 - All 21 `test_long_scale_thumb_under.py` pytest tests green
 - v1 deployed with 2 spec deviations (direction guard + position guard) — see [[../wiki_piano/concept_long_scale_thumb_under]] §4
 
+### 2.10.1 v2 update (2026-05-27)
+
+- Replaced v1 `offset % 5 == 2` + RH-asc-only direction guard with `_is_scale_pivot_position` helper encoding direction-aware modular pattern + uniform `seg.end - curr_idx >= 2` end-guard
+- **K545 RH Run D: v1 74.08% → v2 77.59% (+3.51pp improvement)** — m9 long ascending segment now fires multiple thumb-unders that v1 missed
+- K283 RH Run D: 54.28% (preserved from v1)
+- 26 non-target pieces still byte-identical (isolation preserved)
+- 6 new pytest tests; total long-scale tests now 27
+- Cross-piece probe (075 Chopin Op64-2 + 140 Scarlatti K208): Δ RH = 0.00pp on both (neutral, no DP change)
+- v1 deviations (direction guard + position guard hardcoded magic) RESOLVED
+- v2 commits: spec `984cdaa`, plan `ad0214a`, T1 helper `7db3ddd`, T2 hook swap `2a9d136`, T5 probe `5df1119`
+
 ## 3. Commit history
 
 ### 2026-05-26: Phase 1 (score-claude, 7+1 commits)

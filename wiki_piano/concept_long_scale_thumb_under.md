@@ -48,37 +48,58 @@ THUMB_PASS_UPWARD_EXTRA amount from `tc`.
 
 LH cases mostly no-op because `_transition_cost` already accepts LH thumb-pass.
 
-## 4. v1 implementation deviations from spec (known limitations)
+## 4. v2 direction-aware modular pattern (2026-05-27)
 
-The deployed v1 has two guards added during implementation that are NOT in the original spec:
+v1 deployed with two hardcoded guards (`offset % 5 == 2` modular + RH-asc/LH-desc direction restriction) that worked for K545's specific 8-note segment but didn't generalise. v2 (commit `2a9d136`) replaced both with a principled rule derived from standard piano pedagogy.
 
-### 4.1 Direction guard
+### 4.1 Pedagogical basis
 
-Only `(hand="right" and direction=+1)` OR `(hand="left" and direction=-1)` triggers cancellation.
-The 2 thumb-OVER cases are NOT cancelled in v1:
-- RH descending thumb-over (would benefit Bach WTC descending RH scales)
-- LH ascending thumb-over (LH no-op anyway, see asymmetry table)
+| Case | 1-octave (8-note) pattern | Multi-octave extension |
+|---|---|---|
+| RH asc / LH desc (thumb-under) | `1-2-3-1-2-3-4-5` | `(1-2-3)(1-2-3)...(1-2-3-4-5)` |
+| RH desc / LH asc (thumb-over) | `5-4-3-2-1-3-2-1` | `(5-4-3-2-1)(3-2-1)(3-2-1)...` |
 
-K545 (target) only uses RH ascending — guard is safe for our validation but limits applicability
-to non-target pieces with descending RH scales.
+Pivot transition offsets:
+- **Thumb-under**: `offset % 3 == 2` (offsets 2, 5, 8, 11...)
+- **Thumb-over**: `offset >= 4 AND (offset - 4) % 3 == 0` (offsets 4, 7, 10...)
 
-### 4.2 Position guard `offset % 5 == 2`
+### 4.2 End-guard
 
-`offset = (prev_idx - seg["start"])`. Cancellation fires only at `offset % 5 == 2`.
+Uniform across directions: pivot fires only if `seg["end"] - curr_idx >= 2` — leaving at least 2 notes after the pivot landing for the closing finger group (3-4-5 ascending or 3-2-1 descending).
 
-This pins the rule to the conventional C-major-style pivot position (thumb-under after 3
-white-key notes from segment start). Without this guard, DP cycles `1-2-3-1-2-3-1-2-3`
-indefinitely because every thumb-under transition costs 0 (over-cancellation).
+### 4.3 What this fixes vs v1
 
-**Known limitation**: hardcoded for the 5-note "thumb period" of C major / A natural minor.
-Other key signatures (F# major, modal scales) have different pivot positions; rule may not
-generalize without further work.
+| Limitation | v1 | v2 |
+|---|---|---|
+| Modular pattern | hardcoded `% 5 == 2` | direction-aware `% 3 == 2` / `>= 4 AND (-4) % 3 == 0` |
+| 5-note scale spurious thumb-under | could fire | end-guard rejects ✓ |
+| Long scale missing 2nd thumb-under | only offset 2 fired | both 2 + 5 fire ✓ (K545 m9 +3.51pp gain) |
+| RH descending thumb-over | disabled by direction guard | enabled ✓ |
+| LH ascending thumb-over | disabled by direction guard | enabled ✓ |
 
-### 4.3 Future v2 candidates
-- Replace `offset % 5 == 2` with diatonic-pattern-aware pivot detection (count white-key
-  positions, not transitions)
-- Remove direction guard once a proper "thumb-over pivot" position scheme is added
-- Add per-key-signature pivot offset table
+### 4.4 K545 + K283 regression test (v1 → v2)
+
+| Piece | v1 RH | v2 RH | Δ v2 - v1 |
+|---|---|---|---|
+| K545 (PIG 017) Run D | 74.08% | **77.59%** | **+3.51pp** |
+| K283 (PIG 011) Run D | 54.28% | 54.28% | 0pp (preserved) |
+
+26 non-target PIG val pieces byte-identical across Runs A/B/C/D (isolation preserved).
+
+v2 unexpectedly IMPROVES on v1: K545 m9 has a longer ascending segment than m5, and v2 fires multiple thumb-unders (offsets 2 + 5) where v1's `% 5 == 2` only fired once. m9 now matches PIG `1-2-3-1-2-3-4-5` pattern with partial PIG agreement at the top (midi 79: PIG `1/1/4/1/1/4`, v2 picks `1` matching 4/6 annotators).
+
+### 4.5 Cross-piece probe (Layer 4)
+
+075 Chopin Op64-2: 1 RH segment detected (length 4, descending). Δ RH = 0.00pp (no DP change).
+140 Scarlatti K208: 4 RH segments detected (lengths 5, 5, 9, 9). Δ RH = 0.00pp (no DP change).
+
+Both neutral — v2 doesn't help nor hurt non-target pieces. Confirms v2 is safe to enable on other pieces (no false-positive cascade).
+
+### 4.6 v3 candidates (future)
+
+- Per-key-signature pivot offset table (v2 assumes segment first transition starts the "1-2-3" or "5-4-3-2-1" pattern; F# major or chromatic-leaning keys may differ)
+- Bach Inv mvts enablement (1-3-1-3 alternation preference in Bach scales)
+- Pivot-position-aware DP rather than cost-cancellation
 
 ## 5. Validation results
 
