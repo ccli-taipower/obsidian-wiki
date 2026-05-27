@@ -40,17 +40,17 @@ Mvts 3/6/7/8 不啟用：Phase 2.2 A/B 顯示 mvt6 -3.4pp (red-line)、其他 ne
 
 `_process_mvt_book` hook 在 `assign_fingering_v6` 前 temporarily set flags, restore after. 只對 `_BACH_INV_STEM` 書冊生效 (SICILIANO 不受影響).
 
-`SINGLE_PDF_PHRASE_FLAGS: dict[str, dict]` (新增，2026-05-27 Cadence Phase 2):
+`SINGLE_PDF_PHRASE_FLAGS: dict[str, dict]` (新增，2026-05-27 Cadence Phase 2; long_scale added 2026-05-27):
 ```python
 {
   "011_Mozart_PSon_K283_G_i_B0-22": {
       "figural": False, "thumb": False, "subject": False,
-      "cadence": True, "texture": False,
+      "cadence": True, "texture": False, "long_scale": True,
   },  # PIG 011 — verified +1.01pp RH
   "017_Mozart_PSon_K545_C_i_B1-12": {
       "figural": False, "thumb": False, "subject": False,
-      "cadence": True, "texture": False,
-  },  # PIG 017 — IAC detected, texture-limit (Δ+0.00pp)
+      "cadence": True, "texture": False, "long_scale": True,
+  },  # PIG 017 — long_scale +4.06pp RH (K545 m5 ascending scale fixed)
 }
 ```
 
@@ -85,6 +85,9 @@ Key lookup: `for key, flags in SINGLE_PDF_PHRASE_FLAGS.items(): if key in stem: 
 | `TEXTURE_RANGE_MIN_DELTA` | 5 | range 變化閾 |
 | `TEXTURE_SCORE_THRESHOLD` | 1.5 | 投票總分觸發 |
 | `TEXTURE_MIN_GAP_GROUPS` | 3 | dedup |
+| `USE_LONG_SCALE_THUMB_UNDER` | False | global flag, default OFF; per-piece opt-in (K283 + K545 enabled) |
+| `SCALE_MIN_LEN`              | 4     | min notes for a stepwise run to qualify as scale segment |
+| `SCALE_MAX_CHROMATIC_RUN`    | 2     | drop segment if ≥3 consecutive half-steps (chromatic exclusion) |
 
 ## 2. A/B test results timeline (2026-05-26)
 
@@ -142,6 +145,13 @@ Key lookup: `for key, flags in SINGLE_PDF_PHRASE_FLAGS.items(): if key in stem: 
 - Aggregate Run B RH: **+0.07pp**
 - All 9 `cadence_phase_2` pytest tests: GREEN
 
+### 2.10 Long-Scale Thumb-Under A/B (2026-05-27)
+- K545 (PIG 017): BASE RH 70.02% → Run D (cadence + long_scale ON) **74.08%** (**Δ+4.06pp** — primary fix realised)
+- K283 (PIG 011): BASE RH 53.27% → Run D 54.28% (Δ+1.01pp — cadence-derived improvement preserved)
+- 26 non-target pieces: byte-identical across Runs A/B/C/D ✓ (per-piece flag isolation OK)
+- All 21 `test_long_scale_thumb_under.py` pytest tests green
+- v1 deployed with 2 spec deviations (direction guard + position guard) — see [[../wiki_piano/concept_long_scale_thumb_under]] §4
+
 ## 3. Commit history
 
 ### 2026-05-26: Phase 1 (score-claude, 7+1 commits)
@@ -178,6 +188,21 @@ obsidian-wiki: 從 `37aef5b` 起到 `045a863`，含 25 page 漸進建構 + clean
 | `a84da4e` | spec + plan post-pivot reconcile |
 
 obsidian-wiki: 5 pages updated/created in commit `acf3a93`.
+
+### 2026-05-27: Long-Scale Thumb-Under (score-claude, commits `42dacaa`–`1226a52`, 11 commits)
+| Commit | What |
+|---|---|
+| `42dacaa` | T1 — 3 constants (USE_LONG_SCALE_THUMB_UNDER, SCALE_MIN_LEN, SCALE_MAX_CHROMATIC_RUN) |
+| `4de8e89` | T2 — _detect_scale_segments + 7 tests |
+| `050aaa9` | T3 — _in_scale_segment + 4 tests |
+| `17c51fe` | T4 — _is_thumb_pass_at_pivot + _scale_wrong_direction_amount + 10 tests |
+| `db5a6cf` | T5 — _apply/restore_phrase_flags 6-tuple |
+| `8e8bd74` | T6 — _process_mvt_book inline 6-tuple |
+| `5bdc035` | T7 — DP hook wired (note: placed in wrong function, fixed at T9) |
+| `7bf6cb4` | T8 — K283 + K545 long_scale=True in SINGLE_PDF_PHRASE_FLAGS |
+| `e948958` | T9 fix — move hook to _run_phrase_dp + add direction/position guards |
+| `7b9c99c` | T9 diag — tmp/diag_long_scale_k545.py |
+| `1226a52` | T10 — PIG 28 harness Run D extension |
 
 ## 4. 2026-05-27: Cadence Phase 2 deployment summary
 

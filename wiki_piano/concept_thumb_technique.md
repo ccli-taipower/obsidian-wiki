@@ -27,6 +27,21 @@ tags: [piano_fingering, thumb, technique, scales]
 - J.S. Bach：引入拇指的廣泛使用（C.P.E. Bach 記載）
 - 現代：拇指穿越是所有音階指法的核心
 
+## Long-scale exception (2026-05-27)
+
+For long diatonic scale segments (≥4 stepwise notes, same direction, non-chromatic),
+the standard pedagogy of thumb-under (RH ascending / LH descending) takes precedence
+over the anti-focal-dystonia bias in `_transition_cost`.
+
+When sensor detects a scale segment AND the transition matches a thumb-pass pattern
+at the conventional 3-of-5-finger pivot position, `_transition_cost`'s WRONG_DIRECTION +
+THUMB_PASS_UPWARD_EXTRA cost is contextually cancelled. See [[concept_long_scale_thumb_under]]
+for sensor predicate + cost-cancellation spec.
+
+Validation: K545 m5 RH ascending C-major scale — PIG 6/6 = `1-2-3-1-2-3-4-5`, achieved
+by this rule (BASE = `1-2-3-4-5-?-?-?` stretch-no-thumb-under, +4.06pp RH after rule).
+Default OFF, per-piece opt-in via `SINGLE_PDF_PHRASE_FLAGS`.
+
 ## 來源
 
 - [src_piano_fingering_wikipedia](src_piano_fingering_wikipedia.md)

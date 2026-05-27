@@ -2,7 +2,7 @@
 
 > Source: PIG val piece 017 (`017_Mozart_PSon_K545_C_i_B1-12`)
 > Cadence Phase 2 validation result: secondary (texture limit) — see [[concept_cadence_detection]] §7.4
-> Status: tested 2026-05-27, IAC detected at m7→m8 but DP fingering improvement NOT realized
+> Status: FIXED 2026-05-27 — long-scale thumb-under rule deployed; K545 RH +4.06pp (BASE 70.02% → Run D 74.08%)
 
 ## 1. Excerpt structure
 
@@ -28,19 +28,27 @@ K545 RH B1-12 had pre-existing -8.4pp regression with figural+thumb flags ON (Ph
 - BASE DP: 1-2-3-4-5 (no thumb-under — already wrong vs PIG, but stable)
 - With thumb-reservation ON (TRT): 2-3-4-5-2 (worse — boundary at m5 triggers anti-thumb cost)
 
-## 4. Why Cadence Phase 2 doesn't fix this
+## 4. K545 m5 fix: Long-Scale Thumb-Under Rule (2026-05-27)
 
-The hope was: detect cadence elsewhere → disable Pass 3 fallback → remove m5 false boundary → DP gets longer planning horizon → maybe chooses thumb-under naturally.
+After Cadence Phase 2 removed the false m5 phrase boundary, DP fingering still
+defaulted to `1-2-3-4-5` because `_transition_cost` penalized the thumb-under
+transition (C5→D5: pf=3, cf=1) as WRONG_DIRECTION (~11.0 surcharge).
 
-What actually happened:
-1. Cadence detected at m8 IAC ✓
-2. Window mode default kept Pass 3 m5 boundary alive (only Pass 3 m9 boundary suppressed since it overlapped with cadence)
-3. Even with full-disable mode (CADENCE_DISABLES_FALLBACK=True), K545 m5 boundary removed → DP fingering still 1-2-3-4-5 (no change)
+The Long-Scale Thumb-Under Protection rule (see [[../wiki_piano/concept_long_scale_thumb_under]])
+detects K545 m5 as a long ascending diatonic scale segment, cancels the
+WRONG_DIRECTION penalty on thumb-pass transitions at the standard pivot position
+inside the segment, and allows DP to pick `1-2-3-1-2-3-4-5` matching PIG 6/6.
 
-The conclusion: K545 m5 fingering is determined by DP cost terms, not phrase boundary structure. Boundaries are necessary but not sufficient. Future fix candidates:
-- "Long-scale protection" cost rule (don't shift fingers mid-scale)
-- Manual per-piece fingering override for the m5 region
-- Reweight existing scale-aware cost terms
+Result: K545 RH BASE 70.02% → Run D (cadence + long_scale): **74.08% (Δ+4.06pp)**.
+
+Both rules are opt-in via `SINGLE_PDF_PHRASE_FLAGS["017_Mozart_PSon_K545_C_i_B1-12"]
+= {"cadence": True, "long_scale": True, ...}`.
+
+**v1 deviations from spec** (see [[../wiki_piano/concept_long_scale_thumb_under]] §4):
+- Direction guard: only RH ascending + LH descending (2 of 4 cases); RH descending
+  thumb-over not yet cancelled
+- Position guard: hardcoded `offset % 5 == 2` matches C-major-style pivot; may need
+  per-key-signature work to generalise
 
 ## 5. HC over-fire concern (why HC was not included in Phase 2)
 
