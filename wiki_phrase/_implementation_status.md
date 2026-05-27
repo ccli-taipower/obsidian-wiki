@@ -43,12 +43,18 @@ Mvts 3/6/7/8 不啟用：Phase 2.2 A/B 顯示 mvt6 -3.4pp (red-line)、其他 ne
 `SINGLE_PDF_PHRASE_FLAGS: dict[str, dict]` (新增，2026-05-27 Cadence Phase 2):
 ```python
 {
-  "K283": {"cadence": True},   # PIG 011 — verified +1.01pp RH
-  "K545": {"cadence": True},   # PIG 017 — IAC detected, texture-limit (Δ+0.00pp)
+  "011_Mozart_PSon_K283_G_i_B0-22": {
+      "figural": False, "thumb": False, "subject": False,
+      "cadence": True, "texture": False,
+  },  # PIG 011 — verified +1.01pp RH
+  "017_Mozart_PSon_K545_C_i_B1-12": {
+      "figural": False, "thumb": False, "subject": False,
+      "cadence": True, "texture": False,
+  },  # PIG 017 — IAC detected, texture-limit (Δ+0.00pp)
 }
 ```
 
-Key lookup: `any(kw in stem for kw in flags_dict)` (same pattern as SINGLE_PDF_OVERRIDES stem matching). Hook point: `_assign_fingering_v6` call in single-PDF flow, mirrors `_process_mvt_book` temporarily set/restore pattern.
+Key lookup: `for key, flags in SINGLE_PDF_PHRASE_FLAGS.items(): if key in stem: matched = flags; break` (first match wins, substring match on stem). Hook points: (a) single-PDF main loop in `run.py` (`_apply_phrase_flags(pdf_path.stem)` with try/finally `_restore_phrase_flags`); (b) `compare_pig._run_v6_dp` (takes `mxl_path` + `stem` kwargs, threads through from `compare_piece`).
 
 ### 1.3 Module-level context
 
@@ -70,7 +76,9 @@ Key lookup: `any(kw in stem for kw in flags_dict)` (same pattern as SINGLE_PDF_O
 | `SUBJECT_MATCH_TOLERANCE` | 0.8 | interval 一致比例 |
 | `SUBJECT_MIN_GAP_GROUPS` | 4 | dedup 寬度 |
 | `CADENCE_MIN_GAP_GROUPS` | 3 | dedup |
-| `CADENCE_BEAT_TOL` | 0.5 | chord offset 對齊容差 |
+| `CADENCE_BEAT_TOL` | 0.5 | chord offset 對齊容差 (closest-match within window) |
+| `CADENCE_DISABLES_FALLBACK` | **False** | window mode (`True` = drop all Pass 3 fallback when any cadence found; flipped to False after K283 -1.69pp regression) |
+| `CADENCE_PC_INCLUSION_BEATS` | 0.5 | retained from earlier DIY-classifier iteration; currently unused by music21-roman path |
 | `TEXTURE_WINDOW` | 4 | sliding window |
 | `TEXTURE_DENSITY_MIN_DELTA` | 2.0 | density 跳變閾 |
 | `TEXTURE_REGISTRAL_MIN_SHIFT` | 7 | 中心 midi shift (半音) |
@@ -150,20 +158,26 @@ Key lookup: `any(kw in stem for kw in flags_dict)` (same pattern as SINGLE_PDF_O
 
 obsidian-wiki: 從 `37aef5b` 起到 `045a863`，含 25 page 漸進建構 + cleanup.
 
-### 2026-05-27: Cadence Phase 2 (score-claude, commits `3aaa083`–`976cbb0`)
+### 2026-05-27: Cadence Phase 2 (score-claude, commits `edb434a`–`a84da4e`, 16 commits)
 | Commit | What |
 |---|---|
-| `3aaa083` | New constants: CADENCE_DISABLES_FALLBACK, CADENCE_SUPPRESS_BARS |
-| (T2) | `_aggregate_measure_chords` + `final_chord` field |
-| (T3) | `_classify_cadence_pair` music21-roman based |
-| (T4) | Rewrite `_detect_cadence_boundaries` body (PAC+IAC) |
-| (T5) | `_suppress_fallback_near_cadence` filter |
-| (T6) | Wire suppress into `_detect_phrase_starts` |
-| (T7) | `SINGLE_PDF_PHRASE_FLAGS` + apply/restore + single-PDF hook |
-| (T8) | `compare_pig._run_v6_dp` wire |
-| `976cbb0` | K283 A/B Layer 2 + K545 secondary validation |
+| `edb434a` | Spec doc |
+| `07efd9a` | Plan doc (12 tasks) |
+| `3aaa083` | T1 — `CADENCE_DISABLES_FALLBACK` + `CADENCE_PC_INCLUSION_BEATS` constants |
+| `9edc277` | T2 — `_aggregate_measure_chords` helper + K545 unit test |
+| `87e06f2` | T2 amendment — expose `final_chord` field (Chord object for music21 roman) |
+| `3179d05` | T3 — `_classify_cadence_pair` (music21 roman → PAC/IAC/None) |
+| `aa1963e` | T4 — rewrite `_detect_cadence_boundaries` body (PAC+IAC) + K283/K545 integration tests |
+| `144bde4` | T5 — `_suppress_fallback_near_cadence` filter + 3 tests |
+| `a494c10` | T6 — wire Pass 3 ↔ Pass 6 suppress in `_detect_phrase_starts` |
+| `a67c51c` | T7 — `SINGLE_PDF_PHRASE_FLAGS` + `_apply_phrase_flags`/`_restore_phrase_flags` + single-PDF hook |
+| `f39a1de` | T8 — `compare_pig._run_v6_dp` wire (mxl_path + stem kwargs + try/finally) |
+| `7430a4a` | T9 — `tmp/diag_cadence_p2.py` K283+K545 3-config A/B diagnostic |
+| `72efb6a` | T9 fixes — `offset` ↔ `onset_qn` field fallback; `CADENCE_DISABLES_FALLBACK` default True→False (window mode) |
+| `976cbb0` | T10 — `tmp/pig28_phrase_ab.py` extended to 3 runs + isolation check (26 non-target byte-identical) |
+| `a84da4e` | spec + plan post-pivot reconcile |
 
-obsidian-wiki: 5 pages updated/created (this commit).
+obsidian-wiki: 5 pages updated/created in commit `acf3a93`.
 
 ## 4. 2026-05-27: Cadence Phase 2 deployment summary
 
