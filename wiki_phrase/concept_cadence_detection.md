@@ -205,20 +205,41 @@ cadence_weight = {
 
 整合到 DP：`W_PHRASE_ANCHOR` 在 PAC 後比在週期 fallback 後**更強**（手位 reset 信心更高）。可以做 `W_PHRASE_ANCHOR × cadence_weight` 的動態加權。
 
-## 7. 已知偵測限制（演算法層面）
+## 7. Phase 2 (2026-05-27): music21 roman on measure-final chord
 
-PAC 偵測的精度取決於 chord-level 對和聲的提取方式。music21 `chordify` 在面對快速 arpeggiation 時會產生 **per-tick fragmented chord**（每個 offset 被當成獨立 chord），導致：
+Phase 1's per-tick `chordify` + `romanNumeralFromChord` produced 0 PACs on every tonal piece due to bass fragmentation. Phase 2 takes a different approach:
 
-- 單音 bass 被分析為 lowercase Roman numeral（如 "v" 而非 "V"），mode 無法判定
-- 真正的 V→I 事件分散在多個 chord ticks 內，per-pair 比對 miss
-- Soprano-on-tonic 條件因 arpeggio 不同 tick 取到不同最高音而誤判
+### 7.1 Algorithm
+1. **`_aggregate_measure_chords(score)`**: collapse chordify into one chord per measure, exposing the last chord event (the resolution) as `final_chord` (music21 Chord object)
+2. **`_classify_cadence_pair(prev_chord, curr_chord, key, soprano_midi)`**: call `music21.roman.romanNumeralFromChord(chord, key)` on each measure-final chord (NOT per-tick). Returns:
+   - `"PAC"` if V/V7 root → I root + soprano on tonic
+   - `"IAC"` if V→I but missing root-pos OR soprano-on-tonic (e.g. V in inversion, soprano on 3rd)
+   - `None` for V→vi (DC), I in 2nd inversion (cadential 6/4), or no V→I
+3. Cadence types accepted: V/V7/V9 + lowercase v/v7/v9 (music21's marker for incomplete dominant)
+4. I/i case-insensitive
+5. Boundary at first group of the measure AFTER the I-chord
 
-**改善方向**：
-- **Windowed chord aggregation**：以 1-2 beat 視窗合併 ticks，找該視窗的 dominant chord (modal pc-set)
-- **Measure-end chord-only**：只看每小節最後一拍的 chord，判定為 cadence 候選
-- **改用 functional analysis library**：如 music21 `analysis.discrete` 或 partimento-style 工具
+### 7.2 Scope (PAC + IAC only)
+- **PAC** + **IAC** are detected and both trigger boundaries
+- **HC** explicitly NOT detected — over-fires on piano accompaniment textures where many bars end on isolated dominant notes (K545 m1, m2, m4 all classify as `v`); would introduce false boundaries
+- **DC** correctly returns `None` from `_classify_cadence_pair` (V→vi is non-resolution)
 
-對位音樂（Bach Inventions / Fugues）一般不適用 PAC 偵測 — chordify 把 multi-voice 揉成 vertical 和弦會丟失對位線索，建議改用 [[concept_subject_imitation_detection]]。
+### 7.3 Pass 3 interaction
+- Default `CADENCE_DISABLES_FALLBACK = False` (window mode): remove Pass 3 fallback boundaries within ±1 bar of detected cadence; preserve distant fallbacks
+- Originally `=True` (full disable), changed after K283 -1.69pp regression with full disable: classical pieces with multiple sub-phrases benefit from Pass 3's regular structure; just one detected cadence shouldn't void all 4-bar fallbacks
+
+### 7.4 K283 + K545 validation results (T9 + T10)
+- K283 (primary): Run B (cadence ON) RH 53.27% → 54.28% (Δ+1.01pp); IAC detected at m10
+- K545 (secondary): Run B RH 70.02% → 70.02% (Δ+0.00pp); IAC detected at m8 — boundary structure DID change (Pass 3 m5 boundary suppressed by window mode at m9) but DP fingering result is bit-identical to BASE (K545 m5 problem is texture-driven; the boundary fix is necessary but not sufficient for fingering improvement)
+- 26 other PIG val pieces byte-identical to baseline (per-piece flag isolation verified)
+- Aggregate Run B RH +0.07pp
+
+### 7.5 Known limits still present
+- **K545 m5 problem unsolved by cadence alone**: removing m5 boundary doesn't change DP fingering — K545 m5-m8 scale's "right" fingering (1-2-3-1-2 thumb-under per PIG 6/6) requires DP cost rules beyond phrase boundary management
+- **Mid-piece modulation**: single `score.analyze('key')` for whole piece → cadences in new key may be missed (deferred to windowed key analysis)
+- **Counterpoint (Bach Inv)**: chordify still vertically squashes multi-voice; use `concept_subject_imitation_detection` instead, leave `USE_CADENCE_DETECTION` OFF per piece
+- **HC / DC** not Phase 2 (deferred)
+- **Beat-strength filter** not Phase 2 (PAC accepted regardless of which beat the I-chord lands on)
 
 ## 8. 與其他 wiki 頁面的關係
 

@@ -18,7 +18,7 @@
 | 3 | 4/8-bar periodic fallback | (always on) | — |
 | **4** | figural boundary | `USE_FIGURAL_BOUNDARY_DETECTION` | False |
 | **5** | subject imitation | `USE_SUBJECT_DETECTION` | False |
-| **6** | cadence PAC (Phase 1, placeholder) | `USE_CADENCE_DETECTION` | False |
+| **6** | cadence PAC+IAC (Phase 2 — music21 roman) | `USE_CADENCE_DETECTION` | False |
 | **7** | texture change | `USE_TEXTURE_DETECTION` | False |
 
 Plus phrase-start cost rule:
@@ -39,6 +39,16 @@ Plus phrase-start cost rule:
 Mvts 3/6/7/8 不啟用：Phase 2.2 A/B 顯示 mvt6 -3.4pp (red-line)、其他 neutral 或 slight negative.
 
 `_process_mvt_book` hook 在 `assign_fingering_v6` 前 temporarily set flags, restore after. 只對 `_BACH_INV_STEM` 書冊生效 (SICILIANO 不受影響).
+
+`SINGLE_PDF_PHRASE_FLAGS: dict[str, dict]` (新增，2026-05-27 Cadence Phase 2):
+```python
+{
+  "K283": {"cadence": True},   # PIG 011 — verified +1.01pp RH
+  "K545": {"cadence": True},   # PIG 017 — IAC detected, texture-limit (Δ+0.00pp)
+}
+```
+
+Key lookup: `any(kw in stem for kw in flags_dict)` (same pattern as SINGLE_PDF_OVERRIDES stem matching). Hook point: `_assign_fingering_v6` call in single-PDF flow, mirrors `_process_mvt_book` temporarily set/restore pattern.
 
 ### 1.3 Module-level context
 
@@ -117,9 +127,16 @@ Mvts 3/6/7/8 不啟用：Phase 2.2 A/B 顯示 mvt6 -3.4pp (red-line)、其他 ne
 - Bach Inv 1 cost +63.9 RH / +57.0 LH (vs PIG_min)
 - → Phase 2.4 GMR-based 判定 OVERTURNED；cost ≤ PIG_min 全綠
 
-## 3. Commit history (2026-05-26)
+### 2.9 Cadence Phase 2 A/B (2026-05-27)
+- K283 (PIG 011): BASE RH 53.27% → Run B (cadence ON) 54.28% (**Δ+1.01pp**); IAC at m10
+- K545 (PIG 017): BASE RH 70.02% → Run B 70.02% (Δ+0.00pp); IAC at m8, m5 boundary change made but fingering DP-identical (texture-driven limit documented)
+- 26 other PIG val pieces: byte-identical to baseline (isolation verified — 0 non-target drift)
+- Aggregate Run B RH: **+0.07pp**
+- All 9 `cadence_phase_2` pytest tests: GREEN
 
-### score-claude (7 commits)
+## 3. Commit history
+
+### 2026-05-26: Phase 1 (score-claude, 7+1 commits)
 | Commit | What |
 |---|---|
 | `966fae8` | CLAUDE.md wiki_phrase pointer |
@@ -131,21 +148,43 @@ Mvts 3/6/7/8 不啟用：Phase 2.2 A/B 顯示 mvt6 -3.4pp (red-line)、其他 ne
 | `8e0a71e` | Pass 7: texture detection + per-piece expansion mvt1/2/5 |
 | `135f956` | cadence lowercase v fix |
 
-### obsidian-wiki (13 commits)
-從 `37aef5b` 起到 `045a863`，含 25 page 漸進建構 + cleanup (this).
+obsidian-wiki: 從 `37aef5b` 起到 `045a863`，含 25 page 漸進建構 + cleanup.
 
-## 4. Open TODOs / next-session candidates
+### 2026-05-27: Cadence Phase 2 (score-claude, commits `3aaa083`–`976cbb0`)
+| Commit | What |
+|---|---|
+| `3aaa083` | New constants: CADENCE_DISABLES_FALLBACK, CADENCE_SUPPRESS_BARS |
+| (T2) | `_aggregate_measure_chords` + `final_chord` field |
+| (T3) | `_classify_cadence_pair` music21-roman based |
+| (T4) | Rewrite `_detect_cadence_boundaries` body (PAC+IAC) |
+| (T5) | `_suppress_fallback_near_cadence` filter |
+| (T6) | Wire suppress into `_detect_phrase_starts` |
+| (T7) | `SINGLE_PDF_PHRASE_FLAGS` + apply/restore + single-PDF hook |
+| (T8) | `compare_pig._run_v6_dp` wire |
+| `976cbb0` | K283 A/B Layer 2 + K545 secondary validation |
+
+obsidian-wiki: 5 pages updated/created (this commit).
+
+## 4. 2026-05-27: Cadence Phase 2 deployment summary
+
+- **Pass 6 upgraded**: Phase 1 placeholder → Phase 2 (music21 roman, PAC+IAC, window mode)
+- **New infrastructure**: `SINGLE_PDF_PHRASE_FLAGS` for single-PDF per-piece opt-in (parallel to `BACH_INV_PHRASE_FLAGS`)
+- **K283 enabled** (`cadence: True`): verified +1.01pp RH — IAC at m10 added extra boundary
+- **K545 enabled** (`cadence: True`): IAC at m8 detected correctly; DP fingering unchanged (texture-driven limit — m5 ascending scale problem requires DP cost rules, not just phrase boundary)
+- **Isolation**: 26/26 non-target PIG val pieces byte-identical to baseline
+- **Tests**: 9 new `cadence_phase_2` pytest tests, all GREEN
+- **HC detection**: explicitly excluded (over-fires on K545 alberti-bass single-note measures)
+
+## 5. Open TODOs / next-session candidates
 
 ### Priority A (low effort, high value)
 - PIG 28 full cost-based sweep（擴大 5→28）confirm flags 可否 flip default ON
 - 如綠 → flip `USE_FIGURAL_BOUNDARY_DETECTION` + `USE_THUMB_RESERVATION` + `USE_TEXTURE_DETECTION` 為 True
 
 ### Priority B (moderate effort)
-- Cadence Phase 2: windowed chord aggregation 取代 music21 per-tick chordify
-  - 候選：per-measure dominant chord + 看 measure boundary 是否 V→I
-  - 或：music21.analysis.discrete 整合
-- SINGLE_PDF_PHRASE_FLAGS 對等機制（目前 per-piece 只覆蓋 Bach Inv）
+- K545 m5 ascending scale fingering: requires DP cost rule (not boundary fix) — "long-scale protection" or thumb-under promotion; see [[analysis_mozart_k545_first_mov]] §4
 - `RUNNING_PASSAGE_OUTER_START_PENALTY` 加進 `_TUNE_SCALARS`（PIG 28 確認後）
+- Cadence Phase 2 extension: HC detection (deferred — over-fires on alberti texture); windowed key analysis for mid-piece modulation
 
 ### Priority C (per-need)
 - `concept_texture_change_detection` Phase 2: dynamic + pedal marking 偵測（需驗證 Audiveris 抽取支援）
@@ -154,10 +193,11 @@ Mvts 3/6/7/8 不啟用：Phase 2.2 A/B 顯示 mvt6 -3.4pp (red-line)、其他 ne
 - analysis_bach_inv_4_d_minor §5 揭露的 `concept_figural_boundary_detection` 已完成、相關連結驗證
 
 ### Priority D (experimental)
-- Cadence Phase 2 (IAC/HC/DC) — 暫緩到 PAC Phase 2 完成後
+- Cadence Phase 3: HC/DC detection scope expansion
+- Beat-strength filter for PAC (currently PAC accepted on any beat)
 - 各 era 的 `concept_modal_cadence_*` 系列（modal final detection）
 
-## 5. Cross-links
+## 6. Cross-links
 
 - canonical project state: [[../score-claude/memory/project_phrase_detection_v1_phase1_phaseB]]
 - foundational principle: [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]]

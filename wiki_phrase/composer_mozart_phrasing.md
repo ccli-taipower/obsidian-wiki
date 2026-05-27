@@ -97,21 +97,20 @@ Mozart 第一主題群常分**前 antecedent 4 bar + 後 consequent 4 bar**，�
 ### 6.5 Rondo (3rd mov)
 ABACA / ABACABA 結構。A 段為 refrain，B/C 段為 episode。**段落切換明確**（return to A 時通常 tempo + texture 都對齊原始）。
 
-## 7. PIG 驗證候選
+## 7. PIG 驗證狀態
 
-| ID | 曲目 | 形式 | 為何選 |
+| ID | 曲目 | 形式 | 狀態 |
 |---|---|---|---|
-| **011** | K283 G i | sonata-allegro | 教科書範例（[[concept_classical_period_sentence]] §5 引用） |
-| **017** | K545 C i | sonata-allegro (簡化) | 「初學者 sonata」— 最規律的 period 結構 |
-| 012 | K310 a i | sonata-allegro (戲劇性) | a minor，更多戲劇感；驗證 Mozart 是否偶爾打破規律 |
-| 013 | K330 C i | sonata-allegro | 另一個標準範例 |
+| **011** | K283 G i | sonata-allegro | **verified** — Cadence Phase 2 at m9→m10 IAC, **+1.01pp RH** improvement (2026-05-27); see [[analysis_mozart_k283_first_mov]] |
+| **017** | K545 C i | sonata-allegro (簡化) | **tested** — m7→m8 IAC detected, boundary structure changed; Δ+0.00pp RH (texture-driven limit: m5 ascending scale fingering not fixable by phrase boundary alone); see [[analysis_mozart_k545_first_mov]] |
+| 012 | K310 a i | sonata-allegro (戲劇性) | candidate — a minor，驗證 Mozart 是否偶爾打破規律 |
+| 013 | K330 C i | sonata-allegro | candidate — 另一個標準範例 |
 
 ## 8. 與其他 wiki 頁面的關係
 
 - 父頁 [[concept_classical_period_sentence]]：通則 — Mozart 是純正範本
 - 對比 [[composer_beethoven_phrasing]]：Beethoven 同源但更自由
 - 工具頁 [[concept_cadence_detection]]：對 Mozart 信心度最高
-- 待寫：
-  - [[analysis_mozart_k283_first_mov]]
-  - [[analysis_mozart_k545_first_mov]]
+- [[analysis_mozart_k283_first_mov]] — K283 Phase 2 primary success case
+- [[analysis_mozart_k545_first_mov]] — K545 Phase 2 texture-limit case
 

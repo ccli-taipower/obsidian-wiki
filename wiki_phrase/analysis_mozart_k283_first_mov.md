@@ -1,89 +1,59 @@
-# Analysis: Mozart Piano Sonata K283 G major, 1st mov
+# Analysis: Mozart Piano Sonata K283 in G major, 1st movement (B0-22 excerpt)
 
-> PIG: 011 (4 annotators: ES, HI, HK, YI / YS, EF)
-> 來源：通用 sonata-allegro 分析 + Caplin《Classical Form》sonata 章節 + Rosen《The Classical Style》Mozart sonatas
-> 狀態：第二個 per-piece analysis (after Bach Inv 4)，2026-05-26
-> 引用方：[[composer_mozart_phrasing]] §7、[[concept_classical_period_sentence]] §5、[[concept_cadence_detection]] §6
+> Source: PIG val piece 011 (`011_Mozart_PSon_K283_G_i_B0-22`)
+> Cadence Phase 2 validation result: **primary success — Δ+1.01pp RH**
+> Status: tested 2026-05-27, IAC detected at m9→m10
+> 前身：Phase 1 prediction page (2026-05-26); Phase 2 實測結果覆蓋
 
-## 1. 為什麼挑這首作為 wiki 第二個 analysis
+## 1. Excerpt structure
 
-Mozart K283 1st mov (G major, Allegro) 是古典 sonata-allegro 形式的**教科書範例**。Caplin《Classical Form》多次引用本曲做 period / sentence / cadence 示範。對 wiki 的價值：
+22 bars of K283 mvt1 (G major) with pickup measure (m0). Sonata-allegro exposition opening:
+- m1-8: opening theme group (period structure, several sub-phrases via Pass 3 fallback)
+- m9-10: IAC arrival in G major — V root → i root + soprano F# (not tonic → IAC)
+- m11-22: continuation / transition
 
-- 驗證 [[concept_classical_period_sentence]] (period 4+4, sentence 2+2+4) 是否如預期應用
-- 驗證 [[concept_cadence_detection]] (PAC/IAC/HC/DC) 對純古典作品的命中率
-- 與 [[analysis_bach_inv_4_d_minor]] 對比：對位 vs 主調樂句邏輯
-- 為未來 Mozart 系列分析建立 baseline
+## 2. Cadence detection result
 
-## 2. 曲目基本資訊
+- **m9 final** = [D4, C5, F#5] → music21 `V inv=0` (root position dominant)
+- **m10 final** = [G2, F#5] → music21 `i inv=0` (root position tonic, music21 marks lowercase because chord is incomplete)
+- soprano midi=78 (F#, pc=6) ≠ G tonic (pc=7) → IAC
+- Boundary added at first group of m11
 
-- **K283** (1775, Mozart 19 歲)
-- **G major**, 3/4 拍, **Allegro**
-- 第一樂章長度：~120 小節（依版本）
-- Sonata-allegro 形式：Exposition / Development / Recapitulation
+## 3. Other cadences explicitly NOT detected (correct behavior)
 
-## 3. 預期曲式結構
+- m7 V inv=1 → m8 vi inv=0: V→vi = **deceptive cadence (DC)**. `_classify_cadence_pair` correctly returns `None`. Not a phrase boundary.
+- m4 final = `i inv=0` (lowercase, partial chord): no V before it → not classified as cadence
+- m6 final = `v inv=0` (lone D): not followed by I → no cadence pair
 
-### 3.1 Exposition (bb. 1-53)
+## 4. Result
 
-| 區塊 | 小節範圍 | 預期 phrase 邊界 |
-|---|---|---|
-| 第一主題 (G major) | bb. 1-16 | **bar 4** HC, **bar 8** PAC (period 4+4); 接 codetta to bar 16 |
-| Transition / bridge | bb. 17-22 | modulation 到 D major (V) |
-| 第二主題 (D major) | bb. 23-43 | sentence-like; **bar 31** HC, **bar 39** PAC |
-| Closing theme (codetta) | bb. 43-53 | cadential extension, PAC in D |
+- BASE phrase_starts include Pass 3 fallback at m5, m9, m13, m17, m21 (every 4 bars)
+- Cadence boundary at m11 added (no Pass 3 boundary at m11 — gap filled by cadence)
+- Window mode: Pass 3 boundaries at m9, m13 within ±1 of cadence m11? m9 distance = 2 > 1 (kept), m13 distance = 2 > 1 (kept)
+- Final difference: cadence m11 ADDED to existing Pass 3 boundaries
+- **Δ RH GMR = +1.01pp** (PIG val all-annotator weighted)
 
-### 3.2 Development (bb. 54-71)
+## 5. Why Phase 2 works here (and not on K545)
 
-| 區塊 | 預期 phrase 邊界 |
-|---|---|
-| 主題碎片變奏 (e minor, b minor 等) | 段落切換點為主邊界 |
-| Re-transition (返回 G major) | strong reset |
+K283 has fuller texture — LH actually plays bass under RH melody, so chordify produces clean V/I chord identifications. K545 m5-m7 has LH absent / sparse, so music21 sees only the RH scale; harmonic bass is implicit (Mozart wrote alberti elsewhere but not in scale runs).
 
-### 3.3 Recapitulation (bb. 72-end)
+## 6. Full-piece prediction (pre-Phase 2 context, retained for reference)
 
-| 區塊 | 預期 phrase 邊界 |
-|---|---|
-| 第一主題 (G major) | 同 exposition |
-| Transition (modified, 留在 G major) | adjusted modulation |
-| 第二主題 **in G major** (not D!) | classical sonata convention |
-| Closing in G | final PAC, coda |
+K283 1st mov (G major, Allegro, ~120 bars) is a textbook sonata-allegro:
+- Exposition (bb. 1-53): first theme PAC at b8 → transition → second theme in D → closing PAC at b53
+- Development (bb. 54-71): fragmentation + re-transition
+- Recapitulation (bb. 72-end): themes in tonic
 
-## 4. 五類偵測器預期表現
+PIG val piece covers only B0-22 (exposition opening). The IAC at m10 is within the first theme group (consequent ending), consistent with antecedent (m1-8) + consequent (m9-10) period structure.
 
-| 偵測器 | 預期 | 信心度 |
-|---|---|---|
-| **Pass 3 (4-bar fallback)** | 與 period 4+4 自然對齊 | ⭐⭐⭐ |
-| **Pass 6 (PAC cadence)** | **預期 fire 多次**（bar 8, 16, 39, 53, 等 sonata key 終止點） | ⭐⭐⭐ |
-| **Pass 4 (figural)** | 中等 — transition / 副題的 scale runs 會觸發 | ⭐⭐ |
-| **Pass 5 (subject imitation)** | 較少 — Mozart 主題不像 fugue 嚴格重述 | ⭐ |
-| **thumb-reservation** | 對 LH alberti bass 起手或 RH scale 起手可能 fire | ⭐⭐ |
+PIG K283 has 6 annotators (ES, HI, HK, YI / YS, EF) — more than most pieces, indicating it is a PIG benchmark. Cost framework uses `min(cost_pig_min, cost_pp)` as the strongest opponent.
 
-## 5. PIG 6 annotators 觀察
+## 7. Cross-refs
 
-PIG K283 有 6 個 annotators（ES, HI, HK, YI / YS, EF），多於一般曲目（Bach Inv 多為 4 個）。代表這首是 PIG 的「重要 benchmark」。多 annotators 意味著：
-
-- Annotator 間有 disagreement → 衡量 inter-annotator variance
-- DP 與 majority vote 對齊困難度高
-- Cost framework 用 `min(cost_pig_min, cost_pp)` 取最強對手會更嚴格
-
-## 6. Cadence 偵測驗證 (Phase 1 PAC) 期望
-
-執行 `_detect_cadence_boundaries(groups)` 對 PIG 011 mxl 預期偵測：
-
-| 預期 PAC | 位置 | 為何 |
-|---|---|---|
-| Exposition 第一主題尾 | bar 8 V-I in G | 4+4 period 收尾 |
-| Exposition 副題尾 | bar 39 V-I in D | sonata 第二主題收尾 |
-| Exposition 結束 | bar 53 V-I in D | closing theme PAC |
-| Recap 第一主題尾 | bar 79 (推測) V-I in G | recap 對應 bar 8 |
-| Recap 結束 / coda PAC | 樂章尾 V-I in G | 全曲收尾 |
-
-實測前 prediction：**3-5 個 PAC 偵測到**。若 music21 RomanNumeralFromChord 對 Mozart 表現良好（chordify 主調 texture 比 Bach 對位乾淨），預期信心度 high。
-
-## 7. 與其他 wiki 頁面的關係
-
-- 父頁 [[composer_mozart_phrasing]]：通則
-- 父頁 [[concept_classical_period_sentence]]：純正範本
-- 工具頁 [[concept_cadence_detection]]：對 Mozart 預期 fire 良好
-- 兄弟頁 [[analysis_bach_inv_4_d_minor]]：對位 vs 主調對比
+- [[concept_cadence_detection]] §7 — Phase 2 algorithm + validation
+- [[composer_mozart_phrasing]] §7 — K283 status
+- [[analysis_mozart_k545_first_mov]] — sister piece, shows texture-limit case
+- [[concept_classical_period_sentence]] — period 4+4 structure context
+- [[analysis_bach_inv_4_d_minor]] — counterpoint vs homophony contrast
+- score-claude memory: `project_cadence_phase_2.md`
 
