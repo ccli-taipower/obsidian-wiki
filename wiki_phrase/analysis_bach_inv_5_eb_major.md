@@ -149,7 +149,7 @@ m1 後半 → m2 上半的 arpeggio 段 (E♭ – G – B♭ 上行琶音) 是�
 
 | 邊界類型 | Inv 5 觸發點 | 工具 |
 |---|---|---|
-| **Subject entry** | m1 RH, m3 LH, m10–m12 modulation entries, m22–m25 voice exchange, m27–m30 final entries | [[concept_subject_imitation_detection]] |
+| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — 實測 RH @ m23/m27, LH @ (len=8: none; len=12: m23/m27) ⚠ LH 在 len=8 全 miss, 可能 tolerance 太緊或 lyrical subject 不適配 0.8; 見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]] | [[concept_subject_imitation_detection]] |
 | **Modulation / 段落** | m9–m10, m16–m17, m26–m27 | [[concept_modulation_as_phrase_signal]] |
 | **Cadence** | m31–m32 PAC, 可能 m16 IAC (modulation end) | [[concept_cadence_detection]] |
 | **Figural** | m1-m2 scale→arpeggio sub-motive 切換、m17-m26 sequence 內 figure 轉折 | [[concept_figural_boundary_detection]] |

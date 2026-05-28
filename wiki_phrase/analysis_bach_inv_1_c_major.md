@@ -126,7 +126,7 @@ m6 是 exposition 結束、m7 開始往 G 大調 modulation。user override 在�
 
 | 邊界類型 | Inv 1 觸發點 | 工具 |
 |---|---|---|
-| **Subject entry** | m1 RH, m3 LH, modulation 段中 entries, m19+ final entries | [[concept_subject_imitation_detection]] |
+| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內, 不會被標為 entry); 演算法掃描自 template 之後 — 實測 RH @ m6/m12/m18/m19, LH @ m4/m6/m7 (見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]) | [[concept_subject_imitation_detection]] |
 | **Modulation / 段落** | m6-m7, m14-m15, m18-m19 | [[concept_modulation_as_phrase_signal]] |
 | **Cadence** | m21-m22 PAC | [[concept_cadence_detection]] |
 | **Figural** | m20-m21 coda 內 figure 切換、episode 段內 sequence boundary | [[concept_figural_boundary_detection]] |

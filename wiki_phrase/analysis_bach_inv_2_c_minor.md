@@ -117,7 +117,7 @@ BWV 773 主題尾部與多個 development 段落含密集 chromatic motion（半
 
 | 邊界類型 | Inv 1 主要觸發點 | Inv 2 主要觸發點 | Inv 4 主要觸發點 |
 |---|---|---|---|
-| **Subject entry** ([[concept_subject_imitation_detection]]) | m1 RH, m3 LH, modulation entries, m19+ final | m1 RH, m3 LH 屬調答, canon-like middle entries | m1 RH, episode 後 final entries |
+| **Subject entry** ([[concept_subject_imitation_detection]]) | Template: m1 RH + m3 LH (alg 不掃 template 內); 實測 RH @ m6/m12/m18/m19, LH @ m4/m6/m7 | Template: m1 RH + m3 LH 屬調答; 實測 RH @ m13/m23, LH @ m25 (musicology 預測 m11-15 modulation entries; alg 在屬調答後稀疏觸發) | Template: m1 RH + m3 LH; 實測 RH @ m18/m28/m32/m34/m50/m55, LH @ m12/m30/m40/m44/m53 |
 | **Modulation / 段落** ([[concept_modulation_as_phrase_signal]]) | m6-m7, m14-m15, m18-m19 | m6-m7 (→E♭), m14-m15 (→g), m21-m22 (回 C) | mvt4 特定 modulation 邊界 |
 | **Cadence** ([[concept_cadence_detection]]) | m21-m22 PAC | m26-m27 final PAC（+長 cadential extension） | episode 內小 cadences |
 | **Figural** ([[concept_figural_boundary_detection]]) | m20-m21 coda figure 切換 | chromatic descent 段落內**反例**（無 figural 跳幅但仍需邊界） | **m50 case (主角)**, episode figural shifts |

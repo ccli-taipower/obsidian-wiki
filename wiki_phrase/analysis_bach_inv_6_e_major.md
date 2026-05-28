@@ -3,7 +3,8 @@
 > 來源：musicology 文獻 + Bach *Two-Part Inventions* 對位傳統
 > 對應 PIG：未列入 / 對照需另行查核
 > 狀態：第三個 Bach Invention analysis 頁；strict canon 結構對 phrase detection 的根本挑戰之 case study
-> 觸發 case：整曲為 canon 結構 → subject entry detection 預期 over-fire；suspension chain → 無明顯硬 boundary
+> 觸發 case：整曲為 canon 結構 → subject entry detection 預期 over-fire 或 trivial-match；suspension chain → 無明顯硬 boundary
+> ⚠ 2026-05-28 validation 推翻 over-fire 預測：演算法實際輸出 RH 3 entries (m26/m35/m48) + LH 2 entries (m25/m47)，sparse 而非 over-fire (見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]] §Gotcha 2)
 
 ## 1. 為什麼挑這首作為 wiki 第三個 Bach analysis 頁
 
@@ -38,12 +39,15 @@ BWV 777 在 *Two-Part Inventions* (BWV 772–786) 中是**最具結構獨特性�
 
 → 對 [[concept_subject_imitation_detection]] 演算法的意涵：若 algorithm 以「找出 subject 完整 N-bar 樣本，再到別處找 transposed/inverted 重複」為前提，在 Inv 6 上會出現兩種失敗模式：
 
-| 失敗模式 | 機制 | 預期表現 |
-|---|---|---|
-| **Over-fire** | 每個 RH 小節的下一小節在 LH 都是 subject 的 1-bar 片段 → 每小節都被標為 entry | ⚠ 預期 algorithm 在 60+ 個位置標 entry，phrase boundary 失去意義 |
-| **Trivial-match** | Algorithm 把整曲視為單一 subject re-stating，回傳 1 entry | 也失去 phrase 結構訊息 |
+| 失敗模式 | 機制 | 預期表現 | 2026-05-28 實測 |
+|---|---|---|---|
+| **Over-fire** | 每個 RH 小節的下一小節在 LH 都是 subject 的 1-bar 片段 → 每小節都被標為 entry | ⚠ 預期 algorithm 在 60+ 個位置標 entry，phrase boundary 失去意義 | ❌ **未發生** |
+| **Trivial-match** | Algorithm 把整曲視為單一 subject re-stating，回傳 1 entry | 也失去 phrase 結構訊息 | ❌ **未發生** |
+| **Sparse-but-misaligned** ⭐ | TI signature 對 sequence transposition + texture interruption 容忍度有限，僅在偶發位置匹配 | (未預測) | ✅ **實際結果**: RH @ m26/m35/m48 (3 entries), LH @ m25/m47 (2 entries) |
 
-任一失敗模式都意味著 **subject-entry-based phrase detection 不適用此首**。
+→ Validation 推翻原始 binary 預測。演算法**比 musicology 預測更選擇性**（TI 0.8 tolerance 過濾掉多數 sequence-transposed 片段），strict canon 並未破壞 detection。詳見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]] §Gotcha 2。
+
+但 sparse output 的 entries (m25-m48) 集中於中段，無法切分 exposition / modulation / return — **subject-entry-based phrase detection 仍不適用此首**，理由從「prediction 失控」改為「output 與 form-level boundary 無對應」。
 
 ### 3.2 Musicology 共識：canon 結構本身 = 樂句結構
 
@@ -82,7 +86,7 @@ Strict canon at the octave 對所有現有 phrase detection 啟發式都造成�
 | **Rest gap** ([[concept_figural_boundary_detection]] §pitch jump 也適用) | Canon 結構下兩聲部交錯填滿，幾乎無同時休止；suspension chain 不允許「斷氣」 |
 | **Pitch jump** | Suspension chain 的旋律線是 stepwise 為主，音高重心連續移動，極少 octave-class 跳幅 |
 | **Density shift** ([[concept_texture_change_detection]]) | Texture **均勻** — chord density 高且穩定、figure 切換少 → density-shift voting 無觸發點 |
-| **Subject re-entry** ([[concept_subject_imitation_detection]]) | 如 §3.1 — over-fire 或 trivial-match，皆無法區隔 phrase 邊界 |
+| **Subject re-entry** ([[concept_subject_imitation_detection]]) | 如 §3.1 — 實測 sparse output (3+2 entries) 集中中段，無法區隔 exposition / modulation / return phrase 邊界 |
 
 → 結論：**Inv 6 的 phrase 結構不是由演算法可偵測的局部訊號標示出來的**，而是由 contrapuntal logic（suspension chain 解決點、tonal goal）決定。
 
@@ -139,7 +143,7 @@ Suspension chain 在鋼琴 fingering 上提出對位傳統與生物力學之間�
 
 | 邊界類型 | Inv 6 觸發點 | 工具 | 預期可靠度 |
 |---|---|---|---|
-| **Subject entry** | 無 discrete entries (全曲為單一 canon) | [[concept_subject_imitation_detection]] | ❌ 不適用 |
+| **Subject entry** | 實測 sparse: RH @ m26/m35/m48, LH @ m25/m47 (5 entries 集中於 m25-m48 中段) | [[concept_subject_imitation_detection]] | ❌ 雖有 output 但與 form boundary 無對應 → 對 phrase 偵測不適用 |
 | **Modulation / 段落** | m20-m21, m38-m39 | [[concept_modulation_as_phrase_signal]] | ✅ 段落級可用 |
 | **Cadence** | m61-m62 final PAC, 可能 m38 區域中段 cadence | [[concept_cadence_detection]] | ⚠ suspension chain 干擾，待驗證 |
 | **Figural** | Texture 均勻 → 觸發稀疏 | [[concept_figural_boundary_detection]] | ⚠ 預期低觸發 |

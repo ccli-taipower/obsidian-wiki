@@ -142,7 +142,7 @@ BWV 774 m1 RH 起手 = ascending leap (D5 → D6 octave 或 D5 → B5 sixth, 依
 
 | 邊界類型 | Inv 3 觸發點 | 工具 |
 |---|---|---|
-| **Subject entry** | m1 RH, m3/m4 LH 答句, m13–m18 modulation entries, m41–m50 return entries | [[concept_subject_imitation_detection]] |
+| **Subject entry** | 主題 / 答句: m1 RH + m3/m4 LH (在演算法 template 內, 不會被標為 entry); 演算法掃描自 template 之後 — 實測 RH @ m18/m28/m32/m34/m50/m55, LH @ m12/m30/m40/m44/m53 (musicology 預測 m13-18 + m41-50; alg 部分 ✓ 但有 m28/32/34 等 extras; 見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]) | [[concept_subject_imitation_detection]] |
 | **Modulation / 段落** | m12-m13, m24-m25, m40-m41 | [[concept_modulation_as_phrase_signal]] |
 | **Cadence** | m58-m59 PAC | [[concept_cadence_detection]] |
 | **Figural** | 各段內 sequence boundary、下行 figure 切換點 | [[concept_figural_boundary_detection]] |

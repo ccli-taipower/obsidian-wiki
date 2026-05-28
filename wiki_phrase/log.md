@@ -3,6 +3,23 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
 
+## [2026-05-29] revision — 7 Bach Inv analyses: fix m3 LH 預測誤述 + Inv 6 over-fire 預測推翻
+
+Validation 結果（見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]）顯示原始 wiki musicology 預測與 `_detect_subject_entries` 演算法輸出在 7 頁有差距。本次修訂統一在 §「三類樂句邊界並用」表的 Subject entry row 加入演算法實測 entries，並澄清 m3 LH 在演算法 template 內、永不為 detected entry。
+
+Pages revised (7):
+- `analysis_bach_inv_1_c_major.md` §7 row — 加入 RH @ m6/m12/m18/m19, LH @ m4/m6/m7
+- `analysis_bach_inv_2_c_minor.md` §7 row — 三 mvts 並列改用 Template + 實測 entries 格式
+- `analysis_bach_inv_3_d_major.md` §7 row — 加入 RH @ m18/m28/m32/m34/m50/m55, LH @ m12/m30/m40/m44/m53
+- `analysis_bach_inv_5_eb_major.md` §7 row — 加入 RH @ m23/m27, LH @ len=8 全 miss (tolerance 標記)
+- `analysis_bach_inv_6_e_major.md` 4 處 — 推翻 over-fire 二分預測：實測為 sparse-but-misaligned (RH 3 + LH 2 entries 集中 m25-m48 中段)；§3.1 表加 third failure mode column，§5.1 / §7 row 同步更新
+- `analysis_bach_inv_7_e_minor.md` §7 row — 加入 RH @ len=8 全 miss, LH @ m3 (chromatic tolerance 標記)
+- `analysis_bach_inv_8_f_major.md` §7 row — 加入 RH @ m13, LH @ m12 (musicology 預測多數 miss)
+
+Inv 4 是唯一不需修訂的頁（validation 顯示 alg 輸出與該頁 §3.1 既有 6/8/12 sweep + alg-test 結果完全一致）。
+
+關鍵概念校正：musicology 上的「主題答句 m3 LH」≠ 演算法上的 detected entry。`_detect_subject_entries` 從 first 8 real groups 建 template、scan_start 在 template 之後 — m3 LH 多落在 template 內，因此即使是「subject answer」也不會出現在 alg output。後續 analysis 頁應先跑 alg 再寫預測。
+
 ## [2026-05-26] init — fugue / counterpoint seed
 
 新建 wiki_phrase/ 作為樂句分段獨立 discipline (parallel to wiki_piano/)。
