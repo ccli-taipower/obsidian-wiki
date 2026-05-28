@@ -68,15 +68,18 @@
 
 ## Sources
 
+理論 / 分析學 (modern):
+- [Caplin《Classical Form》(1998)](src_caplin_classical_form.md) — formal functions / sentence-period / cadence taxonomy；本系統 cadence detector 的 PAC+IAC scope 哲學源頭
+- [Schoenberg《Fundamentals of Musical Composition》(1967)](src_schoenberg_fundamentals.md) — sentence (Satz) / period / liquidation / Grundgestalt 原型定義
+- [Rothstein《Phrase Rhythm in Tonal Music》(1989)](src_rothstein_phrase_rhythm.md) ⚠ — hypermeter / phrase expansion-contraction / elision；4-bar fallback 與 PHRASE_SEAM_TC_SCALE 的依據
+- [Lerdahl & Jackendoff《GTTM》(1983)](src_lerdahl_jackendoff_gttm.md) — Grouping Preference Rules / hypermeter / preference-rule framework；本系統 cost-based DP 架構的祖先
+
+歷史 / 對位法:
+- [Fux《Gradus ad Parnassum》(1725)](src_fux_gradus_ad_parnassum.md) — 五種對位法 / cantus firmus / suspension；Bach Inventions 對位邏輯的源頭
 - [周怡秀《音樂中的復格形式》(大紀元 2005)](src_epochtimes_fugue_zhou_2005.md) — 中文百科文章，定義 fugue / 對位 / 模仿
 
-## Raw (待擴增來源)
+作曲家 / 曲目特化:
+- [Howat《Debussy in Proportion》(1983)](src_howat_debussy_in_proportion.md) ⚠ — Golden Section / Fibonacci proportion in Debussy；texture-driven phrase 結構分割理論
+- [Bach Inventions Pedagogy Survey](src_bach_inventions_pedagogy.md) ⚠ — Czerny / Bischoff / Landowska / Schiff / Donington / modern Urtext 跨傳統教學註解
 
-預計擴增來源：
-- Caplin《Classical Form》
-- Schoenberg《Fundamentals of Musical Composition》
-- Rothstein《Phrase Rhythm in Tonal Music》
-- Lerdahl-Jackendoff《A Generative Theory of Tonal Music》
-- Fux《Gradus ad Parnassum》(英譯)
-- Howat《Debussy in Proportion》
-- Bach Inventions 演奏 / 教學註解
+⚠ = training-data 推測為主，書本未直接 ingest，需後續 raw 來源比對。

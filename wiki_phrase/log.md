@@ -74,3 +74,20 @@ Pages created:
 - 新增 `_implementation_status.md` 吸收 implementation 進度、A/B 結果、commit refs、TODO 等
 - `index.md` 移除「路線圖」table；保留純索引 / TOC / PIG 風格涵蓋表
 - `log.md` (本檔) 重構為 pure ingest log；project status 移到 `_implementation_status.md`
+
+## [2026-05-28] sources batch — 7 src pages 全填
+
+清空 index.md 的「Raw (待擴增來源)」清單，全 7 個 source ingest 完成。每頁依 `src_epochtimes_fugue_zhou_2005.md` 模板：一句話總結 → 重點概念 → 歷史 → 文章未涵蓋 → 對指法系統的啟示。
+
+Pages created (7):
+- `src_caplin_classical_form.md` (136 行) — Caplin 1998，cadence taxonomy / sentence-period / hybrid theme types；PAC+IAC scope 哲學源頭
+- `src_schoenberg_fundamentals.md` (97 行) — Schoenberg 1967，sentence (Satz) / Grundgestalt / liquidation 原型定義
+- `src_rothstein_phrase_rhythm.md` (156 行) ⚠ — Rothstein 1989，hypermeter / phrase expansion-contraction / elision / imbroglio；4-bar fallback 與 PHRASE_SEAM_TC_SCALE 依據
+- `src_lerdahl_jackendoff_gttm.md` (149 行) — GTTM 1983，Grouping Preference Rules (GPR 1-7) 對應 `_detect_phrase_starts` Pass 1/2；preference-rule framework 啟發本系統 cost-based DP 架構
+- `src_fux_gradus_ad_parnassum.md` (91 行) — Fux 1725 (Mann 英譯)，五種對位法 / cantus firmus / suspension / clausula vera；Bach Inv 對位邏輯祖先
+- `src_howat_debussy_in_proportion.md` (70 行) ⚠ — Howat 1983，Golden Section / Fibonacci proportion in Debussy；texture phase 結構分割支援
+- `src_bach_inventions_pedagogy.md` (172 行) ⚠ — Czerny / Bischoff / Landowska / Schiff / Donington / Henle / Wiener Urtext / Bärenreiter 跨傳統教學註解 + Inv 1/4/8 phrase boundary 分歧記錄
+
+⚠ marked pages = training-data 推測為主，需後續 raw 來源 ingest 驗證；每頁有 ⚠ Training-data verification needed section 列待驗證 claim（共 26 items across 3 pages）。
+
+Total 871 行 wiki 知識內容新增。
