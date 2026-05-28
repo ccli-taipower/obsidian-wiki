@@ -61,6 +61,7 @@
 
 ## Analyses (per-piece)
 
+- [Bach Invention 1 in C major (BWV 772)](analysis_bach_inv_1_c_major.md) — Exposition + modulation 邊界 + m21-22 coda case study; subject 長度 1-bar/2-bar 派爭議
 - [Bach Invention 4 in D minor (BWV 775)](analysis_bach_inv_4_d_minor.md) — Subject identification + 三類樂句邊界互補必要性
 - [Mozart K283 G major 1st mov](analysis_mozart_k283_first_mov.md) — Sonata-allegro 教科書範例；期望 cadence detection 表現
 - [Chopin Nocturne Op.9 No.2 E♭ major](analysis_chopin_op9_no2_nocturne.md) — 浪漫派 lyrical 範本；fioritura 處理 + elision 案例
