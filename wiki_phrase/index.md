@@ -61,8 +61,15 @@
 
 ## Analyses (per-piece)
 
+Bach *Two-Part Inventions* (BWV 772-786):
 - [Bach Invention 1 in C major (BWV 772)](analysis_bach_inv_1_c_major.md) — Exposition + modulation 邊界 + m21-22 coda case study; subject 長度 1-bar/2-bar 派爭議
+- [Bach Invention 2 in C minor (BWV 773)](analysis_bach_inv_2_c_minor.md) — Canon-like imitation + chromatic descent; per-hand phrase split 張力
+- [Bach Invention 3 in D major (BWV 774)](analysis_bach_inv_3_d_major.md) — 3/8 拍 hypermeter + ascending leap subject; Pass 2 fallback 不適用
 - [Bach Invention 4 in D minor (BWV 775)](analysis_bach_inv_4_d_minor.md) — Subject identification + 三類樂句邊界互補必要性
+- [Bach Invention 5 in E♭ major (BWV 776)](analysis_bach_inv_5_eb_major.md) — 3 flats 黑鍵指法 + lyrical descending scale → long-scale thumb-under candidate
+- [Bach Invention 6 in E major (BWV 777)](analysis_bach_inv_6_e_major.md) — Strict canon at the octave + suspension chain; subject 概念崩解 case
+- [Bach Invention 7 in E minor (BWV 778)](analysis_bach_inv_7_e_minor.md) — Chromatic descent + leading-rest entries; chromatic≠modulation disambiguation
+- [Bach Invention 8 in F major (BWV 779)](analysis_bach_inv_8_f_major.md) — Broken-triad subject + 3/4 cross-bar motif + LH clef-change phrase 獨立性
 - [Mozart K283 G major 1st mov](analysis_mozart_k283_first_mov.md) — Sonata-allegro 教科書範例；期望 cadence detection 表現
 - [Chopin Nocturne Op.9 No.2 E♭ major](analysis_chopin_op9_no2_nocturne.md) — 浪漫派 lyrical 範本；fioritura 處理 + elision 案例
 - [Debussy Clair de Lune](analysis_debussy_clair_de_lune.md) — 印象派 ABA' + texture-driven phrasing
