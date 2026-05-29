@@ -1,7 +1,7 @@
 # Concept: Chord Voicing Fingering — 和弦聲部突顯指法
 
 > 來源：Neuhaus *The Art of Piano Playing* §voicing, Cortot *Rational Principles* §chord balance, Brendel essays §chord textures
-> 引用方：[[concept_chord_fingering]], [[concept_finger_substitution]], [[../wiki_articulation/concept_articulation_in_polyphony]]
+> 引用方：[concept_chord_fingering](concept_chord_fingering.md), [concept_finger_substitution](concept_finger_substitution.md), [../wiki_articulation/concept_articulation_in_polyphony](../wiki_articulation/concept_articulation_in_polyphony.md)
 
 ## 1. Chord Voicing 是什麼
 
@@ -81,12 +81,12 @@ Voicing 需要的手指**位置穩定** — substitution 可能干擾 voicing：
 - 解決：**voicing 段不啟用 substitution**（保持突出指持續）
 - 例外：legato voicing 不可避免時做 careful substitution
 
-對 [[../wiki_articulation/concept_legato_substitution]] 的意涵：substitution 在 voicing 段需謹慎，可能與 voicing 衝突。
+對 [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) 的意涵：substitution 在 voicing 段需謹慎，可能與 voicing 衝突。
 
 ## 8. 對 score-claude DP 的影響
 
 DP 對 chord voicing 目前**不直接 model**：
-- DP 計算 chord 指法是 [[concept_chord_fingering]] 的標準分配
+- DP 計算 chord 指法是 [concept_chord_fingering](concept_chord_fingering.md) 的標準分配
 - 不識別「哪音是 melody / 哪音是 filler」
 - 不對 voicing 偏好優化 fingering
 
@@ -106,8 +106,8 @@ DP 對 chord voicing 目前**不直接 model**：
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_chord_fingering]] — Chord 指法基礎，voicing 是其應用層
-- [[concept_finger_substitution]] — Voicing 段 substitution 互動限制
-- [[concept_hand_anatomy]] — 各指強度差異是 voicing 物理基礎
-- [[../wiki_articulation/concept_articulation_in_polyphony]] — Voicing 是 polyphony articulation 的一個層面
-- [[../wiki_articulation/concept_tenuto]] — Voicing + tenuto 強指偏好邏輯類似
+- [concept_chord_fingering](concept_chord_fingering.md) — Chord 指法基礎，voicing 是其應用層
+- [concept_finger_substitution](concept_finger_substitution.md) — Voicing 段 substitution 互動限制
+- [concept_hand_anatomy](concept_hand_anatomy.md) — 各指強度差異是 voicing 物理基礎
+- [../wiki_articulation/concept_articulation_in_polyphony](../wiki_articulation/concept_articulation_in_polyphony.md) — Voicing 是 polyphony articulation 的一個層面
+- [../wiki_articulation/concept_tenuto](../wiki_articulation/concept_tenuto.md) — Voicing + tenuto 強指偏好邏輯類似

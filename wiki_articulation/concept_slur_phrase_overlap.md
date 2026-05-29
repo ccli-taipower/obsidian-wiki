@@ -1,7 +1,7 @@
 # Concept: Slur 與 Phrase 邊界的重合 / 不重合
 
 > 來源：Lerdahl-Jackendoff《GTTM》(1983)、Rothstein《Phrase Rhythm in Tonal Music》(1989)、Caplin《Classical Form》(1998)
-> 引用方：[[concept_articulation_overview]] §6、[[concept_legato_substitution]] §1
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §6、[concept_legato_substitution](concept_legato_substitution.md) §1
 
 ## 1. 為什麼必須區分 slur 與 phrase
 
@@ -55,7 +55,7 @@
 ## 4. 對指法系統的意涵
 
 score-claude DP 目前的處理：
-- **Phrase boundary 由 [[../wiki_phrase/index|wiki_phrase]] 五軸偵測**（不直接看 slur）
+- **Phrase boundary 由 [wiki_phrase](../wiki_phrase/index.md) 五軸偵測**（不直接看 slur）
 - **Articulation rule 由 slur 觸發**（不重新計算 phrase）
 
 兩者解耦的好處：
@@ -66,11 +66,11 @@ score-claude DP 目前的處理：
 
 ## 5. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] §6 — 本頁是其「Articulation 與樂句邊界的區別」段的深入展開
-- [[concept_legato_substitution]] §1 — slur 訊號的可靠度討論
-- [[../wiki_phrase/concept_phrase_elision]] — slur 跨越 phrase 邊界的樂句 elision 處理
-- [[../wiki_phrase/concept_chopin_lyrical_phrase]] — Chopin 長 slur 與 phrase 重合的浪漫派常見模式
-- [[../wiki_phrase/src_lerdahl_jackendoff_gttm]] — GTTM 對 grouping 與 surface markings 的區分理論
+- [concept_articulation_overview](concept_articulation_overview.md) §6 — 本頁是其「Articulation 與樂句邊界的區別」段的深入展開
+- [concept_legato_substitution](concept_legato_substitution.md) §1 — slur 訊號的可靠度討論
+- [../wiki_phrase/concept_phrase_elision](../wiki_phrase/concept_phrase_elision.md) — slur 跨越 phrase 邊界的樂句 elision 處理
+- [../wiki_phrase/concept_chopin_lyrical_phrase](../wiki_phrase/concept_chopin_lyrical_phrase.md) — Chopin 長 slur 與 phrase 重合的浪漫派常見模式
+- [../wiki_phrase/src_lerdahl_jackendoff_gttm](../wiki_phrase/src_lerdahl_jackendoff_gttm.md) — GTTM 對 grouping 與 surface markings 的區分理論
 
 ## 6. ⚠ 詮釋限制
 

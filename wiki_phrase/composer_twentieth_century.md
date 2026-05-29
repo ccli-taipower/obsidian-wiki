@@ -32,13 +32,13 @@
 ### 3.2 PIG 144 (Sonata No.2, 1897)
 - 早期作品，仍 tonal
 - Lyrical 樂句，類似 Chopin
-- → 可套 [[concept_chopin_lyrical_phrase]] 規則
+- → 可套 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 規則
 
 ### 3.3 PIG 145 (Sonata No.5, 1907)
 - 過渡期，mystic chord 開始出現
 - Cadence 訊號弱化（傳統 V-I 仍偶見但被擴張和聲掩蓋）
 - 樂句邊界靠 texture + dynamic + tempo marking（類似印象派）
-- → 部分套 [[concept_impressionist_phrasing]] 規則
+- → 部分套 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) 規則
 
 ### 3.4 樂句邊界訊號 (Scriabin)
 | 訊號 | 早期 (Op.1-30) | 中後期 (Op.30+) |
@@ -89,7 +89,7 @@
 ## 6. 對指法系統的影響
 
 - DP 的 W_PHRASE_ANCHOR 仍有效（手位中央化是通則）
-- thumb-reservation 規則：需 mode-aware（pentatonic Bartok 段落不適用 — 見 [[concept_modal_scale_fingering]]）
+- thumb-reservation 規則：需 mode-aware（pentatonic Bartok 段落不適用 — 見 [concept_modal_scale_fingering](concept_modal_scale_fingering.md)）
 - 節奏 cell 偵測尚未有概念頁 — 是未來 wiki 缺口
 
 ## 7. PIG 驗證候選
@@ -101,10 +101,10 @@
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 借用 [[concept_chopin_lyrical_phrase]] (Scriabin 早期)
-- 借用 [[concept_impressionist_phrasing]] (Scriabin 晚期)
-- 借用 [[concept_modal_scale_fingering]] (Bartok modal scales)
+- 借用 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) (Scriabin 早期)
+- 借用 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) (Scriabin 晚期)
+- 借用 [concept_modal_scale_fingering](concept_modal_scale_fingering.md) (Bartok modal scales)
 - 待寫：
-  - [[concept_rhythmic_cell_detection]] (Bartok / Stravinsky 節奏 cell)
-  - [[concept_asymmetric_meter]] (5/8, 7/8 對 phrase 的影響)
+  - [concept_rhythmic_cell_detection](concept_rhythmic_cell_detection.md) (Bartok / Stravinsky 節奏 cell)
+  - [concept_asymmetric_meter](concept_asymmetric_meter.md) (5/8, 7/8 對 phrase 的影響)
 

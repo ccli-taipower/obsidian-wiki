@@ -1,7 +1,7 @@
 # Source: Kullak《Die Ästhetik des Klavierspiels》
 
 > Adolph Kullak (1823-1862), *Die Ästhetik des Klavierspiels* (1860, Berlin)；英譯 *The Aesthetics of Pianoforte-Playing* (Hans Bischoff 編輯整理版)
-> 引用方：[[concept_articulation_overview]] §1, [[concept_legato_substitution]] §2
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §1, [concept_legato_substitution](concept_legato_substitution.md) §2
 
 ## 1. 作者背景
 
@@ -36,7 +36,7 @@ Kullak 對「樂譜原文 vs 演奏家詮釋」的立場：
 - 演奏家應**盡量信任原譜標記**，少做主觀改動
 - 但對「無標記段」（時代 default）的判斷，演奏家**必須**主動詮釋
 
-→ 對應 [[concept_period_defaults]] §1 提到的「『沒有指示』不等於『沒有 articulation』」原則。
+→ 對應 [concept_period_defaults](concept_period_defaults.md) §1 提到的「『沒有指示』不等於『沒有 articulation』」原則。
 
 ## 3. 對 articulation 教學的影響
 
@@ -62,7 +62,7 @@ Kullak 提供「**為什麼這樣做才美**」的哲學層論證，是其他來
 | Kullak 主張 | 對 score-claude DP 的對應 |
 |---|---|
 | Articulation 是音樂修辭 | 指法系統應 honor 樂譜 articulation 標記，不二度詮釋 |
-| Substitution 是時間流動的物理手段 | [[concept_legato_substitution]] 的美學基礎 |
+| Substitution 是時間流動的物理手段 | [concept_legato_substitution](concept_legato_substitution.md) 的美學基礎 |
 | 信任原譜標記 | MXL slur / staccato / accent 是高可靠度訊號 |
 
 ## 6. 文章未涵蓋
@@ -73,10 +73,10 @@ Kullak 提供「**為什麼這樣做才美**」的哲學層論證，是其他來
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] §1 — Kullak 美學論證是「為何 articulation 對指法重要」的哲學基礎
-- [[concept_legato_substitution]] §2 — Kullak 「時間流動」美學論證
-- [[concept_period_defaults]] §1 — Kullak 「無標記必須主動詮釋」原則
-- [[src_czerny_op500_articulation]] — 對比 prescriptive 教學 vs aesthetic 論述
+- [concept_articulation_overview](concept_articulation_overview.md) §1 — Kullak 美學論證是「為何 articulation 對指法重要」的哲學基礎
+- [concept_legato_substitution](concept_legato_substitution.md) §2 — Kullak 「時間流動」美學論證
+- [concept_period_defaults](concept_period_defaults.md) §1 — Kullak 「無標記必須主動詮釋」原則
+- [src_czerny_op500_articulation](src_czerny_op500_articulation.md) — 對比 prescriptive 教學 vs aesthetic 論述
 
 ## 8. ⚠ Training-data verification queue
 

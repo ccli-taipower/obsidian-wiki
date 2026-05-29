@@ -1,7 +1,7 @@
 # Concept: Tenuto — 持音的「禁止換指」約束
 
 > 來源：Neuhaus *The Art of Piano Playing* §持音與重量、Czerny *Op.500*、Brendel essays §Beethoven 持音標記詮釋
-> 引用方：[[concept_articulation_overview]] §4
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §4
 
 ## 1. Tenuto 是什麼
 
@@ -42,7 +42,7 @@ Tenuto 的核心是「**這個音這個手指彈到底**」。同音換指（sub
 | 疊加 | 意涵 |
 |---|---|
 | **Tenuto + accent (`>`)** | 持音 + 額外重音；偏好強指 + 持滿值 |
-| **Tenuto + staccato dot** | 矛盾標記，通常解讀為 portato（[[concept_portato_mezzo_staccato]]）|
+| **Tenuto + staccato dot** | 矛盾標記，通常解讀為 portato（[concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md)）|
 | **Tenuto + slur 內** | 在 legato 段內的特定強調音；fingering 應「持指不換」即使周圍是 substitution-friendly 段 |
 | **Tenuto + fermata** | 雙重延長；按 fermata 處理（額外時長），手指選擇按 tenuto 處理 |
 
@@ -65,8 +65,8 @@ Tenuto 的核心是「**這個音這個手指彈到底**」。同音換指（sub
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] — 本頁的 parent 概覽
-- [[concept_legato_substitution]] — tenuto 是 legato 規則的**例外**（不換指）
-- [[concept_accent_marcato]] — 強指偏好邏輯類似
-- [[../wiki_piano/concept_finger_span_table]] — 手指持音穩定度的解剖學基礎
-- [[../wiki_piano/analysis_common_fingering_injuries]] — 過度長 tenuto 段（如 Brahms inner voice）+ 弱指（4/5）= 慢性 strain 風險
+- [concept_articulation_overview](concept_articulation_overview.md) — 本頁的 parent 概覽
+- [concept_legato_substitution](concept_legato_substitution.md) — tenuto 是 legato 規則的**例外**（不換指）
+- [concept_accent_marcato](concept_accent_marcato.md) — 強指偏好邏輯類似
+- [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — 手指持音穩定度的解剖學基礎
+- [../wiki_piano/analysis_common_fingering_injuries](../wiki_piano/analysis_common_fingering_injuries.md) — 過度長 tenuto 段（如 Brahms inner voice）+ 弱指（4/5）= 慢性 strain 風險

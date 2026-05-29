@@ -1,7 +1,7 @@
 # Phrase Analysis Wiki Log
 
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
-> Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
+> Project status / implementation 進度不在此 — 見 [_implementation_status](_implementation_status.md)。
 
 ## [2026-05-29] gap fill — 5 composer + 5 concept 頁
 
@@ -60,7 +60,7 @@ Diag: `tmp/diag_fioritura_op9_no2_full.py`
 
 ## [2026-05-29] revision — 7 Bach Inv analyses: fix m3 LH 預測誤述 + Inv 6 over-fire 預測推翻
 
-Validation 結果（見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]）顯示原始 wiki musicology 預測與 `_detect_subject_entries` 演算法輸出在 7 頁有差距。本次修訂統一在 §「三類樂句邊界並用」表的 Subject entry row 加入演算法實測 entries，並澄清 m3 LH 在演算法 template 內、永不為 detected entry。
+Validation 結果（見 *project_bach_inv_subject_detection_validation_2026-05-28*）顯示原始 wiki musicology 預測與 `_detect_subject_entries` 演算法輸出在 7 頁有差距。本次修訂統一在 §「三類樂句邊界並用」表的 Subject entry row 加入演算法實測 entries，並澄清 m3 LH 在演算法 template 內、永不為 detected entry。
 
 Pages revised (7):
 - `analysis_bach_inv_1_c_major.md` §7 row — 加入 RH @ m6/m12/m18/m19, LH @ m4/m6/m7
@@ -141,7 +141,7 @@ Pages created:
 
 ## [2026-05-26] knowledge/project separation refactor
 
-依 [[../score-claude/memory/feedback_wiki_knowledge_vs_project_separation]] 原則重構：
+依 *feedback_wiki_knowledge_vs_project_separation* 原則重構：
 - 所有 concept/composer/analysis page 移除「變更日誌」「Phase 1 完成」「實測修正/延伸」「待執行驗證」等 project 性質段落，保留純知識
 - 新增 `_implementation_status.md` 吸收 implementation 進度、A/B 結果、commit refs、TODO 等
 - `index.md` 移除「路線圖」table；保留純索引 / TOC / PIG 風格涵蓋表

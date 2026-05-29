@@ -1,14 +1,14 @@
 # Concept: Double Thirds / Sixths — 雙音三度 / 六度 指法
 
 > 來源：Czerny *Op.500* §double notes, Chopin *Etudes* Op.25 No.6 (double thirds), Cortot *Rational Principles of Pianoforte Technique* §double notes
-> 引用方：[[concept_chord_fingering]], [[concept_finger_substitution]]
+> 引用方：[concept_chord_fingering](concept_chord_fingering.md), [concept_finger_substitution](concept_finger_substitution.md)
 
 ## 1. Double notes 是什麼
 
 Double notes（雙音）= 一手同時演奏兩音，但**不是和弦** — 是兩條獨立旋律線同時推進。最常見：
 - **Double thirds** (雙音三度): 兩音相距 3 度（4 半音 = major / 3 半音 = minor）
 - **Double sixths** (雙音六度): 兩音相距 6 度（9 半音 = major / 8 半音 = minor）
-- **Double octaves**（[[concept_octave_fingering]]）: 兩音相距 8 度
+- **Double octaves**（[concept_octave_fingering](concept_octave_fingering.md)）: 兩音相距 8 度
 
 Double notes 段是鋼琴**最難的純技術項目之一** — Chopin Op.25 No.6 是 double-thirds etude 的代表。
 
@@ -81,8 +81,8 @@ Chopin 在 Op.25 No.6 部分段落有 substitution 標記，是 advanced 技巧�
 
 DP 對 double notes 處理：
 - 識別 chord 內兩音為 thirds / sixths interval
-- 套用 [[concept_chord_fingering]] 標準分配
-- 不啟用 [[concept_finger_substitution]] rule 在連續 double notes 段（substitution 物理太難）
+- 套用 [concept_chord_fingering](concept_chord_fingering.md) 標準分配
+- 不啟用 [concept_finger_substitution](concept_finger_substitution.md) rule 在連續 double notes 段（substitution 物理太難）
 
 實作上 score-claude 對 chord 處理（含 thirds/sixths）由 `_assignment_cost` 處理，不需 special-case rule。
 
@@ -99,8 +99,8 @@ DP 對 double notes 處理：
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_chord_fingering]] — Double notes 是兩音 chord 的特殊形式
-- [[concept_finger_substitution]] — 連續 double notes 段 substitution 限制
-- [[concept_finger_span_table]] — thirds (4 半音) / sixths (9 半音) finger span
-- [[concept_octave_fingering]] — 八度是 double notes 的最大形式
-- [[../wiki_articulation/concept_legato_substitution]] — double notes legato 限制
+- [concept_chord_fingering](concept_chord_fingering.md) — Double notes 是兩音 chord 的特殊形式
+- [concept_finger_substitution](concept_finger_substitution.md) — 連續 double notes 段 substitution 限制
+- [concept_finger_span_table](concept_finger_span_table.md) — thirds (4 半音) / sixths (9 半音) finger span
+- [concept_octave_fingering](concept_octave_fingering.md) — 八度是 double notes 的最大形式
+- [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) — double notes legato 限制

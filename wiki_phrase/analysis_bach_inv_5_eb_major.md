@@ -9,8 +9,8 @@
 
 BWV 776 是 *Two-Part Inventions* (BWV 772–786) 的**第五首**，在 wiki 三首 Bach analysis pair 中扮演**調性 / texture 維度**對照：
 
-- 與 [[analysis_bach_inv_1_c_major]] (C major, 無調號) 對照：BWV 776 有 **3 個降號**，是黑鍵 thumb-pass 互動的最小可行 test case
-- 與 [[analysis_bach_inv_4_d_minor]] (D minor, episode/figural 為主) 對照：BWV 776 是 *lyrical / cantabile* 風格，subject 較長且包含 descending scale，更接近 [[concept_running_passage_thumb_reservation]] 的觸發情境
+- 與 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) (C major, 無調號) 對照：BWV 776 有 **3 個降號**，是黑鍵 thumb-pass 互動的最小可行 test case
+- 與 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) (D minor, episode/figural 為主) 對照：BWV 776 是 *lyrical / cantabile* 風格，subject 較長且包含 descending scale，更接近 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) 的觸發情境
 - musicology 上常被視為 *Inventions* 集中**表情最豐富 (espressivo)** 的一首，Schiff Bach Lectures 將其列為 cantabile 教學典範
 - 教學定位：學生在掌握前 4 首 (C major / C minor / D major / D minor) 後，BWV 776 是 *3-flat 調性的第一課*，預備後續 Suite-style fingering
 
@@ -20,9 +20,9 @@ BWV 776 是 *Two-Part Inventions* (BWV 772–786) 的**第五首**，在 wiki �
 - **E♭ major** (3 flats: B♭, E♭, A♭), 4/4 拍, **32 小節**（無反覆，through-composed；長度為 BWV 772 的約 1.5 倍）
 - 形式：典型 2-voice Invention；exposition / modulation / development / return 四段論
 - 主題特色：**descending scale + arpeggio** 結合 — 起句下行八度級進 (cantabile 線條)，後半轉為琶音上行 (active counter-motion)
-- Subject 長度：約 1–2 小節（musicology 共識傾向 1.5-bar：m1 完整 + m2 上半，⚠ 待 [[concept_subject_imitation_detection]] 驗證）
+- Subject 長度：約 1–2 小節（musicology 共識傾向 1.5-bar：m1 完整 + m2 上半，⚠ 待 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 驗證）
 - 著名版本：András Schiff (cantabile 經典詮釋), Angela Hewitt (Bach edition 推薦聆聽), Glenn Gould 1964 (articulated 對比)
-- 編輯版本爭議：見 [[src_bach_inventions_pedagogy]]
+- 編輯版本爭議：見 [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)
 
 ## 3. Subject 識別 — musicology 共識與演算法測試計畫
 
@@ -36,16 +36,16 @@ BWV 776 的 subject 因為**包含兩個 sub-motives** (descending scale + arpeg
 | **2-bar 派** | m1 + m2 完整 phrase | Czerny 教學版傳統 |
 | **1-bar 派** | 僅 m1 (僅 descending scale sub-motive) | 部分 Schenkerian 分析 |
 
-對 [[concept_subject_imitation_detection]] 演算法而言，**1.5-bar 假設較精確**：LH 在 m3 出現 8va 下方答句時，重現的是 m1 + m2 上半的完整 contour，而非僅 m1 的 scale 段。
+對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 演算法而言，**1.5-bar 假設較精確**：LH 在 m3 出現 8va 下方答句時，重現的是 m1 + m2 上半的完整 contour，而非僅 m1 的 scale 段。
 
 ### 3.2 預期 subject entries (待演算法驗證)
 
-依 musicology 共識（1.5-bar subject 假設），預期 [[concept_subject_imitation_detection]] 演算法應抓到：
+依 musicology 共識（1.5-bar subject 假設），預期 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 演算法應抓到：
 
 | Entry | 手 | 段落角色 |
 |---|---|---|
 | m1 pos1 | RH | Exposition — subject 第一次呈現 (E♭ 起音) |
-| m3 附近 | LH | Exposition — **8va 下方模仿** (參 [[concept_counterpoint]] §模仿規則) |
+| m3 附近 | LH | Exposition — **8va 下方模仿** (參 [concept_counterpoint](concept_counterpoint.md) §模仿規則) |
 | m10–m12 附近 | LH or RH | Modulation — subject 移調至 B♭ major (V) |
 | m17–m20 附近 | 兩手交替 | Development — subdominant (A♭ major) excursion 中的 middle entries |
 | m22–m25 附近 | 兩手交替 | Voice exchange 段（⚠ 兩手主題互換是 BWV 776 已知 musicology 特徵但需逐音驗證）|
@@ -55,7 +55,7 @@ BWV 776 的 subject 因為**包含兩個 sub-motives** (descending scale + arpeg
 
 ### 3.3 倒影 (Inversion) 與 Sequence 分析
 
-BWV 776 中**倒影主題不顯著**（Bach 在 BWV 775 (Inv 4) 才大量使用 strict inversion）。但 BWV 776 中段有顯著的 **sequence + voice exchange** — m17–m26 區段 subject material 在兩手間互換時，配合下行 5th 序列（標準 Bach modulation device）。對演算法的意涵：sequence detection 在這首應**返回明顯密集匹配**，可作為 [[concept_modulation_as_phrase_signal]] 的良性訊號。
+BWV 776 中**倒影主題不顯著**（Bach 在 BWV 775 (Inv 4) 才大量使用 strict inversion）。但 BWV 776 中段有顯著的 **sequence + voice exchange** — m17–m26 區段 subject material 在兩手間互換時，配合下行 5th 序列（標準 Bach modulation device）。對演算法的意涵：sequence detection 在這首應**返回明顯密集匹配**，可作為 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 的良性訊號。
 
 ## 4. 四段曲式對應到 form
 
@@ -66,7 +66,7 @@ BWV 776 中**倒影主題不顯著**（Bach 在 BWV 775 (Inv 4) 才大量使用 
 | **Subdominant excursion** | m17–m26 | A♭ major (IV) → C minor (vi) → 過渡 | 標準 Bach「離調至下屬」strategy；voice exchange 密集區 |
 | **Return + final cadence** | m27–m32 | E♭ major (回主) | Final subject entries + cadential extension + PAC |
 
-→ m9–m10、m16–m17、m26–m27 是三個明顯的**段落邊界**，皆可由 [[concept_modulation_as_phrase_signal]] 偵測；m31–m32 PAC 由 [[concept_cadence_detection]] 偵測。
+→ m9–m10、m16–m17、m26–m27 是三個明顯的**段落邊界**，皆可由 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 偵測；m31–m32 PAC 由 [concept_cadence_detection](concept_cadence_detection.md) 偵測。
 
 ⚠ 確切調性轉折點需逐小節對 score 確認；本頁 boundary 估計以 musicology 共識 8/8/10/6 比例切分。
 
@@ -100,17 +100,17 @@ E♭ major 與 C major 比較，預期 DP behavior 變化：
 - E♭ major 音階下行：RH 4-3-2-1-3-2-1 或 5-4-3-2-1-3-2-1
 - LH 八度跨度 (E♭2 → E♭3) 含黑鍵時，f5-f1 vs f4-f1 選擇被 `LH_PINKY_BLACK_KEY_PENALTY` 牽引
 
-→ 這對 [[../score-claude/memory/feedback_personal_biomechanics]] 的**個人化原則**形成有趣對比：黑鍵指法選擇有較強的**生物力學基底** (Sandor: 黑鍵指法的 3-4 finger group 偏好較不依個人差異)，user override 在 BWV 776 上應顯示**較高的 cross-piece consistency**（與 BWV 772 比較）。⚠ 待 user 教 overrides 驗證。
+→ 這對 *feedback_personal_biomechanics* 的**個人化原則**形成有趣對比：黑鍵指法選擇有較強的**生物力學基底** (Sandor: 黑鍵指法的 3-4 finger group 偏好較不依個人差異)，user override 在 BWV 776 上應顯示**較高的 cross-piece consistency**（與 BWV 772 比較）。⚠ 待 user 教 overrides 驗證。
 
 ## 6. Case B — Lyrical Descending Scale 觸發 Long-Scale Thumb-Under
 
 ### 6.1 為什麼挑這個議題
 
-BWV 776 開頭 subject 即包含 **descending scale 段** (m1 RH: E♭5 → D5 → C5 → B♭4 → A♭4 → G4 → F4 → E♭4，下行八度級進)。這正是 [[concept_running_passage_thumb_reservation]] 的觸發情境，也是 `project_long_scale_thumb_under` rule 的 candidate scenario。
+BWV 776 開頭 subject 即包含 **descending scale 段** (m1 RH: E♭5 → D5 → C5 → B♭4 → A♭4 → G4 → F4 → E♭4，下行八度級進)。這正是 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) 的觸發情境，也是 `project_long_scale_thumb_under` rule 的 candidate scenario。
 
 ### 6.2 與 Long-Scale Thumb-Under Rule 的關係
 
-依 [[../score-claude/memory/project_long_scale_thumb_under]]：
+依 *project_long_scale_thumb_under*：
 
 > Cancels `_transition_cost` WRONG_DIRECTION + THUMB_PASS_UPWARD_EXTRA on thumb-pass inside scale segments
 
@@ -139,7 +139,7 @@ BWV 776 m1 RH descending scale 的指法（musicology 共識）：
 
 ### 6.4 Thumb Reservation 的可能觸發
 
-m1 後半 → m2 上半的 arpeggio 段 (E♭ – G – B♭ 上行琶音) 是典型 [[concept_running_passage_thumb_reservation]] 場景：拇指若在 scale 段尾 (m1 結束 E♭4) 已使用，arpeggio 段 (m2 開頭重新上行) 需要 reset 拇指位置。
+m1 後半 → m2 上半的 arpeggio 段 (E♭ – G – B♭ 上行琶音) 是典型 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) 場景：拇指若在 scale 段尾 (m1 結束 E♭4) 已使用，arpeggio 段 (m2 開頭重新上行) 需要 reset 拇指位置。
 
 依 thumb reservation 原則：跑動段落中拇指不應落在「easy 黑鍵」位置（避免後續被迫穿越）。BWV 776 m1-m2 接縫處的 fingering 選擇正是測試 reservation rule 的 sweet spot。
 
@@ -149,30 +149,30 @@ m1 後半 → m2 上半的 arpeggio 段 (E♭ – G – B♭ 上行琶音) 是�
 
 | 邊界類型 | Inv 5 觸發點 | 工具 |
 |---|---|---|
-| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — @ default tol=0.8: RH 2 entries (m23/m27), LH 0; @ **tol=0.7** (per-piece in `BACH_INV_PHRASE_FLAGS[5]`): **RH 5 entries (m12/m16/m20/m23/m27 ✓ 命中 wiki 預測 m10-12 + m22-25 + m27-30)**, **LH 4 entries (m16/m23/m27/m30 ✓ 命中 wiki 預測 m17-20 + m22-25 + m27-30)** | [[concept_subject_imitation_detection]] | ✓ 2026-05-29 enabled: 既有 figural+thumb 加 subject@0.7; cost RH -3.43 / LH -2.06 vs baseline，相對既有 fig+thumb config 加 subject 多 +0.72 LH (0.23%, < 2% red-line)。詳 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]] action #6。 |
-| **Modulation / 段落** | m9–m10, m16–m17, m26–m27 | [[concept_modulation_as_phrase_signal]] |
-| **Cadence** | m31–m32 PAC, 可能 m16 IAC (modulation end) | [[concept_cadence_detection]] |
-| **Figural** | m1-m2 scale→arpeggio sub-motive 切換、m17-m26 sequence 內 figure 轉折 | [[concept_figural_boundary_detection]] |
+| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — @ default tol=0.8: RH 2 entries (m23/m27), LH 0; @ **tol=0.7** (per-piece in `BACH_INV_PHRASE_FLAGS[5]`): **RH 5 entries (m12/m16/m20/m23/m27 ✓ 命中 wiki 預測 m10-12 + m22-25 + m27-30)**, **LH 4 entries (m16/m23/m27/m30 ✓ 命中 wiki 預測 m17-20 + m22-25 + m27-30)** | [concept_subject_imitation_detection](concept_subject_imitation_detection.md) | ✓ 2026-05-29 enabled: 既有 figural+thumb 加 subject@0.7; cost RH -3.43 / LH -2.06 vs baseline，相對既有 fig+thumb config 加 subject 多 +0.72 LH (0.23%, < 2% red-line)。詳 *project_bach_inv_subject_detection_validation_2026-05-28* action #6。 |
+| **Modulation / 段落** | m9–m10, m16–m17, m26–m27 | [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) |
+| **Cadence** | m31–m32 PAC, 可能 m16 IAC (modulation end) | [concept_cadence_detection](concept_cadence_detection.md) |
+| **Figural** | m1-m2 scale→arpeggio sub-motive 切換、m17-m26 sequence 內 figure 轉折 | [concept_figural_boundary_detection](concept_figural_boundary_detection.md) |
 | **Texture (黑鍵指法)** | 全曲適用，但 m17–m26 voice exchange 段最密集 | (黑鍵 cost rules，非獨立 phrase 軸) |
 
 → Inv 5 與其他兩首 analysis 對照：
-  - [[analysis_bach_inv_1_c_major]]: modulation + cadence 主導，coda figural 補充
-  - [[analysis_bach_inv_4_d_minor]]: figural boundary 主導 (m50 case)，subject entry 抓不到 episode/coda
+  - [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md): modulation + cadence 主導，coda figural 補充
+  - [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md): figural boundary 主導 (m50 case)，subject entry 抓不到 episode/coda
   - **Inv 5: subject entry + thumb-related rules 主導**（cantabile + 3-flat black-key 互動）
 
 三首合看支持本套 wiki 的核心架構假設：**單一偵測軸無法完整描述 Bach Invention 樂句結構**；不同曲目觸發不同 boundary axes。
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 與 [[analysis_bach_inv_1_c_major]]、[[analysis_bach_inv_4_d_minor]] 形成 Bach Inv triplet (C major / D minor / E♭ major)，涵蓋不同調性 + form 主導軸
-- 應用 [[concept_fugue]] / [[concept_counterpoint]] 對 2-voice Invention 的論述
-- 對 [[concept_subject_imitation_detection]] 提供 1.5-bar subject 假設的驗證 case (與 BWV 772 1-bar 派形成對照)
-- 對 [[concept_modulation_as_phrase_signal]] 提供 m9–m10 / m16–m17 / m26–m27 三個調性轉折點
-- 對 [[concept_cadence_detection]] 提供 m31–m32 PAC + m16 IAC 案例
-- 對 [[concept_running_passage_thumb_reservation]] 提供 m1-m2 cantabile descending scale + arpeggio 接縫案例
-- 對 `[[../score-claude/memory/project_long_scale_thumb_under]]` 提供 baroque cantabile candidate（與 Mozart K545/K283 形成 era 對照）
-- 黑鍵指法討論引 [[src_bach_inventions_pedagogy]]（Schiff cantabile 推薦 vs Czerny 傳統）
-- 對位起源溯至 [[src_fux_gradus_ad_parnassum]]
-- Override semantics 解讀依 [[../score-claude/memory/feedback_override_semantics]]、[[../score-claude/memory/feedback_phrase_as_breath]]
-- 個人化生物力學原則依 [[../score-claude/memory/feedback_personal_biomechanics]]
-- Measure 對應依 [[../score-claude/memory/project_bach_inv_measure_mapping]]（mvt5 對應 entries 須查表）
+- 與 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md)、[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 形成 Bach Inv triplet (C major / D minor / E♭ major)，涵蓋不同調性 + form 主導軸
+- 應用 [concept_fugue](concept_fugue.md) / [concept_counterpoint](concept_counterpoint.md) 對 2-voice Invention 的論述
+- 對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 提供 1.5-bar subject 假設的驗證 case (與 BWV 772 1-bar 派形成對照)
+- 對 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 提供 m9–m10 / m16–m17 / m26–m27 三個調性轉折點
+- 對 [concept_cadence_detection](concept_cadence_detection.md) 提供 m31–m32 PAC + m16 IAC 案例
+- 對 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) 提供 m1-m2 cantabile descending scale + arpeggio 接縫案例
+- 對 `*project_long_scale_thumb_under*` 提供 baroque cantabile candidate（與 Mozart K545/K283 形成 era 對照）
+- 黑鍵指法討論引 [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)（Schiff cantabile 推薦 vs Czerny 傳統）
+- 對位起源溯至 [src_fux_gradus_ad_parnassum](src_fux_gradus_ad_parnassum.md)
+- Override semantics 解讀依 *feedback_override_semantics*、*feedback_phrase_as_breath*
+- 個人化生物力學原則依 *feedback_personal_biomechanics*
+- Measure 對應依 *project_bach_inv_measure_mapping*（mvt5 對應 entries 須查表）

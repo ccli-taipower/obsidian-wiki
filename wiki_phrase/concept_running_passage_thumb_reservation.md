@@ -1,18 +1,18 @@
 # Concept: Running Passage 中 Thumb Reservation — 長階串聯指法的起手策略
 
-> 來源：通用對位 / Bach 演奏實踐 + Czerny《Theoretisch-praktische Pianoforte-Schule》Op.500、Hanon 50 練習、Tim Stein 影片 (見 [[../wiki_piano/concept_thumb_technique]])
-> 引用方：[[concept_fugue]] (episode 段)、[[analysis_bach_inv_4_d_minor]] (target case)、[[../wiki_piano/concept_thumb_technique]]
+> 來源：通用對位 / Bach 演奏實踐 + Czerny《Theoretisch-praktische Pianoforte-Schule》Op.500、Hanon 50 練習、Tim Stein 影片 (見 [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md))
+> 引用方：[concept_fugue](concept_fugue.md) (episode 段)、[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) (target case)、[../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md)
 > 狀態：第一版 2026-05-26
 > 觸發 case：mvt4 RH m50 pos2 — user override f2，但 DP 即使有 phrase reset 仍選 f1
 
 ## 1. 為什麼這頁是 phrase wiki 與 piano wiki 的橋樑
 
-[[analysis_bach_inv_4_d_minor]] 揭露：mvt4 m50 RH 即使加上正確的 phrase boundary，DP 仍選 f1 (thumb on C#4)，與 user override f2 不符。
+[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 揭露：mvt4 m50 RH 即使加上正確的 phrase boundary，DP 仍選 f1 (thumb on C#4)，與 user override f2 不符。
 
-根因 **不是樂句切錯**（[[concept_figural_boundary_detection]] 機制 OK），而是 DP 的 cost function **缺少「啟動長階串聯時保留 thumb」的策略**。這是個跨工具的問題：
+根因 **不是樂句切錯**（[concept_figural_boundary_detection](concept_figural_boundary_detection.md) 機制 OK），而是 DP 的 cost function **缺少「啟動長階串聯時保留 thumb」的策略**。這是個跨工具的問題：
 
 - **樂句 wiki** (這頁起源)：phrase 起始位置的指法選擇應該為整個樂句服務
-- **生物力學 wiki** ([[../wiki_piano/concept_thumb_technique]])：thumb-under (拇指穿越) 是覆蓋 > 5 半音範圍的必要技巧
+- **生物力學 wiki** ([../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md))：thumb-under (拇指穿越) 是覆蓋 > 5 半音範圍的必要技巧
 
 ## 2. 觀察：5 指 vs > 5 半音範圍
 
@@ -45,7 +45,7 @@ user 選 f2 不只是個人偏好 — 它是這個音型最自然的 thumb-under
 - 連續 ≥ 4 音
 - 方向一致 (上行 / 下行)
 - 整體跨度 > 5 半音
-- Stepwise (interval magnitude ≤ 4 半音，與 [[concept_figural_boundary_detection]] 一致)
+- Stepwise (interval magnitude ≤ 4 半音，與 [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 一致)
 
 ### 4.2 起手 finger 選擇原則
 
@@ -161,14 +161,14 @@ def _running_passage_thumb_reservation_cost(
 - 看太遠 → phrase 內 figure 變化會被當成 monotonic（過度觸發）
 - look_ahead=4 是一個 reasonable cap：只看接下來 4 音
 
-**與 [[concept_figural_boundary_detection]] 的關係**：
+**與 [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 的關係**：
 - 部分重疊（都基於「stepwise monotonic > 5 半音」結構）
 - Figural boundary 偵測「figure 結束」；本頁偵測「figure 開始時的起手」
 - 兩者**互補不互斥** — 用在不同 cost 維度
 
 ## 9. 與其他 wiki 頁面的關係
 
-- 對應 [[../wiki_piano/concept_thumb_technique]] §thumb-under — 提供啟動的指法選擇支援
-- 對應 [[../wiki_piano/concept_finger_span_table]] — 限制 5-指範圍假設的數理基礎
-- 對應 [[concept_fugue]] §episode — episode 段大量 running passage
-- 對應 [[analysis_bach_inv_4_d_minor]] §5 — 直接解釋 m50 user override 的選擇
+- 對應 [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) §thumb-under — 提供啟動的指法選擇支援
+- 對應 [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — 限制 5-指範圍假設的數理基礎
+- 對應 [concept_fugue](concept_fugue.md) §episode — episode 段大量 running passage
+- 對應 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) §5 — 直接解釋 m50 user override 的選擇

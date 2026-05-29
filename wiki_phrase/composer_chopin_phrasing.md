@@ -1,13 +1,13 @@
 # Composer: Chopin 樂句 — 按 genre 細分
 
-> 來源：[[concept_chopin_lyrical_phrase]] 基底 + Rosen《The Romantic Generation》Chopin 章節、Eigeldinger《Chopin Pianist and Teacher》、標準 Chopin 演奏文獻
+> 來源：[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 基底 + Rosen《The Romantic Generation》Chopin 章節、Eigeldinger《Chopin Pianist and Teacher》、標準 Chopin 演奏文獻
 > 涵蓋 PIG：Chopin 23 曲（最大 composer bloc）
 > 狀態：第一版 2026-05-26
-> 引用方：[[concept_chopin_lyrical_phrase]] (反向引用 — 細分版本)
+> 引用方：[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) (反向引用 — 細分版本)
 
 ## 1. 為什麼 Chopin 要按 genre 細分
 
-[[concept_chopin_lyrical_phrase]] 涵蓋通則（不規律長度、禁用 4-bar fallback、texture 訊號），但 Chopin **每個 genre 的樂句邏輯不同**：
+[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 涵蓋通則（不規律長度、禁用 4-bar fallback、texture 訊號），但 Chopin **每個 genre 的樂句邏輯不同**：
 - Nocturne 與 Ballade 的 lyrical 句子長度截然不同
 - Etude 的 figural unit 與 Mazurka 的舞曲節奏完全不可比
 - Polonaise 的 march-like 規律 vs Scherzo 的對比性切換
@@ -127,12 +127,12 @@ Chopin 樂句長度統計分佈（合成估計）：
 
 ## 7. 與其他 wiki 頁面的關係
 
-- 父頁 [[concept_chopin_lyrical_phrase]]：通則
-- 對應 [[concept_classical_period_sentence]]：Chopin **不**套此模板（過於規律）
-- 工具頁 [[concept_cadence_detection]]：Chopin 用 weakened cadence variants
-- 工具頁 [[concept_subject_imitation_detection]]：Chopin **不**適用（非對位）
+- 父頁 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md)：通則
+- 對應 [concept_classical_period_sentence](concept_classical_period_sentence.md)：Chopin **不**套此模板（過於規律）
+- 工具頁 [concept_cadence_detection](concept_cadence_detection.md)：Chopin 用 weakened cadence variants
+- 工具頁 [concept_subject_imitation_detection](concept_subject_imitation_detection.md)：Chopin **不**適用（非對位）
 - 待寫：
-  - [[analysis_chopin_op9_no2_nocturne]]
-  - [[analysis_chopin_ballade_no2]]
-  - [[concept_dance_metric_accent]] — Mazurka / Waltz / Polonaise 節奏共通
+  - [analysis_chopin_op9_no2_nocturne](analysis_chopin_op9_no2_nocturne.md)
+  - [analysis_chopin_ballade_no2](analysis_chopin_ballade_no2.md)
+  - [concept_dance_metric_accent](concept_dance_metric_accent.md) — Mazurka / Waltz / Polonaise 節奏共通
 

@@ -1,7 +1,7 @@
 # Concept: Fermata — 延長標記
 
 > 來源：Czerny《Op.500》§表情標記, Türk《Klavierschule》§延長, Brendel essays §Beethoven 延長
-> 引用方：[[concept_articulation_overview]] §2 (taxonomy 第 11 項)
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §2 (taxonomy 第 11 項)
 
 ## 1. Fermata 是什麼
 
@@ -20,7 +20,7 @@ Fermata 的指法影響有限：
 - 該音的指法選擇按一般規則（fermata 只改 duration，不改 finger 偏好）
 - 但需確保該指能**穩定持指 longer**（避免弱指 4/5 在長持音時抖動）
 
-→ 對指法的意涵：**強指偏好**（與 [[concept_tenuto]] 類似邏輯）— 1/2/3 優先，4/5 盡量避免承擔 fermata 強指責任。
+→ 對指法的意涵：**強指偏好**（與 [concept_tenuto](concept_tenuto.md) 類似邏輯）— 1/2/3 優先，4/5 盡量避免承擔 fermata 強指責任。
 
 ## 3. Fermata 與 phrase boundary 的關係
 
@@ -34,7 +34,7 @@ Fermata 通常出現在 phrase 結尾：
 
 | 疊加 | 處理 |
 |---|---|
-| **Fermata + tenuto** | duration 大幅延長 + 壓重；強指偏好（[[concept_tenuto]]）|
+| **Fermata + tenuto** | duration 大幅延長 + 壓重；強指偏好（[concept_tenuto](concept_tenuto.md)）|
 | **Fermata + slur 結尾** | slur 涵蓋至 fermata 音為止；下一 phrase 從 fermata 後重新開始 |
 | **Fermata + accent** | 戲劇性延長 + 重音；典型用於 cadenza 開始或樂章高點 |
 | **Fermata 後 一拍空白 (caesura)** | 雙重 reset — phrase 邊界 + 拍子重設 |
@@ -65,10 +65,10 @@ DP 目前完全不看 fermata 標記：
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] §2 — taxonomy 第 11 項
-- [[concept_tenuto]] — fermata 持音的強指偏好邏輯類似
-- [[../wiki_phrase/concept_cadence_detection]] — fermata 常出現在 cadence 位置
-- [[../wiki_piano/concept_finger_span_table]] — 持音時手指穩定度
+- [concept_articulation_overview](concept_articulation_overview.md) §2 — taxonomy 第 11 項
+- [concept_tenuto](concept_tenuto.md) — fermata 持音的強指偏好邏輯類似
+- [../wiki_phrase/concept_cadence_detection](../wiki_phrase/concept_cadence_detection.md) — fermata 常出現在 cadence 位置
+- [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — 持音時手指穩定度
 
 ## 8. ⚠ Training-data verification queue
 

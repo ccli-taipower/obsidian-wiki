@@ -151,11 +151,11 @@ Bach《兩聲部創意曲》(Inventions, BWV 772-786) 是西方鋼琴教學近�
 
 1. **Bach Inventions 是本專案的 primary test corpus**：15 mvt、每首 16-30 小節、教學文獻最密集 — daily-driver 測試材料。`BACH_INV_OVERRIDES` 是專案核心 ground truth。
 
-2. **Per-hand DP 在對位音樂裡是必要的**：兩聲部 phrasing 不同步是 Baroque 對位的本質，不是 bug；不能要求兩手 phrase boundary 對齊。詳見 [[concept_counterpoint]]。
+2. **Per-hand DP 在對位音樂裡是必要的**：兩聲部 phrasing 不同步是 Baroque 對位的本質，不是 bug；不能要求兩手 phrase boundary 對齊。詳見 [concept_counterpoint](concept_counterpoint.md)。
 
-3. **Editorial fingering disagreement is expected**：Czerny、Bischoff、Henle、Schiff 各家指法不同 — 不該嘗試對齊某單一傳統，而要對齊 user 自己的 biomechanical optimum（[[../score-claude/memory/feedback_personal_biomechanics]]）。
+3. **Editorial fingering disagreement is expected**：Czerny、Bischoff、Henle、Schiff 各家指法不同 — 不該嘗試對齊某單一傳統，而要對齊 user 自己的 biomechanical optimum（*feedback_personal_biomechanics*）。
 
-4. **Subject detection 是最強的 phrase boundary cue**：每次 subject entry（同手或跨手）幾乎必然是 phrase 起點；比泛用「音高跳幅 > N」更精準。詳見 [[concept_subject_imitation_detection]]。
+4. **Subject detection 是最強的 phrase boundary cue**：每次 subject entry（同手或跨手）幾乎必然是 phrase 起點；比泛用「音高跳幅 > N」更精準。詳見 [concept_subject_imitation_detection](concept_subject_imitation_detection.md)。
 
 5. **Phrase boundary 在 Inv 4 / Inv 8 等曲有真實的學派分歧**：自動偵測不可能對所有 case 命中正確答案；**BACH_INV_OVERRIDES 之所以 hand-curated，正是為了承認這種歧義**。
 
@@ -165,8 +165,8 @@ Bach《兩聲部創意曲》(Inventions, BWV 772-786) 是西方鋼琴教學近�
 
 8. **Voice independence → per-hand phrase 不對齊是正常**：mvt4 LH 抓到 m50 boundary、RH 沒抓到，與 fugue / counterpoint 傳統一致；不是演算法錯誤，是設計正確的反映。
 
-詳見 [[concept_fugue]]、[[concept_counterpoint]]、[[concept_subject_imitation_detection]]、[[analysis_bach_inv_4_d_minor]]。
+詳見 [concept_fugue](concept_fugue.md)、[concept_counterpoint](concept_counterpoint.md)、[concept_subject_imitation_detection](concept_subject_imitation_detection.md)、[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)。
 
 ## Cross-references
 
-[[concept_counterpoint]]、[[concept_fugue]]、[[concept_subject_imitation_detection]]、[[analysis_bach_inv_4_d_minor]]、[[src_fux_gradus_ad_parnassum]]、[[src_epochtimes_fugue_zhou_2005]]、[[../score-claude/memory/project_bach_inv_measure_mapping]]。
+[concept_counterpoint](concept_counterpoint.md)、[concept_fugue](concept_fugue.md)、[concept_subject_imitation_detection](concept_subject_imitation_detection.md)、[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)、[src_fux_gradus_ad_parnassum](src_fux_gradus_ad_parnassum.md)、[src_epochtimes_fugue_zhou_2005](src_epochtimes_fugue_zhou_2005.md)、*project_bach_inv_measure_mapping*。

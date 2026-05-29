@@ -1,7 +1,7 @@
 # Concept: Octave Fingering — 八度指法
 
 > 來源：Czerny *Op.500* §octaves, Hanon *The Virtuoso Pianist* §60 (octave 練習), Sandor *On Piano Playing* §wrist octave
-> 引用方：[[concept_thumb_technique]], [[concept_wrist_motion]], [[analysis_small_hands_advice]]
+> 引用方：[concept_thumb_technique](concept_thumb_technique.md), [concept_wrist_motion](concept_wrist_motion.md), [analysis_small_hands_advice](analysis_small_hands_advice.md)
 
 ## 1. 八度的指法選項
 
@@ -57,7 +57,7 @@ Sandor *On Piano Playing* §wrist octave 提出八度的物理：
 
 → 八度練習 = 手腕 + 前臂技術練習，不是手指獨立性練習。
 
-對指法的意涵：八度段不啟用 [[concept_finger_substitution]] 規則（substitution 是手指間的事，八度是 wrist-based 動作）。
+對指法的意涵：八度段不啟用 [concept_finger_substitution](concept_finger_substitution.md) 規則（substitution 是手指間的事，八度是 wrist-based 動作）。
 
 ## 6. 小手演奏八度的策略
 
@@ -69,7 +69,7 @@ Sandor *On Piano Playing* §wrist octave 提出八度的物理：
 - 接受微小 break（不強求完美 legato）
 - 必要時跨手分配（一手彈下音、另一手彈上音）
 
-詳見 [[concept_small_hands]] + [[analysis_small_hands_advice]] §八度章節。
+詳見 [concept_small_hands](concept_small_hands.md) + [analysis_small_hands_advice](analysis_small_hands_advice.md) §八度章節。
 
 ## 7. 對 score-claude DP 的影響
 
@@ -78,7 +78,7 @@ DP 對八度處理：
 - 標準分配：1 (下音) + 5 (上音)，黑鍵或小手情境改 1 + 4
 - LH 對應：5 (下音) + 1 (上音)，LH 八度 thumb 在頂音
 
-實作上 [[concept_chord_fingering]] 中的 chord 指法分配機制已涵蓋八度。
+實作上 [concept_chord_fingering](concept_chord_fingering.md) 中的 chord 指法分配機制已涵蓋八度。
 
 ## 8. 八度技巧訓練
 
@@ -94,8 +94,8 @@ DP 對八度處理：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_thumb_technique]] — 八度下音 thumb 解剖學
-- [[concept_wrist_motion]] — 八度的 wrist-based 動作
-- [[concept_chord_fingering]] — 八度作為兩音 chord 處理
-- [[concept_small_hands]] — 小手演奏八度的限制
-- [[analysis_small_hands_advice]] — 小手八度策略
+- [concept_thumb_technique](concept_thumb_technique.md) — 八度下音 thumb 解剖學
+- [concept_wrist_motion](concept_wrist_motion.md) — 八度的 wrist-based 動作
+- [concept_chord_fingering](concept_chord_fingering.md) — 八度作為兩音 chord 處理
+- [concept_small_hands](concept_small_hands.md) — 小手演奏八度的限制
+- [analysis_small_hands_advice](analysis_small_hands_advice.md) — 小手八度策略

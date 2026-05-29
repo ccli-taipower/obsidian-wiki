@@ -67,7 +67,7 @@ Schubert 的標誌性手法是突然轉到**遠系調**（mediant, submediant, f
 ```
 schubert_phrase_detector(groups, hand):
 
-1. 用 [[concept_classical_period_sentence]] 基底（仍偏古典）
+1. 用 [concept_classical_period_sentence](concept_classical_period_sentence.md) 基底（仍偏古典）
 
 2. 改寫 fallback：
    - 禁用 4-bar 週期 → 改用 8-bar (Schubert 偏長樂句)
@@ -101,9 +101,9 @@ schubert_phrase_detector(groups, hand):
 
 ## 6. 與其他 wiki 頁面的關係
 
-- 主要繼承 [[concept_classical_period_sentence]] 基底
-- 借用 [[concept_chopin_lyrical_phrase]] 的「不規律長度」與「LH pattern 切換」訊號
-- 不同於 [[composer_beethoven_phrasing]]：Schubert 較少 phrase expansion / compression
+- 主要繼承 [concept_classical_period_sentence](concept_classical_period_sentence.md) 基底
+- 借用 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 的「不規律長度」與「LH pattern 切換」訊號
+- 不同於 [composer_beethoven_phrasing](composer_beethoven_phrasing.md)：Schubert 較少 phrase expansion / compression
 - 待寫：
-  - [[concept_modulation_as_phrase_signal]] (轉調作為樂句訊號的細化)
+  - [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) (轉調作為樂句訊號的細化)
 

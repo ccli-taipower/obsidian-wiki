@@ -48,4 +48,4 @@
 3. **插曲與主題段落的樂句長度不同**：episode 常用 motivic fragment + sequence，樂句較短；exposition / recapitulation 樂句以完整主題長度為單位。
 4. **Stretto 段落樂句重疊**：邊界可以非常密集，甚至跨聲部同拍開始 — 不能假設樂句至少 N 拍長。
 
-詳見 [[concept_fugue]] 與 [[concept_counterpoint]]。
+詳見 [concept_fugue](concept_fugue.md) 與 [concept_counterpoint](concept_counterpoint.md)。

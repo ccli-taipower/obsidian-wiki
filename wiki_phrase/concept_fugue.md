@@ -1,6 +1,6 @@
 # Concept: Fugue 賦格 — 結構與樂句邊界
 
-> 來源：[[src_epochtimes_fugue_zhou_2005]] (周怡秀, 大紀元 2005) + 通用音樂理論擴增
+> 來源：[src_epochtimes_fugue_zhou_2005](src_epochtimes_fugue_zhou_2005.md) (周怡秀, 大紀元 2005) + 通用音樂理論擴增
 > 狀態：種子頁，第一版 2026-05-26
 
 ## 1. 一句話定義
@@ -9,7 +9,7 @@
 
 ## 2. 為什麼這頁對指法系統重要
 
-指法系統 (`assign_fingering_v6`) 要先把樂句切對才能算出對的指法（見 [[../wiki_piano/]] 的生物力學原則）。Fugue / 對位作品的樂句結構**不適合**用泛用啟發式（音高跳幅、休止符長度）切分，因為：
+指法系統 (`assign_fingering_v6`) 要先把樂句切對才能算出對的指法（見 [../wiki_piano/](../wiki_piano/.md) 的生物力學原則）。Fugue / 對位作品的樂句結構**不適合**用泛用啟發式（音高跳幅、休止符長度）切分，因為：
 
 - 每條聲部 (voice) 有獨立樂句線
 - 樂句邊界常出現在**主題重入聲**的位置，而不是音高跳幅大的位置
@@ -51,7 +51,7 @@ Final entries + Coda (結束部)
 3. **正向倒影 (inversion)**：音程方向上下顛倒（上行 → 下行）
 4. **逆向倒影 (retrograde inversion)**：同時逆向 + 倒影
 
-文章指出後兩種一般聽眾不易辨認。對指法系統而言：**任何模仿形式都標誌新樂句起點**，識別方法（音名序列、音程序列、TI signature）見 [[concept_motif_identity]] (TODO)。
+文章指出後兩種一般聽眾不易辨認。對指法系統而言：**任何模仿形式都標誌新樂句起點**，識別方法（音名序列、音程序列、TI signature）見 [concept_motif_identity](concept_motif_identity.md) (TODO)。
 
 ### 3.4 進階手法
 
@@ -84,8 +84,8 @@ Bach 15 Inventions (BWV 772–786) **不是嚴格的 fugue**（只有 2 聲部�
 → 本頁所有樂句規則對 Bach Inventions 適用。Inventions 因為只有 2 聲部，**每隻手對應一個聲部**，所以 per-hand `_detect_phrase_starts` 概念上完全正確；問題只在「沒看到主題重入」。
 
 具體 mvt 分析見：
-- [[analysis_bach_inv_4_d_minor]] (TODO — mvt4 m50 case 的直接出處)
-- [[analysis_bach_inv_general_patterns]] (TODO)
+- [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) (TODO — mvt4 m50 case 的直接出處)
+- [analysis_bach_inv_general_patterns](analysis_bach_inv_general_patterns.md) (TODO)
 
 ## 6. 與其他曲式的對照（P1 擴增）
 
@@ -97,9 +97,9 @@ Bach 15 Inventions (BWV 772–786) **不是嚴格的 fugue**（只有 2 聲部�
 | **二十世紀對位** (Bartók, Hindemith) | 不規律 | 對位密度變化、texture shift |
 
 當前實作的 `_detect_phrase_starts` Pass 3 (4/8 bar 週期) 對 **古典奏鳴曲** 合理，但對 fugue 系統性錯誤。後續要建：
-- [[concept_motif_subject_detection]] (TODO) — 主題識別演算法
-- [[concept_cadence_detection]] (TODO) — 終止式偵測
-- [[analysis_fugue_phrasing_vs_classical_phrasing]] (TODO)
+- [concept_motif_subject_detection](concept_motif_subject_detection.md) (TODO) — 主題識別演算法
+- [concept_cadence_detection](concept_cadence_detection.md) (TODO) — 終止式偵測
+- [analysis_fugue_phrasing_vs_classical_phrasing](analysis_fugue_phrasing_vs_classical_phrasing.md) (TODO)
 
 ## 7. 立即可動的演算法草案（草案，未實作）
 
@@ -124,5 +124,5 @@ output: list of phrase-start indices
    啟動 4-bar 週期 fallback（現有 Pass 3 邏輯）
 ```
 
-此演算法待驗證 — 先做 mvt4 case study ([[analysis_bach_inv_4_d_minor]]) 看是否正確抓到 m50 boundary。
+此演算法待驗證 — 先做 mvt4 case study ([analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)) 看是否正確抓到 m50 boundary。
 

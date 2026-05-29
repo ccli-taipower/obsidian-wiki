@@ -1,7 +1,7 @@
 # Concept: Portato (Mezzo-Staccato) — 半連半斷的中間地帶
 
 > 來源：Türk *Klavierschule* (1789) §「kurz und tragend」、Czerny *Op.500*、Brendel essays §Mozart articulation
-> 引用方：[[concept_articulation_overview]] §4
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §4
 
 ## 1. Portato 是什麼
 
@@ -62,7 +62,7 @@ Portato 75% 音長 → 仍有 25% 的「離鍵」期間。若按 legato 規則�
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] — 本頁的 parent 概覽
-- [[concept_legato_substitution]] — portato 段按 legato 規則保守處理
-- [[concept_staccato]] — portato 不是 staccato；雖然也有 dot 標記
-- [[concept_tenuto]] — 不要混淆 portato 與 tenuto；前者是音間連接、後者是單音時長
+- [concept_articulation_overview](concept_articulation_overview.md) — 本頁的 parent 概覽
+- [concept_legato_substitution](concept_legato_substitution.md) — portato 段按 legato 規則保守處理
+- [concept_staccato](concept_staccato.md) — portato 不是 staccato；雖然也有 dot 標記
+- [concept_tenuto](concept_tenuto.md) — 不要混淆 portato 與 tenuto；前者是音間連接、後者是單音時長

@@ -1,7 +1,7 @@
 # Source: Donington《Baroque Music: Style and Performance》
 
 > Robert Donington (1907-1990), *Baroque Music: Style and Performance* (1982, Faber and Faber)
-> 引用方：[[concept_non_legato_baroque]] §2, [[concept_articulation_overview]] §3 (Baroque default), [[concept_period_defaults]] §5 (Urtext editorial)
+> 引用方：[concept_non_legato_baroque](concept_non_legato_baroque.md) §2, [concept_articulation_overview](concept_articulation_overview.md) §3 (Baroque default), [concept_period_defaults](concept_period_defaults.md) §5 (Urtext editorial)
 
 ## 1. 作者背景
 
@@ -43,7 +43,7 @@ Robert Donington 是 20 世紀英國 historically-informed performance (HIP) 運
 
 > 「這些 slur 不是 Bach 原意，是 19 世紀浪漫派音樂家對 Baroque 的『現代化』詮釋。當代演奏家若依此 edition 演奏，等於演奏『19 世紀化的 Bach』而非 Bach 本人。」
 
-→ 對應 [[concept_period_defaults]] §5 提到的 「**編輯者 articulation 與時代 default 的衝突**」原則。
+→ 對應 [concept_period_defaults](concept_period_defaults.md) §5 提到的 「**編輯者 articulation 與時代 default 的衝突**」原則。
 
 對指法的意涵：score-claude 對 Baroque MXL 應**優先使用 Urtext 來源**（Henle / Bärenreiter / National Editions），避免基於 Schirmer-Mikuli 等浪漫派 edition 的 MXL 過度啟用 legato substitution。
 
@@ -54,7 +54,7 @@ Donington 廣泛討論 Baroque ornaments（trill、mordent、appoggiatura、turn
 - Ornament 結束音與下個 melodic 音**通常 legato 連接**（resolution）
 - Trill 本身 **non-legato** （每音清晰），但與 resolution 音 legato
 
-對指法的意涵：[[concept_legato_substitution]] §6 列出 ornament 為失效情境之一，是基於 Donington 此類觀察。
+對指法的意涵：[concept_legato_substitution](concept_legato_substitution.md) §6 列出 ornament 為失效情境之一，是基於 Donington 此類觀察。
 
 ## 3. HIP 運動對當代演奏的影響
 
@@ -72,9 +72,9 @@ Donington 是 HIP 運動的領軍學者之一。HIP 運動的核心主張：
 
 | Donington 主張 | 對 score-claude DP 的對應 |
 |---|---|
-| Non-legato 是 Baroque 默認演奏實踐 | [[concept_non_legato_baroque]] 是 wiki 級別 confirmation |
+| Non-legato 是 Baroque 默認演奏實踐 | [concept_non_legato_baroque](concept_non_legato_baroque.md) 是 wiki 級別 confirmation |
 | Editorial slur 不應信任 | 對 Schirmer / Mikuli 編 Bach MXL 應保守處理 |
-| Ornament 內部 non-legato | [[concept_legato_substitution]] §6 ornament 失效情境 |
+| Ornament 內部 non-legato | [concept_legato_substitution](concept_legato_substitution.md) §6 ornament 失效情境 |
 | HIP-aware default | 系統 default 偏 conservative |
 
 ## 5. 文章未涵蓋
@@ -96,12 +96,12 @@ Donington 是「**現代 Urtext / HIP 派**」的代表，提供 20 世紀 music
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_non_legato_baroque]] §2 — Donington 對 non-legato 是「演奏實踐非作曲家意圖」的論述
-- [[concept_period_defaults]] §5 — Donington 對 editorial slur 汙染的批評
-- [[concept_articulation_overview]] §3 — Donington 對 Baroque/Classical/Romantic 過渡期的歷史框架
-- [[concept_legato_substitution]] §6 — Donington 對 ornament 內部 non-legato 的觀察
-- [[src_turk_klavierschule]] — Donington 引用的 18 世紀末一手文獻
-- [[../wiki_phrase/concept_fugue]] / [[../wiki_phrase/concept_counterpoint]] — Donington 對 Baroque 對位 texture 的處理影響樂句分段
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) §2 — Donington 對 non-legato 是「演奏實踐非作曲家意圖」的論述
+- [concept_period_defaults](concept_period_defaults.md) §5 — Donington 對 editorial slur 汙染的批評
+- [concept_articulation_overview](concept_articulation_overview.md) §3 — Donington 對 Baroque/Classical/Romantic 過渡期的歷史框架
+- [concept_legato_substitution](concept_legato_substitution.md) §6 — Donington 對 ornament 內部 non-legato 的觀察
+- [src_turk_klavierschule](src_turk_klavierschule.md) — Donington 引用的 18 世紀末一手文獻
+- [../wiki_phrase/concept_fugue](../wiki_phrase/concept_fugue.md) / [../wiki_phrase/concept_counterpoint](../wiki_phrase/concept_counterpoint.md) — Donington 對 Baroque 對位 texture 的處理影響樂句分段
 
 ## 8. ⚠ Training-data verification queue
 

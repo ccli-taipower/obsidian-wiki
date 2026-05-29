@@ -1,7 +1,7 @@
 # Composer: J.S. Bach 樂句分段
 
 > 來源：Schiff Bach lectures, Tovey *Companion to Bach's Art of Fugue*, Williams *J.S. Bach* (2007), Donington *Baroque Music*
-> 引用方：[[concept_fugue]], [[concept_counterpoint]], [[analysis_bach_inv_1_c_major]] 等 8 個 Bach Inv 分析頁, [[src_bach_inventions_pedagogy]]
+> 引用方：[concept_fugue](concept_fugue.md), [concept_counterpoint](concept_counterpoint.md), [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) 等 8 個 Bach Inv 分析頁, [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)
 
 ## 1. 為什麼 Bach 樂句分段值得獨立頁面
 
@@ -25,21 +25,21 @@ Bach 樂句分段不能套用後續 Classical / Romantic 邏輯 — 對位作品
 
 → 不存在「整曲統一樂句」 — 樂句是 per-voice 的。
 
-對 score-claude 的對應：per-hand DP 處理 + [[concept_subject_imitation_detection]] 偵測各聲部 subject re-entry。
+對 score-claude 的對應：per-hand DP 處理 + [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 偵測各聲部 subject re-entry。
 
 ### 2.2 Phrase boundary 訊號來源
 
 Bach 對位作品的 phrase boundary 主要訊號：
-- **Cadence** ([[concept_cadence_detection]]): half-cadence / authentic cadence / deceptive cadence
-- **Subject re-entry** ([[concept_subject_imitation_detection]]): subject 在不同聲部重現
-- **Modulation** ([[concept_modulation_as_phrase_signal]]): 調性轉折常伴隨樂句段落
+- **Cadence** ([concept_cadence_detection](concept_cadence_detection.md)): half-cadence / authentic cadence / deceptive cadence
+- **Subject re-entry** ([concept_subject_imitation_detection](concept_subject_imitation_detection.md)): subject 在不同聲部重現
+- **Modulation** ([concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md)): 調性轉折常伴隨樂句段落
 - **Episode 進入 / 結束**: subject-based texture → 自由 development texture 切換
 
 Bach 較少 rely 純 articulation 切樂句（rest / pitch jump 等樂句 default 訊號）。
 
 ### 2.3 Hypermeter 對 Bach 較少適用
 
-⚠ Training-data verification needed: [[concept_hypermeter]] (4-bar / 8-bar 大週期感) 主要適用 Classical / Romantic homophonic 音樂。Bach 對位作品的 phrase length **更不規則**：
+⚠ Training-data verification needed: [concept_hypermeter](concept_hypermeter.md) (4-bar / 8-bar 大週期感) 主要適用 Classical / Romantic homophonic 音樂。Bach 對位作品的 phrase length **更不規則**：
 - 2 bar / 3 bar / 5 bar phrase 並存
 - 對位線各自 phrase length 不一致
 - Hypermeter 概念在 Bach 適用度有限
@@ -72,8 +72,8 @@ Bach 較少 rely 純 articulation 切樂句（rest / pitch jump 等樂句 defaul
 
 ⚠ Training-data verification needed: 15 Sinfonias 是 Two-Part Inventions 的進階版本：
 - 3 聲部 within-hand polyphony — 一手承載兩聲部
-- 樂句結構更複雜（[[../wiki_articulation/concept_articulation_in_polyphony]] §對位）
-- 是 [[../score-claude/memory/project_target_repertoire_intermediate]] 中「intermediate 深化」對象
+- 樂句結構更複雜（[../wiki_articulation/concept_articulation_in_polyphony](../wiki_articulation/concept_articulation_in_polyphony.md) §對位）
+- 是 *project_target_repertoire_intermediate* 中「intermediate 深化」對象
 
 score-claude 對 Sinfonias 處理：尚未在 BACH_INV_PHRASE_FLAGS 啟用（cache 還沒 Sinfonias OMR）。
 
@@ -86,7 +86,7 @@ score-claude 對 Sinfonias 處理：尚未在 BACH_INV_PHRASE_FLAGS 啟用（cac
 | **Prelude** | 自由形式 — 從 toccata-like 到 invention-like 都有；樂句邏輯依風格 |
 | **Fugue** | Subject + answer + counter-subject + episode + stretto + cadence 標準 fugue 結構 |
 
-對指法系統的意涵：WTC 是 [[concept_fugue]] 的最系統化練習對象，但**不在 intermediate 目標範圍**（多數 WTC fugue 是 advanced）。
+對指法系統的意涵：WTC 是 [concept_fugue](concept_fugue.md) 的最系統化練習對象，但**不在 intermediate 目標範圍**（多數 WTC fugue 是 advanced）。
 
 ## 6. 其他 Bach 鍵盤作品的樂句
 
@@ -100,11 +100,11 @@ score-claude 對 Sinfonias 處理：尚未在 BACH_INV_PHRASE_FLAGS 啟用（cac
 | **Goldberg Variations** (BWV 988) | Aria + 30 variations + Aria reprise；variations 各自獨立樂句 |
 | **Italian Concerto** (BWV 971) | Italian-style 3 樂章，較 homophonic（適用一般 phrase 邏輯）|
 
-## 7. Bach articulation 處理（與 [[../wiki_articulation/analysis_bach_inv_articulation]] 重疊）
+## 7. Bach articulation 處理（與 [../wiki_articulation/analysis_bach_inv_articulation](../wiki_articulation/analysis_bach_inv_articulation.md) 重疊）
 
 Bach 樂句邊界 vs articulation 是分開的事：
 - **樂句邊界**：本頁 §2 列的 cadence / subject / modulation 訊號
-- **Articulation**：Baroque non-legato default ([[../wiki_articulation/concept_non_legato_baroque]])
+- **Articulation**：Baroque non-legato default ([../wiki_articulation/concept_non_legato_baroque](../wiki_articulation/concept_non_legato_baroque.md))
 
 樂句切完之後，articulation 處理是獨立決策。
 
@@ -123,16 +123,16 @@ Bach 樂句邊界 vs articulation 是分開的事：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_fugue]] — Fugue 結構與 Bach 對位作品分析框架
-- [[concept_counterpoint]] — 對位 texture 樂句獨立性
-- [[concept_subject_imitation_detection]] — Subject re-entry 偵測（Bach 主要 phrase signal）
-- [[concept_cadence_detection]] — Cadence 偵測（Bach 段落收結）
-- [[analysis_bach_inv_1_c_major]] 等 8 個 Bach Inv 分析頁
-- [[src_bach_inventions_pedagogy]] — Bach Inv 多 edition 教學傳統
-- [[../wiki_articulation/concept_non_legato_baroque]] — Bach 默認 articulation
-- [[../wiki_articulation/analysis_bach_inv_articulation]] — Bach Inv articulation 詮釋
-- [[../wiki_articulation/analysis_bach_sinfonias]] — Sinfonias 進階對位
-- [[../wiki_articulation/src_cpe_bach_versuch]] — Bach 兒子 C.P.E. Bach 對 Baroque 演奏的權威論述
+- [concept_fugue](concept_fugue.md) — Fugue 結構與 Bach 對位作品分析框架
+- [concept_counterpoint](concept_counterpoint.md) — 對位 texture 樂句獨立性
+- [concept_subject_imitation_detection](concept_subject_imitation_detection.md) — Subject re-entry 偵測（Bach 主要 phrase signal）
+- [concept_cadence_detection](concept_cadence_detection.md) — Cadence 偵測（Bach 段落收結）
+- [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) 等 8 個 Bach Inv 分析頁
+- [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md) — Bach Inv 多 edition 教學傳統
+- [../wiki_articulation/concept_non_legato_baroque](../wiki_articulation/concept_non_legato_baroque.md) — Bach 默認 articulation
+- [../wiki_articulation/analysis_bach_inv_articulation](../wiki_articulation/analysis_bach_inv_articulation.md) — Bach Inv articulation 詮釋
+- [../wiki_articulation/analysis_bach_sinfonias](../wiki_articulation/analysis_bach_sinfonias.md) — Sinfonias 進階對位
+- [../wiki_articulation/src_cpe_bach_versuch](../wiki_articulation/src_cpe_bach_versuch.md) — Bach 兒子 C.P.E. Bach 對 Baroque 演奏的權威論述
 
 ## 10. ⚠ Training-data verification queue
 

@@ -1,7 +1,7 @@
 # Articulation Wiki Log
 
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
-> Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
+> Project status / implementation 進度不在此 — 見 [_implementation_status](_implementation_status.md)。
 
 ## [2026-05-29] full completion round 2 — 7 new concept + 5 new analysis + 3 new src
 
@@ -94,7 +94,7 @@ Pages created (1 new meta):
 
 Total: 3 revised + 7 new pages = 10 active pages（之前 3 → 現在 10），約 700 行純知識內容。
 
-對應 [[../score-claude/memory/feedback_wiki_knowledge_vs_project_separation]] 原則：concept 頁全為純音樂知識，無「spec'd」/「待實作」/「待 ingest」/「A/B 預期」雜訊。
+對應 *feedback_wiki_knowledge_vs_project_separation* 原則：concept 頁全為純音樂知識，無「spec'd」/「待實作」/「待 ingest」/「A/B 預期」雜訊。
 
 ## [2026-05-29] init — articulation track seed
 

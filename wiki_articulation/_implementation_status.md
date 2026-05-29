@@ -2,34 +2,34 @@
 
 > Project-level status / ingest queue / DP 落地進度，不是給人讀的音樂知識。
 > 純知識內容在 `concept_*.md` 與（未來）`src_*.md` / `analysis_*.md`。
-> Wiki 知識 / project 分離原則見 [[../score-claude/memory/feedback_wiki_knowledge_vs_project_separation]]。
+> Wiki 知識 / project 分離原則見 *feedback_wiki_knowledge_vs_project_separation*。
 
 ## DP 落地狀態（per cost rule）
 
 | Cost rule | Wiki spec | DP 實作 | 啟用 piece | 詳見 |
 |---|---|---|---|---|
-| **Legato substitution** (same-pitch + slur → 換指 bonus) | [[concept_legato_substitution]] | ✓ (score-claude `7d5241a` v1 + `7203d27` v2 加 duration gate) | Chopin Op.9 No.2 (`023_..._full`) | [[../score-claude/memory/project_legato_substitution_v1_2026-05-29]] |
-| Staccato hand-jump 鬆綁 | [[concept_staccato]] | (未實作) | – | – |
-| Tenuto 強制 hold | [[concept_tenuto]] | (未實作) | – | – |
-| Accent / marcato / sfz 偏強指 | [[concept_accent_marcato]] | (未實作) | – | – |
-| Portato 中間值 | [[concept_portato_mezzo_staccato]] | (未實作) | – | – |
-| Non-legato Baroque default | [[concept_non_legato_baroque]] | （即現行 DP 預設行為） | (所有 Bach Inv 對應) | – |
-| Period-default 推論（無標記時）| [[concept_period_defaults]] | (未實作；目前 DP 一視同仁) | – | – |
+| **Legato substitution** (same-pitch + slur → 換指 bonus) | [concept_legato_substitution](concept_legato_substitution.md) | ✓ (score-claude `7d5241a` v1 + `7203d27` v2 加 duration gate) | Chopin Op.9 No.2 (`023_..._full`) | *project_legato_substitution_v1_2026-05-29* |
+| Staccato hand-jump 鬆綁 | [concept_staccato](concept_staccato.md) | (未實作) | – | – |
+| Tenuto 強制 hold | [concept_tenuto](concept_tenuto.md) | (未實作) | – | – |
+| Accent / marcato / sfz 偏強指 | [concept_accent_marcato](concept_accent_marcato.md) | (未實作) | – | – |
+| Portato 中間值 | [concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md) | (未實作) | – | – |
+| Non-legato Baroque default | [concept_non_legato_baroque](concept_non_legato_baroque.md) | （即現行 DP 預設行為） | (所有 Bach Inv 對應) | – |
+| Period-default 推論（無標記時）| [concept_period_defaults](concept_period_defaults.md) | (未實作；目前 DP 一視同仁) | – | – |
 
 ## Source 頁狀態（10 個已 ingest，2026-05-29 final）
 
 | 來源 | 年份 | 頁面 |
 |---|---|---|
-| Couperin *L'Art de toucher le Clavecin* | 1716 | [[src_couperin_lart_de_toucher]] |
-| C.P.E. Bach *Versuch* | 1753 | [[src_cpe_bach_versuch]] |
-| Türk *Klavierschule* | 1789 | [[src_turk_klavierschule]] |
-| Czerny *Op.500* | 1839 | [[src_czerny_op500_articulation]] |
-| Kullak *Die Ästhetik des Klavierspiels* | 1860 | [[src_kullak_aesthetics_pianoforte]] |
-| Matthay *The Visible and Invisible* | 1932 | [[src_matthay_visible_inaudible]] |
-| Neuhaus *The Art of Piano Playing* | 1958 | [[src_neuhaus_art_of_piano]] |
-| Eigeldinger *Chopin, Pianist and Teacher* | 1970 | [[src_eigeldinger_chopin_pianist_teacher]] |
-| Donington *Baroque Music* | 1982 | [[src_donington_baroque_music]] |
-| Brendel essays | 1990s+ | [[src_brendel_essays]] |
+| Couperin *L'Art de toucher le Clavecin* | 1716 | [src_couperin_lart_de_toucher](src_couperin_lart_de_toucher.md) |
+| C.P.E. Bach *Versuch* | 1753 | [src_cpe_bach_versuch](src_cpe_bach_versuch.md) |
+| Türk *Klavierschule* | 1789 | [src_turk_klavierschule](src_turk_klavierschule.md) |
+| Czerny *Op.500* | 1839 | [src_czerny_op500_articulation](src_czerny_op500_articulation.md) |
+| Kullak *Die Ästhetik des Klavierspiels* | 1860 | [src_kullak_aesthetics_pianoforte](src_kullak_aesthetics_pianoforte.md) |
+| Matthay *The Visible and Invisible* | 1932 | [src_matthay_visible_inaudible](src_matthay_visible_inaudible.md) |
+| Neuhaus *The Art of Piano Playing* | 1958 | [src_neuhaus_art_of_piano](src_neuhaus_art_of_piano.md) |
+| Eigeldinger *Chopin, Pianist and Teacher* | 1970 | [src_eigeldinger_chopin_pianist_teacher](src_eigeldinger_chopin_pianist_teacher.md) |
+| Donington *Baroque Music* | 1982 | [src_donington_baroque_music](src_donington_baroque_music.md) |
+| Brendel essays | 1990s+ | [src_brendel_essays](src_brendel_essays.md) |
 
 每頁底部都有 `⚠ Training-data verification queue` 列出需要 cross-check 原書的具體引述。
 
@@ -37,15 +37,15 @@
 
 | 曲目 | 時代 | 頁面 |
 |---|---|---|
-| Bach Two-Part Inventions | Baroque | [[analysis_bach_inv_articulation]] |
-| Bach Three-Part Sinfonias | Baroque | [[analysis_bach_sinfonias]] |
-| Clementi Sonatinas Op.36 | Classical | [[analysis_clementi_sonatina_op36]] |
-| Mozart K283 | Classical (early) | [[analysis_mozart_k283]] |
-| Mozart K545 | Classical | [[analysis_mozart_k545_articulation]] |
-| Beethoven Op.49 No.1 / No.2 | Classical / early Beethoven | [[analysis_beethoven_op49_articulation]] |
-| Schumann *Kinderszenen* Op.15 | Romantic | [[analysis_schumann_kinderszenen]] |
-| Chopin Preludes Op.28 | Romantic | [[analysis_chopin_op28_preludes]] |
-| Chopin Nocturne Op.9 No.2 | Romantic | [[analysis_chopin_op9_no2_articulation]] |
+| Bach Two-Part Inventions | Baroque | [analysis_bach_inv_articulation](analysis_bach_inv_articulation.md) |
+| Bach Three-Part Sinfonias | Baroque | [analysis_bach_sinfonias](analysis_bach_sinfonias.md) |
+| Clementi Sonatinas Op.36 | Classical | [analysis_clementi_sonatina_op36](analysis_clementi_sonatina_op36.md) |
+| Mozart K283 | Classical (early) | [analysis_mozart_k283](analysis_mozart_k283.md) |
+| Mozart K545 | Classical | [analysis_mozart_k545_articulation](analysis_mozart_k545_articulation.md) |
+| Beethoven Op.49 No.1 / No.2 | Classical / early Beethoven | [analysis_beethoven_op49_articulation](analysis_beethoven_op49_articulation.md) |
+| Schumann *Kinderszenen* Op.15 | Romantic | [analysis_schumann_kinderszenen](analysis_schumann_kinderszenen.md) |
+| Chopin Preludes Op.28 | Romantic | [analysis_chopin_op28_preludes](analysis_chopin_op28_preludes.md) |
+| Chopin Nocturne Op.9 No.2 | Romantic | [analysis_chopin_op9_no2_articulation](analysis_chopin_op9_no2_articulation.md) |
 
 ## Open design questions
 
@@ -59,8 +59,8 @@
 
 | 既有 cost rule | 是否需要 articulation 條件化 | 理由 |
 |---|---|---|
-| `NOTE_RETENTION_PENALTY` (現 0.0) | 是 | legato 段應 bonus，staccato 段保持 0 — 已部分由 [[concept_legato_substitution]] cover |
-| `THUMB_PASS_PHRASE_BUDGET` | 是 | staccato 段加寬 — 待 [[concept_staccato]] DP rule 落地 |
+| `NOTE_RETENTION_PENALTY` (現 0.0) | 是 | legato 段應 bonus，staccato 段保持 0 — 已部分由 [concept_legato_substitution](concept_legato_substitution.md) cover |
+| `THUMB_PASS_PHRASE_BUDGET` | 是 | staccato 段加寬 — 待 [concept_staccato](concept_staccato.md) DP rule 落地 |
 | `WRIST_EXT_PHRASE_BUDGET` | 否 | wrist extension 與 articulation 解耦 |
 | `STEP_AGILITY_WEIGHT` | 否 | velocity-driven，與 articulation 不直接相關 |
 | `PINKY_BLACK_MELODY_PENALTY` | 可選 | accent 段該音若為 pinky 應加重 penalty |
@@ -71,7 +71,7 @@
 
 ## v3 candidates（legato substitution 後續，defer until problem surfaces）
 
-來自 [[../score-claude/memory/project_legato_substitution_v1_2026-05-29]] §v3：
+來自 *project_legato_substitution_v1_2026-05-29* §v3：
 
 - **Adjacent-finger preference** — 在 substitution 時偏好相鄰指（2↔3 / 3↔4），避免 thumb 隔指換（2↔1 / 5↔1）
 - **Slur-boundary-aware** — 只在 slur 起點 / 終點檢查 same-pitch substitution，不是 slur 全程

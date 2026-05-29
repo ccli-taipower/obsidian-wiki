@@ -1,7 +1,7 @@
 # Concept: Legato Substitution — 連奏段的同音換指偏好
 
 > 來源：Neuhaus *The Art of Piano Playing* §觸鍵章、Matthay *The Visible and Invisible* §legato chapter、Czerny Op.500 Vol.III §legato touch、Türk *Klavierschule* (1789)、Kullak *Die Ästhetik des Klavierspiels*
-> 引用方：[[concept_articulation_overview]] §4、[[index]]
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §4、[index](index.md)
 
 ## 1. 為什麼 legato 段要 favor finger substitution
 
@@ -82,8 +82,8 @@ Czerny 提到的第二類 substitution：為下個 hand position 鋪路。
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] — 本頁的 parent 概覽
-- [[concept_staccato]] — 互補頁，staccato 段做的事相反（鼓勵 hand jump、無 substitution 需要）
-- [[concept_non_legato_baroque]] — 為何 Baroque 不應該預設啟用此規則
-- [[../wiki_piano/concept_thumb_technique]] — substitution 與 thumb cross 的互動
-- [[../wiki_piano/concept_finger_span_table]] — substitution 改變了「下一步」的 hand position
+- [concept_articulation_overview](concept_articulation_overview.md) — 本頁的 parent 概覽
+- [concept_staccato](concept_staccato.md) — 互補頁，staccato 段做的事相反（鼓勵 hand jump、無 substitution 需要）
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) — 為何 Baroque 不應該預設啟用此規則
+- [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) — substitution 與 thumb cross 的互動
+- [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — substitution 改變了「下一步」的 hand position

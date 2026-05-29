@@ -1,7 +1,7 @@
 # Concept: Period Defaults — 無 articulation 標記時各時代假設
 
 > 來源：Türk *Klavierschule* (1789)、C.P.E. Bach *Versuch* (1753)、Brendel essays §Beethoven articulation 詮釋、Donington *Baroque Music: Style and Performance*、Czerny *Op.500*
-> 引用方：[[concept_articulation_overview]] §3、[[concept_non_legato_baroque]] §5
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §3、[concept_non_legato_baroque](concept_non_legato_baroque.md) §5
 
 ## 1. 為什麼需要時代 default
 
@@ -15,7 +15,7 @@
 
 | 時代 | 年份範圍 | 無標記時假設 | 操作型音長 | 對指法的意涵 |
 |---|---|---|---|---|
-| **Baroque** | 1600–1750 | non-legato（[[concept_non_legato_baroque]]）| ~85% | 不誘導 substitution；不誘導 hand jump |
+| **Baroque** | 1600–1750 | non-legato（[concept_non_legato_baroque](concept_non_legato_baroque.md)）| ~85% | 不誘導 substitution；不誘導 hand jump |
 | **Classical** | 1750–1820 | 音長相關平衡 — 短音 detache，長音 legato | 短音 ~70%、長音 ~95% | 對短音允許 hand jump、對長音偏好 substitution |
 | **Romantic** | 1820–1900 | legato 為主 | ~100% | 強烈誘導 substitution；限制 hand jump（除非標記 staccato）|
 | **Modernism** | 1900+ | 無 default — 必須明確標記 | 信樂譜原文 | 不做時代推論 |
@@ -85,9 +85,9 @@ Classical 時代是過渡期，default 不是單一規則，而是依音長分�
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] — 本頁的 parent 概覽
-- [[concept_non_legato_baroque]] — Baroque default 的詳細展開
-- [[concept_legato_substitution]] — Romantic default 觸發的主要規則
-- [[concept_staccato]] — Classical 短音 default 對應的策略
-- [[../wiki_phrase/composer_chopin_phrasing]] / [[../wiki_phrase/concept_chopin_lyrical_phrase]] — Chopin 浪漫派 articulation 的具體展開
-- [[../score-claude/memory/project_target_repertoire_intermediate]] — 為何 Classical period default 對初中階目標曲目最重要
+- [concept_articulation_overview](concept_articulation_overview.md) — 本頁的 parent 概覽
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) — Baroque default 的詳細展開
+- [concept_legato_substitution](concept_legato_substitution.md) — Romantic default 觸發的主要規則
+- [concept_staccato](concept_staccato.md) — Classical 短音 default 對應的策略
+- [../wiki_phrase/composer_chopin_phrasing](../wiki_phrase/composer_chopin_phrasing.md) / [../wiki_phrase/concept_chopin_lyrical_phrase](../wiki_phrase/concept_chopin_lyrical_phrase.md) — Chopin 浪漫派 articulation 的具體展開
+- *project_target_repertoire_intermediate* — 為何 Classical period default 對初中階目標曲目最重要

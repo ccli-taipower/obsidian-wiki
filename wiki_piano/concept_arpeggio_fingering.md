@@ -1,7 +1,7 @@
 # Concept: Arpeggio Fingering — 分解和弦指法
 
 > 來源：Czerny *Op.500*, Hanon *The Virtuoso Pianist* §arpeggios, Cortot *Rational Principles of Pianoforte Technique*
-> 引用方：[[concept_scale_fingering]], [[concept_thumb_technique]]
+> 引用方：[concept_scale_fingering](concept_scale_fingering.md), [concept_thumb_technique](concept_thumb_technique.md)
 
 ## 1. Arpeggio 是什麼
 
@@ -75,7 +75,7 @@ DP 對 arpeggio 處理：
 - 套用 C(5,k) 指法分配（每段最多 5 音，超過則切割）
 - 標準 1-2-3-5 / 5-3-2-1 通過 cost 計算自然產生
 
-對應主流程 [[score-claude run.py]] §Step 1b arpeggio merge。
+對應主流程 [score-claude run.py](score-claude run.py.md) §Step 1b arpeggio merge。
 
 ## 8. 適用情境
 
@@ -87,8 +87,8 @@ DP 對 arpeggio 處理：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_scale_fingering]] — 同樣涉及 thumb-pass，但 stepwise 而非 leap
-- [[concept_thumb_technique]] — Thumb-pass 解剖學 + 物理
-- [[concept_long_scale_thumb_under]] — Scale 的 thumb-under 相關
-- [[concept_finger_span_table]] — arpeggio 音程跨度與 finger span 對應
-- [[../wiki_articulation/concept_legato_substitution]] — arpeggio 內音多 detache，少 substitution
+- [concept_scale_fingering](concept_scale_fingering.md) — 同樣涉及 thumb-pass，但 stepwise 而非 leap
+- [concept_thumb_technique](concept_thumb_technique.md) — Thumb-pass 解剖學 + 物理
+- [concept_long_scale_thumb_under](concept_long_scale_thumb_under.md) — Scale 的 thumb-under 相關
+- [concept_finger_span_table](concept_finger_span_table.md) — arpeggio 音程跨度與 finger span 對應
+- [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) — arpeggio 內音多 detache，少 substitution

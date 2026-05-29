@@ -1,7 +1,7 @@
 # Source: Couperin《L'Art de toucher le Clavecin》(1716)
 
 > François Couperin (1668-1733), *L'Art de toucher le Clavecin*（《大鍵琴演奏藝術》）(1716, Paris)；英譯 *The Art of Playing the Harpsichord* (Margery Halford 譯, 1974, Alfred Music)
-> 引用方：[[concept_non_legato_baroque]] §2, [[src_donington_baroque_music]] §法國 Baroque 流派
+> 引用方：[concept_non_legato_baroque](concept_non_legato_baroque.md) §2, [src_donington_baroque_music](src_donington_baroque_music.md) §法國 Baroque 流派
 
 ## 1. 作者背景
 
@@ -43,7 +43,7 @@ François Couperin (le Grand) 是 18 世紀初法國 Baroque 鍵盤音樂的代�
 
 法國 Baroque ornament 比德國（C.P.E. Bach 論述的 J.S. Bach 派）**更密集 + 更精細**。Couperin 作品幾乎每音帶 ornament。
 
-對 articulation 的意涵：法國 Baroque ornament 內部仍是 detache（per [[concept_ornament_articulation]] §3），但 ornament 密集到影響整體 articulation 詮釋。
+對 articulation 的意涵：法國 Baroque ornament 內部仍是 detache（per [concept_ornament_articulation](concept_ornament_articulation.md) §3），但 ornament 密集到影響整體 articulation 詮釋。
 
 ### 2.4 對 finger fingering 的論述 ⚠
 
@@ -82,9 +82,9 @@ François Couperin (le Grand) 是 18 世紀初法國 Baroque 鍵盤音樂的代�
 
 | Couperin 主張 | 對 score-claude DP 的對應 |
 |---|---|
-| 清晰是 harpsichord 本質 | Baroque 對 [[concept_legato_substitution]] 應保守適用 |
+| 清晰是 harpsichord 本質 | Baroque 對 [concept_legato_substitution](concept_legato_substitution.md) 應保守適用 |
 | Notes inégales | 法國 Baroque MXL 不適用一般 substitution rule（未實作 inégalité-aware）|
-| Ornament 密集 | [[concept_ornament_articulation]] 對法國 Baroque 尤其重要 |
+| Ornament 密集 | [concept_ornament_articulation](concept_ornament_articulation.md) 對法國 Baroque 尤其重要 |
 
 ## 6. 文章未涵蓋
 
@@ -94,12 +94,12 @@ François Couperin (le Grand) 是 18 世紀初法國 Baroque 鍵盤音樂的代�
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_non_legato_baroque]] §2 — Couperin 法國派 non-legato default
-- [[concept_ornament_articulation]] §5 — Couperin agréments 對 ornament 處理的影響
-- [[src_cpe_bach_versuch]] — Couperin 對 C.P.E. Bach 的影響
-- [[src_donington_baroque_music]] §法國派 — Donington 對法國 Baroque 演奏實踐的回顧
-- [[../wiki_phrase/concept_fugue]] — J.S. Bach French Suites 等含法國 Baroque 影響的曲式
-- [[../wiki_phrase/concept_counterpoint]] — 法國 vs 德國對位風格差異
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) §2 — Couperin 法國派 non-legato default
+- [concept_ornament_articulation](concept_ornament_articulation.md) §5 — Couperin agréments 對 ornament 處理的影響
+- [src_cpe_bach_versuch](src_cpe_bach_versuch.md) — Couperin 對 C.P.E. Bach 的影響
+- [src_donington_baroque_music](src_donington_baroque_music.md) §法國派 — Donington 對法國 Baroque 演奏實踐的回顧
+- [../wiki_phrase/concept_fugue](../wiki_phrase/concept_fugue.md) — J.S. Bach French Suites 等含法國 Baroque 影響的曲式
+- [../wiki_phrase/concept_counterpoint](../wiki_phrase/concept_counterpoint.md) — 法國 vs 德國對位風格差異
 
 ## 8. ⚠ Training-data verification queue
 

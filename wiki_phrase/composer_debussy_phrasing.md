@@ -1,9 +1,9 @@
 # Composer: Debussy 樂句 — texture-driven 細分
 
-> 來源：[[concept_impressionist_phrasing]] 基底 + Howat《Debussy in Proportion》、Jankélévitch《Debussy et le mystère》、Roy Howat 演奏研究
+> 來源：[concept_impressionist_phrasing](concept_impressionist_phrasing.md) 基底 + Howat《Debussy in Proportion》、Jankélévitch《Debussy et le mystère》、Roy Howat 演奏研究
 > 涵蓋 PIG：Debussy 9 曲
 > 狀態：第一版 2026-05-26
-> 引用方：[[concept_impressionist_phrasing]] (反向引用 — composer 細分)
+> 引用方：[concept_impressionist_phrasing](concept_impressionist_phrasing.md) (反向引用 — composer 細分)
 
 ## 1. Debussy 為何要按 collection 細分
 
@@ -90,10 +90,10 @@ Debussy 不同 collection 的樂句邏輯**差異顯著**：
 Debussy 大量使用非大小調音階：
 
 - **Whole-tone (6 音 octave)**：相鄰音都是 2 半音；標準指法習慣（thumb pivot at fa/ti）不適用。常用 1-2-3-4-5-1-2-... 或不規則 fingering
-- **Pentatonic (5 音 octave)**：5 個音剛好 5 指；常無需 thumb-pass — [[concept_running_passage_thumb_reservation]] 規則可能不適用
+- **Pentatonic (5 音 octave)**：5 個音剛好 5 指；常無需 thumb-pass — [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) 規則可能不適用
 - **Octatonic (8 音 octave)**：交替全音半音；複雜，依音域選 finger group
 
-→ 不同 mode 下，DP 的 thumb-pass / span 規則可能需要 mode-aware 調整。詳 [[concept_modal_scale_fingering]] (TODO)。
+→ 不同 mode 下，DP 的 thumb-pass / span 規則可能需要 mode-aware 調整。詳 [concept_modal_scale_fingering](concept_modal_scale_fingering.md) (TODO)。
 
 ## 6. Pedal 重要性
 
@@ -118,12 +118,12 @@ Debussy 的「sound color」與 sostenuto / damper pedal **不可分**。Pedal �
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 父頁 [[concept_impressionist_phrasing]]：通則
-- 對比 [[composer_mozart_phrasing]]：兩者結構性差異最大（規律 vs 自由）
-- 對比 [[composer_chopin_phrasing]]：兩者 lyrical 共通但 cadence 處理不同
-- 工具頁 [[concept_cadence_detection]]：對 Debussy 早期作品有限 OK，晚期失效
+- 父頁 [concept_impressionist_phrasing](concept_impressionist_phrasing.md)：通則
+- 對比 [composer_mozart_phrasing](composer_mozart_phrasing.md)：兩者結構性差異最大（規律 vs 自由）
+- 對比 [composer_chopin_phrasing](composer_chopin_phrasing.md)：兩者 lyrical 共通但 cadence 處理不同
+- 工具頁 [concept_cadence_detection](concept_cadence_detection.md)：對 Debussy 早期作品有限 OK，晚期失效
 - 待寫：
-  - [[analysis_debussy_clair_de_lune]]
-  - [[concept_modal_scale_fingering]] (modal 對指法的影響)
-  - [[concept_pedal_as_phrase_signal]]
+  - [analysis_debussy_clair_de_lune](analysis_debussy_clair_de_lune.md)
+  - [concept_modal_scale_fingering](concept_modal_scale_fingering.md) (modal 對指法的影響)
+  - [concept_pedal_as_phrase_signal](concept_pedal_as_phrase_signal.md)
 

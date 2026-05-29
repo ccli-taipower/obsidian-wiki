@@ -1,10 +1,10 @@
 # Phrase Analysis Wiki 樂句分析 Wiki
 
-樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]]（生物力學 + 指法物理）+ [[../wiki_articulation/index]]（連結 / 斷奏 / 觸鍵詮釋）並列，是三條獨立 wiki track。
+樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [../wiki_piano/index](../wiki_piano/index.md)（生物力學 + 指法物理）+ [../wiki_articulation/index](../wiki_articulation/index.md)（連結 / 斷奏 / 觸鍵詮釋）並列，是三條獨立 wiki track。
 
-詳見 [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]]。
+詳見 *feedback_phrase_analysis_is_its_own_discipline*。
 
-> **Project status / TODO / 實作進度** 不在本頁 — 見 [[_implementation_status]] 與 [[../score-claude/memory/project_phrase_detection_v1_phase1_phaseB]]。本 wiki 介面保留為知識內容，與 project tracking 分開（[[../score-claude/memory/feedback_wiki_knowledge_vs_project_separation]]）。
+> **Project status / TODO / 實作進度** 不在本頁 — 見 [_implementation_status](_implementation_status.md) 與 *project_phrase_detection_v1_phase1_phaseB*。本 wiki 介面保留為知識內容，與 project tracking 分開（*feedback_wiki_knowledge_vs_project_separation*）。
 
 ## 核心原則
 
@@ -17,16 +17,16 @@
 
 | 時期 / 風格 | PIG 曲數 | 主要 wiki 頁面 |
 |---|---|---|
-| 巴洛克 (Bach + Scarlatti) | 23 | [[concept_fugue]] + [[concept_counterpoint]] |
-| 古典 (Mozart) | 20 | [[concept_classical_period_sentence]] + [[composer_mozart_phrasing]] |
-| 古典→浪漫過渡 (Beethoven) | 21 | [[composer_beethoven_phrasing]] |
-| 早期浪漫 (Schubert) | 5 | [[composer_schubert_long_phrase]] |
-| 浪漫 (Chopin + Schumann + Liszt + Brahms + Mendelssohn 等) | 49 | [[concept_chopin_lyrical_phrase]] + [[composer_chopin_phrasing]] |
-| 浪漫民族樂派 (Grieg) | 10 | [[composer_grieg_lyric_pieces]] |
-| 後期浪漫 (Rachmaninoff) | 4 | [[composer_rachmaninoff_phrasing]] |
-| 印象 (Debussy + Ravel) | 12 | [[concept_impressionist_phrasing]] + [[composer_debussy_phrasing]] |
-| 二十世紀 / 現代 (Scriabin + Bartok) | 3 | [[composer_twentieth_century]] |
-| 其他 (Mussorgsky + Joplin + Faure + Satie 等) | 13 | [[composer_other_pig_pieces]] |
+| 巴洛克 (Bach + Scarlatti) | 23 | [concept_fugue](concept_fugue.md) + [concept_counterpoint](concept_counterpoint.md) |
+| 古典 (Mozart) | 20 | [concept_classical_period_sentence](concept_classical_period_sentence.md) + [composer_mozart_phrasing](composer_mozart_phrasing.md) |
+| 古典→浪漫過渡 (Beethoven) | 21 | [composer_beethoven_phrasing](composer_beethoven_phrasing.md) |
+| 早期浪漫 (Schubert) | 5 | [composer_schubert_long_phrase](composer_schubert_long_phrase.md) |
+| 浪漫 (Chopin + Schumann + Liszt + Brahms + Mendelssohn 等) | 49 | [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) + [composer_chopin_phrasing](composer_chopin_phrasing.md) |
+| 浪漫民族樂派 (Grieg) | 10 | [composer_grieg_lyric_pieces](composer_grieg_lyric_pieces.md) |
+| 後期浪漫 (Rachmaninoff) | 4 | [composer_rachmaninoff_phrasing](composer_rachmaninoff_phrasing.md) |
+| 印象 (Debussy + Ravel) | 12 | [concept_impressionist_phrasing](concept_impressionist_phrasing.md) + [composer_debussy_phrasing](composer_debussy_phrasing.md) |
+| 二十世紀 / 現代 (Scriabin + Bartok) | 3 | [composer_twentieth_century](composer_twentieth_century.md) |
+| 其他 (Mussorgsky + Joplin + Faure + Satie 等) | 13 | [composer_other_pig_pieces](composer_other_pig_pieces.md) |
 
 ## Concepts (通用)
 

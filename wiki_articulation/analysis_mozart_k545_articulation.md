@@ -2,7 +2,7 @@
 
 > 來源：Henle Urtext (Ulrich Wilker 編), Bärenreiter NBA、Brendel essays §Mozart、Türk Klavierschule (Mozart 同時代文獻)
 > 對應 PIG：023 = Chopin Op.9-2, **K545 PIG 編號 017**（已有 score-claude cache 但 Audiveris MXL 0 slur）
-> 引用方：[[concept_articulation_overview]] §3, [[concept_period_defaults]] §4 (Classical default), [[../wiki_phrase/analysis_chopin_op9_no2_nocturne]] 對位案例
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §3, [concept_period_defaults](concept_period_defaults.md) §4 (Classical default), [../wiki_phrase/analysis_chopin_op9_no2_nocturne](../wiki_phrase/analysis_chopin_op9_no2_nocturne.md) 對位案例
 
 ## 1. 為什麼挑 K545 作為 Mozart articulation 案例
 
@@ -10,7 +10,7 @@
 - K545 (C major) 是 Mozart 「**Sonata facile**」（簡易奏鳴曲）— Mozart 親自標題暗示 intermediate 適用
 - 創作 1788 年（Mozart 晚期），articulation 標記密度已成熟
 - 結構標準 sonata form，3 樂章，每樂章 articulation 風格各異
-- 屬於 [[../score-claude/memory/project_target_repertoire_intermediate]] 核心曲目
+- 屬於 *project_target_repertoire_intermediate* 核心曲目
 
 ## 2. K545 mvt1 (Allegro, C major) articulation 標記 ⚠
 
@@ -44,7 +44,7 @@
 **A 段主題**:
 - 抒情主題，slur 涵蓋整段 melody
 - 伴奏左手 alberti，slur 標 8 小節大段
-- 是 [[concept_legato_substitution]] 高度適用段
+- 是 [concept_legato_substitution](concept_legato_substitution.md) 高度適用段
 
 **B 段對比段**:
 - 較 detache（部分 staccato）
@@ -65,16 +65,16 @@
 
 Mozart 標記比 Beethoven **較疏**（標記密度低）但**極具規範性**：
 - 寫了的標記必須 honor
-- 沒寫的段落 → 依 Classical 平衡 default（[[concept_period_defaults]] §4）：
+- 沒寫的段落 → 依 Classical 平衡 default（[concept_period_defaults](concept_period_defaults.md) §4）：
   - 短音 (16th, 8th 在 fast tempo) → detache
   - 長音 (quarter 以上) → legato
   - 中音 → 依上下文判斷
 
-對指法的意涵：[[concept_period_defaults]] 「**音長相關平衡**」原則特別適用於 Mozart 無標記段。
+對指法的意涵：[concept_period_defaults](concept_period_defaults.md) 「**音長相關平衡**」原則特別適用於 Mozart 無標記段。
 
 ## 6. Audiveris MXL 對 K545 的 articulation 抓取
 
-從 score-claude 實測（2026-05-29，[[wiki_articulation/index]] §訊號可用性表）：
+從 score-claude 實測（2026-05-29，[wiki_articulation/index](wiki_articulation/index.md) §訊號可用性表）：
 - K545 B0-22 Audiveris MXL: **0 slurs, 0 articulations**
 
 可能原因：
@@ -83,7 +83,7 @@ Mozart 標記比 Beethoven **較疏**（標記密度低）但**極具規範性**
 3. PIG 的 source PDF 可能本來就少標記
 
 → 對 score-claude DP 的意涵：
-- 目前 K545 cache **不適合啟用 [[concept_legato_substitution]]**（無 slur 訊號）
+- 目前 K545 cache **不適合啟用 [concept_legato_substitution](concept_legato_substitution.md)**（無 slur 訊號）
 - 若取得 Henle Urtext digital 的 K545 全曲 MusicXML，預期 slur 豐富，可啟用
 
 ## 7. K545 vs Chopin Op.9-2 articulation 對比
@@ -97,7 +97,7 @@ Mozart 標記比 Beethoven **較疏**（標記密度低）但**極具規範性**
 
 → 顯示**訊號可用性問題**：Classical 簡易版 PDF Audiveris OMR 不易抓 articulation；Romantic 浪漫派全曲 MXL 訊號豐富。
 
-對指法系統的意涵：要 fully 啟用 [[concept_legato_substitution]] 在 K545，需重 OMR 一份品質更好的 K545 全曲 PDF（如 Henle Urtext），或使用 Henle 提供的 digital MusicXML（如有）。
+對指法系統的意涵：要 fully 啟用 [concept_legato_substitution](concept_legato_substitution.md) 在 K545，需重 OMR 一份品質更好的 K545 全曲 PDF（如 Henle Urtext），或使用 Henle 提供的 digital MusicXML（如有）。
 
 ## 8. Mozart articulation 詮釋的演奏家差異
 
@@ -116,19 +116,19 @@ Mozart 標記比 Beethoven **較疏**（標記密度低）但**極具規範性**
 ## 9. 對 score-claude DP 的影響預測
 
 當 K545 取得品質佳 MXL 後，預期：
-- Slur 訊號充足 → [[concept_legato_substitution]] 適用
-- 短音 detache 段（development）→ 未來 [[concept_staccato]] 規則的測試對象
+- Slur 訊號充足 → [concept_legato_substitution](concept_legato_substitution.md) 適用
+- 短音 detache 段（development）→ 未來 [concept_staccato](concept_staccato.md) 規則的測試對象
 - 整體應啟用：**figural + thumb + cadence + legato_substitution + long_scale**（per K545 已有的 `SINGLE_PDF_PHRASE_FLAGS` config + 新增 legato）
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] §3 — K545 是 Classical 平衡 default 的典型案例
-- [[concept_period_defaults]] §4 — Mozart 為 Classical 「**音長相關平衡**」原則代言
-- [[concept_legato_substitution]] §5 — Mozart slow movement 在「適用情境」表中 Classical *cantabile* 代表
-- [[src_brendel_essays]] §2.3 — Brendel 對 Mozart 「**18 世紀說話**」articulation 觀察
-- [[src_turk_klavierschule]] — Türk 是 Mozart 同時代文獻，提供 articulation default 操作型百分比
-- [[../wiki_phrase/analysis_chopin_op9_no2_nocturne]] — 對比 Romantic articulation 與 Classical 差異
-- [[../score-claude/memory/project_target_repertoire_intermediate]] — K545 是 intermediate 目標核心曲目
+- [concept_articulation_overview](concept_articulation_overview.md) §3 — K545 是 Classical 平衡 default 的典型案例
+- [concept_period_defaults](concept_period_defaults.md) §4 — Mozart 為 Classical 「**音長相關平衡**」原則代言
+- [concept_legato_substitution](concept_legato_substitution.md) §5 — Mozart slow movement 在「適用情境」表中 Classical *cantabile* 代表
+- [src_brendel_essays](src_brendel_essays.md) §2.3 — Brendel 對 Mozart 「**18 世紀說話**」articulation 觀察
+- [src_turk_klavierschule](src_turk_klavierschule.md) — Türk 是 Mozart 同時代文獻，提供 articulation default 操作型百分比
+- [../wiki_phrase/analysis_chopin_op9_no2_nocturne](../wiki_phrase/analysis_chopin_op9_no2_nocturne.md) — 對比 Romantic articulation 與 Classical 差異
+- *project_target_repertoire_intermediate* — K545 是 intermediate 目標核心曲目
 
 ## 11. ⚠ Training-data verification queue
 

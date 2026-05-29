@@ -1,7 +1,7 @@
 # Concept: Articulation 與 Tempo 的互動
 
 > 來源：Matthay《The Visible and Invisible》§速度與觸鍵, Brendel essays §tempo flexibility, Czerny *Op.500* §速度與表情
-> 引用方：[[concept_legato_substitution]] §6 (失效情境：快速 passage), [[concept_staccato]] §1（物理動作與速度的關係）
+> 引用方：[concept_legato_substitution](concept_legato_substitution.md) §6 (失效情境：快速 passage), [concept_staccato](concept_staccato.md) §1（物理動作與速度的關係）
 
 ## 1. 為什麼 tempo 影響 articulation 詮釋
 
@@ -18,13 +18,13 @@
 
 ## 2. Matthay 的「速度-重量觸鍵不相容」原則
 
-[[src_matthay_visible_inaudible]] §2.3:
+[src_matthay_visible_inaudible](src_matthay_visible_inaudible.md) §2.3:
 
 ⚠ Training-data verification needed:
 > 「重量觸鍵與快速度不相容 — 快速段（≥ Allegro 16 分音符）必須用手指 staccato，重量觸鍵會跟不上；慢速段（≤ Andante 八分音符）重量 legato 才有時間建立。」
 
 對指法的意涵：
-- 快速段 substitution 來不及執行 → [[concept_legato_substitution]] §6 失效情境 + LEGATO_MIN_DURATION gate
+- 快速段 substitution 來不及執行 → [concept_legato_substitution](concept_legato_substitution.md) §6 失效情境 + LEGATO_MIN_DURATION gate
 - 慢速段重量 legato 必要 → substitution rule 強烈適用
 - 中速段（八分音符 in Moderato）→ 介於兩者
 
@@ -88,11 +88,11 @@
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[concept_legato_substitution]] §6 — duration gate 是 tempo-aware 的隱含實作
-- [[concept_staccato]] §1 — 速度與 staccato 變體的物理對應
-- [[src_matthay_visible_inaudible]] §2.3 — 速度-重量觸鍵不相容的物理基礎
-- [[../wiki_piano/concept_thumb_technique]] — thumb-pass 與速度的關係
-- [[../wiki_piano/analysis_common_fingering_injuries]] — 快速段 thumb-pass 與 focal dystonia 風險
+- [concept_legato_substitution](concept_legato_substitution.md) §6 — duration gate 是 tempo-aware 的隱含實作
+- [concept_staccato](concept_staccato.md) §1 — 速度與 staccato 變體的物理對應
+- [src_matthay_visible_inaudible](src_matthay_visible_inaudible.md) §2.3 — 速度-重量觸鍵不相容的物理基礎
+- [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) — thumb-pass 與速度的關係
+- [../wiki_piano/analysis_common_fingering_injuries](../wiki_piano/analysis_common_fingering_injuries.md) — 快速段 thumb-pass 與 focal dystonia 風險
 
 ## 9. ⚠ Training-data verification queue
 

@@ -1,7 +1,7 @@
 # Composer: Haydn 樂句分段
 
 > 來源：Caplin《Classical Form》§Haydn, Rosen《The Classical Style》, Brendel essays §Haydn
-> 引用方：[[concept_classical_period_sentence]], [[concept_cadence_detection]], [[composer_mozart_phrasing]]
+> 引用方：[concept_classical_period_sentence](concept_classical_period_sentence.md), [concept_cadence_detection](concept_cadence_detection.md), [composer_mozart_phrasing](composer_mozart_phrasing.md)
 
 ## 1. Haydn 樂句的特殊性
 
@@ -18,7 +18,7 @@ Joseph Haydn (1732-1809) 樂句結構是 Classical 形式的**奠基者**：
 
 ### 2.1 Sentence + Period 兩種樂句結構
 
-[[concept_classical_period_sentence]] 詳述：
+[concept_classical_period_sentence](concept_classical_period_sentence.md) 詳述：
 - **Period**: 4+4 = antecedent + consequent (詢問 + 回答)
 - **Sentence**: 2+2+4 = presentation + presentation' + continuation
 
@@ -80,7 +80,7 @@ Haydn 標記比 Mozart **更精簡**：
 - Tenuto **罕見**
 - Accent / sf 標記**極少**
 
-→ 對指法系統：Haydn MXL articulation 訊號**少** — 需依時代 default ([[../wiki_articulation/concept_period_defaults]]) 處理。
+→ 對指法系統：Haydn MXL articulation 訊號**少** — 需依時代 default ([../wiki_articulation/concept_period_defaults](../wiki_articulation/concept_period_defaults.md)) 處理。
 
 ## 6. Haydn vs Beethoven 早期樂句對比
 
@@ -110,19 +110,19 @@ Beethoven 早期作品（Op.49 等）受 Haydn 直接影響：
 
 Haydn 對 score-claude DP 的對應：
 - **intermediate sonata 範圍**：Hob.XVI:34 / Hob.XVI:37 是潛在 in-scope 對象
-- 樂句偵測：可借鑑 [[concept_classical_period_sentence]] sentence/period 結構
+- 樂句偵測：可借鑑 [concept_classical_period_sentence](concept_classical_period_sentence.md) sentence/period 結構
 - Surprise phrase length：對 hypermeter fallback rule 是 stress test
 
 但 score-claude 目前未啟用 Haydn 曲目（cache 待取得）。
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_classical_period_sentence]] — Haydn 是 sentence/period 結構奠基者
-- [[concept_hypermeter]] — Haydn 的 surprise 打破規則
-- [[composer_mozart_phrasing]] — 同時代 Classical 對比
-- [[composer_beethoven_phrasing]] — 受 Haydn 影響的早期 Beethoven
-- [[../wiki_articulation/concept_period_defaults]] — Classical 時代 default
-- [[../score-claude/memory/project_target_repertoire_intermediate]] — Hob.XVI:34/37 為 intermediate 候選
+- [concept_classical_period_sentence](concept_classical_period_sentence.md) — Haydn 是 sentence/period 結構奠基者
+- [concept_hypermeter](concept_hypermeter.md) — Haydn 的 surprise 打破規則
+- [composer_mozart_phrasing](composer_mozart_phrasing.md) — 同時代 Classical 對比
+- [composer_beethoven_phrasing](composer_beethoven_phrasing.md) — 受 Haydn 影響的早期 Beethoven
+- [../wiki_articulation/concept_period_defaults](../wiki_articulation/concept_period_defaults.md) — Classical 時代 default
+- *project_target_repertoire_intermediate* — Hob.XVI:34/37 為 intermediate 候選
 
 ## 10. ⚠ Training-data verification queue
 

@@ -120,11 +120,11 @@ Chopin 風格的樂句訊號比一般浪漫派更具體：
 
 ## 7. 與其他 wiki 頁面的關係
 
-- 對比 [[concept_classical_period_sentence]]：浪漫派**禁用** period / sentence 模板，但繼承 cadence 概念（弱化版）
-- 對比 [[concept_fugue]]：兩者都不規律，但浪漫派以**melodic 邏輯**為主、fugue 以**subject 邏輯**為主
+- 對比 [concept_classical_period_sentence](concept_classical_period_sentence.md)：浪漫派**禁用** period / sentence 模板，但繼承 cadence 概念（弱化版）
+- 對比 [concept_fugue](concept_fugue.md)：兩者都不規律，但浪漫派以**melodic 邏輯**為主、fugue 以**subject 邏輯**為主
 - 待寫：
-  - [[composer_chopin_phrasing]] — Chopin 特化，按 genre (Nocturne / Ballade / Etude / Mazurka / Waltz / Prelude / Scherzo) 細分
-  - [[composer_schumann_phrasing]] — Schumann 的 character pieces 與 cycle 邏輯
-  - [[concept_rubato_phrasing]] — rubato 對樂句邊界的影響
-  - [[concept_phrase_elision]] — elision 通用處理
+  - [composer_chopin_phrasing](composer_chopin_phrasing.md) — Chopin 特化，按 genre (Nocturne / Ballade / Etude / Mazurka / Waltz / Prelude / Scherzo) 細分
+  - [composer_schumann_phrasing](composer_schumann_phrasing.md) — Schumann 的 character pieces 與 cycle 邏輯
+  - [concept_rubato_phrasing](concept_rubato_phrasing.md) — rubato 對樂句邊界的影響
+  - [concept_phrase_elision](concept_phrase_elision.md) — elision 通用處理
 

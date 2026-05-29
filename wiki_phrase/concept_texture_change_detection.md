@@ -1,14 +1,14 @@
 # Concept: Texture Change Detection — 紋理變化作為樂句邊界
 
 > 來源：通用音樂分析 + Howat《Debussy in Proportion》 + standard texture analysis
-> 引用方：[[concept_impressionist_phrasing]] (核心需求)、[[composer_debussy_phrasing]]、[[concept_chopin_lyrical_phrase]] (浪漫派部分需要)
+> 引用方：[concept_impressionist_phrasing](concept_impressionist_phrasing.md) (核心需求)、[composer_debussy_phrasing](composer_debussy_phrasing.md)、[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) (浪漫派部分需要)
 > 狀態：工具頁，第一版 2026-05-26
 
 ## 1. 為什麼這頁是印象派 / 浪漫派的核心工具
 
-[[concept_impressionist_phrasing]] §1 已建立原則：**Debussy 的樂句邊界不靠 cadence**，靠 texture 變化。但「什麼算 texture 變化」需要這頁定義操作型偵測規則，否則只是概念無法實作。
+[concept_impressionist_phrasing](concept_impressionist_phrasing.md) §1 已建立原則：**Debussy 的樂句邊界不靠 cadence**，靠 texture 變化。但「什麼算 texture 變化」需要這頁定義操作型偵測規則，否則只是概念無法實作。
 
-[[concept_chopin_lyrical_phrase]] §3.5 也提到 LH pattern / accompaniment 切換是浪漫派的樂句訊號。同樣需要此頁支援。
+[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) §3.5 也提到 LH pattern / accompaniment 切換是浪漫派的樂句訊號。同樣需要此頁支援。
 
 ## 2. Texture 的四個可測維度
 
@@ -158,11 +158,11 @@ phrases = union(
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 核心被 [[concept_impressionist_phrasing]] 引用
-- 被 [[composer_debussy_phrasing]] 部分採用（早期作品 cadence + texture 並用）
-- 被 [[concept_chopin_lyrical_phrase]] §3.5 引用
-- 補強 [[concept_phrase_elision]] 的 elision detection（texture 連續 = elision 訊號）
-- 與 [[concept_figural_boundary_detection]] 互補（figural 看 melodic 形狀，texture 看 vertical 厚度）
+- 核心被 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) 引用
+- 被 [composer_debussy_phrasing](composer_debussy_phrasing.md) 部分採用（早期作品 cadence + texture 並用）
+- 被 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) §3.5 引用
+- 補強 [concept_phrase_elision](concept_phrase_elision.md) 的 elision detection（texture 連續 = elision 訊號）
+- 與 [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 互補（figural 看 melodic 形狀，texture 看 vertical 厚度）
 
 ## 9. 漸進實作路線
 

@@ -1,7 +1,7 @@
 # Concept: Accent / Marcato / Sforzando — 重音類標記的強指偏好
 
 > 來源：Neuhaus *The Art of Piano Playing* §重音與重量、Czerny *Op.500* Vol.III §dynamic accent、Brendel essays §Beethoven accent 詮釋
-> 引用方：[[concept_articulation_overview]] §4
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §4
 
 ## 1. 重音類三符號的區別
 
@@ -69,8 +69,8 @@
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] — 本頁的 parent 概覽
-- [[concept_tenuto]] — 強指偏好邏輯類似
-- [[concept_staccato]] — marcato 略短的部分，按 staccato 處理
-- [[../wiki_piano/concept_finger_span_table]] — 各指爆發力的解剖學基礎
-- [[../wiki_piano/analysis_common_fingering_injuries]] — 用弱指 (4/5) 強迫做重音 = 急性 strain 高風險
+- [concept_articulation_overview](concept_articulation_overview.md) — 本頁的 parent 概覽
+- [concept_tenuto](concept_tenuto.md) — 強指偏好邏輯類似
+- [concept_staccato](concept_staccato.md) — marcato 略短的部分，按 staccato 處理
+- [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — 各指爆發力的解剖學基礎
+- [../wiki_piano/analysis_common_fingering_injuries](../wiki_piano/analysis_common_fingering_injuries.md) — 用弱指 (4/5) 強迫做重音 = 急性 strain 高風險

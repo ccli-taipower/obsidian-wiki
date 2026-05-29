@@ -1,7 +1,7 @@
 	# Piano Fingering Wiki
 
 > Last updated: 2026-05-29 | Sources: 21 | Concepts: 23 | Analyses: 7 | Total: 53 active pages | Raw: 9 files
-> 並列 wiki：[[../wiki_phrase/index]] (樂句分段) + [[../wiki_articulation/index]] (連結 / 斷奏 / 觸鍵詮釋)
+> 並列 wiki：[../wiki_phrase/index](../wiki_phrase/index.md) (樂句分段) + [../wiki_articulation/index](../wiki_articulation/index.md) (連結 / 斷奏 / 觸鍵詮釋)
 
 ## Sources — Computational Models
 

@@ -1,12 +1,12 @@
 # Concept: Subject Imitation Detection — Fugue / Invention 主題重入聲偵測
 
-> 來源：通用對位理論 + [[concept_fugue]] §7 草案延伸；[[../wiki_piano/src_voice_separation]] 提供 voice 分離前置
-> 引用方：[[concept_fugue]]、[[concept_counterpoint]]、[[analysis_bach_inv_4_d_minor]]
+> 來源：通用對位理論 + [concept_fugue](concept_fugue.md) §7 草案延伸；[../wiki_piano/src_voice_separation](../wiki_piano/src_voice_separation.md) 提供 voice 分離前置
+> 引用方：[concept_fugue](concept_fugue.md)、[concept_counterpoint](concept_counterpoint.md)、[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)
 > 狀態：工具頁，第一版 2026-05-26
 
 ## 1. 為什麼這個工具對對位作品的樂句偵測是關鍵
 
-對位作品（Bach Inventions / Sinfonias / WTC / Art of Fugue）的樂句邊界**幾乎全部**對應於「主題在某聲部再次出現」的時刻。沒有這個偵測，現有的 hard-break / 週期偵測對 Bach 系統性出錯（見 [[analysis_bach_inv_4_d_minor]]）。
+對位作品（Bach Inventions / Sinfonias / WTC / Art of Fugue）的樂句邊界**幾乎全部**對應於「主題在某聲部再次出現」的時刻。沒有這個偵測，現有的 hard-break / 週期偵測對 Bach 系統性出錯（見 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)）。
 
 這頁定義：給一首對位作品，如何 (1) 識別主題 (subject)、(2) 在後續曲段找出所有主題重入聲位置、(3) 把這些位置變成樂句邊界。
 
@@ -188,7 +188,7 @@ def _detect_phrase_starts_with_subject(groups, hand, all_hand_groups):
 
 - Bach Inventions (2-voice)：RH = voice 1, LH = voice 2，**不需** voice separation
 - Bach Sinfonias / WTC Fugues：需要先把每隻手分成聲部，對每條聲部跑 subject detection
-- 工具：[[../wiki_piano/src_voice_separation]] 列舉 Karystinaios GNN (F1=0.97) 等方法
+- 工具：[../wiki_piano/src_voice_separation](../wiki_piano/src_voice_separation.md) 列舉 Karystinaios GNN (F1=0.97) 等方法
 
 Phase 1 實作只處理 2-voice 情況；Sinfonias / Fugues 為 Phase 2。
 
@@ -203,8 +203,8 @@ Phase 1 實作只處理 2-voice 情況；Sinfonias / Fugues 為 Phase 2。
 
 ## 11. 與其他 wiki 頁面的關係
 
-- 工具頁，被 [[concept_fugue]] 與 [[concept_counterpoint]] 引用
-- 與 [[concept_cadence_detection]] 互補：cadence 適用古典 / 浪漫主調作品，subject detection 適用對位作品
+- 工具頁，被 [concept_fugue](concept_fugue.md) 與 [concept_counterpoint](concept_counterpoint.md) 引用
+- 與 [concept_cadence_detection](concept_cadence_detection.md) 互補：cadence 適用古典 / 浪漫主調作品，subject detection 適用對位作品
 - 兩者**可以並存**：對位作品偶有 cadence 結尾段（如 fugue 結束部），cadence 偵測仍有用
 
 ## 12. 演算法的範疇與已知限制
@@ -213,7 +213,7 @@ Subject detection 是「曲式正確性」工具：捕捉作曲家結構性的�
 
 **範疇**：
 - 對 2-voice 對位作品（Bach Inventions）per-hand self-extraction 即足，TI signature 對 transposition imitation 天然對齊
-- 對 3+ voice 作品（Bach Sinfonias / Fugues）需先做 voice separation（見 [[../wiki_piano/src_voice_separation]]）
+- 對 3+ voice 作品（Bach Sinfonias / Fugues）需先做 voice separation（見 [../wiki_piano/src_voice_separation](../wiki_piano/src_voice_separation.md)）
 - 對主調作品（Mozart / Chopin / etc）主題重述較自由，匹配率較低 — 改用 cadence + texture 偵測為主
 
 **已知限制**：

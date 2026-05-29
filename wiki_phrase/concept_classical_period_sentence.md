@@ -117,13 +117,13 @@ Caplin 列出多種混合形式 (hybrid theme types)，常見：
 
 ## 6. 與其他 wiki 頁面的關係
 
-- 與 [[concept_fugue]] 對比：fugue 樂句長度跟主題長度走、不規律；古典樂句**規律對稱**。同一隻手不同曲子要切換 detection mode
-- 與 [[concept_counterpoint]] 對比：古典時期是 homophonic（旋律 + 伴奏）為主，多聲部獨立性低；可預設「LH 樂句邊界 = RH 樂句邊界」(對位作品則否)
+- 與 [concept_fugue](concept_fugue.md) 對比：fugue 樂句長度跟主題長度走、不規律；古典樂句**規律對稱**。同一隻手不同曲子要切換 detection mode
+- 與 [concept_counterpoint](concept_counterpoint.md) 對比：古典時期是 homophonic（旋律 + 伴奏）為主，多聲部獨立性低；可預設「LH 樂句邊界 = RH 樂句邊界」(對位作品則否)
 - 預備頁面：
-  - [[concept_cadence_detection]] (TODO) — PAC/IAC/HC/DC 演算法
-  - [[concept_phrase_elision]] (TODO) — 一句結束 = 下一句開始的處理
-  - [[composer_mozart_phrasing]] (TODO)
-  - [[composer_beethoven_phrasing]] (TODO — P2 待寫)
+  - [concept_cadence_detection](concept_cadence_detection.md) (TODO) — PAC/IAC/HC/DC 演算法
+  - [concept_phrase_elision](concept_phrase_elision.md) (TODO) — 一句結束 = 下一句開始的處理
+  - [composer_mozart_phrasing](composer_mozart_phrasing.md) (TODO)
+  - [composer_beethoven_phrasing](composer_beethoven_phrasing.md) (TODO — P2 待寫)
 
 ## 7. 與現有 DP 的整合方案（草案）
 

@@ -1,7 +1,7 @@
 # Source: Eigeldinger《Chopin, Pianist and Teacher》
 
 > Jean-Jacques Eigeldinger, *Chopin vu par ses élèves*（《Chopin 由其學生所見》）(1970, Switzerland, 1979 修訂版)；英譯 *Chopin, Pianist and Teacher: As Seen by His Pupils* (Naomi Shohet, Krysia Osostowicz, Roy Howat 譯, 1986, Cambridge University Press)
-> 引用方：[[analysis_chopin_op9_no2_articulation]], [[analysis_chopin_op28_preludes]], [[concept_period_defaults]] §4 Romantic
+> 引用方：[analysis_chopin_op9_no2_articulation](analysis_chopin_op9_no2_articulation.md), [analysis_chopin_op28_preludes](analysis_chopin_op28_preludes.md), [concept_period_defaults](concept_period_defaults.md) §4 Romantic
 
 ## 1. 作者背景與書的性質
 
@@ -23,7 +23,7 @@ Jean-Jacques Eigeldinger 是瑞士 musicology 學者，專攻 Chopin 研究。�
 
 → 對指法的意涵：Chopin 的 legato 是**極其嚴格的 vocal-derived legato** — finger substitution + 重量觸鍵不只是技術，是模仿人聲的物理必要。
 
-對 [[concept_legato_substitution]] 的支持：Chopin 學生記述普遍提到 substitution 在 Chopin 教學中是**核心技術**，不是進階技巧。
+對 [concept_legato_substitution](concept_legato_substitution.md) 的支持：Chopin 學生記述普遍提到 substitution 在 Chopin 教學中是**核心技術**，不是進階技巧。
 
 ### 2.2 Chopin 對手位 + finger choice 的彈性
 
@@ -39,13 +39,13 @@ Jean-Jacques Eigeldinger 是瑞士 musicology 學者，專攻 Chopin 研究。�
 - Chopin 教學中 ornament + fioritura 處理**較自由** — 學生記述提到 Chopin 自己每次演奏細節都不同
 - 但**框架音的 articulation 嚴格** — slur 範圍、強拍 accent 等 honoring 樂譜
 
-→ 對應 [[../wiki_phrase/analysis_chopin_op9_no2_nocturne]] §7 fioritura 處理 + [[concept_legato_substitution]] §6 ornament 失效情境。
+→ 對應 [../wiki_phrase/analysis_chopin_op9_no2_nocturne](../wiki_phrase/analysis_chopin_op9_no2_nocturne.md) §7 fioritura 處理 + [concept_legato_substitution](concept_legato_substitution.md) §6 ornament 失效情境。
 
 ### 2.4 Chopin 對 pedal 的論述
 
 ⚠ Training-data verification needed: Chopin 是 19 世紀 pedal 使用的**革命者**：
 - 大量 sustain pedal + 細緻變化
-- 但仍堅持「**pedal 是音響的潤色，不是 articulation 的替代**」(對應 [[concept_pedaling_vs_articulation]])
+- 但仍堅持「**pedal 是音響的潤色，不是 articulation 的替代**」(對應 [concept_pedaling_vs_articulation](concept_pedaling_vs_articulation.md))
 - 學生記述：「Chopin 的 pedal 是『**呼吸的踩**』，不是『**踩著放著**』」
 
 對指法的意涵：Chopin 演奏中 finger substitution 仍是必要 — pedal 不能取代。
@@ -73,11 +73,11 @@ Jean-Jacques Eigeldinger 是瑞士 musicology 學者，專攻 Chopin 研究。�
 
 | Eigeldinger 整理的 Chopin 教學主張 | 對 score-claude DP 的對應 |
 |---|---|
-| Bel canto legato 嚴格要求 | [[concept_legato_substitution]] 強烈適用於 Chopin |
+| Bel canto legato 嚴格要求 | [concept_legato_substitution](concept_legato_substitution.md) 強烈適用於 Chopin |
 | 個性化 fingering 鼓勵 | score-claude 「個人化」哲學的歷史依據 |
-| Ornament / fioritura 自由 vs 框架嚴格 | [[concept_ornament_articulation]] + [[../score-claude/memory/project_fioritura_filter_2026-05-28]] |
-| Pedal ≠ articulation 替代 | [[concept_pedaling_vs_articulation]] §2 一致 |
-| Mikuli edition 部分可信 | [[analysis_chopin_op9_no2_articulation]] §5 edition 排序 |
+| Ornament / fioritura 自由 vs 框架嚴格 | [concept_ornament_articulation](concept_ornament_articulation.md) + *project_fioritura_filter_2026-05-28* |
+| Pedal ≠ articulation 替代 | [concept_pedaling_vs_articulation](concept_pedaling_vs_articulation.md) §2 一致 |
+| Mikuli edition 部分可信 | [analysis_chopin_op9_no2_articulation](analysis_chopin_op9_no2_articulation.md) §5 edition 排序 |
 
 ## 5. 與其他來源對比
 
@@ -99,12 +99,12 @@ Eigeldinger 提供「**Chopin 自己教學意圖**」的最系統還原，是現
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[analysis_chopin_op9_no2_articulation]] — Eigeldinger 對 Op.9 No.2 教學記述
-- [[analysis_chopin_op28_preludes]] — Eigeldinger 對 Op.28 教學記述
-- [[concept_period_defaults]] §4 — Eigeldinger 確認 Chopin 為 Romantic legato default 代言
-- [[concept_legato_substitution]] §2 — Chopin 嚴格 bel canto legato 強化此規則
-- [[concept_pedaling_vs_articulation]] §2 — Chopin pedal 哲學
-- [[../score-claude/memory/feedback_personal_biomechanics]] — Chopin 個性化 fingering 哲學的歷史依據
+- [analysis_chopin_op9_no2_articulation](analysis_chopin_op9_no2_articulation.md) — Eigeldinger 對 Op.9 No.2 教學記述
+- [analysis_chopin_op28_preludes](analysis_chopin_op28_preludes.md) — Eigeldinger 對 Op.28 教學記述
+- [concept_period_defaults](concept_period_defaults.md) §4 — Eigeldinger 確認 Chopin 為 Romantic legato default 代言
+- [concept_legato_substitution](concept_legato_substitution.md) §2 — Chopin 嚴格 bel canto legato 強化此規則
+- [concept_pedaling_vs_articulation](concept_pedaling_vs_articulation.md) §2 — Chopin pedal 哲學
+- *feedback_personal_biomechanics* — Chopin 個性化 fingering 哲學的歷史依據
 
 ## 8. ⚠ Training-data verification queue
 

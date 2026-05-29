@@ -3,7 +3,7 @@
 > 來源：通用音樂理論 + Bertensson & Leyda《Sergei Rachmaninoff: A Lifetime in Music》、Norris《Rachmaninoff》、Riesemann《Rachmaninoff's Recollections》
 > 涵蓋 PIG：Rachmaninoff 4 曲
 > 狀態：第一版 2026-05-26
-> 引用方：[[concept_chopin_lyrical_phrase]] (後期浪漫延伸)
+> 引用方：[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) (後期浪漫延伸)
 
 ## 1. Rachmaninoff 為何單獨開頁
 
@@ -14,7 +14,7 @@ Rachmaninoff (1873-1943) 是浪漫派最後一位大鋼琴作曲家。樂句策�
 - **加入俄羅斯民間色彩**：modal inflections + 鐘聲式音響 (Rachmaninoff 偏愛模仿 bell)
 - **超大手張 (12 度) 影響**：他的鋼琴寫作預設大手；對中小手變奏指法可能必須
 
-[[concept_chopin_lyrical_phrase]] 的通則大致適用，但有 Rachmaninoff 特化點。
+[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 的通則大致適用，但有 Rachmaninoff 特化點。
 
 ## 2. PIG 4 首 Rachmaninoff 大致分類（待逐曲確認）
 
@@ -45,14 +45,14 @@ LH 不只是 alberti / waltz pattern，常是：
 
 **操作型**：
 - LH texture **連續性**比 Chopin 強 (整段都是同 pattern)
-- LH pattern 變化 = phrase 邊界（同 [[concept_chopin_lyrical_phrase]] §3.5）
+- LH pattern 變化 = phrase 邊界（同 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) §3.5）
 
 ### 3.3 戲劇性 climax + 寬動態範圍
 從 ppp 到 fff 一個 phrase 內常見。Climax 點通常 phrase 中後段。
 
 **邊界訊號**：
 - Climax 後接 ppp 段 = strong phrase 邊界
-- Sf + 突然 p = strong (與 [[composer_beethoven_phrasing]] §4 共通)
+- Sf + 突然 p = strong (與 [composer_beethoven_phrasing](composer_beethoven_phrasing.md) §4 共通)
 - Tempo rubato 標記 + a tempo = phrase 內部 articulation
 
 ### 3.4 跨音域大跳 (large interval leaps)
@@ -87,16 +87,16 @@ Rachmaninoff 自己手張 12 度。樂譜上常有：
 - 9-10 度 chord stretches (左手低音 + 中音域和弦)
 - 11+ 度 arpeggio (RH 內部包含 octave + 5th)
 
-對 [[../wiki_piano/concept_finger_span_table]] 的影響：標準 M hand size (8 度 (1,5) span) 在 Rachmaninoff 必然要**分手指 substitution** 或**短暫放棄音**。已不只是樂句問題，而是**演奏可行性**問題。
+對 [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) 的影響：標準 M hand size (8 度 (1,5) span) 在 Rachmaninoff 必然要**分手指 substitution** 或**短暫放棄音**。已不只是樂句問題，而是**演奏可行性**問題。
 
 → 此 wiki 頁主要處理樂句邊界；指法部分要回到 wiki_piano 的 small_hands 策略。
 
 ## 7. 與其他 wiki 頁面的關係
 
-- 父頁 [[concept_chopin_lyrical_phrase]]：通則 (浪漫派 lyrical) 延伸
-- 工具頁 [[concept_modulation_as_phrase_signal]]：Rachmaninoff 也常轉調作為 phrase 訊號
-- 工具頁 [[concept_texture_change_detection]]：LH pattern change 偵測必要
-- 對應 [[../wiki_piano/src_piano_ergonomics_small_hands]]：大手前提的反向適配
+- 父頁 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md)：通則 (浪漫派 lyrical) 延伸
+- 工具頁 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md)：Rachmaninoff 也常轉調作為 phrase 訊號
+- 工具頁 [concept_texture_change_detection](concept_texture_change_detection.md)：LH pattern change 偵測必要
+- 對應 [../wiki_piano/src_piano_ergonomics_small_hands](../wiki_piano/src_piano_ergonomics_small_hands.md)：大手前提的反向適配
 - 待寫：
-  - [[analysis_rachmaninoff_prelude_op3_2]]
+  - [analysis_rachmaninoff_prelude_op3_2](analysis_rachmaninoff_prelude_op3_2.md)
 

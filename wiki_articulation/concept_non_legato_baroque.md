@@ -1,7 +1,7 @@
 # Concept: Non-Legato Baroque — 巴洛克的默認 articulation
 
 > 來源：Türk *Klavierschule* (1789) §「ordentliches Fortgehen」、C.P.E. Bach *Versuch* §觸鍵章、Donington *Baroque Music: Style and Performance*、Couperin *L'Art de toucher le Clavecin* (1716)
-> 引用方：[[concept_articulation_overview]] §3、[[concept_period_defaults]]
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §3、[concept_period_defaults](concept_period_defaults.md)
 
 ## 1. Baroque 為什麼預設不是 legato
 
@@ -55,7 +55,7 @@ Baroque 並非全曲都 non-legato。明確 legato 段：
 | **Sarabande / Adagio 慢板樂章** | 慢速本身暗示 legato 詮釋 |
 | **Vocal-derived melody（如 chorale-prelude）**| 模擬人聲必須 legato |
 
-這些段落應該套用 [[concept_legato_substitution]] 規則，**不**按 non-legato default 處理。
+這些段落應該套用 [concept_legato_substitution](concept_legato_substitution.md) 規則，**不**按 non-legato default 處理。
 
 ## 5. 對指法系統的實作意涵
 
@@ -74,14 +74,14 @@ Baroque 並非全曲都 non-legato。明確 legato 段：
 | **Domenico Scarlatti** (1685-1757) | ✓（但 sonata 內有大量明確 staccato）|
 | **F. Couperin / Rameau** | ✓（French school）|
 | **C.P.E. Bach / Haydn early works** | 過渡期 — 部分仍 non-legato，部分轉向 Classical 平衡 |
-| **Mozart (1756-1791)** | ✗ Classical 平衡（[[concept_period_defaults]]）|
+| **Mozart (1756-1791)** | ✗ Classical 平衡（[concept_period_defaults](concept_period_defaults.md)）|
 
 → 指法系統判定為「Baroque」可參考作曲家 + 出版年（< 1750 視為 Baroque、1750-1820 視為 Classical 過渡）。
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] — 本頁的 parent 概覽
-- [[concept_period_defaults]] — Baroque 是諸多時代 default 之一
-- [[concept_legato_substitution]] — Baroque 段內例外情境的 legato 處理
-- [[../wiki_phrase/concept_fugue]] / [[../wiki_phrase/concept_counterpoint]] — Bach 對位作品的樂句結構
-- [[../wiki_phrase/src_bach_inventions_pedagogy]] — Bach Inv 的多 edition slur 差異記載
+- [concept_articulation_overview](concept_articulation_overview.md) — 本頁的 parent 概覽
+- [concept_period_defaults](concept_period_defaults.md) — Baroque 是諸多時代 default 之一
+- [concept_legato_substitution](concept_legato_substitution.md) — Baroque 段內例外情境的 legato 處理
+- [../wiki_phrase/concept_fugue](../wiki_phrase/concept_fugue.md) / [../wiki_phrase/concept_counterpoint](../wiki_phrase/concept_counterpoint.md) — Bach 對位作品的樂句結構
+- [../wiki_phrase/src_bach_inventions_pedagogy](../wiki_phrase/src_bach_inventions_pedagogy.md) — Bach Inv 的多 edition slur 差異記載

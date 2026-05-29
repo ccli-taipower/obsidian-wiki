@@ -1,7 +1,7 @@
 # Concept: Pedaling 與 Articulation 的互動 — 最常見的混淆
 
 > 來源：Neuhaus《The Art of Piano Playing》§pedaling, Banowetz《The Pianist's Guide to Pedaling》(1985), Brendel essays §pedal
-> 引用方：[[concept_legato_substitution]] §6（不依賴 pedal 隱藏 broken-finger）
+> 引用方：[concept_legato_substitution](concept_legato_substitution.md) §6（不依賴 pedal 隱藏 broken-finger）
 
 ## 1. 核心混淆 — 「踏板 legato」≠ 真正 legato
 
@@ -63,7 +63,7 @@
 ## 6. Baroque 演奏 vs Pedal
 
 ⚠ Baroque 時代沒有現代 sustain pedal（鋼琴前的 harpsichord 無 pedal；clavichord 也無 modern sustain mechanism）。當代演奏 Baroque 時：
-- HIP 派（[[src_donington_baroque_music]]）：**幾乎不踩 pedal**，articulation 完全靠手指
+- HIP 派（[src_donington_baroque_music](src_donington_baroque_music.md)）：**幾乎不踩 pedal**，articulation 完全靠手指
 - 浪漫派傳統：用 pedal 但不應掩蓋 Baroque non-legato default
 
 對指法的意涵：演奏 Bach 時不應依賴 pedal，所有 articulation 都應 finger-level 完成。score-claude DP 對 Bach Inv 啟用 legato substitution 時，假設**不靠 pedal 也要 legato** — 這是正確設計。
@@ -74,12 +74,12 @@
 - DP 假設「**指法應該獨立於 pedal 體現 articulation**」
 - 因此 substitution / hand jump / thumb cross 等決策**不應**因 pedal 出現而改變
 
-例外：[[../score-claude/memory/project_texture_phase_2_2026-05-28]] — texture phase 2 中 pedal 訊號用於**樂句邊界偵測**（pedal release 段是 phrase boundary signal），不是 articulation。這兩用途分清楚。
+例外：*project_texture_phase_2_2026-05-28* — texture phase 2 中 pedal 訊號用於**樂句邊界偵測**（pedal release 段是 phrase boundary signal），不是 articulation。這兩用途分清楚。
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[concept_legato_substitution]] §6 — substitution 不應依賴 pedal 隱藏的觀察
-- [[src_neuhaus_art_of_piano]] §2.4 — Neuhaus 對 pedaling vs articulation 優先級的主張
-- [[src_donington_baroque_music]] — Baroque 演奏中 pedal 使用的爭議
-- [[../wiki_piano/concept_thumb_technique]] — thumb cross 與 pedal 互動
-- [[../score-claude/memory/project_texture_phase_2_2026-05-28]] — score-claude texture phase 2 用 pedal release 偵測 phrase boundary
+- [concept_legato_substitution](concept_legato_substitution.md) §6 — substitution 不應依賴 pedal 隱藏的觀察
+- [src_neuhaus_art_of_piano](src_neuhaus_art_of_piano.md) §2.4 — Neuhaus 對 pedaling vs articulation 優先級的主張
+- [src_donington_baroque_music](src_donington_baroque_music.md) — Baroque 演奏中 pedal 使用的爭議
+- [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) — thumb cross 與 pedal 互動
+- *project_texture_phase_2_2026-05-28* — score-claude texture phase 2 用 pedal release 偵測 phrase boundary

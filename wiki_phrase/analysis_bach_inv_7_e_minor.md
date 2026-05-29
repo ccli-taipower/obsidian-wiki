@@ -7,7 +7,7 @@
 
 ## 1. 為什麼挑這首作為 wiki 第三個 Bach analysis 頁
 
-BWV 778 與已有兩頁 ([[analysis_bach_inv_1_c_major]], [[analysis_bach_inv_4_d_minor]]) 構成**三角對照**：
+BWV 778 與已有兩頁 ([analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md), [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)) 構成**三角對照**：
 
 | 維度 | Inv 1 (C major) | Inv 4 (D minor) | **Inv 7 (E minor)** |
 |---|---|---|---|
@@ -27,7 +27,7 @@ BWV 778 與已有兩頁 ([[analysis_bach_inv_1_c_major]], [[analysis_bach_inv_4_
 - 主題特色：**chromatic descent + countersubject** — Bach 對「**小調 + 半音**」聲響的著名運用；主題明顯含 **sigh motif** (半音下行 appoggiatura) 重複出現
 - 教學定位：*Two-Part Inventions* 第 7 首；是該集中**第一首充分發揮 chromatic voice-leading** 的 Invention
 - 著名版本：András Schiff (*lamentoso* character emphasis), Angela Hewitt (sigh motif articulation), Glenn Gould (anti-romantic dryness 例外)
-- 與 [[composer_other_pig_pieces]] 的關係：BWV 778 在現有 PIG dataset 中未列入；對照另需自建
+- 與 [composer_other_pig_pieces](composer_other_pig_pieces.md) 的關係：BWV 778 在現有 PIG dataset 中未列入；對照另需自建
 
 ## 3. Subject 識別 — chromatic subject 的演算法挑戰
 
@@ -42,7 +42,7 @@ BWV 778 與已有兩頁 ([[analysis_bach_inv_1_c_major]], [[analysis_bach_inv_4_
 
 ### 3.2 對 `_detect_subject_entries` 的影響（演算法層次）
 
-[[concept_subject_imitation_detection]] §3 的 algorithm 用 **interval signature** 作為 subject 匹配 key。對 Inv 7：
+[concept_subject_imitation_detection](concept_subject_imitation_detection.md) §3 的 algorithm 用 **interval signature** 作為 subject 匹配 key。對 Inv 7：
 
 | 演算法假設 | Inv 1 / Inv 4 情況 | **Inv 7 情況** |
 |---|---|---|
@@ -69,7 +69,7 @@ BWV 778 與已有兩頁 ([[analysis_bach_inv_1_c_major]], [[analysis_bach_inv_4_
 
 ### 3.4 Inversion 可能性
 
-Bach 在小調 + chromatic subject 時**常用 strict inversion** 作為對位手法（[[analysis_bach_inv_4_d_minor]] 已示範）。對 Inv 7：
+Bach 在小調 + chromatic subject 時**常用 strict inversion** 作為對位手法（[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 已示範）。對 Inv 7：
 
 - ⚠ **未經驗證**：Inv 7 是否同樣大量使用 inversion
 - 教學版本（Schiff, Hewitt 樂譜註）對此**少有明確標示**，多以 *imitation* 通稱
@@ -89,7 +89,7 @@ Bach 在小調 + chromatic subject 時**常用 strict inversion** 作為對位�
 
 ### 5.1 問題陳述
 
-[[concept_modulation_as_phrase_signal]] 的核心 heuristic 包含：
+[concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 的核心 heuristic 包含：
 - Key signature 變動偵測
 - Tonicization (短暫離調) 偵測
 
@@ -104,7 +104,7 @@ Bach 在小調 + chromatic subject 時**常用 strict inversion** 作為對位�
 
 ### 5.2 對 tonicization filter 的設計意涵
 
-→ [[concept_modulation_as_phrase_signal]] 的 tonicization filter **必須能區分 chromatic line vs key change**。可能 heuristics：
+→ [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 的 tonicization filter **必須能區分 chromatic line vs key change**。可能 heuristics：
 
 - **Duration filter**：accidentals 在 < N beats 內解決 → 視為 chromatic，不觸發
 - **Direction filter**：連續半音同向（如全降）→ 視為 chromatic line，不觸發
@@ -112,7 +112,7 @@ Bach 在小調 + chromatic subject 時**常用 strict inversion** 作為對位�
 
 ⚠ **演算法待驗證**：跑 BWV 778 的 phrase detection，記錄 m1-m23 是否有**錯誤觸發**的 modulation boundaries（理論上應只有 m6-m7、m16-m17 兩處）。
 
-### 5.3 與 [[concept_subject_imitation_detection]] 的交叉影響
+### 5.3 與 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 的交叉影響
 
 Chromatic subject 同時影響 subject detection 的 **interval tolerance**：
 - 若演算法用嚴格 signature matching（要求每個 interval 完全一致），entries 會抓到太少（chromatic 變體會被視為不同 subject）
@@ -126,18 +126,18 @@ Chromatic subject 同時影響 subject detection 的 **interval tolerance**：
 
 Bach 在 voice entry 之前**常用休止符讓另一聲部 lead in**：
 - LH 沉默幾拍 → RH 結束 phrase → LH 在沉默後**新樂句起點**進入
-- 這是 [[concept_counterpoint]] §模仿規則的標準呈現方式：**voice entry 與 phrase boundary 同步**
+- 這是 [concept_counterpoint](concept_counterpoint.md) §模仿規則的標準呈現方式：**voice entry 與 phrase boundary 同步**
 
 ### 6.2 對 phrase boundary 的明確訊號
 
-Leading-rest **不是 [[concept_phrase_elision]] case** — 反而是 elision 的反例：
+Leading-rest **不是 [concept_phrase_elision](concept_phrase_elision.md) case** — 反而是 elision 的反例：
 
 | 模式 | 樂句關係 |
 |---|---|
 | **Phrase elision** | 樂句重疊 — 同一拍同時是前句結束 + 後句起點 |
 | **Leading-rest entry (Inv 7)** | **無重疊** — 前句結束 → 短暫休止 → 後句獨立起點，邊界清晰 |
 
-→ 對演算法的意涵：**Leading-rest 後的 voice entry 是 phrase boundary 的高信心訊號**。可作為 [[concept_subject_imitation_detection]] / [[concept_figural_boundary_detection]] 之外的獨立 boundary detector（如「voice silence ≥ N beats 後 re-entry → phrase start」）。
+→ 對演算法的意涵：**Leading-rest 後的 voice entry 是 phrase boundary 的高信心訊號**。可作為 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) / [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 之外的獨立 boundary detector（如「voice silence ≥ N beats 後 re-entry → phrase start」）。
 
 ### 6.3 對 OMR / fuzzy-match 的 stress
 
@@ -152,7 +152,7 @@ Leading-rest **不是 [[concept_phrase_elision]] case** — 反而是 elision �
 - 解 Inv 7 的 phrase detection 前，必須先解 OMR alignment 信心
 - 對 wiki 框架：leading-rest 結構是「**樂句訊號明確但 implementation 困難**」的典型 case，與 chromatic descent 構成 Inv 7 的雙重挑戰
 
-⚠ **OMR-side 處理屬於 implementation 細節**（不屬於 phrase wiki scope），具體狀態見 `[[../score-claude/memory/project_mvt7_m21_pending]]`。本頁僅記錄**musicological 為什麼這結構難**，不記錄 implementation 修復步驟。
+⚠ **OMR-side 處理屬於 implementation 細節**（不屬於 phrase wiki scope），具體狀態見 `*project_mvt7_m21_pending*`。本頁僅記錄**musicological 為什麼這結構難**，不記錄 implementation 修復步驟。
 
 ## 7. 三類樂句邊界並用的必要性（Inv 7 視角）
 
@@ -160,31 +160,31 @@ Leading-rest **不是 [[concept_phrase_elision]] case** — 反而是 elision �
 
 | 邊界類型 | Inv 7 預期觸發點 | 工具 | 風險 |
 |---|---|---|---|
-| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — @ default tol=0.8: RH 全 miss, LH 1 entry @ m3; @ **tol=0.7** (per-piece in `BACH_INV_PHRASE_FLAGS[7]`): **RH @ m3/m11/m11/m12 (4 entries ✓ 命中 wiki 預測 m11-14)**, **LH @ m3/m11/m22 (3 entries, 含 m11 預測)** | [[concept_subject_imitation_detection]] | ✓ 2026-05-29 enabled: figural+subject@0.7 (thumb OFF — LH chromatic +4.57 breach); cost RH -22.68 / LH -7.05; 0 red-line breach。詳 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]] action #4。 |
-| **Modulation** | m6-m7, m16-m17 | [[concept_modulation_as_phrase_signal]] | ⚠ Chromatic descent 的 false positive 風險 |
-| **Cadence** | m22-m23 final cadence (可能 Picardy 3rd) | [[concept_cadence_detection]] | 末和弦音色變化 (e → E) 是獨立訊號 |
-| **Leading-rest entry** | development 段內多處 | （新提議軸，目前 [[concept_subject_imitation_detection]] 部分覆蓋） | OMR alignment cascade |
-| **Figural** | sigh motif 段內 figure 切換 | [[concept_figural_boundary_detection]] | sigh motif 高重複度可作為高信心 figural 標記 |
+| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — @ default tol=0.8: RH 全 miss, LH 1 entry @ m3; @ **tol=0.7** (per-piece in `BACH_INV_PHRASE_FLAGS[7]`): **RH @ m3/m11/m11/m12 (4 entries ✓ 命中 wiki 預測 m11-14)**, **LH @ m3/m11/m22 (3 entries, 含 m11 預測)** | [concept_subject_imitation_detection](concept_subject_imitation_detection.md) | ✓ 2026-05-29 enabled: figural+subject@0.7 (thumb OFF — LH chromatic +4.57 breach); cost RH -22.68 / LH -7.05; 0 red-line breach。詳 *project_bach_inv_subject_detection_validation_2026-05-28* action #4。 |
+| **Modulation** | m6-m7, m16-m17 | [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) | ⚠ Chromatic descent 的 false positive 風險 |
+| **Cadence** | m22-m23 final cadence (可能 Picardy 3rd) | [concept_cadence_detection](concept_cadence_detection.md) | 末和弦音色變化 (e → E) 是獨立訊號 |
+| **Leading-rest entry** | development 段內多處 | （新提議軸，目前 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 部分覆蓋） | OMR alignment cascade |
+| **Figural** | sigh motif 段內 figure 切換 | [concept_figural_boundary_detection](concept_figural_boundary_detection.md) | sigh motif 高重複度可作為高信心 figural 標記 |
 
 → Inv 7 與另兩首對照：
   - Inv 1: modulation + cadence 主導
   - Inv 4: figural boundary 主導 (m50 case)
   - **Inv 7: subject + chromatic disambiguation 主導，leading-rest 為輔軸**
 
-三首合看，支持 [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]] 的核心主張：**單一偵測軸無法完整描述 Bach Invention 樂句結構，不同曲目主導軸不同**。
+三首合看，支持 *feedback_phrase_analysis_is_its_own_discipline* 的核心主張：**單一偵測軸無法完整描述 Bach Invention 樂句結構，不同曲目主導軸不同**。
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 與 [[analysis_bach_inv_1_c_major]] + [[analysis_bach_inv_4_d_minor]] 構成三角對照（diatonic-major / diatonic-minor / chromatic-minor）
-- 應用 [[concept_fugue]] / [[concept_counterpoint]] 對 2-voice Invention 的論述
-- 對 [[concept_subject_imitation_detection]] 提供 **chromatic subject + interval tolerance 校準** 的測試 case
-- 對 [[concept_modulation_as_phrase_signal]] 提供 **chromatic descent vs modulation disambiguation** 的代表 case
-- 對 [[concept_cadence_detection]] 提供 **Picardy 3rd 末和弦** case (待確認)
-- 對 [[concept_figural_boundary_detection]] 提供 **sigh motif 重複** 的 high-confidence figural 標記 case
-- 對 [[concept_phrase_elision]] 提供**反例** (leading-rest = 無 elision, 清晰邊界)
-- 編輯版本與教學脈絡引 [[src_bach_inventions_pedagogy]]
-- 對位起源溯至 [[src_fux_gradus_ad_parnassum]]
-- Measure 對應依 [[../score-claude/memory/project_bach_inv_measure_mapping]]
-- 個人化生物力學原則依 [[../score-claude/memory/feedback_personal_biomechanics]]
-- 樂句呼吸原則依 [[../score-claude/memory/feedback_phrase_as_breath]]
-- 樂句分析獨立性主張依 [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]]
+- 與 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) + [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 構成三角對照（diatonic-major / diatonic-minor / chromatic-minor）
+- 應用 [concept_fugue](concept_fugue.md) / [concept_counterpoint](concept_counterpoint.md) 對 2-voice Invention 的論述
+- 對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 提供 **chromatic subject + interval tolerance 校準** 的測試 case
+- 對 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 提供 **chromatic descent vs modulation disambiguation** 的代表 case
+- 對 [concept_cadence_detection](concept_cadence_detection.md) 提供 **Picardy 3rd 末和弦** case (待確認)
+- 對 [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 提供 **sigh motif 重複** 的 high-confidence figural 標記 case
+- 對 [concept_phrase_elision](concept_phrase_elision.md) 提供**反例** (leading-rest = 無 elision, 清晰邊界)
+- 編輯版本與教學脈絡引 [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)
+- 對位起源溯至 [src_fux_gradus_ad_parnassum](src_fux_gradus_ad_parnassum.md)
+- Measure 對應依 *project_bach_inv_measure_mapping*
+- 個人化生物力學原則依 *feedback_personal_biomechanics*
+- 樂句呼吸原則依 *feedback_phrase_as_breath*
+- 樂句分析獨立性主張依 *feedback_phrase_analysis_is_its_own_discipline*

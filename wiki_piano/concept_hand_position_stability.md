@@ -1,7 +1,7 @@
 # Concept: Hand Position Stability — 手位穩定性
 
 > 來源：Neuhaus *The Art of Piano Playing* §position, Sandor *On Piano Playing* §hand position, Cortot *Rational Principles*
-> 引用方：[[concept_thumb_technique]], [[concept_finger_substitution]], [[../wiki_articulation/concept_legato_substitution]]
+> 引用方：[concept_thumb_technique](concept_thumb_technique.md), [concept_finger_substitution](concept_finger_substitution.md), [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md)
 
 ## 1. 手位穩定性是什麼
 
@@ -71,7 +71,7 @@ Thumb-pass 是「**hand position 切換**」事件 — scale / arpeggio 段每 t
 
 ## 6. Phrase boundary 與 hand stability 的解耦
 
-[[../wiki_phrase/index|wiki_phrase]] 樂句邊界是「**手位 free reset**」點：
+[wiki_phrase](../wiki_phrase/index.md) 樂句邊界是「**手位 free reset**」點：
 - 樂句內 → 手位穩定優先
 - 樂句邊界 → 手位可自由 reposition 到下個樂句的最佳起手位置
 
@@ -89,7 +89,7 @@ Thumb-pass 是「**hand position 切換**」事件 — scale / arpeggio 段每 t
 
 平衡：在「**樂句中段需要 substitution 維持 legato**」+「**樂句邊界 substitution 過渡到新位置**」兩種情境下適用，**段內不必要 substitution 應避免**。
 
-[[../wiki_articulation/concept_legato_substitution]] v2 duration gate (LEGATO_MIN_DURATION ≥ 0.5 QN) 即是「**只在實用價值時 substitution**」的策略。
+[../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) v2 duration gate (LEGATO_MIN_DURATION ≥ 0.5 QN) 即是「**只在實用價值時 substitution**」的策略。
 
 ## 8. Hand stability 在 different styles
 
@@ -119,9 +119,9 @@ DP 內隱優化 hand stability:
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_thumb_technique]] — Thumb-pass 是 hand stability 切換的核心動作
-- [[concept_finger_substitution]] — Substitution 與 stability 的互動
-- [[concept_scale_fingering]] — Scale fingering 是 stability 優化的歷史結果
-- [[concept_wrist_motion]] — Wrist 補正動作維持 stability
-- [[../wiki_articulation/concept_legato_substitution]] — Substitution 的 stability 平衡
-- [[../wiki_phrase/index|wiki_phrase]] — Phrase boundary 是 stability reset 點
+- [concept_thumb_technique](concept_thumb_technique.md) — Thumb-pass 是 hand stability 切換的核心動作
+- [concept_finger_substitution](concept_finger_substitution.md) — Substitution 與 stability 的互動
+- [concept_scale_fingering](concept_scale_fingering.md) — Scale fingering 是 stability 優化的歷史結果
+- [concept_wrist_motion](concept_wrist_motion.md) — Wrist 補正動作維持 stability
+- [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) — Substitution 的 stability 平衡
+- [wiki_phrase](../wiki_phrase/index.md) — Phrase boundary 是 stability reset 點

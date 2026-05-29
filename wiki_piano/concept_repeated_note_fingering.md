@@ -1,7 +1,7 @@
 # Concept: Repeated Note Fingering — 同音重複指法
 
 > 來源：Czerny *Op.500* §repeated notes, Liszt *La Campanella*（repeated-note 經典）, Sandor *On Piano Playing* §repetition
-> 引用方：[[concept_finger_substitution]], [[../wiki_articulation/concept_legato_substitution]]
+> 引用方：[concept_finger_substitution](concept_finger_substitution.md), [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md)
 
 ## 1. 同音重複是什麼
 
@@ -72,7 +72,7 @@
 ## 6. 對 score-claude DP 的影響
 
 DP 對 repeated notes 處理：
-- 識別連續同音 (midi 相同) → [[../wiki_articulation/concept_legato_substitution]] rule 可能觸發
+- 識別連續同音 (midi 相同) → [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) rule 可能觸發
 - **但** legato substitution 是針對 slur 內的同音；repeated notes 通常**非** slur 段
 - DP 目前對非-slur 同音重複**無 special-case** — 依 cost 自然選擇
 
@@ -102,7 +102,7 @@ DP 對 repeated notes 處理：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_finger_substitution]] — substitution 與 repeated notes 的物理區分
-- [[concept_hand_anatomy]] — 換指速度的解剖學限制
-- [[../wiki_articulation/concept_legato_substitution]] — slur 內同音 vs repeated notes 的概念區分
-- [[../wiki_articulation/concept_articulation_and_tempo]] — repeated notes 速度與換指策略
+- [concept_finger_substitution](concept_finger_substitution.md) — substitution 與 repeated notes 的物理區分
+- [concept_hand_anatomy](concept_hand_anatomy.md) — 換指速度的解剖學限制
+- [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) — slur 內同音 vs repeated notes 的概念區分
+- [../wiki_articulation/concept_articulation_and_tempo](../wiki_articulation/concept_articulation_and_tempo.md) — repeated notes 速度與換指策略

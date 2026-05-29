@@ -3,14 +3,14 @@
 > PIG: 037 (4 annotators)
 > 來源：通用 Debussy 分析 + Howat《Debussy in Proportion》+ Roy Howat 演奏研究
 > 狀態：第四個 per-piece analysis，2026-05-26
-> 引用方：[[composer_debussy_phrasing]] §3.1、[[concept_impressionist_phrasing]] §6、[[concept_texture_change_detection]] §7
+> 引用方：[composer_debussy_phrasing](composer_debussy_phrasing.md) §3.1、[concept_impressionist_phrasing](concept_impressionist_phrasing.md) §6、[concept_texture_change_detection](concept_texture_change_detection.md) §7
 
 ## 1. 為什麼挑這首
 
 Clair de Lune 是 Debussy 最知名的鋼琴作品（也是大眾最熟悉的「印象派」代表）。雖屬於早期 Debussy (1890 草稿、1905 出版)，仍偏古典結構但已展現 texture-driven phrasing 特徵 — 是驗證「印象派偵測器組合」的理想 baseline。對 wiki 的價值：
 
-- 驗證 [[concept_impressionist_phrasing]] 的 texture-driven 邏輯
-- 驗證 [[concept_texture_change_detection]] 對 density/registral/dynamic shift 的偵測
+- 驗證 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) 的 texture-driven 邏輯
+- 驗證 [concept_texture_change_detection](concept_texture_change_detection.md) 對 density/registral/dynamic shift 的偵測
 - 與古典/浪漫對比，揭示 cadence 偵測退化點
 
 ## 2. 曲目基本資訊
@@ -60,7 +60,7 @@ A→B 邊界是**最強樂句邊界**：
 - 動態 climax 在 ~bar 40-44，之後 decrescendo
 
 ### 5.3 預期偵測
-- **Texture change detection ([[concept_texture_change_detection]])** 應為主訊號 — density + registral 同時跳
+- **Texture change detection ([concept_texture_change_detection](concept_texture_change_detection.md))** 應為主訊號 — density + registral 同時跳
 - Pass 3 (4-bar) 在 B 段應**禁用** — 會錯切 long arpeggio line
 - Pass 6 (cadence) 在 B 段失效 — modal/non-functional harmony
 - Pedal marking change 強 signal (Debussy 有明確 pedal 標記)
@@ -77,10 +77,10 @@ A→B 邊界是**最強樂句邊界**：
 | Pass 3 (4-bar) | ⭐⭐⭐ OK | ❌ **禁用** | ⭐⭐ | 混合 |
 | Pass 6 (PAC) | ⭐⭐ 可能 | ❌ failed | ⭐ | 中 |
 | Pass 4 (figural) | ⭐ low | ⭐⭐ arpeggio 切換 | ⭐ | 中 |
-| **Texture change** ([[concept_texture_change_detection]]) | ⭐ | **⭐⭐⭐ critical** | ⭐⭐ | **核心** |
+| **Texture change** ([concept_texture_change_detection](concept_texture_change_detection.md)) | ⭐ | **⭐⭐⭐ critical** | ⭐⭐ | **核心** |
 | thumb-reservation | ⭐ low (slow tempo, sparse) | ⭐⭐ arpeggio runs | ⭐ | low fire |
 
-→ Clair de Lune 是 [[concept_texture_change_detection]] 的**最重要驗證 case**。Phase 1 未實作此偵測器（still TODO），所以 Clair de Lune 目前無法被既有偵測器正確分段。
+→ Clair de Lune 是 [concept_texture_change_detection](concept_texture_change_detection.md) 的**最重要驗證 case**。Phase 1 未實作此偵測器（still TODO），所以 Clair de Lune 目前無法被既有偵測器正確分段。
 
 ## 8. Pentatonic / Modal 元素
 
@@ -89,7 +89,7 @@ Debussy 在 A 段大量使用平行三度六度（modal flavoring），但 B 段
 - A 段 RH 三度 chord melody → 五指 group 對位重要
 - B 段 arpeggio 跨 2 octaves → thumb-pass 連續使用
 - 黑鍵調 (D♭) → fingers 自然落黑鍵組
-- 與 [[concept_modal_scale_fingering]] 部分相關（但本曲整體仍 functional, 非純 modal）
+- 與 [concept_modal_scale_fingering](concept_modal_scale_fingering.md) 部分相關（但本曲整體仍 functional, 非純 modal）
 
 ## 9. PIG 4 annotators 預期 disagreement
 
@@ -99,9 +99,9 @@ Debussy 在 A 段大量使用平行三度六度（modal flavoring），但 B 段
 
 ## 10. 與其他 wiki 頁面的關係
 
-- 父頁 [[composer_debussy_phrasing]] §3.1 Suite Bergamasque
-- 父頁 [[concept_impressionist_phrasing]] §6 驗證樣本
-- 工具頁 [[concept_texture_change_detection]] §7 驗證 case
-- 對比 [[analysis_mozart_k283_first_mov]] (古典 vs 印象派)
-- 對比 [[analysis_chopin_op9_no2_nocturne]] (浪漫 lyrical vs 印象派 texture)
+- 父頁 [composer_debussy_phrasing](composer_debussy_phrasing.md) §3.1 Suite Bergamasque
+- 父頁 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) §6 驗證樣本
+- 工具頁 [concept_texture_change_detection](concept_texture_change_detection.md) §7 驗證 case
+- 對比 [analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md) (古典 vs 印象派)
+- 對比 [analysis_chopin_op9_no2_nocturne](analysis_chopin_op9_no2_nocturne.md) (浪漫 lyrical vs 印象派 texture)
 

@@ -1,7 +1,7 @@
 # Concept: Legatissimo — 極致連奏
 
 > 來源：Neuhaus《The Art of Piano Playing》§連奏觸鍵, Liszt 演奏傳統
-> 引用方：[[concept_articulation_overview]] §2 (taxonomy 最連端)
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §2 (taxonomy 最連端)
 
 ## 1. Legatissimo 是什麼
 
@@ -40,7 +40,7 @@ Legatissimo 不是主流標記，原因：
 - **強指偏好**：4-5 的釋放延遲在 legatissimo 更明顯，應盡量用 1-2-3
 - **手位穩定**：legatissimo 段不應有 hand-position 跳動（小動作會破壞極度連續性）
 
-對指法系統的意涵：legatissimo 段應**強化** [[concept_legato_substitution]] 規則 + 偏好強指 + 限制 hand-jump 比 legato 更嚴。
+對指法系統的意涵：legatissimo 段應**強化** [concept_legato_substitution](concept_legato_substitution.md) 規則 + 偏好強指 + 限制 hand-jump 比 legato 更嚴。
 
 ## 5. 與其他連奏級別的對比
 
@@ -64,7 +64,7 @@ Legatissimo 不是主流標記，原因：
 
 ## 7. 演奏實踐：legatissimo vs pedal 共鳴
 
-[[concept_pedaling_vs_articulation]] 指出 articulation 應由手指做出，不依賴 pedal。但 legatissimo 是**少數需要 pedal 配合**的標記之一：
+[concept_pedaling_vs_articulation](concept_pedaling_vs_articulation.md) 指出 articulation 應由手指做出，不依賴 pedal。但 legatissimo 是**少數需要 pedal 配合**的標記之一：
 - 純手指即使完美 substitution，相鄰兩音之間仍有微小 attack 區隔
 - Pedal sustain 提供共鳴「填補」此區隔
 - 純粹 finger legatissimo + pedal sustain = 真正 legatissimo 效果
@@ -73,10 +73,10 @@ Legatissimo 不是主流標記，原因：
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] §2 — taxonomy 最連端
-- [[concept_legato_substitution]] — legatissimo 對 substitution 規則的更嚴格版本
-- [[concept_pedaling_vs_articulation]] — legatissimo 是少數需 pedal 配合的標記
-- [[src_neuhaus_art_of_piano]] §2.1 — Neuhaus 對連奏觸鍵極致的論述
+- [concept_articulation_overview](concept_articulation_overview.md) §2 — taxonomy 最連端
+- [concept_legato_substitution](concept_legato_substitution.md) — legatissimo 對 substitution 規則的更嚴格版本
+- [concept_pedaling_vs_articulation](concept_pedaling_vs_articulation.md) — legatissimo 是少數需 pedal 配合的標記
+- [src_neuhaus_art_of_piano](src_neuhaus_art_of_piano.md) §2.1 — Neuhaus 對連奏觸鍵極致的論述
 
 ## 9. ⚠ Training-data verification queue
 

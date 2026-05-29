@@ -10,9 +10,9 @@
 BWV 779 在 *Two-Part Inventions* (BWV 772–786) 中具有三項對 wiki 框架特別有價值的特徵：
 
 - **3/4 拍**：與 Inv 3 (BWV 774, D major) 和 Inv 6 (BWV 777, E major) 的 3/8 拍 gigue-like 不同，Inv 8 是 minuet-like 三拍子；提供 *non-3/8 三拍子 Invention* 的 cross-bar motif 驗證案例
-- **Descending broken triad subject**：與 Inv 1 / Inv 4 的 stepwise figure subject 形成對比；測試 [[concept_subject_imitation_detection]] 對 *chord-arpeggio motif* 而非 *scalar motif* 的識別能力
-- **LH bass→treble clef change**：是 *Two-Part Inventions* 中**最知名的 LH 譜號臨時變更案例**；提供 [[concept_modulation_as_phrase_signal]] 與譜號變更的**獨立性測試**
-- 與 [[analysis_bach_inv_1_c_major]] / [[analysis_bach_inv_4_d_minor]] 三首合看：C major + D minor + F major，4/4 + 3/8 + 3/4，stepwise + chromatic + broken-triad，覆蓋 *Inventions* 集主要 form 變數
+- **Descending broken triad subject**：與 Inv 1 / Inv 4 的 stepwise figure subject 形成對比；測試 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 對 *chord-arpeggio motif* 而非 *scalar motif* 的識別能力
+- **LH bass→treble clef change**：是 *Two-Part Inventions* 中**最知名的 LH 譜號臨時變更案例**；提供 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 與譜號變更的**獨立性測試**
+- 與 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) / [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 三首合看：C major + D minor + F major，4/4 + 3/8 + 3/4，stepwise + chromatic + broken-triad，覆蓋 *Inventions* 集主要 form 變數
 
 ## 2. 曲目基本資訊
 
@@ -22,7 +22,7 @@ BWV 779 在 *Two-Part Inventions* (BWV 772–786) 中具有三項對 wiki 框架
 - 教學定位：*Inventions* 集第 8 首；3/4 拍下的 Bach 鍵盤教學典範
 - 主題特色：**descending broken triad** + 上揚 16 分音符 figure；典型 F major *bright, joyful* character；與 Inv 1 的上行 stepwise subject 截然不同
 - 著名版本：András Schiff (Bach Lectures), Angela Hewitt (Hyperion), Glenn Gould 1964 — Schiff 與 Hewitt 在此曲詮釋上特別受推崇
-- 編輯版本爭議：見 [[src_bach_inventions_pedagogy]]
+- 編輯版本爭議：見 [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)
 
 ## 3. Subject 識別 — musicology 共識與演算法測試計畫
 
@@ -36,7 +36,7 @@ BWV 779 的 subject 約 1-2 小節（4 個 quarter beats + 後續 16 分音符 f
 | **Continuation** | 上揚 16 分音符 figure，補完 1-2 小節 phrase |
 | **Cadential close** | 短暫落在 V 或回 I |
 
-與 Inv 1 (BWV 772) 的純 stepwise subject 不同，Inv 8 的 head motif 是 **chord-arpeggio 性質**。對 [[concept_subject_imitation_detection]] 演算法的意涵：
+與 Inv 1 (BWV 772) 的純 stepwise subject 不同，Inv 8 的 head motif 是 **chord-arpeggio 性質**。對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 演算法的意涵：
 
 - 若演算法只比對 *interval sequence*，descending broken triad（major third + minor third 或變體）模式須與 stepwise (whole/half step) 模式並列為兩個獨立 subject template
 - ⚠ **演算法目前是否能識別 broken triad 為 motif unit 待驗證**
@@ -48,7 +48,7 @@ BWV 779 的 subject 約 1-2 小節（4 個 quarter beats + 後續 16 分音符 f
 | Entry | 手 | 段落角色 |
 |---|---|---|
 | m1 pos1 | RH | Exposition — subject 第一次呈現（F major broken triad）|
-| 約 m3 | LH | Exposition — **8va 下方模仿** (典型 Bach Inv 答句慣例，參 [[concept_counterpoint]] §模仿規則) |
+| 約 m3 | LH | Exposition — **8va 下方模仿** (典型 Bach Inv 答句慣例，參 [concept_counterpoint](concept_counterpoint.md) §模仿規則) |
 | m7-m8 附近 | LH or RH | 過渡 — subject 開始片段化發展 |
 | m11 / m15 附近 | 兩手交替 | Middle entries 在 V 段（C major）|
 | m25-m28 附近 | RH 為主 | Return — subject 重現主調 |
@@ -67,7 +67,7 @@ BWV 779 中段傾向 **voice exchange** 多於 strict inversion——RH/LH 角�
 | **Modulation to C major (V)** | m8–m20 | C major (V) | 主題在屬調出現；含 sequence + voice exchange；**LH 譜號變更可能發生於此段** |
 | **Return + cadential extension** | m21–m34 | F major (回主) | Final subject entries + cadential close |
 
-→ m7–m8、m20–m21 是兩個明顯的**段落邊界**，皆可由 [[concept_modulation_as_phrase_signal]] 偵測；最終 cadence 由 [[concept_cadence_detection]] 偵測。
+→ m7–m8、m20–m21 是兩個明顯的**段落邊界**，皆可由 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 偵測；最終 cadence 由 [concept_cadence_detection](concept_cadence_detection.md) 偵測。
 
 ## 5. Case Study A — Descending Broken-Triad Subject 對手位的影響
 
@@ -79,13 +79,13 @@ F major broken triad (F-A-C, e.g. F4-A4-C5) 作為起首 head motif，跨度為 
 |---|---|---|
 | **手位含意** | 寬手位、典型 broken-chord 指法 | 拇指—食指—小指，後續 stepwise figuration 友善 |
 | **下行 broken triad 後接 16 分音符** | f5 已在 C5 高位，下行 figure 自然往中音域行 | f5 同上，但 f2 已用，inner fingers 餘量較少 |
-| **概念對應** | 對應 broken-chord 廣義跨度規則 | 對應 [[concept_running_passage_thumb_reservation]] |
+| **概念對應** | 對應 broken-chord 廣義跨度規則 | 對應 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) |
 
 → Subject head 的 fingering 不能孤立決定，**必須考慮其後 16 分音符 figure 的走向**。這是 phrase-level fingering reasoning 的典型 case：head motif 本身可有多解，後續 figure 才決定唯一解。
 
 ### 5.2 對演算法的意涵
 
-[[concept_subject_imitation_detection]] 標記 subject head 後，DP 在 head + continuation 兩段必須當作**單一 fingering unit** 處理，避免 head 用本地最優、continuation 卡死。對應 wiki_piano 的 finger span table 規則：RH (1,5) comfort span = 7-12 半音，broken F major triad（7 半音）落在 comfort range，但其後 figure 若需在 C5 上方延伸到 D5/E5，f5 已 used 將強迫 hand jump。
+[concept_subject_imitation_detection](concept_subject_imitation_detection.md) 標記 subject head 後，DP 在 head + continuation 兩段必須當作**單一 fingering unit** 處理，避免 head 用本地最優、continuation 卡死。對應 wiki_piano 的 finger span table 規則：RH (1,5) comfort span = 7-12 半音，broken F major triad（7 半音）落在 comfort range，但其後 figure 若需在 C5 上方延伸到 D5/E5，f5 已 used 將強迫 hand jump。
 
 ## 6. Case Study B — LH Bass-to-Treble Clef Change 段的 Phrase 邊界意義
 
@@ -102,7 +102,7 @@ Clef change 是 **記譜事件**，phrase boundary 是 **musical event**。兩�
 - Engraver 通常在 phrase / 段落邊界處切換譜號（與斷句點對齊，視覺乾淨）
 - LH 跨入中央 C 上方常意味著 voice exchange 或 modulation——本身就是 phrase signal
 
-對 [[concept_modulation_as_phrase_signal]] 演算法的意涵：**不應將 clef change 直接當 phrase boundary**，因為這會把 engraving 決策（記譜方便）與 musical structure 混淆。正確做法是**獨立偵測 modulation / cadence / figural boundary，再驗證是否與 clef change 對齊**。若對齊則互相印證；若不對齊則代表此 clef change 純為 engraving，不應觸發 phrase reset。
+對 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 演算法的意涵：**不應將 clef change 直接當 phrase boundary**，因為這會把 engraving 決策（記譜方便）與 musical structure 混淆。正確做法是**獨立偵測 modulation / cadence / figural boundary，再驗證是否與 clef change 對齊**。若對齊則互相印證；若不對齊則代表此 clef change 純為 engraving，不應觸發 phrase reset。
 
 ### 6.3 為什麼 Inv 8 在 OMR 系統上特別 challenging
 
@@ -121,7 +121,7 @@ Clef change 是 **記譜事件**，phrase boundary 是 **musical event**。兩�
 - Fingering 分析時 head motif 被切成兩段，head + continuation 的 fingering unit 邏輯（見 §5.1）破裂
 - Phrase boundary 偵測誤把節線當邊界，把單一 phrase 切成兩個
 
-→ 對演算法意涵：[[concept_figural_boundary_detection]] 與 [[concept_subject_imitation_detection]] 都須能**跨節線連續分析**，不可預設「節線 = potential boundary」。
+→ 對演算法意涵：[concept_figural_boundary_detection](concept_figural_boundary_detection.md) 與 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 都須能**跨節線連續分析**，不可預設「節線 = potential boundary」。
 
 ## 7. 三類樂句邊界並用的必要性
 
@@ -129,10 +129,10 @@ Clef change 是 **記譜事件**，phrase boundary 是 **musical event**。兩�
 
 | 邊界類型 | Inv 8 觸發點 | 工具 |
 |---|---|---|
-| **Subject entry** | 主題 / 答句: m1 RH + 約 m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — RH @ m13 (1 entry, 在 wiki 預測 m11/15 範圍 ✓), LH @ m12 (1 entry, 接近 wiki 預測). Tolerance sweep 顯示 0.8→0.5 都同一結果，**非 chromatic-tolerance 問題**，是 subject 真正稀疏。Inv 8 是 figural-dominated case，2026-05-29 enabled `{figural+thumb+subject}` (default tol 0.8)，cost RH -30.79 / LH -? 大改善由 figural 主導 (-28.39 RH alone) | [[concept_subject_imitation_detection]] |
-| **Modulation / 段落** | m7-m8 (→ V), m20-m21 (回 I) | [[concept_modulation_as_phrase_signal]] |
-| **Cadence** | 最終 PAC（約 m32-m34） | [[concept_cadence_detection]] |
-| **Figural** | Cross-bar broken triad 切換點、中段 sequence boundary | [[concept_figural_boundary_detection]] |
+| **Subject entry** | 主題 / 答句: m1 RH + 約 m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — RH @ m13 (1 entry, 在 wiki 預測 m11/15 範圍 ✓), LH @ m12 (1 entry, 接近 wiki 預測). Tolerance sweep 顯示 0.8→0.5 都同一結果，**非 chromatic-tolerance 問題**，是 subject 真正稀疏。Inv 8 是 figural-dominated case，2026-05-29 enabled `{figural+thumb+subject}` (default tol 0.8)，cost RH -30.79 / LH -? 大改善由 figural 主導 (-28.39 RH alone) | [concept_subject_imitation_detection](concept_subject_imitation_detection.md) |
+| **Modulation / 段落** | m7-m8 (→ V), m20-m21 (回 I) | [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) |
+| **Cadence** | 最終 PAC（約 m32-m34） | [concept_cadence_detection](concept_cadence_detection.md) |
+| **Figural** | Cross-bar broken triad 切換點、中段 sequence boundary | [concept_figural_boundary_detection](concept_figural_boundary_detection.md) |
 | **Clef change**（**非 phrase 邊界**）| LH bass→treble 中段 | 獨立軸；不應觸發 phrase reset |
 
 → Inv 8 三方對照：
@@ -144,15 +144,15 @@ Clef change 是 **記譜事件**，phrase boundary 是 **musical event**。兩�
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 與 [[analysis_bach_inv_1_c_major]] 形成 stepwise vs broken-triad subject 對照
-- 與 [[analysis_bach_inv_4_d_minor]] 形成 modulation-driven vs figural-driven 對照
-- 應用 [[concept_fugue]] / [[concept_counterpoint]] 對 2-voice Invention 的論述
-- 對 [[concept_subject_imitation_detection]] 提供 *broken-triad / chord-arpeggio motif* 識別 case（與 stepwise motif 並列）
-- 對 [[concept_modulation_as_phrase_signal]] 提供 m7-m8 / m20-m21 兩個邊界 + **clef change 不應觸發 phrase reset** 的反例
-- 對 [[concept_cadence_detection]] 提供 m32-m34 PAC 案例
-- 對 [[concept_figural_boundary_detection]] 提供 cross-bar broken-triad figure 切換案例
-- 編輯版本爭議引 [[src_bach_inventions_pedagogy]]
-- 對位起源溯至 [[src_fux_gradus_ad_parnassum]]
-- Override semantics 解讀依 [[../score-claude/memory/feedback_override_semantics]]、[[../score-claude/memory/feedback_phrase_as_breath]]
-- 個人化生物力學原則依 [[../score-claude/memory/feedback_personal_biomechanics]]
-- Measure 對應依 [[../score-claude/memory/project_bach_inv_measure_mapping]]
+- 與 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) 形成 stepwise vs broken-triad subject 對照
+- 與 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 形成 modulation-driven vs figural-driven 對照
+- 應用 [concept_fugue](concept_fugue.md) / [concept_counterpoint](concept_counterpoint.md) 對 2-voice Invention 的論述
+- 對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 提供 *broken-triad / chord-arpeggio motif* 識別 case（與 stepwise motif 並列）
+- 對 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 提供 m7-m8 / m20-m21 兩個邊界 + **clef change 不應觸發 phrase reset** 的反例
+- 對 [concept_cadence_detection](concept_cadence_detection.md) 提供 m32-m34 PAC 案例
+- 對 [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 提供 cross-bar broken-triad figure 切換案例
+- 編輯版本爭議引 [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)
+- 對位起源溯至 [src_fux_gradus_ad_parnassum](src_fux_gradus_ad_parnassum.md)
+- Override semantics 解讀依 *feedback_override_semantics*、*feedback_phrase_as_breath*
+- 個人化生物力學原則依 *feedback_personal_biomechanics*
+- Measure 對應依 *project_bach_inv_measure_mapping*

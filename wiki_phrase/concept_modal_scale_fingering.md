@@ -1,7 +1,7 @@
 # Concept: Modal Scale Fingering — Mode 對指法 + 樂句的影響
 
 > 來源：通用音樂理論 + Roy Howat《Debussy in Proportion》、Persichetti《Twentieth-Century Harmony》、五聲音階傳統教學
-> 引用方：[[composer_debussy_phrasing]]、[[composer_grieg_lyric_pieces]]、[[../wiki_piano/src_chinese_style_piano]]
+> 引用方：[composer_debussy_phrasing](composer_debussy_phrasing.md)、[composer_grieg_lyric_pieces](composer_grieg_lyric_pieces.md)、[../wiki_piano/src_chinese_style_piano](../wiki_piano/src_chinese_style_piano.md)
 > 狀態：第一版 2026-05-26
 > 跨 wiki：與 `wiki_piano/` 的指法系統直接相關
 
@@ -41,7 +41,7 @@ RH C pentatonic ascending: C(1) D(2) E(3) G(4) A(5) [C(1) next octave]
                               octave 接續才需 thumb-pass
 ```
 
-**樂句意涵**：pentatonic passages 通常**沒有 thumb-under 需求**（除非跨 octave），所以 [[concept_running_passage_thumb_reservation]] 規則**不適用**。
+**樂句意涵**：pentatonic passages 通常**沒有 thumb-under 需求**（除非跨 octave），所以 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) 規則**不適用**。
 
 **典型場景**：Debussy Pagodes、Grieg Norwegian 民間風段落、Chinese-style 改編曲
 
@@ -65,7 +65,7 @@ RH C pentatonic ascending: C(1) D(2) E(3) G(4) A(5) [C(1) next octave]
 
 ## 4. 對 cadence detection 的影響
 
-[[concept_cadence_detection]] 假設 V-I 為主要 cadence。對 modal 音樂：
+[concept_cadence_detection](concept_cadence_detection.md) 假設 V-I 為主要 cadence。對 modal 音樂：
 
 | Mode | 主要 cadence | V-I 適用 |
 |---|---|---|
@@ -144,11 +144,11 @@ def assign_fingering_v6_modal_aware(matched, hand):
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 跨 wiki：與 [[../wiki_piano/src_chinese_style_piano]] 五聲音階指法重疊
-- 影響 [[concept_cadence_detection]]：modal cadence patterns 補充
-- 影響 [[concept_running_passage_thumb_reservation]]：pentatonic 段不適用
-- 引用方 [[composer_debussy_phrasing]] (whole-tone / pentatonic / octatonic)、[[composer_grieg_lyric_pieces]] (modal inflections)
+- 跨 wiki：與 [../wiki_piano/src_chinese_style_piano](../wiki_piano/src_chinese_style_piano.md) 五聲音階指法重疊
+- 影響 [concept_cadence_detection](concept_cadence_detection.md)：modal cadence patterns 補充
+- 影響 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md)：pentatonic 段不適用
+- 引用方 [composer_debussy_phrasing](composer_debussy_phrasing.md) (whole-tone / pentatonic / octatonic)、[composer_grieg_lyric_pieces](composer_grieg_lyric_pieces.md) (modal inflections)
 - 待寫：
-  - [[concept_modal_cadence_patterns]] (mode-specific cadence)
-  - [[../wiki_piano/concept_pentatonic_finger_groups]] (跨 wiki 新頁)
+  - [concept_modal_cadence_patterns](concept_modal_cadence_patterns.md) (mode-specific cadence)
+  - [../wiki_piano/concept_pentatonic_finger_groups](../wiki_piano/concept_pentatonic_finger_groups.md) (跨 wiki 新頁)
 

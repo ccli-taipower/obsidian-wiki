@@ -1,7 +1,7 @@
 # Concept: Articulation in Polyphony — 對位 texture 中各聲部的不同 articulation
 
 > 來源：Donington《Baroque Music》§polyphony, Schiff Bach lectures（演奏實踐）, Bach 演奏傳統共識
-> 引用方：[[analysis_bach_inv_articulation]] §對位, [[concept_non_legato_baroque]] §對位處理
+> 引用方：[analysis_bach_inv_articulation](analysis_bach_inv_articulation.md) §對位, [concept_non_legato_baroque](concept_non_legato_baroque.md) §對位處理
 
 ## 1. 為什麼對位 texture 需要 articulation 分聲部處理
 
@@ -84,9 +84,9 @@ DP 已經 per-hand 獨立優化 — 這對對位處理是天然優勢：
 
 ## 6. 與其他 wiki 頁面的關係
 
-- [[concept_non_legato_baroque]] §對位 — Baroque 對位 articulation 預設處理
-- [[concept_legato_substitution]] §適用情境 — Romantic 對位段 legato 處理
-- [[analysis_bach_inv_articulation]] — Bach 2-voice 具體案例
-- [[../wiki_phrase/concept_counterpoint]] — 對位 texture 樂句結構分析
-- [[../wiki_phrase/concept_fugue]] — Fugue subject 與 episode 結構區分
-- [[../wiki_piano/concept_hand_distribution]] — 兩手 fingering 獨立性
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) §對位 — Baroque 對位 articulation 預設處理
+- [concept_legato_substitution](concept_legato_substitution.md) §適用情境 — Romantic 對位段 legato 處理
+- [analysis_bach_inv_articulation](analysis_bach_inv_articulation.md) — Bach 2-voice 具體案例
+- [../wiki_phrase/concept_counterpoint](../wiki_phrase/concept_counterpoint.md) — 對位 texture 樂句結構分析
+- [../wiki_phrase/concept_fugue](../wiki_phrase/concept_fugue.md) — Fugue subject 與 episode 結構區分
+- [../wiki_piano/concept_hand_distribution](../wiki_piano/concept_hand_distribution.md) — 兩手 fingering 獨立性

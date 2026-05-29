@@ -1,7 +1,7 @@
 # Composer: Schumann 樂句分段
 
 > 來源：Daverio *Robert Schumann: Herald of a "New Poetic Age"*, Brendel essays §Schumann, Henle Urtext (Boetticher 編)
-> 引用方：[[concept_hypermeter]], [[../wiki_articulation/analysis_schumann_kinderszenen]], [[../wiki_articulation/concept_articulation_in_polyphony]]
+> 引用方：[concept_hypermeter](concept_hypermeter.md), [../wiki_articulation/analysis_schumann_kinderszenen](../wiki_articulation/analysis_schumann_kinderszenen.md), [../wiki_articulation/concept_articulation_in_polyphony](../wiki_articulation/concept_articulation_in_polyphony.md)
 
 ## 1. Schumann 樂句的特殊性
 
@@ -20,7 +20,7 @@ Robert Schumann (1810-1856) 樂句分段以**文學詩意**著稱：
 ### 2.1 Character piece 集合的樂句獨立
 
 Schumann 主要作品多為「**character piece 集合**」：
-- *Kinderszenen* (Op.15, 1838) — 13 首 (參 [[../wiki_articulation/analysis_schumann_kinderszenen]])
+- *Kinderszenen* (Op.15, 1838) — 13 首 (參 [../wiki_articulation/analysis_schumann_kinderszenen](../wiki_articulation/analysis_schumann_kinderszenen.md))
 - *Kreisleriana* (Op.16, 1838) — 8 首
 - *Carnaval* (Op.9, 1834-35) — 21 首
 - *Davidsbündlertänze* (Op.6, 1837) — 18 首
@@ -34,7 +34,7 @@ Schumann 主要作品多為「**character piece 集合**」：
 - *Romanzen* Op.28 No.2 著名 inner-voice melody
 - *Bunte Blätter* 內聲部佔據主導
 
-對指法的意涵：[[../wiki_articulation/concept_articulation_in_polyphony]] §inner voice 處理特別適用 Schumann。
+對指法的意涵：[../wiki_articulation/concept_articulation_in_polyphony](../wiki_articulation/concept_articulation_in_polyphony.md) §inner voice 處理特別適用 Schumann。
 
 ### 2.3 Phrase 規則 + 微小不規則
 
@@ -43,7 +43,7 @@ Schumann 多數 phrase 保持 4-bar 規則（與 Brahms 大量不規則對比）
 - 內部 elision（少於 Brahms）
 - 重複時微小變化
 
-對 [[concept_hypermeter]] 的適用：Schumann 對 4-bar hypermeter 較規則 — Schumann 段適用 4-bar fallback。
+對 [concept_hypermeter](concept_hypermeter.md) 的適用：Schumann 對 4-bar hypermeter 較規則 — Schumann 段適用 4-bar fallback。
 
 ## 3. *Kinderszenen* Op.15 — Schumann 樂句邏輯的縮影
 
@@ -80,9 +80,9 @@ Op.16 是 Schumann 中期傑作：
 | *Fantasiestücke* Op.12 | 8 首，intermediate-advanced |
 | *Davidsbündlertänze* Op.6 | 18 首 dance characters，advanced |
 
-→ *Kinderszenen* Op.15 + *Album für die Jugend* Op.68 是 Schumann **intermediate 入門**選擇（per [[../score-claude/memory/project_target_repertoire_intermediate]]）。
+→ *Kinderszenen* Op.15 + *Album für die Jugend* Op.68 是 Schumann **intermediate 入門**選擇（per *project_target_repertoire_intermediate*）。
 
-## 6. Schumann articulation 標記特性 (對應 [[../wiki_articulation/analysis_schumann_kinderszenen]])
+## 6. Schumann articulation 標記特性 (對應 [../wiki_articulation/analysis_schumann_kinderszenen](../wiki_articulation/analysis_schumann_kinderszenen.md))
 
 Schumann 標記比 Chopin 更系統化、比 Brahms 更直接：
 - **詳細 slur** — phrasing 結構明確
@@ -90,7 +90,7 @@ Schumann 標記比 Chopin 更系統化、比 Brahms 更直接：
 - **動態變化頻繁** — pp 至 ff 廣泛使用
 - **fermata 戲劇性** — 樂章結尾、轉折點
 
-對指法系統的意涵：Schumann MXL articulation 訊號通常豐富 — 適合啟用 [[../wiki_articulation/concept_legato_substitution]]。
+對指法系統的意涵：Schumann MXL articulation 訊號通常豐富 — 適合啟用 [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md)。
 
 ## 7. 演奏家 Schumann 詮釋
 
@@ -107,7 +107,7 @@ Schumann 標記比 Chopin 更系統化、比 Brahms 更直接：
 ## 8. 對 score-claude DP 的意涵
 
 Schumann 對 score-claude DP 的對應：
-- **Kinderszenen** intermediate 範圍 — 可作為 articulation rule 測試對象（[[../wiki_articulation/analysis_schumann_kinderszenen]] §7）
+- **Kinderszenen** intermediate 範圍 — 可作為 articulation rule 測試對象（[../wiki_articulation/analysis_schumann_kinderszenen](../wiki_articulation/analysis_schumann_kinderszenen.md) §7）
 - **Album für die Jugend Op.68** 適合 intermediate exhaust 測試
 - **Inner voice 處理** — 是 score-claude DP within-hand polyphony 的 known 限制
 
@@ -115,12 +115,12 @@ Schumann 對 score-claude DP 的對應：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_hypermeter]] — Schumann 對 4-bar 規則 + 末尾延長
-- [[concept_phrase_elision]] — Schumann elision 較 Brahms 少
-- [[composer_chopin_phrasing]] / [[composer_brahms_phrasing]] — 三大浪漫派對比
-- [[../wiki_articulation/analysis_schumann_kinderszenen]] — Schumann Kinderszenen articulation 分析
-- [[../wiki_articulation/concept_articulation_in_polyphony]] — Inner voice melody 對應頁
-- [[../wiki_piano/concept_chord_voicing_fingering]] — Schumann 內聲部突顯
+- [concept_hypermeter](concept_hypermeter.md) — Schumann 對 4-bar 規則 + 末尾延長
+- [concept_phrase_elision](concept_phrase_elision.md) — Schumann elision 較 Brahms 少
+- [composer_chopin_phrasing](composer_chopin_phrasing.md) / [composer_brahms_phrasing](composer_brahms_phrasing.md) — 三大浪漫派對比
+- [../wiki_articulation/analysis_schumann_kinderszenen](../wiki_articulation/analysis_schumann_kinderszenen.md) — Schumann Kinderszenen articulation 分析
+- [../wiki_articulation/concept_articulation_in_polyphony](../wiki_articulation/concept_articulation_in_polyphony.md) — Inner voice melody 對應頁
+- [../wiki_piano/concept_chord_voicing_fingering](../wiki_piano/concept_chord_voicing_fingering.md) — Schumann 內聲部突顯
 
 ## 10. ⚠ Training-data verification queue
 

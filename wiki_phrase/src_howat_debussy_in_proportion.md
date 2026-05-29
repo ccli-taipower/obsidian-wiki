@@ -61,10 +61,10 @@ Roy Howat 主張 Debussy 的大型鋼琴與管弦作品在「整體小節數 / �
 
 ## 對指法系統的啟示（synthesized — 不是文章原文）
 
-1. **Texture detection 是 Debussy 樂句偵測的正解**：Howat 的結構分割點論證直接支持 `[[concept_texture_change_detection]]` 的前提 — Debussy 樂句不能靠 cadence detection（PAC/IAC 多半模糊或不存在），而要靠織度與密度變化。Phase 2 cadence pass 對 Debussy 預期 dormant 是設計而非缺陷。
+1. **Texture detection 是 Debussy 樂句偵測的正解**：Howat 的結構分割點論證直接支持 `[concept_texture_change_detection](concept_texture_change_detection.md)` 的前提 — Debussy 樂句不能靠 cadence detection（PAC/IAC 多半模糊或不存在），而要靠織度與密度變化。Phase 2 cadence pass 對 Debussy 預期 dormant 是設計而非缺陷。
 2. **Golden Section 可作 post-hoc 診斷 (非預測 feature)**：完整曲目 PIG sweep 時，可計算 0.618 × N 與 0.382 × N 兩位置，比對是否落在偵測到的 texture-change boundary 附近。一致 = Phase 2 抓到結構分割；不一致 = 偵測太鬆或太緊。
 3. **架構限制：黃金分割需總長度，本系統不適合內建為 feature**：DP 以 chord-group index 推進，無「目前在 0.618 位置」概念。Golden Section 僅作為事後 sanity diagnostic，不放進 cost function。
-4. **印象派 phrase boundary 是「分段」而非「呼吸」**：傳統樂句 = 呼吸 (`[[feedback_phrase_as_breath]]`) 對 Debussy 部分適用；但 Howat 層級的 section boundary 更像「結構板塊接縫」，per-section 內可能包含多個呼吸樂句。本系統 phrase detection 與 Howat section 不應混為一談。
+4. **印象派 phrase boundary 是「分段」而非「呼吸」**：傳統樂句 = 呼吸 (`[feedback_phrase_as_breath](feedback_phrase_as_breath.md)`) 對 Debussy 部分適用；但 Howat 層級的 section boundary 更像「結構板塊接縫」，per-section 內可能包含多個呼吸樂句。本系統 phrase detection 與 Howat section 不應混為一談。
 5. **限制：PIG 28 多為短例 (B1-N)，不太可能觸發 Golden Section 比對**：完整 *Reflets* / *L'Isle joyeuse* 才有意義。納入 future-work，不阻塞當前 Phase 2 sweep。
 
-詳見 [[concept_impressionist_phrasing]]、[[concept_texture_change_detection]]、[[composer_debussy_phrasing]] 與 [[analysis_debussy_clair_de_lune]]。
+詳見 [concept_impressionist_phrasing](concept_impressionist_phrasing.md)、[concept_texture_change_detection](concept_texture_change_detection.md)、[composer_debussy_phrasing](composer_debussy_phrasing.md) 與 [analysis_debussy_clair_de_lune](analysis_debussy_clair_de_lune.md)。

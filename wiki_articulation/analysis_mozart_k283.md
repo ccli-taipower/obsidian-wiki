@@ -2,7 +2,7 @@
 
 > 來源：Henle Urtext (Ulrich Wilker 編), Bärenreiter NBA, Brendel essays §Mozart sonata
 > 對應 PIG：011 (K283 mvt1 B0-22)
-> 引用方：[[../score-claude/memory/project_target_repertoire_intermediate]] §Mozart, [[concept_period_defaults]] §4 Classical
+> 引用方：*project_target_repertoire_intermediate* §Mozart, [concept_period_defaults](concept_period_defaults.md) §4 Classical
 
 ## 1. 為什麼挑 K283 作為 Classical 平衡 範例
 
@@ -26,8 +26,8 @@ Mozart Piano Sonata No.5 in G major K283 (1774, Salzburg)。理由：
 
 對指法的意涵：
 - m1-10 主題：classical staccato + slur 對比模式
-- m11-22 16th-note: long-scale thumb-under rule 適用（[[../score-claude/memory/project_long_scale_thumb_under]]）— 已啟用
-- m23+ cantabile：[[concept_legato_substitution]] 適用對象（未啟用，因為 cache MXL 0 slur）
+- m11-22 16th-note: long-scale thumb-under rule 適用（*project_long_scale_thumb_under*）— 已啟用
+- m23+ cantabile：[concept_legato_substitution](concept_legato_substitution.md) 適用對象（未啟用，因為 cache MXL 0 slur）
 
 ## 3. K283 mvt2 (Andante, C major) — 慢板 cantabile
 
@@ -36,7 +36,7 @@ Mozart Piano Sonata No.5 in G major K283 (1774, Salzburg)。理由：
 - LH 較靜止伴奏
 - 結構清晰 3-part form
 
-對指法的意涵：高度 [[concept_legato_substitution]] 適用 — 但同樣受限於 cache MXL articulation 訊號不足。
+對指法的意涵：高度 [concept_legato_substitution](concept_legato_substitution.md) 適用 — 但同樣受限於 cache MXL articulation 訊號不足。
 
 ## 4. K283 mvt3 (Presto, G major) — 快速 finale
 
@@ -44,7 +44,7 @@ Mozart Piano Sonata No.5 in G major K283 (1774, Salzburg)。理由：
 - Rondo 結構 + 快速 16th/32nd-note 跑動
 - Articulation 對比明顯 — 跳躍主題 vs cantabile 中段
 
-對指法的意涵：[[concept_articulation_and_tempo]] 強烈適用 — 快速段不可 substitution，需 hand-position-stable 處理。
+對指法的意涵：[concept_articulation_and_tempo](concept_articulation_and_tempo.md) 強烈適用 — 快速段不可 substitution，需 hand-position-stable 處理。
 
 ## 5. score-claude 對 K283 的啟用狀況
 
@@ -99,12 +99,12 @@ Mozart Piano Sonata No.5 in G major K283 (1774, Salzburg)。理由：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[../score-claude/memory/project_target_repertoire_intermediate]] §Mozart — K283 為 intermediate 推薦曲目
-- [[concept_period_defaults]] §4 — K283 為 Classical 平衡 default 案例
-- [[concept_legato_substitution]] §5 — K283 mvt2 為「適用情境」表中 Classical 慢板代表
-- [[concept_articulation_and_tempo]] — K283 mvt3 Presto 為快速段 substitution gate 適用例
-- [[analysis_mozart_k545_articulation]] — Mozart 兄弟曲目對比
-- [[../score-claude/memory/project_cadence_phase_2]] — K283 cadence 偵測啟用
+- *project_target_repertoire_intermediate* §Mozart — K283 為 intermediate 推薦曲目
+- [concept_period_defaults](concept_period_defaults.md) §4 — K283 為 Classical 平衡 default 案例
+- [concept_legato_substitution](concept_legato_substitution.md) §5 — K283 mvt2 為「適用情境」表中 Classical 慢板代表
+- [concept_articulation_and_tempo](concept_articulation_and_tempo.md) — K283 mvt3 Presto 為快速段 substitution gate 適用例
+- [analysis_mozart_k545_articulation](analysis_mozart_k545_articulation.md) — Mozart 兄弟曲目對比
+- *project_cadence_phase_2* — K283 cadence 偵測啟用
 
 ## 10. ⚠ Training-data verification queue
 

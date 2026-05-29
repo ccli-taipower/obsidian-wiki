@@ -2,7 +2,7 @@
 
 > 來源：Henle Urtext (Wolfgang Boetticher 編), Wiener Urtext, Schumann 親自版本, Brendel essays §Schumann
 > 對應 PIG：未列入
-> 引用方：[[../score-claude/memory/project_target_repertoire_intermediate]] §推薦, [[concept_period_defaults]] §4 Romantic
+> 引用方：*project_target_repertoire_intermediate* §推薦, [concept_period_defaults](concept_period_defaults.md) §4 Romantic
 
 ## 1. 為什麼挑 Kinderszenen 作為 Romantic intermediate 案例
 
@@ -10,7 +10,7 @@ Schumann *Kinderszenen* (兒時情景) Op.15 (1838) = 13 首鋼琴小品。理�
 - **Romantic 入門代表**：技術難度 intermediate，但 articulation / phrasing / 表情豐富 — 完美的浪漫派教學入門
 - 13 首風格各異 — 從 simple lyrical (*Träumerei*) 到 character pieces (Hobby Horse 等)，涵蓋 Romantic articulation 多種典型
 - Schumann **articulation 標記精細** — 與 Chopin 相比更明確、更系統
-- 屬於 [[../score-claude/memory/project_target_repertoire_intermediate]] in-scope（補充 Op.49 + Sonatinas 之外）
+- 屬於 *project_target_repertoire_intermediate* in-scope（補充 Op.49 + Sonatinas 之外）
 
 ## 2. 13 首小品 articulation 特性概覽 ⚠
 
@@ -42,7 +42,7 @@ Schumann *Kinderszenen* (兒時情景) Op.15 (1838) = 13 首鋼琴小品。理�
 - 結尾 fermata + 慢漸弱
 
 對指法的意涵：
-- RH melody 是 [[concept_legato_substitution]] **高度適用對象**
+- RH melody 是 [concept_legato_substitution](concept_legato_substitution.md) **高度適用對象**
 - 多處同音重複（slur 內）需要 finger substitution 維持 legato
 - LH 4-voice 和弦需要 voice balance（top voice 突出，inner voices 退讓）
 
@@ -58,8 +58,8 @@ Schumann *Kinderszenen* (兒時情景) Op.15 (1838) = 13 首鋼琴小品。理�
 - Tempo Vivace
 
 對指法的意涵：
-- [[concept_staccato]] 適用 — hand-jump 鬆綁、thumb-cross 自由
-- 快速段不適合 [[concept_legato_substitution]]（即使有任何 slur 也應跳過，per [[concept_articulation_and_tempo]]）
+- [concept_staccato](concept_staccato.md) 適用 — hand-jump 鬆綁、thumb-cross 自由
+- 快速段不適合 [concept_legato_substitution](concept_legato_substitution.md)（即使有任何 slur 也應跳過，per [concept_articulation_and_tempo](concept_articulation_and_tempo.md)）
 
 ## 5. Schumann articulation 標記慣例
 
@@ -110,12 +110,12 @@ Kinderszenen 在初中階教學中的角色：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[../score-claude/memory/project_target_repertoire_intermediate]] §推薦 — Kinderszenen 為浪漫派入門代表
-- [[concept_period_defaults]] §4 Romantic — Schumann 為 Romantic legato default 代言
-- [[concept_legato_substitution]] §5 — Träumerei 為「適用情境」表中浪漫派 lyrical 代表
-- [[concept_staccato]] §4 — Hasche-Mann 為未來 staccato rule 測試對象
-- [[concept_accent_marcato]] — Wichtige Begebenheit 等強奏小品適用對象
-- [[analysis_chopin_op9_no2_articulation]] — Chopin 浪漫派比較對象
+- *project_target_repertoire_intermediate* §推薦 — Kinderszenen 為浪漫派入門代表
+- [concept_period_defaults](concept_period_defaults.md) §4 Romantic — Schumann 為 Romantic legato default 代言
+- [concept_legato_substitution](concept_legato_substitution.md) §5 — Träumerei 為「適用情境」表中浪漫派 lyrical 代表
+- [concept_staccato](concept_staccato.md) §4 — Hasche-Mann 為未來 staccato rule 測試對象
+- [concept_accent_marcato](concept_accent_marcato.md) — Wichtige Begebenheit 等強奏小品適用對象
+- [analysis_chopin_op9_no2_articulation](analysis_chopin_op9_no2_articulation.md) — Chopin 浪漫派比較對象
 
 ## 10. ⚠ Training-data verification queue
 

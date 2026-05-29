@@ -1,8 +1,8 @@
 # _Implementation Status (non-knowledge meta page)
 
 > **Non-knowledge page.** 此頁面是 project tracking，不是音樂理論知識。
-> 與 [[../score-claude/memory/feedback_wiki_knowledge_vs_project_separation]] 一致 — wiki concept/composer/analysis pages 保留純知識；Phase 進度、A/B 結果、commits、TODO 集中在此頁與 score-claude memory.
-> Canonical source: [[../score-claude/memory/project_phrase_detection_v1_phase1_phaseB]]（score-claude 端 memory）；本頁為 wiki-internal navigation convenience.
+> 與 *feedback_wiki_knowledge_vs_project_separation* 一致 — wiki concept/composer/analysis pages 保留純知識；Phase 進度、A/B 結果、commits、TODO 集中在此頁與 score-claude memory.
+> Canonical source: *project_phrase_detection_v1_phase1_phaseB*（score-claude 端 memory）；本頁為 wiki-internal navigation convenience.
 
 ## 1. Current run.py state (as of 2026-05-26)
 
@@ -150,7 +150,7 @@ Key lookup: `for key, flags in SINGLE_PDF_PHRASE_FLAGS.items(): if key in stem: 
 - K283 (PIG 011): BASE RH 53.27% → Run D 54.28% (Δ+1.01pp — cadence-derived improvement preserved)
 - 26 non-target pieces: byte-identical across Runs A/B/C/D ✓ (per-piece flag isolation OK)
 - All 21 `test_long_scale_thumb_under.py` pytest tests green
-- v1 deployed with 2 spec deviations (direction guard + position guard) — see [[../wiki_piano/concept_long_scale_thumb_under]] §4
+- v1 deployed with 2 spec deviations (direction guard + position guard) — see [../wiki_piano/concept_long_scale_thumb_under](../wiki_piano/concept_long_scale_thumb_under.md) §4
 
 ### 2.10.1 v2 update (2026-05-27)
 
@@ -232,7 +232,7 @@ obsidian-wiki: 5 pages updated/created in commit `acf3a93`.
 - 如綠 → flip `USE_FIGURAL_BOUNDARY_DETECTION` + `USE_THUMB_RESERVATION` + `USE_TEXTURE_DETECTION` 為 True
 
 ### Priority B (moderate effort)
-- K545 m5 ascending scale fingering: requires DP cost rule (not boundary fix) — "long-scale protection" or thumb-under promotion; see [[analysis_mozart_k545_first_mov]] §4
+- K545 m5 ascending scale fingering: requires DP cost rule (not boundary fix) — "long-scale protection" or thumb-under promotion; see [analysis_mozart_k545_first_mov](analysis_mozart_k545_first_mov.md) §4
 - `RUNNING_PASSAGE_OUTER_START_PENALTY` 加進 `_TUNE_SCALARS`（PIG 28 確認後）
 - Cadence Phase 2 extension: HC detection (deferred — over-fires on alberti texture); windowed key analysis for mid-piece modulation
 
@@ -249,6 +249,6 @@ obsidian-wiki: 5 pages updated/created in commit `acf3a93`.
 
 ## 6. Cross-links
 
-- canonical project state: [[../score-claude/memory/project_phrase_detection_v1_phase1_phaseB]]
-- foundational principle: [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]]
-- separation principle (this page's existence reason): [[../score-claude/memory/feedback_wiki_knowledge_vs_project_separation]]
+- canonical project state: *project_phrase_detection_v1_phase1_phaseB*
+- foundational principle: *feedback_phrase_analysis_is_its_own_discipline*
+- separation principle (this page's existence reason): *feedback_wiki_knowledge_vs_project_separation*

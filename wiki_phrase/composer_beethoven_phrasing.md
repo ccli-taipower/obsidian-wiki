@@ -49,7 +49,7 @@ Beethoven 常在大型作品內穿插 tempo / character 切換（Grave-Allegro, 
 ## 3. 按時期細分
 
 ### 3.1 早期 (PIG 中：Op.10, Op.13 早期等)
-- 樂句結構 **可預測**，大致用 [[concept_classical_period_sentence]] 規則
+- 樂句結構 **可預測**，大致用 [concept_classical_period_sentence](concept_classical_period_sentence.md) 規則
 - 仍以 8-bar period / sentence 為主
 - Cadence 偵測高信心度
 
@@ -61,7 +61,7 @@ Beethoven 常在大型作品內穿插 tempo / character 切換（Grave-Allegro, 
 
 ### 3.3 晚期 (PIG 中：Op.106 Hammerklavier, Op.110, Op.111 等如有)
 - 自由 fantasia 風格，樂句邊界依**和聲邏輯**與**主題發展**
-- Fugue / fugato 段落混入，需用 [[concept_fugue]] 規則
+- Fugue / fugato 段落混入，需用 [concept_fugue](concept_fugue.md) 規則
 - **若 PIG 包含晚期作品，預期偵測難度最高**
 
 ### 3.4 對 PIG 21 首的初步分類
@@ -112,12 +112,12 @@ Beethoven 常在大型作品內穿插 tempo / character 切換（Grave-Allegro, 
 
 ## 7. 與其他 wiki 頁面的關係
 
-- 主要依賴 [[concept_classical_period_sentence]] 作為起點，加 Beethoven-specific 擴張變形
-- 中晚期需參考 [[concept_chopin_lyrical_phrase]] 部分概念（不規律長度、phrase elision）
+- 主要依賴 [concept_classical_period_sentence](concept_classical_period_sentence.md) 作為起點，加 Beethoven-specific 擴張變形
+- 中晚期需參考 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 部分概念（不規律長度、phrase elision）
 - 待寫：
-  - [[concept_cadence_detection]] (PAC/IAC/HC/DC 偵測演算法)
-  - [[concept_phrase_expansion]] (sequence / DC extension 偵測)
-  - [[concept_articulation_phrase_signal]] (sfz/fp/fermata 對樂句的訊號意義)
+  - [concept_cadence_detection](concept_cadence_detection.md) (PAC/IAC/HC/DC 偵測演算法)
+  - [concept_phrase_expansion](concept_phrase_expansion.md) (sequence / DC extension 偵測)
+  - [concept_articulation_phrase_signal](concept_articulation_phrase_signal.md) (sfz/fp/fermata 對樂句的訊號意義)
 
 ## 8. 演算法整合建議
 
@@ -134,7 +134,7 @@ beethoven_phrase_detector(groups, period_estimate):
 
 3. 若曲目 > Op.100 (晚期)：
    a. 大量倚賴 cadence + 主題重入聲偵測
-   b. 若含 fugato 段落，呼叫 [[concept_fugue]] 規則
+   b. 若含 fugato 段落，呼叫 [concept_fugue](concept_fugue.md) 規則
 
 4. PIG 大致按 label 中的 Op. 號估時期；
    若無 Op. 號則保守用早期規則

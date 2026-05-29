@@ -1,7 +1,7 @@
 # Concept: Baroque Phrasing — 巴洛克樂句邏輯
 
 > 來源：Donington《Baroque Music: Style and Performance》, C.P.E. Bach *Versuch*, Mattheson *Der vollkommene Capellmeister* (1739)
-> 引用方：[[composer_bach_phrasing]], [[composer_scarlatti_phrasing]], [[concept_fugue]], [[concept_counterpoint]]
+> 引用方：[composer_bach_phrasing](composer_bach_phrasing.md), [composer_scarlatti_phrasing](composer_scarlatti_phrasing.md), [concept_fugue](concept_fugue.md), [concept_counterpoint](concept_counterpoint.md)
 
 ## 1. Baroque 樂句不能套用 Classical 邏輯
 
@@ -32,7 +32,7 @@ Baroque（1600-1750）樂句結構與後續 Classical / Romantic **根本不同*
 對位作品（fugue, invention, sinfonia）：
 - 每聲部獨立 phrase，多聲部 phrase 不重合
 - Subject + counter-subject + episode 結構決定 phrase
-- 詳見 [[concept_fugue]] + [[concept_counterpoint]]
+- 詳見 [concept_fugue](concept_fugue.md) + [concept_counterpoint](concept_counterpoint.md)
 
 ### 2.3 舞曲 form
 
@@ -65,7 +65,7 @@ Baroque cadence types：
 | **Deceptive cadence (V-vi)** | 戲劇性意外 |
 | **Phrygian cadence (iv6-V)** | 模式性 cadence，特別在 minor 段 |
 
-→ Baroque cadence 多元 — 是 phrase 偵測主要訊號 ([[concept_cadence_detection]])。
+→ Baroque cadence 多元 — 是 phrase 偵測主要訊號 ([concept_cadence_detection](concept_cadence_detection.md))。
 
 ## 4. Hemiola — Baroque 特殊 phrase 訊號
 
@@ -97,9 +97,9 @@ Baroque cadence types：
 
 | 作曲家 | Phrase 風格 |
 |---|---|
-| **J.S. Bach** | 對位主導 + Fortspinnung + 序列；fugue / invention 為主 (參 [[composer_bach_phrasing]]) |
+| **J.S. Bach** | 對位主導 + Fortspinnung + 序列；fugue / invention 為主 (參 [composer_bach_phrasing](composer_bach_phrasing.md)) |
 | **G.F. Handel** | 對位 + opera 影響；suite + concerto grosso |
-| **D. Scarlatti** | Binary form, 不規則 phrase, Iberian 影響 (參 [[composer_scarlatti_phrasing]]) |
+| **D. Scarlatti** | Binary form, 不規則 phrase, Iberian 影響 (參 [composer_scarlatti_phrasing](composer_scarlatti_phrasing.md)) |
 | **F. Couperin** | Ordres (suite) 各 movement；ornament 密集 + agréments |
 | **J.-P. Rameau** | French ordres；harmony 理論家 (Traité de l'harmonie) |
 | **C.P.E. Bach** | 過渡期 — Baroque 對位 + Empfindsamer Stil 抒情 |
@@ -107,12 +107,12 @@ Baroque cadence types：
 ## 7. 對 score-claude DP 的意涵
 
 DP 對 Baroque phrase 處理：
-- [[concept_subject_imitation_detection]] 是 Baroque 對位作品的主要 phrase 偵測軸
-- [[concept_cadence_detection]] 適用 Baroque cadence
+- [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 是 Baroque 對位作品的主要 phrase 偵測軸
+- [concept_cadence_detection](concept_cadence_detection.md) 適用 Baroque cadence
 - **不適合** 4-bar fallback (Pass 2)：Baroque phrase 規則性弱
-- [[../wiki_articulation/concept_non_legato_baroque]] default 對 articulation 處理
+- [../wiki_articulation/concept_non_legato_baroque](../wiki_articulation/concept_non_legato_baroque.md) default 對 articulation 處理
 
-對 Bach 12/15 mvts 啟用實證（[[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]）：subject detection + figural + thumb 配合是 Baroque 主軸。
+對 Bach 12/15 mvts 啟用實證（*project_bach_inv_subject_detection_validation_2026-05-28*）：subject detection + figural + thumb 配合是 Baroque 主軸。
 
 ## 8. Baroque 樂句邏輯與 fingering 慣例
 
@@ -122,19 +122,19 @@ Baroque fingering 慣例（pre-Bach 5-finger system）：
 - **不一定**用 thumb（pre-Bach 傳統）
 - Bach 引入 thumb-pass 變革
 - Paired fingering (3-4, 2-3) 為 ornament 標準
-- 詳見 [[../wiki_articulation/src_couperin_lart_de_toucher]]（法國派）+ [[../wiki_articulation/src_cpe_bach_versuch]]（德國派）
+- 詳見 [../wiki_articulation/src_couperin_lart_de_toucher](../wiki_articulation/src_couperin_lart_de_toucher.md)（法國派）+ [../wiki_articulation/src_cpe_bach_versuch](../wiki_articulation/src_cpe_bach_versuch.md)（德國派）
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[composer_bach_phrasing]] — Bach 是 Baroque 對位主要代表
-- [[composer_scarlatti_phrasing]] — Scarlatti 是 Iberian Baroque 對比
-- [[concept_fugue]] / [[concept_counterpoint]] — 對位作品結構詳述
-- [[concept_cadence_detection]] — Baroque cadence 偵測
-- [[concept_subject_imitation_detection]] — Subject re-entry 為主要 phrase 訊號
-- [[concept_hypermeter]] §4 — Hypermeter 規則性對 Baroque 弱
-- [[../wiki_articulation/concept_non_legato_baroque]] — Baroque articulation default
-- [[../wiki_articulation/src_cpe_bach_versuch]] / [[../wiki_articulation/src_couperin_lart_de_toucher]] — Baroque pedagogy 一手文獻
-- [[../wiki_articulation/src_donington_baroque_music]] — HIP 派 Baroque 演奏實踐回顧
+- [composer_bach_phrasing](composer_bach_phrasing.md) — Bach 是 Baroque 對位主要代表
+- [composer_scarlatti_phrasing](composer_scarlatti_phrasing.md) — Scarlatti 是 Iberian Baroque 對比
+- [concept_fugue](concept_fugue.md) / [concept_counterpoint](concept_counterpoint.md) — 對位作品結構詳述
+- [concept_cadence_detection](concept_cadence_detection.md) — Baroque cadence 偵測
+- [concept_subject_imitation_detection](concept_subject_imitation_detection.md) — Subject re-entry 為主要 phrase 訊號
+- [concept_hypermeter](concept_hypermeter.md) §4 — Hypermeter 規則性對 Baroque 弱
+- [../wiki_articulation/concept_non_legato_baroque](../wiki_articulation/concept_non_legato_baroque.md) — Baroque articulation default
+- [../wiki_articulation/src_cpe_bach_versuch](../wiki_articulation/src_cpe_bach_versuch.md) / [../wiki_articulation/src_couperin_lart_de_toucher](../wiki_articulation/src_couperin_lart_de_toucher.md) — Baroque pedagogy 一手文獻
+- [../wiki_articulation/src_donington_baroque_music](../wiki_articulation/src_donington_baroque_music.md) — HIP 派 Baroque 演奏實踐回顧
 
 ## 10. ⚠ Training-data verification queue
 

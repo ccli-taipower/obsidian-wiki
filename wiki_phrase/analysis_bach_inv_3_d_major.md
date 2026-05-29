@@ -7,10 +7,10 @@
 
 ## 1. 為什麼挑這首作為 wiki 第三個 Bach analysis 頁
 
-BWV 774 補足 [[analysis_bach_inv_1_c_major]]（C 大調 4/4，through-composed）與 [[analysis_bach_inv_4_d_minor]]（D 小調 3/8，episode-heavy）所未涵蓋的座標：
+BWV 774 補足 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md)（C 大調 4/4，through-composed）與 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)（D 小調 3/8，episode-heavy）所未涵蓋的座標：
 
 - **3/8 拍 + 大調 + dance-like character** — Inv 4 同為 3/8 但情緒陰鬱、Inv 1 為 4/4 步行；BWV 774 是唯一同時具備「3/8 + 上揚 + 舞曲」三條件的 Invention
-- **Ascending leap subject** — 主題以八度或六度躍進開頭，與 Inv 1 (上行音階) / Inv 4 (下行 figure) 形成對比；對 [[concept_subject_imitation_detection]] 提供「leap-initiated subject」的測試案例
+- **Ascending leap subject** — 主題以八度或六度躍進開頭，與 Inv 1 (上行音階) / Inv 4 (下行 figure) 形成對比；對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 提供「leap-initiated subject」的測試案例
 - **3/8 拍與 `_detect_phrase_starts` Pass 2 (4-bar fallback) 的互動** — 4-bar period 在 3/8 拍意義不同（4 bars × 3/8 = 12 eighth-notes ≈ 4/4 的 1.5 bars），需釐清 hypermeter 假設
 - 教學定位上是 3/8 拍的入門曲，預備後續 minuet / gigue 風格作品
 
@@ -23,13 +23,13 @@ BWV 774 補足 [[analysis_bach_inv_1_c_major]]（C 大調 4/4，through-composed
 - Subject 長度：musicology 共識約 1 小節（= 3 個 8 分拍, 或 6 個 16 分音符位置）；但因 3/8 拍小節短，**跨小節 subject (m1→m2 pos1) 可能性需驗證**
 - 教學定位：3/8 拍的 first taste，預備 minuet / gigue 風格的 hypermeter 感
 - 著名版本：András Schiff (lively, light articulation), Angela Hewitt (dance-like phrasing, longer notes inégales), Glenn Gould 1964 (uncharacteristically lyrical for Gould)
-- 編輯版本爭議：見 [[src_bach_inventions_pedagogy]]
+- 編輯版本爭議：見 [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)
 
 ## 3. Subject 識別 — musicology 共識與演算法測試計畫
 
 ### 3.1 Subject 長度的不確定性
 
-不同於 [[analysis_bach_inv_1_c_major]] 的 1-bar vs 2-bar 兩派論辯，BWV 774 的 subject 長度因 **3/8 拍的小節極短**而本身就需驗證：
+不同於 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) 的 1-bar vs 2-bar 兩派論辯，BWV 774 的 subject 長度因 **3/8 拍的小節極短**而本身就需驗證：
 
 | 假設長度 | 16 分音符位置數 | musicological 對應 |
 |---|---|---|
@@ -37,7 +37,7 @@ BWV 774 補足 [[analysis_bach_inv_1_c_major]]（C 大調 4/4，through-composed
 | **8 (1 又 1/3 小節)** | m1 + m2 前半 | 若 subject 延伸至 m2 pos1 結束 |
 | **12 (2 小節)** | m1 + m2 完整 | 與 hypermeter 2-bar 群組一致 |
 
-對 [[concept_subject_imitation_detection]] 演算法而言：應對此曲嘗試 length ∈ {6, 8, 12} 三組假設，以 LH 答句模仿位置（m3 或 m4）的匹配度決定哪一組成立。
+對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 演算法而言：應對此曲嘗試 length ∈ {6, 8, 12} 三組假設，以 LH 答句模仿位置（m3 或 m4）的匹配度決定哪一組成立。
 
 ### 3.2 預期 subject entries (待演算法驗證)
 
@@ -56,7 +56,7 @@ BWV 774 補足 [[analysis_bach_inv_1_c_major]]（C 大調 4/4，through-composed
 
 ### 3.3 Ascending leap 對 detection 的影響
 
-Inv 1 subject 起手是 stepwise (16 分音符上行)，Inv 4 subject 起手是 broken-triad 下行；BWV 774 的 ascending leap 對 [[concept_subject_imitation_detection]] 構成不同型態的 fingerprint：
+Inv 1 subject 起手是 stepwise (16 分音符上行)，Inv 4 subject 起手是 broken-triad 下行；BWV 774 的 ascending leap 對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 構成不同型態的 fingerprint：
 
 - **單音程 fingerprint 過粗**：D5→D6（octave）或 D5→B5（sixth）僅 1 個音程，誤判機率高
 - **leap + 後續下行 figure 才是完整 subject 簽章**：演算法應要求至少 5 個連續音程匹配（leap 1 + 下行 figure 4 個 stepwise）
@@ -66,7 +66,7 @@ Inv 1 subject 起手是 stepwise (16 分音符上行)，Inv 4 subject 起手是 
 
 ### 3.4 倒影 (Inversion) 分析
 
-BWV 774 中**倒影主題不顯著**。與 [[analysis_bach_inv_1_c_major]] 同，Bach 在 BWV 775 (Inv 4) 才大量用 strict inversion。Inv 3 中段主要用 sequence + 移調，inversion detection 應返回稀疏結果。
+BWV 774 中**倒影主題不顯著**。與 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) 同，Bach 在 BWV 775 (Inv 4) 才大量用 strict inversion。Inv 3 中段主要用 sequence + 移調，inversion detection 應返回稀疏結果。
 
 ## 4. 四段曲式對應到 form
 
@@ -77,7 +77,7 @@ BWV 774 中**倒影主題不顯著**。與 [[analysis_bach_inv_1_c_major]] 同�
 | **Subdominant / B minor excursion** | m25–m40 | B minor (vi) → G major (IV) 短暫 | 標準 Bach「離調至相對小調或下屬」 strategy；本段最長 |
 | **Return + final cadence** | m41–m59 | D major (回主) | Final subject entries 密集 + cadential extension to PAC |
 
-→ m12–m13、m24–m25、m40–m41 是三個明顯的**段落邊界**，皆可由 [[concept_modulation_as_phrase_signal]] 偵測；m58–m59 PAC 由 [[concept_cadence_detection]] 偵測。
+→ m12–m13、m24–m25、m40–m41 是三個明顯的**段落邊界**，皆可由 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 偵測；m58–m59 PAC 由 [concept_cadence_detection](concept_cadence_detection.md) 偵測。
 
 **3/8 拍下的 measure-to-form ratio**：BWV 774 用 59 小節描述四段，每段平均 12–18 小節；對比 Inv 1 (4/4, 22 小節, 三段平均 7 小節) — 同樣 form complexity 在 3/8 拍展開為近 3× 小節數。**這對 `_detect_phrase_starts` Pass 2 (4-bar fallback) 假設有實質衝擊**，見 §5 Case A。
 
@@ -107,7 +107,7 @@ BWV 774 中**倒影主題不顯著**。與 [[analysis_bach_inv_1_c_major]] 同�
 1. **時值正規化 hypermeter**：Pass 2 改以「總 beats / target_phrase_beats」推斷，不直接用 measure 數；target = 32 拍（4/4 4 小節 ≈ 3/8 11 小節）
 2. **拍號偵測 + per-time-signature fallback**：偵測為 3/8 / 6/8 時 fallback 改為 8 或 12 小節而非 4
 
-→ 兩路徑都需 `_detect_phrase_starts` 介面變更，且需跨 [[analysis_bach_inv_4_d_minor]] (3/8 D minor) 同步驗證。**目前狀態：BWV 774 屬潛在 future case**，未啟用任何修正。
+→ 兩路徑都需 `_detect_phrase_starts` 介面變更，且需跨 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) (3/8 D minor) 同步驗證。**目前狀態：BWV 774 屬潛在 future case**，未啟用任何修正。
 
 ### 5.4 對 override 教學的影響
 
@@ -124,7 +124,7 @@ BWV 774 m1 RH 起手 = ascending leap (D5 → D6 octave 或 D5 → B5 sixth, 依
 | **A — Span-first** | f1 (拇指) | 拇指在低音，f5 在高音覆蓋 octave；保留全手張開可彈後續下行 figure |
 | **B — Agility-first** | f2 (食指) | f2 在低音，f4/f5 在高音；f2 較 f1 靈活，預備下行 figure 的拇指穿越 |
 
-兩派分別對應不同 hand-size 與 spanning 偏好。對 [[../score-claude/memory/feedback_personal_biomechanics]] 的個人化原則，user 將以 override 表達個人選擇。
+兩派分別對應不同 hand-size 與 spanning 偏好。對 *feedback_personal_biomechanics* 的個人化原則，user 將以 override 表達個人選擇。
 
 ### 6.2 對 DP cost function 的意涵
 
@@ -132,9 +132,9 @@ BWV 774 m1 RH 起手 = ascending leap (D5 → D6 octave 或 D5 → B5 sixth, 依
 
 → ⚠ **驗證待跑**：若 DP 在 m1 pos1 給出 f1，user 是否仍會 override 為其他指法？若 user 全篇 BWV 774 m1-like 位置都允許 DP 預設，則 ascending leap subject 對 RH 起手位**不需特殊處理**；若 user 系統性 override，則需在 `_assignment_cost` 加入「subject-entry context preference」軸。
 
-### 6.3 與 [[concept_subject_imitation_detection]] 的接口
+### 6.3 與 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 的接口
 
-若 [[concept_subject_imitation_detection]] 正確抓到 RH m1 為 subject entry，**未來可能設計**「subject-entry-aware 起手 finger 偏好」cost 軸 — 但這將跨越 phrase detection 與 biomechanics 兩個 discipline，需依 [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]] 謹慎處理。**目前不規劃實作**。
+若 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 正確抓到 RH m1 為 subject entry，**未來可能設計**「subject-entry-aware 起手 finger 偏好」cost 軸 — 但這將跨越 phrase detection 與 biomechanics 兩個 discipline，需依 *feedback_phrase_analysis_is_its_own_discipline* 謹慎處理。**目前不規劃實作**。
 
 ## 7. 三類樂句邊界並用的必要性
 
@@ -142,10 +142,10 @@ BWV 774 m1 RH 起手 = ascending leap (D5 → D6 octave 或 D5 → B5 sixth, 依
 
 | 邊界類型 | Inv 3 觸發點 | 工具 |
 |---|---|---|
-| **Subject entry** | 主題 / 答句: m1 RH + m3/m4 LH (在演算法 template 內, 不會被標為 entry); 演算法掃描自 template 之後 — 實測 RH @ m18/m28/m32/m34/m50/m55, LH @ m12/m30/m40/m44/m53 (musicology 預測 m13-18 + m41-50; alg 部分 ✓ 但有 m28/32/34 等 extras; 見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]) | [[concept_subject_imitation_detection]] |
-| **Modulation / 段落** | m12-m13, m24-m25, m40-m41 | [[concept_modulation_as_phrase_signal]] |
-| **Cadence** | m58-m59 PAC | [[concept_cadence_detection]] |
-| **Figural** | 各段內 sequence boundary、下行 figure 切換點 | [[concept_figural_boundary_detection]] |
+| **Subject entry** | 主題 / 答句: m1 RH + m3/m4 LH (在演算法 template 內, 不會被標為 entry); 演算法掃描自 template 之後 — 實測 RH @ m18/m28/m32/m34/m50/m55, LH @ m12/m30/m40/m44/m53 (musicology 預測 m13-18 + m41-50; alg 部分 ✓ 但有 m28/32/34 等 extras; 見 *project_bach_inv_subject_detection_validation_2026-05-28*) | [concept_subject_imitation_detection](concept_subject_imitation_detection.md) |
+| **Modulation / 段落** | m12-m13, m24-m25, m40-m41 | [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) |
+| **Cadence** | m58-m59 PAC | [concept_cadence_detection](concept_cadence_detection.md) |
+| **Figural** | 各段內 sequence boundary、下行 figure 切換點 | [concept_figural_boundary_detection](concept_figural_boundary_detection.md) |
 
 → Inv 3 與 sibling analyses 對照：
 
@@ -157,17 +157,17 @@ BWV 774 m1 RH 起手 = ascending leap (D5 → D6 octave 或 D5 → B5 sixth, 依
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 與 [[analysis_bach_inv_1_c_major]] 形成 4/4 vs 3/8 拍對照；與 [[analysis_bach_inv_4_d_minor]] 形成同拍號不同情緒對照
-- 應用 [[concept_fugue]] / [[concept_counterpoint]] 對 2-voice Invention 的論述
-- 對 [[concept_subject_imitation_detection]] 提供 ascending-leap subject 與多長度假設的驗證 case
-- 對 [[concept_modulation_as_phrase_signal]] 提供 m12-m13 / m24-m25 / m40-m41 三個段落邊界
-- 對 [[concept_cadence_detection]] 提供 m58-m59 PAC 案例
-- 對 [[concept_figural_boundary_detection]] 提供 3/8 拍下 figure 切換的潛在案例
-- 對 [[concept_running_passage_thumb_reservation]] 提供 3/8 拍下行 figure 的拇指預留討論點
-- Hypermeter 與 3/8 拍 phrase rhythm 討論引 [[src_rothstein_phrase_rhythm]]
-- 編輯版本爭議引 [[src_bach_inventions_pedagogy]]
-- 對位起源溯至 [[src_fux_gradus_ad_parnassum]]
-- Override semantics 解讀依 [[../score-claude/memory/feedback_override_semantics]]、[[../score-claude/memory/feedback_phrase_as_breath]]
-- 個人化生物力學原則依 [[../score-claude/memory/feedback_personal_biomechanics]]
-- Phrase analysis 獨立性原則依 [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]]
-- Measure 對應依 [[../score-claude/memory/project_bach_inv_measure_mapping]]（Inv 3: user mN → program m(N-1)；`CLEF_CORRECTIONS[3]` LH m19–23 bass→treble；prog m26 = ghost）
+- 與 [analysis_bach_inv_1_c_major](analysis_bach_inv_1_c_major.md) 形成 4/4 vs 3/8 拍對照；與 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 形成同拍號不同情緒對照
+- 應用 [concept_fugue](concept_fugue.md) / [concept_counterpoint](concept_counterpoint.md) 對 2-voice Invention 的論述
+- 對 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 提供 ascending-leap subject 與多長度假設的驗證 case
+- 對 [concept_modulation_as_phrase_signal](concept_modulation_as_phrase_signal.md) 提供 m12-m13 / m24-m25 / m40-m41 三個段落邊界
+- 對 [concept_cadence_detection](concept_cadence_detection.md) 提供 m58-m59 PAC 案例
+- 對 [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 提供 3/8 拍下 figure 切換的潛在案例
+- 對 [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) 提供 3/8 拍下行 figure 的拇指預留討論點
+- Hypermeter 與 3/8 拍 phrase rhythm 討論引 [src_rothstein_phrase_rhythm](src_rothstein_phrase_rhythm.md)
+- 編輯版本爭議引 [src_bach_inventions_pedagogy](src_bach_inventions_pedagogy.md)
+- 對位起源溯至 [src_fux_gradus_ad_parnassum](src_fux_gradus_ad_parnassum.md)
+- Override semantics 解讀依 *feedback_override_semantics*、*feedback_phrase_as_breath*
+- 個人化生物力學原則依 *feedback_personal_biomechanics*
+- Phrase analysis 獨立性原則依 *feedback_phrase_analysis_is_its_own_discipline*
+- Measure 對應依 *project_bach_inv_measure_mapping*（Inv 3: user mN → program m(N-1)；`CLEF_CORRECTIONS[3]` LH m19–23 bass→treble；prog m26 = ghost）

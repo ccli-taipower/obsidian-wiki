@@ -133,4 +133,4 @@ Movement (奏鳴曲一個樂章)
 
 7. **Tight-knit / Loose 的區分支持 per-piece flag 策略**：Caplin 主張古典主題段是 tight-knit、transition / development 是 loose；同一首曲子內部兩種段落需要**不同的 phrase detection 策略**。`SINGLE_PDF_PHRASE_FLAGS` per-piece opt-in 機制天然契合此區分 — 後續可擴充為 per-section flags（main theme: cadence ON, development: cadence OFF + texture ON）。
 
-詳見 [[concept_classical_period_sentence]]、[[concept_cadence_detection]]、[[../score-claude/memory/project_cadence_phase_2]] 與 [[analysis_mozart_k283_first_mov]]。
+詳見 [concept_classical_period_sentence](concept_classical_period_sentence.md)、[concept_cadence_detection](concept_cadence_detection.md)、*project_cadence_phase_2* 與 [analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md)。

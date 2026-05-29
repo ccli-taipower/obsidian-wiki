@@ -1,7 +1,7 @@
 # Concept: Hypermeter — 大週期感
 
 > 來源：Rothstein《Phrase Rhythm in Tonal Music》(1989), Cooper-Meyer《The Rhythmic Structure of Music》(1960), Lerdahl-Jackendoff《A Generative Theory of Tonal Music》(1983)
-> 引用方：[[concept_phrase_elision]], [[composer_brahms_phrasing]], [[composer_schumann_phrasing]]
+> 引用方：[concept_phrase_elision](concept_phrase_elision.md), [composer_brahms_phrasing](composer_brahms_phrasing.md), [composer_schumann_phrasing](composer_schumann_phrasing.md)
 
 ## 1. Hypermeter 是什麼
 
@@ -39,7 +39,7 @@ Hypermeter 與 phrase 不同：
 | **2:1 (phrase = 2 hypermeter units)** | Chopin lyrical melody 常 8-bar phrase = 2 個 4-bar hypermeter |
 | **不對應** | Brahms 的 5-bar phrase 在 4-bar hypermeter 上「**錯位**」（結構性張力） |
 
-→ 對 score-claude DP 的對應：phrase boundary 偵測常假設 4-bar fallback（[[../score-claude/run.py]] `_detect_phrase_starts` Pass 2 fallback）— 是 4-bar hypermeter 假設的具體實現。
+→ 對 score-claude DP 的對應：phrase boundary 偵測常假設 4-bar fallback（*run.py* `_detect_phrase_starts` Pass 2 fallback）— 是 4-bar hypermeter 假設的具體實現。
 
 ## 4. Hypermeter 在不同時代
 
@@ -72,7 +72,7 @@ Rothstein 1989 主要貢獻：詳述「**phrase 擴張 + 收縮**」現象：
 
 ## 6. Hypermeter vs Phrase Elision
 
-[[concept_phrase_elision]] 是「**前 phrase 結束音同時是後 phrase 起首音**」現象。Phrase elision 對 hypermeter 的影響：
+[concept_phrase_elision](concept_phrase_elision.md) 是「**前 phrase 結束音同時是後 phrase 起首音**」現象。Phrase elision 對 hypermeter 的影響：
 - 兩個 4-bar phrase elision → 視角看是 8-bar 還是 7-bar
 - Hypermeter 計數可能因 elision 而**錯位**
 
@@ -103,14 +103,14 @@ DP 處理 hypermeter：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_phrase_elision]] — Phrase elision 對 hypermeter 計數的影響
-- [[concept_classical_period_sentence]] — Period (8-bar) 是 hypermeter 與 phrase 對應典型
-- [[composer_brahms_phrasing]] — Brahms 不規則 hypermeter 代表
-- [[composer_schumann_phrasing]] — Schumann 規則 4-bar + 末尾延長
-- [[composer_mozart_phrasing]] — Mozart 規則 hypermeter 典範
-- [[composer_bach_phrasing]] — Bach 對位作品 hypermeter 不規則
-- [[src_rothstein_phrase_rhythm]] — Rothstein 1989 hypermeter 系統論述
-- [[src_lerdahl_jackendoff_gttm]] — GTTM 對 metrical structure 的論述
+- [concept_phrase_elision](concept_phrase_elision.md) — Phrase elision 對 hypermeter 計數的影響
+- [concept_classical_period_sentence](concept_classical_period_sentence.md) — Period (8-bar) 是 hypermeter 與 phrase 對應典型
+- [composer_brahms_phrasing](composer_brahms_phrasing.md) — Brahms 不規則 hypermeter 代表
+- [composer_schumann_phrasing](composer_schumann_phrasing.md) — Schumann 規則 4-bar + 末尾延長
+- [composer_mozart_phrasing](composer_mozart_phrasing.md) — Mozart 規則 hypermeter 典範
+- [composer_bach_phrasing](composer_bach_phrasing.md) — Bach 對位作品 hypermeter 不規則
+- [src_rothstein_phrase_rhythm](src_rothstein_phrase_rhythm.md) — Rothstein 1989 hypermeter 系統論述
+- [src_lerdahl_jackendoff_gttm](src_lerdahl_jackendoff_gttm.md) — GTTM 對 metrical structure 的論述
 
 ## 10. ⚠ Training-data verification queue
 

@@ -55,7 +55,7 @@ Debussy 避免傳統 V-I，常用：
 
 非大小調音階改變指法策略：
 - **Whole-tone scale**：6 個全音 → 拇指穿越不能用標準大調規則
-- **Pentatonic** (5 音)：5 個音剛好 5 指、無拇指穿越需求 ← 與 [[../wiki_piano/src_chinese_style_piano]] 五聲音階指法相關
+- **Pentatonic** (5 音)：5 個音剛好 5 指、無拇指穿越需求 ← 與 [../wiki_piano/src_chinese_style_piano](../wiki_piano/src_chinese_style_piano.md) 五聲音階指法相關
 - **Modal**：依 mode 選 finger group
 
 對樂句偵測的間接影響：scale 的 mode 切換通常 = 紋理變化 = 樂句邊界
@@ -130,12 +130,12 @@ impressionist_phrase_detector(groups):
 
 ## 7. 與其他 wiki 頁面的關係
 
-- **不**依賴 [[concept_classical_period_sentence]]（cadence 失效）
-- **不**依賴 [[concept_fugue]]（無 subject 結構）
-- 部分概念延伸 [[concept_chopin_lyrical_phrase]] 的「不規律長度」與「texture change」訊號
-- 與 [[../wiki_piano/src_chinese_style_piano]] 五聲音階指法直接相關（pentatonic 是兩者交集）
+- **不**依賴 [concept_classical_period_sentence](concept_classical_period_sentence.md)（cadence 失效）
+- **不**依賴 [concept_fugue](concept_fugue.md)（無 subject 結構）
+- 部分概念延伸 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 的「不規律長度」與「texture change」訊號
+- 與 [../wiki_piano/src_chinese_style_piano](../wiki_piano/src_chinese_style_piano.md) 五聲音階指法直接相關（pentatonic 是兩者交集）
 - 待寫：
-  - [[concept_texture_change_detection]] (chord density + registral shift 偵測演算法)
-  - [[concept_modal_scale_fingering]] (mode-aware fingering)
-  - [[composer_debussy_phrasing]] (Debussy 細分)
+  - [concept_texture_change_detection](concept_texture_change_detection.md) (chord density + registral shift 偵測演算法)
+  - [concept_modal_scale_fingering](concept_modal_scale_fingering.md) (mode-aware fingering)
+  - [composer_debussy_phrasing](composer_debussy_phrasing.md) (Debussy 細分)
 

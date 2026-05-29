@@ -2,13 +2,13 @@
 
 > 來源：Donington《Baroque Music》§Bach polyphony, Schiff Bach lectures, Bischoff / Henle / Bärenreiter editions
 > 對應 PIG：未列入
-> 引用方：[[../score-claude/memory/project_target_repertoire_intermediate]] §推薦曲目, [[concept_articulation_in_polyphony]] §對位
+> 引用方：*project_target_repertoire_intermediate* §推薦曲目, [concept_articulation_in_polyphony](concept_articulation_in_polyphony.md) §對位
 
 ## 1. 為什麼挑 Sinfonias 作為 polyphonic articulation 案例
 
 Bach Three-Part Sinfonias (BWV 787-801) = 15 首三聲部對位作品，與 Two-Part Inventions 同期創作（1723 *Aufrichtige Anleitung*）。理由：
 - **比 Inventions 高一階**：3 聲部需處理 within-hand polyphony (一手承載兩聲部)
-- 是 [[../score-claude/memory/project_target_repertoire_intermediate]] 推薦曲目 — 學完 Inventions 的自然進階
+- 是 *project_target_repertoire_intermediate* 推薦曲目 — 學完 Inventions 的自然進階
 - 對位 articulation **複雜度高** — RH 同時負載 melody + counter-melody，每聲部 articulation 可能不同
 - Bach 三聲部寫作的精緻代表，articulation 詮釋仍是當代爭議
 
@@ -67,7 +67,7 @@ Bach 對位作品的詮釋傳統：subject 每次出現的 articulation 應該**
 
 ⚠ Bach Sinfonias 多數 edition（Bischoff / Henle 等）原譜 articulation 標記與 Inventions 相同 — 接近 0 slur, 接近 0 articulation marker。Audiveris OMR 對這些印刷品 articulation 抓取率預期同 Inventions（接近 0）。
 
-→ 對 score-claude DP 的意涵：Sinfonias 啟用 [[concept_legato_substitution]] = no-op（無訊號）。圖法系統對 Sinfonias 主要依賴 [[concept_non_legato_baroque]] default 處理。
+→ 對 score-claude DP 的意涵：Sinfonias 啟用 [concept_legato_substitution](concept_legato_substitution.md) = no-op（無訊號）。圖法系統對 Sinfonias 主要依賴 [concept_non_legato_baroque](concept_non_legato_baroque.md) default 處理。
 
 ## 6. 對 score-claude DP 的 within-hand polyphony 限制
 
@@ -108,12 +108,12 @@ score-claude DP 目前**不處理 within-hand polyphony**：
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[../score-claude/memory/project_target_repertoire_intermediate]] §推薦曲目 — Sinfonias 在 in-scope list（進階入門）
-- [[concept_articulation_in_polyphony]] — 三聲部 within-hand polyphony 是本頁主要挑戰
-- [[concept_non_legato_baroque]] — Baroque default 對 Sinfonias 同樣適用
-- [[analysis_bach_inv_articulation]] — Inventions 是 Sinfonias 的入門先導
-- [[../wiki_phrase/concept_fugue]] — Fugue 是 Sinfonias 結構的延伸
-- [[src_donington_baroque_music]] — Donington 對 Bach 對位 articulation 的處理
+- *project_target_repertoire_intermediate* §推薦曲目 — Sinfonias 在 in-scope list（進階入門）
+- [concept_articulation_in_polyphony](concept_articulation_in_polyphony.md) — 三聲部 within-hand polyphony 是本頁主要挑戰
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) — Baroque default 對 Sinfonias 同樣適用
+- [analysis_bach_inv_articulation](analysis_bach_inv_articulation.md) — Inventions 是 Sinfonias 的入門先導
+- [../wiki_phrase/concept_fugue](../wiki_phrase/concept_fugue.md) — Fugue 是 Sinfonias 結構的延伸
+- [src_donington_baroque_music](src_donington_baroque_music.md) — Donington 對 Bach 對位 articulation 的處理
 
 ## 10. ⚠ Training-data verification queue
 

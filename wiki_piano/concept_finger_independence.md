@@ -1,7 +1,7 @@
 # Concept: Finger Independence — 手指獨立性
 
 > 來源：Hanon *The Virtuoso Pianist*, Czerny *Op.299 / Op.740*, Sandor *On Piano Playing* §finger independence, Schmidt-Belden 教學論
-> 引用方：[[concept_hand_anatomy]], [[concept_trill_fingering]], [[analysis_common_fingering_injuries]]
+> 引用方：[concept_hand_anatomy](concept_hand_anatomy.md), [concept_trill_fingering](concept_trill_fingering.md), [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md)
 
 ## 1. 手指獨立性是什麼
 
@@ -47,9 +47,9 @@
 
 獨立性差的指（特別 4）應避免承擔：
 - **持續高速** (Trill 4-5 是極端例)
-- **重音 / accent** ([[../wiki_articulation/concept_accent_marcato]] §2 強指偏好)
-- **Tenuto 持音** ([[../wiki_articulation/concept_tenuto]] §3 強指偏好)
-- **連續 substitution** ([[concept_finger_substitution]] 中 4 為弱指)
+- **重音 / accent** ([../wiki_articulation/concept_accent_marcato](../wiki_articulation/concept_accent_marcato.md) §2 強指偏好)
+- **Tenuto 持音** ([../wiki_articulation/concept_tenuto](../wiki_articulation/concept_tenuto.md) §3 強指偏好)
+- **連續 substitution** ([concept_finger_substitution](concept_finger_substitution.md) 中 4 為弱指)
 
 → 多數 cost-based fingering system（含 score-claude DP）內隱**強指偏好** — 4-5 在大量場景的 cost 較高。
 
@@ -82,7 +82,7 @@
 - **配合放鬆** — 強化 + 放鬆 1:1
 - **關注 strain 訊號** — 任何疼痛立即停止
 
-→ [[analysis_common_fingering_injuries]] §focal dystonia / strain 風險特別針對 4 過度訓練。
+→ [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) §focal dystonia / strain 風險特別針對 4 過度訓練。
 
 ## 7. Finger independence 與 articulation
 
@@ -111,9 +111,9 @@ DP 結構性偏向 1-2-3，4-5 用在「不得已」位置。是 finger independ
 
 ## 9. 與其他 wiki 頁面的關係
 
-- [[concept_hand_anatomy]] — Juncturae tendinum 與 4 弱指的解剖學
-- [[concept_finger_span_table]] — 各指 span 與獨立性的對應
-- [[concept_trill_fingering]] — 4-5 trill 是 finger independence 極限挑戰
-- [[concept_chord_voicing_fingering]] — Voicing 對 finger independence 要求最高
-- [[analysis_common_fingering_injuries]] — 過度 finger independence 訓練的歷史教訓 (Schumann)
-- [[../wiki_articulation/concept_tenuto]] / [[../wiki_articulation/concept_accent_marcato]] — 強指偏好邏輯
+- [concept_hand_anatomy](concept_hand_anatomy.md) — Juncturae tendinum 與 4 弱指的解剖學
+- [concept_finger_span_table](concept_finger_span_table.md) — 各指 span 與獨立性的對應
+- [concept_trill_fingering](concept_trill_fingering.md) — 4-5 trill 是 finger independence 極限挑戰
+- [concept_chord_voicing_fingering](concept_chord_voicing_fingering.md) — Voicing 對 finger independence 要求最高
+- [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) — 過度 finger independence 訓練的歷史教訓 (Schumann)
+- [../wiki_articulation/concept_tenuto](../wiki_articulation/concept_tenuto.md) / [../wiki_articulation/concept_accent_marcato](../wiki_articulation/concept_accent_marcato.md) — 強指偏好邏輯

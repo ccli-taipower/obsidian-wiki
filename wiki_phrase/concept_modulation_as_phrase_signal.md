@@ -1,7 +1,7 @@
 # Concept: Modulation as Phrase Signal — 轉調作為樂句邊界訊號
 
 > 來源：通用音樂理論 + Schenker analyses of Schubert/Brahms、Caplin《Classical Form》§modulation
-> 引用方：[[composer_schubert_long_phrase]]、[[composer_beethoven_phrasing]]、[[composer_chopin_phrasing]]
+> 引用方：[composer_schubert_long_phrase](composer_schubert_long_phrase.md)、[composer_beethoven_phrasing](composer_beethoven_phrasing.md)、[composer_chopin_phrasing](composer_chopin_phrasing.md)
 > 狀態：第一版 2026-05-26
 
 ## 1. 一句話定義
@@ -146,9 +146,9 @@ def _detect_phrase_starts_with_modulation(groups, mxl_path):
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 補完 [[concept_classical_period_sentence]] 的 cadence 訊號
-- 與 [[concept_cadence_detection]] 互補（cadence 處理段內，modulation 處理段間）
-- 對 [[composer_schubert_long_phrase]] 是**核心**訊號
-- 對 [[concept_impressionist_phrasing]] 是**反指標**（Debussy modal 不適用）
-- 對 [[concept_fugue]] §3.2 development 段相關
+- 補完 [concept_classical_period_sentence](concept_classical_period_sentence.md) 的 cadence 訊號
+- 與 [concept_cadence_detection](concept_cadence_detection.md) 互補（cadence 處理段內，modulation 處理段間）
+- 對 [composer_schubert_long_phrase](composer_schubert_long_phrase.md) 是**核心**訊號
+- 對 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) 是**反指標**（Debussy modal 不適用）
+- 對 [concept_fugue](concept_fugue.md) §3.2 development 段相關
 

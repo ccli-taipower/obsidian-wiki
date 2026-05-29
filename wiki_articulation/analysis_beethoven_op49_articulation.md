@@ -2,12 +2,12 @@
 
 > 來源：Brendel essays、Henle Urtext (Sieghard Brandenburg 編), Bärenreiter NBA、Czerny Op.500 § Beethoven 章節
 > 對應 PIG：未列入（input/ MXL 待取得）
-> 引用方：[[concept_articulation_overview]] §3 (Classical period)，[[concept_period_defaults]] §4 Classical 平衡, [[concept_tenuto]] §5 Beethoven 持音
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §3 (Classical period)，[concept_period_defaults](concept_period_defaults.md) §4 Classical 平衡, [concept_tenuto](concept_tenuto.md) §5 Beethoven 持音
 
 ## 1. 為什麼挑 Op.49 作為 Beethoven articulation 案例
 
 理由：
-- Op.49 No.1 (G minor) + No.2 (G major) 是 Beethoven「**easy sonatas**」，初中階學生最常入門 Beethoven 奏鳴曲（[[../score-claude/memory/project_target_repertoire_intermediate]]）
+- Op.49 No.1 (G minor) + No.2 (G major) 是 Beethoven「**easy sonatas**」，初中階學生最常入門 Beethoven 奏鳴曲（*project_target_repertoire_intermediate*）
 - 創作於 Beethoven 早期（c. 1795-1797），articulation 寫法接近 Classical 風格（mid-period 才開始大量 tenuto / sf 標記）
 - 兩首都 ≤ 8 分鐘，2 樂章結構簡單，是分析 Beethoven articulation 慣例的最小單元
 
@@ -36,9 +36,9 @@
 - Cadential 強奏段 → sf 標記出現於 V-I 解決強拍前
 
 對指法的意涵：
-- Slur 內主題段 → [[concept_legato_substitution]] 適用
-- 伴奏 alberti / 8 分音符 detache 段 → [[concept_staccato]] 鬆綁適用
-- sf 強拍 → [[concept_accent_marcato]] 強指偏好
+- Slur 內主題段 → [concept_legato_substitution](concept_legato_substitution.md) 適用
+- 伴奏 alberti / 8 分音符 detache 段 → [concept_staccato](concept_staccato.md) 鬆綁適用
+- sf 強拍 → [concept_accent_marcato](concept_accent_marcato.md) 強指偏好
 
 **mvt2 Rondo - Allegro (G major 結尾)**:
 - Rondo theme 用 slur 標連奏；對比段（B, C theme）用 staccato dot
@@ -56,7 +56,7 @@
 - 第一主題 detache + 跳躍；第二主題 legato + cantabile
 - Development 段交替 detache + legato，articulation 對比即是結構標記
 
-對指法的意涵：articulation 與樂段結構強相關 — Brendel 字面派立場 ([[src_brendel_essays]] §2.1) 在此例特別有效。
+對指法的意涵：articulation 與樂段結構強相關 — Brendel 字面派立場 ([src_brendel_essays](src_brendel_essays.md) §2.1) 在此例特別有效。
 
 **mvt2 Tempo di Menuetto (G major)**:
 - Minuet & Trio 結構 — 兩段 articulation 風格差異明顯
@@ -70,14 +70,14 @@ Beethoven 標記不是純表情，常是**結構轉折標誌**：
 - sf 的位置 = development 段戲劇高點或 recapitulation 強烈宣告
 - Tenuto 的位置 = inner voice 結構性強調
 
-→ Brendel essays（[[src_brendel_essays]] §2.1）強烈主張這些標記應**字面 honor**，因為它們承載結構信息，不只是表情。
+→ Brendel essays（[src_brendel_essays](src_brendel_essays.md) §2.1）強烈主張這些標記應**字面 honor**，因為它們承載結構信息，不只是表情。
 
 ## 6. 對 score-claude DP 的影響預測
 
 當 Op.49 MXL 取得後，預期：
-- Slur 數量充足（Classical 標記比 Baroque 多得多）→ [[concept_legato_substitution]] 有效啟用對象
-- Staccato 標記充足 → 未來 [[concept_staccato]] DP rule 落地後的測試對象
-- sf 標記少但具結構意義 → 未來 [[concept_accent_marcato]] DP rule 的測試對象
+- Slur 數量充足（Classical 標記比 Baroque 多得多）→ [concept_legato_substitution](concept_legato_substitution.md) 有效啟用對象
+- Staccato 標記充足 → 未來 [concept_staccato](concept_staccato.md) DP rule 落地後的測試對象
+- sf 標記少但具結構意義 → 未來 [concept_accent_marcato](concept_accent_marcato.md) DP rule 的測試對象
 - 整體應**啟用 figural + thumb + legato_substitution**（per 初中階 Classical 慣例）
 
 啟用順序建議：
@@ -87,14 +87,14 @@ Beethoven 標記不是純表情，常是**結構轉折標誌**：
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] §3 — Op.49 是 Classical period 平衡 default 的典型案例
-- [[concept_legato_substitution]] §5 — Op.49 cantabile 段是「適用情境」表中 Classical *cantabile* 代表
-- [[concept_period_defaults]] §4 — Beethoven 早期接近 Classical 平衡（vs 後期更自由）
-- [[concept_tenuto]] §5 — Op.49 tenuto 標記少，但比較對象（後期 Op.110-111）大量
-- [[concept_accent_marcato]] §1, §4 — Op.49 sf 標記少但具結構意義
-- [[src_brendel_essays]] §2 — Brendel 對 Beethoven articulation 字面派立場
-- [[src_czerny_op500_articulation]] — Czerny 作為 Beethoven 學生，對 Beethoven articulation 的詮釋傳承
-- [[../score-claude/memory/project_target_repertoire_intermediate]] — Op.49 是 intermediate 目標的核心曲目
+- [concept_articulation_overview](concept_articulation_overview.md) §3 — Op.49 是 Classical period 平衡 default 的典型案例
+- [concept_legato_substitution](concept_legato_substitution.md) §5 — Op.49 cantabile 段是「適用情境」表中 Classical *cantabile* 代表
+- [concept_period_defaults](concept_period_defaults.md) §4 — Beethoven 早期接近 Classical 平衡（vs 後期更自由）
+- [concept_tenuto](concept_tenuto.md) §5 — Op.49 tenuto 標記少，但比較對象（後期 Op.110-111）大量
+- [concept_accent_marcato](concept_accent_marcato.md) §1, §4 — Op.49 sf 標記少但具結構意義
+- [src_brendel_essays](src_brendel_essays.md) §2 — Brendel 對 Beethoven articulation 字面派立場
+- [src_czerny_op500_articulation](src_czerny_op500_articulation.md) — Czerny 作為 Beethoven 學生，對 Beethoven articulation 的詮釋傳承
+- *project_target_repertoire_intermediate* — Op.49 是 intermediate 目標的核心曲目
 
 ## 8. ⚠ Training-data verification queue
 

@@ -116,9 +116,9 @@ Both neutral — v2 doesn't help nor hurt non-target pieces. Confirms v2 is safe
 
 ## 6. Cross-refs
 
-- Cost-function side: [[concept_thumb_technique]] §Long-scale exception
-- Phrase track: [[wiki_phrase/_implementation_status]] §long_scale per-piece flag
-- K545 case study: [[wiki_phrase/analysis_mozart_k545_first_mov]] §4 (FIXED 2026-05-27)
+- Cost-function side: [concept_thumb_technique](concept_thumb_technique.md) §Long-scale exception
+- Phrase track: [wiki_phrase/_implementation_status](wiki_phrase/_implementation_status.md) §long_scale per-piece flag
+- K545 case study: [wiki_phrase/analysis_mozart_k545_first_mov](wiki_phrase/analysis_mozart_k545_first_mov.md) §4 (FIXED 2026-05-27)
 - Source: Altenmüller PMC3865372 (the rule we're contextually cancelling)
 - Spec: `docs/superpowers/specs/2026-05-27-long-scale-thumb-under-design.md`
-- Memory: [[../score-claude/memory/project_long_scale_thumb_under]]
+- Memory: *project_long_scale_thumb_under*

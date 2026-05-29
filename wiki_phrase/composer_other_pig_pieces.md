@@ -77,8 +77,8 @@
 - Cadence 弱化 (modal + 9th/11th chords)
 
 ### 5.3 樂句邊界訊號
-- 套 [[concept_chopin_lyrical_phrase]] 通則
-- 加 modal cadence considerations (見 [[concept_modal_scale_fingering]])
+- 套 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 通則
+- 加 modal cadence considerations (見 [concept_modal_scale_fingering](concept_modal_scale_fingering.md))
 
 ## 6. Satie (1866-1925)
 
@@ -105,7 +105,7 @@
 - **Pentatonic / modal** melodic touches
 
 ### 7.2 樂句邊界
-- 套 [[concept_classical_period_sentence]] + 模 [[composer_chopin_lyrical_phrase]] 的浪漫處理
+- 套 [concept_classical_period_sentence](concept_classical_period_sentence.md) + 模 [composer_chopin_lyrical_phrase](composer_chopin_lyrical_phrase.md) 的浪漫處理
 - 加 folk-rhythm awareness (asymmetric phrase lengths 在 dance movements)
 
 ## 8. Albeniz (1860-1909)
@@ -118,7 +118,7 @@
 
 ### 8.2 樂句邊界
 - Dance unit 為 phrase 單位 (typically 8 bar)
-- Modal cadence (Phrygian ♭II-I) (見 [[concept_modal_scale_fingering]])
+- Modal cadence (Phrygian ♭II-I) (見 [concept_modal_scale_fingering](concept_modal_scale_fingering.md))
 - Rhythmic pattern repetition
 
 ## 9. Scarlatti (1685-1757)
@@ -145,10 +145,10 @@
 
 | 元素 | 推薦對應 wiki |
 |---|---|
-| 民族 / folk influence | [[concept_modal_scale_fingering]] + per-composer |
+| 民族 / folk influence | [concept_modal_scale_fingering](concept_modal_scale_fingering.md) + per-composer |
 | Dance forms | dance unit = phrase unit |
 | Programmatic | tempo / character marking 為主 |
-| Lyrical (Faure) | [[concept_chopin_lyrical_phrase]] |
+| Lyrical (Faure) | [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) |
 | Binary (Scarlatti) | section boundary = strongest |
 | Ragtime (Joplin) | 16-bar strain unit |
 
@@ -161,6 +161,6 @@ ROI 低，建議**最後處理**或**只在需要時**：
 ## 12. 與其他 wiki 頁面的關係
 
 - 借用多個既有概念頁
-- 共通 [[concept_modal_scale_fingering]] (民族樂派多 modal)
+- 共通 [concept_modal_scale_fingering](concept_modal_scale_fingering.md) (民族樂派多 modal)
 - 雜項作曲家未來若需要可分頁
 

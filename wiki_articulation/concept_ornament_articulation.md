@@ -1,7 +1,7 @@
 # Concept: Ornament 與 Articulation 的互動
 
 > 來源：Donington《Baroque Music: Style and Performance》§ornaments, C.P.E. Bach *Versuch* §ornament 章節, Henle Urtext §ornament 詮釋指南
-> 引用方：[[concept_legato_substitution]] §6 (失效情境), [[analysis_bach_inv_articulation]] §例外 legato 段
+> 引用方：[concept_legato_substitution](concept_legato_substitution.md) §6 (失效情境), [analysis_bach_inv_articulation](analysis_bach_inv_articulation.md) §例外 legato 段
 
 ## 1. Ornament 是 articulation 系統的「特殊區段」
 
@@ -27,15 +27,15 @@ Ornament（trill, mordent, turn, appoggiatura, acciaccatura 等裝飾音）在 a
 
 ## 3. 為何 ornament 通常不適用 legato substitution
 
-[[concept_legato_substitution]] §6 列「Ornament 內部」為失效情境，理由：
+[concept_legato_substitution](concept_legato_substitution.md) §6 列「Ornament 內部」為失效情境，理由：
 
-1. **Ornament 內部音極短**（通常 < 0.25 QN，小於 [[concept_legato_substitution]] §3 操作型定義 0.5 QN 閾值）
+1. **Ornament 內部音極短**（通常 < 0.25 QN，小於 [concept_legato_substitution](concept_legato_substitution.md) §3 操作型定義 0.5 QN 閾值）
 2. **Ornament 由獨立指法慣例規定**（標準 trill 指法、標準 mordent 指法），不應被 substitution rule 干擾
 3. **演奏者把 ornament 視為整體單位**，不在內部做 substitution 決策
 
 → score-claude DP 對 ornament 區段的處理：
 - 目前無明確 ornament 識別（MXL ornament marking 未進入 DP cost 計算）
-- 但 [[concept_legato_substitution]] v2 duration gate (LEGATO_MIN_DURATION = 0.5 QN) **自然跳過** ornament 內部的快音
+- 但 [concept_legato_substitution](concept_legato_substitution.md) v2 duration gate (LEGATO_MIN_DURATION = 0.5 QN) **自然跳過** ornament 內部的快音
 - 結果：ornament 內部音不被 substitution rule 干擾 — 是設計上的自然防護
 
 ## 4. Ornament 與框架音的銜接 articulation
@@ -68,7 +68,7 @@ Ornament 內部處理一回事，**ornament 與框架音的銜接**是另一回�
 - Mordent 用於 stepwise descending 線條
 - Appoggiatura 用於 dissonance-to-consonance resolution
 
-對指法的意涵：演奏 Baroque 時 ornament 比 Romantic 密集得多 — Bach Inventions 大量隱含 ornament（雖未必明確標記），現代 edition 加標記常與 Bach 原意有差異（[[src_donington_baroque_music]]）。
+對指法的意涵：演奏 Baroque 時 ornament 比 Romantic 密集得多 — Bach Inventions 大量隱含 ornament（雖未必明確標記），現代 edition 加標記常與 Bach 原意有差異（[src_donington_baroque_music](src_donington_baroque_music.md)）。
 
 ## 6. Romantic ornament 的演變
 
@@ -77,16 +77,16 @@ Ornament 內部處理一回事，**ornament 與框架音的銜接**是另一回�
 - 但 fioritura（cadenza-like 自由裝飾段）成為新分類 — Chopin Op.9-2 §7 是典型
 - Fioritura 不適用一般 ornament 規則（更長、更自由）
 
-對應 [[../wiki_phrase/analysis_chopin_op9_no2_nocturne]] §7 + score-claude [[../score-claude/memory/project_fioritura_filter_2026-05-28]] — fioritura 是 ornament 的浪漫派擴展，需獨立規則處理。
+對應 [../wiki_phrase/analysis_chopin_op9_no2_nocturne](../wiki_phrase/analysis_chopin_op9_no2_nocturne.md) §7 + score-claude *project_fioritura_filter_2026-05-28* — fioritura 是 ornament 的浪漫派擴展，需獨立規則處理。
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_legato_substitution]] §6 — ornament 為 substitution 失效情境
-- [[concept_non_legato_baroque]] §例外 — Bach ornament 段的 articulation
-- [[analysis_bach_inv_articulation]] §4 — Bach Inv 內 sigh motif / ornament 處理
-- [[analysis_chopin_op9_no2_articulation]] §3.2-3.5 — Chopin fioritura 處理
-- [[../wiki_phrase/concept_figural_boundary_detection]] — figural pattern 偵測
-- [[src_donington_baroque_music]] §2.4 — Donington 對 ornament 內部 articulation 的論述
+- [concept_legato_substitution](concept_legato_substitution.md) §6 — ornament 為 substitution 失效情境
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) §例外 — Bach ornament 段的 articulation
+- [analysis_bach_inv_articulation](analysis_bach_inv_articulation.md) §4 — Bach Inv 內 sigh motif / ornament 處理
+- [analysis_chopin_op9_no2_articulation](analysis_chopin_op9_no2_articulation.md) §3.2-3.5 — Chopin fioritura 處理
+- [../wiki_phrase/concept_figural_boundary_detection](../wiki_phrase/concept_figural_boundary_detection.md) — figural pattern 偵測
+- [src_donington_baroque_music](src_donington_baroque_music.md) §2.4 — Donington 對 ornament 內部 articulation 的論述
 
 ## 8. ⚠ Training-data verification queue
 

@@ -1,11 +1,11 @@
 # Concept: Weak Finger Development — 弱指 (4-5) 訓練
 
 > 來源：Hanon §1-30, Czerny *Op.299 / Op.740*, Pischna *60 Progressive Exercises*, Liszt *Technical Studies*, Brahms *51 Exercises*
-> 引用方：[[concept_finger_independence]], [[concept_hand_anatomy]], [[analysis_common_fingering_injuries]]
+> 引用方：[concept_finger_independence](concept_finger_independence.md), [concept_hand_anatomy](concept_hand_anatomy.md), [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md)
 
 ## 1. 為何需要弱指訓練
 
-[[concept_finger_independence]] §2 列出 4 (無名指) 與 5 (小指) 是解剖學上**最弱**的兩指：
+[concept_finger_independence](concept_finger_independence.md) §2 列出 4 (無名指) 與 5 (小指) 是解剖學上**最弱**的兩指：
 - **4**: 與 3-5 共用 extensor tendon（juncturae tendinum）
 - **5**: 解剖最小、肌肉群最少
 
@@ -100,7 +100,7 @@
 - 4 避免承擔 melody / accent / tenuto
 - 5 在快速段慎用（容易 lose control）
 
-對 score-claude DP 的意涵：DP 內建強指偏好（[[concept_finger_independence]] §8），對「未訓練弱指」的演奏者是合理保守設計。
+對 score-claude DP 的意涵：DP 內建強指偏好（[concept_finger_independence](concept_finger_independence.md) §8），對「未訓練弱指」的演奏者是合理保守設計。
 
 ## 7. 弱指 strain 訊號
 
@@ -114,13 +114,13 @@
 
 → 出現任何訊號立即降低弱指練習量，必要時諮詢醫師 / piano therapist。
 
-[[analysis_common_fingering_injuries]] 詳述 focal dystonia / RSI 的弱指相關風險。
+[analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) 詳述 focal dystonia / RSI 的弱指相關風險。
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[concept_finger_independence]] — 弱指訓練的目標就是提升獨立性
-- [[concept_hand_anatomy]] — 解剖學基礎
-- [[concept_trill_fingering]] — 4-5 trill 是弱指極限挑戰
-- [[analysis_common_fingering_injuries]] — 過度訓練的歷史教訓 + 預防
-- [[concept_small_hands]] — 小手與弱指挑戰疊加
-- [[../wiki_articulation/concept_tenuto]] — 弱指承擔 tenuto 的限制
+- [concept_finger_independence](concept_finger_independence.md) — 弱指訓練的目標就是提升獨立性
+- [concept_hand_anatomy](concept_hand_anatomy.md) — 解剖學基礎
+- [concept_trill_fingering](concept_trill_fingering.md) — 4-5 trill 是弱指極限挑戰
+- [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) — 過度訓練的歷史教訓 + 預防
+- [concept_small_hands](concept_small_hands.md) — 小手與弱指挑戰疊加
+- [../wiki_articulation/concept_tenuto](../wiki_articulation/concept_tenuto.md) — 弱指承擔 tenuto 的限制

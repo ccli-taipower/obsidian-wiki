@@ -33,7 +33,7 @@ GTTM 提出對任何調性音樂段落的四套**平行階層分析**（grouping
 - **GPR 5（Symmetry）**：偏好等長群組
   - **➜ 對應 Pass 2「推斷最常見樂句長度，對齊至 2/4/6/8 小節」**
 - **GPR 6（Parallelism）**：重複出現的音樂材料應分到平行位置的群組
-  - **➜ 對應 motif consistency（HARD rule），見 `[[../score-claude/memory/feedback_personal_biomechanics]]`**
+  - **➜ 對應 motif consistency（HARD rule），見 `*feedback_personal_biomechanics*`**
 - **GPR 7（Time-Span and Prolongational Stability）**：偏好讓 grouping 結果使更高層 reduction 更穩定（cross-component 條件）
 
 ### Metrical Structure（節拍結構）
@@ -122,7 +122,7 @@ GTTM 自己沒有給出明確的權重數值，但提出：
    - 「同 motif → 同 fingering」是 GPR 6 在指法 domain 的鏡像
    - 但 GTTM 把 parallelism 當 PR（軟）而本專案當 HARD requirement
    - 差異來源：聽覺感知容許小變化（PR 軟）；肌肉記憶不容許（HARD）
-   - 詳見 `[[../score-claude/memory/feedback_personal_biomechanics]]`
+   - 詳見 `*feedback_personal_biomechanics*`
 
 4. **GPR 4 (Intensification) 是未實作的 boundary scoring 機會**：
    - 目前 hard break = binary；多面向同時觸發時應加權產生「強邊界」
@@ -143,7 +143,7 @@ GTTM 自己沒有給出明確的權重數值，但提出：
 
 7. **承認 grouping 結果在多聲部音樂中可能不對齊**：
    - GTTM 對 monophonic / homophonic 設計；對 counterpoint 各聲部獨立 grouping 暗示但未細談
-   - **➜ 與 `[[src_epochtimes_fugue_zhou_2005]]` 啟示 1 一致**：兩手樂句邊界不必同步
+   - **➜ 與 `[src_epochtimes_fugue_zhou_2005](src_epochtimes_fugue_zhou_2005.md)` 啟示 1 一致**：兩手樂句邊界不必同步
    - 本專案 `_detect_phrase_starts` per-hand 跑是對的
 
-詳見 [[concept_figural_boundary_detection]]、[[concept_texture_change_detection]]、[[concept_phrase_elision]] 與 [[../score-claude/memory/feedback_phrase_as_breath]]、[[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]]。
+詳見 [concept_figural_boundary_detection](concept_figural_boundary_detection.md)、[concept_texture_change_detection](concept_texture_change_detection.md)、[concept_phrase_elision](concept_phrase_elision.md) 與 *feedback_phrase_as_breath*、*feedback_phrase_analysis_is_its_own_discipline*。

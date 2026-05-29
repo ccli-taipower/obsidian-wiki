@@ -1,7 +1,7 @@
 # Source: C.P.E. Bach《Versuch über die wahre Art das Clavier zu spielen》(1753)
 
 > Carl Philipp Emanuel Bach (1714-1788), *Versuch über die wahre Art das Clavier zu spielen*（《論鍵盤演奏的真實藝術》）, Part I (1753, Berlin), Part II (1762, Berlin)；英譯 *Essay on the True Art of Playing Keyboard Instruments* (William J. Mitchell 譯, 1949, W.W. Norton)
-> 引用方：[[concept_non_legato_baroque]] §2, [[src_turk_klavierschule]] §對應, [[concept_ornament_articulation]] §5
+> 引用方：[concept_non_legato_baroque](concept_non_legato_baroque.md) §2, [src_turk_klavierschule](src_turk_klavierschule.md) §對應, [concept_ornament_articulation](concept_ornament_articulation.md) §5
 
 ## 1. 作者背景
 
@@ -42,7 +42,7 @@ C.P.E. Bach 是「**Empfindsamer Stil**」（敏感風格）的代表作曲家�
 
 C.P.E. Bach 強調 legato 是**特殊技術**，不是默認 — 與 Romantic 後傳統把 legato 當默認形成鮮明對比。
 
-→ 強化 [[concept_non_legato_baroque]] § Baroque 主張：**Baroque legato 是例外，需要明確標記**。
+→ 強化 [concept_non_legato_baroque](concept_non_legato_baroque.md) § Baroque 主張：**Baroque legato 是例外，需要明確標記**。
 
 ### 3.3 各種觸鍵分類
 
@@ -72,7 +72,7 @@ C.P.E. Bach 強調 articulation + dynamics + tempo 是「**表情三要素**」�
 - **Turn**：placement before / after note, speed
 - **Tremolo / Bebung** (clavichord-specific)
 
-對指法的意涵：[[concept_ornament_articulation]] 的多數 ornament 規則可追溯至 *Versuch*。
+對指法的意涵：[concept_ornament_articulation](concept_ornament_articulation.md) 的多數 ornament 規則可追溯至 *Versuch*。
 
 ## 5. *Versuch* 對後世的影響
 
@@ -88,10 +88,10 @@ C.P.E. Bach 強調 articulation + dynamics + tempo 是「**表情三要素**」�
 
 | C.P.E. Bach 主張 | 對 score-claude DP 的對應 |
 |---|---|
-| Default 非 legato (~50%) | 強化 [[concept_non_legato_baroque]] §2 對 Baroque MXL 處理 |
-| Legato 是特殊技術 | [[concept_legato_substitution]] 啟用應 per-piece opt-in 而非 default |
-| Articulation 分類 | [[concept_articulation_overview]] §2 taxonomy 歷史基礎 |
-| Ornament 詮釋細則 | [[concept_ornament_articulation]] §2-5 規則的一手依據 |
+| Default 非 legato (~50%) | 強化 [concept_non_legato_baroque](concept_non_legato_baroque.md) §2 對 Baroque MXL 處理 |
+| Legato 是特殊技術 | [concept_legato_substitution](concept_legato_substitution.md) 啟用應 per-piece opt-in 而非 default |
+| Articulation 分類 | [concept_articulation_overview](concept_articulation_overview.md) §2 taxonomy 歷史基礎 |
+| Ornament 詮釋細則 | [concept_ornament_articulation](concept_ornament_articulation.md) §2-5 規則的一手依據 |
 
 ## 7. 文章未涵蓋
 
@@ -101,12 +101,12 @@ C.P.E. Bach 強調 articulation + dynamics + tempo 是「**表情三要素**」�
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[concept_non_legato_baroque]] §2 — C.P.E. Bach 對 Baroque non-legato default 的核心論證
-- [[concept_articulation_overview]] §3 — Baroque default 操作型百分比
-- [[concept_ornament_articulation]] §5 — Baroque ornament 詮釋一手文獻
-- [[src_turk_klavierschule]] §對應 — Türk 多次引用 C.P.E. Bach
-- [[src_donington_baroque_music]] — Donington 20 世紀 HIP 視角對 *Versuch* 的回顧
-- [[../wiki_phrase/concept_fugue]] / [[../wiki_phrase/concept_counterpoint]] — 對位作品 articulation 處理
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) §2 — C.P.E. Bach 對 Baroque non-legato default 的核心論證
+- [concept_articulation_overview](concept_articulation_overview.md) §3 — Baroque default 操作型百分比
+- [concept_ornament_articulation](concept_ornament_articulation.md) §5 — Baroque ornament 詮釋一手文獻
+- [src_turk_klavierschule](src_turk_klavierschule.md) §對應 — Türk 多次引用 C.P.E. Bach
+- [src_donington_baroque_music](src_donington_baroque_music.md) — Donington 20 世紀 HIP 視角對 *Versuch* 的回顧
+- [../wiki_phrase/concept_fugue](../wiki_phrase/concept_fugue.md) / [../wiki_phrase/concept_counterpoint](../wiki_phrase/concept_counterpoint.md) — 對位作品 articulation 處理
 
 ## 9. ⚠ Training-data verification queue
 

@@ -1,9 +1,9 @@
 # Composer: Mozart 樂句 — 古典 period / sentence 純正範本
 
-> 來源：[[concept_classical_period_sentence]] 基底 + Caplin《Classical Form》、Rosen《The Classical Style》Mozart 章節
+> 來源：[concept_classical_period_sentence](concept_classical_period_sentence.md) 基底 + Caplin《Classical Form》、Rosen《The Classical Style》Mozart 章節
 > 涵蓋 PIG：Mozart 20 曲（第二大 composer bloc）
 > 狀態：第一版 2026-05-26
-> 引用方：[[concept_classical_period_sentence]] (反向引用 — 純正範本)
+> 引用方：[concept_classical_period_sentence](concept_classical_period_sentence.md) (反向引用 — 純正範本)
 
 ## 1. Mozart 為何單獨開頁
 
@@ -13,7 +13,7 @@ Mozart 是古典時期樂句結構最「規範」的作曲家 — Caplin《Class
 - **Cadence 訊號清晰**：V-I 根位 + soprano 在 tonic 為標準
 - **Sonata-allegro 結構規範**：主題 / 過渡 / 副題 / development / recap 段落邊界明確
 
-→ Mozart 是驗證 [[concept_cadence_detection]] 與 [[concept_classical_period_sentence]] 演算法的**理想 baseline**。
+→ Mozart 是驗證 [concept_cadence_detection](concept_cadence_detection.md) 與 [concept_classical_period_sentence](concept_classical_period_sentence.md) 演算法的**理想 baseline**。
 
 ## 2. PIG 20 首 Mozart 大致分類（待逐曲確認）
 
@@ -68,7 +68,7 @@ Recapitulation (再現部)
 | **4-bar 週期 fallback** | **Mozart 適用**（Pass 3 OK） | ⭐⭐ |
 | Albert bass change | LH alberti pattern 切換到其他 texture | ⭐⭐ |
 
-## 5. Mozart vs Beethoven (與 [[composer_beethoven_phrasing]] 對比)
+## 5. Mozart vs Beethoven (與 [composer_beethoven_phrasing](composer_beethoven_phrasing.md) 對比)
 
 | 特徵 | Mozart | Beethoven (Op.30 後) |
 |---|---|---|
@@ -78,7 +78,7 @@ Recapitulation (再現部)
 | 4-bar 週期適用 | ✅ | ❌ (中晚期) |
 | 戲劇性 tempo/dynamic 切換 | 少 | 多 |
 
-**操作意涵**：對 Mozart，可以**信任 [[concept_classical_period_sentence]] 的演算法**直接套用。對 Beethoven 需個別判斷時期。
+**操作意涵**：對 Mozart，可以**信任 [concept_classical_period_sentence](concept_classical_period_sentence.md) 的演算法**直接套用。對 Beethoven 需個別判斷時期。
 
 ## 6. Mozart 樂句特有細節
 
@@ -101,16 +101,16 @@ ABACA / ABACABA 結構。A 段為 refrain，B/C 段為 episode。**段落切換�
 
 | ID | 曲目 | 形式 | 狀態 |
 |---|---|---|---|
-| **011** | K283 G i | sonata-allegro | **verified** — Cadence Phase 2 at m9→m10 IAC, **+1.01pp RH** improvement (2026-05-27); see [[analysis_mozart_k283_first_mov]] |
-| **017** | K545 C i | sonata-allegro (簡化) | **tested** — m7→m8 IAC detected, boundary structure changed; Δ+0.00pp RH (texture-driven limit: m5 ascending scale fingering not fixable by phrase boundary alone); see [[analysis_mozart_k545_first_mov]] |
+| **011** | K283 G i | sonata-allegro | **verified** — Cadence Phase 2 at m9→m10 IAC, **+1.01pp RH** improvement (2026-05-27); see [analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md) |
+| **017** | K545 C i | sonata-allegro (簡化) | **tested** — m7→m8 IAC detected, boundary structure changed; Δ+0.00pp RH (texture-driven limit: m5 ascending scale fingering not fixable by phrase boundary alone); see [analysis_mozart_k545_first_mov](analysis_mozart_k545_first_mov.md) |
 | 012 | K310 a i | sonata-allegro (戲劇性) | candidate — a minor，驗證 Mozart 是否偶爾打破規律 |
 | 013 | K330 C i | sonata-allegro | candidate — 另一個標準範例 |
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 父頁 [[concept_classical_period_sentence]]：通則 — Mozart 是純正範本
-- 對比 [[composer_beethoven_phrasing]]：Beethoven 同源但更自由
-- 工具頁 [[concept_cadence_detection]]：對 Mozart 信心度最高
-- [[analysis_mozart_k283_first_mov]] — K283 Phase 2 primary success case
-- [[analysis_mozart_k545_first_mov]] — K545 Phase 2 texture-limit case
+- 父頁 [concept_classical_period_sentence](concept_classical_period_sentence.md)：通則 — Mozart 是純正範本
+- 對比 [composer_beethoven_phrasing](composer_beethoven_phrasing.md)：Beethoven 同源但更自由
+- 工具頁 [concept_cadence_detection](concept_cadence_detection.md)：對 Mozart 信心度最高
+- [analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md) — K283 Phase 2 primary success case
+- [analysis_mozart_k545_first_mov](analysis_mozart_k545_first_mov.md) — K545 Phase 2 texture-limit case
 

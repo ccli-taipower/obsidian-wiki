@@ -1,7 +1,7 @@
 # Concept: Phrase Anchor — 樂句手位錨點
 
 > 來源：score-claude DP 設計 (Parncutt-inspired), Czerny *Op.500* §hand position 章節, Neuhaus《The Art of Piano Playing》§hand position
-> 引用方：[[../wiki_piano/concept_hand_position_stability]], [[concept_running_passage_thumb_reservation]]
+> 引用方：[../wiki_piano/concept_hand_position_stability](../wiki_piano/concept_hand_position_stability.md), [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md)
 
 ## 1. Phrase Anchor 是什麼
 
@@ -12,7 +12,7 @@
 - 或：樂句內音域 (range) 的**中位數**
 - → 樂句內 fingering 選擇應**減少手位偏離 anchor 的程度**
 
-→ Phrase anchor 是 [[../wiki_piano/concept_hand_position_stability]] 的具體**操作型實現**。
+→ Phrase anchor 是 [../wiki_piano/concept_hand_position_stability](../wiki_piano/concept_hand_position_stability.md) 的具體**操作型實現**。
 
 ## 2. 為何需要 phrase anchor 概念
 
@@ -69,7 +69,7 @@ cost += W_PHRASE_ANCHOR * |implied_anchor(current_fingering) - phrase_anchor|
 | 用途 | Hand position centroid | Scale / arpeggio thumb-pass 位置 |
 | 計算 | Median of implied positions | thumb 落點 |
 
-→ Pivot 是樂句內部的 thumb-pass 點（[[../wiki_piano/concept_long_scale_thumb_under]]）；anchor 是樂句整體的中心。兩者不同概念。
+→ Pivot 是樂句內部的 thumb-pass 點（[../wiki_piano/concept_long_scale_thumb_under](../wiki_piano/concept_long_scale_thumb_under.md)）；anchor 是樂句整體的中心。兩者不同概念。
 
 ## 6. Phrase Anchor 與 phrase boundary 的互動
 
@@ -102,7 +102,7 @@ DP 內 phrase anchor 的角色：
 - `W_PHRASE_ANCHOR = 0.4`: 主要 cost weight (per 2026-05-20 retune)
 - `W_PHRASE_ANCHOR_PER_NOTE`: per-note 加權變體
 
-對應 [[score-claude memory project_retune_v2_2026-05-20]] 的調參記錄。
+對應 [score-claude memory project_retune_v2_2026-05-20](score-claude memory project_retune_v2_2026-05-20.md) 的調參記錄。
 
 ## 9. Phrase Anchor 的學術依據
 
@@ -121,11 +121,11 @@ DP 內 phrase anchor 的角色：
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[../wiki_piano/concept_hand_position_stability]] — Phrase anchor 是 stability 的操作型
-- [[../wiki_piano/concept_thumb_technique]] — Anchor 與 thumb-pass 互動
-- [[concept_running_passage_thumb_reservation]] — Running passage 中的 thumb reservation rule 借用 anchor 概念
-- [[concept_phrase_elision]] — Elision 時兩 phrase anchor 過渡處理
-- [[../wiki_piano/src_parncutt1997_ergonomic_model]] — Parncutt 1997 hand position cost
+- [../wiki_piano/concept_hand_position_stability](../wiki_piano/concept_hand_position_stability.md) — Phrase anchor 是 stability 的操作型
+- [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) — Anchor 與 thumb-pass 互動
+- [concept_running_passage_thumb_reservation](concept_running_passage_thumb_reservation.md) — Running passage 中的 thumb reservation rule 借用 anchor 概念
+- [concept_phrase_elision](concept_phrase_elision.md) — Elision 時兩 phrase anchor 過渡處理
+- [../wiki_piano/src_parncutt1997_ergonomic_model](../wiki_piano/src_parncutt1997_ergonomic_model.md) — Parncutt 1997 hand position cost
 
 ## 11. ⚠ Training-data verification queue
 

@@ -1,7 +1,7 @@
 # Analysis: Hanon & Czerny 技術練習傳統 — 評估與爭議
 
 > 來源：Hanon *The Virtuoso Pianist* (1873), Czerny *Op.299 / Op.740 / Op.500*, Sandor *On Piano Playing* §對 mechanical 練習的批評
-> 引用方：[[concept_finger_independence]], [[concept_weak_finger_development]], [[analysis_common_fingering_injuries]]
+> 引用方：[concept_finger_independence](concept_finger_independence.md), [concept_weak_finger_development](concept_weak_finger_development.md), [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md)
 
 ## 1. Hanon 與 Czerny — 19 世紀技術練習雙巨頭
 
@@ -43,7 +43,7 @@ Hanon §1-60 練習分類：
 
 ### Op.500 *Vollständige... Pianoforte-Schule*
 - 4 卷理論 + 練習教材
-- 不是純練習集 — 系統化整個鋼琴教學 ([[../wiki_articulation/src_czerny_op500_articulation]])
+- 不是純練習集 — 系統化整個鋼琴教學 ([../wiki_articulation/src_czerny_op500_articulation](../wiki_articulation/src_czerny_op500_articulation.md))
 
 ## 4. 20 世紀對 Hanon 的批評
 
@@ -57,7 +57,7 @@ Hanon 練習**完全沒有音樂表情** — 沒有 dynamic, articulation, phras
 
 ### 4.2 強迫 4-5 過度訓練
 
-Hanon 一些練習要求 4-5 高速大量重複 attack — 接近 Schumann 19 世紀 mechanical 器材的失敗教訓 ([[concept_weak_finger_development]] §2)。**focal dystonia 風險高**。
+Hanon 一些練習要求 4-5 高速大量重複 attack — 接近 Schumann 19 世紀 mechanical 器材的失敗教訓 ([concept_weak_finger_development](concept_weak_finger_development.md) §2)。**focal dystonia 風險高**。
 
 ### 4.3 「**快+大量**」與真實演奏需求不符
 
@@ -134,11 +134,11 @@ Hanon / Czerny 練習的價值：
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_finger_independence]] — Hanon / Czerny 的訓練核心目標
-- [[concept_weak_finger_development]] — Hanon §1-30 對 4-5 的訓練（含過度風險）
-- [[concept_scale_fingering]] / [[concept_arpeggio_fingering]] — Czerny / Hanon 標準 scale / arpeggio fingering 來源
-- [[analysis_common_fingering_injuries]] — Hanon 過度訓練的 strain / focal dystonia 風險
-- [[../wiki_articulation/src_czerny_op500_articulation]] — Czerny Op.500 articulation 部分（與練習集互補）
+- [concept_finger_independence](concept_finger_independence.md) — Hanon / Czerny 的訓練核心目標
+- [concept_weak_finger_development](concept_weak_finger_development.md) — Hanon §1-30 對 4-5 的訓練（含過度風險）
+- [concept_scale_fingering](concept_scale_fingering.md) / [concept_arpeggio_fingering](concept_arpeggio_fingering.md) — Czerny / Hanon 標準 scale / arpeggio fingering 來源
+- [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) — Hanon 過度訓練的 strain / focal dystonia 風險
+- [../wiki_articulation/src_czerny_op500_articulation](../wiki_articulation/src_czerny_op500_articulation.md) — Czerny Op.500 articulation 部分（與練習集互補）
 
 ## 11. ⚠ Training-data verification queue
 

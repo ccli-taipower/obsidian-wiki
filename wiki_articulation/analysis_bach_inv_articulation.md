@@ -2,12 +2,12 @@
 
 > 來源：Donington《Baroque Music》、Türk《Klavierschule》、Bischoff / Mikuli / Henle / Bärenreiter editions 比較、Schiff 演奏實踐
 > 對應 PIG：未列入 / 教學用 Inv 1, 4 在 wiki_phrase 有專頁
-> 引用方：[[../wiki_phrase/analysis_bach_inv_1_c_major]] §articulation, [[concept_non_legato_baroque]] §例外 Bach legato 段, [[concept_period_defaults]] §Baroque
+> 引用方：[../wiki_phrase/analysis_bach_inv_1_c_major](../wiki_phrase/analysis_bach_inv_1_c_major.md) §articulation, [concept_non_legato_baroque](concept_non_legato_baroque.md) §例外 Bach legato 段, [concept_period_defaults](concept_period_defaults.md) §Baroque
 
 ## 1. 為什麼挑 Bach Inventions 作為 Baroque articulation 案例
 
 理由：
-- Bach 2-voice Inventions 是初中階學生最早接觸的對位作品（[[../score-claude/memory/project_target_repertoire_intermediate]]）
+- Bach 2-voice Inventions 是初中階學生最早接觸的對位作品（*project_target_repertoire_intermediate*）
 - Bach 自己沒在 Inventions 上寫多少 articulation 標記 — 演奏者必須依**時代 default**詮釋
 - 不同 edition 對「該加什麼 slur」分歧巨大 — 是研究 editorial slur 汙染的最佳案例
 
@@ -22,7 +22,7 @@
 | Inv 8 (F major) | 同 Inv 1 | 同上 |
 | 全部 15 mvts 平均 | 每首 < 5 個 slur | 接近 0 articulation 標記 |
 
-→ 結論：演奏 Bach Inventions 時，**沒有 slur 標記是常態**，演奏者必須依 [[concept_non_legato_baroque]] default 處理。
+→ 結論：演奏 Bach Inventions 時，**沒有 slur 標記是常態**，演奏者必須依 [concept_non_legato_baroque](concept_non_legato_baroque.md) default 處理。
 
 ## 3. 不同 edition 的 articulation 編輯傾向
 
@@ -49,7 +49,7 @@
 | **Inv 11 (G minor)** | Chromatic descending 段 | 半音下行常 legato (sigh 表情) |
 | **Sigh motif (Inv 4, Inv 7, Inv 13)** | 2-音 下行（appoggiatura-resolution）| Baroque 表情慣例就是 legato 2-音 sigh |
 
-對指法的意涵：這些段落應 honor [[concept_legato_substitution]] rule，即使 MXL 沒明確 slur 標記。但 score-claude DP 目前無法**自動判斷**這些段落 —— 需要 manual per-mvt opt-in 或 editorial slur 訊號。
+對指法的意涵：這些段落應 honor [concept_legato_substitution](concept_legato_substitution.md) rule，即使 MXL 沒明確 slur 標記。但 score-claude DP 目前無法**自動判斷**這些段落 —— 需要 manual per-mvt opt-in 或 editorial slur 訊號。
 
 ## 5. Audiveris MXL 對 Bach Inventions 的 articulation 抓取
 
@@ -62,7 +62,7 @@
 2. Audiveris OMR 對 Baroque 細小標記辨識率低
 3. Bach 原稿確實無這些標記
 
-→ 對 score-claude DP 的意涵：對 Bach Inv 啟用 [[concept_legato_substitution]] **基本 no-op**（無 slur 訊號）。其他 articulation 規則對 Bach Inv 也預期 no-op。Bach Inventions 是「**non-legato default 應該主導**」的案例。
+→ 對 score-claude DP 的意涵：對 Bach Inv 啟用 [concept_legato_substitution](concept_legato_substitution.md) **基本 no-op**（無 slur 訊號）。其他 articulation 規則對 Bach Inv 也預期 no-op。Bach Inventions 是「**non-legato default 應該主導**」的案例。
 
 ## 6. 每首 Inv 的 articulation 詮釋建議
 
@@ -84,19 +84,19 @@
 
 | 觀察 | 對 DP 的意涵 |
 |---|---|
-| Bach Inv MXL 無 slur | [[concept_legato_substitution]] 在 Bach Inv 啟用 = no-op |
+| Bach Inv MXL 無 slur | [concept_legato_substitution](concept_legato_substitution.md) 在 Bach Inv 啟用 = no-op |
 | 部分 mvt 內有 legato 段（Inv 4, 5, 7, 11）| 未來 v3：per-mvt 段落級 articulation override |
 | Editorial slur 不可靠 | 若取得 Bischoff / Mikuli 的 MXL，**不應**啟用 legato substitution |
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[concept_non_legato_baroque]] §6 — Bach 是 Baroque non-legato 主要曲目代表
-- [[concept_period_defaults]] §5 — Bach editions 的編輯者 articulation 是 editorial slur 汙染最典型案例
-- [[concept_legato_substitution]] §5 — Bach Inv 在「適用情境」表中標「部分適用（看 edition slur 標記）」
-- [[../wiki_phrase/analysis_bach_inv_1_c_major]] 等 7 個 Bach Inv analysis 頁 — 樂句結構分析，本頁是 articulation 補充
-- [[../wiki_phrase/src_bach_inventions_pedagogy]] — 多 edition pedagogy 比較
-- [[src_donington_baroque_music]] — Donington 對 editorial slur 汙染的批評
-- [[src_turk_klavierschule]] — Türk 18 世紀末文獻支持 Baroque non-legato default
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) §6 — Bach 是 Baroque non-legato 主要曲目代表
+- [concept_period_defaults](concept_period_defaults.md) §5 — Bach editions 的編輯者 articulation 是 editorial slur 汙染最典型案例
+- [concept_legato_substitution](concept_legato_substitution.md) §5 — Bach Inv 在「適用情境」表中標「部分適用（看 edition slur 標記）」
+- [../wiki_phrase/analysis_bach_inv_1_c_major](../wiki_phrase/analysis_bach_inv_1_c_major.md) 等 7 個 Bach Inv analysis 頁 — 樂句結構分析，本頁是 articulation 補充
+- [../wiki_phrase/src_bach_inventions_pedagogy](../wiki_phrase/src_bach_inventions_pedagogy.md) — 多 edition pedagogy 比較
+- [src_donington_baroque_music](src_donington_baroque_music.md) — Donington 對 editorial slur 汙染的批評
+- [src_turk_klavierschule](src_turk_klavierschule.md) — Türk 18 世紀末文獻支持 Baroque non-legato default
 
 ## 9. ⚠ Training-data verification queue
 

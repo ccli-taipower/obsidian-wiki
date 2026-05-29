@@ -1,7 +1,7 @@
 # Source: Matthay《The Visible and Invisible in Pianoforte Technique》
 
 > Tobias Matthay (1858-1945), *The Visible and Invisible in Pianoforte Technique* (1932, Oxford University Press)
-> 引用方：[[concept_legato_substitution]] §2, [[concept_articulation_overview]] §1
+> 引用方：[concept_legato_substitution](concept_legato_substitution.md) §2, [concept_articulation_overview](concept_articulation_overview.md) §1
 
 ## 1. 作者背景
 
@@ -25,7 +25,7 @@ Matthay 的核心物理觀察：
 
 關鍵點：legato 要求音與音間「**重疊期**」，而同一手指在物理上無法同時做「持續按下」+「彈下下一音」兩件事。
 
-詳見 [[concept_legato_substitution]] §2.2 引用。
+詳見 [concept_legato_substitution](concept_legato_substitution.md) §2.2 引用。
 
 ### 2.2 「可見」vs「不可見」articulation
 
@@ -43,14 +43,14 @@ Matthay 的二元分類：
 - 快速段（≥ Allegro 16 分音符）→ 必須用手指 staccato，重量觸鍵會跟不上
 - 慢速段（≤ Andante 八分音符）→ 重量 legato 才有時間建立
 
-→ 對指法的意涵：[[concept_legato_substitution]] §6 失效情境（fast passages）+ [[concept_tenuto]] §3 強指偏好 都呼應 Matthay 的速度-重量對應觀察。
+→ 對指法的意涵：[concept_legato_substitution](concept_legato_substitution.md) §6 失效情境（fast passages）+ [concept_tenuto](concept_tenuto.md) §3 強指偏好 都呼應 Matthay 的速度-重量對應觀察。
 
 ## 3. 與 Neuhaus 觀點的對比
 
 | 項目 | Matthay (英國派) | Neuhaus (俄羅斯派) |
 |---|---|---|
 | 觸鍵理論基礎 | 物理力學 / 解剖學 | 重量 / 美學感受 |
-| 對 substitution 的論證 | 物理不可能性 ([[concept_legato_substitution]] §2.2) | 美學必要性 ([[concept_legato_substitution]] §2.1) |
+| 對 substitution 的論證 | 物理不可能性 ([concept_legato_substitution](concept_legato_substitution.md) §2.2) | 美學必要性 ([concept_legato_substitution](concept_legato_substitution.md) §2.1) |
 | 教學風格 | 系統化 / 分析式 | 啟發式 / 個案式 |
 | 對 specific fingering 著墨 | 較少（偏抽象原則）| 較少（同上） |
 
@@ -60,9 +60,9 @@ Matthay 的二元分類：
 
 | Matthay 主張 | 對 score-claude DP 的對應 |
 |---|---|
-| 物理不可能同指既按既彈 | [[concept_legato_substitution]] 同音換指 cost rule 的物理基礎 |
-| 重量觸鍵與快速度不相容 | [[concept_legato_substitution]] §6 + LEGATO_MIN_DURATION gate（快音不應強制 substitution）|
-| 不可見 articulation 取決於手指選擇 | [[concept_tenuto]] / [[concept_accent_marcato]] 強指偏好 |
+| 物理不可能同指既按既彈 | [concept_legato_substitution](concept_legato_substitution.md) 同音換指 cost rule 的物理基礎 |
+| 重量觸鍵與快速度不相容 | [concept_legato_substitution](concept_legato_substitution.md) §6 + LEGATO_MIN_DURATION gate（快音不應強制 substitution）|
+| 不可見 articulation 取決於手指選擇 | [concept_tenuto](concept_tenuto.md) / [concept_accent_marcato](concept_accent_marcato.md) 強指偏好 |
 
 ## 5. 文章未涵蓋
 
@@ -72,10 +72,10 @@ Matthay 的二元分類：
 
 ## 6. 與其他 wiki 頁面的關係
 
-- [[concept_legato_substitution]] §2.2 — Matthay 同音換指物理論證
-- [[concept_articulation_overview]] §1 — Matthay 物理觀察是「為何 articulation 對指法重要」的基礎
-- [[src_neuhaus_art_of_piano]] — 對比兩派觀點
-- [[../wiki_piano/concept_finger_span_table]] — Matthay 的手指獨立性觀察與解剖學 finger span 表的關係
+- [concept_legato_substitution](concept_legato_substitution.md) §2.2 — Matthay 同音換指物理論證
+- [concept_articulation_overview](concept_articulation_overview.md) §1 — Matthay 物理觀察是「為何 articulation 對指法重要」的基礎
+- [src_neuhaus_art_of_piano](src_neuhaus_art_of_piano.md) — 對比兩派觀點
+- [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — Matthay 的手指獨立性觀察與解剖學 finger span 表的關係
 
 ## 7. ⚠ Training-data verification queue
 

@@ -1,7 +1,7 @@
 # Composer: Scarlatti 樂句分段
 
 > 來源：Kirkpatrick《Domenico Scarlatti》(1953), Sutcliffe《The Keyboard Sonatas of Domenico Scarlatti and Eighteenth-Century Musical Style》(2003)
-> 引用方：[[../wiki_articulation/concept_non_legato_baroque]], [[composer_bach_phrasing]]（Baroque 對比）
+> 引用方：[../wiki_articulation/concept_non_legato_baroque](../wiki_articulation/concept_non_legato_baroque.md), [composer_bach_phrasing](composer_bach_phrasing.md)（Baroque 對比）
 
 ## 1. Scarlatti 樂句的特殊性
 
@@ -34,7 +34,7 @@ Domenico Scarlatti (1685-1757)（與 J.S. Bach 同年生）樂句結構**極度�
 - 同一 sonata 內 phrase length 可變化
 - 似乎反映**舞蹈節奏 + 吉他模仿** 的靈活性
 
-對 [[concept_hypermeter]] 的適用：Scarlatti 段**不適合** 4-bar fallback — 需要 cadence-based phrase detection。
+對 [concept_hypermeter](concept_hypermeter.md) 的適用：Scarlatti 段**不適合** 4-bar fallback — 需要 cadence-based phrase detection。
 
 ### 2.3 Iberian + 吉他模仿
 
@@ -53,7 +53,7 @@ Scarlatti 著名**hand-crossing** (兩手交叉) 技巧：
 - 樂句結構與 hand-crossing 同步
 - 需要 hand-distribution 特殊處理
 
-對指法系統：是 [[../wiki_piano/concept_hand_distribution]] 的早期典範。
+對指法系統：是 [../wiki_piano/concept_hand_distribution](../wiki_piano/concept_hand_distribution.md) 的早期典範。
 
 ## 3. Scarlatti sonatas 重要曲目 ⚠
 
@@ -70,7 +70,7 @@ Scarlatti 著名**hand-crossing** (兩手交叉) 技巧：
 | K.466 (f minor) | — | 浪漫 lyrical |
 | K.466 / K.481 | — | 雙手對話 |
 
-→ Scarlatti sonatas 多為 intermediate 範圍 — 是 [[../score-claude/memory/project_target_repertoire_intermediate]] 潛在候選。
+→ Scarlatti sonatas 多為 intermediate 範圍 — 是 *project_target_repertoire_intermediate* 潛在候選。
 
 ## 4. Scarlatti articulation 標記
 
@@ -81,7 +81,7 @@ Scarlatti 原譜 articulation 標記**極少**（典型 Baroque 默契：依時�
 - 偶見 staccato dot（特別 detache 段）
 - 無 tenuto / accent
 
-→ 演奏家完全依 [[../wiki_articulation/concept_non_legato_baroque]] default 處理 + 依**段落性格**（Iberian vs Italian）做 articulation 詮釋。
+→ 演奏家完全依 [../wiki_articulation/concept_non_legato_baroque](../wiki_articulation/concept_non_legato_baroque.md) default 處理 + 依**段落性格**（Iberian vs Italian）做 articulation 詮釋。
 
 ## 5. Scarlatti 與 Bach 的 Baroque 對比
 
@@ -116,17 +116,17 @@ Scarlatti 對 score-claude DP 的對應：
 - 多數 intermediate 範圍 — 是潛在啟用對象
 - 樂句結構不規則 → 需依 cadence-based 偵測
 - Iberian articulation → 未來 v3 candidate：Iberian-style detection
-- Hand-crossing → [[../wiki_piano/concept_hand_distribution]] 觸發 hand reassignment
+- Hand-crossing → [../wiki_piano/concept_hand_distribution](../wiki_piano/concept_hand_distribution.md) 觸發 hand reassignment
 
 未實作 Scarlatti specific rules。未來方向：取得 Scarlatti sonatas MXL → 驗證 cadence-based phrase detection。
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[composer_bach_phrasing]] — 同為 Baroque 但風格對比
-- [[concept_hypermeter]] — Scarlatti 不規則性 vs Mozart 規則性
-- [[concept_cadence_detection]] — Scarlatti 段 phrase 偵測主要靠 cadence
-- [[../wiki_articulation/concept_non_legato_baroque]] — Scarlatti Baroque default
-- [[../wiki_piano/concept_hand_distribution]] — Scarlatti hand-crossing 技巧典範
+- [composer_bach_phrasing](composer_bach_phrasing.md) — 同為 Baroque 但風格對比
+- [concept_hypermeter](concept_hypermeter.md) — Scarlatti 不規則性 vs Mozart 規則性
+- [concept_cadence_detection](concept_cadence_detection.md) — Scarlatti 段 phrase 偵測主要靠 cadence
+- [../wiki_articulation/concept_non_legato_baroque](../wiki_articulation/concept_non_legato_baroque.md) — Scarlatti Baroque default
+- [../wiki_piano/concept_hand_distribution](../wiki_piano/concept_hand_distribution.md) — Scarlatti hand-crossing 技巧典範
 
 ## 9. ⚠ Training-data verification queue
 

@@ -1,9 +1,9 @@
 # Concept: Figural Boundary Detection — episode / coda 內 figure 切換偵測
 
 > 來源：通用音樂分析 + Schoenberg《Fundamentals of Musical Composition》motif/figure 章節、Bach 演奏實踐
-> 引用方：[[concept_fugue]] (episode 段)、[[composer_beethoven_phrasing]] (中段)、[[concept_chopin_lyrical_phrase]] (figural etudes)、[[analysis_bach_inv_4_d_minor]]
+> 引用方：[concept_fugue](concept_fugue.md) (episode 段)、[composer_beethoven_phrasing](composer_beethoven_phrasing.md) (中段)、[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) (figural etudes)、[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md)
 > 狀態：工具頁，第一版 2026-05-26
-> 觸發 case：[[analysis_bach_inv_4_d_minor]] §4 m50 邊界揭露 subject + cadence 不足
+> 觸發 case：[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) §4 m50 邊界揭露 subject + cadence 不足
 
 ## 1. 為什麼需要第三類樂句邊界
 
@@ -13,7 +13,7 @@
 - **Motif (動機)**：有 melodic identity 的小單位（subject head, 主題碎片）
 - **Figure (音型)**：純粹的織度 / 形狀單位（descending sextuplet、broken chord arpeggio、scale run），無獨立 melodic 意義
 
-本頁專注**第二類**（音型 figure）的邊界偵測 — 第一類由 [[concept_subject_imitation_detection]] 處理。
+本頁專注**第二類**（音型 figure）的邊界偵測 — 第一類由 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 處理。
 
 ## 2. Figure 的操作型定義
 
@@ -212,7 +212,7 @@ boundaries = (
 
 ## 10. 與其他 wiki 頁面的關係
 
-- 與 [[concept_subject_imitation_detection]] 互補：subject 處理對位 motif，本頁處理無 motif 的純 figure
-- 與 [[concept_cadence_detection]] 互補：cadence 處理和聲收束，本頁處理 melodic 形狀切換
-- 觸發頁：[[analysis_bach_inv_4_d_minor]] §4 揭露此 concept 缺失
+- 與 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 互補：subject 處理對位 motif，本頁處理無 motif 的純 figure
+- 與 [concept_cadence_detection](concept_cadence_detection.md) 互補：cadence 處理和聲收束，本頁處理 melodic 形狀切換
+- 觸發頁：[analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) §4 揭露此 concept 缺失
 

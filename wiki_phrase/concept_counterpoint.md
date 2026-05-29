@@ -1,6 +1,6 @@
 # Concept: Counterpoint 對位 — 多聲部樂句獨立性
 
-> 來源：[[src_epochtimes_fugue_zhou_2005]] + 通用音樂理論擴增
+> 來源：[src_epochtimes_fugue_zhou_2005](src_epochtimes_fugue_zhou_2005.md) + 通用音樂理論擴增
 > 狀態：種子頁，第一版 2026-05-26
 
 ## 1. 一句話定義
@@ -53,7 +53,7 @@
 - 一聲部呈現旋律，另一聲部隨後重述
 - 模仿可在 prime / 5th / 4th / 8va 等音程
 - Fugue 是模仿對位的最高度組織化形式
-- 詳見 [[concept_fugue]]
+- 詳見 [concept_fugue](concept_fugue.md)
 
 ### 5.4 非模仿對位 (Non-imitative Counterpoint)
 - 聲部間旋律不重複，但互相獨立
@@ -86,7 +86,7 @@
 
 當前實作假設 **RH = 上聲部，LH = 下聲部** — Bach Inventions 大致成立，但有反例：
 
-- **跨譜表聲部編碼**（stem direction 標示真實聲部）：見 [[../score-claude/memory/feedback_cross_staff_stem_direction.md]] 與 `SINGLE_PDF_HAND_REASSIGN` 機制
+- **跨譜表聲部編碼**（stem direction 標示真實聲部）：見 *feedback_cross_staff_stem_direction.md* 與 `SINGLE_PDF_HAND_REASSIGN` 機制
 - **RH 雙聲部**：Bach Sinfonias (3 聲部) 常將 2 條聲部塞進 RH 譜表，stem 方向區分
 - **LH 跨譜表伴奏**：浪漫派 octave / arpeggio bass
 
@@ -94,16 +94,16 @@
 
 ## 8. 與「同音型同指法 HARD」原則的整合
 
-[[../score-claude/memory/feedback_personal_biomechanics]] 要求同音型同指法。對位作品的特殊情況：
+*feedback_personal_biomechanics* 要求同音型同指法。對位作品的特殊情況：
 
 - **同主題在不同聲部**：RH 與 LH 都唱主題，是否該用「相同指法」？答案：**否**。LH 與 RH 指法本來就 mirror 不對稱（拇指方向相反），加上音高位置不同，「相同指法」物理上不能複製。
 - **同聲部同主題**：在同一隻手內、主題重入聲使用相同指法 — **是**，這是原則的核心案例。
 
 ## 9. 待補頁面
 
-- [[concept_subject_imitation_detection]] — 主題 / 模仿偵測演算法
-- [[concept_cadence_detection]] — 終止式偵測
-- [[concept_voice_separation_for_phrasing]] — voice separation 對樂句分析的影響
-- [[analysis_bach_inv_4_d_minor]] — mvt4 case study
-- [[composer_bach_invention_phrasing]] — Bach Invention 風格特化
+- [concept_subject_imitation_detection](concept_subject_imitation_detection.md) — 主題 / 模仿偵測演算法
+- [concept_cadence_detection](concept_cadence_detection.md) — 終止式偵測
+- [concept_voice_separation_for_phrasing](concept_voice_separation_for_phrasing.md) — voice separation 對樂句分析的影響
+- [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) — mvt4 case study
+- [composer_bach_invention_phrasing](composer_bach_invention_phrasing.md) — Bach Invention 風格特化
 

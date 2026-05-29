@@ -3,15 +3,15 @@
 > PIG: 023 (4 annotators)
 > 來源：通用 Chopin Nocturne 分析 + Eigeldinger《Chopin Pianist and Teacher》+ Rosen《The Romantic Generation》
 > 狀態：第三個 per-piece analysis，2026-05-26
-> 引用方：[[composer_chopin_phrasing]] §3.1、[[concept_chopin_lyrical_phrase]] §6、[[concept_phrase_elision]] §5
+> 引用方：[composer_chopin_phrasing](composer_chopin_phrasing.md) §3.1、[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) §6、[concept_phrase_elision](concept_phrase_elision.md) §5
 
 ## 1. 為什麼挑這首
 
 Op.9 No.2 是 Chopin 最知名的 Nocturne，pedagogically 也是最常被分析的浪漫派 lyrical 範例。對 wiki 的價值：
 
-- 驗證 [[concept_chopin_lyrical_phrase]] 的「禁用 4-bar fallback」「LH pattern reset 為樂句訊號」是否實際適用
-- 驗證 [[concept_phrase_elision]] 對浪漫派的應用（Op.9-2 中段華彩後常見 elision）
-- 與 [[analysis_mozart_k283_first_mov]] 對比：古典 cadence-driven vs 浪漫 texture-driven
+- 驗證 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 的「禁用 4-bar fallback」「LH pattern reset 為樂句訊號」是否實際適用
+- 驗證 [concept_phrase_elision](concept_phrase_elision.md) 對浪漫派的應用（Op.9-2 中段華彩後常見 elision）
+- 與 [analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md) 對比：古典 cadence-driven vs 浪漫 texture-driven
 
 ## 2. 曲目基本資訊
 
@@ -75,7 +75,7 @@ Variation 1 (bar 13-14, 21-22) 與 variation 2 (bar 24) 與 Coda (bar 33-35) 有
 
 - **不應**視為樂句邊界 — fioritura 是前一個 melodic note 的 expressive prolongation
 - **應**：fioritura 結束後的下個 strong-beat melodic note 是 phrase continuation（不是新樂句）
-- 對 [[concept_figural_boundary_detection]]：fioritura 滿足 figural 條件 (連續 stepwise, monotonic), Pass 4 會誤觸發
+- 對 [concept_figural_boundary_detection](concept_figural_boundary_detection.md)：fioritura 滿足 figural 條件 (連續 stepwise, monotonic), Pass 4 會誤觸發
 
 → Op.9-2 case 顯示 figural detection 對浪漫派 lyrical 段需要 **fioritura 過濾**。
 
@@ -119,7 +119,7 @@ Op.9-2 中段（variation 1, ~bar 14）常有 elision：
 - variation 1 立即從 bar 13 (E♭ tonic) 起跑
 - bar 13 的 E♭ 音同時是「主題收尾」與「variation 起手」
 
-→ [[concept_phrase_elision]] 「歸前」原則：bar 12 末歸主題、bar 13 起算 variation。Boundary idx 應在 bar 13 第 1 拍**之前**的 transition 點。
+→ [concept_phrase_elision](concept_phrase_elision.md) 「歸前」原則：bar 12 末歸主題、bar 13 起算 variation。Boundary idx 應在 bar 13 第 1 拍**之前**的 transition 點。
 
 ## 9. PIG 4 annotators 預期 disagreement
 
@@ -143,10 +143,10 @@ Chopin 浪漫派指法比 Mozart classical 變異更大（個人風格 + 大手�
 
 ## 11. 與其他 wiki 頁面的關係
 
-- 父頁 [[composer_chopin_phrasing]]：通則 (per-genre, 本曲 = Nocturne)
-- 父頁 [[concept_chopin_lyrical_phrase]]：通則 (浪漫派 lyrical)
-- 工具頁 [[concept_phrase_elision]]：Op.9-2 為主要驗證 case
-- 反向：[[concept_figural_boundary_detection]] 對 fioritura 的處理
-- 兄弟頁 [[analysis_mozart_k283_first_mov]]：古典 vs 浪漫對比
-  - [[analysis_chopin_ballade_2]] — 大型 narrative
+- 父頁 [composer_chopin_phrasing](composer_chopin_phrasing.md)：通則 (per-genre, 本曲 = Nocturne)
+- 父頁 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md)：通則 (浪漫派 lyrical)
+- 工具頁 [concept_phrase_elision](concept_phrase_elision.md)：Op.9-2 為主要驗證 case
+- 反向：[concept_figural_boundary_detection](concept_figural_boundary_detection.md) 對 fioritura 的處理
+- 兄弟頁 [analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md)：古典 vs 浪漫對比
+  - [analysis_chopin_ballade_2](analysis_chopin_ballade_2.md) — 大型 narrative
 

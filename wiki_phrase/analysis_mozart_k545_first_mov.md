@@ -1,7 +1,7 @@
 # Analysis: Mozart Piano Sonata K545 in C major, 1st movement (B1-12 excerpt)
 
 > Source: PIG val piece 017 (`017_Mozart_PSon_K545_C_i_B1-12`)
-> Cadence Phase 2 validation result: secondary (texture limit) — see [[concept_cadence_detection]] §7.4
+> Cadence Phase 2 validation result: secondary (texture limit) — see [concept_cadence_detection](concept_cadence_detection.md) §7.4
 > Status: FIXED 2026-05-27 — long-scale thumb-under rule deployed; K545 RH +4.06pp (BASE 70.02% → Run D 74.08%)
 
 ## 1. Excerpt structure
@@ -34,7 +34,7 @@ After Cadence Phase 2 removed the false m5 phrase boundary, DP fingering still
 defaulted to `1-2-3-4-5` because `_transition_cost` penalized the thumb-under
 transition (C5→D5: pf=3, cf=1) as WRONG_DIRECTION (~11.0 surcharge).
 
-The Long-Scale Thumb-Under Protection rule (see [[../wiki_piano/concept_long_scale_thumb_under]])
+The Long-Scale Thumb-Under Protection rule (see [../wiki_piano/concept_long_scale_thumb_under](../wiki_piano/concept_long_scale_thumb_under.md))
 detects K545 m5 as a long ascending diatonic scale segment, cancels the
 WRONG_DIRECTION penalty on thumb-pass transitions at the standard pivot position
 inside the segment, and allows DP to pick `1-2-3-1-2-3-4-5` matching PIG 6/6.
@@ -44,7 +44,7 @@ Result: K545 RH BASE 70.02% → Run D (cadence + long_scale): **74.08% (Δ+4.06p
 Both rules are opt-in via `SINGLE_PDF_PHRASE_FLAGS["017_Mozart_PSon_K545_C_i_B1-12"]
 = {"cadence": True, "long_scale": True, ...}`.
 
-**v1 deviations from spec** (see [[../wiki_piano/concept_long_scale_thumb_under]] §4):
+**v1 deviations from spec** (see [../wiki_piano/concept_long_scale_thumb_under](../wiki_piano/concept_long_scale_thumb_under.md) §4):
 - Direction guard: only RH ascending + LH descending (2 of 4 cases); RH descending
   thumb-over not yet cancelled
 - Position guard: hardcoded `offset % 5 == 2` matches C-major-style pivot; may need
@@ -52,7 +52,7 @@ Both rules are opt-in via `SINGLE_PDF_PHRASE_FLAGS["017_Mozart_PSon_K545_C_i_B1-
 
 **v2 update (2026-05-27)**: Position guard refactored from hardcoded `offset % 5 == 2`
 to direction-aware modular pattern + uniform end-guard (see
-[[../wiki_piano/concept_long_scale_thumb_under]] §4). K545 RH **IMPROVED from
+[../wiki_piano/concept_long_scale_thumb_under](../wiki_piano/concept_long_scale_thumb_under.md) §4). K545 RH **IMPROVED from
 v1 74.08% to v2 77.59% (+3.51pp gain)** — m9's long ascending segment now fires
 multiple thumb-unders correctly (v1 only fired once). m5 fingering still
 `1-2-3-1-2-3-4-5` matching PIG 6/6. Both v1 deviation notes (direction guard
@@ -64,7 +64,7 @@ K545 m1, m2, m4 all have measures ending on a single bass note D (dominant), whi
 
 ## 6. Cross-refs
 
-- [[concept_cadence_detection]] §7 — Phase 2 algorithm + K283/K545 validation summary
-- [[composer_mozart_phrasing]] §7 — K545 status
-- [[analysis_mozart_k283_first_mov]] — sister piece, primary success case
+- [concept_cadence_detection](concept_cadence_detection.md) §7 — Phase 2 algorithm + K283/K545 validation summary
+- [composer_mozart_phrasing](composer_mozart_phrasing.md) §7 — K545 status
+- [analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md) — sister piece, primary success case
 - score-claude memory: `project_cadence_phase_2.md`

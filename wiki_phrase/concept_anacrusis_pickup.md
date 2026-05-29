@@ -1,7 +1,7 @@
 # Concept: Anacrusis / Pickup — 弱起 / 起頭弱拍處理
 
 > 來源：Cooper-Meyer《Rhythmic Structure of Music》(1960), Caplin《Classical Form》§anacrusis, Brendel essays §pickup
-> 引用方：[[concept_classical_period_sentence]], [[concept_phrase_elision]]
+> 引用方：[concept_classical_period_sentence](concept_classical_period_sentence.md), [concept_phrase_elision](concept_phrase_elision.md)
 
 ## 1. Anacrusis / Pickup 是什麼
 
@@ -82,7 +82,7 @@ score-claude DP 的 `PICKUP_MAX_DUR = 0.5`, `PICKUP_MIN_OFF = 3.0`, `PICKUP_PREV
 | 偵測難度 | 中（measure 位置線索）| 高（需語法分析）|
 | 出現頻率 | 普遍 | 中等 |
 
-→ 兩者**經常混淆**，但結構性不同。詳見 [[concept_phrase_elision]]。
+→ 兩者**經常混淆**，但結構性不同。詳見 [concept_phrase_elision](concept_phrase_elision.md)。
 
 ## 8. 對指法的意涵
 
@@ -97,15 +97,15 @@ Anacrusis 段的指法考慮：
 
 DP 對 anacrusis 處理（`_detect_phrase_starts` Pass 1b）：
 - 在 4/4 (BEATS_PER_MEASURE = 4) 假設下精確
-- 對 3/4 / 6/8 (compound) anacrusis 處理需 `_PHRASE_CTX["measure_ql"]` (per [[../score-claude/memory/project_2026-05-29_session_arc]] §time-sig fix)
+- 對 3/4 / 6/8 (compound) anacrusis 處理需 `_PHRASE_CTX["measure_ql"]` (per *project_2026-05-29_session_arc* §time-sig fix)
 - 對 3/8 anacrusis：PICKUP_MIN_OFF = 3.0 過高，3/8 measure 最大 offset 1.5 → anacrusis 偵測不會觸發 (known 限制)
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_classical_period_sentence]] — Classical period 常以 anacrusis 開始 antecedent
-- [[concept_phrase_elision]] — Anacrusis vs elision 區分
-- [[concept_hypermeter]] — Anacrusis 對 hypermeter 計數影響
-- [[../wiki_articulation/concept_articulation_overview]] §6 — Anacrusis 不是 phrase boundary 而是新 phrase 起點
+- [concept_classical_period_sentence](concept_classical_period_sentence.md) — Classical period 常以 anacrusis 開始 antecedent
+- [concept_phrase_elision](concept_phrase_elision.md) — Anacrusis vs elision 區分
+- [concept_hypermeter](concept_hypermeter.md) — Anacrusis 對 hypermeter 計數影響
+- [../wiki_articulation/concept_articulation_overview](../wiki_articulation/concept_articulation_overview.md) §6 — Anacrusis 不是 phrase boundary 而是新 phrase 起點
 
 ## 11. ⚠ Training-data verification queue
 

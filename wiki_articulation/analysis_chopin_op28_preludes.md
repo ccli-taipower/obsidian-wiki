@@ -2,7 +2,7 @@
 
 > 來源：Henle Urtext (Norbert Müllemann), National Edition (Ekier), Eigeldinger *Chopin Pianist and Teacher*
 > 對應 PIG：028 (Op.28 No.17, A♭ major, 1839)
-> 引用方：[[../score-claude/memory/project_target_repertoire_intermediate]] §Chopin, [[concept_period_defaults]] §4 Romantic
+> 引用方：*project_target_repertoire_intermediate* §Chopin, [concept_period_defaults](concept_period_defaults.md) §4 Romantic
 
 ## 1. 為什麼挑 Op.28 Preludes 作為 intermediate Romantic 案例
 
@@ -36,7 +36,7 @@ Chopin *24 Preludes* Op.28 (1836-39)，24 首對應 24 個大小調。理由：
 - Tempo Largo — 慢速
 
 對指法的意涵：
-- RH melody 高度 [[concept_legato_substitution]] 適用（slow + slur + 同音重複偶見）
+- RH melody 高度 [concept_legato_substitution](concept_legato_substitution.md) 適用（slow + slur + 同音重複偶見）
 - LH 持續和弦 — voicing 重要，articulation 較單一
 - pedal 持續踩 — 增強 legato 聲響但不替代 finger legato
 
@@ -50,9 +50,9 @@ Chopin *24 Preludes* Op.28 (1836-39)，24 首對應 24 個大小調。理由：
 - 對指法：LH 需 cantabile + substitution；RH 需穩定伴奏
 
 對指法的意涵：
-- LH 啟用 [[concept_legato_substitution]] 對主旋律有效
+- LH 啟用 [concept_legato_substitution](concept_legato_substitution.md) 對主旋律有效
 - RH 不需要 substitution（伴奏角色）
-- 兩手 articulation 處理不對等 — 是 [[concept_articulation_in_polyphony]] §3 範例
+- 兩手 articulation 處理不對等 — 是 [concept_articulation_in_polyphony](concept_articulation_in_polyphony.md) §3 範例
 
 ## 5. Op.28 No.7 (A major) — 4-bar phrase 標準
 
@@ -64,9 +64,9 @@ Chopin *24 Preludes* Op.28 (1836-39)，24 首對應 24 個大小調。理由：
 - Cadence 在 m16 PAC
 
 對指法的意涵：
-- Slur ≡ phrase（[[concept_slur_phrase_overlap]] §2.2 案例）
+- Slur ≡ phrase（[concept_slur_phrase_overlap](concept_slur_phrase_overlap.md) §2.2 案例）
 - 每 4-bar phrase 結束是手位 free reset 點
-- [[concept_legato_substitution]] 在 slur 內適用
+- [concept_legato_substitution](concept_legato_substitution.md) 在 slur 內適用
 
 ## 6. Op.28 No.20 (C minor) — 莊嚴 chord 案例
 
@@ -79,8 +79,8 @@ Chopin *24 Preludes* Op.28 (1836-39)，24 首對應 24 個大小調。理由：
 
 對指法的意涵：
 - Chord voicing 重要
-- [[concept_tenuto]] 強指偏好 — 該段大量 tenuto 標記
-- 不適用 [[concept_legato_substitution]]（單音 melody 罕見，多 chord texture）
+- [concept_tenuto](concept_tenuto.md) 強指偏好 — 該段大量 tenuto 標記
+- 不適用 [concept_legato_substitution](concept_legato_substitution.md)（單音 melody 罕見，多 chord texture）
 
 ## 7. Op.28 完整集中 articulation 標記密度比較
 
@@ -123,13 +123,13 @@ Chopin *24 Preludes* Op.28 (1836-39)，24 首對應 24 個大小調。理由：
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[../score-claude/memory/project_target_repertoire_intermediate]] §Chopin — Op.28 No.4/7/20 為入門 Chopin 推薦
-- [[concept_period_defaults]] §4 Romantic — Op.28 為 Romantic legato default 典型集合
-- [[concept_legato_substitution]] §5 — Op.28 lyrical preludes 為適用代表
-- [[concept_slur_phrase_overlap]] §2.2 — No.7 為 slur ≡ phrase 案例
-- [[concept_articulation_in_polyphony]] §3 — No.6 為 LH-as-melody 案例
-- [[concept_tenuto]] §5 — No.20 為 tenuto 集中使用案例
-- [[analysis_chopin_op9_no2_articulation]] — Chopin 大型作品對比
+- *project_target_repertoire_intermediate* §Chopin — Op.28 No.4/7/20 為入門 Chopin 推薦
+- [concept_period_defaults](concept_period_defaults.md) §4 Romantic — Op.28 為 Romantic legato default 典型集合
+- [concept_legato_substitution](concept_legato_substitution.md) §5 — Op.28 lyrical preludes 為適用代表
+- [concept_slur_phrase_overlap](concept_slur_phrase_overlap.md) §2.2 — No.7 為 slur ≡ phrase 案例
+- [concept_articulation_in_polyphony](concept_articulation_in_polyphony.md) §3 — No.6 為 LH-as-melody 案例
+- [concept_tenuto](concept_tenuto.md) §5 — No.20 為 tenuto 集中使用案例
+- [analysis_chopin_op9_no2_articulation](analysis_chopin_op9_no2_articulation.md) — Chopin 大型作品對比
 
 ## 11. ⚠ Training-data verification queue
 

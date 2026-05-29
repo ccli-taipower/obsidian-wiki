@@ -1,7 +1,7 @@
 # Concept: Grouping Preference Rules (GPR) — GTTM 樂句分組規則
 
 > 來源：Lerdahl-Jackendoff《A Generative Theory of Tonal Music》(GTTM, 1983), MIT Press
-> 引用方：[[src_lerdahl_jackendoff_gttm]], [[concept_figural_boundary_detection]], [[concept_phrase_elision]]
+> 引用方：[src_lerdahl_jackendoff_gttm](src_lerdahl_jackendoff_gttm.md), [concept_figural_boundary_detection](concept_figural_boundary_detection.md), [concept_phrase_elision](concept_phrase_elision.md)
 
 ## 1. GTTM 框架簡介
 
@@ -42,11 +42,11 @@
 | GPR 2a (rest/slur) | Pass 1 hard break: rest gap > REST_THRESHOLD_BEATS, slur 結束 |
 | GPR 2b (attack-point) | Pass 1 hard break: measure number gap |
 | GPR 3a (register) | Pass 1 hard break: pitch jump > PHRASE_BREAK_THRESHOLD |
-| GPR 3b (dynamics) | Texture phase 2: dynamic 變化 ([[concept_texture_change_detection]]) |
+| GPR 3b (dynamics) | Texture phase 2: dynamic 變化 ([concept_texture_change_detection](concept_texture_change_detection.md)) |
 | GPR 3c (articulation) | Articulation 訊號（slur boundary）— 但未直接切 phrase |
 | GPR 3d (length) | Cadential pause: long note 標誌 |
-| GPR 4 (parallelism) | Subject re-entry ([[concept_subject_imitation_detection]]) |
-| GPR 5 (symmetry) | Hypermeter 4-bar fallback ([[concept_hypermeter]]) |
+| GPR 4 (parallelism) | Subject re-entry ([concept_subject_imitation_detection](concept_subject_imitation_detection.md)) |
+| GPR 5 (symmetry) | Hypermeter 4-bar fallback ([concept_hypermeter](concept_hypermeter.md)) |
 
 → score-claude DP 約 70% 對應 GPR 框架，部分擴展（cadence detection, fioritura filter）。
 
@@ -98,13 +98,13 @@ GTTM 不給 hard ranking — 留給聽者 / 分析者主觀判斷。對演算法
 
 ## 8. 與其他 wiki 頁面的關係
 
-- [[src_lerdahl_jackendoff_gttm]] — GTTM 原書詳細介紹
-- [[concept_figural_boundary_detection]] — Pass 4 figural 偵測對應 GPR 3a/3d
-- [[concept_phrase_elision]] — GTTM 對 phrase elision 的處理
-- [[concept_cadence_detection]] — Cadence 偵測對應 GPR 4 結構性
-- [[concept_subject_imitation_detection]] — Subject 偵測對應 GPR 4 (parallelism)
-- [[concept_texture_change_detection]] — Texture 偵測對應 GPR 3b
-- [[concept_hypermeter]] — Hypermeter 對應 GPR 5 (symmetry)
+- [src_lerdahl_jackendoff_gttm](src_lerdahl_jackendoff_gttm.md) — GTTM 原書詳細介紹
+- [concept_figural_boundary_detection](concept_figural_boundary_detection.md) — Pass 4 figural 偵測對應 GPR 3a/3d
+- [concept_phrase_elision](concept_phrase_elision.md) — GTTM 對 phrase elision 的處理
+- [concept_cadence_detection](concept_cadence_detection.md) — Cadence 偵測對應 GPR 4 結構性
+- [concept_subject_imitation_detection](concept_subject_imitation_detection.md) — Subject 偵測對應 GPR 4 (parallelism)
+- [concept_texture_change_detection](concept_texture_change_detection.md) — Texture 偵測對應 GPR 3b
+- [concept_hypermeter](concept_hypermeter.md) — Hypermeter 對應 GPR 5 (symmetry)
 
 ## 9. ⚠ Training-data verification queue
 

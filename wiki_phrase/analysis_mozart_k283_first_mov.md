@@ -50,10 +50,10 @@ PIG K283 has 6 annotators (ES, HI, HK, YI / YS, EF) — more than most pieces, i
 
 ## 7. Cross-refs
 
-- [[concept_cadence_detection]] §7 — Phase 2 algorithm + validation
-- [[composer_mozart_phrasing]] §7 — K283 status
-- [[analysis_mozart_k545_first_mov]] — sister piece, shows texture-limit case
-- [[concept_classical_period_sentence]] — period 4+4 structure context
-- [[analysis_bach_inv_4_d_minor]] — counterpoint vs homophony contrast
+- [concept_cadence_detection](concept_cadence_detection.md) §7 — Phase 2 algorithm + validation
+- [composer_mozart_phrasing](composer_mozart_phrasing.md) §7 — K283 status
+- [analysis_mozart_k545_first_mov](analysis_mozart_k545_first_mov.md) — sister piece, shows texture-limit case
+- [concept_classical_period_sentence](concept_classical_period_sentence.md) — period 4+4 structure context
+- [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) — counterpoint vs homophony contrast
 - score-claude memory: `project_cadence_phase_2.md`
 

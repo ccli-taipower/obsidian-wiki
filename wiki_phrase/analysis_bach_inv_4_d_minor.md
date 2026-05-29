@@ -8,7 +8,7 @@
 ## 1. 為什麼挑這首作為 wiki 第一個 analysis 頁
 
 這是整套 phrase wiki 的**首次具體驗證**：
-- 把 [[concept_fugue]] / [[concept_counterpoint]] / [[concept_subject_imitation_detection]] 三頁的論述套用到一首實曲
+- 把 [concept_fugue](concept_fugue.md) / [concept_counterpoint](concept_counterpoint.md) / [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 三頁的論述套用到一首實曲
 - 驗證 user 標記的 override 是否能用 phrase 偵測 + cost 框架自然導出
 - 找出**現有偵測器 + 新規則仍漏掉的 boundary 類型**，回饋下一輪 wiki 擴增
 
@@ -16,13 +16,13 @@
 
 - **BWV 775**, 1723 (Bach 38 歲)
 - **D minor**, 3/8 拍, **52 小節** (含起頭 pickup？— 經 cache 確認**無** pickup, m1 start)
-- 形式：典型 2-voice Invention（同 [[concept_fugue]] §5 描述）
+- 形式：典型 2-voice Invention（同 [concept_fugue](concept_fugue.md) §5 描述）
 - 主題特色：快速 16 分音符的下行小三度 + 上行進階 (典型 Bach 衝擊性主題)
 - 著名版本：Glenn Gould 1964 (極快), András Schiff (節制)
 
 ## 3. Subject 識別 — 實際執行結果
 
-跑 [[concept_subject_imitation_detection]] §3 的演算法：
+跑 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) §3 的演算法：
 
 ```
 RH groups total: 239
@@ -32,7 +32,7 @@ LH first note: m1 (was empty placeholder; real LH starts m3)
 
 ### 3.1 Subject 候選與長度測試
 
-執行 [[concept_subject_imitation_detection]] Step 1-3，測試 subject 長度 6 / 8 / 10 / 12：
+執行 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) Step 1-3，測試 subject 長度 6 / 8 / 10 / 12：
 
 | 假設 subject 長度 | RH rectus entries | LH rectus entries | 結構合理度 |
 |---|---|---|---|
@@ -60,7 +60,7 @@ LH first note: m1 (was empty placeholder; real LH starts m3)
 
 ### 3.3 倒影 (Inversion) 模仿
 
-執行倒影掃描（[[concept_subject_imitation_detection]] §6.2）：
+執行倒影掃描（[concept_subject_imitation_detection](concept_subject_imitation_detection.md) §6.2）：
 
 | 長度 | RH inversion | LH inversion |
 |---|---|---|
@@ -100,13 +100,13 @@ LH first note: m1 (was empty placeholder; real LH starts m3)
 
 | 邊界類別 | 偵測工具 | 範例 |
 |---|---|---|
-| **Subject entry** | [[concept_subject_imitation_detection]] | mvt4 m1/5/26/44 (RH), m3/38/46 (LH) |
-| **Cadence** | [[concept_cadence_detection]] | Bach 段尾的 PAC/HC |
+| **Subject entry** | [concept_subject_imitation_detection](concept_subject_imitation_detection.md) | mvt4 m1/5/26/44 (RH), m3/38/46 (LH) |
+| **Cadence** | [concept_cadence_detection](concept_cadence_detection.md) | Bach 段尾的 PAC/HC |
 | **Figural / Sequential** | ❌ **未涵蓋** | mvt4 m50 pos2、episode 內的 figure 切換 |
 
 ## 5. m49-m51 user override 重新解讀
 
-用三類邊界框架，重新看 user override（[[../score-claude/memory/feedback_override_semantics]] 的「分析背後意義」原則）：
+用三類邊界框架，重新看 user override（*feedback_override_semantics* 的「分析背後意義」原則）：
 
 | 位置 | 音 | finger | 邊界類型 | 邊界角色 |
 |---|---|---|---|---|
@@ -130,13 +130,13 @@ LH first note: m1 (was empty placeholder; real LH starts m3)
 - **Figural boundary** 抓 episode / coda 內 figural pattern 切換，這正是 m50 case 的類型
 
 → 三類邊界**互補**才能完整覆蓋 Bach Invention 樂句結構。對應工具：
-  - [[concept_subject_imitation_detection]]
-  - [[concept_cadence_detection]]
-  - [[concept_figural_boundary_detection]]
+  - [concept_subject_imitation_detection](concept_subject_imitation_detection.md)
+  - [concept_cadence_detection](concept_cadence_detection.md)
+  - [concept_figural_boundary_detection](concept_figural_boundary_detection.md)
 
 ## 7. 與其他 wiki 頁面的關係
 
-- 第一個應用 [[concept_fugue]] + [[concept_counterpoint]] + [[concept_subject_imitation_detection]] 的 analysis 頁
-- 揭露 [[concept_figural_boundary_detection]] 對 episode/coda 段的必要性
-- 對應 [[../score-claude/memory/feedback_override_semantics]]、[[../score-claude/memory/feedback_phrase_as_breath]]
+- 第一個應用 [concept_fugue](concept_fugue.md) + [concept_counterpoint](concept_counterpoint.md) + [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 的 analysis 頁
+- 揭露 [concept_figural_boundary_detection](concept_figural_boundary_detection.md) 對 episode/coda 段的必要性
+- 對應 *feedback_override_semantics*、*feedback_phrase_as_breath*
 

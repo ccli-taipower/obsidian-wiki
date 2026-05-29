@@ -1,7 +1,7 @@
 # Concept: Staccato — 斷奏對手位跳轉與拇指穿越的鬆綁
 
 > 來源：Neuhaus *The Art of Piano Playing* §斷奏觸鍵、Czerny *Op.500* Vol.III §staccato variants、Türk *Klavierschule* (1789) §短音奏法
-> 引用方：[[concept_articulation_overview]] §4、[[concept_articulation_overview]] §3 (Classical 時代 default)
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §4、[concept_articulation_overview](concept_articulation_overview.md) §3 (Classical 時代 default)
 
 ## 1. Staccato 的物理 — 為何指法策略和 legato 完全相反
 
@@ -20,7 +20,7 @@ Staccato（斷奏）= 每個音獨立 attack，演奏後手指立刻離鍵，相
 |---|---|---|---|
 | **Staccato** | `·` | ~50% | 標準斷奏；指尖快彈快收 |
 | **Staccatissimo** | `▼` | ~25% | 極短；幾乎只有 attack 瞬間 |
-| **Mezzo-staccato / Portato** | 點+slur | ~75% | 半連半斷（見 [[concept_portato_mezzo_staccato]]）|
+| **Mezzo-staccato / Portato** | 點+slur | ~75% | 半連半斷（見 [concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md)）|
 
 ## 3. 對指法決策的影響
 
@@ -44,7 +44,7 @@ Staccato（斷奏）= 每個音獨立 attack，演奏後手指立刻離鍵，相
 
 | 情境 | 注意點 |
 |---|---|
-| **Slur + dots 同時標記** | 是 portato，不是 staccato（[[concept_portato_mezzo_staccato]]）|
+| **Slur + dots 同時標記** | 是 portato，不是 staccato（[concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md)）|
 | **過大 hand jump** | 即使 staccato，超過手的合理跨距仍需 hand reposition 動作；不應誘導不合理跳躍 |
 | **Slur 結束最後一個音的 staccato** | 「結束音」傳統上略短，但不應視為斷奏；應仍按 legato 段處理 |
 
@@ -52,12 +52,12 @@ Staccato（斷奏）= 每個音獨立 attack，演奏後手指立刻離鍵，相
 
 Staccato 標記不切樂句。一段 staccato 旋律仍是一個樂句，只是內部音與音的連接方式不同。
 
-→ Staccato 段的「手位自由」是**段內**屬性，不應觸發樂句邊界判斷。phrase boundary 仍由 [[../wiki_phrase/index|wiki_phrase]] 的五軸決定。
+→ Staccato 段的「手位自由」是**段內**屬性，不應觸發樂句邊界判斷。phrase boundary 仍由 [wiki_phrase](../wiki_phrase/index.md) 的五軸決定。
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] — 本頁的 parent 概覽
-- [[concept_legato_substitution]] — 互補頁；legato 與 staccato 的指法策略是相反的兩端
-- [[concept_portato_mezzo_staccato]] — 兩者中間值
-- [[../wiki_piano/concept_thumb_technique]] — staccato 段 thumb-cross 鬆綁與 thumb 解剖學的關係
-- [[../wiki_piano/analysis_common_fingering_injuries]] — 過度 staccato + thumb-cross 累積仍是 focal dystonia 風險（Altenmüller）
+- [concept_articulation_overview](concept_articulation_overview.md) — 本頁的 parent 概覽
+- [concept_legato_substitution](concept_legato_substitution.md) — 互補頁；legato 與 staccato 的指法策略是相反的兩端
+- [concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md) — 兩者中間值
+- [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) — staccato 段 thumb-cross 鬆綁與 thumb 解剖學的關係
+- [../wiki_piano/analysis_common_fingering_injuries](../wiki_piano/analysis_common_fingering_injuries.md) — 過度 staccato + thumb-cross 累積仍是 focal dystonia 風險（Altenmüller）

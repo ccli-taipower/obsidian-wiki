@@ -1,7 +1,7 @@
 # Concept: Wrist Motion — 手腕運動
 
 > 來源：Matthay *The Visible and Invisible* §wrist, Sandor *On Piano Playing* §wrist motion, Neuhaus *The Art of Piano Playing* §觸鍵 (含 wrist 角色)
-> 引用方：[[concept_octave_fingering]], [[concept_forearm_rotation]], [[concept_thumb_technique]]
+> 引用方：[concept_octave_fingering](concept_octave_fingering.md), [concept_forearm_rotation](concept_forearm_rotation.md), [concept_thumb_technique](concept_thumb_technique.md)
 
 ## 1. Wrist 在鋼琴演奏中的角色
 
@@ -19,7 +19,7 @@
 |---|---|---|
 | **上下** (flexion / extension) | 向上 / 向下 | 八度的主要動作；staccato 加速 |
 | **左右** (radial / ulnar deviation) | 拇指側 / 小指側 | scale 段 thumb-pass 配合動作 |
-| **旋轉** (pronation / supination) | 掌心朝下 / 朝上 | 與前臂旋轉協同（[[concept_forearm_rotation]]）|
+| **旋轉** (pronation / supination) | 掌心朝下 / 朝上 | 與前臂旋轉協同（[concept_forearm_rotation](concept_forearm_rotation.md)）|
 | **圓周** (circumduction) | 上述組合的圓周動作 | virtuoso 段（Chopin / Liszt 大跳）|
 
 ## 3. Wrist 八度技術（最常被引用的應用）
@@ -32,11 +32,11 @@ Sandor *On Piano Playing* §wrist octave 詳述：
 - 前臂 + arm 提供重量支撐
 - Wrist 是「**accelerator**」— 每一八度的 attack 速度由 wrist 控制
 
-對指法的意涵：[[concept_octave_fingering]] 不只是指法選擇，更是 wrist motion 訓練。
+對指法的意涵：[concept_octave_fingering](concept_octave_fingering.md) 不只是指法選擇，更是 wrist motion 訓練。
 
 ## 4. Wrist 在 staccato 中的角色
 
-[[../wiki_articulation/concept_staccato]] §3 提到三層 staccato（finger / wrist / arm staccato）：
+[../wiki_articulation/concept_staccato](../wiki_articulation/concept_staccato.md) §3 提到三層 staccato（finger / wrist / arm staccato）：
 - **Finger staccato**: wrist 不動，純手指動作
 - **Wrist staccato**: wrist 上下產生 attack
 - **Arm staccato**: 整 arm 動作（最大 attack 力）
@@ -57,7 +57,7 @@ Neuhaus / Matthay 教學主張：**wrist 必須保持 free / flexible** 才能�
 - 提供 dynamic 變化
 - 防止 finger strain
 
-對 [[analysis_common_fingering_injuries]] 的意涵：wrist 僵硬是 focal dystonia / strain 高風險訊號。
+對 [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) 的意涵：wrist 僵硬是 focal dystonia / strain 高風險訊號。
 
 ## 6. Wrist motion 與 fingering 的互動
 
@@ -77,7 +77,7 @@ Neuhaus / Matthay 教學主張：**wrist 必須保持 free / flexible** 才能�
 
 兩者常被混淆：
 
-| 屬性 | Wrist motion | [[concept_forearm_rotation]] |
+| 屬性 | Wrist motion | [concept_forearm_rotation](concept_forearm_rotation.md) |
 |---|---|---|
 | 動作部位 | 手腕關節 | 前臂內外旋（橈骨繞尺骨）|
 | 動作方向 | 上下 / 左右 / 旋轉 | 純內外旋（forearm pronation/supination）|
@@ -107,8 +107,8 @@ DP 對 wrist motion 目前**不 model**：
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_octave_fingering]] — Wrist motion 是八度技術核心
-- [[concept_forearm_rotation]] — 互補但獨立的動作軸
-- [[concept_thumb_technique]] — Thumb-pass 配合 wrist motion
-- [[analysis_common_fingering_injuries]] — Wrist stiffness 與 strain 關係
-- [[../wiki_articulation/concept_staccato]] §3 — Wrist staccato 變體
+- [concept_octave_fingering](concept_octave_fingering.md) — Wrist motion 是八度技術核心
+- [concept_forearm_rotation](concept_forearm_rotation.md) — 互補但獨立的動作軸
+- [concept_thumb_technique](concept_thumb_technique.md) — Thumb-pass 配合 wrist motion
+- [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) — Wrist stiffness 與 strain 關係
+- [../wiki_articulation/concept_staccato](../wiki_articulation/concept_staccato.md) §3 — Wrist staccato 變體

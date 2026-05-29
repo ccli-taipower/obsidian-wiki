@@ -31,7 +31,7 @@
 
 註：1-7 是 connection 光譜；8-10 是 dynamic accent overlay；11 是 duration 修飾。可疊加，例如 `sfp` + tenuto 同一個音。
 
-每類詳細指法影響見對應 concept 頁（見 [[index]] 索引）。
+每類詳細指法影響見對應 concept 頁（見 [index](index.md) 索引）。
 
 ## 3. 時代 default 差異
 
@@ -39,12 +39,12 @@
 
 | 時代 | Default articulation | 對指法的假設影響 |
 |---|---|---|
-| **Baroque (1600-1750)** | non-legato (~85%) | 不假設 legato bias；目前指法系統的預設行為相對正確（[[concept_non_legato_baroque]]） |
+| **Baroque (1600-1750)** | non-legato (~85%) | 不假設 legato bias；目前指法系統的預設行為相對正確（[concept_non_legato_baroque](concept_non_legato_baroque.md)） |
 | **Classical (1750-1820)** | 平衡 — 短音 detache，長音 legato | 需以音長分類，短音允許 hand jump、長音偏好 substitution |
-| **Romantic (1820-1900)** | legato 為主（除非標記 staccato）| 強烈假設 substitution-friendly；Chopin 浪漫派 melody 段必須觸發 [[concept_legato_substitution]] |
+| **Romantic (1820-1900)** | legato 為主（除非標記 staccato）| 強烈假設 substitution-friendly；Chopin 浪漫派 melody 段必須觸發 [concept_legato_substitution](concept_legato_substitution.md) |
 | **Modernism (1900+)** | 必須有明確標記，無 default | 不適用 default 假設 — 信樂譜原文 |
 
-詳細按時代 default 邏輯見 [[concept_period_defaults]]。
+詳細按時代 default 邏輯見 [concept_period_defaults](concept_period_defaults.md)。
 
 ## 4. Articulation 與指法系統的對應關係
 
@@ -52,12 +52,12 @@
 
 | Articulation | 主要影響 | 詳細頁 |
 |---|---|---|
-| Legato | 鼓勵 finger substitution、限制 hand jump | [[concept_legato_substitution]] |
-| Staccato / Staccatissimo | 允許 thumb cross、free hand jump | [[concept_staccato]] |
-| Tenuto | 禁用同音換指、強制 hold | [[concept_tenuto]] |
-| Accent / Marcato / Sforzando | 偏好強指（1/2/3 而非 4/5）| [[concept_accent_marcato]] |
-| Portato | 介於 legato 與 staccato（保守選 legato）| [[concept_portato_mezzo_staccato]] |
-| Non-legato (Baroque) | 不假設特殊處理 — 預設行為合理 | [[concept_non_legato_baroque]] |
+| Legato | 鼓勵 finger substitution、限制 hand jump | [concept_legato_substitution](concept_legato_substitution.md) |
+| Staccato / Staccatissimo | 允許 thumb cross、free hand jump | [concept_staccato](concept_staccato.md) |
+| Tenuto | 禁用同音換指、強制 hold | [concept_tenuto](concept_tenuto.md) |
+| Accent / Marcato / Sforzando | 偏好強指（1/2/3 而非 4/5）| [concept_accent_marcato](concept_accent_marcato.md) |
+| Portato | 介於 legato 與 staccato（保守選 legato）| [concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md) |
+| Non-legato (Baroque) | 不假設特殊處理 — 預設行為合理 | [concept_non_legato_baroque](concept_non_legato_baroque.md) |
 | Fermata | duration override（指法不受影響）| (無單獨頁) |
 
 ## 5. Articulation 訊號從哪來
@@ -86,8 +86,8 @@
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[index]] — 本 wiki 入口
+- [index](index.md) — 本 wiki 入口
 - 每種 articulation 的詳細指法影響 → 各 `concept_*.md`
-- [[../wiki_phrase/concept_figural_boundary_detection]] — figure 邊界與 slur 邊界的區分
-- [[../wiki_piano/concept_thumb_technique]] — staccato 段 thumb-cross 放鬆與 thumb 解剖學的對位
-- [[../wiki_piano/concept_finger_span_table]] — substitution 改變了「下一步」的 hand position
+- [../wiki_phrase/concept_figural_boundary_detection](../wiki_phrase/concept_figural_boundary_detection.md) — figure 邊界與 slur 邊界的區分
+- [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) — staccato 段 thumb-cross 放鬆與 thumb 解剖學的對位
+- [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — substitution 改變了「下一步」的 hand position

@@ -153,4 +153,4 @@ Rothstein 的貢獻：把這些工具系統化用於 **phrase × meter 互動** 
    - 若採 Rothstein 視角：先假設 4-bar model → 偵測 expansion 技巧 → 推回 surface 長度
    - 這是 future work，但比純頻率法更可解釋
 
-詳見 [[concept_classical_period_sentence]]、[[concept_phrase_elision]]、[[concept_chopin_lyrical_phrase]]、[[concept_cadence_detection]] 與 [[src_lerdahl_jackendoff_gttm]]、[[src_caplin_classical_form]]。
+詳見 [concept_classical_period_sentence](concept_classical_period_sentence.md)、[concept_phrase_elision](concept_phrase_elision.md)、[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md)、[concept_cadence_detection](concept_cadence_detection.md) 與 [src_lerdahl_jackendoff_gttm](src_lerdahl_jackendoff_gttm.md)、[src_caplin_classical_form](src_caplin_classical_form.md)。

@@ -1,7 +1,7 @@
 # Concept: Phrase Elision 樂句重疊 — 邊界歸屬問題
 
 > 來源：通用音樂理論 + Rothstein《Phrase Rhythm in Tonal Music》Ch.3 elision、Caplin《Classical Form》§phrase combination
-> 引用方：[[concept_classical_period_sentence]]、[[concept_chopin_lyrical_phrase]]、[[composer_beethoven_phrasing]]
+> 引用方：[concept_classical_period_sentence](concept_classical_period_sentence.md)、[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md)、[composer_beethoven_phrasing](composer_beethoven_phrasing.md)
 > 狀態：第一版 2026-05-26
 
 ## 1. 一句話定義
@@ -98,17 +98,17 @@ def _detect_phrase_starts_with_elision(groups, mxl_path):
 
 ## 7. 對 motif consistency 的影響
 
-[[../score-claude/memory/feedback_personal_biomechanics]] 要求同 motif 同指法。Elision 場景下：
+*feedback_personal_biomechanics* 要求同 motif 同指法。Elision 場景下：
 - B 句的開頭 motif 與其他 occurrences 比對時，應該從 **B 句真正的開頭** 起算（即 elision 音的後一個，若採「歸前」）
 - 不應把 elision 的 cadential 音當作 motif head
 
-→ Motif detection ([[concept_subject_imitation_detection]]) 應在 elision-aware phrase boundary 之後跑。
+→ Motif detection ([concept_subject_imitation_detection](concept_subject_imitation_detection.md)) 應在 elision-aware phrase boundary 之後跑。
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 依賴 [[concept_cadence_detection]] (PAC 偵測為前置)
-- 影響 [[concept_subject_imitation_detection]] (motif 起算點)
-- 主要使用於 [[concept_chopin_lyrical_phrase]] (浪漫派 elision 頻繁)、[[composer_beethoven_phrasing]] (中期常用)
+- 依賴 [concept_cadence_detection](concept_cadence_detection.md) (PAC 偵測為前置)
+- 影響 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) (motif 起算點)
+- 主要使用於 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) (浪漫派 elision 頻繁)、[composer_beethoven_phrasing](composer_beethoven_phrasing.md) (中期常用)
 - 待寫：
-  - [[analysis_chopin_op9_no2_nocturne]] 應該有 elision 範例
+  - [analysis_chopin_op9_no2_nocturne](analysis_chopin_op9_no2_nocturne.md) 應該有 elision 範例
 

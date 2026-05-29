@@ -80,12 +80,12 @@ Fux 以師生對話形式（Aloysius 老師＝Palestrina 化身；Josephus 學�
 ## 對指法系統的啟示（synthesized — 不是文章原文）
 
 1. **聲部獨立性 = per-hand DP 的歷史正當性**：Fux 強調每聲部須有自己的旋律輪廓、反向動為首選——這在鍵盤上對應「兩手有獨立樂句結構」。我們 `_detect_phrase_starts` per (sheet, hand) 跑、不強制兩手對齊，正是 species counterpoint 聲部觀的延伸（mvt4 LH m50 boundary、RH 沒抓到，這種非同步是 counterpoint 的真實面貌，不是 bug）。
-2. **Bach Inventions = 二聲部第五種對位的鍵盤化身**：Bach 把 Fux 第五種（florid）拓展成完整鍵盤作品，加入主題模仿（subject imitation）與 episode 自由對位。我們的 `[[concept_subject_imitation_detection]]` Pass 5 偵測新聲部接過主題，本質是在 Fux 框架內找「對位的入聲時刻」。
+2. **Bach Inventions = 二聲部第五種對位的鍵盤化身**：Bach 把 Fux 第五種（florid）拓展成完整鍵盤作品，加入主題模仿（subject imitation）與 episode 自由對位。我們的 `[concept_subject_imitation_detection](concept_subject_imitation_detection.md)` Pass 5 偵測新聲部接過主題，本質是在 Fux 框架內找「對位的入聲時刻」。
 3. **Suspension（第四種）解釋 2 聲部指法的延留困境**：當一手保留懸留音（finger 被占住）、另一手必須繼續推進——這是鍵盤指法中「為何某指必須提前準備」的歷史根源。`THUMB_PASS_PHRASE_BUDGET` 與 thumb-reservation rule 在精神上與此呼應：某些手指要為將來的音做保留。
-4. **Dissonance resolution = phrase 內部張力曲線**：第四種對位法的 prep→susp→resolve 結構，就是 phrase 內「累積緊張 → 釋放」的最小單位。`[[concept_cadence_detection]]` 偵測 clausula vera + 4-3 / 7-6 suspension 正是 Fux 規則的計算化。
-5. **Cantus firmus 傳統 = LH ostinato 偵測的祖先**：Fux 的 cf 固定不動、對位聲部活躍，對應現代音樂的 LH alberti bass / waltz 伴奏 / Chopin 夜曲分解和弦。`[[concept_texture_change_detection]]` 偵測 LH 紋理切換時，本質上是在問「cantus firmus 換了沒」。
+4. **Dissonance resolution = phrase 內部張力曲線**：第四種對位法的 prep→susp→resolve 結構，就是 phrase 內「累積緊張 → 釋放」的最小單位。`[concept_cadence_detection](concept_cadence_detection.md)` 偵測 clausula vera + 4-3 / 7-6 suspension 正是 Fux 規則的計算化。
+5. **Cantus firmus 傳統 = LH ostinato 偵測的祖先**：Fux 的 cf 固定不動、對位聲部活躍，對應現代音樂的 LH alberti bass / waltz 伴奏 / Chopin 夜曲分解和弦。`[concept_texture_change_detection](concept_texture_change_detection.md)` 偵測 LH 紋理切換時，本質上是在問「cantus firmus 換了沒」。
 6. **第五種 florid → 裝飾音整合的模型**：Fux 第五種允許節奏自由化但仍受聲部規則約束；現代鋼琴 fioritura / ornament 偵測（next priorities 列表）可借鑑——花飾部分仍應「附著於某條主聲部」，不破壞聲部獨立性。
 7. **大跳後反向級進 = 樂句內走向的微觀規則**：Fux 要求跳進後反向補償，這對指法的意義是「大跳後不會再大跳」——已隱含在我們 `LARGE_LEAP_THRESHOLD` 與 `RH_LARGE_LEAP_MAX_FINGER_CHANGE` 規則中，但 Fux 提供了歷史依據。
 8. **Modal vs tonal 對 cadence 偵測的影響**：Fux 的 clausula vera 在調式系統下定義；Bach 時代開始與 tonal V→I 融合。我們的 `_detect_cadence_boundaries` Phase 2 用 music21 roman numerals 工作於 tonal 框架——對 Bach 早期 modal 殘留段落可能偵測不到 cadence，這是歷史層次帶來的偵測極限。
 
-詳見 [[concept_counterpoint]]、[[concept_fugue]]、[[concept_subject_imitation_detection]] 與 [[concept_cadence_detection]]。作為歷史前身啟發 [[src_epochtimes_fugue_zhou_2005]] 所述的 fugue 結構；對 [[analysis_bach_inv_4_d_minor]] 的二聲部對位分析提供規則基底。
+詳見 [concept_counterpoint](concept_counterpoint.md)、[concept_fugue](concept_fugue.md)、[concept_subject_imitation_detection](concept_subject_imitation_detection.md) 與 [concept_cadence_detection](concept_cadence_detection.md)。作為歷史前身啟發 [src_epochtimes_fugue_zhou_2005](src_epochtimes_fugue_zhou_2005.md) 所述的 fugue 結構；對 [analysis_bach_inv_4_d_minor](analysis_bach_inv_4_d_minor.md) 的二聲部對位分析提供規則基底。

@@ -1,7 +1,7 @@
 # Source: Neuhaus《The Art of Piano Playing》
 
 > Heinrich Neuhaus (1888-1964), *Об искусстве фортепианной игры* (1958, Moscow)；英譯 *The Art of Piano Playing* (1973, Praeger / 1993 Kahn & Averill)
-> 引用方：[[concept_legato_substitution]] §2, [[concept_staccato]] §1, [[concept_tenuto]] §3, [[concept_accent_marcato]] §2
+> 引用方：[concept_legato_substitution](concept_legato_substitution.md) §2, [concept_staccato](concept_staccato.md) §1, [concept_tenuto](concept_tenuto.md) §3, [concept_accent_marcato](concept_accent_marcato.md) §2
 
 ## 1. 作者背景
 
@@ -27,7 +27,7 @@ Neuhaus 強調觸鍵不是「手指動作」，而是「**重量傳達**」：
 
 Neuhaus 把 finger substitution 列為**legato 技術的基礎之一**，不是可選技巧。學生若無法執行 substitution，被視為 legato 技術不成熟。
 
-詳見 [[concept_legato_substitution]] §2.1 引用。
+詳見 [concept_legato_substitution](concept_legato_substitution.md) §2.1 引用。
 
 ### 2.3 Staccato 變體 — 「指尖斷」與「腕斷」與「臂斷」
 
@@ -49,7 +49,7 @@ Neuhaus 把 staccato 分為三層次（依使用身體部位）：
 | Neuhaus 教學 | 對 score-claude DP 的對應 cost rule |
 |---|---|
 | 重量觸鍵需強指承擔 | tenuto + accent 應偏好 1/2/3 |
-| Legato substitution 必要 | [[concept_legato_substitution]] cost rule |
+| Legato substitution 必要 | [concept_legato_substitution](concept_legato_substitution.md) cost rule |
 | Staccato 變體分層 | 短音可鬆綁 thumb-cross penalty；長 staccato 不應鬆綁 |
 
 ## 4. 文章未涵蓋
@@ -60,12 +60,12 @@ Neuhaus 把 staccato 分為三層次（依使用身體部位）：
 
 ## 5. 與其他 wiki 頁面的關係
 
-- [[concept_legato_substitution]] §2.1 — Neuhaus 對 legato substitution 的最常被引用段落
-- [[concept_staccato]] §1, §2 — Neuhaus 三層 staccato 分類
-- [[concept_tenuto]] §3 — Neuhaus 重量觸鍵理論
-- [[concept_accent_marcato]] §2 — Neuhaus 重音物理基礎
-- [[../wiki_piano/concept_thumb_technique]] — Neuhaus 對 thumb-cross 的 staccato 容忍度討論
-- [[../wiki_piano/analysis_common_fingering_injuries]] — Neuhaus 的「重量傳達」理論對預防 focal dystonia 也有指引意義
+- [concept_legato_substitution](concept_legato_substitution.md) §2.1 — Neuhaus 對 legato substitution 的最常被引用段落
+- [concept_staccato](concept_staccato.md) §1, §2 — Neuhaus 三層 staccato 分類
+- [concept_tenuto](concept_tenuto.md) §3 — Neuhaus 重量觸鍵理論
+- [concept_accent_marcato](concept_accent_marcato.md) §2 — Neuhaus 重音物理基礎
+- [../wiki_piano/concept_thumb_technique](../wiki_piano/concept_thumb_technique.md) — Neuhaus 對 thumb-cross 的 staccato 容忍度討論
+- [../wiki_piano/analysis_common_fingering_injuries](../wiki_piano/analysis_common_fingering_injuries.md) — Neuhaus 的「重量傳達」理論對預防 focal dystonia 也有指引意義
 
 ## 6. ⚠ Training-data verification queue
 

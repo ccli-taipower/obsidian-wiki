@@ -1,7 +1,7 @@
 # Source: Czerny《Op.500 Vollständige theoretisch-practische Pianoforte-Schule》
 
 > Carl Czerny (1791-1857), *Op.500* (1839, Vienna: Diabelli)，共 4 卷；英譯散見不同編輯，Vol.III 涉及 articulation
-> 引用方：[[concept_legato_substitution]] §2, [[concept_articulation_overview]] §1, [[concept_non_legato_baroque]] §2
+> 引用方：[concept_legato_substitution](concept_legato_substitution.md) §2, [concept_articulation_overview](concept_articulation_overview.md) §1, [concept_non_legato_baroque](concept_non_legato_baroque.md) §2
 
 ## 1. 作者背景
 
@@ -32,7 +32,7 @@ Carl Czerny 是 Beethoven 的學生（1801-1809 學徒期）+ Liszt 的老師（
 - Staccato（斷奏）
 - Staccatissimo（極斷）
 
-這個 7 階段分類是 [[concept_articulation_overview]] §2 11 種 taxonomy 的歷史基礎之一。
+這個 7 階段分類是 [concept_articulation_overview](concept_articulation_overview.md) §2 11 種 taxonomy 的歷史基礎之一。
 
 ### 3.2 Substitution 的兩類分法 ⚠
 
@@ -43,7 +43,7 @@ Czerny 把 finger substitution 明確分為兩類：
 1. **同音換指 (same-pitch substitution)**：對重複音；保持 legato 連續性
 2. **預備性換指 (preparatory substitution)**：為下個 hand position 鋪路；幫助 thumb cross 或 hand reposition
 
-詳見 [[concept_legato_substitution]] §2.3, §4 引用。
+詳見 [concept_legato_substitution](concept_legato_substitution.md) §2.3, §4 引用。
 
 ### 3.3 Scale 與 arpeggio 的標準 fingering
 
@@ -75,9 +75,9 @@ Czerny 學派的延續：
 
 | Czerny 教學 | 對 score-claude DP 的對應 |
 |---|---|
-| Substitution 兩類分法 | [[concept_legato_substitution]] §3-4 操作型定義 + 預備性換指 |
+| Substitution 兩類分法 | [concept_legato_substitution](concept_legato_substitution.md) §3-4 操作型定義 + 預備性換指 |
 | 標準 scale fingering | `concept_long_scale_thumb_under` rule（part of wiki_piano）|
-| Articulation 漸層分類 | [[concept_articulation_overview]] §2 taxonomy 的歷史基礎 |
+| Articulation 漸層分類 | [concept_articulation_overview](concept_articulation_overview.md) §2 taxonomy 的歷史基礎 |
 | 黑鍵 scale 指法調整 | `BLACK_KEY_PCS` + `PINKY_BLACK_KEY_PENALTY` rules |
 
 ## 6. 文章未涵蓋
@@ -88,11 +88,11 @@ Czerny 學派的延續：
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_legato_substitution]] §2.3 — Czerny 兩類 substitution 引述
-- [[concept_articulation_overview]] §2 — Czerny 漸層分類為 taxonomy 基礎
-- [[concept_non_legato_baroque]] §2 — Czerny 對 Baroque non-legato 的時代-context 處理
-- [[src_neuhaus_art_of_piano]] / [[src_matthay_visible_inaudible]] — 對比 19 世紀 vs 20 世紀派系
-- [[../wiki_piano/concept_finger_span_table]] — Czerny 標準指法表是 span table 的歷史依據
+- [concept_legato_substitution](concept_legato_substitution.md) §2.3 — Czerny 兩類 substitution 引述
+- [concept_articulation_overview](concept_articulation_overview.md) §2 — Czerny 漸層分類為 taxonomy 基礎
+- [concept_non_legato_baroque](concept_non_legato_baroque.md) §2 — Czerny 對 Baroque non-legato 的時代-context 處理
+- [src_neuhaus_art_of_piano](src_neuhaus_art_of_piano.md) / [src_matthay_visible_inaudible](src_matthay_visible_inaudible.md) — 對比 19 世紀 vs 20 世紀派系
+- [../wiki_piano/concept_finger_span_table](../wiki_piano/concept_finger_span_table.md) — Czerny 標準指法表是 span table 的歷史依據
 
 ## 8. ⚠ Training-data verification queue
 

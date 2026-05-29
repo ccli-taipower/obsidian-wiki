@@ -2,7 +2,7 @@
 
 > 來源：Henle Urtext (Heinz Schüngeler 編), Wiener Urtext, Czerny *Op.500* §Clementi 引述
 > 對應 PIG：未列入
-> 引用方：[[../score-claude/memory/project_target_repertoire_intermediate]] §推薦曲目, [[concept_period_defaults]] §Classical balance
+> 引用方：*project_target_repertoire_intermediate* §推薦曲目, [concept_period_defaults](concept_period_defaults.md) §Classical balance
 
 ## 1. 為什麼挑 Op.36 作為 intermediate 入門 sonata 範例
 
@@ -25,7 +25,7 @@ Muzio Clementi (1752-1832) Op.36 (1797 出版)，共 6 首 Sonatinas（No.1-6）
 | Development | m21-30 | 對比段，articulation 變化頻繁 |
 | Recapitulation | m31-end | 重現主題，articulation 對應 exposition |
 
-對指法的意涵：典型 Classical 平衡 — 短音 detache（[[concept_period_defaults]] §4 短音 default）+ 長音 legato。
+對指法的意涵：典型 Classical 平衡 — 短音 detache（[concept_period_defaults](concept_period_defaults.md) §4 短音 default）+ 長音 legato。
 
 ### 2.2 mvt2 Andante (F major) ⚠
 
@@ -35,7 +35,7 @@ Muzio Clementi (1752-1832) Op.36 (1797 出版)，共 6 首 Sonatinas（No.1-6）
 - B 段：較動態，部分 detache
 - A' 段：重現 + 微裝飾
 
-對指法的意涵：A 段是 [[concept_legato_substitution]] 適用對象（slow tempo + slur melody）。
+對指法的意涵：A 段是 [concept_legato_substitution](concept_legato_substitution.md) 適用對象（slow tempo + slur melody）。
 
 ### 2.3 mvt3 Vivace ⚠
 
@@ -44,7 +44,7 @@ Muzio Clementi (1752-1832) Op.36 (1797 出版)，共 6 首 Sonatinas（No.1-6）
 - 主題 detache + 跳躍
 - Refrain 段對比明顯
 
-對指法的意涵：rondo theme detache 段是 [[concept_staccato]] 適用對象（未實作）。
+對指法的意涵：rondo theme detache 段是 [concept_staccato](concept_staccato.md) 適用對象（未實作）。
 
 ## 3. Op.36 整體 articulation 特徵
 
@@ -76,8 +76,8 @@ Muzio Clementi (1752-1832) Op.36 (1797 出版)，共 6 首 Sonatinas（No.1-6）
 
 ⚠ MXL 待取得（musetrainer / IMSLP / Henle digital）。預期：
 
-- Slur 訊號充足 → [[concept_legato_substitution]] 可啟用（特別 mvt2 Andante）
-- Staccato 標記充足 → 未來 [[concept_staccato]] DP rule 測試對象
+- Slur 訊號充足 → [concept_legato_substitution](concept_legato_substitution.md) 可啟用（特別 mvt2 Andante）
+- Staccato 標記充足 → 未來 [concept_staccato](concept_staccato.md) DP rule 測試對象
 - 整體 config 建議：`figural + thumb + legato_substitution`（per Classical 標準）
 
 啟用順序建議：
@@ -97,13 +97,13 @@ Clementi 是 19 世紀 keyboard teaching 重要人物：
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[../score-claude/memory/project_target_repertoire_intermediate]] §推薦曲目 — Op.36 No.1/3 在 in-scope list
-- [[concept_period_defaults]] §4 — Classical 平衡 default 典型案例
-- [[concept_legato_substitution]] §5 — mvt2 lyrical 段適用
-- [[concept_staccato]] §4 — mvt3 rondo theme 適用
-- [[analysis_mozart_k545_articulation]] — 同時代 sonata 對比
-- [[analysis_beethoven_op49_articulation]] — Clementi vs Beethoven Classical 平衡比較
-- [[src_czerny_op500_articulation]] — Czerny 對 Clementi 教學傳承的提及
+- *project_target_repertoire_intermediate* §推薦曲目 — Op.36 No.1/3 在 in-scope list
+- [concept_period_defaults](concept_period_defaults.md) §4 — Classical 平衡 default 典型案例
+- [concept_legato_substitution](concept_legato_substitution.md) §5 — mvt2 lyrical 段適用
+- [concept_staccato](concept_staccato.md) §4 — mvt3 rondo theme 適用
+- [analysis_mozart_k545_articulation](analysis_mozart_k545_articulation.md) — 同時代 sonata 對比
+- [analysis_beethoven_op49_articulation](analysis_beethoven_op49_articulation.md) — Clementi vs Beethoven Classical 平衡比較
+- [src_czerny_op500_articulation](src_czerny_op500_articulation.md) — Czerny 對 Clementi 教學傳承的提及
 
 ## 8. ⚠ Training-data verification queue
 

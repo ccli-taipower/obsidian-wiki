@@ -1,7 +1,7 @@
 # Source: Brendel Essays（特別 Beethoven articulation 詮釋章節）
 
 > Alfred Brendel (1931-2025)，散文集 *Music Sounded Out* (1990, 倫敦 Robson Books) + *Alfred Brendel on Music: Collected Essays* (2001, Chicago Review Press) + *A Pianist's A-Z: A Piano Lover's Reader* (2013, Faber)
-> 引用方：[[concept_articulation_overview]] §3 (Classical period), [[concept_tenuto]] §3, [[concept_accent_marcato]] §1, [[concept_period_defaults]] §3
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §3 (Classical period), [concept_tenuto](concept_tenuto.md) §3, [concept_accent_marcato](concept_accent_marcato.md) §1, [concept_period_defaults](concept_period_defaults.md) §3
 
 ## 1. 作者背景
 
@@ -30,7 +30,7 @@ Brendel 散文的特色：**從具體段落出發**論述抽象原則 — 與 Ne
 - 強調的是內聲部、過渡音、和聲解決音
 - 演奏家若忽略這些 tenuto = 漏掉作曲家的結構指示
 
-→ 對指法的意涵：[[concept_tenuto]] §5 提到 Beethoven 持音標記是 Brendel 觀察的具體展開。後期 Beethoven 段落應特別 honor tenuto 標記（強指偏好 + 禁換指）。
+→ 對指法的意涵：[concept_tenuto](concept_tenuto.md) §5 提到 Beethoven 持音標記是 Brendel 觀察的具體展開。後期 Beethoven 段落應特別 honor tenuto 標記（強指偏好 + 禁換指）。
 
 ### 2.3 Mozart articulation 的「**Classical 平衡**」
 
@@ -39,7 +39,7 @@ Brendel 對 Mozart 短音 / 長音平衡的觀察：
 ⚠ Training-data verification needed:
 > 「Mozart 的 articulation 像 18 世紀說話：每個音節清晰，但句子流動。短音必須 detache 才能說清楚；長音必須 legato 才能成為句子。」
 
-→ 對應 [[concept_period_defaults]] §4 Classical 「音長相關平衡」原則，Brendel 是此原則的近代代言人之一。
+→ 對應 [concept_period_defaults](concept_period_defaults.md) §4 Classical 「音長相關平衡」原則，Brendel 是此原則的近代代言人之一。
 
 ### 2.4 Sforzando 在 Beethoven 中的「**結構性突發**」
 
@@ -48,7 +48,7 @@ Brendel 對 Mozart 短音 / 長音平衡的觀察：
 - 例如 Op.111 第一樂章開頭 c minor 的 sfz 是「**戲劇宣告**」，不是表情記號
 - 演奏家若把 sfz 弱化（如為了「優雅」）= 違反作曲家結構意圖
 
-→ 對指法的意涵：[[concept_accent_marcato]] §4 sforzando 強指偏好不只是技術選擇，是 honor 結構意圖的必要。
+→ 對指法的意涵：[concept_accent_marcato](concept_accent_marcato.md) §4 sforzando 強指偏好不只是技術選擇，是 honor 結構意圖的必要。
 
 ## 3. Brendel 對 articulation 詮釋學的影響
 
@@ -64,9 +64,9 @@ Brendel 對 Mozart 短音 / 長音平衡的觀察：
 | Brendel 主張 | 對 score-claude DP 的對應 |
 |---|---|
 | Beethoven 標記字面接受 | Beethoven MXL slur / staccato 高信任度 |
-| 後期 Beethoven tenuto 是結構標誌 | [[concept_tenuto]] 強指偏好 + 禁換指 |
-| Mozart 音長相關平衡 | [[concept_period_defaults]] Classical default |
-| Sforzando 結構突發 | [[concept_accent_marcato]] sforzando 強指偏好 |
+| 後期 Beethoven tenuto 是結構標誌 | [concept_tenuto](concept_tenuto.md) 強指偏好 + 禁換指 |
+| Mozart 音長相關平衡 | [concept_period_defaults](concept_period_defaults.md) Classical default |
+| Sforzando 結構突發 | [concept_accent_marcato](concept_accent_marcato.md) sforzando 強指偏好 |
 
 ## 5. 文章未涵蓋
 
@@ -87,11 +87,11 @@ Brendel 的字面派立場是 20 世紀後 Urtext movement 的主流。
 
 ## 7. 與其他 wiki 頁面的關係
 
-- [[concept_articulation_overview]] §3 — Brendel 字面派對「樂譜標記信任度」的支持
-- [[concept_tenuto]] §5 — Brendel 對後期 Beethoven tenuto 的觀察
-- [[concept_accent_marcato]] §4 — Brendel 對 sforzando 結構意義的論述
-- [[concept_period_defaults]] §4 — Brendel 對 Classical 音長相關平衡的引述
-- [[src_czerny_op500_articulation]] — 對比 Czerny（Beethoven 學生）vs Brendel（Urtext 派）對 Beethoven 標記的不同詮釋傳統
+- [concept_articulation_overview](concept_articulation_overview.md) §3 — Brendel 字面派對「樂譜標記信任度」的支持
+- [concept_tenuto](concept_tenuto.md) §5 — Brendel 對後期 Beethoven tenuto 的觀察
+- [concept_accent_marcato](concept_accent_marcato.md) §4 — Brendel 對 sforzando 結構意義的論述
+- [concept_period_defaults](concept_period_defaults.md) §4 — Brendel 對 Classical 音長相關平衡的引述
+- [src_czerny_op500_articulation](src_czerny_op500_articulation.md) — 對比 Czerny（Beethoven 學生）vs Brendel（Urtext 派）對 Beethoven 標記的不同詮釋傳統
 
 ## 8. ⚠ Training-data verification queue
 

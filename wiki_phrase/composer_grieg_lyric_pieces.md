@@ -60,7 +60,7 @@ A-B-A 結構主導，**段落切換**清楚（中段常完全停頓或 tempo 切
 ```
 grieg_phrase_detector(groups, hand):
 
-1. 套用 [[concept_classical_period_sentence]] 基底：
+1. 套用 [concept_classical_period_sentence](concept_classical_period_sentence.md) 基底：
    - 啟用 4-bar 週期 Pass 3 fallback（適合 Grieg）
    - period (4+4 / 8+8) 為主結構
 
@@ -87,10 +87,10 @@ grieg_phrase_detector(groups, hand):
 
 ## 6. 與其他 wiki 頁面的關係
 
-- 主要繼承 [[concept_classical_period_sentence]] 基底
-- 借用 [[../wiki_piano/src_chinese_style_piano]] 的五聲音階指法（Grieg pentatonic 段落共用）
-- 不同於 [[concept_chopin_lyrical_phrase]]：Grieg 樂句**較規律**，不需要禁用 4-bar fallback
+- 主要繼承 [concept_classical_period_sentence](concept_classical_period_sentence.md) 基底
+- 借用 [../wiki_piano/src_chinese_style_piano](../wiki_piano/src_chinese_style_piano.md) 的五聲音階指法（Grieg pentatonic 段落共用）
+- 不同於 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md)：Grieg 樂句**較規律**，不需要禁用 4-bar fallback
 - 待寫：
-  - [[concept_modal_cadence_detection]] (modal final 而非 tonic 的 cadence 處理)
-  - [[concept_drone_bass_pattern]] (drone / ostinato 對樂句偵測的影響)
+  - [concept_modal_cadence_detection](concept_modal_cadence_detection.md) (modal final 而非 tonic 的 cadence 處理)
+  - [concept_drone_bass_pattern](concept_drone_bass_pattern.md) (drone / ostinato 對樂句偵測的影響)
 

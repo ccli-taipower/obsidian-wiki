@@ -1,7 +1,7 @@
 # Concept: Cadence Detection — PAC / IAC / HC / DC 偵測演算法
 
 > 來源：通用音樂理論 + music21 API、Aldwell & Schachter《Harmony and Voice Leading》、Caplin《Classical Form》cadence chapter
-> 引用方：[[concept_classical_period_sentence]]、[[concept_chopin_lyrical_phrase]]、[[composer_beethoven_phrasing]]、[[composer_schubert_long_phrase]]、[[composer_grieg_lyric_pieces]]
+> 引用方：[concept_classical_period_sentence](concept_classical_period_sentence.md)、[concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md)、[composer_beethoven_phrasing](composer_beethoven_phrasing.md)、[composer_schubert_long_phrase](composer_schubert_long_phrase.md)、[composer_grieg_lyric_pieces](composer_grieg_lyric_pieces.md)
 > 狀態：工具頁，第一版 2026-05-26
 
 ## 1. 為什麼 cadence 偵測是樂句分析的工具頁
@@ -182,9 +182,9 @@ def _detect_phrase_starts_with_cadence(groups, mxl_path):
 
 | 場景 | 失靈原因 | 補救 |
 |---|---|---|
-| 對位音樂 (fugue) | 多聲部，chordify 把多旋律混成和弦，cadence 不準 | 用 [[concept_subject_imitation_detection]] 取代 |
-| 浪漫派 (Chopin) | 擴張和聲 (V9/13/altered)，music21 RomanNumeral 不準 | 弱化權重；以 [[concept_chopin_lyrical_phrase]] 的 texture 訊號為主 |
-| 印象派 (Debussy) | 非功能和聲，cadence 概念不適用 | **禁用** cadence 偵測；用 [[concept_impressionist_phrasing]] texture 偵測 |
+| 對位音樂 (fugue) | 多聲部，chordify 把多旋律混成和弦，cadence 不準 | 用 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 取代 |
+| 浪漫派 (Chopin) | 擴張和聲 (V9/13/altered)，music21 RomanNumeral 不準 | 弱化權重；以 [concept_chopin_lyrical_phrase](concept_chopin_lyrical_phrase.md) 的 texture 訊號為主 |
+| 印象派 (Debussy) | 非功能和聲，cadence 概念不適用 | **禁用** cadence 偵測；用 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) texture 偵測 |
 | 二十世紀 / 無調 | 同上 | 同上 |
 | 音樂節奏複雜 | chord 對齊 offset 計算困難 | 給 ±0.25 拍容差 |
 | Modulation | key 推測錯誤 → 整段 cadence 誤判 | 用 windowed key analysis (每 8 bar 重算 key) |
@@ -243,7 +243,7 @@ Phase 1's per-tick `chordify` + `romanNumeralFromChord` produced 0 PACs on every
 
 ## 8. 與其他 wiki 頁面的關係
 
-- 工具頁，被 [[concept_classical_period_sentence]] 等多頁引用
-- 對位作品改用 [[concept_subject_imitation_detection]] 而非 cadence
-- 印象派 [[concept_impressionist_phrasing]] 明確說「禁用此頁演算法」
+- 工具頁，被 [concept_classical_period_sentence](concept_classical_period_sentence.md) 等多頁引用
+- 對位作品改用 [concept_subject_imitation_detection](concept_subject_imitation_detection.md) 而非 cadence
+- 印象派 [concept_impressionist_phrasing](concept_impressionist_phrasing.md) 明確說「禁用此頁演算法」
 

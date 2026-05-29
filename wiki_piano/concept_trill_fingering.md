@@ -1,7 +1,7 @@
 # Concept: Trill Fingering — 顫音指法
 
 > 來源：C.P.E. Bach *Versuch* §trills, Czerny *Op.500* §trills, Hanon §finger independence
-> 引用方：[[concept_finger_substitution]], [[concept_hand_anatomy]]（4-5 弱指）, [[../wiki_articulation/concept_ornament_articulation]]
+> 引用方：[concept_finger_substitution](concept_finger_substitution.md), [concept_hand_anatomy](concept_hand_anatomy.md)（4-5 弱指）, [../wiki_articulation/concept_ornament_articulation](../wiki_articulation/concept_ornament_articulation.md)
 
 ## 1. Trill 是什麼
 
@@ -49,7 +49,7 @@ Trill 是 ornament 中**最常見**的一種，每個 cadence 幾乎都用。
 - **替代**: 演奏家常用 3-5 或 4-5-4-5 變體繞過純 4-5 trill
 - **失敗訊號**: 5 開始無法及時 release → trill 逐漸減速 → "**trill 拖死**"
 
-對應 [[analysis_common_fingering_injuries]]：強迫 4-5 trill 持續是 focal dystonia / strain 高風險。
+對應 [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md)：強迫 4-5 trill 持續是 focal dystonia / strain 高風險。
 
 ## 5. Trill resolution 處理
 
@@ -88,7 +88,7 @@ Trill 可結合其他 ornament：
 
 DP 對 trill 的處理：
 - 識別 trill marker (`tr` 或 `~~~`)
-- Trill 內部音通常**極短** (duration < 0.125 QN)，由 [[../wiki_articulation/concept_legato_substitution]] §6 LEGATO_MIN_DURATION gate 自動跳過 substitution rule
+- Trill 內部音通常**極短** (duration < 0.125 QN)，由 [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md) §6 LEGATO_MIN_DURATION gate 自動跳過 substitution rule
 - 但對 trill 兩音 fingering 選擇，DP 目前無 special-case — 看 cost 自然產生
 
 未來 v3 candidate：**trill-aware fingering rule** — 偵測 trill 段強制偏好 2-3 fingering。是 future direction，未實作。
@@ -105,8 +105,8 @@ DP 對 trill 的處理：
 
 ## 10. 與其他 wiki 頁面的關係
 
-- [[concept_finger_substitution]] — Trill 中段 substitution 處理
-- [[concept_hand_anatomy]] — 4-5 juncturae tendinum 物理基礎
-- [[analysis_common_fingering_injuries]] — Trill 強迫 4-5 的 strain 風險
-- [[../wiki_articulation/concept_ornament_articulation]] — Trill 作為 ornament 的 articulation 處理
-- [[../wiki_articulation/src_cpe_bach_versuch]] — C.P.E. Bach 對 trill 的權威論述
+- [concept_finger_substitution](concept_finger_substitution.md) — Trill 中段 substitution 處理
+- [concept_hand_anatomy](concept_hand_anatomy.md) — 4-5 juncturae tendinum 物理基礎
+- [analysis_common_fingering_injuries](analysis_common_fingering_injuries.md) — Trill 強迫 4-5 的 strain 風險
+- [../wiki_articulation/concept_ornament_articulation](../wiki_articulation/concept_ornament_articulation.md) — Trill 作為 ornament 的 articulation 處理
+- [../wiki_articulation/src_cpe_bach_versuch](../wiki_articulation/src_cpe_bach_versuch.md) — C.P.E. Bach 對 trill 的權威論述

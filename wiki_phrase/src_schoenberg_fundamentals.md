@@ -94,4 +94,4 @@ Schoenberg 在 1937–1948 間為美國學生整理的作曲教學筆記，由 S
 
 5. **Grundgestalt 比 motive 大**：包含和聲與聲部配置 — 提示我們未來 motif detection 不該只看 melody pitch sequence，也該考慮**伴奏輪廓 + 和聲走向**作為 motif identity 的一部分（目前 v5 schema 是 exact-pitch only，這是限制）。
 
-詳見 [[concept_classical_period_sentence]]、[[concept_cadence_detection]]、[[concept_texture_change_detection]] 與 [[../score-claude/memory/feedback_personal_biomechanics]]。
+詳見 [concept_classical_period_sentence](concept_classical_period_sentence.md)、[concept_cadence_detection](concept_cadence_detection.md)、[concept_texture_change_detection](concept_texture_change_detection.md) 與 *feedback_personal_biomechanics*。
