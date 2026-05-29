@@ -3,6 +3,19 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
 
+## [2026-05-29] revision — Bach Inv 7 (BWV 778) 啟用 subject_tol=0.7 (chromatic 校正)
+
+infrastructure 落地後 (score-claude `42c9f5e` per-piece `SUBJECT_MATCH_TOLERANCE` override)，跑 Inv 7 enablement A/B + split-test：
+
+- `tmp/diag_subject_tol_inv7.py`: tol 0.8→0.7 把 RH 0 entries 解到 4 entries (m3/m11/m11/m12, 命中 wiki §7 預測 m11-14)
+- `tmp/diag_inv7_enablement.py`: figural+thumb+subject@0.7 combined: RH -13.82 ✓, LH +0.34 ⚠
+- `tmp/diag_inv7_split.py`: isolated 出 `USE_THUMB_RESERVATION` 是 LH 唯一 breach 軸 (+4.57); subject@0.7 本身 SAFE (-6.22 RH / -0.50 LH)
+
+最終啟用：`BACH_INV_PHRASE_FLAGS[7] = {figural: True, thumb: False, subject: True, subject_tol: 0.7}`。Production cost: **RH -22.68 / LH -7.05, 0 breach**。
+
+Pages revised (1):
+- `analysis_bach_inv_7_e_minor.md` §「三類樂句邊界」表 Subject entry row — 移除 ⚠ chromatic tolerance 待校準警示，加入實測啟用結果
+
 ## [2026-05-29] revision — Chopin Op.9 No.2 §7 fioritura 全曲算法實測
 
 取得 musetrainer/library Op.9 No.2 全曲 MXL (m0-m37) 跑 `_detect_fioritura_ranges`，校正 wiki §7 原本以 B0-12 excerpt 推斷的 canonical case 位置。

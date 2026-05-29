@@ -160,7 +160,7 @@ Leading-rest **不是 [[concept_phrase_elision]] case** — 反而是 elision �
 
 | 邊界類型 | Inv 7 預期觸發點 | 工具 | 風險 |
 |---|---|---|---|
-| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — 實測 RH @ (len=8: none) 全 miss, LH @ m3 (1 entry) | [[concept_subject_imitation_detection]] | ⚠ RH 全 miss 推測為 chromatic subject + 0.8 tolerance 太緊; 見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]] |
+| **Subject entry** | 主題 / 答句: m1 RH + m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — @ default tol=0.8: RH 全 miss, LH 1 entry @ m3; @ **tol=0.7** (per-piece in `BACH_INV_PHRASE_FLAGS[7]`): **RH @ m3/m11/m11/m12 (4 entries ✓ 命中 wiki 預測 m11-14)**, **LH @ m3/m11/m22 (3 entries, 含 m11 預測)** | [[concept_subject_imitation_detection]] | ✓ 2026-05-29 enabled: figural+subject@0.7 (thumb OFF — LH chromatic +4.57 breach); cost RH -22.68 / LH -7.05; 0 red-line breach。詳 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]] action #4。 |
 | **Modulation** | m6-m7, m16-m17 | [[concept_modulation_as_phrase_signal]] | ⚠ Chromatic descent 的 false positive 風險 |
 | **Cadence** | m22-m23 final cadence (可能 Picardy 3rd) | [[concept_cadence_detection]] | 末和弦音色變化 (e → E) 是獨立訊號 |
 | **Leading-rest entry** | development 段內多處 | （新提議軸，目前 [[concept_subject_imitation_detection]] 部分覆蓋） | OMR alignment cascade |
