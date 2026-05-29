@@ -1,22 +1,15 @@
-# Concept: Articulation Overview — 11 種類型 + 對 DP cost rule 的影響
+# Concept: Articulation Overview — 11 種類型 + 對指法的影響
 
-> 來源：通用 articulation pedagogy + Neuhaus / Matthay / Czerny / 19 世紀理論家
+> 來源：通用 articulation pedagogy + Neuhaus / Matthay / Czerny / Türk / 19 世紀理論家
 > 引用方：本 wiki 所有後續 concept 頁的基礎參考
-> 狀態：種子頁 v1，2026-05-29
-> 觸發 case：score-claude DP 目前對 MXL `slur` / `articulation` elements 視而不見，需要先建知識基礎再規劃 cost rule 介入
 
 ## 1. 為什麼 articulation 對指法重要
 
-兩個音之間怎麼連接（**connection style**），不只是表情問題，**直接決定可用的手指轉換策略**：
+兩個音之間怎麼連接（**connection style**），不只是表情問題，**直接決定可用的手指轉換策略**。
 
-| Articulation | 物理動作 | 對指法的約束 |
-|---|---|---|
-| **Legato** | 前指還按、後指彈下、前指鬆 | 允許 finger substitution；不允許 hand jump |
-| **Staccato** | 每音獨立、鬆指後再彈 | 允許 thumb cross / hand jump；substitution 無意義 |
-| **Tenuto** | 持滿值、明顯壓重 | 同音換指禁用；強制 hold 此指 |
-| **Marcato** | 強重音 + 短斷 | 偏好強指（1/2/3）下這個音 |
+當鋼琴家看到「legato」標記時，物理上必須讓前一音的「釋放」與下一音的「彈下」在同一瞬間完成 — 沒有 finger substitution 就無法達成。同理「staccato」要求每音獨立、結束後手指立刻離鍵 — 此時 finger substitution 既無意義也浪費動作；自由的 thumb cross 反而更實用。
 
-→ 沒看 articulation 的 DP = 所有音當 non-legato 處理 = 對 Bach 對位 OK（baroque 默認 non-legato）但對 Chopin lyrical 段 / Beethoven *cantabile* 標記段系統性失誤。
+所以 articulation 標記不是純粹「演奏效果」的選擇，而是「指法策略」的前置決定。
 
 ## 2. 11 種 articulation 完整 taxonomy
 
@@ -36,95 +29,65 @@
 | 10 | **Sforzando (sfz)** | `sfz` | 不變音長，突重音 | 突強 |
 | 11 | **Fermata** | `𝄐` | extend ad lib | 延長 |
 
-(註：1-7 是 connection 光譜；8-10 是 dynamic accent overlay；11 是 duration 修飾。可疊加，例如 `sfp` + tenuto 同一個音）
+註：1-7 是 connection 光譜；8-10 是 dynamic accent overlay；11 是 duration 修飾。可疊加，例如 `sfp` + tenuto 同一個音。
 
-## 3. 時代 default 差異 (period-dependent baseline)
+每類詳細指法影響見對應 concept 頁（見 [[index]] 索引）。
 
-當 MXL **沒** articulation 標記時，假設什麼 default：
+## 3. 時代 default 差異
 
-| 時代 | Default articulation | 對 DP 假設的影響 |
+當樂譜**沒**有 articulation 標記時，演奏家假設什麼 default：
+
+| 時代 | Default articulation | 對指法的假設影響 |
 |---|---|---|
-| **Baroque (1600-1750)** | non-legato (~85%) | 不假設 legato bias；DP 目前的行為相對正確 |
-| **Classical (1750-1820)** | Mozart/Haydn balance — 短音 detache，長音 legato | 需以音長分類，短音允許 hand jump |
-| **Romantic (1820-1900)** | legato 為主（除非標記 staccato）| 強烈假設 substitution-friendly；DP 目前對 Chopin Op.9-2 失誤的主因之一 |
-| **Modernism (1900+)** | 必須有明確標記，無 default | 不適用 default 假設 |
+| **Baroque (1600-1750)** | non-legato (~85%) | 不假設 legato bias；目前指法系統的預設行為相對正確（[[concept_non_legato_baroque]]） |
+| **Classical (1750-1820)** | 平衡 — 短音 detache，長音 legato | 需以音長分類，短音允許 hand jump、長音偏好 substitution |
+| **Romantic (1820-1900)** | legato 為主（除非標記 staccato）| 強烈假設 substitution-friendly；Chopin 浪漫派 melody 段必須觸發 [[concept_legato_substitution]] |
+| **Modernism (1900+)** | 必須有明確標記，無 default | 不適用 default 假設 — 信樂譜原文 |
 
-→ 對於初中階目標曲目（[[../score-claude/memory/project_target_repertoire_intermediate]]）：
-- Bach 2-voice (Baroque) → 目前 DP 預設行為合理
-- Beethoven Op.49 (Classical) → 需引入音長 → articulation 推論
-- Mozart K545 (Classical) → 同上
-- → **Classical period default 推論是初中階 articulation 最關鍵的 missing piece**
+詳細按時代 default 邏輯見 [[concept_period_defaults]]。
 
-## 4. 對 score-claude DP cost rule 的對應表
+## 4. Articulation 與指法系統的對應關係
 
-| Articulation | DP 受影響項 | 修改方向 | 對應 wiki 深入頁 |
-|---|---|---|---|
-| Legato 段 | `NOTE_RETENTION_PENALTY` (現 0.0) | 允許 substitution，substitution_bonus = +負值 (誘導) | [[concept_legato_substitution]] |
-| Legato 段 | `INTRA_PHRASE_TRANSITION_SCALE` (現 1.0) | 不變或微增 (continuity 加重) | [[concept_legato_substitution]] |
-| Staccato 段 | `INTRA_PHRASE_TRANSITION_SCALE` | 大幅放鬆 (× 0.5)，允許 hand jump | concept_staccato_hand_jump.md (待寫) |
-| Staccato 段 | `THUMB_PASS_PHRASE_BUDGET` | 加寬 (×2) | concept_staccato_hand_jump.md |
-| Non-legato (Baroque default) | (無修改) | 維持目前 DP 行為 | concept_baroque_non_legato.md (待寫) |
-| Portato | (混合 legato/staccato 中間值) | 介於兩者；保守選 legato | concept_portato_mezzo_staccato.md (待寫) |
-| Tenuto | `NOTE_RETENTION_BONUS` | 強制持指（substitution_penalty = +∞） | concept_tenuto_hold.md (待寫) |
-| Accent (`>`) | 偏好強指 | 該音 finger ∈ {1, 2, 3} 加 cost bonus | concept_accent_voicing.md (待寫) |
-| Marcato (`^`) | 同 accent + 短斷 | accent + staccato 雙修飾 | concept_accent_voicing.md |
-| Sforzando | 同 accent，但更強 | accent_weight × 2 | concept_accent_voicing.md |
-| Fermata | duration override | extend duration 至 ≥ 2× original | (邊緣 case，暫不單獨開頁) |
+每種 articulation 在指法決策中扮演不同角色：
+
+| Articulation | 主要影響 | 詳細頁 |
+|---|---|---|
+| Legato | 鼓勵 finger substitution、限制 hand jump | [[concept_legato_substitution]] |
+| Staccato / Staccatissimo | 允許 thumb cross、free hand jump | [[concept_staccato]] |
+| Tenuto | 禁用同音換指、強制 hold | [[concept_tenuto]] |
+| Accent / Marcato / Sforzando | 偏好強指（1/2/3 而非 4/5）| [[concept_accent_marcato]] |
+| Portato | 介於 legato 與 staccato（保守選 legato）| [[concept_portato_mezzo_staccato]] |
+| Non-legato (Baroque) | 不假設特殊處理 — 預設行為合理 | [[concept_non_legato_baroque]] |
+| Fermata | duration override（指法不受影響）| (無單獨頁) |
 
 ## 5. Articulation 訊號從哪來
 
 | 訊號源 | 可靠度 | 取得方式 |
 |---|---|---|
-| **MXL `<slur>` element** | 高（編輯者明確標記） | music21 `note.slurs` 或 `note.spannerSites` |
-| **MXL `<articulation>` element** | 高（同上）| music21 `note.articulations` |
-| **MXL `<notations>/<accent>`** | 高 | music21 `note.articulations` (Accent 類) |
+| **MXL `<slur>` element** | 高（編輯者明確標記）| music21 `note.spannerSites` → 過濾 Slur |
+| **MXL `<articulation>` element** | 高 | music21 `note.articulations` (Staccato / Tenuto / Accent 等類) |
 | **編輯者推斷 / urtext editorial** | 中（會有 edition 差異）| 同上但需 edition 標記 |
 | **音長 + 時代推論**（無明確標記時）| 中（fallback）| 自訂規則：短音 + Classical = staccato 嫌疑、長音 + Romantic = legato 嫌疑 |
-| **演奏家詮釋傳統** | 低（不入 DP）| 不應 hard-code |
+| **演奏家詮釋傳統** | 低（不入指法系統）| 不應 hard-code |
 
-→ DP hook 點：在 head dict 建構時讀 `note.articulations` 與 `note.slurs`，存入 `head["articulation"]` 與 `head["slur_id"]`。後續 cost rule 條件式讀此欄位。
+## 6. Articulation 與樂句邊界的區別
 
-## 6. 與 wiki_phrase 的邊界
+**Articulation 是 within-phrase 屬性，不是 phrase 切分訊號**。
 
-Articulation 影響的「分段」不是 phrase boundary：
-
-| 分段類型 | 來自 | DP 行為 |
+| 分段類型 | 來自 | 影響 |
 |---|---|---|
-| **Phrase boundary** | wiki_phrase 五軸 (rest gap / pitch jump / cadence / subject / texture / figural) | DP 樂句間獨立優化，free hand reposition |
-| **Slur boundary** | articulation slur start/end | DP 不切樂句；只調整 cost rule conditional |
-| **Articulation marking start** | 個別音符標記 (staccato / tenuto / accent) | DP 不切樂句；只調整該音 cost |
+| **Phrase boundary** | wiki_phrase 五軸 (rest gap / pitch jump / cadence / subject / texture / figural) | 樂句間獨立優化，free hand reposition |
+| **Slur boundary** | articulation slur start/end | 不切樂句；只調整指法 cost conditional |
+| **Articulation marking start** | 個別音符標記 (staccato / tenuto / accent) | 不切樂句；只調整該音指法偏好 |
 
-→ Slur 結束**通常**不是 phrase 結束（Chopin lyrical 段一個 phrase 可有多個 slur 子分句；Bach 一個 figure 可橫跨 slur 邊界）。**Articulation 是 within-phrase 屬性，不是 phrase 切分訊號。**
+→ Slur 結束**通常**不是 phrase 結束：Chopin lyrical 段一個 phrase 可有多個 slur 子分句；Bach 一個 figure 可橫跨 slur 邊界。
 
-例外：超長 slur（如 Wagner / Liszt 整段持續 slur）等同 phrase boundary 標記 — 但屬罕見浪漫派情境，初中階目標曲目不太遇到。
+例外：超長 slur（Wagner / Liszt 整段持續 slur）等同 phrase boundary 標記 — 屬罕見浪漫派情境，初中階目標曲目不太遇到。
 
-## 7. 對既有 cost rule 的 retrofit 影響評估
-
-當 articulation cost rule 引入後，現有 cost rule 需重新檢視：
-
-| 既有 rule | 是否需要 articulation 條件化 | 理由 |
-|---|---|---|
-| `NOTE_RETENTION_PENALTY` (現 0.0) | 是 | legato 段應 bonus，staccato 段保持 0 |
-| `THUMB_PASS_PHRASE_BUDGET` | 是 | staccato 段加寬 |
-| `WRIST_EXT_PHRASE_BUDGET` | 否 | wrist extension 與 articulation 解耦 |
-| `STEP_AGILITY_WEIGHT` | 否 | velocity-driven，與 articulation 不直接相關 |
-| `PINKY_BLACK_MELODY_PENALTY` | 可選 | accent 段該音若為 pinky 應加重 penalty |
-| `RH_F3F4_EXTRA_COST` | 否 | 解剖學常數，不變 |
-| `THUMB_PASS_UPWARD_EXTRA` | 否 | 解剖學常數 |
-
-→ 多數既有 cost rule 是純解剖學，不受 articulation 影響。只有 substitution-friendly / hand-jump-friendly 兩類 rule 是 articulation-sensitive。
-
-## 8. 未解 questions / 待 ingest 來源
-
-- 不同教學派系（Russian / German / French）對「legato」程度的詮釋差異 — 待 ingest Neuhaus + Czerny + (Russian-school 待找)
-- 編輯者標記與 urtext 不一致時的處理 — 待 ingest Henle / Bärenreiter editorial principles
-- 演奏家 articulation vs 樂譜標記 — 待 ingest Brendel + Schiff essays (Beethoven articulation 詮釋差異)
-- Articulation 與 ornament（trill / mordent）互動 — 待 ingest Donington《Baroque Music: Style and Performance》
-
-## 9. 與其他 wiki 頁面的關係
+## 7. 與其他 wiki 頁面的關係
 
 - [[index]] — 本 wiki 入口
-- [[concept_legato_substitution]] — legato 條目深入版（最大 DP 衝擊）
-- [[../wiki_phrase/concept_figural_boundary_detection]] — figure 邊界與 slur 邊界的區分（兩者不一定重合）
+- 每種 articulation 的詳細指法影響 → 各 `concept_*.md`
+- [[../wiki_phrase/concept_figural_boundary_detection]] — figure 邊界與 slur 邊界的區分
 - [[../wiki_piano/concept_thumb_technique]] — staccato 段 thumb-cross 放鬆與 thumb 解剖學的對位
-- [[../score-claude/memory/project_target_repertoire_intermediate]] — 為何 Classical period default 推論最關鍵
+- [[../wiki_piano/concept_finger_span_table]] — substitution 改變了「下一步」的 hand position

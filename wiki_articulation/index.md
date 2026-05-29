@@ -1,57 +1,69 @@
 # Wiki: Articulation — 連結 / 斷奏 / 觸鍵 對指法的影響
 
-> 第三條 wiki track，平行於 [[../wiki_piano/index|wiki_piano]] (生物力學) + [[../wiki_phrase/index|wiki_phrase]] (樂句分段)
-> 起始 2026-05-29
-> 目標曲目：初中階（[[../score-claude/memory/project_target_repertoire_intermediate]]）
-> 對 score-claude DP 的影響面：cost rule 加 articulation-conditional 修飾項，不新增 phrase boundary
+> 第三條 wiki track，平行於 [[../wiki_piano/index|wiki_piano]] (生物力學) + [[../wiki_phrase/index|wiki_phrase]] (樂句分段)。
+> 主題：notation 詮釋層（slur、staccato、tenuto、accent...）如何決定指法選擇，特別是同音換指、手位跳轉、強指偏好。
+> 目標讀者：鋼琴教師、學生、指法系統設計者。
 
-## 為什麼開這條獨立 wiki
+## 為什麼要獨立一條 wiki
 
-Articulation（連結 / 斷奏 / 觸鍵類型）不屬於既有兩條 wiki：
-- 不是「樂句邊界」— articulation 不會切樂句（slur 結束 ≠ 樂句結束）
-- 不是「生物力學常數」— articulation 是 notation 詮釋層，per-piece / per-段 變動
+兩個音之間怎麼連接（**connection style**），不只是表情問題，**直接決定可用的手指轉換策略**：
 
-但 articulation 直接決定多條 DP cost rule：
-- **legato 段** → favor finger substitution，鬆綁 `NOTE_RETENTION_PENALTY`
-- **staccato 段** → relax `INTRA_PHRASE_TRANSITION_SCALE`，允許 hand jump / thumb cross
-- **accent / agogic** → 偏好強指（1/2/3 而非 4/5）
-- **tenuto** → 強制 hold（同音換指禁用）
+| Articulation | 物理動作 | 對指法的約束 |
+|---|---|---|
+| **Legato** | 前指還按、後指彈下、前指鬆 | 允許 finger substitution；不允許 hand jump |
+| **Staccato** | 每音獨立、鬆指後再彈 | 允許 thumb cross / hand jump；substitution 無意義 |
+| **Tenuto** | 持滿值、明顯壓重 | 同音換指禁用；強制 hold 此指 |
+| **Accent / Marcato** | 強重音 + 短斷 | 偏好強指（1/2/3）下這個音 |
 
-目前 DP 完全沒看 MXL 的 `slur` / `articulation` / `dynamic` elements — 此 wiki 把 articulation 文獻 + 對應 cost rule 對齊起來。
+→ 沒看 articulation = 把所有音當 non-legato 處理 = 對 Baroque 對位 OK（baroque 默認 non-legato）但對 Chopin lyrical 段 / Beethoven *cantabile* 標記段系統性失誤。
 
-## 索引 (TOC)
+## 索引
 
-### Concept 頁
-- [[concept_articulation_overview]] — 完整 taxonomy（legato / non-legato / staccato / portato / tenuto / accent / marcato / sforzando）+ 各條對應 cost rule 表
-- [[concept_legato_substitution]] — 最大衝擊條目：legato 段 finger substitution 偏好，pedagogical 文獻 + DP 修改提案
+### Foundation 頁
+- [[concept_articulation_overview]] — 完整 articulation taxonomy（11 種類型）+ 時代 default（Baroque/Classical/Romantic/Modern）
 
-### Source 頁 (待 ingest)
-- src_neuhaus_art_of_piano.md — Heinrich Neuhaus *The Art of Piano Playing*（觸鍵原則章節）
-- src_matthay_visible_inaudible.md — Tobias Matthay *The Visible and Invisible in Pianoforte Technique*
-- src_czerny_op500_articulation.md — Czerny Op.500 articulation 段
-- src_brendel_essays.md — Alfred Brendel 散文（Beethoven articulation 案例集）
-- src_kullak_aesthetics_pianoforte.md — Kullak *Die Ästhetik des Klavierspiels*（19 世紀 articulation 理論）
-
-### Analysis 頁 (待寫，per-piece)
-- analysis_bach_inv_articulation.md — Bach 2-voice subject vs counterpoint articulation 不同取法
-- analysis_beethoven_op49_articulation.md — Op.49 明確 articulation 標記 + DP 對應
-- analysis_mozart_k545_articulation.md — K545 Classical balance（既不全 legato 也不全 detache）
+### Per-articulation concept 頁
+- [[concept_legato_substitution]] — 連奏段 finger substitution 偏好（最常被引用的指法-articulation 介面）
+- [[concept_staccato]] — 斷奏 / staccatissimo 對 hand jump 與 thumb cross 的鬆綁
+- [[concept_tenuto]] — 持音的「禁止換指」約束
+- [[concept_accent_marcato]] — 重音 / marcato / sforzando 的強指偏好
+- [[concept_portato_mezzo_staccato]] — 半連半斷的中間地帶
+- [[concept_non_legato_baroque]] — Baroque 默認 articulation（為何不應該對 Baroque 過度套用 legato 規則）
+- [[concept_period_defaults]] — 無標記時各時代假設什麼 default
 
 ### Meta
-- `_implementation_status.md` — 各 concept 對應 DP cost rule 落地狀態 / A/B 結果（待開）
+- `_implementation_status.md` — DP 落地狀態 / source ingest queue / open design questions
+- `log.md` — 變更記錄
 
-## 與其他 wiki 的對位
+## Wiki 內定位
 
-| 訊號 | wiki_piano | wiki_phrase | wiki_articulation |
+| 訊號軸 | 屬於哪條 wiki | 改 DP 哪裡 | 變化頻率 |
 |---|---|---|---|
-| 來源 | 解剖學 + 個人生物力學 | 樂理 + 作曲家分析 | notation 詮釋 + 觸鍵傳統 |
-| 改 DP 哪裡 | cost terms (span/transition/thumb-pass) | phrase boundary 加 | cost rule conditional 修飾 |
-| 變化頻率 | 個人常數 (per-user) | per-piece 樂句結構 | per-段 / per-articulation marking |
-| 訊號 hook | wiki concept → cost rule | wiki concept → _detect_phrase_starts | wiki concept → conditional rule (待實作) |
+| 解剖學 + 手部生物力學 | [[../wiki_piano/index|wiki_piano]] | cost terms (span / transition / thumb-pass) | 個人常數 (per-user) |
+| 樂句結構 + 對位邏輯 | [[../wiki_phrase/index|wiki_phrase]] | phrase boundary 加 | per-piece 樂句結構 |
+| Notation 詮釋 + 觸鍵 | wiki_articulation (本) | cost rule conditional 修飾 | per-段 / per-marking |
 
-## Open questions（記錄供未來決定）
+**Articulation 是 within-phrase 屬性，不是 phrase 切分訊號**：slur 結束通常不是樂句結束（Chopin lyrical 一個 phrase 可有多 slur 子分句、Bach 一個 figure 可橫跨 slur 邊界）。
 
-- Articulation 是 per-passage (per-段) 還是 per-note? 我傾向 per-段（一個 slur 區段一致 articulation）
-- 不同 edition 同一段 articulation 標記不同 — 信哪本？（傾向 Henle Urtext > Schirmer / Bärenreiter）
-- 演奏家 articulation 詮釋 vs 樂譜標記 — 系統信樂譜還是信「典型詮釋」？傾向信樂譜（avoid second-guessing the score）
-- 是否需要 per-piece articulation_flags（類似 phrase_flags 機制）以 opt-in？— 應該需要
+## 主要文獻基礎
+
+- Neuhaus *The Art of Piano Playing* — 連奏 / 觸鍵理論
+- Matthay *The Visible and Invisible in Pianoforte Technique* — 觸鍵物理
+- Czerny *Op.500 Vollständige theoretisch-practische Pianoforte-Schule* — 19 世紀教學
+- Kullak *Die Ästhetik des Klavierspiels* — 19 世紀美學
+- Türk *Klavierschule* (1789) — 早期 articulation pedagogy
+- Brendel essays — Beethoven articulation 詮釋
+- Donington *Baroque Music: Style and Performance* — Baroque articulation + ornament
+
+詳細引用見各 `src_*.md`（陸續補充中；目前狀態見 [[_implementation_status]]）。
+
+## 目標曲目對應
+
+主要應用：初中階曲目（[[../score-claude/memory/project_target_repertoire_intermediate]]）
+- Bach 2-voice Inventions — Baroque non-legato default 為主
+- Easy Beethoven sonatas (Op.49) — Classical 平衡：短音 detache、長音 legato
+- Mozart sonatinas / 易奏鳴曲 — Classical 同上
+- 簡單 Chopin Preludes — Romantic legato 為主
+- Chopin Op.9 No.2 — 已有 [[concept_legato_substitution]] 啟用驗證
+
+進階曲目（Pathétique 等）不在目標範圍 — advanced pianists 有個人 articulation 詮釋習慣。
