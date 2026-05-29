@@ -129,7 +129,7 @@ Clef change 是 **記譜事件**，phrase boundary 是 **musical event**。兩�
 
 | 邊界類型 | Inv 8 觸發點 | 工具 |
 |---|---|---|
-| **Subject entry** | 主題 / 答句: m1 RH + 約 m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — 實測 RH @ m13, LH @ m12 (musicology 預測 m11/15 + m25-28; alg 觸發稀疏, 多數 prediction miss; 見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]) | [[concept_subject_imitation_detection]] |
+| **Subject entry** | 主題 / 答句: m1 RH + 約 m3 LH (在演算法 template 內); 演算法掃描自 template 之後 — RH @ m13 (1 entry, 在 wiki 預測 m11/15 範圍 ✓), LH @ m12 (1 entry, 接近 wiki 預測). Tolerance sweep 顯示 0.8→0.5 都同一結果，**非 chromatic-tolerance 問題**，是 subject 真正稀疏。Inv 8 是 figural-dominated case，2026-05-29 enabled `{figural+thumb+subject}` (default tol 0.8)，cost RH -30.79 / LH -? 大改善由 figural 主導 (-28.39 RH alone) | [[concept_subject_imitation_detection]] |
 | **Modulation / 段落** | m7-m8 (→ V), m20-m21 (回 I) | [[concept_modulation_as_phrase_signal]] |
 | **Cadence** | 最終 PAC（約 m32-m34） | [[concept_cadence_detection]] |
 | **Figural** | Cross-bar broken triad 切換點、中段 sequence boundary | [[concept_figural_boundary_detection]] |
