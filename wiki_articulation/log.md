@@ -3,6 +3,42 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
 
+## [2026-05-29] full wiki completion — 7 src + 4 analysis 頁
+
+依用戶要求「不要管有沒有用到，把這個 wiki 補齊」，把 `_implementation_status.md` 列的 7 個 source ingest queue + 4 個 analysis page queue 全部寫完。內容以 training-data 為基礎，每頁末尾標明 ⚠ verification queue 列出需要 cross-check 原書的具體引述。
+
+Pages created (11 new):
+
+**Source 頁 (7)** — 鋼琴 articulation pedagogy 文獻參考庫：
+- `src_neuhaus_art_of_piano.md` (~110 行) — 俄羅斯派重量觸鍵理論
+- `src_matthay_visible_inaudible.md` (~100 行) — 英國派觸鍵物理分析
+- `src_czerny_op500_articulation.md` (~110 行) — 19 世紀教學集大成 (Beethoven 學生 / Liszt 老師)
+- `src_kullak_aesthetics_pianoforte.md` (~95 行) — 19 世紀美學哲學論述
+- `src_brendel_essays.md` (~115 行) — Beethoven articulation 字面派詮釋
+- `src_turk_klavierschule.md` (~115 行) — 18 世紀末一手文獻 (Baroque/Classical 過渡)
+- `src_donington_baroque_music.md` (~120 行) — 20 世紀 HIP 運動學者性回顧
+
+**Analysis 頁 (4)** — per-piece articulation 詮釋分析：
+- `analysis_bach_inv_articulation.md` (~120 行) — Bach Two-Part Inventions，Baroque non-legato default + 例外 legato 段 + edition 比較
+- `analysis_beethoven_op49_articulation.md` (~95 行) — Op.49 No.1 / No.2，intermediate 目標主力 + Classical 平衡典型
+- `analysis_mozart_k545_articulation.md` (~120 行) — K545 (Sonata facile)，Classical 平衡 + 演奏家詮釋差異 + Audiveris OMR 訊號限制
+- `analysis_chopin_op9_no2_articulation.md` (~145 行) — Op.9 No.2，Romantic legato + 整合 score-claude 已啟用 rules 的綜合案例
+
+Pages updated (3):
+- `index.md` — 加入 Source 頁 + Analysis 頁兩個新章節，移除「主要文獻基礎」舊清單（移至 src_* 頁索引）
+- `_implementation_status.md` — Source ingest queue 從「待 ingest」改為「已 ingest 狀態表」+ Analysis 頁同樣改為「已寫狀態表」
+- `log.md` (本檔) — 加 [2026-05-29] full completion entry
+
+每個新頁面結構：
+1. 來源 / 引用方
+2. 作者背景 / 曲目背景
+3. 核心主張 / 觀察
+4. 對 score-claude DP 的對應（cost rule mapping）
+5. 與其他 wiki 頁面的關係
+6. ⚠ Training-data verification queue
+
+Wiki size: 11 → 22 pages, ~816 → ~2100 行純知識內容。
+
 ## [2026-05-29] revision — 知識頁清理 + 補齊 6 個 concept 頁
 
 把原本 index / overview / legato_substitution 三頁混雜的 spec / todo / 實作狀態移到新建 `_implementation_status.md`（per wiki_phrase 慣例：底線開頭 meta 頁）。

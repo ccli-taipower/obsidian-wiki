@@ -16,24 +16,28 @@
 | Non-legato Baroque default | [[concept_non_legato_baroque]] | （即現行 DP 預設行為） | (所有 Bach Inv 對應) | – |
 | Period-default 推論（無標記時）| [[concept_period_defaults]] | (未實作；目前 DP 一視同仁) | – | – |
 
-## Source ingest queue（待補 src_* 頁）
+## Source 頁狀態（已全 ingest，2026-05-29）
 
-以下文獻是 concept 頁面引用基礎，按優先序：
+| 來源 | 頁面 | 狀態 |
+|---|---|---|
+| Neuhaus *The Art of Piano Playing* (1958) | [[src_neuhaus_art_of_piano]] | ✓ ingest（含 ⚠ verification queue）|
+| Matthay *The Visible and Invisible* (1932) | [[src_matthay_visible_inaudible]] | ✓ ingest |
+| Czerny *Op.500* (1839) | [[src_czerny_op500_articulation]] | ✓ ingest |
+| Kullak *Die Ästhetik des Klavierspiels* (1860) | [[src_kullak_aesthetics_pianoforte]] | ✓ ingest |
+| Brendel essays (1990s+) | [[src_brendel_essays]] | ✓ ingest |
+| Türk *Klavierschule* (1789) | [[src_turk_klavierschule]] | ✓ ingest |
+| Donington *Baroque Music* (1982) | [[src_donington_baroque_music]] | ✓ ingest |
 
-1. **Neuhaus《The Art of Piano Playing》§觸鍵章** — 連奏 / 觸鍵理論最常被引用源
-2. **Matthay《The Visible and Invisible in Pianoforte Technique》** — 觸鍵物理分析最系統的單一來源
-3. **Czerny Op.500《Vollständige theoretisch-practische Pianoforte-Schule》Vol.III** — 19 世紀教學派系基準
-4. **Kullak《Die Ästhetik des Klavierspiels》** — 19 世紀理論，articulation 美學
-5. **Brendel essays**（特別 Beethoven articulation 詮釋章節）
-6. **Türk《Klavierschule》(1789)** — articulation pedagogical history 早期文獻
-7. **Donington《Baroque Music: Style and Performance》** — Baroque articulation 與 ornament 互動
+每頁底部都有 `⚠ Training-data verification queue` 列出需要 cross-check 原書的具體引述。
 
-## Analysis 頁面 queue（per-piece 分析，待寫）
+## Analysis 頁狀態（已全寫，2026-05-29）
 
-- `analysis_bach_inv_articulation.md` — Bach 2-voice subject vs counterpoint articulation 不同取法（Bach Inv Audiveris MXL 多數無 slur，需參考 urtext 推斷）
-- `analysis_beethoven_op49_articulation.md` — Op.49 明確 articulation 標記 + DP 對應（MXL 待取得）
-- `analysis_mozart_k545_articulation.md` — K545 Classical balance 案例（Audiveris MXL 目前 0 slur，可能需 re-OMR 或 Henle urtext MXL）
-- `analysis_chopin_op9_no2_articulation.md` — Op.9 No.2 已有 wiki_phrase/analysis_chopin_op9_no2_nocturne.md，可補充 articulation 角度（musetrainer/library MXL 含 74 slur）
+| 曲目 | 頁面 | 狀態 |
+|---|---|---|
+| Bach Two-Part Inventions | [[analysis_bach_inv_articulation]] | ✓ 寫（Baroque non-legato default + 例外段）|
+| Beethoven Op.49 No.1 / No.2 | [[analysis_beethoven_op49_articulation]] | ✓ 寫（intermediate 教學主力, MXL 待取得）|
+| Mozart K545 | [[analysis_mozart_k545_articulation]] | ✓ 寫（K545 Audiveris MXL 0 slur, 需更好 MXL）|
+| Chopin Op.9 No.2 | [[analysis_chopin_op9_no2_articulation]] | ✓ 寫（已有 musetrainer MXL，整合 score-claude 啟用狀況）|
 
 ## Open design questions
 

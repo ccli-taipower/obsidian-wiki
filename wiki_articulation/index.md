@@ -31,6 +31,21 @@
 - [[concept_non_legato_baroque]] — Baroque 默認 articulation（為何不應該對 Baroque 過度套用 legato 規則）
 - [[concept_period_defaults]] — 無標記時各時代假設什麼 default
 
+### Source 頁（文獻參考）
+- [[src_neuhaus_art_of_piano]] — Neuhaus *The Art of Piano Playing* (1958) — 俄羅斯派重量觸鍵理論
+- [[src_matthay_visible_inaudible]] — Matthay *The Visible and Invisible in Pianoforte Technique* (1932) — 英國派觸鍵物理分析
+- [[src_czerny_op500_articulation]] — Czerny *Op.500 Vollständige theoretisch-practische Pianoforte-Schule* (1839) — 19 世紀教學集大成
+- [[src_kullak_aesthetics_pianoforte]] — Kullak *Die Ästhetik des Klavierspiels* (1860) — 19 世紀美學論述
+- [[src_brendel_essays]] — Brendel *Music Sounded Out* + 散文集 (1990s+) — Beethoven articulation 字面派詮釋
+- [[src_turk_klavierschule]] — Türk *Klavierschule* (1789) — Baroque/Classical 過渡期一手文獻
+- [[src_donington_baroque_music]] — Donington *Baroque Music: Style and Performance* (1982) — HIP 運動學者性回顧
+
+### Analysis 頁（per-piece articulation 分析）
+- [[analysis_bach_inv_articulation]] — Bach Two-Part Inventions（Baroque non-legato default + 例外 legato 段）
+- [[analysis_beethoven_op49_articulation]] — Beethoven Op.49 No.1 / No.2（Classical 平衡, intermediate 教學主力）
+- [[analysis_mozart_k545_articulation]] — Mozart K545（Classical 平衡 典型案例）
+- [[analysis_chopin_op9_no2_articulation]] — Chopin Op.9 No.2（Romantic legato 預設 + fioritura 特殊處理）
+
 ### Meta
 - `_implementation_status.md` — DP 落地狀態 / source ingest queue / open design questions
 - `log.md` — 變更記錄
@@ -47,15 +62,7 @@
 
 ## 主要文獻基礎
 
-- Neuhaus *The Art of Piano Playing* — 連奏 / 觸鍵理論
-- Matthay *The Visible and Invisible in Pianoforte Technique* — 觸鍵物理
-- Czerny *Op.500 Vollständige theoretisch-practische Pianoforte-Schule* — 19 世紀教學
-- Kullak *Die Ästhetik des Klavierspiels* — 19 世紀美學
-- Türk *Klavierschule* (1789) — 早期 articulation pedagogy
-- Brendel essays — Beethoven articulation 詮釋
-- Donington *Baroque Music: Style and Performance* — Baroque articulation + ornament
-
-詳細引用見各 `src_*.md`（陸續補充中；目前狀態見 [[_implementation_status]]）。
+詳細導覽見上方「Source 頁」索引 — 7 個 `src_*.md` 已完成（2026-05-29 補齊）。
 
 ## 目標曲目對應
 
