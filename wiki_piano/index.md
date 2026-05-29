@@ -64,6 +64,16 @@
 - [Chromatic Harmony](concept_chromatic_harmony.md) — 半音化和聲：多聲部半音移動、蕭邦內聲部、三度關係
 - [Pedal Technique](concept_pedal_technique.md) — 踏板技法：半踏板、延遲換踏板、粗弦/細弦差異
 - [Small Hands](concept_small_hands.md) — 小手鋼琴家：定義、障礙、ESPK 鍵盤、傷害統計、應對策略
+- [Arpeggio Fingering](concept_arpeggio_fingering.md) — 分解和弦標準指法（三和弦 1-2-3-5、七和弦 1-2-3-4）+ thumb-pass 訓練
+- [Octave Fingering](concept_octave_fingering.md) — 八度指法（1-5 標準 + 1-4 legato 替代 + 黑鍵特殊處理）+ wrist motion 主導
+- [Double Thirds / Sixths](concept_double_thirds_sixths.md) — 雙音指法（Chopin Op.25 No.6 經典）+ 連續 double notes legato 物理限制
+- [Trill Fingering](concept_trill_fingering.md) — 顫音標準指法（2-3 通用、3-4 進階、4-5 高難）+ finger independence 要求
+- [Repeated Note Fingering](concept_repeated_note_fingering.md) — 同音重複（Liszt *La Campanella* 4-3-2-1 經典）+ 換指 vs substitution 物理區分
+- [Chord Voicing Fingering](concept_chord_voicing_fingering.md) — 和弦聲部突顯（top-voice / bass-voice / inner-voice）+ 強指偏好
+- [Wrist Motion](concept_wrist_motion.md) — 手腕運動四自由度 + 八度技術核心 + 與 forearm rotation 區分
+- [Finger Independence](concept_finger_independence.md) — 手指獨立性（4 最弱、5 中弱）+ 解剖限制 + 訓練 vs 解剖區分
+- [Weak Finger Development](concept_weak_finger_development.md) — 弱指 4-5 訓練（Hanon/Czerny 派傳統）+ Schumann 失敗教訓 + 現代最佳實踐
+- [Hand Position Stability](concept_hand_position_stability.md) — 手位穩定性 + 與 thumb-pass / substitution / phrase boundary 互動
 
 ## Analyses
 
@@ -72,3 +82,5 @@
 - [不同樂派/作曲家/時期的指法差異](analysis_period_style_fingering.md) — 歷史演變（Bach→Chopin→Liszt→現代）、作曲家指法即詮釋、樂派風格隱性影響、踏板差異
 - [小手學習者的技巧與曲目建議](analysis_small_hands_advice.md) — 7 種應對策略、Meinke 4 法則、各時期曲目推薦、音域適應指法
 - [常見錯誤指法與生理傷害](analysis_common_fingering_injuries.md) — 7 類錯誤依傷害嚴重度排列：腕隧道→肌腱炎→尺偏→孤立指力→拇指過伸→小指塌陷→聳肩
+- [Chopin Etudes Op.10/Op.25 技術 fingering 俯瞰](analysis_chopin_etudes_overview.md) — 24 首 etude 各自技術焦點 + 對後續文獻影響 + edition 差異
+- [Hanon & Czerny 練習傳統評估](analysis_hanon_czerny_exercises.md) — 19 世紀練習教材 + 20 世紀後批評 + 現代教學替代方案

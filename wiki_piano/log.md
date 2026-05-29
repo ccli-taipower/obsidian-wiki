@@ -1,5 +1,32 @@
 # Piano Fingering Wiki Log
 
+## [2026-05-29] gap fill | 9 new concepts + 2 new analyses
+
+依用戶要求補齊 wiki_piano gap。原 wiki 缺少**核心技術 concept 頁面**（arpeggio / octave / double notes / trill 等鋼琴技術詞彙）+ wrist motion / finger independence 等基礎物理概念。
+
+Concept pages added (9):
+- `concept_arpeggio_fingering.md` — 分解和弦標準指法 + thumb-pass
+- `concept_octave_fingering.md` — 八度指法 + 黑鍵特殊處理 + wrist motion
+- `concept_double_thirds_sixths.md` — 雙音 thirds / sixths（Chopin Op.25 No.6）
+- `concept_trill_fingering.md` — 顫音指法 + finger independence 要求
+- `concept_repeated_note_fingering.md` — 同音重複（Liszt *La Campanella* 4-3-2-1）
+- `concept_chord_voicing_fingering.md` — 和弦聲部突顯（top/bass/inner voice）
+- `concept_wrist_motion.md` — 手腕運動四自由度 + 與 forearm rotation 區分
+- `concept_finger_independence.md` — 手指獨立性（4 最弱解剖學）
+- `concept_weak_finger_development.md` — 弱指 4-5 訓練（Schumann 失敗教訓）
+- `concept_hand_position_stability.md` — 手位穩定性 + 與 thumb-pass / substitution 互動
+
+Analysis pages added (2):
+- `analysis_chopin_etudes_overview.md` — Chopin 24 Etudes 技術 fingering 俯瞰（每首 etude 技術焦點）
+- `analysis_hanon_czerny_exercises.md` — 19 世紀練習教材傳統 + 20 世紀後批評 + 現代替代方案
+
+Pages updated:
+- `index.md` — Concepts 章節加入 10 個新 concept；Analyses 章節加入 2 個新 analysis
+
+Wiki size: 42 → 53 active pages.
+
+每頁底部有 `⚠ Training-data verification queue` 列出需 cross-check 原書的具體引述（per wiki_articulation 慣例）。
+
 ## [2026-04-08] init | Wiki split from unified wiki
 
 Separated piano fingering pages into independent wiki. 2 sources, 4 concepts.
