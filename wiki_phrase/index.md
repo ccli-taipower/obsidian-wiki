@@ -1,6 +1,6 @@
 # Phrase Analysis Wiki 樂句分析 Wiki
 
-樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]] 並列，是獨立的學習與知識累積 track。
+樂句分段 (phrase segmentation) 是鋼琴指法系統的上游問題 — 樂句切錯，指法不可能對。本 wiki 與 [[../wiki_piano/index]]（生物力學 + 指法物理）+ [[../wiki_articulation/index]]（連結 / 斷奏 / 觸鍵詮釋）並列，是三條獨立 wiki track。
 
 詳見 [[../score-claude/memory/feedback_phrase_analysis_is_its_own_discipline]]。
 
@@ -38,6 +38,11 @@
 - [Phrase Elision](concept_phrase_elision.md) — 樂句重疊（一句結尾 = 下句開始）；「歸前」決定 + 對 motif/cadence detection 的影響；浪漫派頻繁
 - [Modulation as Phrase Signal](concept_modulation_as_phrase_signal.md) — 第四類樂句邊界訊號（轉調）；key signature change 偵測 + filter tonicization；對 Schubert/Beethoven/Chopin 關鍵
 - [Modal Scale Fingering](concept_modal_scale_fingering.md) — Modal / pentatonic / whole-tone / octatonic 對指法 + 樂句的影響；跨 wiki_piano + wiki_phrase
+- [Baroque Phrasing](concept_baroque_phrasing.md) — 巴洛克樂句邏輯 (Fortspinnung / 對位 / dance form) + 與 Classical 對比
+- [Hypermeter 大週期感](concept_hypermeter.md) — 4-bar / 8-bar hypermeter unit 與 phrase 對應；Rothstein 1989 phrase expansion/contraction
+- [Grouping Preference Rules (GPR)](concept_grouping_preference_rules.md) — Lerdahl-Jackendoff GTTM 七條 grouping rules + score-claude DP 對應
+- [Anacrusis / Pickup](concept_anacrusis_pickup.md) — 弱起 / 起頭弱拍處理 + 偵測啟發式 + chain anacrusis
+- [Phrase Anchor 樂句手位錨點](concept_phrase_anchor.md) — score-claude DP 操作型概念 (`_implied_anchor` + W_PHRASE_ANCHOR cost rule)
 
 ## Concepts (偵測工具)
 
@@ -58,6 +63,11 @@
 - [Debussy (per-collection)](composer_debussy_phrasing.md) — Suite Bergamasque / Préludes / Études / Images / Children's Corner
 - [20th Century (Scriabin + Bartok)](composer_twentieth_century.md) — atonal/post-tonal phrase；mystic chord + modal/asymmetric meter
 - [Other PIG composers](composer_other_pig_pieces.md) — Mussorgsky/Joplin/Faure/Satie/Dvorak/Albeniz/Scarlatti
+- [J.S. Bach](composer_bach_phrasing.md) — 對位作品樂句邏輯 + 12/15 mvts BACH_INV_PHRASE_FLAGS 啟用對應 + WTC / Sinfonias / Suites 結構
+- [Haydn](composer_haydn_phrasing.md) — Classical 形式奠基者 + Sentence/Period + surprise 不規則
+- [Schumann](composer_schumann_phrasing.md) — 文學詩意樂句 + character piece 集合 + inner voice melody
+- [Brahms](composer_brahms_phrasing.md) — 不規則 hypermeter + phrase elision 大量使用 + 對位 + homophonic 混合
+- [Scarlatti](composer_scarlatti_phrasing.md) — Iberian Baroque + binary form + 不規則 phrase + hand-crossing
 
 ## Analyses (per-piece)
 

@@ -3,6 +3,32 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
 
+## [2026-05-29] gap fill — 5 composer + 5 concept 頁
+
+依用戶要求補齊 wiki_phrase gap。原 wiki 缺少 Bach 作為 composer-level 主題頁 (對位主要測試對象但無專頁) + Brahms/Schumann/Haydn/Scarlatti 等 intermediate 範圍作曲家；亦缺 hypermeter / Baroque phrasing / GPR / anacrusis / phrase anchor 等基礎 phrase 理論概念。
+
+Composer pages added (5):
+- `composer_bach_phrasing.md` — J.S. Bach 對位作品樂句邏輯 + 12/15 mvts BACH_INV_PHRASE_FLAGS 啟用對應 + WTC / Sinfonias / Suites
+- `composer_brahms_phrasing.md` — 不規則 hypermeter + phrase elision 大量使用 + 對位 + homophonic 混合
+- `composer_schumann_phrasing.md` — 文學詩意樂句 + character piece 集合 + inner voice melody
+- `composer_haydn_phrasing.md` — Classical 形式奠基者 + Sentence/Period + surprise 不規則
+- `composer_scarlatti_phrasing.md` — Iberian Baroque + binary form + 不規則 phrase + hand-crossing
+
+Concept pages added (5):
+- `concept_baroque_phrasing.md` — 巴洛克樂句邏輯整體論 (Fortspinnung / 對位 / dance form / cadence types)
+- `concept_hypermeter.md` — 4-bar / 8-bar hypermeter unit 與 phrase 對應；Rothstein 1989 phrase expansion/contraction
+- `concept_grouping_preference_rules.md` — Lerdahl-Jackendoff GTTM 七條 grouping rules + score-claude DP 對應 (約 70%)
+- `concept_anacrusis_pickup.md` — 弱起 / 起頭弱拍處理 + 偵測啟發式 + chain anacrusis
+- `concept_phrase_anchor.md` — score-claude DP 操作型概念 (`_implied_anchor` + W_PHRASE_ANCHOR cost rule)
+
+Pages updated:
+- `index.md` — 標題說明加 wiki_articulation 連結；Concepts (通用) 加 5 頁；Composers 加 5 頁
+- `log.md` (本檔) — 加 2026-05-29 gap fill entry
+
+每頁底部有 ⚠ Training-data verification queue 列出需 cross-check 的引述 (per wiki_articulation 慣例)。
+
+Wiki size: 45 → 55 active pages, +1000 行純知識內容。
+
 ## [2026-05-29] revision — Bach Inv 7 (BWV 778) 啟用 subject_tol=0.7 (chromatic 校正)
 
 infrastructure 落地後 (score-claude `42c9f5e` per-piece `SUBJECT_MATCH_TOLERANCE` override)，跑 Inv 7 enablement A/B + split-test：
