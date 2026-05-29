@@ -3,6 +3,22 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
 
+## [2026-05-29] revision — Chopin Op.9 No.2 §7 fioritura 全曲算法實測
+
+取得 musetrainer/library Op.9 No.2 全曲 MXL (m0-m37) 跑 `_detect_fioritura_ranges`，校正 wiki §7 原本以 B0-12 excerpt 推斷的 canonical case 位置。
+
+Pages revised (1):
+- `analysis_chopin_op9_no2_nocturne.md` §7 — 原 "bar 16 周邊 + bar 24 + Coda" 改為精確 "m13-14 (var1) + m21-22 (var1 重現) + m24 (var2) + m33-35 (Coda)"；新增 §7.1 算法實測 (11 RH ranges, 0 LH) + §7.2 校正記錄
+
+關鍵發現：
+- Wiki 原本說 "bar 16 周邊" 不準確 — var 1 fioritura 實在 m13-14；m16 是 var 1 結束後
+- bar 24 ✓ + Coda m33-35 ✓ 兩個 canonical case 算法精準命中
+- 演算法另抓到 m4 / m5-6 / m26 / m29 等 wiki §7 原本未列舉的 ornamental fioritura
+- LH 0 範圍符合設計 (waltz triplets duration ≥ 0.25 QN → 自然 break runs)
+- USE_FIORITURA_FILTER ON 將過濾 9 處 RH figural boundaries (m4 / m6 / m13 / m14 / m21 / m22 / m24×2 / m35)
+
+Diag: `tmp/diag_fioritura_op9_no2_full.py`
+
 ## [2026-05-29] revision — 7 Bach Inv analyses: fix m3 LH 預測誤述 + Inv 6 over-fire 預測推翻
 
 Validation 結果（見 [[../score-claude/memory/project_bach_inv_subject_detection_validation_2026-05-28]]）顯示原始 wiki musicology 預測與 `_detect_subject_entries` 演算法輸出在 7 頁有差距。本次修訂統一在 §「三類樂句邊界並用」表的 Subject entry row 加入演算法實測 entries，並澄清 m3 LH 在演算法 template 內、永不為 detected entry。
