@@ -24,26 +24,43 @@
 
 ### Per-articulation concept 頁
 - [[concept_legato_substitution]] — 連奏段 finger substitution 偏好（最常被引用的指法-articulation 介面）
+- [[concept_legatissimo]] — 極致連奏（少見但 articulation 光譜最連端）
 - [[concept_staccato]] — 斷奏 / staccatissimo 對 hand jump 與 thumb cross 的鬆綁
 - [[concept_tenuto]] — 持音的「禁止換指」約束
 - [[concept_accent_marcato]] — 重音 / marcato / sforzando 的強指偏好
 - [[concept_portato_mezzo_staccato]] — 半連半斷的中間地帶
 - [[concept_non_legato_baroque]] — Baroque 默認 articulation（為何不應該對 Baroque 過度套用 legato 規則）
 - [[concept_period_defaults]] — 無標記時各時代假設什麼 default
+- [[concept_fermata]] — 延長標記
+
+### 跨主題 concept 頁
+- [[concept_slur_phrase_overlap]] — Slur 與 phrase 邊界的重合 / 不重合三種情境
+- [[concept_articulation_in_polyphony]] — 對位 texture 中各聲部不同 articulation 處理
+- [[concept_pedaling_vs_articulation]] — Pedal 與 articulation 互動 — 最常見的混淆
+- [[concept_ornament_articulation]] — Ornament (trill/mordent/appoggiatura) 與框架音 articulation 互動
+- [[concept_articulation_and_tempo]] — Tempo 如何影響 articulation 詮釋與物理可行性
 
 ### Source 頁（文獻參考）
-- [[src_neuhaus_art_of_piano]] — Neuhaus *The Art of Piano Playing* (1958) — 俄羅斯派重量觸鍵理論
-- [[src_matthay_visible_inaudible]] — Matthay *The Visible and Invisible in Pianoforte Technique* (1932) — 英國派觸鍵物理分析
+- [[src_cpe_bach_versuch]] — C.P.E. Bach *Versuch über die wahre Art das Clavier zu spielen* (1753) — 18 世紀中葉鍵盤演奏權威一手文獻
+- [[src_couperin_lart_de_toucher]] — Couperin *L'Art de toucher le Clavecin* (1716) — 法國 Baroque 鍵盤實踐核心
+- [[src_turk_klavierschule]] — Türk *Klavierschule* (1789) — Baroque/Classical 過渡期文獻
 - [[src_czerny_op500_articulation]] — Czerny *Op.500 Vollständige theoretisch-practische Pianoforte-Schule* (1839) — 19 世紀教學集大成
 - [[src_kullak_aesthetics_pianoforte]] — Kullak *Die Ästhetik des Klavierspiels* (1860) — 19 世紀美學論述
-- [[src_brendel_essays]] — Brendel *Music Sounded Out* + 散文集 (1990s+) — Beethoven articulation 字面派詮釋
-- [[src_turk_klavierschule]] — Türk *Klavierschule* (1789) — Baroque/Classical 過渡期一手文獻
+- [[src_matthay_visible_inaudible]] — Matthay *The Visible and Invisible in Pianoforte Technique* (1932) — 英國派觸鍵物理分析
+- [[src_neuhaus_art_of_piano]] — Neuhaus *The Art of Piano Playing* (1958) — 俄羅斯派重量觸鍵理論
+- [[src_eigeldinger_chopin_pianist_teacher]] — Eigeldinger *Chopin, Pianist and Teacher* (1970) — Chopin 教學傳統權威 compilation
 - [[src_donington_baroque_music]] — Donington *Baroque Music: Style and Performance* (1982) — HIP 運動學者性回顧
+- [[src_brendel_essays]] — Brendel *Music Sounded Out* + 散文集 (1990s+) — Beethoven articulation 字面派詮釋
 
 ### Analysis 頁（per-piece articulation 分析）
 - [[analysis_bach_inv_articulation]] — Bach Two-Part Inventions（Baroque non-legato default + 例外 legato 段）
+- [[analysis_bach_sinfonias]] — Bach Three-Part Sinfonias（within-hand polyphony + 進階對位 articulation）
+- [[analysis_clementi_sonatina_op36]] — Clementi Sonatinas Op.36（intermediate 入門 sonata 教學主力）
+- [[analysis_mozart_k283]] — Mozart K283（早期 Classical 平衡 + score-claude 已部分啟用）
+- [[analysis_mozart_k545_articulation]] — Mozart K545（Classical 平衡 典型）
 - [[analysis_beethoven_op49_articulation]] — Beethoven Op.49 No.1 / No.2（Classical 平衡, intermediate 教學主力）
-- [[analysis_mozart_k545_articulation]] — Mozart K545（Classical 平衡 典型案例）
+- [[analysis_schumann_kinderszenen]] — Schumann *Kinderszenen* Op.15（Romantic intermediate 入門, 含 *Träumerei*）
+- [[analysis_chopin_op28_preludes]] — Chopin Preludes Op.28（24 首對應 24 個調 + 多難度層級）
 - [[analysis_chopin_op9_no2_articulation]] — Chopin Op.9 No.2（Romantic legato 預設 + fioritura 特殊處理）
 
 ### Meta

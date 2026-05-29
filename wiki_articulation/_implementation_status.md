@@ -16,28 +16,36 @@
 | Non-legato Baroque default | [[concept_non_legato_baroque]] | （即現行 DP 預設行為） | (所有 Bach Inv 對應) | – |
 | Period-default 推論（無標記時）| [[concept_period_defaults]] | (未實作；目前 DP 一視同仁) | – | – |
 
-## Source 頁狀態（已全 ingest，2026-05-29）
+## Source 頁狀態（10 個已 ingest，2026-05-29 final）
 
-| 來源 | 頁面 | 狀態 |
+| 來源 | 年份 | 頁面 |
 |---|---|---|
-| Neuhaus *The Art of Piano Playing* (1958) | [[src_neuhaus_art_of_piano]] | ✓ ingest（含 ⚠ verification queue）|
-| Matthay *The Visible and Invisible* (1932) | [[src_matthay_visible_inaudible]] | ✓ ingest |
-| Czerny *Op.500* (1839) | [[src_czerny_op500_articulation]] | ✓ ingest |
-| Kullak *Die Ästhetik des Klavierspiels* (1860) | [[src_kullak_aesthetics_pianoforte]] | ✓ ingest |
-| Brendel essays (1990s+) | [[src_brendel_essays]] | ✓ ingest |
-| Türk *Klavierschule* (1789) | [[src_turk_klavierschule]] | ✓ ingest |
-| Donington *Baroque Music* (1982) | [[src_donington_baroque_music]] | ✓ ingest |
+| Couperin *L'Art de toucher le Clavecin* | 1716 | [[src_couperin_lart_de_toucher]] |
+| C.P.E. Bach *Versuch* | 1753 | [[src_cpe_bach_versuch]] |
+| Türk *Klavierschule* | 1789 | [[src_turk_klavierschule]] |
+| Czerny *Op.500* | 1839 | [[src_czerny_op500_articulation]] |
+| Kullak *Die Ästhetik des Klavierspiels* | 1860 | [[src_kullak_aesthetics_pianoforte]] |
+| Matthay *The Visible and Invisible* | 1932 | [[src_matthay_visible_inaudible]] |
+| Neuhaus *The Art of Piano Playing* | 1958 | [[src_neuhaus_art_of_piano]] |
+| Eigeldinger *Chopin, Pianist and Teacher* | 1970 | [[src_eigeldinger_chopin_pianist_teacher]] |
+| Donington *Baroque Music* | 1982 | [[src_donington_baroque_music]] |
+| Brendel essays | 1990s+ | [[src_brendel_essays]] |
 
 每頁底部都有 `⚠ Training-data verification queue` 列出需要 cross-check 原書的具體引述。
 
-## Analysis 頁狀態（已全寫，2026-05-29）
+## Analysis 頁狀態（9 個已寫，2026-05-29 final）
 
-| 曲目 | 頁面 | 狀態 |
+| 曲目 | 時代 | 頁面 |
 |---|---|---|
-| Bach Two-Part Inventions | [[analysis_bach_inv_articulation]] | ✓ 寫（Baroque non-legato default + 例外段）|
-| Beethoven Op.49 No.1 / No.2 | [[analysis_beethoven_op49_articulation]] | ✓ 寫（intermediate 教學主力, MXL 待取得）|
-| Mozart K545 | [[analysis_mozart_k545_articulation]] | ✓ 寫（K545 Audiveris MXL 0 slur, 需更好 MXL）|
-| Chopin Op.9 No.2 | [[analysis_chopin_op9_no2_articulation]] | ✓ 寫（已有 musetrainer MXL，整合 score-claude 啟用狀況）|
+| Bach Two-Part Inventions | Baroque | [[analysis_bach_inv_articulation]] |
+| Bach Three-Part Sinfonias | Baroque | [[analysis_bach_sinfonias]] |
+| Clementi Sonatinas Op.36 | Classical | [[analysis_clementi_sonatina_op36]] |
+| Mozart K283 | Classical (early) | [[analysis_mozart_k283]] |
+| Mozart K545 | Classical | [[analysis_mozart_k545_articulation]] |
+| Beethoven Op.49 No.1 / No.2 | Classical / early Beethoven | [[analysis_beethoven_op49_articulation]] |
+| Schumann *Kinderszenen* Op.15 | Romantic | [[analysis_schumann_kinderszenen]] |
+| Chopin Preludes Op.28 | Romantic | [[analysis_chopin_op28_preludes]] |
+| Chopin Nocturne Op.9 No.2 | Romantic | [[analysis_chopin_op9_no2_articulation]] |
 
 ## Open design questions
 

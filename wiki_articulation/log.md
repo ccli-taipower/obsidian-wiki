@@ -3,6 +3,39 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [[_implementation_status]]。
 
+## [2026-05-29] full completion round 2 — 7 new concept + 5 new analysis + 3 new src
+
+依用戶要求「把整個 wiki 全部補起來」，加入 15 個新頁面，wiki 達到 37 active pages 全面覆蓋。
+
+**New concept pages (7)** — 跨主題與光譜端補完：
+- `concept_legatissimo.md` — 極致連奏 (articulation taxonomy 最連端)
+- `concept_fermata.md` — 延長標記 (taxonomy 第 11 項)
+- `concept_slur_phrase_overlap.md` — Slur 與 phrase 邊界的重合 / 不重合三情境
+- `concept_articulation_in_polyphony.md` — 對位 texture 中各聲部 articulation 處理
+- `concept_pedaling_vs_articulation.md` — Pedal 與 articulation 互動 (最常見混淆)
+- `concept_ornament_articulation.md` — Ornament 與框架音 articulation 互動
+- `concept_articulation_and_tempo.md` — Tempo 對 articulation 詮釋與物理可行性的影響
+
+**New analysis pages (5)** — 涵蓋更多 intermediate 目標曲目：
+- `analysis_clementi_sonatina_op36.md` — Clementi Sonatinas（intermediate 入門 sonata）
+- `analysis_bach_sinfonias.md` — Bach 三聲部 Sinfonias（進階對位）
+- `analysis_schumann_kinderszenen.md` — Schumann *Kinderszenen* (Romantic 入門, 含 *Träumerei*)
+- `analysis_mozart_k283.md` — Mozart K283（早期 Classical, score-claude 已 part-enabled）
+- `analysis_chopin_op28_preludes.md` — Chopin Op.28 Preludes（24 首多難度層級）
+
+**New source pages (3)** — 18 世紀一手文獻 + 法國派 + Chopin 教學傳統：
+- `src_cpe_bach_versuch.md` — C.P.E. Bach *Versuch* (1753) — 18 世紀中葉鍵盤演奏權威一手
+- `src_couperin_lart_de_toucher.md` — Couperin *L'Art de toucher le Clavecin* (1716) — 法國 Baroque 核心
+- `src_eigeldinger_chopin_pianist_teacher.md` — Eigeldinger (1970) — Chopin 教學傳統權威 compilation
+
+**Updated 3 existing**:
+- `index.md` — 重新組織 TOC，concept 分「per-articulation」+「跨主題」兩節，加入 5 analysis 新頁與 3 src 新頁
+- `_implementation_status.md` — Source / Analysis 狀態表更新為 10 + 9 完成清單
+- `log.md` (本檔) — 新增本 entry
+
+Wiki size: 22 → 37 active pages, ~2100 → ~3500 行純知識內容。
+覆蓋面：6 個時代代表 (Baroque/Classical/Romantic) + 11 種 articulation type 完整 spec + 跨主題互動 + 10 個歷史文獻參考 + 9 個 per-piece 案例分析。
+
 ## [2026-05-29] full wiki completion — 7 src + 4 analysis 頁
 
 依用戶要求「不要管有沒有用到，把這個 wiki 補齊」，把 `_implementation_status.md` 列的 7 個 source ingest queue + 4 個 analysis page queue 全部寫完。內容以 training-data 為基礎，每頁末尾標明 ⚠ verification queue 列出需要 cross-check 原書的具體引述。
