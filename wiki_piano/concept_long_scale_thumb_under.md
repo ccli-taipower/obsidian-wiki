@@ -97,9 +97,31 @@ Both neutral — v2 doesn't help nor hurt non-target pieces. Confirms v2 is safe
 
 ### 4.6 v3 candidates (future)
 
-- Per-key-signature pivot offset table (v2 assumes segment first transition starts the "1-2-3" or "5-4-3-2-1" pattern; F# major or chromatic-leaning keys may differ)
-- Bach Inv mvts enablement (1-3-1-3 alternation preference in Bach scales)
-- Pivot-position-aware DP rather than cost-cancellation
+- ~~Per-key-signature pivot offset table~~ → **done in v3 §4.7 (no table needed)**
+- Bach Inv mvts enablement (1-3-1-3 alternation preference in Bach scales) — open
+- Pivot-position-aware DP rather than cost-cancellation — open
+
+## 4.7 v3: black-key-aware pivot placement (2026-06-01)
+
+v2's `offset % 3 == 2` thumb-under rule assumes "thumb-under every 3rd note" — correct only when the would-be thumb note is a white key. The **generative** rule of standard scale fingering is **"the thumb avoids black keys, grouping notes in 3s or 4s."** v2 happens to match it for C major (all white) and G major within one octave (F♯ pivot dropped by the end-guard), but breaks for F major:
+
+> F major RH one octave is `1-2-3-4-1-2-3-4` — the pivot falls after the **4th** note (thumb on C), because a size-3 group would put the thumb on **B♭ (black)**. `% 3 == 2` mis-cancels at offset 2.
+
+Same failure for B♭/D/etc. — common in intermediate repertoire.
+
+### 4.7.1 Rule
+
+`_compute_scale_pivots(seg, groups, hand)` walks the segment greedily: default group size 3, **bumped to 4 when the size-3 thumb-landing note is a black key** (pitch-class ∈ {1,3,6,8,10}). It returns the set of pivot offsets, precomputed once per segment (`seg["pivots"]`). `_is_scale_pivot_position`'s thumb-under branch consults this set; the **thumb-over branch keeps the v2 `% 3` modular rule unchanged** (no validated descending failure case — explicit non-goal). Pure function of pitch-classes — path-independent, no key inference, no new constants. This is the same "thumb avoids black keys" principle already encoded in `THUMB_PASS_BLACK_PENALTY` (Parncutt Rule 11), applied to pivot *placement* rather than penalty.
+
+### 4.7.2 Why it reproduces v2 on C/G major
+
+All-white scales never trigger the bump-to-4, so greedy-3 + end-guard gives exactly v2's offsets. On K283/K545 (the only production-enabled pieces) the F♯/C♯ always land on **finger 3, never the thumb** → 0 pivot divergence → v3 ≡ v2 → ships with zero production behaviour change.
+
+### 4.7.3 Validation
+
+- 9 new unit tests (key-agnostic invariant: every pivot's thumb-landing pitch-class is white; pivots spaced 3 or 4). Full pytest suite 248 green.
+- **150-piece scan** (long_scale forced ON for diagnosis): 18 pieces diverge v3≠v2; **4 improve, 0 regress either hand** — 045 Bach Italian Concerto RH +3.69, 024 Chopin Mazurka Op.7-1 RH +3.17, 129 Beethoven Sonata 30 mov3 RH +2.26, 041 Bach Sinfonia 12 RH +0.56.
+- Enabling `long_scale` on those 4 pending separate per-piece cost-sanity (rule correctness ≠ piece enablement).
 
 ## 5. Validation results
 
