@@ -9,12 +9,14 @@
 | Cost rule | Wiki spec | DP 實作 | 啟用 piece | 詳見 |
 |---|---|---|---|---|
 | **Legato substitution** (same-pitch + slur → 換指 bonus) | [concept_legato_substitution](concept_legato_substitution.md) | ✓ (score-claude `7d5241a` v1 + `7203d27` v2 加 duration gate) | Chopin Op.9 No.2 (`023_..._full`) | *project_legato_substitution_v1_2026-05-29* |
-| Staccato hand-jump 鬆綁 | [concept_staccato](concept_staccato.md) | (未實作) | – | – |
-| Tenuto 強制 hold | [concept_tenuto](concept_tenuto.md) | (未實作) | – | – |
-| Accent / marcato / sfz 偏強指 | [concept_accent_marcato](concept_accent_marcato.md) | (未實作) | – | – |
-| Portato 中間值 | [concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md) | (未實作) | – | – |
+| Staccato hand-jump 鬆綁 | [concept_staccato](concept_staccato.md) | ✓ (`USE_STACCATO_RELAX`，`_transition_cost(relax_continuity=)` 逐分支放鬆連續性懲罰) | (per-piece opt-in；023 A/B) | *project_staccato_relax_v1* |
+| Tenuto 強制 hold | [concept_tenuto](concept_tenuto.md) | ✓ (`USE_MARKED_FINGER`：`_legato_substitution_modifier` 在 tenuto 音回傳 0 抑制換指 + 弱指軟罰) | (per-piece opt-in) | *project_articulation_finger_preference_v1* |
+| Accent / marcato / sfz 偏強指 | [concept_accent_marcato](concept_accent_marcato.md) | ✓ accent+marcato (`USE_MARKED_FINGER`：`_marked_finger_penalty` 對 accent/tenuto 單音 f5=0.8/f4=0.4 軟罰)；**sfz deferred**（music21 Dynamic 非 articulation） | (per-piece opt-in；023 A/B) | *project_articulation_finger_preference_v1* |
+| Portato 中間值 | [concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md) | ✓ **無獨立規則** — slur∧dot 由 legato substitution + staccato-relax exclusion 組合處理 | (composition) | *project_articulation_finger_preference_v1* |
 | Non-legato Baroque default | [concept_non_legato_baroque](concept_non_legato_baroque.md) | （即現行 DP 預設行為） | (所有 Bach Inv 對應) | – |
 | Period-default 推論（無標記時）| [concept_period_defaults](concept_period_defaults.md) | (未實作；目前 DP 一視同仁) | – | – |
+
+> **2026-06-02 落地**：staccato（前一輪）+ accent/tenuto/portato（`USE_MARKED_FINGER`，本輪 Track A）已實作。Portato 結論：slur∧dot 由現有 legato substitution + staccato-relax exclusion 組合處理，無需獨立 cost rule。sforzando deferred（music21 `Dynamic` 非 `articulation`，需走 texture 式 spanner 抽取）。chords / marcato 略短 / period-default 仍 deferred（見 *project_articulation_finger_preference_v1* §v2 候選）。
 
 ## Source 頁狀態（10 個已 ingest，2026-05-29 final）
 

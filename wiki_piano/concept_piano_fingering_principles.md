@@ -68,6 +68,8 @@ V6 目前無任何腕關節模型，這是已知缺口。短期內不打算建 f
 - 任何此類新項必須是**累積型**（phrase-level sum），不是 per-note peak
 - 累積項需要跨整個樂句計算，因此建議走 post-processing 層而非 DP inner-loop
 
+**2026-05-13 update — DP v1 落地**：`_wrist_extension_phrase_cost` 已實作為 RH-only post-hoc phrase surcharge（`program/run.py`）。常數：`WRIST_EXT_THRESHOLD=FINGER_COMFORT_MAX_SPAN[(1,5)]`、`WRIST_EXT_PHRASE_BUDGET=4`、`WRIST_EXT_SURCHARGE=0.4`。A/B 在 Bach-heavy 156-piece eval 中 dormant；wide-chord 單元測試確認觸發正確。詳見 score-claude memory `project_wrist_extension_rule.md`。
+
 ## 歷史演變
 
 - Bach 以前：極少使用拇指

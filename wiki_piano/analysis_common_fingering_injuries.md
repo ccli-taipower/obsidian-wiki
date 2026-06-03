@@ -34,6 +34,8 @@ tags:
 - **避免：** 保持小指、手腕、手肘成一直線，大跨度用手臂移動而非手腕扭轉
 - 相關：[concept_small_hands](concept_small_hands.md) 小手鋼琴家更容易出現此問題
 
+**2026-05-13 update — DP v1 落地**：`_ulnar_deviation_phrase_cost` 已實作為 RH-only post-hoc phrase surcharge（`program/run.py`）。Hand-center 用 chord median MIDI；累積 chord-to-chord drift 超過 `ULNAR_PHRASE_BUDGET=8` 後 per-semitone surcharge `ULNAR_SURCHARGE=0.3`。A/B active 於 Bach-heavy 156-piece eval（ΣDP +361.80）。詳見 score-claude memory `project_ulnar_deviation_rule.md`。
+
 ## 4. 只用手指不用手臂 — 前臂肌腱炎、網球肘（中高）
 
 僅靠手指和手肘肌肉的力量彈奏，不運用全臂重量。速度快時前臂發熱、痠痛，其他手指不自主「飛起來」。
