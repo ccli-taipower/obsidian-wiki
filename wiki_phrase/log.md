@@ -19,6 +19,16 @@
 
 Track C 剩餘（blocked）：Sonatina / Beethoven Op.49 analysis 頁須先取譜（craigsapp Beethoven kern），本 session 未做。
 
+## [2026-06-03] Track C cont. — 取譜 + Inv 15 補完 + Beethoven Op.49 雙頁
+
+取得 clean kern→MXL（reference/eval，無 OMR）via `tmp/acquire_bach15_beethoven_op49.py`：Bach Inv 15（kern.humdrum.org，478 notes/22m）+ Beethoven Op.49 No.1（craigsapp sonata19-1，G minor/112m）+ No.2（sonata20-1，G major/122m）→ `input/reference/`。
+
+- **`analysis_bach_inv_15_b_minor.md` 改寫**：先前 cached OMR 截斷於 mm.1-12，改用完整 22-小節 reference 重跑 grounding。RH subject @0.8 從「僅 m5」→「m5+m19（含 return entry）」；**LH 0 確認為 genuine（非截斷 artifact）**。production OMR 截斷 caveat 保留（教 override 前須重跑 Audiveris）。
+- **`analysis_beethoven_op49_no1_g_minor.md`（新）**：第一個 Sonatina-level 頁。建立 homophonic Classical 範式 — subject 0/0（N/A），figural RH41/LH3 極不對稱（旋律 vs 分解和弦伴奏）→ 正確軸是 cadence + sentence/period。
+- **`analysis_beethoven_op49_no2_g_major.md`（新）**：揭示偵測語意陷阱 — subject detector 有命中（RH m5/67/71）但是 **sonata recap 的 thematic return ≠ fugal subject imitation**；命中合法但語意需重詮釋（recap boundary）。Alberti LH → figural 較 No.1 對稱（RH48/LH39）。
+
+跨頁知識：homophonic Classical 的偵測 signature = subject N/A 或 thematic-return、figural RH/LH 不對稱；正確軸是 cadence/period，與 Bach 對位範式（subject 適用、figural 對稱）互補。canonical 記錄見 score-claude memory *project_trackC_bach_inv_9_15_pages_2026-06-03*（含本次延伸）。
+
 ## [2026-05-29] gap fill — 5 composer + 5 concept 頁
 
 依用戶要求補齊 wiki_phrase gap。原 wiki 缺少 Bach 作為 composer-level 主題頁 (對位主要測試對象但無專頁) + Brahms/Schumann/Haydn/Scarlatti 等 intermediate 範圍作曲家；亦缺 hypermeter / Baroque phrasing / GPR / anacrusis / phrase anchor 等基礎 phrase 理論概念。

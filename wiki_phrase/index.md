@@ -88,6 +88,8 @@ Bach *Two-Part Inventions* (BWV 772-786):
 - [Bach Invention 14 in B♭ major (BWV 785)](analysis_bach_inv_14_bb_major.md) — Ornamented subject; per-hand 容差不對稱（RH@0.8 / LH@0.7）
 - [Bach Invention 15 in B minor (BWV 786)](analysis_bach_inv_15_b_minor.md) — 終曲 figural-only; ⚠ cached MXL 截斷（僅 mm.1-12）
 - [Mozart K283 G major 1st mov](analysis_mozart_k283_first_mov.md) — Sonata-allegro 教科書範例；期望 cadence detection 表現
+- [Beethoven Op.49 No.1 G minor mov1](analysis_beethoven_op49_no1_g_minor.md) — Sonatina target；homophonic（subject N/A，figural RH41/LH3 不對稱）→ cadence/period 軸
+- [Beethoven Op.49 No.2 G major mov1](analysis_beethoven_op49_no2_g_major.md) — Sonatina target；subject 命中但為 thematic return（≠ fugal subject 語意陷阱）
 - [Chopin Nocturne Op.9 No.2 E♭ major](analysis_chopin_op9_no2_nocturne.md) — 浪漫派 lyrical 範本；fioritura 處理 + elision 案例
 - [Debussy Clair de Lune](analysis_debussy_clair_de_lune.md) — 印象派 ABA' + texture-driven phrasing
 
