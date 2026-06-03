@@ -14,7 +14,7 @@
 | Accent / marcato / sfz 偏強指 | [concept_accent_marcato](concept_accent_marcato.md) | ✓ accent+marcato (`USE_MARKED_FINGER`：`_marked_finger_penalty` 對 accent/tenuto 單音 f5=0.8/f4=0.4 軟罰)；**sfz deferred**（music21 Dynamic 非 articulation） | (per-piece opt-in；023 A/B) | *project_articulation_finger_preference_v1* |
 | Portato 中間值 | [concept_portato_mezzo_staccato](concept_portato_mezzo_staccato.md) | ✓ **無獨立規則** — slur∧dot 由 legato substitution + staccato-relax exclusion 組合處理 | (composition) | *project_articulation_finger_preference_v1* |
 | Non-legato Baroque default | [concept_non_legato_baroque](concept_non_legato_baroque.md) | （即現行 DP 預設行為） | (所有 Bach Inv 對應) | – |
-| Period-default 推論（無標記時）| [concept_period_defaults](concept_period_defaults.md) | (未實作；目前 DP 一視同仁) | – | – |
+| Period-default 推論（無標記時）| [concept_period_defaults](concept_period_defaults.md) | ✓ v1 (`USE_PERIOD_DEFAULTS`：per-piece `era` tag → articulation preset；classical=legato@0.5 / romantic=legato@0.0；`legato_min_duration` per-piece via ctx) | (per-piece opt-in) | score-claude memory *project_period_defaults_v1_2026-06-03* |
 
 > **2026-06-02 落地**：staccato（前一輪）+ accent/tenuto/portato（`USE_MARKED_FINGER`，本輪 Track A）已實作。Portato 結論：slur∧dot 由現有 legato substitution + staccato-relax exclusion 組合處理，無需獨立 cost rule。sforzando deferred（music21 `Dynamic` 非 `articulation`，需走 texture 式 spanner 抽取）。chords / marcato 略短 / period-default 仍 deferred（見 *project_articulation_finger_preference_v1* §v2 候選）。
 
