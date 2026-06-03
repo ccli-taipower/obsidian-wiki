@@ -227,9 +227,13 @@ obsidian-wiki: 5 pages updated/created in commit `acf3a93`.
 
 ## 5. Open TODOs / next-session candidates
 
-### Priority A (low effort, high value)
-- PIG 28 full cost-based sweep（擴大 5→28）confirm flags 可否 flip default ON
-- 如綠 → flip `USE_FIGURAL_BOUNDARY_DETECTION` + `USE_THUMB_RESERVATION` + `USE_TEXTURE_DETECTION` 為 True
+### Priority A — ✅ RESOLVED 2026-06-03 (no default flip)
+PIG-28 cost-based sweep done (`tmp/trackB_phrase_pig28_sweep.py` + `tmp/trackB_texture_full150.py`). **All three flags pass the cost red-line (0 new `cost_dp_le_ref` breach) but NONE flipped default-ON** — the reason to keep OFF is GMR distribution + precedent, not cost (firmer than Phase 2.3's pure-GMR judgment).
+- **figural**: RH big win (086 +7.6/140 +7.4/097 +5.5) but LH big loss (124 −9.0/002 −8.6/006 −6.0/001 −5.2) — unhealthy distribution; figural is RH-melody designed, mis-segments LH accompaniment → per-piece (RH-context) only
+- **thumb**: 0 improve / 2 regress + pure surcharge (only raises DP cost) → no global benefit → per-piece only
+- **texture**: full-150 gate = 6 improve / 3 regress / 0 breach; net-positive but **weaker than long_scale** (12 improve/5 regress, itself kept OFF) → consistency → per-piece only
+- texture per-piece opt-in candidates on `input/` acquisition (in-scope): 009 Bach English Suite Prelude (+0.86), 036 Debussy Arabesque No.2 (+2.96)
+- canonical record: score-claude memory *project_trackB_phrase_pig28_sweep_2026-06-03*
 
 ### Priority B (moderate effort)
 - K545 m5 ascending scale fingering: requires DP cost rule (not boundary fix) — "long-scale protection" or thumb-under promotion; see [analysis_mozart_k545_first_mov](analysis_mozart_k545_first_mov.md) §4
