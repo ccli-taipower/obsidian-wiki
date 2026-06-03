@@ -3,6 +3,22 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [_implementation_status](_implementation_status.md)。
 
+## [2026-06-03] Track C — Bach Invention 9-15 analysis 頁（7 頁，補齊 15 首全集）
+
+完成 Bach Inventions analysis 頁 9-15，使 1-15 全集覆蓋。**與 1-8 模板差異：subject section 為 cached MXL 實跑偵測輸出（非 ⚠ pending 預測）**，grounding 來自 `tmp/trackC_bach_inv_9_15_grounding.py`（`_detect_subject_entries` @0.8/@0.7 + `_detect_figural_boundaries`）。
+
+- `analysis_bach_inv_9_f_minor.md` — chromatic sigh-subject 但 @0.8 即 robust（vs Inv 7 須 @0.7）；出貨 figural+subject@0.7（@0.7 為保守 headroom）；修正 BACH_INV_PHRASE_FLAGS dict 頂部 stale 註解（mvt9 實為已啟用）
+- `analysis_bach_inv_10_g_major.md` — 9/8 gigue；subject 0 命中（running figuration → subject 軸不適用）；not-enabled（figural 啟用後 cost breach）
+- `analysis_bach_inv_11_g_minor.md` — figural-dominated（RH40/LH30）；subject 偵測到（RH m13/18）卻 figural-only 出貨 → 「偵測 ≠ 啟用，cost red-line 仲裁」case
+- `analysis_bach_inv_12_a_major.md` — 12/8 broken-chord；@0.8 全 miss → @0.7 稀疏命中（figuration 變體破壞 signature）
+- `analysis_bach_inv_13_a_minor.md` — alberti-like；subject+figural 雙軸失效；LH baseline-cost outlier（no axis helps, not-enabled）
+- `analysis_bach_inv_14_bb_major.md` — ornamented subject；per-hand 容差不對稱（RH@0.8 / LH@0.7）→ subject_tol = 兩手聯集下界
+- `analysis_bach_inv_15_b_minor.md` — 終曲 figural-only；⚠ **cached MXL 截斷（僅 mm.1-12，canonical ~22）** → incomplete grounding caveat
+
+知識結論（跨頁）：per-piece `subject_tol` 旋鈕的依據不是「有沒有半音」而是「半音/figuration 變體是否破壞 motif TI signature 穩定性」；啟用的最終仲裁是 cost red-line 而非偵測軸有無訊號。canonical 記錄見 score-claude memory *project_trackC_bach_inv_9_15_pages_2026-06-03*。
+
+Track C 剩餘（blocked）：Sonatina / Beethoven Op.49 analysis 頁須先取譜（craigsapp Beethoven kern），本 session 未做。
+
 ## [2026-05-29] gap fill — 5 composer + 5 concept 頁
 
 依用戶要求補齊 wiki_phrase gap。原 wiki 缺少 Bach 作為 composer-level 主題頁 (對位主要測試對象但無專頁) + Brahms/Schumann/Haydn/Scarlatti 等 intermediate 範圍作曲家；亦缺 hypermeter / Baroque phrasing / GPR / anacrusis / phrase anchor 等基礎 phrase 理論概念。

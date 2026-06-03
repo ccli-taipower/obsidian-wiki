@@ -80,6 +80,13 @@ Bach *Two-Part Inventions* (BWV 772-786):
 - [Bach Invention 6 in E major (BWV 777)](analysis_bach_inv_6_e_major.md) — Strict canon at the octave + suspension chain; subject 概念崩解 case
 - [Bach Invention 7 in E minor (BWV 778)](analysis_bach_inv_7_e_minor.md) — Chromatic descent + leading-rest entries; chromatic≠modulation disambiguation
 - [Bach Invention 8 in F major (BWV 779)](analysis_bach_inv_8_f_major.md) — Broken-triad subject + 3/4 cross-bar motif + LH clef-change phrase 獨立性
+- [Bach Invention 9 in F minor (BWV 780)](analysis_bach_inv_9_f_minor.md) — Chromatic sigh-subject + invertible counterpoint; chromatic-but-robust-at-0.8（vs Inv 7）
+- [Bach Invention 10 in G major (BWV 781)](analysis_bach_inv_10_g_major.md) — 9/8 gigue figuration; subject 軸不適用負面 case（not-enabled）
+- [Bach Invention 11 in G minor (BWV 782)](analysis_bach_inv_11_g_minor.md) — Figural-dominated（RH40/LH30）; subject 偵測到卻不啟用（cost red-line 仲裁）
+- [Bach Invention 12 in A major (BWV 783)](analysis_bach_inv_12_a_major.md) — 12/8 arpeggiated figuration; @0.8 miss → @0.7 sparse（broken-chord 變體）
+- [Bach Invention 13 in A minor (BWV 784)](analysis_bach_inv_13_a_minor.md) — Alberti-like figuration; LH baseline-cost outlier（no axis helps, not-enabled）
+- [Bach Invention 14 in B♭ major (BWV 785)](analysis_bach_inv_14_bb_major.md) — Ornamented subject; per-hand 容差不對稱（RH@0.8 / LH@0.7）
+- [Bach Invention 15 in B minor (BWV 786)](analysis_bach_inv_15_b_minor.md) — 終曲 figural-only; ⚠ cached MXL 截斷（僅 mm.1-12）
 - [Mozart K283 G major 1st mov](analysis_mozart_k283_first_mov.md) — Sonata-allegro 教科書範例；期望 cadence detection 表現
 - [Chopin Nocturne Op.9 No.2 E♭ major](analysis_chopin_op9_no2_nocturne.md) — 浪漫派 lyrical 範本；fioritura 處理 + elision 案例
 - [Debussy Clair de Lune](analysis_debussy_clair_de_lune.md) — 印象派 ABA' + texture-driven phrasing
