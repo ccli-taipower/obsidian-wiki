@@ -54,15 +54,21 @@ Op.49 No.2 是 Beethoven 最知名的 sonatina-level 曲（mov1 主題後來用�
 | **Thematic return** | subject detector 的命中（m67-71 recap）可作 recapitulation boundary 訊號 — 但須標記為「主題回歸」語意 |
 | **Texture (Alberti)** | LH Alberti bass 是 homophonic 標記；[concept_texture_change_detection](concept_texture_change_detection.md) 可偵測伴奏型轉換 |
 
-## 5. Sonata form 段落（grounding-aided）
+### 4.1 Cadence detection 實跑輸出（2026-06-03）
 
-| 段落 | 小節（約）| 調性 | 角色 |
-|---|---|---|---|
-| **Exposition** | m1–m~36 | G major → D major (V) | 第一主題（G）→ 過渡 → 第二主題（D）|
-| **Development** | m~37–m~66 | 多調離轉 | 動機發展（figural 密集區 m37×3）|
-| **Recapitulation** | m~67–m122 | G major（第二主題回主調）| **主題回歸（subject hits m67/71）** + coda |
+`_detect_cadence_boundaries`（整曲 key=G major）命中：**PAC m103, m107, m113, m122** — 全部 cluster 在曲末（recap 後段 + coda，回主調 G major）。
 
-（recap 起點 m67 與 subject detector 命中吻合 → grounding 佐證 recap boundary。）
+⚠ **modulation 限制（本曲是最明顯案例）**：exposition 第二主題在 **D major（V）** 的 cadence **全部抓不到**（整曲 key=G major 框架下 D 的 V→I 不成立）。故 cadence 只在**回到主調的 recap/coda** 才出現 → tonic-PAC cluster m103-122 反而**佐證 recapitulation 在主調收束**。與 §3 subject hits（recap m67/71）+ 此 PAC cluster 交叉印證 recap 範圍 m67→末。
+
+## 5. Sonata form 段落（subject + cadence grounded）
+
+| 段落 | 小節 | 調性 | 角色 | grounding 佐證 |
+|---|---|---|---|---|
+| **Exposition** | m1–m~36 | G major → D major (V) | 第一主題（G）→ 過渡 → 第二主題（D）| D-major cadence missed（modulation 限制）|
+| **Development** | m~37–m~66 | 多調離轉 | 動機發展（figural 密集區 m37×3）|（離調，無 home-key cadence）|
+| **Recapitulation** | m~67–m122 | G major（第二主題回主調）| **主題回歸 + coda** | subject hits m67/71 + tonic PAC cluster m103/107/113/122 ✓✓ |
+
+→ recap 範圍由**兩個獨立軸交叉佐證**：subject detector（thematic return m67/71，§3）+ cadence detector（tonic PAC cluster m103-122）。這是 homophonic 曲目用 *thematic-return + cadence* 雙軸定位 form 的範例。
 
 ## 6. 與其他 wiki 頁面的關係
 

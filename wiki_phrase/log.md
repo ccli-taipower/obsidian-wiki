@@ -29,6 +29,8 @@ Track C 剩餘（blocked）：Sonatina / Beethoven Op.49 analysis 頁須先取�
 
 跨頁知識：homophonic Classical 的偵測 signature = subject N/A 或 thematic-return、figural RH/LH 不對稱；正確軸是 cadence/period，與 Bach 對位範式（subject 適用、figural 對稱）互補。canonical 記錄見 score-claude memory *project_trackC_bach_inv_9_15_pages_2026-06-03*（含本次延伸）。
 
+**Cadence grounding 補充**：對 Op.49 跑 `_detect_cadence_boundaries`，form 表改為 cadence-grounded。No.1 = PAC m9（第一樂段）+ recap IAC cluster m66/72/74 + coda m103。No.2 = tonic PAC cluster m103/107/113/122（recap/coda）。兩曲 exposition 第二主題（B♭ / D）的 cadence 因**整曲單一 key 分析**抓不到 → 揭示 [concept_cadence_detection](concept_cadence_detection.md) 的 modulation 限制（windowed-key = Cadence Phase 3 候選）。Op.49 No.2 recap 範圍由 subject hits（m67/71）+ PAC cluster 雙軸交叉佐證。
+
 ## [2026-05-29] gap fill — 5 composer + 5 concept 頁
 
 依用戶要求補齊 wiki_phrase gap。原 wiki 缺少 Bach 作為 composer-level 主題頁 (對位主要測試對象但無專頁) + Brahms/Schumann/Haydn/Scarlatti 等 intermediate 範圍作曲家；亦缺 hypermeter / Baroque phrasing / GPR / anacrusis / phrase anchor 等基礎 phrase 理論概念。

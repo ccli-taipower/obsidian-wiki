@@ -55,15 +55,28 @@ Op.49 No.1 的樂句結構由 **Classical 句法**（[concept_classical_period_s
 
 → 這正是 [concept_cadence_detection](concept_cadence_detection.md) Phase 2（music21 roman on measure-final chord）的適用場景；與 Mozart K283/K545（[analysis_mozart_k283_first_mov](analysis_mozart_k283_first_mov.md)）同屬 Classical sonata cadence 範式。
 
-## 5. Sonata form 段落（grounding-aided）
+### 4.1 Cadence detection 實跑輸出（2026-06-03）
 
-| 段落 | 小節（約）| 調性 | 角色 |
-|---|---|---|---|
-| **Exposition** | m1–m~34 | g minor → B♭ major (III) | 第一主題（g）→ 過渡 → 第二主題（B♭，relative major）|
-| **Development** | m~35–m~63 | 多調離轉 | 主題動機 fragmentation（LH figural m35/m74 落在段落轉換點）|
-| **Recapitulation** | m~64–m112 | g minor（第二主題回主調）| 主題再現 + coda |
+`_detect_cadence_boundaries`（整曲 key=g minor）在 reference MXL 上的命中：
 
-（小節為 grounding + 文獻推定；精確 PAC 位置待 cadence detection 跑 reference MXL 確認。）
+| measure | 類型 | 角色 |
+|---|---|---|
+| m3, m11 | IAC | presentation 層內小終止 |
+| **m9** | **PAC** | **第一主題 / period consequent 收束**（高信心 phrase boundary）|
+| m66, m72, m74 | IAC | recapitulation 區終止 cluster |
+| m103 | IAC | coda 接近 |
+
+⚠ **modulation 限制**：偵測用**整曲單一 key（g minor）**，故 exposition 第二主題在 **B♭ major（relative major）的 cadence 抓不到 PAC**（在 B♭ 是 V→I，但在 g minor 框架下不成立）。這正是 [concept_cadence_detection](concept_cadence_detection.md) deferred 的 *windowed key analysis for mid-piece modulation* 的代表案例（Cadence Phase 3 候選）。
+
+## 5. Sonata form 段落（cadence-grounded）
+
+| 段落 | 小節 | 調性 | 角色 | cadence 佐證 |
+|---|---|---|---|---|
+| **Exposition** | m1–m~34 | g minor → B♭ major (III) | 第一主題（g，PAC m9）→ 過渡 → 第二主題（B♭）| PAC m9 ✓；B♭ cadence missed（modulation 限制）|
+| **Development** | m~35–m~63 | 多調離轉 | 主題動機 fragmentation（LH figural m35/m74）|（離調區，無 home-key cadence）|
+| **Recapitulation** | m~64–m112 | g minor（回主調）| 主題再現 + coda | IAC cluster m66/72/74 + coda m103 ✓ |
+
+→ cadence cluster（m66-74）與 recap 起點吻合，PAC m9 標出 exposition 第一樂段收束；form 表已由 cadence grounding 佐證（非純文獻推定）。
 
 ## 6. 與其他 wiki 頁面的關係
 
