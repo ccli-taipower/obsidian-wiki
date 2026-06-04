@@ -4,3 +4,7 @@
 .obsidian/cache
 .trash/
 .claude/
+
+# Privacy: hospital records contain PII (ID number, full name, full diagnosis)
+# Keep original images local + iCloud only; do NOT commit to GitHub
+raw/hospitalization/
