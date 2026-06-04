@@ -54,15 +54,20 @@ tags: [hospitalization_timeline, ADPKD, TAE, renal_embolization, LCX_stent, PTX,
 
 ### 🔥 TKV（總腎臟體積）變化軌跡 — TAE 策略極為成功
 
-| 時點 | TKV | 處置事件 | Grade |
-|------|-----|---------|-------|
-| **2019/10/15 (TAE 前)** | **3,407 mL** | baseline | IV |
-| 2019/10/17 | 右腎 TAE | | |
-| 2019/12/05 | 左腎 TAE | | |
-| **2025/12 (TAE 後 6 年)** | **1,048 mL** | 個人醫療摘要 p.6 | IV |
-| **變化** | **−2,359 mL（−69.2%）** | TAE 效果 | |
+> **術語提醒**：TKV = Total Kidney Volume = **雙腎合計**（左 + 右腎臟體積加起來）。ADPKD 文獻、Mayo Clinic Imaging Classification、CRISP trial 都用同一定義，可以直接逐次比對。
 
-→ 雙腎 TAE 把巨腎縮到原本的 31%。對移植解剖關卡是**夢幻級的減容效果**。
+| 時點 | TKV（雙腎合計）| 平均每邊估算 | 跟正常比 | Grade |
+|------|--------------|------------|---------|-------|
+| 正常成人雙腎 baseline | ~300 mL | ~150 mL/邊 | 1× | — |
+| **2019/10/15 (TAE 前)** | **3,407 mL** | **~1,700 mL/邊** | **11× normal** | IV |
+| 2019/10/17 | 右腎 TAE | | | |
+| 2019/12/05 | 左腎 TAE | | | |
+| **2025/12 (TAE 後 6 年)** | **1,048 mL** | **~525 mL/邊** | **3.5× normal** | IV |
+| **變化** | **−2,359 mL（−69.2%）** | −1,175 mL/邊 | 11× → 3.5× | TAE 效果 |
+
+→ 雙腎 TAE 把巨腎縮到原本的 31%。**絕對值仍是正常 3.5 倍**，但跟 TAE 前比已是質的飛躍（11× → 3.5×）。對移植解剖關卡是**夢幻級的減容效果**。
+
+**Caveat（左右拆分）**：MRI 報告只給合計 TKV，未拆分左 / 右腎個別體積。1,048 mL 推估左右大致對稱（因雙側都做過 TAE），但實際可能 ±100 mL 範圍變動。如果未來移植團隊要求精算（譬如「哪邊壓到髂血管」的術前評估），會再做專門 volumetry。
 
 ### TKV 跟移植解剖關卡的閾值對照
 
@@ -76,9 +81,13 @@ tags: [hospitalization_timeline, ADPKD, TAE, renal_embolization, LCX_stent, PTX,
 
 → **如果沒做 TAE，2019 的 3,407 mL 幾乎一定要原生腎切除才能移植**。做了 TAE 後，1,048 mL 已落在「邊緣值」——**可能不需切除原生腎、直接移植可行**。這是 [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) 解剖關卡的重要校正。
 
-### MRI 報告局限
+### 為什麼 ADPKD 報告都用「合計 TKV」而不分左右
 
-2019/10/15 MRI 報告**只給 TKV 合計**（3,407 mL），未拆分左 / 右腎個別體積。同樣地，TAE 程序報告聚焦於血管定位 + coils 使用，未記錄程序前後個別腎臟尺寸。平均估算雙腎各 ~1,700 mL 是粗估，無 documented 左右分開資料。
+1. **臨床決策參考的是腹腔總佔據空間**——對移植解剖來說，左 + 右擠在腹腔是整體問題
+2. **ADPKD 通常雙側對稱進展**——分開測對治療決策意義有限
+3. **TKV 是 ADPKD 進展速度的標準指標**（Mayo Clinic Imaging Classification、CRISP trial 都用合計 TKV）
+
+→ 你目前的報告是**一般 follow-up 等級**，給合計就夠了。專門 volumetry 留給移植術前精算階段。
 
 ### 為什麼做 TAE
 ADPKD 患者 TAE 有雙重目的：
