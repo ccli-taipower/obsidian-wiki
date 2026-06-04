@@ -355,3 +355,32 @@ Query: 綜合所有臨床資料，假設無腎臟移植，能否預測這位病�
 `analysis_refractory_idh_treatment_plan`：病人摘要年齡標註更新（48 → 49）。
 
 教訓：**台灣健康存摺的雙刃劍**——病人能即時看到所有檢驗 / 影像結果，但**沒有醫師解釋層**，容易產生焦慮（看到 "moderate stenosis" 時不知該怎麼想）。wiki 在這裡的功能就是當「自助式解讀層」，幫病人理解報告對個案的真實意涵（這份報告其實是好消息）。
+
+## [2026-05-20] update | 4 次住院病歷時間軸 + 三個重大發現
+
+從健康存摺下載 89 張住院病歷截圖（IMG_0923-1013）放 `raw/hospitalization/`（已 .gitignore 不上 GitHub）。Tesseract OCR (chi_tra+eng) 批次萃取後識別出 4 次住院邊界：
+
+| # | 日期 | 醫院 | 主診斷 | 主處置 | IMG 範圍 |
+|---|------|------|--------|--------|---------|
+| 1 | 2019/10/15-24 | NTUH | ADPKD 右腎囊腫出血 + PD→HD | 右腎 TAE + Permcath | 0923-0956 |
+| 2 | 2019/12/04-09 | NTUH | ADPKD 左腎囊腫出血 | 左腎 TAE | 0957-0977 |
+| 3 | 2023/03/10 | **東元綜合醫院**（新竹）| CAD triple vessel | LCX PCI + DES | 0978-0984 |
+| 4 | 2023/10/11-16 | NTUH | Secondary HPT | Subtotal PTX + autoimplant | 0985-1013 |
+
+**三個重大發現：**
+
+1. **🔥 Ezetrol 被不明原因停藥**：2023/10 PTX 前用藥含 Crestor 10 + **Ezetrol**（雙重 LDL 控制）；目前無 Ezetrol。對應 5/19 Q4「LDL 100 太高」議題——**先加回 Ezetrol 10 mg 可能直接拉下 25-30 mg/dL**，比上調 Crestor 更高效率、副作用更少。
+2. **CAD triple vessel 在 2023/03 心導管就確認**：之前 wiki 寫「核醫 2025/08 才發現缺血擴及 LAD/LCX」不正確——校正為「2023/03 心導管已知 triple vessel，2025/08 核醫證實 LAD/LCX 持續缺血」。RCA CTO 議題拖了 3 年未處理。
+3. **兩院系統議題**：心臟科在東元、移植/PTX/一般追蹤在 NTUH。可能造成 medication reconciliation 漏失（Ezetrol 停藥可能就是這原因）。
+
+**其他校正：**
+- HD 11 年 → 實為 PD 4.5 年（2015-2019）+ HD 6.5 年（2019-2026），合計 11 年透析
+- 移植 waiting list 從 2015 開始（已 11 年）
+- PTX 前 BW 65.9 kg、BP 158/99（明顯 HTN）→ PTX 後乾體重 +10 kg、BP 80-90 的對照基準
+
+新增頁面：`analysis_hospitalization_timeline.md`（cross-link 到三軸 + prognosis 4 個既有 analysis）。
+
+實作細節：
+- Tesseract chi_tra+eng OCR via subprocess（pytesseract 在這版 Python 有 UnicodeDecodeError），89 張 ~3 min 完成
+- OCR text 暫存 /tmp/hospitalization_ocr/（含病歷號等 PII，不會 commit）
+- raw/hospitalization/ 與 .gitignore 同步 commit
