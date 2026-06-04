@@ -384,3 +384,28 @@ Query: 綜合所有臨床資料，假設無腎臟移植，能否預測這位病�
 - Tesseract chi_tra+eng OCR via subprocess（pytesseract 在這版 Python 有 UnicodeDecodeError），89 張 ~3 min 完成
 - OCR text 暫存 /tmp/hospitalization_ocr/（含病歷號等 PII，不會 commit）
 - raw/hospitalization/ 與 .gitignore 同步 commit
+
+## [2026-05-20] update | TKV 軌跡：3,407 → 1,048 mL（−69%）— 解剖關卡重新評估
+
+Query: 2019 TAE 前雙腎大小？
+
+從 IMG_0941-0943 找到 2019/10/15 MRI 報告（TAE 前）：
+- **TKV 3,407 mL**（Grade IV, 75-100% 侵犯）
+- 部分囊腫 hemorrhage
+- 報告只給合計 TKV，沒拆分左 / 右腎個別體積
+- TAE 程序報告（IMG_0944-0946）聚焦血管定位 + coils，無腎臟尺寸
+
+對比 2025/12 個人醫療摘要 p.6 的 TKV 1,048 mL：
+- **減少 −2,359 mL（−69.2%）**
+- TAE 策略極為成功
+
+對移植解剖關卡的重大校正：
+- 2019 的 3,407 mL：幾乎一定要原生腎切除才能移植
+- 2025 的 1,048 mL：落在「邊緣值」（1,000-1,500 mL）→ **可能不需切除原生腎**
+
+更新：
+- `analysis_hospitalization_timeline §1`：新增 TKV 軌跡表 + 閾值對照 + MRI 報告局限說明
+- `analysis_prognosis_without_transplant 解剖關卡 sub-section`：升級為「ADPKD 巨腎 — TAE 後其實已大幅改善」+ 三道關卡 table row 反映 TKV 改善
+- 整體框架：解剖關卡從「需處理巨腎」轉為「血管 + 巨腎兩個 sub-面向都接近 green light」
+
+待行：未來如能跟移植團隊確認「TKV 1,048 是否需切原生腎」，再進一步收斂預後評估。用戶決定暫時不問，因為還沒排到 active waitlist call-up。

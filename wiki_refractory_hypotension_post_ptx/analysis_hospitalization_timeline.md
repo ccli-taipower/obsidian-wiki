@@ -47,10 +47,38 @@ tags: [hospitalization_timeline, ADPKD, TAE, renal_embolization, LCX_stent, PTX,
 ### 主要處置
 | 日期 | 處置 |
 |------|------|
-| 2019/10/15 | Abdominal MRI（評估腎臟大小、出血部位）|
+| 2019/10/15 | Abdominal MRI（評估腎臟大小、出血部位）→ **TKV 3,407 mL、Grade IV（75-100%）** |
 | 2019/10/17 | **右腎 TAE**（trans-arterial embolization）：右腎動脈 + capsular artery，多 coils embolization → "Nearly stasis of right renal artery" |
 | 2019/10/22 | PD 停用 |
 | 2019/10/23 | **Permcath 植入**（Equistream 14.5Fr long-term HD catheter）→ HD 啟動 |
+
+### 🔥 TKV（總腎臟體積）變化軌跡 — TAE 策略極為成功
+
+| 時點 | TKV | 處置事件 | Grade |
+|------|-----|---------|-------|
+| **2019/10/15 (TAE 前)** | **3,407 mL** | baseline | IV |
+| 2019/10/17 | 右腎 TAE | | |
+| 2019/12/05 | 左腎 TAE | | |
+| **2025/12 (TAE 後 6 年)** | **1,048 mL** | 個人醫療摘要 p.6 | IV |
+| **變化** | **−2,359 mL（−69.2%）** | TAE 效果 | |
+
+→ 雙腎 TAE 把巨腎縮到原本的 31%。對移植解剖關卡是**夢幻級的減容效果**。
+
+### TKV 跟移植解剖關卡的閾值對照
+
+| TKV 範圍 | 移植難度 | 是否需切原生腎 |
+|---------|---------|--------------|
+| < 1,000 mL | 容易 | 通常不需 |
+| **1,000-1,500 mL** | **邊緣值** | **視個別腹腔解剖** ← 目前 1,048 mL |
+| 1,500-2,000 mL | 中等 | 通常考慮 |
+| 2,000-3,000 mL | 困難 | 強烈建議 |
+| > 3,000 mL | 幾乎不可能 | 一定要切 ← 2019 在此區 |
+
+→ **如果沒做 TAE，2019 的 3,407 mL 幾乎一定要原生腎切除才能移植**。做了 TAE 後，1,048 mL 已落在「邊緣值」——**可能不需切除原生腎、直接移植可行**。這是 [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) 解剖關卡的重要校正。
+
+### MRI 報告局限
+
+2019/10/15 MRI 報告**只給 TKV 合計**（3,407 mL），未拆分左 / 右腎個別體積。同樣地，TAE 程序報告聚焦於血管定位 + coils 使用，未記錄程序前後個別腎臟尺寸。平均估算雙腎各 ~1,700 mL 是粗估，無 documented 左右分開資料。
 
 ### 為什麼做 TAE
 ADPKD 患者 TAE 有雙重目的：
