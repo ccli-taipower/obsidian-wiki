@@ -238,6 +238,7 @@ PTX 前曾有 **Crestor + Ezetrol 雙重 LDL 控制**。Ezetrol 不是降壓藥�
 
 ## 相關頁面
 
+- 🗓 [analysis_master_timeline](analysis_master_timeline.md) — 統整本頁 + 其他 4 個 analysis 的完整醫療時間軸（手術 / 檢查 / 用藥）
 - [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md)
 - [analysis_iatrogenic_factors_in_refractory_idh](analysis_iatrogenic_factors_in_refractory_idh.md)

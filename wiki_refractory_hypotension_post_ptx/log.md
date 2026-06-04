@@ -409,3 +409,32 @@ Query: 2019 TAE 前雙腎大小？
 - 整體框架：解剖關卡從「需處理巨腎」轉為「血管 + 巨腎兩個 sub-面向都接近 green light」
 
 待行：未來如能跟移植團隊確認「TKV 1,048 是否需切原生腎」，再進一步收斂預後評估。用戶決定暫時不問，因為還沒排到 active waitlist call-up。
+
+## [2026-05-20] consolidate | analysis_master_timeline.md — 統整 5 份 analysis 的完整時間軸
+
+User query：「請仔細看這五個 pages，然後統整出一個新的 wiki：把各種重要事件，包含手術、檢查、用藥的時間軸列出來」。
+
+新增 `analysis_master_timeline.md` 作為 wiki 中央 hub，從 5 份既有 analysis 萃取所有 dated events：
+
+**結構**：
+- 病人 baseline（年齡、診斷、透析年資、移植 waiting 時長）
+- 🗓 **Master Timeline 大表**（1978 → 2026/07/29 預定，時序排列，類別欄）
+- 🔪 手術 / 介入處置 5 次累積表
+- 🩻 重大影像檢查表
+- 🩸 抽血數值演變（最新 + 關鍵歷史 baseline）
+- 💊 用藥沿革（PTX 前 vs 目前 vs 預期未來）
+- 🎯 三道移植關卡 status
+- 📚 跟 5 個既存 analysis 的 cross-link 對照表
+- **五句話交給新醫師版本**（任何科別第一次見你都能用）
+
+**雙向 cross-link**：5 個既有 analysis 的「相關頁面」段都加上 master_timeline 連結（🗓 emoji 標識）。
+
+**設計理念**：
+- 既有 5 個 analysis 各自深入特定軸（血管/心臟/藥物/預後/住院）
+- 但跨頁瀏覽時序時，讀者需要在 5 個 tab 之間跳——成本高
+- master_timeline 提供「**首先讀這個 → 想深入哪個面向再 click 去**」的進入點
+- 五句話框架幫病人在任何新門診快速 onboarding 新醫師
+
+更新 index.md（加 master_timeline 條目，🗓 prefix 標識）+ log（本 entry）。
+
+Wiki 規模：5 analyses → **6 analyses**；雙向 cross-link 全面、master 為 hub。

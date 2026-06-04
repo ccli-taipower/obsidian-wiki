@@ -246,6 +246,7 @@ K 6.0 + active ischemia = 心律不整風險明顯升高：
 
 本分析主要依據流行病學數據（USRDS、台灣腎臟醫學會統計）及核醫預後文獻（SSS/ΔTPD 風險分層），結合個案臨床數據推估。Wiki 內文獻提供機轉背景：
 
+- 🗓 [analysis_master_timeline](analysis_master_timeline.md) — 完整醫療時間軸（含三道關卡 status 對照）
 - [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)（血管/PTH 軸，含完整病人摘要）
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md)（心臟/CAD 軸）
 - [analysis_iatrogenic_factors_in_refractory_idh](analysis_iatrogenic_factors_in_refractory_idh.md)（藥物軸）

@@ -161,6 +161,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 ## 相關頁面
 
+- 🗓 [analysis_master_timeline](analysis_master_timeline.md) — 完整醫療時間軸（手術 / 檢查 / 用藥）+ 五句話交給新醫師版本
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md)
 - [analysis_iatrogenic_factors_in_refractory_idh](analysis_iatrogenic_factors_in_refractory_idh.md)
 - [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) — 整合本軸介入對無移植情境下壽命的影響

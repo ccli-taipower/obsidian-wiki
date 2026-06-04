@@ -419,6 +419,7 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 ## 相關頁面
 
+- 🗓 [analysis_master_timeline](analysis_master_timeline.md) — 完整醫療時間軸（用藥沿革段含 PTX 前 vs 目前對照表）
 - [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md)
 - [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) — Dipyridamole trial-off 等本軸介入是改善預後的低成本高效益槓桿

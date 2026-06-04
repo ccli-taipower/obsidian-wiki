@@ -36,4 +36,5 @@
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md) — CAD（RCA CTO + LCX-stent）對 PTX 後頑固性 IDH 的貢獻與改善策略
 - [analysis_iatrogenic_factors_in_refractory_idh](analysis_iatrogenic_factors_in_refractory_idh.md) — 藥物盤點識別醫源性 IDH 加重因子（Dipyridamole 為最大可調整目標）
 - [analysis_hospitalization_timeline](analysis_hospitalization_timeline.md) — 4 次住院時間軸（2019/10 + 2019/12 雙腎 TAE、2023/03 LCX PCI、2023/10 PTX）+ 跨頁校正 + Ezetrol 不明停藥的 Q4 解法
+- 🗓 [analysis_master_timeline](analysis_master_timeline.md) — **完整醫療時間軸整合（手術 / 檢查 / 用藥 / 預後關卡），五句話交給新醫師的版本**
 - [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) — 無移植情境下的預後推估：SSS=16 為最大威脅，可調空間分析
