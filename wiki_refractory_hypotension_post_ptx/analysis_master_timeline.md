@@ -15,12 +15,22 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 項目 | 數值 |
 |------|------|
 | 出生 | 1978/03 |
-| 目前年齡（2026/05）| 49 歲（剛過生日）|
+| 目前年齡（2026/06）| 49 歲 |
 | 性別 | 男 |
 | 主要診斷 | ADPKD（autosomal dominant polycystic kidney disease）|
 | ESRD 起始 | 2015 |
 | 透析年資 | 11 年（PD 4.5 年 + HD 6.5 年）|
 | 移植 waiting list | 2015 起，已等 11 年 |
+
+### 🏥 三院系統（重要 context）
+
+| 機構 | 角色 | 重要事件 / 處置 |
+|------|------|---------------|
+| **NTUH 台大** | 移植 + PTX + 一般追蹤 + 影像 | TAE 2019/10 + 12、PTX 2023/10、心超 2026/04、下肢動脈 2026/05/19 |
+| **東元綜合醫院**（新竹）| 心臟科 + PCI + 5/19 心臟科門診 | LCX PCI 2023/03、Concor + 停沛暢 2026/05/19、7/29 重複核醫 |
+| **樹林松禾診所** 🆕 | **透析 M/W/F + 月度抽血 + 用藥微調** | **2026/05 停 vit D 啟動 iPTH 回升、月度 lab tracking** |
+
+→ **三院 medication reconciliation** 是 wiki 持續強調的議題（Ezetrol 停藥之謎可能源於此）。
 
 ---
 
@@ -55,6 +65,8 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 2026/05 | 病程 | 49 歲生日 | — | — |
 | 2026/05/19 | 影像 | **下肢動脈超音波**（移植團隊 order）| 左 CFA moderate stenosis 但 < 50%，無症狀 | [prognosis](analysis_prognosis_without_transplant.md) |
 | 2026/05/19 | 💊 用藥 | **🔥 心臟科處方變更**：沛暢暫停 + Concor 1.25 mg QOD 啟動 | 服藥日 T/Th/Sa AM | [iatrogenic](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| **~2026/05** | 💊 用藥 | **🔥 松禾診所建議**：停活性維生素 D（執行 iPTH 回升計畫）| 結果見 6/4 lab | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
+| 2026/06/04 | 🩸 抽血 | **松禾診所例行月度抽血** | **iPTH 17.5 → 28.6（+63%）、K 6.0 → 5.0、Ca ↓、P ↑、Hb 11.2 ↓、TSAT 7% 明確缺鐵** | 本頁上方 lab 表 |
 | **2026/06/16**（預定）| 滴定 | Concor QOD → QD 評估點 | — | — |
 | **2026/07/13**（預定）| 評估 | Dipyridamole trial-off 8 週 evaluate | Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/29**（預定）| 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md) |
@@ -91,31 +103,39 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 
 ## 🩸 抽血數值演變（key labs）
 
-### 跨時序對照（最新 2026/04/09 為主）
+### 跨時序對照（最新 2026/06/04 為主，4/9 為 baseline）
 
-| 類別 | 項目 | 數值 | 評估 |
-|------|------|------|------|
-| 肝功能 | ALT/AST | 12/7 | 正常 ✅ |
-| 肝功能 | Albumin | 4.2 g/dL | 良好 ✅ |
-| 肝功能 | **Alk Phos** | **61** | **偏低**（呼應 adynamic bone）|
-| 腎臟 | BUN（前/後）| 85.6 → 23.6 | 透析效率良好 |
-| 腎臟 | Creatinine | 12.01 | 透析病人預期 |
-| 腎臟 | Uric acid | 8.0 | 略高（透析常見）|
-| 電解質 | **K** | **6.0**（3/19 為 5.7）| **偏高，上升趨勢** ⚠️ |
-| 電解質 | Na | 139 | 正常 |
-| 電解質 | **Ca** | **9.0** | 正常下緣 |
-| 電解質 | **P** | **4.6** | **控制良好** ✅ |
-| 血液 | Hb | 12.3 | 達標（但下方）|
-| 血液 | **MCV** | **69.2** | **偏低**（小球性貧血）⚠️ |
-| 血液 | MCH | 21.0 | 偏低 |
-| 血液 | **RDW-CV** | **19.3** | **偏高**（紅血球大小不一）⚠️ |
-| 血液 | Platelet | 505 | 偏高（可能與缺鐵反應有關）|
-| 血液 | WBC | 8.6 | 正常 |
-| 血脂 | **HDL** | **33** | **偏低** ⚠️ |
-| 血脂 | **LDL** | **100** | **對 CAD 高風險者偏高**（建議 < 70）⚠️ |
-| 副甲狀腺 | **iPTH**（2025/12）| **17.5 pg/mL** | **過度抑制** ⚠️（target 150-300）|
-| 免疫 | **FlowPRA Class I**（2026/03）| **44%（MFI 563）**| 中度致敏 ⚠️ |
-| 免疫 | FlowPRA Class II | 11%（MFI 355）| 輕度 |
+| 類別 | 項目 | 2026/04/09 | **2026/06/04（最新）**| Trend / 評估 |
+|------|------|-----------|------------|-------|
+| 肝功能 | ALT/AST | 12/7 | **9/12** | 正常 ✅ |
+| 肝功能 | Albumin | 4.2 | **3.8** | ↓ 小幅下降（影響 corrected Ca）|
+| 肝功能 | **Alk Phos** | 61 | **69** | ↑（呼應骨活化）|
+| 腎臟 | BUN（前/後）| 85.6 → 23.6 | **70.9 → 20.9** | URR 70.5%，穩定 |
+| 腎臟 | Creatinine | 12.01 | **11.68** | 持平 |
+| 腎臟 | Uric acid | 8.0 | **7.7** | 略降 |
+| 電解質 | **K** | **6.0**（3/19 為 5.7）| **5.0**（5/9 為 5.4）| ✅ **大幅改善 −1.0** |
+| 電解質 | Na | 139 | **141** | 正常 |
+| 電解質 | **Ca** | 9.0 | **8.5** | ↓（呼應 iPTH 回升、鈣回到骨頭）|
+| 電解質 | **Corrected Ca**（校正白蛋白）| — | **8.66** | 仍在 normal range（8.5-10.5）|
+| 電解質 | **P** | **4.6** | **5.6** | ⚠️ ↑（同樣呼應骨活化）|
+| 血液 | **Hb** | 12.3 | **11.2** | ⚠️ **−1.1，需處理**（缺鐵相關）|
+| 血液 | Hematocrit | — | 39.4 | — |
+| 血液 | **MCV** | 69.2 | **71.5** | 略升但仍小球性 |
+| 血液 | MCH | 21.0 | **20.3** | 偏低 |
+| 血液 | MCHC | — | **28.4** | — |
+| 血液 | **RDW-CV** | 19.3 | **21.2** | ↑ 紅血球大小更不一 |
+| 血液 | RBC | — | 5.51 | — |
+| 血液 | **Platelet** | 505 | **747** | ⚠️ ↑↑（典型缺鐵反應性血小板增多）|
+| 血液 | WBC | 8.6 | **9.1** | 正常 |
+| **鐵** | **Ferritin** | (未測) | **35.3** | 🔥 **明顯偏低**（HD target > 100）|
+| **鐵** | **Serum Iron** | (未測) | **20** | 偏低 |
+| **鐵** | **TIBC** | (未測) | **287** | 偏高 |
+| **鐵** | **TSAT**（算）| — | **7.0%**（20/287）| 🔥 **明顯缺鐵**（target > 20%）|
+| 血脂 | Cholesterol total | — | 148 | — |
+| 血脂 | **Triglyceride** | (未測) | **222** | ⚠️ 偏高（target < 150）|
+| 副甲狀腺 | **iPTH** | 17.5（2025/12）| **28.6** | 🔥 **+63% 朝目標移動** |
+| 免疫 | **FlowPRA Class I**（2026/03）| 44%（MFI 563）| (未追蹤) | 中度致敏 ⚠️ |
+| 免疫 | FlowPRA Class II | 11%（MFI 355）| (未追蹤) | 輕度 |
 
 ### 關鍵歷史 baseline
 

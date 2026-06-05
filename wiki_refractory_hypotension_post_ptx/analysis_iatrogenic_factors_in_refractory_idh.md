@@ -32,13 +32,22 @@ tags: [refractory_IDH, medication_review, iatrogenic, dipyridamole, triple_antip
 
 **🔄 狀態更新（2026/05/19）**：β-blocker 已啟動（Concor 1.25 mg QOD，心臟科處方，T/Th/Sa 早上服用，詳見 §4）；ACE/ARB 與非鈣型 binder 仍未動，留待後續討論。
 
-### ⚠️ 重要：藥單需要 reconciliation
+### ⚠️ 重要：藥單需要跨三院 reconciliation
 
 病人個人醫療摘要（2026/05）的「目前用藥」段**只列了 midodrine + 碳酸鈣**，並標註「需向醫師確認是否還有其他用藥（活性維生素 D、擬鈣劑、其他）」。
 
-→ 上述 4 個藥（含沛暢/dipyridamole）是病人另行告知本 wiki 的內容，**摘要文件未確認**。建議：
-- 與藥局做正式 medication reconciliation
-- 確認上述 4 個藥是否仍在用、實際劑量、是否有其他未列藥物（特別是活性維生素 D、cinacalcet/calcimimetic、phosphate binder、止痛藥）
+**🏥 三院系統 context**（持續強調）：
+- **NTUH 台大**：移植 + PTX + 一般追蹤
+- **東元綜合醫院（新竹）**：心臟科 + LCX-stent + 2026/05/19 處方變動
+- **樹林松禾診所** 🆕：透析 M/W/F + 月度抽血 + **2026/05 停活性維生素 D 決策來源**
+
+→ Ezetrol 不知何時停藥可能就是三院 reconciliation 失誤所致。建議：
+- 與藥局 / 各院做正式 medication reconciliation
+- **更新狀態（2026/06）**：
+  - 沛暢 stopped 5/19（東元）
+  - 活性維生素 D stopped ~5/20（松禾）
+  - Ezetrol 不明何時 stopped（待釐清）
+  - Concor 1.25 mg QOD added 5/19（東元）
 - 確認過去是否用過 β-blocker / ACE/ARB 而停藥
 
 ## 核心發現：Dipyridamole 是可調整的醫源性 vasodilator
@@ -256,14 +265,18 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 這三個都是 LCX-stent 後 mandatory 保護，停藥的 stent thrombosis / re-MI / CV death 風險遠大於 IDH 帶來的不適。
 
-### 6. 高血鉀（K 6.0 上升趨勢）—— 醫源性 IDH 加重的另一面
+### 6. 高血鉀 — ✅ 已大幅改善（2026/06 update）
 
-病人 2026/04 抽血 K 6.0（3/19 為 5.7），上升趨勢。雖然不是直接 BP 機轉，但：
-- **加重透析後段抽筋**（病人摘要主訴）
-- **在 active ischemia 患者增加心律不整風險**
-- 是可調整的：飲食 review、Lokelma（sodium zirconium cyclosilicate）or Patiromer、透析液 K 從 2.0 改 1.5 mEq/L
+| 時點 | K | 評估 |
+|------|---|------|
+| 2026/03/19 | 5.7 | 偏高 |
+| 2026/04/09 | 6.0 | ⚠️ 高峰 |
+| 2026/05/09 | 5.4 | 改善中 |
+| **2026/06/04** | **5.0** | ✅ **正常範圍** |
 
-→ 不直接是 IDH 原因，但是「同 axis 可一起處理」的 modifiable factor。
+→ K 已從「需處理」變「已穩定」。可能因素：飲食調整、透析液 K 微調、利尿食物減少等。**本項從「modifiable factor」降為「正常 follow-up」**，無需 Lokelma / Patiromer 等介入。
+
+繼續監測即可，特別在飲食 / 藥物變動時複測。
 
 ### 7. 🔥 佳立鈣 1,200 mg/日 + 透析液 Ca 3.0 mEq/L —— 二級可調整因子
 
@@ -285,7 +298,12 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 2. **磷已控制良好**（P=4.6）→ 不需要這麼強的 binder 壓制
 3. **adynamic bone 強烈懷疑**（iPTH 17.5 + ALP 61 偏低）→ 骨頭無法吸收鈣 → **多餘鈣跑到血管 / 軟組織**
 4. **腹部 MRI 證實**：主動脈 + 冠狀動脈鈣化 → 雙高設定持續加重這個進展
-5. **病人合併缺鐵性貧血**（MCV 69.2、MCH 21.0、RDW 19.3、Hb 12.3）
+5. **🔥 缺鐵性貧血已明確化（2026/06/04 lab）**：
+   - **Ferritin 35.3**（HD target > 100）
+   - **TSAT 7.0%**（20/287，target > 20%）
+   - **Hb 12.3 → 11.2**（−1.1，已影響造血）
+   - **Platelet 505 → 747**（典型缺鐵反應性血小板增多）
+   - → 補鐵從「建議」升級為**「必做」**——換 ferric citrate 或加 IV iron 二選一，不能再拖
 
 **Sequencing 關鍵：先換 binder，不要先動透析液**
 

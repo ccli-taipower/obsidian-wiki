@@ -13,12 +13,12 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 - 48 歲（2026/05 已過生日 → 目前 49 歲）男性，ADPKD + ESRD，透析 11 年（PD 4.5 年 2015-2019/10 + HD 6.5 年 2019/10/22 起）
 - 2023/10 行 subtotal PTX（術前 iPTH > 1300）
-- 目前 iPTH 17.5 pg/mL（過度抑制）
+- iPTH **17.5（2025/12）→ 28.6（2026/06/04，+63%）**——🔥 在松禾診所 ~2026/05 停活性維生素 D 後**正在回升**
 - 透析前血壓 100-110 mmHg，透析中後段血壓 80-90 mmHg
-- 血鈣 9.0 mg/dL（正常下緣）
-- ALP 61（偏低，呼應 adynamic bone）
-- K 6.0（2026/04，3/19 為 5.7，**上升趨勢**）
-- MCV 69.2、MCH 21.0、RDW 19.3（小球性貧血，缺鐵）
+- 血鈣 9.0 → **8.5（2026/06，下降，呼應 iPTH 回升）**（corrected Ca 8.66）
+- ALP 61 → **69**（↑ 呼應骨活化）
+- K 6.0（4/9）→ 5.4（5/9）→ **5.0（6/4）**——✅ **大幅改善**
+- 缺鐵已確認：**Ferritin 35.3、TSAT 7.0%（20/287）、Hb 12.3 → 11.2 (−1.1)、Platelet 505 → 747** ⚠️
 - 主動脈 + 冠脈鈣化（腹部 MRI 2025/12）
 - 佳立鈣 500 mg × 6/日 = 1,200 mg elemental Ca/日（鈣型 phosphate binder）
 - 透析液 Ca 3.0 mEq/L（1.5 mmol/L，中等濃度，IDH 保護偏好）
@@ -67,9 +67,11 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 - [Campese 1989](src_campese1989_calcium_pth_blood_pressure.md)：PTH 是維持血管對升壓物質（NE、angiotensin II）反應性的必要因子
 
 **具體做法：**
-- 停用所有抑制 PTH 的藥物（活性維生素 D、擬鈣劑）
-- **減少 / 替換碳酸鈣**（佳立鈣 1,200 mg elemental Ca/日，P=4.6 已控制良好）→ 換成**非鈣型 binder**（腎潔磷 sevelamer / ferric citrate / Fosrenol 三選一，依 LDL、補鐵需求、簡化用藥取捨）。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
-- 必要時考慮低劑量 teriparatide，目標 iPTH 回升至 150-300
+- ✅ **停活性維生素 D 已執行**（樹林松禾診所 ~2026/05，醫師建議）→ **iPTH 17.5 → 28.6（+63%）證實有效**
+- ⏳ 確認是否仍有其他抑制 PTH 的藥物（calcimimetic 擬鈣劑等）
+- **減少 / 替換碳酸鈣**（佳立鈣 1,200 mg elemental Ca/日）→ 換成**非鈣型 binder**（腎潔磷 sevelamer / ferric citrate / Fosrenol 三選一）；**注意 P 已從 4.6 → 5.6（6/4），結合 iPTH 回升後骨頭釋放 P，binder 不能急減**。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
+- ❌ **不需要 teriparatide**——自然回升路徑可行（iPTH 已自動朝目標移動）
+- ⚠️ **Ca 下降監測**：8.5 → 若繼續往 < 8.0 走需考慮加回部分鈣補充或 IV 鈣輸注
 
 ### 2. 透析中監測離子鈣，必要時鈣輸注
 

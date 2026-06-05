@@ -456,3 +456,40 @@ Wiki 規模：5 analyses → **6 analyses**；雙向 cross-link 全面、master 
 - `analysis_prognosis` 中 "HD 11 年"（generic 描述、不影響推論）
 
 教訓：**wiki 動態演化的「副本」效應**——5/19 心臟科處置這種重大變化會影響 wiki 多處，本次 lint 抓到 3 處需要更新。建議**每次重大臨床變化後加做一次 mini-lint**（grep 變化的關鍵字，譬如 "沛暢"、"β-blocker"、"目前用藥"，看看哪些 analysis 受影響）。
+
+## [2026-06-05] update | 6/4 月度抽血（松禾診所）+ 三院系統校正 + 三大正向發現
+
+病人提供 2026/06/04 健康存摺月度抽血截圖（松禾診所 order）+ 2026/05/07、05/09 補測。確認：
+- **新增第三家醫療機構：樹林松禾診所**（透析 M/W/F + 月度抽血 + 用藥微調）
+- 之前 wiki 寫「兩院系統」校正為「**三院系統**」（NTUH + 東元 + 松禾）
+
+**三大正向發現：**
+
+1. 🔥 **iPTH 17.5 → 28.6（+63%）— wiki §1「讓 iPTH 回升」目標正在執行中**
+   - 病人補充：松禾診所醫師 ~2026/05/04 建議停活性維生素 D
+   - 結果：4 週後 iPTH 開始回升，符合典型生理時序
+   - 同步呼應：Ca 9.0 → 8.5（鈣回到骨頭）、P 4.6 → 5.6（骨釋放）、ALP 61 → 69（骨活化）
+   - 框架校正：「adynamic bone 強烈懷疑」**鬆動**；不需要 teriparatide
+   - 警示：Ca 持續下降需監測（目前 corrected Ca 8.66 仍在 normal）
+
+2. ✅ **K 6.0 → 5.4 → 5.0 — 已正常**
+   - 從「需處理 modifiable factor」降為「正常 follow-up」
+   - 無需 Lokelma / Patiromer
+
+3. 🔥 **缺鐵性貧血明確化（新測 ferritin + iron + TIBC）**
+   - Ferritin 35.3、TSAT 7.0%（20/287）→ 明確功能性缺鐵
+   - Hb 12.3 → 11.2（−1.1）—— 已影響造血
+   - Platelet 505 → 747 —— 缺鐵反應性血小板增多
+   - 補鐵從「建議」升級為**「必做」**
+
+**6 份 analysis 同步更新：**
+- `master_timeline`：lab 表整體 update 為 6/4 對照；新增松禾診所到三院系統表；新增 vit D 停藥 + 6/4 lab 兩個時間軸事件
+- `refractory_idh_treatment_plan`：病人摘要更新；§1「讓 iPTH 回升」改為「✅ 已在執行中」+ Ca 下降監測警示 + 不需 teriparatide
+- `iatrogenic_factors`：藥單 reconciliation 段升級為三院；§6 K 改為「已正常」；§7 缺鐵明確化為「必做」
+- `cad_contribution`：anemia 段補入 ferritin/TSAT 確認
+- `prognosis_without_transplant`：「介入尚未執行」改為「已啟動 + iPTH 證實有效」
+
+**新議題**（待下次門診帶到）：
+- 確認 Ezetrol 停藥時點 / 原因（三院 reconciliation 失誤可能源）
+- 換 binder 時程（P 5.6 上升中、不能急減；ferric citrate 為首選，同步補鐵）
+- Triglyceride 222 高（待 LDL 完整 panel 一併處理 Q4）
