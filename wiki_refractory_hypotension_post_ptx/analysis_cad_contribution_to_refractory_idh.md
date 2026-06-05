@@ -75,13 +75,12 @@ HFpEF **目前沒有特效藥**（不像 HFrEF 有明確藥物修復收縮力）
 - RCA CTO 開通 + LCX 再評估 → 減少缺血面積 → 心室順應性可能改善
 - 不是治好 HFpEF，是**把惡化的推手拿掉**
 
-**第二：✅ Bisoprolol 已啟動 2026/05/19（Concor 1.25 mg QOD，心臟科處方）**
-- 心率減慢 → 舒張期延長 → 心室有更多時間填充 → stroke volume 回升
-- 抗缺血 → 減少 oxygen demand → 心肌僵硬度降低
-- 長期可部分逆轉 LV remodeling
-- 服藥日：**二/四/六早上**（非透析日上午，避開透析時血藥濃度高）
-- 平均日劑量 0.54 mg，極溫和起步
-- 處方詳見下方 [§ β-blocker](#β-blocker-在-hfpef--active-ischemia-的角色)
+**第二：❌ Bisoprolol trial 失敗 — 2026/05/19 啟動、2026/06/04 停藥**
+- NTUH 心內 5/19 處方 Concor 1.25 mg QOD（T/Th/Sa 早上、極溫和）
+- **6/04 IDH 變嚴重 → 停藥**（trial 僅 16 天）
+- 多因素疊加假說：Concor 輕度貢獻 + **Ca 9.0 → 8.5（vit D 停的副作用）+ Hb 12.3 → 11.2（缺鐵惡化）**——多軸同時動的 trade-off
+- 詳細失敗分析與下一步選項見 [analysis_iatrogenic_factors §4](analysis_iatrogenic_factors_in_refractory_idh.md)
+- 在 Ca、Hb、iPTH 穩定前**不再重新挑戰 BB**——HFpEF 暫時只靠 cardiac-protective HD 處理
 
 **第三：透析處方再微調**
 
@@ -148,7 +147,11 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 
 #### Bisoprolol 處方建議與實際執行
 
-**✅ 心臟科 2026/05/19 實際處方：Concor 1.25 mg QOD，服用日 = 二/四/六早上**（比原建議 QD 更保守一階，採 QOD 起步）
+**❌ 2026/06/04 stopped — trial 失敗（IDH 變嚴重）**
+
+時間軸：5/19 NTUH 心內處方 Concor 1.25 mg QOD（T/Th/Sa 早上）→ 6/04 停藥。Trial 僅 16 天。
+
+**Concor QOD schedule 設計理論上正確**（透析時血藥濃度 < 12% peak），但實際 IDH 仍變嚴重——歸因可能是多因素疊加（見 [iatrogenic §4](analysis_iatrogenic_factors_in_refractory_idh.md)），單獨 Concor 罪責難判定。
 
 | 項目 | 原 wiki 建議 | 實際處方 |
 |------|------------|---------|

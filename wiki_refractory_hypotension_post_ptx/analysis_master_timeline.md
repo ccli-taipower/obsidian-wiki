@@ -22,15 +22,14 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 透析年資 | 11 年（PD 4.5 年 + HD 6.5 年）|
 | 移植 waiting list | 2015 起，已等 11 年 |
 
-### 🏥 三院系統（重要 context）
+### 🏥 兩院系統（重要 context）
 
 | 機構 | 角色 | 重要事件 / 處置 |
 |------|------|---------------|
-| **NTUH 台大** | 移植 + PTX + 一般追蹤 + 影像 | TAE 2019/10 + 12、PTX 2023/10、心超 2026/04、下肢動脈 2026/05/19 |
-| **東元綜合醫院**（新竹）| 心臟科 + PCI + 5/19 心臟科門診 | LCX PCI 2023/03、Concor + 停沛暢 2026/05/19、7/29 重複核醫 |
-| **樹林松禾診所** 🆕 | **透析 M/W/F + 月度抽血 + 用藥微調** | **2026/05 停 vit D 啟動 iPTH 回升、月度 lab tracking** |
+| **NTUH 台大** | 移植 + PTX + **心內** + 一般追蹤 + 影像 + 主要處方源 | TAE 2019/10 + 12、PTX 2023/10、心超 2026/04、下肢動脈 2026/05/19、心內門診 5/19（Concor + 停沛暢）、7/29 重複核醫、Plavix 處方 |
+| **樹林松禾診所** | **透析 M/W/F + 月度抽血 + 用藥微調** | **2026/05 停 vit D 啟動 iPTH 回升、月度 lab tracking** |
 
-→ **三院 medication reconciliation** 是 wiki 持續強調的議題（Ezetrol 停藥之謎可能源於此）。
+**歷史一次性事件**：**東元綜合醫院**（新竹）2023/03 LCX PCI——**單次處置、之後未再回診**（因東元無法處理 RCA CTO），後續心臟追蹤全轉 NTUH。
 
 ---
 
@@ -64,10 +63,10 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 2026/04/09 | 抽血 | 完整 lab（最新）| K 6.0、Ca 9.0、P 4.6、Hb 12.3、ALP 61、LDL 100、Alb 4.2、MCV 69.2 | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
 | 2026/05 | 病程 | 49 歲生日 | — | — |
 | 2026/05/19 | 影像 | **下肢動脈超音波**（移植團隊 order）| 左 CFA moderate stenosis 但 < 50%，無症狀 | [prognosis](analysis_prognosis_without_transplant.md) |
-| 2026/05/19 | 💊 用藥 | **🔥 心臟科處方變更**：沛暢暫停 + Concor 1.25 mg QOD 啟動 | 服藥日 T/Th/Sa AM | [iatrogenic](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| 2026/05/19 | 💊 用藥 | **🔥 NTUH 心內處方變更**：沛暢暫停 + Concor 1.25 mg QOD 啟動 | 服藥日 T/Th/Sa AM | [iatrogenic](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **~2026/05** | 💊 用藥 | **🔥 松禾診所建議**：停活性維生素 D（執行 iPTH 回升計畫）| 結果見 6/4 lab | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
-| 2026/06/04 | 🩸 抽血 | **松禾診所例行月度抽血** | **iPTH 17.5 → 28.6（+63%）、K 6.0 → 5.0、Ca ↓、P ↑、Hb 11.2 ↓、TSAT 7% 明確缺鐵** | 本頁上方 lab 表 |
-| **2026/06/16**（預定）| 滴定 | Concor QOD → QD 評估點 | — | — |
+| 2026/06/04 | 🩸 抽血 | **松禾診所例行月度抽血** | **iPTH 17.5 → 28.6（+63%）、K 6.0 → 5.0、Ca ↓ 8.5、P ↑、Hb 11.2 ↓、TSAT 7% 明確缺鐵** | 本頁上方 lab 表 |
+| **2026/06/04** | 💊 用藥 | **❌ Concor 暫停**（IDH 變嚴重）| 啟動 → 停藥僅 16 天 | [iatrogenic §4](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/13**（預定）| 評估 | Dipyridamole trial-off 8 週 evaluate | Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/29**（預定）| 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md) |
 
@@ -174,7 +173,7 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 冠脂妥 | Rosuvastatin | 10 mg QD | Statin（CV 保護）| 長期 |
 | 佳立鈣 | Calcium carbonate | 500 mg × 6/日 = 3 g/日 = 1,200 mg elemental Ca/日 | 磷結合劑 | PTX 後 |
 | Midodrine | Midodrine | 5 mg（2.5×2）洗前 + 中段加 5 mg | α-agonist 預防 IDH | PTX 後 |
-| **Concor** | **Bisoprolol** | **1.25 mg QOD T/Th/Sa 早上** | **β-blocker（HFpEF + ischemia 雙重 indication）**| **🆕 2026/05/19** |
+| ~~Concor~~ | ~~Bisoprolol~~ | ~~1.25 mg QOD~~ | ❌ **trial 失敗、2026/06/04 停藥**（IDH 變嚴重） | 5/19 起、6/4 止 |
 
 ### 預期未來變動
 

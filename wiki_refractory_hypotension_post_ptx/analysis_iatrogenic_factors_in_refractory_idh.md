@@ -36,19 +36,18 @@ tags: [refractory_IDH, medication_review, iatrogenic, dipyridamole, triple_antip
 
 病人個人醫療摘要（2026/05）的「目前用藥」段**只列了 midodrine + 碳酸鈣**，並標註「需向醫師確認是否還有其他用藥（活性維生素 D、擬鈣劑、其他）」。
 
-**🏥 三院系統 context**（持續強調）：
-- **NTUH 台大**：移植 + PTX + 一般追蹤
-- **東元綜合醫院（新竹）**：心臟科 + LCX-stent + 2026/05/19 處方變動
-- **樹林松禾診所** 🆕：透析 M/W/F + 月度抽血 + **2026/05 停活性維生素 D 決策來源**
+**🏥 兩院系統 context**（校正：2026/06/05）：
+- **NTUH 台大**：移植 + PTX + **心內** + 一般追蹤 + 主要處方源（含 Plavix）
+- **樹林松禾診所**：透析 M/W/F + 月度抽血 + **2026/05 停活性維生素 D 決策來源**
 
-→ Ezetrol 不知何時停藥可能就是三院 reconciliation 失誤所致。建議：
-- 與藥局 / 各院做正式 medication reconciliation
-- **更新狀態（2026/06）**：
-  - 沛暢 stopped 5/19（東元）
-  - 活性維生素 D stopped ~5/20（松禾）
-  - Ezetrol 不明何時 stopped（待釐清）
-  - Concor 1.25 mg QOD added 5/19（東元）
-- 確認過去是否用過 β-blocker / ACE/ARB 而停藥
+歷史一次性事件：**東元綜合醫院（新竹）2023/03 LCX PCI** → 東元無法處理 RCA CTO，自此之後病人未再回東元、心臟追蹤全轉 NTUH。**Ezetrol 停藥是 NTUH 內部 med simplification 之謎，非跨院 reconciliation 失誤**。
+
+**用藥狀態更新（2026/06/05）**：
+- 沛暢 stopped 5/19（NTUH 心內）
+- 活性維生素 D stopped ~5/20（松禾）
+- **Concor 1.25 mg QOD started 5/19、stopped 6/4**（NTUH，IDH 變嚴重 → trial 失敗）
+- Ezetrol 不明何時 stopped（**NTUH 待釐清**）
+- 確認過去是否用過 ACE/ARB 而停藥
 
 ## 核心發現：Dipyridamole 是可調整的醫源性 vasodilator
 
@@ -226,11 +225,39 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 - 加 fish oil：DAC trial 也有 fish oil arm（小幅 benefit），可能可同時試
 - 改純 DAPT（aspirin + clopidogrel）：已有了，AVG 保護論證最弱（KDOQI 未列）
 
-### 4. β-blocker 啟動 — ✅ 已執行 2026/05/19（心臟科處方）
+### 4. β-blocker trial 失敗 — ❌ 2026/06/04 停藥（trial 僅 16 天）
 
 藥單原本沒列 β-blocker。LCX-stent 後 + HFpEF + SSS=16 標準應該要用。
 
-**心臟科 2026/05/19 處方：Concor（bisoprolol）1.25 mg QOD，服用日 = 二/四/六早上**
+**NTUH 心內 2026/05/19 處方：Concor（bisoprolol）1.25 mg QOD，服用日 = 二/四/六早上**
+
+**❌ 2026/06/04 暫停**：IDH 變嚴重，NTUH 決定先停 BB 觀察。
+
+**為什麼可能不只是 Concor 的鍋（多因素疊加假說）：**
+
+5/19 → 6/4 期間病人經歷多項變動：
+
+| 因子 | 對 IDH 的方向 | 強度 |
+|------|-------------|------|
+| Concor 1.25 mg QOD | 輕度加重（HR 反射代償減弱）| 弱-中 |
+| **vit D 停 → Ca 9.0 → 8.5** | **加重**（[concept_hypocalcemia_cardiac_effects](concept_hypocalcemia_cardiac_effects.md)：Shinoda 1992 Ca 7.8 即可誘發 cardiac issue）| 中 |
+| Hb 12.3 → 11.2 | 加重（心肌氧供應↓ → 缺血 ↑）| 中 |
+| 停沛暢 | 應該改善（消除 vasodilator）| 中（但效果不夠抵銷）|
+
+→ **IDH 變嚴重很可能是「多因素同時惡化」而非單獨 Concor 的鍋**。但臨床上停 BB 是「最容易嘗試的單一變數」，做為診斷性試驗合理。
+
+**Trial 失敗後的下一步選項**（待 NTUH 心內決定）：
+
+| 選項 | 思路 |
+|------|------|
+| A. 維持停 BB | 接受沒有 BB 的保護，全力處理 Ca / Hb / iPTH 路徑；缺血保護靠 PCI |
+| B. 重新挑戰 BB（更慢滴定）| 譬如 1.25 mg 每 5 天 1 次（更稀疏）；同時補 Ca 防止 cardiac effect |
+| C. 換不同 BB | 譬如 metoprolol succinate（不同藥動）|
+| D. 處理多因素後再嘗試 | 先把 Hb 拉到 13、Ca 穩定 > 8.8、iPTH 在合理範圍，再試 BB |
+
+→ **推薦 D（先處理基底再 retry BB）**，這跟 wiki 整體 framework 一致——軸間 trade-off 需要把所有軸都先優化。
+
+詳細處方理由見 [analysis_cad_contribution §β-blocker](analysis_cad_contribution_to_refractory_idh.md#β-blocker-在-hfpef--active-ischemia-的角色)
 
 **為什麼這個 schedule 設計聰明：**
 

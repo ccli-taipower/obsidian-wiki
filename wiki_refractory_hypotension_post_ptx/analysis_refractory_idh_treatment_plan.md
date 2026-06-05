@@ -26,7 +26,8 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 - 平均脫水 3.67 L/次 → **UF rate 11.2 mL/kg/hr**（intermediate 區）
 - IDWG ~5.06%（理想 < 4%）
 - 已嘗試介入：停所有降血壓藥、乾體重 +10 kg、Midodrine 洗前+中段、每週 HDF 1 次、透析延長 4.5h、透析液 36°C
-- **2026/05/19 心臟科新處置**：✅ 沛暢（dipyridamole）暫停 + ✅ Concor（bisoprolol）1.25 mg QOD 啟動，服藥日 = 二/四/六早上
+- **2026/05/19 NTUH 心內處置**：✅ 沛暢（dipyridamole）暫停 + ✅ Concor（bisoprolol）1.25 mg QOD 啟動
+- **2026/06/04 NTUH 處置更新**：❌ Concor 暫停（IDH 變嚴重，trial 僅 16 天）；多因素疊加（Ca↓ + Hb↓ + Concor）難單獨歸因
 
 ## 問題定位
 

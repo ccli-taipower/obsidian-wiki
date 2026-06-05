@@ -493,3 +493,48 @@ Wiki 規模：5 analyses → **6 analyses**；雙向 cross-link 全面、master 
 - 確認 Ezetrol 停藥時點 / 原因（三院 reconciliation 失誤可能源）
 - 換 binder 時程（P 5.6 上升中、不能急減；ferric citrate 為首選，同步補鐵）
 - Triglyceride 222 高（待 LDL 完整 panel 一併處理 Q4）
+
+## [2026-06-05] correction | 三院系統校正為兩院 + Concor trial 失敗（6/4 停藥）
+
+病人補充三項關鍵校正：
+
+1. **東元只是 2023/03 LCX PCI 單次事件**——之後因東元無法處理 RCA CTO，心臟追蹤全轉 NTUH。從未回診過。Plavix 處方源是 NTUH 不是東元。
+2. **5/19 心臟科門診是 NTUH 心內**（不是東元）。Concor + 停沛暢處方來自 NTUH。
+3. **🔥 Concor 1.25 mg QOD 已於 2026/06/04 暫停**（IDH 變嚴重，trial 僅 16 天）。
+
+**框架校正**：
+- 三院系統 → **兩院系統**（NTUH + 松禾）；東元歸類為歷史一次性事件
+- Ezetrol 停藥之謎不再是「跨院 reconciliation 失誤」，而是「NTUH 內部 med simplification 之謎」
+- BB 不再是「已啟動進行中」，而是「**trial 失敗**」狀態
+
+**Concor trial 失敗的歸因分析（多因素疊加假說）**：
+
+5/19 → 6/4 期間病人經歷多項變動，單獨歸罪 Concor 可能過度簡化：
+
+| 因子 | 對 IDH 加重的方向 | 強度 |
+|------|----------------|------|
+| Concor 1.25 mg QOD | 輕度（HR 反射代償減弱）| 弱-中 |
+| **vit D 停 → Ca 9.0 → 8.5** | **加重**（concept_hypocalcemia_cardiac_effects：Shinoda 1992 Ca 7.8 即可誘發）| 中 |
+| Hb 12.3 → 11.2（缺鐵惡化）| 加重（氧供應↓）| 中 |
+| 停沛暢 | 應改善但效果不夠抵銷 | 中 |
+
+→ wiki framework **預測到了這個 trade-off**——iPTH 回升路徑會有 Ca 下降的副作用，會跟 cardiac axis 互動。**這不是 framework 失敗，是 framework 提前看到的「軸間互動」**。
+
+**未來 BB 重新挑戰的條件**（推薦選項 D）：
+- 先把 Hb 拉到 13（補鐵 / ferric citrate switch）
+- Ca 穩定 > 8.8（加部分 Ca 補充 or vit D 微量重啟）
+- iPTH 在合理範圍（avoid further bone steal）
+- 然後再 retry BB
+
+**6 份 analysis 同步更新：**
+- `master_timeline`：三院 → 兩院；東元歷史事件框；5/19 改為 NTUH；新增 6/4 Concor 停藥事件；用藥表中 Concor 改 strikethrough + 失敗 trial 標註
+- `iatrogenic_factors`：三院段改為兩院；§4 BB 從「✅ 已執行」改為「❌ trial 失敗」+ 多因素疊加分析 + 未來 4 個選項
+- `cad_contribution`：HFpEF 治療策略第二項改為「BB trial 失敗」+ 暫不再挑戰；Bisoprolol 處方段加上 trial timeline 與失敗註記
+- `refractory_idh_treatment_plan`：病人摘要補 5/19 處方 + 6/4 停藥
+- `prognosis_without_transplant`：核心訊息段補 BB trial 失敗
+- `log`（本 entry）
+
+**教訓**：
+- 多軸介入的時間軸要錯開——同時動 dipyridamole + BB + vit D 三個變數，IDH 惡化時難歸因
+- wiki 的 concept 層（hypocalcemia_cardiac_effects）成功預測了 trade-off，但 framework 仍要叮嚀「**分批做、不要同時動**」
+- 病人的 medication reconciliation 還有 history 細節需要持續校正（東元只一次、Plavix 來自 NTUH 等）
