@@ -61,6 +61,7 @@
 - [Chopin Method](concept_chopin_method.md) — Chopin 教學法：自然手位、黑鍵優先、五指五色
 - [Minimalist Fingering](concept_minimalist_fingering.md) — Cory Hall 2024，用最少手指+最多拇指穿越
 - [Hand Distribution](concept_hand_distribution.md) — 手部重分配：何時該用、何時不該用
+- [Cross-Staff Voice Boundary](concept_cross_staff_voice_boundary.md) — 跨譜表聲部邊界：指法接力不跨聲部；DP `_is_xstaff_voice_entry` / `XSTAFF_VOICE_LEAP_COST`
 - [Musical Fingering](concept_musical_fingering.md) — 指法選擇如何影響音色與分句
 - [Chromatic Harmony](concept_chromatic_harmony.md) — 半音化和聲：多聲部半音移動、蕭邦內聲部、三度關係
 - [Pedal Technique](concept_pedal_technique.md) — 踏板技法：半踏板、延遲換踏板、粗弦/細弦差異

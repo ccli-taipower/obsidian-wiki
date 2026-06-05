@@ -1,5 +1,9 @@
 # Piano Fingering Wiki Log
 
+## [2026-06-05] concept_cross_staff_voice_boundary | 1 new concept
+
+跨譜表聲部邊界 → 指法接力不應跨越聲部。由 SICILIANO Toccatina override 反向歸納（cost-trace 確認低音 f5 接力到高音旋律 = root cause），grounding 在 Huron Avoid-Leaps Rule（[[src_voice_separation]]：大跳 = 聲部切換）+ [[concept_forearm_rotation]]（跨域時手重新定位）。DP 實作 `_is_xstaff_voice_entry` + `XSTAFF_VOICE_LEAP_COST`（finger-independent leap）。驗證：DP 自行產生 3-2-3、PIG GMR byte-identical、Toccatina A5 override 已移除。
+
 ## [2026-05-29] gap fill | 9 new concepts + 2 new analyses
 
 依用戶要求補齊 wiki_piano gap。原 wiki 缺少**核心技術 concept 頁面**（arpeggio / octave / double notes / trill 等鋼琴技術詞彙）+ wrist motion / finger independence 等基礎物理概念。
