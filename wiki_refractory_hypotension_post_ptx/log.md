@@ -538,3 +538,38 @@ Wiki 規模：5 analyses → **6 analyses**；雙向 cross-link 全面、master 
 - 多軸介入的時間軸要錯開——同時動 dipyridamole + BB + vit D 三個變數，IDH 惡化時難歸因
 - wiki 的 concept 層（hypocalcemia_cardiac_effects）成功預測了 trade-off，但 framework 仍要叮嚀「**分批做、不要同時動**」
 - 病人的 medication reconciliation 還有 history 細節需要持續校正（東元只一次、Plavix 來自 NTUH 等）
+
+## [2026-06-05] query | 體重時序軌跡 + CTR/BMI 三指標互補解讀
+
+Query: 把各時期的體重列出來。
+
+從 OCR + wiki + 個人醫療摘要撈出 6 個明確時點 + 1 推算：92.2 → 81.55 → 69 → 65.9 → ~62.5 → 74 → 72.5 kg（時序跨 2019-2026）。
+
+User follow-up：「CTR 0.4 那這樣乾體重有偏高嗎」——指出我口頭評論「BMI 25.7 過重邊緣」框錯。
+
+**重要校正：CTR vs BMI vs BW 量的不是同一件事**
+- CTR 量水（容量負荷）→ 你 0.4 = 無容量過載
+- BMI 量整體質量 vs 身高
+- BW 量總質量
+
+→ 三個指標同時看：CTR 0.4 + BW 72.5 = 體重是真實質量、不是水腫的假體重。
+
+**透析病人 BMI 是 reversed**：
+- 一般人 BMI 25-30 = 過重
+- HD 病人 BMI 25-30 = **存活率最好區**（obesity paradox）
+- 你 25.7 在 sweet spot
+
+**校正前 vs 校正後 framing**：
+- 前：「乾體重被設定偏高為了撐 IDH」（隱含 volume 跟 IDH 相關）
+- 後：「乾體重 72.5 kg 是真實質量、CTR 0.4 確認無容量過載、BMI 在 HD 是存活最佳區」
+
+→ 呼應 [analysis_cad_contribution 弔詭觀察](analysis_cad_contribution_to_refractory_idh.md)：volume 已排除為主軸；IDH 主因是 vascular tone + cardiac + iatrogenic。
+
+**新增 master_timeline 整段 sub-section「⚖️ 體重 + CTR + BMI 跨時序軌跡」**，含：
+- 體重時序表（6 + 1 個時點）
+- CTR + BMI + BW 三指標互補解讀
+- HD 病人 BMI obesity paradox 表（BMI 25-30 存活最佳）
+- 體重變化三段敘事（PD/HD 轉換、穩定 HD 期、PTX 後 IDH 戰場）
+- 結論：72.5 kg @ CTR 0.4 = 健康設定、IDH 改善後不需再降乾體重
+
+掃描 wiki 確認無「乾體重偏高」殘留 wrong framing。
