@@ -438,3 +438,21 @@ User query：「請仔細看這五個 pages，然後統整出一個新的 wiki�
 更新 index.md（加 master_timeline 條目，🗓 prefix 標識）+ log（本 entry）。
 
 Wiki 規模：5 analyses → **6 analyses**；雙向 cross-link 全面、master 為 hub。
+
+## [2026-05-20] lint | wiki 健康檢查 — 24 頁、3 處 stale claims 修復
+
+掃描 24 頁建立連結圖。健康狀況：
+- ✅ 無 broken link
+- ✅ 無 orphan page
+- ✅ Concept-Concept + Analysis-Analysis 連結全對稱（master_timeline 整合後保持平衡）
+
+修復：3 處 5/19 處置後未更新的 stale claims
+- `analysis_refractory_idh_treatment_plan` 病人摘要：「血液透析 11 年」校正為「透析 11 年（PD 4.5 年 + HD 6.5 年）」
+- `analysis_refractory_idh_treatment_plan` 結論段：「Dipyridamole 若仍在用 → 停藥候選」改為「✅ 已 trial-off 啟動 2026/05/19；7/13 evaluate」
+- `analysis_iatrogenic_factors` 藥單觀察段：「沒有 β-blocker」加註 5/19 狀態更新（Concor 已啟動）
+
+未自動修：
+- Question YAML 中 4 處「48 歲」（歷史 query framing，audit trail 意義）
+- `analysis_prognosis` 中 "HD 11 年"（generic 描述、不影響推論）
+
+教訓：**wiki 動態演化的「副本」效應**——5/19 心臟科處置這種重大變化會影響 wiki 多處，本次 lint 抓到 3 處需要更新。建議**每次重大臨床變化後加做一次 mini-lint**（grep 變化的關鍵字，譬如 "沛暢"、"β-blocker"、"目前用藥"，看看哪些 analysis 受影響）。

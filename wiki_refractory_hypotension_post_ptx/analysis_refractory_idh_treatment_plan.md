@@ -11,7 +11,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 ## 病人摘要
 
-- 48 歲（2026/05 已過生日 → 目前 49 歲）男性，ADPKD + ESRD，血液透析 11 年
+- 48 歲（2026/05 已過生日 → 目前 49 歲）男性，ADPKD + ESRD，透析 11 年（PD 4.5 年 2015-2019/10 + HD 6.5 年 2019/10/22 起）
 - 2023/10 行 subtotal PTX（術前 iPTH > 1300）
 - 目前 iPTH 17.5 pg/mL（過度抑制）
 - 透析前血壓 100-110 mmHg，透析中後段血壓 80-90 mmHg
@@ -142,7 +142,7 @@ tags: [refractory_IDH, parathyroidectomy, iPTH_suppression, adynamic_bone, calci
 
 **本軸與心臟軸、藥物軸的綜整**：
 - [心臟軸（analysis_cad_contribution）](analysis_cad_contribution_to_refractory_idh.md)：核醫 SSS=16 + E/A 0.62 揭露 HFpEF + active progressive CAD → 心臟科再評估、RCA CTO 開通評估、重啟 BB
-- [藥物軸（analysis_iatrogenic_factors）](analysis_iatrogenic_factors_in_refractory_idh.md)：Dipyridamole 若仍在用，腦部 MRI/MRA 陰性後缺乏 indication → 停藥候選
+- [藥物軸（analysis_iatrogenic_factors）](analysis_iatrogenic_factors_in_refractory_idh.md)：✅ Dipyridamole 2026/05/19 已 trial-off 啟動（心臟科處方）；2026/07/13 evaluate 是否永久停 / 升 Aggrenox ER
 
 → 三軸不互相替代，是疊加的改善路徑。本軸 timing 中（數週至數月，需配合活性維生素 D / 擬鈣劑撤除節奏），藥物軸 timing 最快（1-2 週），心臟軸最慢（涉及 PCI 評估）。
 

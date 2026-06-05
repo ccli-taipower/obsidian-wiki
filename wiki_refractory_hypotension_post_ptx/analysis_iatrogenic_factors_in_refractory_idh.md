@@ -28,7 +28,9 @@ tags: [refractory_IDH, medication_review, iatrogenic, dipyridamole, triple_antip
 | Midodrine | Midodrine | α-agonist | 洗前 5 mg + 中段加 5 mg |
 | **佳立鈣錠** | **Calcium carbonate** | **磷結合劑 + 鈣補充** | **500 mg × 2/餐 × 3 餐 = 6 顆/日（1,200 mg elemental Ca/日）** |
 
-未列出但臨床上重要的觀察：**沒有 β-blocker、沒有 ACE/ARB、沒有非鈣型 phosphate binder**。
+未列出但臨床上重要的觀察（撰寫時 2026/05/11 狀態）：**沒有 β-blocker、沒有 ACE/ARB、沒有非鈣型 phosphate binder**。
+
+**🔄 狀態更新（2026/05/19）**：β-blocker 已啟動（Concor 1.25 mg QOD，心臟科處方，T/Th/Sa 早上服用，詳見 §4）；ACE/ARB 與非鈣型 binder 仍未動，留待後續討論。
 
 ### ⚠️ 重要：藥單需要 reconciliation
 
