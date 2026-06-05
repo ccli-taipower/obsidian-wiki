@@ -1,5 +1,13 @@
 # Piano Fingering Wiki Log
 
+## [2026-06-05] pedagogical fingering tradition | new track 起頭 (2 concepts)
+
+開教學傳統指法 track（對齊初中階目標——初中階曲目的「慣例」是教學傳統而非演奏家詮釋）。決議：**不**為「時代/作曲家演奏風格」開第四個 wiki（與「個人化非大眾共識」「不目標 advanced」哲學矛盾；時代差異已由 biomech/phrase/articulation 三 wiki 湧現）。新增：
+- `concept_pedagogical_fingering_tradition.md` — overview：教學 vs 演奏指法、方法書/考級來源、核心原則（**模式一致性 = 同音型同指法的教學論證**）、DP 對應、hypothesis-bank 須過 override 驗證
+- `concept_standard_scale_arpeggio_fingering.md` — 標準音階/琶音指法、thumb-under 3+4、拇指不落黑鍵；對應 `[[concept_long_scale_thumb_under]]`
+
+後續可擴充：考級指法慣例、Burgmüller/Czerny finger-pattern、發展中的手（手大小×span）。
+
 ## [2026-06-05] concept_cross_staff_voice_boundary | 1 new concept
 
 跨譜表聲部邊界 → 指法接力不應跨越聲部。由 SICILIANO Toccatina override 反向歸納（cost-trace 確認低音 f5 接力到高音旋律 = root cause），grounding 在 Huron Avoid-Leaps Rule（[[src_voice_separation]]：大跳 = 聲部切換）+ [[concept_forearm_rotation]]（跨域時手重新定位）。DP 實作 `_is_xstaff_voice_entry` + `XSTAFF_VOICE_LEAP_COST`（finger-independent leap）。驗證：DP 自行產生 3-2-3、PIG GMR byte-identical、Toccatina A5 override 已移除。

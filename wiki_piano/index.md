@@ -59,6 +59,8 @@
 - [Thumb Technique](concept_thumb_technique.md) — 拇指穿越 (thumb under)、Bach 的拇指革新
 - [Finger Substitution](concept_finger_substitution.md) — 換指技巧：連奏延長、管風琴式替換
 - [Chopin Method](concept_chopin_method.md) — Chopin 教學法：自然手位、黑鍵優先、五指五色
+- [⭐ Pedagogical Fingering Tradition](concept_pedagogical_fingering_tradition.md) — 教學傳統指法：方法書/考級慣例、模式一致性（=同音型同指法教學論證）、初中階目標的對應慣例
+- [Standard Scale & Arpeggio Fingering](concept_standard_scale_arpeggio_fingering.md) — 標準音階/琶音指法、thumb-under 3+4 分組、拇指不落黑鍵；對應 long-scale 規則
 - [Minimalist Fingering](concept_minimalist_fingering.md) — Cory Hall 2024，用最少手指+最多拇指穿越
 - [Hand Distribution](concept_hand_distribution.md) — 手部重分配：何時該用、何時不該用
 - [Cross-Staff Voice Boundary](concept_cross_staff_voice_boundary.md) — 跨譜表聲部邊界：指法接力不跨聲部；DP `_is_xstaff_voice_entry` / `XSTAFF_VOICE_LEAP_COST`
