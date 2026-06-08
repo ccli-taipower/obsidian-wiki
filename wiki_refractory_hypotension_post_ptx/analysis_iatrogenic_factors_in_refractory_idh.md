@@ -305,7 +305,9 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 繼續監測即可，特別在飲食 / 藥物變動時複測。
 
-### 7. 🔥 佳立鈣 1,200 mg/日 + 透析液 Ca 3.0 mEq/L —— 二級可調整因子
+### 7. 🥇 佳立鈣 1,200 mg/日 → 換非鈣型 binder —— **anti-vascular-calcification 戰略核心**
+
+> **2026/06 重大 framing 升級**：之前 wiki 把這條列為「二級可調整因子」（次於 dipyridamole trial-off）。在 HD CAD 機轉 paradigm 下（見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)），**這實際上是這位病人 cardiovascular outcome 最重要的單一介入**——直接攻擊 HD CAD 真正 driver（Ca-P 軸 → medial calcification）。LDL ↓ 5-10% 不是「附加 bonus」，是「正確戰場附帶的次要效益」。
 
 實際劑量：**佳立鈣 500 mg × 2 顆/餐 × 3 餐 = 6 顆/日 = 3,000 mg 碳酸鈣 = 約 1,200 mg elemental Ca/日**
 透析液 Ca：**3.0 mEq/L = 1.5 mmol/L**（中等濃度，IDH 保護偏好）
@@ -367,7 +369,7 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 | 因素 | 偏向 |
 |------|------|
-| **LDL 100 偏高、CAD 高風險**（[Q4 議題](analysis_cad_contribution_to_refractory_idh.md)）| ⭐ **腎潔磷**（順便壓 LDL，一石二鳥對應 Q4）|
+| **LDL 100**（HD 病人 acceptable，**不是主要動機**——見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)）| ⭐ 腎潔磷（順便壓 LDL，但首要動機是 Ca-P 軸）|
 | 簡化用藥（一藥解兩問題） | ⭐ Ferric citrate |
 | 缺鐵嚴重需快速補（IV iron 路徑）| Fosrenol 或腎潔磷 + IV iron 路徑彈性最大 |
 | 已登記等待移植 | Ferric citrate / 腎潔磷（避開 lanthanum 長期累積）|
@@ -438,10 +440,13 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 三軸整合框架與優先序見 [analysis_refractory_idh_treatment_plan 結論段](analysis_refractory_idh_treatment_plan.md)。**藥物軸（本篇）建議先試**——成本最低，效果最快。
 
-## 結論（2026/05 修訂 — AVG-protection-aware 版本）
+## 結論（2026/06 修訂 — HD CAD paradigm 整合版）
 
-**✅ 第一級可調整因子已執行 2026/05/19**：Dipyridamole trial-off 啟動 + Concor 1.25 mg QOD（心臟科處方）
-**第二級可調整因子（待行）**：碳酸鈣換成非鈣型 binder（腎潔磷 / ferric citrate / Fosrenol 三選一；對本病例個案推薦腎潔磷因 LDL ↓ bonus 對應 Q4）
+> **2026/06 重大 reframing**：因 HD 病人 CAD 機轉跟一般人不同（[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)），優先序重排——**非鈣型 binder 升級為第一級**（直接攻擊 Ca-P 軸主 driver），dipyridamole 仍重要但 ROI 已重新評估。
+
+**🥇 第一級可調整因子（最高 cardiovascular ROI，待行）**：佳立鈣換**非鈣型 binder**（腎潔磷為首選——Ca-P 軸戰略核心 + 額外 LDL ↓ bonus 微幅）
+**🥈 第二級可調整因子已執行 2026/05/19**：Dipyridamole trial-off 啟動（NTUH 心內）+ Concor 1.25 mg QOD（已 6/4 stop）
+**🥈 第二級可調整因子已執行 ~2026/05**：停 vit D（松禾診所）→ iPTH 17.5 → 28.6 回升中
 
 醫師確認 dipyridamole 用於 AVG 保護（DAC trial indication），但這位病人 AVG 反覆狹窄 + IR 75 mg 不是 DAC trial 的 ER 200 mg formulation → indication 真實但效果可疑。
 
@@ -467,6 +472,7 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 ## 相關頁面
 
 - 🗓 [analysis_master_timeline](analysis_master_timeline.md) — 完整醫療時間軸（用藥沿革段含 PTX 前 vs 目前對照表）
+- 🔥 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) — **HD CAD 機轉跟一般人不同**：sevelamer 升級為戰略核心的理論基礎
 - [analysis_refractory_idh_treatment_plan](analysis_refractory_idh_treatment_plan.md)
 - [analysis_cad_contribution_to_refractory_idh](analysis_cad_contribution_to_refractory_idh.md)
 - [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md) — Dipyridamole trial-off 等本軸介入是改善預後的低成本高效益槓桿

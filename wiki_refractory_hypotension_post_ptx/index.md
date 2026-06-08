@@ -1,6 +1,6 @@
 # Refractory Hypotension Post-Parathyroidectomy Wiki
 
-> Last updated: 2026-05-14 | Sources: 11 | Pages: 20 | Raw: 11 files in `raw/hypocalcemia/`
+> Last updated: 2026-06-05 | Sources: 11 + 4 web refs | Pages: 25 | Raw: 11 files in `raw/hypocalcemia/` + raw/hospitalization/（gitignored, PII）
 
 ## Sources — PTX 與血壓變化
 
@@ -29,6 +29,7 @@
 - [concept_hypocalcemia_cardiac_effects](concept_hypocalcemia_cardiac_effects.md) — 低血鈣對心肌收縮力、揭露潛伏性心衰竭、與血管路徑的臨床區辨
 - [concept_perioperative_calcium_management](concept_perioperative_calcium_management.md) — PTX 圍術期鈣管理：監測、輸注、dialysate Ca、HBS 時序、術前準備
 - [concept_baroreflex_sensitivity_ckd](concept_baroreflex_sensitivity_ckd.md) — CKD 患者 BRS 降低的原因、後果與改善策略
+- 🔥 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) — **HD 病人 CAD 機轉跟一般人不同**：Ca-P 軸主導、LDL 次要、statin 三大 RCT（4D/AURORA/SHARP）失敗、KDIGO 不建議啟動、sevelamer 是戰略核心
 
 ## Analyses
 

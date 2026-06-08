@@ -573,3 +573,37 @@ User follow-up：「CTR 0.4 那這樣乾體重有偏高嗎」——指出我口�
 - 結論：72.5 kg @ CTR 0.4 = 健康設定、IDH 改善後不需再降乾體重
 
 掃描 wiki 確認無「乾體重偏高」殘留 wrong framing。
+
+## [2026-06-05] paradigm-shift | HD 病人 CAD 機轉跟一般人不同 — 全面 reframing
+
+Query：「現在好像有個新的研究：洗腎病患的血管阻塞，大部分是因為鈣化或是鈣磷不平衡導致 → 對洗腎患者來說，降低 ldl 對於減少血管阻塞的效益相對比較小。你要不要查一下有沒有相關的論文？」
+
+→ WebSearch 確認 user 完全正確。三大 RCT（4D 2005 / AURORA 2009 / SHARP 2011 HD subgroup）all negative，KDIGO 2013 不建議 HD 病人啟動 statin。**HD CAD 機轉是 Ca-P-driven medial calcification 為主、LDL-driven atherosclerosis 為次**。
+
+**新增 concept_hd_cad_paradigm.md**（wiki 第 6 個 concept）：
+- HD CAD vs 一般 CAD 機轉對照表
+- 三大 RCT 詳細（4D Wanner / AURORA Fellström / SHARP Baigent）
+- KDIGO 2013 lipid management 完整建議表
+- Sevelamer 升級為「anti-vascular-calcification 戰略核心」（不只是 LDL bonus）
+- 治療優先序全面重排
+- 一般化原則：Ca-P 控制 > LDL 控制
+
+**Q4 LDL framing 全面校正**：
+- 之前：「LDL 100 對 CAD 高風險者偏高、加 Ezetrol 是 Q4 解法」
+- 校正：「LDL 100 在 HD 是 acceptable、加 ezetimibe 在 HD subgroup 缺乏 RCT 支持、Q4 降級」
+- → 5/19 心臟內科門診清單 PDF 雖然 Q4 排第四已是降級，但**現在改為「可問可不問」、不應該列為 must-ask**
+
+**更新（4 個 file）**：
+- `concept_hd_cad_paradigm.md`（新增）
+- `analysis_cad_contribution`：剩餘可動段第 6 點 binder 升級為「anti-vascular-calcification 戰略核心」+ 新增第 7 點「LDL 不需嚴控」+ 相關頁面加 cross-link
+- `analysis_iatrogenic_factors §7`：標題從「🔥 二級可調整因子」升為「🥇 anti-vascular-calcification 戰略核心」+ decision-factor 表 LDL 行降級+ 結論段優先序重排（binder 升 #1、dipyridamole 降 #2）+ 相關頁面加 cross-link
+- `analysis_master_timeline`：lab 表加 LDL 100 = HD acceptable 註記 + cross-link concept_hd_cad_paradigm
+- `index.md`：concepts 段加 concept_hd_cad_paradigm（🔥 prefix）+ header update（20 → 25 pages）
+
+**教訓（meta）**：
+- Wiki 之前過度套用一般 CAD framework 到 HD 病人——這是 paradigm 應用錯誤
+- User 的提問揭露了 wiki 整體未整合的 paradigm shift（KDIGO 2013 已有 13 年，wiki 卻未充分內化）
+- 應該定期 audit「wiki 是否套用了不適合 HD 的一般科 framework」
+- WebSearch 證實 user 的直覺、補強了 wiki 的證據基礎
+
+Wiki 規模：5 analyses + 6 concepts + 11 src + master + hospitalization timeline = 25 頁。

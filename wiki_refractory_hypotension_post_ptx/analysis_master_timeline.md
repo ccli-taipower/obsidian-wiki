@@ -132,6 +132,7 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | **鐵** | **TSAT**（算）| — | **7.0%**（20/287）| 🔥 **明顯缺鐵**（target > 20%）|
 | 血脂 | Cholesterol total | — | 148 | — |
 | 血脂 | **Triglyceride** | (未測) | **222** | ⚠️ 偏高（target < 150）|
+| 血脂 | **LDL**（4/9）| **100** | (未測) | **HD 病人 acceptable**（[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)：HD 不適用一般 CAD <70 目標）|
 | 副甲狀腺 | **iPTH** | 17.5（2025/12）| **28.6** | 🔥 **+63% 朝目標移動** |
 | 免疫 | **FlowPRA Class I**（2026/03）| 44%（MFI 563）| (未追蹤) | 中度致敏 ⚠️ |
 | 免疫 | FlowPRA Class II | 11%（MFI 355）| (未追蹤) | 輕度 |
