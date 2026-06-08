@@ -62,11 +62,11 @@ tags: [hospitalization_timeline, ADPKD, TAE, renal_embolization, LCX_stent, PTX,
 | **2019/10/15 (TAE 前)** | MRI | **3,407 mL** | 未拆分（推估 ~1,700/邊）| **11× normal** | IV |
 | 2019/10/17 | — | 右腎 TAE | | | |
 | 2019/12/05 | — | 左腎 TAE | | | |
-| 2025/12 | MRI | 1,048 mL | 未拆分 | 3.5× normal | IV |
-| **🔥 2025/12/16** | **CT 無造影劑（NTUH）** | **1,030 mL** | **R 427.7 + L 602.3**（左大於右 174.6 mL / 41%）| **R 2.9× + L 4.0×** | IV |
+| 2025/12 | **MRI**（個人醫療摘要 p.6）| 1,048 mL | 未拆分 | 3.5× normal | IV |
+| **🔥 2026/06/04** | **CT 無造影劑（NTUH，腹部+骨盆腔同日）** | **1,030 mL** | **R 427.7 + L 602.3**（左大於右 174.6 mL / 41%）| **R 2.9× + L 4.0×** | IV |
 | **變化** | — | **−2,377 mL（−69.8%）** | — | 11× → ~3.4× | TAE 效果 |
 
-**CT vs MRI 比對（2025/12 兩個 modality）**：TKV 合計差 18 mL（< 2%）→ 屬於 imaging modality 間的合理誤差。CT 結論寫 **"TKV 1030 mL stable"**——TKV 短期內無進展。
+**TKV 6 個月趨勢（MRI 12/2025 → CT 6/2026）**：1,048 → 1,030 mL（−18 mL / −1.7%）。差異 < 2% 在 modality 間屬於合理誤差範圍，**但兩個獨立 modality + 半年間隔取得近似結果，是 TKV 真的 stable 的強證據**（不只是測量噪訊）。CT 結論直接寫 **"TKV 1030 mL stable"**。
 
 **左右拆分的意義（CT 首次提供）**：
 - 右腎 427.7 mL 比左腎 602.3 mL 小 **174.6 mL（41%）**
@@ -95,7 +95,7 @@ tags: [hospitalization_timeline, ADPKD, TAE, renal_embolization, LCX_stent, PTX,
 2. **ADPKD 通常雙側對稱進展**——分開測對治療決策意義有限
 3. **TKV 是 ADPKD 進展速度的標準指標**（Mayo Clinic Imaging Classification、CRISP trial 都用合計 TKV）
 
-→ MRI 通常只給合計 TKV；**CT 有時會拆分**（取決於 radiologist），譬如 2025/12/16 NTUH CT 就明確寫出 R 427.7 + L 602.3 = 1,030 mL。這對移植術前評估有幫助——術前可能就不再需要額外做 volumetry。
+→ MRI 通常只給合計 TKV；**CT 有時會拆分**（取決於 radiologist），譬如 2026/06/04 NTUH CT 就明確寫出 R 427.7 + L 602.3 = 1,030 mL。這對移植術前評估有幫助——術前可能就不再需要額外做 volumetry。
 
 ### 為什麼做 TAE
 ADPKD 患者 TAE 有雙重目的：
