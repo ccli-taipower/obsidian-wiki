@@ -196,7 +196,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
   - 這代表補鐵效果會比一般透析病人更好（自產 EPO + 鐵充足 → Hb 可升至 13-14）
   - 不需外打 EPO，光補鐵就可能拉上去
   - 不再輸血 = FlowPRA（PRA 44%）不會繼續升高 → 保護移植機會
-- **介入**：佳立鈣換**非鈣型 binder**（腎潔磷 / ferric citrate / Fosrenol）+ 鐵補充。**腎潔磷是 anti-vascular-calcification 戰略核心**（不只是「LDL bonus」），詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) 與 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
+- **介入**：佳立鈣換**非鈣型 binder**——**個案首選 ferric citrate（鐵爾思 / Auryxia）**：6/4 lab 證實缺鐵（TSAT 7%、Ferritin 35.3）+ 一藥兩用解 Ca-P 軸 + 缺鐵 + 移植 PRA 保護。Sevelamer / Fosrenol 為次選。**所有非鈣型 binder 都是 anti-vascular-calcification 戰略核心**（不只是「LDL bonus」），詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) 與 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 - 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升 + 減少未來輸血需求
 
 ### B. 高血鉀（K 6.0，上升趨勢）
@@ -263,7 +263,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 3. **可能最高槓桿的單一新介入：RCA CTO 開通評估**（為心臟 + 為移植，IDH 為次要 outcome）
 4. **重啟 BB 在 HFpEF + active ischemia 框架下證據強**，但需從 cardioselective 低劑量開始
 5. 補上 K、anemia、AVG access 的非心臟修飾因子，整體 cardiac stress 才會降低
-6. **佳立鈣換非鈣型 binder**（**🥇 anti-vascular-calcification 戰略核心**）—— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方。**這是 HD CAD 真正 driver 的直接介入**（見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)）；sevelamer/腎潔磷有額外 LDL ↓ 5-10% 微幅 bonus，但**首要動機是 Ca-P axis 而非 LDL**。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
+6. **佳立鈣換非鈣型 binder**（**🥇 anti-vascular-calcification 戰略核心**）—— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方。**這是 HD CAD 真正 driver 的直接介入**（見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)）。**個案首選 ferric citrate（鐵爾思 / Auryxia）**：6/4 lab 證實 TSAT 7% 缺鐵 → 一藥兩用是最匹配選擇；sevelamer 為次選（LDL bonus 在 HD 不重要）。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 
 7. **❌ LDL 100 不需要嚴控**——HD 病人 CAD 機轉跟一般人不同（Ca-P 軸主導、LDL 次要），4D/AURORA/SHARP 三大 RCT 證明 statin 在 HD 無 mortality benefit。KDIGO 2013 不建議 HD 病人**啟動或加強** statin/ezetimibe。**Q4「加 Ezetrol」議題降級**——不是「必做」是「可問可不問」。詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)
 

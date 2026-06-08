@@ -607,3 +607,33 @@ Query：「現在好像有個新的研究：洗腎病患的血管阻塞，大部
 - WebSearch 證實 user 的直覺、補強了 wiki 的證據基礎
 
 Wiki 規模：5 analyses + 6 concepts + 11 src + master + hospitalization timeline = 25 頁。
+
+## [2026-06-05] correction | Binder 個案推薦 sevelamer → **ferric citrate**（鐵爾思）
+
+User query：「sevelamer 是你說的含鐵的磷吸收劑嗎」
+
+→ 揭露我前一輪 commit 推薦不一致：把 sevelamer 標為「戰略核心」首選、但 sevelamer **不含鐵**；含鐵的是 ferric citrate。
+
+**雙重校正同時發生：**
+1. 6/4 lab 確認缺鐵（TSAT 7.0%、Ferritin 35.3、Hb 11.2 ↓）→ 鐵補充從「建議」升為「必做」
+2. HD CAD paradigm 確認 LDL bonus 不再是 priority → sevelamer 的優勢弱化
+
+→ **rebalance 應該偏向 ferric citrate**：
+- 直接攻擊 Ca-P 軸（HD CAD 主 driver）── sevelamer/ferric/lanthanum 三者等同
+- 同時補腸吸收鐵 ── 直接解決 6/4 lab 缺鐵問題（一藥兩用）
+- 減少未來輸血需求 → 保護 PRA 44% 不再升高 → 保護移植機會
+- 簡化用藥（一顆 vs 兩顆）
+
+**更新 3 個 file：**
+- `concept_hd_cad_paradigm`：sevelamer 特殊位置段改為「非鈣型 binder 的特殊位置」（三者皆核心）+ 補上個案 decision-factor 表（強推 ferric citrate）+ 治療優先序表的 binder 推薦修正
+- `analysis_iatrogenic_factors §7`：decision-factor 對照表全面 rebalance（缺鐵升為強 factor、LDL 弱化）+ 個案推薦從 sevelamer 改為 ferric citrate + 結論首選同步改
+- `analysis_cad_contribution`：剩餘可動段第 6 點 binder 推薦補上 ferric citrate 為個案首選
+
+**教訓**：
+- 推薦不一致是因為 paradigm shift 中（HD CAD 框架升級時）只改了「升級理由」沒重新評估「個案首選」
+- User 一個簡單事實問題（含鐵嗎）揭露了這個 inconsistency
+- 維護 wiki 時：**每次有新 lab/paradigm 變動 → 重新跑 decision-factor 對照表**，不要假設前一輪結論還對
+
+**校正前 vs 校正後**：
+- 校正前：sevelamer 首選（LDL bonus，但忽略 user 6/4 缺鐵已明確）
+- 校正後：**ferric citrate 首選**（同時解 Ca-P + 缺鐵 + 移植 PRA + 簡化用藥；sevelamer 為次選）

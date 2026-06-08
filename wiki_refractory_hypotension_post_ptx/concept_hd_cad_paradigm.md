@@ -53,26 +53,42 @@ tags: [HD, ESRD, CAD, vascular_calcification, calcium_phosphate_axis, lipid_para
 | 加回 Ezetrol 10 mg QD（必做）| **沒有強 evidence base**——可以加但不是優先序 |
 | Q4 LDL 是門診四大必問之一 | **Q4 LDL 應該降級**——讓位給 Ca-P 軸議題 |
 
-## Sevelamer / 腎潔磷在新 framework 下的特殊位置
+## 非鈣型 binder 在新 framework 下的特殊位置
 
-之前 wiki [§7 binder 討論](analysis_iatrogenic_factors_in_refractory_idh.md) 把 sevelamer 的 **LDL ↓ 5-10%** 列為「附加 bonus」。**這個 framing 不夠強**。
+之前 wiki [§7 binder 討論](analysis_iatrogenic_factors_in_refractory_idh.md) 把 binder 換藥的 **LDL ↓ 5-10%** 列為「附加 bonus」。**這個 framing 不夠強**。
 
-在 HD CAD paradigm 下，sevelamer 的四重作用都對應 HD 血管病變的核心 driver：
+在 HD CAD paradigm 下，**所有非鈣型 binder**（sevelamer / ferric citrate / lanthanum）都是 anti-vascular-calcification 戰略核心——三者都做了核心事：
 
-| Sevelamer 作用 | 對 HD CAD pathology 影響 |
+| 三者共有作用 | 對 HD CAD pathology 影響 |
 |--------------|----------------------|
 | 結合腸道磷 → 降血磷 | ✅ **直接攻擊 Ca-P axis 主 driver**（磷潴留是 medial calcification 的核心推動）|
 | 不含鈣 → 移除 Ca load（每日 -1,200 mg elemental Ca）| ✅ **同上**（鈣 + 磷雙因子鈣化推動皆減）|
-| 結合膽鹽 → LDL ↓ 5-10% | ✅ 微幅但有用（secondary axis）|
-| 抗發炎效益 | ✅ 減 vascular calcification 推進的 inflammatory milieu |
 
-→ **Sevelamer 不是「磷結合劑加 LDL bonus」，是「anti-vascular-calcification 戰略核心」**。對你個案，把佳立鈣換成 sevelamer 是**直接攻擊 HD CAD 真正 driver** 的單一最有力介入。
+差別在於**附加效益**——應該依個案 lab + 共病選擇：
+
+| 選項 | 附加效益 | 適合誰 |
+|------|---------|------|
+| **Ferric citrate（鐵爾思 / Auryxia）** | **內建鐵補充**（~1% 吸收為元素鐵）| **缺鐵性貧血**（TSAT < 20% / Ferritin < 100）的個案 |
+| **Sevelamer（腎潔磷 / Renvela）** | LDL ↓ 5-10%（結合膽鹽）+ 抗發炎 | 鐵儲備 OK、想壓 LDL 的個案；**HD 病人 LDL 不再是 priority、此 bonus 弱化** |
+| **Lanthanum carbonate（福斯耐爾 / Fosrenol）** | 磷結合力最強 | 嚴重高磷、其他 binder 控制不佳；長期累積疑慮 |
+
+### 對個案的推薦（依 2026/06/04 lab + 共病）
+
+| 因素 | 偏向 | 強度 |
+|------|------|------|
+| **TSAT 7%、Ferritin 35（明確缺鐵）** | ⭐ **Ferric citrate**（一藥兩用、不用另打 IV iron）| 強 |
+| HD CAD 機轉（Ca-P 軸主導）| 三者等同 | — |
+| LDL 100 嚴控 ROI | 之前偏 sevelamer、**現在不重要** | 弱化 |
+| 簡化用藥 | ⭐ Ferric citrate（一顆 vs 兩顆）| 中 |
+| 移植 outlook（PRA 44%、避免輸血）| ⭐ Ferric citrate（補鐵改善 Hb 減少輸血需求 → 保護 PRA）| 中 |
+
+→ **本個案首選改為 Ferric citrate**（不再是 sevelamer）。Sevelamer 仍是有效備選（若 ferric citrate 不耐受 GI / 健保不給付）。
 
 ## 治療優先序的全面重排
 
 | 介入 | 對 HD vascular outcome 的 ROI | 為什麼 |
 |------|----------------------------|------|
-| 🥇 **處理 Ca-P 軸**（佳立鈣 → sevelamer 或 ferric citrate） | **🔥 最高** | 直接攻擊 HD CAD 主要 driver |
+| 🥇 **處理 Ca-P 軸**（佳立鈣 → **ferric citrate**，缺鐵時首選；sevelamer / lanthanum 為次選）| **🔥 最高** | 直接攻擊 HD CAD 主要 driver |
 | 🥇 **iPTH 控制**（目前正在執行，停 vit D 後 17.5 → 28.6 回升中）| 高 | 同樣攻擊 Ca-P 軸 |
 | 🥈 RCA CTO 開通評估（2026/07/29 重複核醫定奪）| 高 | 直接處理已存在的 atherosclerotic 阻塞 |
 | 🥈 補鐵 / 換 ferric citrate | 中-高 | 改善 Hb + 減 Ca load 雙效 |

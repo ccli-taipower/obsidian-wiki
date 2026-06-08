@@ -365,18 +365,25 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 附註：病人目前不用 EPO 也不輸血（ADPKD 囊腫壁細胞仍分泌 EPO，Hb 12.3 自維持）。自產 EPO + 補鐵 → Hb 預期可升至 13-14，不需額外 EPO。
 
-### 對這位病人的 decision-factor 對照
+### 對這位病人的 decision-factor 對照（2026/06 校正版）
 
-| 因素 | 偏向 |
-|------|------|
-| **LDL 100**（HD 病人 acceptable，**不是主要動機**——見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)）| ⭐ 腎潔磷（順便壓 LDL，但首要動機是 Ca-P 軸）|
-| 簡化用藥（一藥解兩問題） | ⭐ Ferric citrate |
-| 缺鐵嚴重需快速補（IV iron 路徑）| Fosrenol 或腎潔磷 + IV iron 路徑彈性最大 |
-| 已登記等待移植 | Ferric citrate / 腎潔磷（避開 lanthanum 長期累積）|
-| 正常上班、希望少藥丸 | Ferric citrate |
-| 對 GI 副作用敏感 | 視個人經驗，三者各有副作用 profile |
+| 因素 | 偏向 | 強度 |
+|------|------|------|
+| **🔥 TSAT 7%、Ferritin 35（明確缺鐵）**| ⭐ **Ferric citrate**（一藥兩用、不用 IV iron / 口服鐵）| **強** |
+| LDL 100（HD 病人 acceptable，[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)）| 之前偏 sevelamer、**現在不重要** | 弱化 |
+| HD CAD 機轉（Ca-P 軸主導）| 三者等同 | — |
+| 簡化用藥（一藥解兩問題）| ⭐ Ferric citrate（一顆 vs 兩顆）| 中 |
+| 已登記等待移植 + PRA 44% | ⭐ Ferric citrate（補鐵改善 Hb 減少輸血需求 → 保護 PRA 不再升高）| 中 |
+| 正常上班、希望少藥丸 | ⭐ Ferric citrate | 中 |
+| 對 GI 副作用敏感 | 視個人經驗，三者各有副作用 profile | — |
 
-→ **個案推薦：腎潔磷 + 口服鐵**（LDL bonus 對應 CAD 心臟科議題、無 lanthanum 累積疑慮）。Ferric citrate 為次選（簡化但無 LDL bonus）。
+→ **個案推薦（2026/06 校正）：Ferric citrate（鐵爾思 / Auryxia）**——理由：
+1. 6/4 lab 證實缺鐵（**TSAT 7.0%、Ferritin 35.3、Hb 11.2 ↓**）→ 內建鐵補充直接解決
+2. HD CAD paradigm（[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)）下 LDL bonus 重要性下降 → sevelamer 的優勢弱化
+3. 一藥兩用、不用另打 IV iron / 另吃口服鐵
+4. 減少未來輸血需求 → 保護 PRA 44% 不再升高 → 保護移植機會
+
+Sevelamer 為**次選**（若 ferric citrate GI 不耐受或健保受限）；Fosrenol 為**第三選**（lanthanum 累積疑慮）。
 
 ### 腎潔磷 750 mg 等效劑量換算
 
@@ -444,7 +451,7 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 > **2026/06 重大 reframing**：因 HD 病人 CAD 機轉跟一般人不同（[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)），優先序重排——**非鈣型 binder 升級為第一級**（直接攻擊 Ca-P 軸主 driver），dipyridamole 仍重要但 ROI 已重新評估。
 
-**🥇 第一級可調整因子（最高 cardiovascular ROI，待行）**：佳立鈣換**非鈣型 binder**（腎潔磷為首選——Ca-P 軸戰略核心 + 額外 LDL ↓ bonus 微幅）
+**🥇 第一級可調整因子（最高 cardiovascular ROI，待行）**：佳立鈣換**非鈣型 binder**（**ferric citrate 為首選**——同時攻擊 Ca-P 軸主 driver + 補腸吸收鐵解決 TSAT 7% 缺鐵；sevelamer / lanthanum 為次選）
 **🥈 第二級可調整因子已執行 2026/05/19**：Dipyridamole trial-off 啟動（NTUH 心內）+ Concor 1.25 mg QOD（已 6/4 stop）
 **🥈 第二級可調整因子已執行 ~2026/05**：停 vit D（松禾診所）→ iPTH 17.5 → 28.6 回升中
 
