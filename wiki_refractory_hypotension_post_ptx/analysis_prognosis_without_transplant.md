@@ -205,6 +205,70 @@ TKV 1,030 mL 是邊緣值
 
 → 你目前沒有任何「需要反向」的指標。
 
+#### 🩸 足部血管 nuance：左 CFA stenosis 為何**強化**右側選擇（第 7 個因子）
+
+當「左 CFA moderate stenosis」加入考量時，**右側移植不只是 default，而是 reinforced**。原因要從 graft inflow + steal phenomenon 雙重 trade-off 看。
+
+**核心解剖事實**：移植腎接合在 external iliac artery，跟同側的腳**共用同一條主幹**。
+
+```
+主動脈 → 共同髂動脈 → 外髂動脈 ── 接合 ──→ 移植腎
+                       ↓
+                       股動脈（CFA → SFA → 膕 → 脛 → 足）
+                       ↓
+                       腳
+
+→ 流到移植腎的血會「分走」原本要去腳的血（steal phenomenon）
+```
+
+**兩個 trade-off 同時要考慮**：
+
+| Trade-off | 接右側 | 接左側 |
+|----------|------|------|
+| **Graft inflow 品質** | ✅ Right CFA 無 stenosis → 充足 inflow → graft 即時 perfusion 好、survival 高 | ⚠️ Left CFA moderate stenosis → inflow 邊緣 → graft 急性 thrombosis 風險高、長期功能差 |
+| **Steal 對同側腳的影響** | 右腳 baseline 好（reserve 夠）→ steal 後仍 adequate | 左腳 baseline 已 borderline + steal → **可能推到 critical limb ischemia** |
+| 整體風險 | 🟢 低（兩面都可控）| 🔴 高（graft + 腳雙重風險）|
+
+→ **左 CFA stenosis 直接 disqualify「接左側」這個選項**。不是「左 stenosis 所以接左、避開好的右」——反而是「左 stenosis 所以**絕對不能接左**」。
+
+**反向思考的 counterargument 為什麼錯**
+
+可能有人想：「右側血管好、保留給未來（譬如二次移植）」。這個邏輯 **不成立**：
+
+| 反對「保留好的給未來」的理由 | 解釋 |
+|------------------------|------|
+| 第一次成功率優先於第二次保險 | 第一次失敗才考慮第二次；首選最大化第一次成功 |
+| 「保留」沒有生物意義 | 血管不會因為「沒用」而保持年輕；移植 10 年後右側可能也老化 |
+| Graft 放較差側 = 自找麻煩 | 急性 thrombosis 風險高，可能直接 lose graft |
+| 二次移植本來就常規放對側 | 不需要「保留」、自然分配 |
+
+→ **「現在用最好的，第二次再用次好的」**才是正確策略。
+
+**個案 7 factor fit（含足部血管 nuance）**
+
+| # | 因子 | 標準需要 | 你的狀況 | Fit |
+|---|------|--------|---------|-----|
+| 1-5 | 一般解剖原因 | 詳見上方 6-factor 表 | 全 ✅ | ✅ |
+| 6 | 同側原生腎較小 | 越小越好 | 右 427.7 < 左 602.3 mL | ⭐⭐⭐ |
+| **7 (新)** | **對側 CFA stenosis 是反向 push factor** | 若一側 CFA stenosis、強化另一側選擇 | **左 CFA moderate < 50%** | **⭐⭐ 進一步強化右側偏好** |
+
+**術後監測重點（放右側後）**
+
+| 監測 | 為什麼 |
+|------|------|
+| 右腳脈搏 / 顏色 / 溫度 | Steal phenomenon 是否臨床 manifest |
+| 走路 claudication 新出現 | Right SFA/popliteal flow 被影響 |
+| 任何足部破口癒合速度 | 灌流仍 adequate? |
+| 6 個月後 ABI baseline | 量化追蹤 |
+
+→ 若術後右腳新症狀，可考慮**右側血管支架介入** rescue（不影響移植腎）。
+
+**對話框架（更新版，給移植團隊用）**
+
+> 「我 6/4 CT 顯示**右腎 427.7 mL < 左腎 602.3 mL**、5/19 下肢超音波顯示**左 CFA moderate stenosis 但右側 OK**。
+>
+> 把兩個一起看：**右側 inflow 好 + 右側原生腎較小 + 左 CFA stenosis 反而 disqualify 接左側**——三個因子都 push 右髂窩移植。能不能就此推進 cardiac clearance + active waitlist 排程？」
+
 #### 🦶 足部血管狀態 — 已知 OK 但 documentation 不完整
 
 **已知資料**：5/19 下肢動脈超音波 + 6/4 腹部 CT 共同 imply

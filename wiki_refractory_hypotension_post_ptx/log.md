@@ -774,3 +774,37 @@ User query：「那腳部血管的狀況呢」——指出 wiki 沒專門整理�
    - 原 #5「最重要的單一行動」改為 #6
 
 教訓：HD 11 年 + 廣泛血管鈣化的病人，**足部風險常被忽略**——一般科 follow-up 不會主動評估遠端 perfusion。**主動把 self-monitoring 寫進 wiki = 把醫療系統的 blind spot 變成病人自己的常規流程**。
+
+## [2026-06-08] update | 足部血管 nuance：左 CFA stenosis 為何強化右側移植選擇
+
+User query：「那我的意思是如果考慮足部血管狀態，移植要放在右邊還是左邊？」
+
+更精細的問題：是不是左 CFA 有 stenosis 反而是「放左側」（用較差的、保留好的）的理由？
+
+**答：不是。左 CFA stenosis 反而 disqualify 左側、強化右側選擇**。
+
+**核心 framing**：移植腎接合 external iliac、跟同側腳共用主幹動脈 → 兩個 trade-off 要同時考慮：
+1. Graft inflow 品質：好 inflow → graft 即時好；差 inflow → 急性 thrombosis 風險高
+2. Steal phenomenon 對同側腳：低 resistance 移植腎「偷」遠端血流 → 腳灌流可能減
+
+**右側 vs 左側比較**：
+- 右：✅ 無 stenosis → graft inflow 好；右腳 baseline 好 → steal 可承受
+- 左：⚠️ Moderate stenosis → graft inflow 邊緣；左腳 baseline 已 borderline → steal 可能推到 critical limb ischemia
+- → 接左側雙重風險（graft 急性 thrombosis + 左腳缺血）
+
+**反向 counterargument「保留好的給未來」為什麼錯**：
+- 第一次成功率優先於第二次保險
+- 「保留」沒有生物意義（血管不會因「沒用」保持年輕）
+- Graft 放較差側 = 自找麻煩
+- 二次移植本來就常規放對側、不需保留
+
+**新增 sub-section 於 `analysis_prognosis_without_transplant` 解剖障礙段**：
+- 標題「🩸 足部血管 nuance：左 CFA stenosis 為何強化右側選擇（第 7 個因子）」
+- 核心解剖事實 + ascii 圖
+- 兩個 trade-off 對照表
+- 反向 counterargument 4 個反駁
+- 個案 7 factor fit（含新增第 7 因子）
+- 術後監測重點 4 項
+- 對話框架更新版（含足部血管 nuance）
+
+教訓：「正確的論證」不只是 default 規則，還要能**對 push-back 給出 evidence-based 反駁**。User 一個 sophisticated 的反向思考問題，揭露了 wiki 之前的 6-factor framing **缺乏對「為什麼不接左」的明確論證**——只說「右側 favorable」沒明確說「左側 reinforced disqualified」。
