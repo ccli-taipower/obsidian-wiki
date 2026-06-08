@@ -405,6 +405,62 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 Sevelamer 為**次選**（若 ferric citrate GI 不耐受或健保受限）；Fosrenol 為**第三選**（lanthanum 累積疑慮）。
 
+### 🎯 Plan A / Plan B 決策框架（fallback 思維）
+
+對 binder 換藥這種「結果要等 1-3 個月才見分曉」的介入，預先設好 Plan B 比硬卡 Plan A 更務實。
+
+#### Plan A（首選試 1-3 個月）：Ferric citrate（鐵爾思）
+
+| 設定 | 內容 |
+|------|------|
+| 起步 | 1 顆/餐 × 3 餐 = 3 顆/日（漸進取代佳立鈣）|
+| 滴定 | 視 P 控制效果調整至全劑量 |
+| 監測 | P / Ca / Hb / Ferritin / TSAT 每月 1 次 |
+| 預期效果 | 1-3 個月：P < 5.5、Hb 從 11.2 上升、TSAT > 20% |
+
+#### Plan A 評估點（1-3 個月後）
+
+| Plan A 結果 | 處置 |
+|-----------|------|
+| ✅ P < 5.5 + Hb 上升至 12.5+ + TSAT > 20% | **繼續 Plan A**——目標達成 |
+| ⚠️ Hb 上升慢（< 12.0）但 P 控制 OK | **加 IV iron** 加速貧血補正（不換 binder）|
+| ⚠️ P 仍 > 5.5 + 鐵儲備改善 | **切到 Plan B**（Fosrenol 更強 P 結合力）|
+| ❌ P 仍 > 5.5 + Hb 沒上升 + 出現嚴重 GI 副作用 | **切到 Plan B** |
+
+#### Plan B（fallback）：Fosrenol + IV iron sucrose
+
+| 設定 | 內容 |
+|------|------|
+| Binder | Fosrenol 750 mg 嚼碎/餐 × 3 餐（依 P 滴定）|
+| Iron | IV iron sucrose (Venofer) 100 mg × 5-10 次（透析時打）|
+| 監測 | 同 Plan A，IV iron 過程加測 ferritin（避免過量）|
+| 預期效果 | P 結合力更強（lanthanum）+ Hb 補正更快（IV iron）|
+
+#### 為什麼預設 Plan B 而非 sevelamer
+
+Sevelamer 也是 valid 選項，但在「Plan A 失敗」的情境下，**通常代表 Plan A 沒解到的問題是 P 結合力或鐵補正速度**——這兩件事 sevelamer 都沒有相對 Plan A 的優勢。**Fosrenol + IV iron 的「強度組合」才是真正的 fallback**。Sevelamer 保留為「ferric citrate 與 Fosrenol 都不耐受」的更後備選項。
+
+#### Plan A → Plan B 切換的 early triggers
+
+不一定要等滿 3 個月才切換。出現以下任一情況可提早切：
+
+- P > 6.0 連續 2 個月（vascular calcification 推進風險高）
+- Hb < 10.5（積極補鐵指標）
+- Ferric citrate 嚴重 GI 不耐受（黑便伴隨腹痛 / 嚴重便秘 / 噁心）
+- 7/29 重複核醫前希望 Hb 快速改善（為 cardiac performance 鋪墊）
+
+#### 對話框架（給門診用）
+
+> 「我了解 ferric citrate 對我有一藥兩用 + 保 PRA 的優勢；但我 6/4 lab P 從 4.6 升到 5.6（接近上限），而且 TSAT 只有 7% 很嚴重。
+>
+> **能不能先試 ferric citrate**（Plan A）？追蹤 1-3 個月看 P 跟 Hb：
+> - 如果 P 控制住、Hb 開始上升 → 繼續 Plan A
+> - 如果 P 仍 > 5.5 或 Hb 補得太慢 → **切到 Fosrenol + IV iron**（Plan B）
+>
+> 醫師判斷上有什麼考量嗎？」
+
+→ 把單藥決策變成「**有 fallback 的試藥計畫**」，醫師通常更容易接受。
+
 ### 腎潔磷 750 mg 等效劑量換算
 
 依現有 binder 結合力推算：

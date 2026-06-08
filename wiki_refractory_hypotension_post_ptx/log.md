@@ -659,3 +659,22 @@ User 的誤會是**外部來源**（不是 wiki 寫錯）——grep 確認 wiki 
 - 把基本事實放在最前面（分類速查表）比假設讀者能整合多處描述安全
 - User 的誤會也是個 reminder——名稱接近（sevelamer 聽起來像 "Ca-vel-amer"？）會造成混淆
 - 未來新增 / 修訂 wiki 時，**對核心名詞要有「速查表」級的 entry point**，不要假設讀者讀完上下文就懂
+
+## [2026-06-05] add | Plan A / Plan B binder 決策框架（fallback 思維）
+
+User query：「如果採取 Fosrenol + 補鐵呢？」
+
+→ 攤開兩個策略對照：
+- Ferric citrate（一藥兩用、整合）vs Fosrenol + IV iron（強度組合）
+- 兩者各有 valid 場景
+
+新增「🎯 Plan A / Plan B 決策框架」於 `analysis_iatrogenic_factors §7`，內容：
+- **Plan A**：Ferric citrate 試 1-3 個月（起步 1 顆/餐 × 3 + 漸進取代佳立鈣）
+- **Plan A 評估點**：四個結果分流表（達標繼續 / 加 IV iron / 切 Plan B / 切 Plan B）
+- **Plan B**：Fosrenol 750mg 嚼碎/餐 + IV iron sucrose 100mg × 5-10 次
+- **Early triggers**：P > 6.0 連 2 月 / Hb < 10.5 / 嚴重 GI 不耐 / 7/29 核醫前想 Hb 快速改善
+- **對話框架**給門診用（有 fallback 的試藥計畫醫師更易接受）
+
+說明「為什麼預設 Plan B 而非 sevelamer」：Plan A 失敗通常代表沒解的問題是 P 結合力或 Hb 補正速度——這兩件事 Fosrenol + IV iron 都有比 sevelamer 更強的論點。Sevelamer 保留為「兩者都不耐受」的更後備。
+
+教訓：對「結果要等 1-3 個月才見分曉」的介入，**預先設好 Plan B 比硬卡 Plan A 更務實**。把單藥決策變成「有 fallback 的試藥計畫」對病人與醫師都更友善。
