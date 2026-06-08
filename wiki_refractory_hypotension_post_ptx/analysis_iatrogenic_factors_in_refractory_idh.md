@@ -309,6 +309,26 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 > **2026/06 重大 framing 升級**：之前 wiki 把這條列為「二級可調整因子」（次於 dipyridamole trial-off）。在 HD CAD 機轉 paradigm 下（見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)），**這實際上是這位病人 cardiovascular outcome 最重要的單一介入**——直接攻擊 HD CAD 真正 driver（Ca-P 軸 → medial calcification）。LDL ↓ 5-10% 不是「附加 bonus」，是「正確戰場附帶的次要效益」。
 
+#### 📋 Binder 分類速查表（先把名字跟結構對齊）
+
+| 大類 | 子類 | 代表藥（台灣商品名）| 對血管鈣化 | 額外效益 |
+|------|------|------------------|---------|---------|
+| **🚫 鈣型** | Carbonate | **佳立鈣**（**你目前在用，1,200 mg elemental Ca/日**）| ⚠️ **加重**（鈣負擔加血管鈣化）| — |
+| 🚫 鈣型 | Acetate | 鈣易善 / 鈣鎂寧 / PhosLo | ⚠️ 加重（鈣含量略低於 carbonate）| — |
+| ✅ 非鈣型 | **Polymer（聚合物，不含任何金屬）**| **腎潔磷 / Sevelamer / Renvela** | ✅ **減緩**（RCT 證實 vs Ca-based）| LDL ↓ 5-10%、抗發炎 |
+| ✅ 非鈣型 | 鐵基金屬 | **鐵爾思 / Ferric citrate / Auryxia** | ✅ **減緩** | **補腸吸收鐵**（~1%）|
+| ✅ 非鈣型 | 稀土金屬 | 福斯耐爾 / Lanthanum carbonate / Fosrenol | ✅ 減緩 | 磷結合力最強；但長期累積疑慮 |
+
+**Sevelamer 結構提醒**：是合成的人工聚合物（poly(allylamine) 交聯樹脂），**完全不含鈣、鋁、鐵、鑭、任何金屬**。它就是當初被設計來**取代鈣型 binder** 的解方，正是要解決鈣加重血管鈣化的問題。
+
+**RCT 證據（sevelamer vs 鈣型 binder）**：
+- **Treat-to-Goal**（Chertow et al., Kidney Int 2002）：Sevelamer 組冠脈鈣化進展顯著少
+- **RIND Trial**（Block et al., Kidney Int 2005）：Sevelamer 減緩 coronary calcification 進展 vs CaCO3
+- **DCOR Trial**（Suki et al., Kidney Int 2007）：Sevelamer 組整體死亡率較低（≥ 65 歲族群明顯）
+- **INDEPENDENT-CKD**（Di Iorio et al., 2013）：Sevelamer 組死亡率較低、CV events 較少
+
+→ 所有「非鈣型 binder」（不管 sevelamer、ferric citrate、lanthanum）跟「鈣型 binder」相比都是**減少血管鈣化**。在三個非鈣型之間的選擇是依「**附加效益匹配個案需求**」，**不是**「哪個會加重 / 不加重血管鈣化」。
+
 實際劑量：**佳立鈣 500 mg × 2 顆/餐 × 3 餐 = 6 顆/日 = 3,000 mg 碳酸鈣 = 約 1,200 mg elemental Ca/日**
 透析液 Ca：**3.0 mEq/L = 1.5 mmol/L**（中等濃度，IDH 保護偏好）
 

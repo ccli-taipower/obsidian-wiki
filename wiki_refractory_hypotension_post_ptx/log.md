@@ -637,3 +637,25 @@ User query：「sevelamer 是你說的含鐵的磷吸收劑嗎」
 **校正前 vs 校正後**：
 - 校正前：sevelamer 首選（LDL bonus，但忽略 user 6/4 缺鐵已明確）
 - 校正後：**ferric citrate 首選**（同時解 Ca-P + 缺鐵 + 移植 PRA + 簡化用藥；sevelamer 為次選）
+
+## [2026-06-05] correction | Binder 分類速查表（防止 sevelamer = 含鈣的誤解）
+
+User query：「Sevelamer 本質上也是一個含鈣的磷結合劑」
+
+→ 事實校正：sevelamer **不含鈣**——是合成 poly(allylamine) 交聯聚合物，完全不含金屬。它就是用來取代鈣型 binder 解決血管鈣化問題的解方。
+
+User 的誤會是**外部來源**（不是 wiki 寫錯）——grep 確認 wiki 無「sevelamer 含鈣」描述。但 wiki 雖然多處說「sevelamer 是非鈣型」，**沒有一個地方明確 categorize 所有 binder 結構**，讀者要自己整合。
+
+**新增「Binder 分類速查表」於 `analysis_iatrogenic_factors §7` 開頭**，5 列表清楚顯示：
+- 鈣型 carbonate（佳立鈣）→ 加重鈣化
+- 鈣型 acetate（鈣易善）→ 加重鈣化
+- **非鈣型 polymer（sevelamer / 腎潔磷）→ 減緩鈣化**
+- 非鈣型 鐵基（ferric citrate / 鐵爾思）→ 減緩鈣化 + 補鐵
+- 非鈣型 稀土（lanthanum / 福斯耐爾）→ 減緩鈣化
+
+並補上 sevelamer 結構解釋（人工聚合物、無金屬）+ 4 個關鍵 RCT（Treat-to-Goal、RIND、DCOR、INDEPENDENT-CKD）證實 sevelamer vs Ca-based binder 有減緩鈣化 / mortality benefit。
+
+教訓：
+- 把基本事實放在最前面（分類速查表）比假設讀者能整合多處描述安全
+- User 的誤會也是個 reminder——名稱接近（sevelamer 聽起來像 "Ca-vel-amer"？）會造成混淆
+- 未來新增 / 修訂 wiki 時，**對核心名詞要有「速查表」級的 entry point**，不要假設讀者讀完上下文就懂
