@@ -747,3 +747,30 @@ User query：再整理一下為什麼移植腎比較適合放在右邊？
 對話框架（給移植團隊門診用）也寫進該段。
 
 教訓：「常識」也需要 documentation——下次任何讀者想知道「為什麼右側」，wiki 直接答得出來。
+
+## [2026-06-08] update | 足部血管狀態 + HD 病人足部自我照護 checklist
+
+User query：「那腳部血管的狀況呢」——指出 wiki 沒專門整理過下肢遠端 / 足部血管，問現況。
+
+**現況整理**（從現有資料 imply）：
+- 5/19 下肢動脈超音波涵蓋髂、股、膕、脛動脈 → 無 > 50% 狹窄、無症狀
+- **但足背 / 後脛遠端細節無 documented**
+- CT 主動脈 / 冠脈鈣化 → 推測下肢中層鈣化全身性存在
+- **大血管 OK + 無症狀 = 臨床 OK，但無遠端量化 documentation（如 ABI）**
+
+**新增 2 個 sub-section**：
+
+1. `analysis_prognosis_without_transplant 解剖障礙段` 加入 **「🦶 足部血管狀態 — 已知 OK 但 documentation 不完整」**：
+   - 6 個部位狀態對照表（信心程度標註）
+   - 結論：大血管 OK + 無症狀，但遠端無量化 documentation + 累積風險基底存在
+   - HD 病人足部風險機轉表（5 項）
+   - 特別點出 IDH 是「容易忽略的足部血流 stress test」
+   - 下次門診可推進：ABI、衛教指導、症狀通報
+
+2. `analysis_prognosis_without_transplant 自我管理建議` 新增 **「### 5. 🦶 足部每日自我檢查」**：
+   - Daily checklist（7 項：皮膚、腳溫、趾色、足背動脈、後脛動脈、趾甲、趾縫）
+   - 穿鞋習慣 4 條
+   - 5 個立刻就醫的警訊（claudication、不癒合、急性紫黑、rest pain、發燒紅腫）
+   - 原 #5「最重要的單一行動」改為 #6
+
+教訓：HD 11 年 + 廣泛血管鈣化的病人，**足部風險常被忽略**——一般科 follow-up 不會主動評估遠端 perfusion。**主動把 self-monitoring 寫進 wiki = 把醫療系統的 blind spot 變成病人自己的常規流程**。
