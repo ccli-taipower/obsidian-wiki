@@ -678,3 +678,39 @@ User query：「如果採取 Fosrenol + 補鐵呢？」
 說明「為什麼預設 Plan B 而非 sevelamer」：Plan A 失敗通常代表沒解的問題是 P 結合力或 Hb 補正速度——這兩件事 Fosrenol + IV iron 都有比 sevelamer 更強的論點。Sevelamer 保留為「兩者都不耐受」的更後備。
 
 教訓：對「結果要等 1-3 個月才見分曉」的介入，**預先設好 Plan B 比硬卡 Plan A 更務實**。把單藥決策變成「有 fallback 的試藥計畫」對病人與醫師都更友善。
+
+## [2026-06-08] update | 2025/12/16 NTUH 腹部+骨盆腔 CT —— 首次 L/R 拆分、移植解剖綠燈升級
+
+User 提供 10 張健康存摺 CT 報告截圖（IMG_1027-1036）。**日期校正**：user 說「6/4 照的」，實際 exam date 是 **2025/12/16**（民國 114/12/16）；6/4 是健康存摺顯示日期 / 上傳列表日期。
+
+**CT 內容（兩份報告，腹部 + 骨盆腔同日，無造影劑）**：
+- 主動脈 + bifurcation + 冠脈鈣化（再次 confirm）
+- 多囊肝 Grade II（25-50%），最大 cyst 2.6 cm at S5/6
+- **多囊腎 Grade IV，TKV: R 427.7 + L 602.3 = 1,030 mL**
+- Conclusion: **"TKV 1030 ml stable"**（無進展）
+- 膀胱 atrophic change（11 年 anuric 預期表現）
+- 無腹水（vs 2019/10 還有 small ascites → 改善）
+- 無 lymphadenopathy / bony defect
+
+**🔥 重大新發現：左右腎終於拆分**
+
+| 部位 | 體積 | vs 正常單側（~150 mL）|
+|------|------|--------------------|
+| 右腎 | 427.7 mL | 2.9× |
+| **左腎** | **602.3 mL** | **4.0×** |
+| 差距 | 左大於右 174.6 mL（41%）| — |
+
+→ 對移植解剖有具體意義：移植腎標準放入**右髂窩**，右側原生腎大小最關鍵；**你右側偏小**反而是 favorable，**強化「不需切原生腎」的論證**。
+
+**CT vs MRI 互證**（2025/12 同月）：TKV 合計 1,030 vs 1,048 mL，差 18 mL（< 2%）→ modality 間合理誤差。
+
+**4 個 file 同步更新**：
+- `analysis_hospitalization_timeline §1`：TKV 軌跡表加 CT row + L/R 拆分；MRI 報告局限段改為「CT 有時拆分」
+- `analysis_prognosis_without_transplant`：三道關卡 #3 解剖升級為 green light；TKV trajectory 表加 CT；surgical anatomy 段補入右側偏小的意義
+- `analysis_master_timeline`：master timeline 新增 12/16 CT row；imaging table 加 CT；三道關卡 #3 升級
+- `log`（本 entry）
+
+**對未來門診的意涵**：
+- 跟移植團隊談時可以強調「右側原生腎 < 500 mL、右髂窩有足夠空間」
+- 不需額外做 volumetry（CT 已給出 L/R 拆分數據）
+- "TKV stable" 確認 ADPKD 短期內無進展、移植窗口相對 stable

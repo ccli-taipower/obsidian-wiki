@@ -55,6 +55,7 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 2023/12 | 影像 | **腦部 MRI/MRA** | 顱內動脈瘤陰性、無微出血、輕微 WMH | [iatrogenic analysis](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | 2025/08 | 影像 | **Cardiac SPECT（核醫）** | **SSS=16、ΔTPD=16%**、可逆缺血（apex/基底前壁/側壁/下壁）| [CAD analysis](analysis_cad_contribution_to_refractory_idh.md) |
 | 2025/12 | 影像 | **腹部 MRI** | **TKV 1,048 mL**（−69% vs 2019）、主動脈+冠脈鈣化 | [prognosis](analysis_prognosis_without_transplant.md) |
+| 🔥 2025/12/16 | 影像 | **腹部 + 骨盆腔 CT 無造影劑（NTUH）** | **TKV 1,030 mL = R 427.7 + L 602.3**（首次 L/R 拆分；右側小 41% 利於右髂窩移植）、conclusion "stable"、無腹水、膀胱 atrophic、主動脈+冠脈鈣化、多囊肝 Grade II | [hospitalization §1 TKV](analysis_hospitalization_timeline.md) |
 | 2025/12 | 抽血 | iPTH 17.5 pg/mL（過度抑制）| 過度抑制 | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
 | 2026/02 | 🔪 處置 | **AVG PTA**（in-graft + V junction）| 90% 狹窄 | — |
 | 2026/03/02 | 抽血 | **FlowPRA** | **Class I 44%（MFI 563）、Class II 11%（MFI 355）**| [prognosis](analysis_prognosis_without_transplant.md) |
@@ -94,6 +95,7 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 2023/12 | 腦部 MRI/MRA | 顱內動脈瘤陰性 ✅、無微出血、輕微 WMH |
 | 2025/08 | Cardiac SPECT（核醫）| **SSS=16、ΔTPD=16%、可逆缺血** ⚠️ |
 | 2025/12 | 腹部 MRI | **TKV 1,048 mL**（−69%）、主動脈+冠脈鈣化 |
+| 🔥 2025/12/16 | 腹部 + 骨盆腔 CT 無造影劑（NTUH）| **TKV 1,030 mL stable = R 427.7 + L 602.3**（首次 L/R 拆分）、無腹水、膀胱 atrophic、多囊肝 Grade II |
 | 2026/04 | 心超 | **EF 73.7% hyperdynamic、E/A 0.62 HFpEF 生理**、LV mass 正常 |
 | 2026/05/19 | 下肢動脈超音波 | 左 CFA moderate stenosis < 50%、無症狀 ✅ |
 | **2026/07/29**（預定）| **重複 Cardiac SPECT** | 跟 2025/08 比較 |
@@ -262,7 +264,7 @@ PTX 後降到 62.5 → 主動 +10 kg 上調乾體重嘗試解 IDH → IDH 仍頑
 |------|------|---------|
 | **① 心臟（SSS=16）** | ⚠️ 需處理 | 7/29 重複核醫定奪 → cath / CTO PCI |
 | **② 免疫（PRA Class I 44%）** | ⚠️ 需處理 | SAB 細分、acceptable mismatch program |
-| **③ 解剖（TKV 1,048 邊緣值 + 血管 < 50%）** | 🟢 大致 green light | TAE 後 -69% 巨腎 + 5/19 血管 OK，**可能不需切原生腎** |
+| **③ 解剖（TKV 1,030 stable + 右腎較小 + 血管 < 50%）** | 🟢 **green light 升級** | TAE -69%、12/16 CT 拆分顯示右腎 427.7 mL（移植側較小）+ 5/19 下肢血管 OK + "stable" → **不需切原生腎的論證更強** |
 
 ---
 
