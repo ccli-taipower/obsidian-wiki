@@ -228,6 +228,17 @@ PTX 前曾有 **Crestor + Ezetrol 雙重 LDL 控制**。Ezetrol 不是降壓藥�
 | [analysis_iatrogenic_factors](analysis_iatrogenic_factors_in_refractory_idh.md)（藥物軸）| **Ezetrol 被不明原因停藥**——對應 LDL 100 高的可能元兇；加回 Ezetrol 是 Q4 的低成本解法 |
 | [analysis_prognosis_without_transplant](analysis_prognosis_without_transplant.md)（預後）| 雙腎 TAE（2019）+ 移植等候 11 年——免疫關卡的時間累積；解剖關卡的長期準備 |
 
+## 額外：AVG 通路維護處置（非住院、day-procedure）
+
+正式住院之外，還有反覆 AVG PTA 維護，雖然不是 inpatient 但對通路壽命管理至關重要：
+
+| # | 日期 | 醫院 / 醫師 | 位置 | 狹窄 % | Balloon | 結果 |
+|---|------|-----------|------|-------|---------|------|
+| 1 | 2026/02 | — | in-graft + graft-V junction | 90% | — | Success |
+| 2 | **2026/06/09** | 葉聰賜（地區醫院）| **in-graft + graft-V junction**（SAME sites）| **90%** | Mustang 7.0×80 mm @ 20 bar | Success (high venous pressure 觸發，無血栓) |
+
+→ **同樣兩個 site 在 4 個月內反覆 90% 狹窄** = restenosis cycle（neointimal hyperplasia）。下次回診 2026/10/13。詳見 [CAD §C](analysis_cad_contribution_to_refractory_idh.md)。
+
 ## 觀察到的「兩院系統」議題
 
 - **NTUH**：移植、PTX、一般追蹤

@@ -57,7 +57,7 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 2025/12 | 影像 | **腹部 MRI** | **TKV 1,048 mL**（−69% vs 2019）、主動脈+冠脈鈣化 | [prognosis](analysis_prognosis_without_transplant.md) |
 | 🔥 **2026/06/04** | 影像 | **腹部 + 骨盆腔 CT 無造影劑（NTUH）** | **TKV 1,030 mL = R 427.7 + L 602.3**（首次 L/R 拆分；右側小 41% 利於右髂窩移植）、**conclusion "stable"**（vs 12/2025 MRI 1,048，半年 -1.7%）、無腹水、膀胱 atrophic、主動脈+冠脈鈣化、多囊肝 Grade II | [hospitalization §1 TKV](analysis_hospitalization_timeline.md) |
 | 2025/12 | 抽血 | iPTH 17.5 pg/mL（過度抑制）| 過度抑制 | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
-| 2026/02 | 🔪 處置 | **AVG PTA**（in-graft + V junction）| 90% 狹窄 | — |
+| 2026/02 | 🔪 處置 | **AVG PTA #1**（in-graft + graft-V junction）| 90% 狹窄、balloon dilatation | 下方通路維護表 |
 | 2026/03/02 | 抽血 | **FlowPRA** | **Class I 44%（MFI 563）、Class II 11%（MFI 355）**| [prognosis](analysis_prognosis_without_transplant.md) |
 | 2026/03/19 | 抽血 | K | 5.7（上升趨勢起始）| 同上 |
 | 2026/04 | 影像 | **心超** | **EF 73.7%、E/A 0.62、WMSI 1.19、LV mass 103.2** | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md) |
@@ -68,8 +68,10 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | **~2026/05** | 💊 用藥 | **🔥 松禾診所建議**：停活性維生素 D（執行 iPTH 回升計畫）| 結果見 6/4 lab | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
 | 2026/06/04 | 🩸 抽血 | **松禾診所例行月度抽血** | **iPTH 17.5 → 28.6（+63%）、K 6.0 → 5.0、Ca ↓ 8.5、P ↑、Hb 11.2 ↓、TSAT 7% 明確缺鐵** | 本頁上方 lab 表 |
 | **2026/06/04** | 💊 用藥 | **❌ Concor 暫停**（IDH 變嚴重）| 啟動 → 停藥僅 16 天 | [iatrogenic §4](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| 🔥 **2026/06/09** | 🔪 處置 | **AVG PTA #2**（葉聰賜醫師，地區醫院）| **SAME sites recurrent at 4 個月**：in-graft + graft-V junction 90% → Mustang 7.0×80 mm @ 20 bar, no thrombosis (high venous pressure 觸發), success | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 | **2026/07/13**（預定）| 評估 | Dipyridamole trial-off 8 週 evaluate | Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/29**（預定）| 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md) |
+| **2026/10/13**（預定）| 評估 | **AVG PTA #2 follow-up**（葉聰賜）| 主動討論：vein mapping / surveillance US 縮短間隔 / DCB / 備用通路啟動 timing | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 
 ---
 
@@ -83,7 +85,14 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 4 | 2023/03/10 | LCX PCI + DES（1 支）| **東元醫院** | 三血管 CAD 中只處理 LCX、RCA CTO + LAD 未處理 |
 | 5 | 2023/10/12 | Subtotal PTX + 右前臂 autoimplant | NTUH | 切除 3.77g、自體植入 0.80g；後續 IDH 起點 |
 
-額外通路維護：**2026/02 AVG PTA**（90% 狹窄、in-graft + V junction）
+### 額外：AVG 通路維護 PTA（2 次 in 4 個月，restenosis cycle）
+
+| # | 日期 | 醫院 / 醫師 | 位置 | 狹窄 % | 觸發 | Balloon | 結果 |
+|---|------|-----------|------|-------|------|---------|------|
+| 1 | 2026/02 | — | in-graft + graft-V junction | 90% | — | — | Success |
+| 2 | **2026/06/09** | 葉聰賜（地區醫院）| **in-graft + graft-V junction**（SAME sites）| **90%** | **High venous pressure**（surveillance 抓到 pre-thrombotic）| Mustang 7.0×80 mm @ 20 bar | Success（無血栓、blood loss 5ml）|
+
+⚠️ **Restenosis cycle 已建立**：同樣兩個 site 在 4 個月內再度 90% 狹窄 → 神經內膜增生（neointimal hyperplasia）反覆型態，預示 AVG 進入「frequent maintenance」階段。詳見 [CAD §C AVG 反覆狹窄](analysis_cad_contribution_to_refractory_idh.md)。
 
 ---
 

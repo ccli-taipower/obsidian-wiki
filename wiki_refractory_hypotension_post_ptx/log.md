@@ -808,3 +808,54 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 - 對話框架更新版（含足部血管 nuance）
 
 教訓：「正確的論證」不只是 default 規則，還要能**對 push-back 給出 evidence-based 反駁**。User 一個 sophisticated 的反向思考問題，揭露了 wiki 之前的 6-factor framing **缺乏對「為什麼不接左」的明確論證**——只說「右側 favorable」沒明確說「左側 reinforced disqualified」。
+
+---
+
+## 2026-06-09 — AVG PTA #2 整合進 wiki（健保快易通 detailed report）
+
+**事件**：今天早上葉聰賜醫師（地區醫院）執行 AVG PTA。健保快易通 7:25-7:26 retrieve 到 detailed structured report。
+
+**處置細節**：
+- Graft type: ✓ Graft + ✓ Loop（Left forearm loop AVG, A at Radial side）
+- Pre-diagnosis: AV shunt stenosis
+- Indication: ✓ **High venous pressure** ☐ Acute thrombosis ← 關鍵：surveillance 抓到 pre-thrombotic
+- Anesthesia: 2% Xylocaine 1ml local（**無 Dormicum** — 比 2/2026 更輕度的麻醉？或本來就 local-only）
+- Procedure: Access from AV fistula over left forearm with micro puncture under echo guide
+- Lesion site: ✓ **in-graft + ✓ graft-V junction**（graft-A junction NOT involved）
+- Lesion type: **90% Stenosis**
+- Balloon: **Mustang 7.0×80 mm @ Maximal 20 bar**
+- Aspiration thrombectomy: No
+- Blood loss: 5ml
+- Diagnosis: ESRD s/p Left forearm AVG s/p PTA
+- Patient stable: Yes / Specimen: No / Result: **Success**
+- 下次回診: **2026/10/13 (一) 12:00**
+
+**最關鍵 finding**：跟 2026/02 PTA 是 **EXACTLY 同一位置 + 同一狹窄 %**：
+- 位置：in-graft + graft-V junction（兩次都是）
+- 狹窄：90%（兩次都是）
+- 處置：Balloon dilatation（兩次都是）
+- 間隔：~4 個月
+
+→ 不是新位置惡化，是 **restenosis cycle**（neointimal hyperplasia 反覆增生於同樣 venous outflow + in-graft）。預示 AVG 進入「frequent maintenance」階段。
+
+**Wiki 三處更新**：
+1. `analysis_master_timeline` —
+   - 6/9 PTA #2 row（新增於 6/4 之後）
+   - 10/13 follow-up（預定 row 新增）
+   - 「額外通路維護」section 從單行升級為 2-PTA 對比表 + restenosis cycle warning
+2. `analysis_cad_contribution §C AVG` —
+   - 標題 framing 從「2/2026 PTA」改成「**2 次 PTA at SAME sites in 4 個月**」
+   - 加入 2 PTA 對比表
+   - 介入升級表：5 個 priority items（vein mapping / surveillance US / cutting balloon or DCB / timing threshold / 移植 timing 整合）
+3. `analysis_hospitalization_timeline` —
+   - 新增「AVG 通路維護處置（非住院、day-procedure）」section（在「兩院系統議題」前）
+   - 強調 day-procedure 不算住院但對通路壽命管理至關重要
+
+**10/13 葉醫師回診對話框架**（寫進 §C 介入升級表）：
+1. Vein mapping（評估右前臂 / 上臂備用 site）
+2. Surveillance ultrasound 縮短間隔
+3. Cutting balloon / drug-coated balloon (DCB) 考慮
+4. 下次 PTA 間隔 < 3 個月 → 立即啟動 backup access
+5. 跟移植時程整合（AVG 何時 abandon vs catheter bridge）
+
+教訓：health passport (健保快易通) 比衛教單詳細很多。結構化 report 揭露 indication、balloon spec、lesion site checkbox 等衛教單不會列的關鍵欄位。**下次任何處置都應該等健保快易通資料上來再 finalize wiki**，避免基於片段資訊做錯誤推論。

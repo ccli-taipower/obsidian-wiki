@@ -204,9 +204,28 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 - 在 active ischemia + ADPKD 心律不整風險上升
 - **介入**：飲食 review、考慮 Lokelma (sodium zirconium cyclosilicate) 或 Patiromer、透析液 K 微調（從 2.0 mEq/L 試 1.5）
 
-### C. AVG 反覆狹窄（2026/02 PTA at in-graft + V junction, 90%）
-- 透析「上游」問題：blood flow marginal → 透析中血流動力學不穩
-- **介入**：與血管外科 / 介入科討論備用通路規劃（右前臂 / 上臂 AVG），避免反覆 PTA 直到完全失能
+### C. AVG 反覆狹窄（**2 次 PTA at SAME sites in 4 個月**，2026/06/09 更新）
+
+| 日期 | 醫師 | 位置 | 狹窄 % | 觸發 | Balloon | 結果 |
+|------|------|------|-------|------|---------|------|
+| 2026/02 | — | in-graft + graft-V junction | 90% | — | — | Success |
+| **2026/06/09** | 葉聰賜 | **同上**（SAME sites）| **90%** | **High venous pressure**（surveillance）| Mustang 7.0×80 mm @ 20 bar | Success（無血栓）|
+
+→ **Restenosis cycle 已成形**（neointimal hyperplasia 反覆增生於 venous outflow + in-graft），AVG 進入「frequent maintenance」階段。**不是新位置惡化，是同樣兩個 site 反覆 90% 狹窄**。
+
+**好消息**：2026/06/09 是 high venous pressure 觸發、不是 acute thrombosis → surveillance system 抓到 pre-thrombotic 階段。代表透析中心的 venous pressure monitoring 在 work。
+
+**透析「上游」問題**：blood flow marginal → 透析中血流動力學不穩 → IDH 加重的潛在因子。
+
+### 介入升級（10/13 葉醫師回診主動討論）
+
+| 優先 | 議題 | 為什麼 |
+|------|------|-------|
+| 1 | **Vein mapping**（右前臂 / 上臂備用 site）| 不是等到失敗才找，是先評估有沒有合適靜脈可用 |
+| 2 | **Surveillance ultrasound 縮短間隔** | 目前似乎「等 high pressure 才處理」；若加 routine US 可在 < 90% 時就介入 |
+| 3 | **Cutting balloon / drug-coated balloon (DCB)** | 對 recurrent restenosis 有 RCT 證據可延長 patency interval（vs plain balloon）|
+| 4 | **下次 PTA timing threshold** | 若間隔 < 3 個月 → 立即啟動 backup access 創建（不再等）|
+| 5 | **跟移植時程整合** | 移植成功後 AVG 可保留作 backup；若 AVG 在移植前就 abandon，需考慮 catheter bridge — 跟移植團隊協調 timing |
 
 ### D. 客觀評估乾體重
 - 已上調 10 公斤但 IDH 持續 → 乾體重設定可能仍有誤差
