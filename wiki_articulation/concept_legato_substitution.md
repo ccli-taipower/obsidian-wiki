@@ -1,7 +1,7 @@
 # Concept: Legato Substitution — 連奏段的同音換指偏好
 
 > 來源：Neuhaus *The Art of Piano Playing* §觸鍵章、Matthay *The Visible and Invisible* §legato chapter、Czerny Op.500 Vol.III §legato touch、Türk *Klavierschule* (1789)、Kullak *Die Ästhetik des Klavierspiels*
-> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §4、[index](index.md)
+> 引用方：[concept_articulation_overview](concept_articulation_overview.md) §4、[concept_same_pitch_refingering](concept_same_pitch_refingering.md)（四動機之 A + C）、[index](index.md)
 
 ## 1. 為什麼 legato 段要 favor finger substitution
 

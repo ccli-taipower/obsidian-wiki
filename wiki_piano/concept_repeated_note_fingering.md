@@ -1,7 +1,7 @@
 # Concept: Repeated Note Fingering — 同音重複指法
 
 > 來源：Czerny *Op.500* §repeated notes, Liszt *La Campanella*（repeated-note 經典）, Sandor *On Piano Playing* §repetition
-> 引用方：[concept_finger_substitution](concept_finger_substitution.md), [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md)
+> 引用方：[concept_finger_substitution](concept_finger_substitution.md), [../wiki_articulation/concept_legato_substitution](../wiki_articulation/concept_legato_substitution.md), [../wiki_articulation/concept_same_pitch_refingering](../wiki_articulation/concept_same_pitch_refingering.md)（四動機之 D）
 
 ## 1. 同音重複是什麼
 

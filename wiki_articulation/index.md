@@ -23,6 +23,8 @@
 - [concept_articulation_overview](concept_articulation_overview.md) — 完整 articulation taxonomy（11 種類型）+ 時代 default（Baroque/Classical/Romantic/Modern）
 
 ### Per-articulation concept 頁
+- [concept_same_pitch_refingering](concept_same_pitch_refingering.md) — 同音換指四動機總覽（持鍵 vs 重彈；A 連奏 / B 強弱 / C 過渡 / D 重複音；黑白鍵為修正因子）— taxonomy 與導航中心
+- [concept_dynamic_shaping_refingering](concept_dynamic_shaping_refingering.md) — 動機 B：為強弱塑形而換指（強指彈強拍、弱指彈弱拍）；唯一未模、現代有爭議
 - [concept_legato_substitution](concept_legato_substitution.md) — 連奏段 finger substitution 偏好（最常被引用的指法-articulation 介面）
 - [concept_legatissimo](concept_legatissimo.md) — 極致連奏（少見但 articulation 光譜最連端）
 - [concept_staccato](concept_staccato.md) — 斷奏 / staccatissimo 對 hand jump 與 thumb cross 的鬆綁

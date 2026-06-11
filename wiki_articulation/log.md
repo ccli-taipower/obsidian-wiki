@@ -3,6 +3,18 @@
 > Pure ingest log — 記錄每次新增 / 修改 wiki 內容。
 > Project status / implementation 進度不在此 — 見 [_implementation_status](_implementation_status.md)。
 
+## [2026-06-11] 同音換指四動機 — 1 overview + 1 new concept (B)
+
+依用戶討論「同音換指 vs 同音同指」整理。先讀既有覆蓋發現 A/C/D 已存在（散在 wiki_piano），只有動機 B 是真空白 → 不複製、只補空白 + 做導航。
+
+**New pages (2):**
+- `concept_same_pitch_refingering.md` — 四動機總覽 taxonomy。先區分**持鍵換指 (held)** vs **重彈換指 (re-struck)** 兩種物理現象，再索引 A（→legato_substitution）/ B（→新頁）/ C（→legato_substitution §4）/ D（→wiki_piano/repeated_note_fingering）。黑白鍵列為**橫切修正因子**（決定換哪根指、非換不換指），非第五動機。§4 釐清與「同音型同指」HARD 原則正交（跨出現一致 vs 單次內多指）。
+- `concept_dynamic_shaping_refingering.md` — 動機 B（強弱塑形）。強拍配強指、弱拍配弱指，讓節拍輪廓從指法力度差浮現。grounding：C.P.E. Bach gute/schlechte Noten + Couperin inégalité + Czerny accentuation + 手指力度不對稱（wiki_piano hand_anatomy）。**誠實呈現爭議**：現代重量學派（Taubman/Roskell）反對依賴手指力度差。四動機中唯一未模、若實作必 opt-in（首個刻意偏離「最省力」的軸）。與動機 D 方向相反（D 求均勻、B 求不均）。
+
+**未複製**（已存在，只 cross-link）：A=concept_legato_substitution、C=同頁 §4 預備性換指、D=wiki_piano/concept_repeated_note_fingering（含 held vs re-struck §4 區分）。
+
+對應 *feedback_wiki_knowledge_vs_project_separation*：兩頁純知識；DP 意涵僅 1 短節標 candidate/未實作（沿 repeated_note_fingering §6 風格）。
+
 ## [2026-05-29] full completion round 2 — 7 new concept + 5 new analysis + 3 new src
 
 依用戶要求「把整個 wiki 全部補起來」，加入 15 個新頁面，wiki 達到 37 active pages 全面覆蓋。
