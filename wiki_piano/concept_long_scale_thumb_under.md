@@ -136,6 +136,18 @@ All-white scales never trigger the bump-to-4, so greedy-3 + end-guard gives exac
 
 26 other PIG val pieces byte-identical across Runs A/B/C/D (per-piece flag isolation OK).
 
+## 5b. LH-descending pinky discipline (2026-06-15)
+
+長 LH 下行音階的兩個 PIG-ground-truth invariant（032 Bach Inv2 c-min m22，兩位標注者一致）：
+- **pinky 落底**：下行 run 的最低音用 f5（不是被 thumb-under 卡在中段停在 f2）。
+- **用 f4、不用 f5 中段**：f5 只出現在底端極點；中段該用 f4。
+
+base DP 的 finger-4 迴避（`ADJACENT_COUPLING_PENALTY` + 低 agility）會把中段該用 4 處換成 5（mid-run-5），且 under-bumped descending pivots 會讓 run 停在 f2 不落底。修法（`_run_phrase_dp` 內，屬 `USE_LONG_SCALE_THUMB_UNDER`）：對 **LH-descending 且 len ≥ `SCALE_LH_DESC_MIN_LEN`(7)** 的 segment——
+- 非極點音的 f5 → `+SCALE_MIDRUN_PINKY_PENALTY`(2.0) → 改用 4；
+- 底端極點非 f5 → `+SCALE_EXTREME_PINKY_PENALTY`(2.0) → pinky 落底。
+
+**length+direction gate**：Bach Inv 4 的短 LH re-pivot（len≤6）、RH-ascending（本來就對）、K283/K545 全 byte-identical（hash 不變驗證）。032 m22 修後 = `1 2 3 1 2 3 1 2 3 4 5`（= PIG annotator 完全吻合）。**Bach Inv 3 已啟用 long_scale**（RH +9.38 / LH +2.42, 0 cost breach；053 K281 +17.74R / 045 Italian +4.93R / 047 Fr Gavotte +2.84L 是 reference-MXL eval-only latent）。
+
 ## 6. Cross-refs
 
 - Cost-function side: [concept_thumb_technique](concept_thumb_technique.md) §Long-scale exception
