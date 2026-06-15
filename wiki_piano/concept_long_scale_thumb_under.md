@@ -146,7 +146,9 @@ base DP 的 finger-4 迴避（`ADJACENT_COUPLING_PENALTY` + 低 agility）會把
 - 非極點音的 f5 → `+SCALE_MIDRUN_PINKY_PENALTY`(2.0) → 改用 4；
 - 底端極點非 f5 → `+SCALE_EXTREME_PINKY_PENALTY`(2.0) → pinky 落底。
 
-**length+direction gate**：Bach Inv 4 的短 LH re-pivot（len≤6）、RH-ascending（本來就對）、K283/K545 全 byte-identical（hash 不變驗證）。032 m22 修後 = `1 2 3 1 2 3 1 2 3 4 5`（= PIG annotator 完全吻合）。**Bach Inv 3 已啟用 long_scale**（RH +9.38 / LH +2.42, 0 cost breach；053 K281 +17.74R / 045 Italian +4.93R / 047 Fr Gavotte +2.84L 是 reference-MXL eval-only latent）。
+**length+direction gate**：Bach Inv 4 的短 LH re-pivot（len≤6）、RH-ascending（本來就對）、K283/K545 全 byte-identical（hash 不變驗證）。032 m22 修後 = `1 2 3 1 2 3 1 2 3 4 5`（= PIG annotator 完全吻合）。**Bach Inv 3 已啟用 long_scale**（RH +9.38 / LH +2.42, 0 cost breach；053 K281 +17.74R / 045 Italian +4.93R / 047 Fr Gavotte 是 reference-MXL eval-only latent）。
+
+**sub-issue A（descending pivot grouping，2026-06-15 後續）**：上面 5b 的 pinky-discipline 只是症狀層——對某些調仍不夠（G 退化成全 3-group 不用 4；D pinky 沒落底）。根因是 `_compute_scale_pivots` 的 size-3 greedy 在「拇指落點剛好白鍵」時退化成每 3，而**下行時拇指落點方向不對稱地落白鍵**（黑鍵 bump 不觸發）。修法：把 3+4 alternation（原本只 all-white）推廣到 **LH-descending len≥7**，加 black-avoidance（若 alternation 拇指落黑鍵則 swap group size）。現**全調滿足硬 invariant**（pinky 落底 / 用 4 / 無中段 5）；殘留與教科書的差異只是 3+4-vs-4+3 grouping-phase variant（在人類標注者變異範圍內）。047 Fr Gavotte LH +2.84→**+6.38**（len-12 run）。RH-descending / LH-ascending（thumb-over 兩方向）仍未動但滿足硬 invariant。
 
 ## 6. Cross-refs
 
