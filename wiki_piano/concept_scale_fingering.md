@@ -46,6 +46,8 @@ tags: [piano_fingering, scales, finger_groups, thumb_under, technique]
 | 基礎 | 1-3-1-3（白鍵對用 2）| 慢速 |
 | 進階 | 1-2-3-4 四指組（遇拇指上黑鍵改 3 指組）| 快速 |
 
+**DP 對應（2026-06-15）**：基礎 1-3 指法已實作為 `USE_CHROMATIC_FINGERING`（opt-in flag, default OFF）。DP 的 `_detect_scale_segments` 把半音階排除（`SCALE_MAX_CHROMATIC_RUN`），故 base DP 對半音階無規則（診斷：標 1-2-3-4-5 循環、黑鍵 37/40 非 f3）。新規則 `_detect_chromatic_segments`（≥5 音全半音同向 run）+ `_chromatic_segment_fingers`（**黑→3、白→拇指、白-白橋 E-F/B-C 第二音→2**）在 phrase DP 內把 segment 單音 filter 成 rule finger。harness：flag-ON 後拇指 0 次落黑鍵、黑鍵 100% f3。進階四指組未實作（偏 advanced）。branch feat-chromatic-fingering。
+
 ## 雙音音階
 
 - 同樣短組+長組原則（雙拇指：2-1 / 3-1）

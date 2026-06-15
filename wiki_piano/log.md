@@ -1,5 +1,12 @@
 # Piano Fingering Wiki Log
 
+## [2026-06-15] standard scale fingering | 全調 canonical 表（hanon-fingering 站轉錄）
+
+`concept_standard_scale_arpeggio_fingering.md` 加入 **15 大調 × RH/LH × 上下行的完整指法表**，來源 = user 自製查詢站 `github.com/ccli-taipower/hanon-fingering`（`index.html` 內 `DATA`/`SCALES`）。原本「待驗證」段問的「黑鍵調精確 thumb-under 分組」現有 explicit ground truth。
+- **資料品質**：B 大調 RH 上行來源標 4+4（拇指落 F# 黑鍵）疑為錯誤，傳統為 3+4；harness 比對時排除或改傳統。
+- **harm/mel**：來源用相對小調，指法幾乎全等大調 → 可直接套大調表。
+- **下一步（harness A）**：合成各調音階跑 DP 比對 canonical，量化 long_scale greedy pivot 的全調覆蓋率 + 跑「拇指全落白鍵」自動 audit。
+
 ## [2026-06-05] pedagogical fingering tradition | new track 起頭 (2 concepts)
 
 開教學傳統指法 track（對齊初中階目標——初中階曲目的「慣例」是教學傳統而非演奏家詮釋）。決議：**不**為「時代/作曲家演奏風格」開第四個 wiki（與「個人化非大眾共識」「不目標 advanced」哲學矛盾；時代差異已由 biomech/phrase/articulation 三 wiki 湧現）。新增：
