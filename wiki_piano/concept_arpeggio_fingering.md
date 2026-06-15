@@ -40,13 +40,18 @@ Arpeggio 跨度大（典型每音 ≥ 3 半音），單手伸縮無法覆蓋多�
 
 ## 4. 七和弦 arpeggio 指法
 
-⚠ Training-data verification needed:
+七和弦（4 音）arpeggio 標準指法（每八度 4 個音 → 用滿 4 指 1-2-3-4，拇指落根音）：
+- **RH 上行**: 1-2-3-4 → thumb 穿越 → 重複下一八度（頂端 → 5）
+- **LH 上行**: 5-4-3-2-1 → 重複下一八度（底端 → 5），即每八度循環 4-3-2-1，拇指接根音
 
-七和弦（4 音）arpeggio 標準指法：
-- **RH 上行**: 1-2-3-4 (4 音) → thumb 穿越 → 重複下一八度
-- **LH 上行**: 5-3-2-1 (4 音) → 同 thumb 位置 → 重複下一八度
+> 訂正（2026-06-16）：本頁原列 LH 上行 = `5-3-2-1`（跳過 finger 4），帶 ⚠ verification-needed。
+> 經核對：(1) 七和弦每八度 **4 個音**，需 4 指各司其職，跳過 4 不合理；`5-3-2-1` 實為**三和弦**
+> （3 音）的 pattern 誤抄到七和弦列。(2) hanon-fingering 查詢站 `DATA` **只涵蓋音階 + 三和弦琶音，
+> 無七和弦資料**（見 `[[concept_standard_scale_arpeggio_fingering]]`），故七和弦指法 grounding 來自
+> 標準 4-指琶音慣例（Czerny / ABRSM / RCM）而非站方字串。生成器 `_arpeggio_segment_fingers`
+> 已用 `5-4-3-2-1`（LH）/`1-2-3-4-5`（RH），與此訂正一致，215 arpeggio 測試鎖住。
 
-某些調（特別 V7 含黑鍵）需調整 — Czerny *Op.500* 列各調具體 fingering。
+某些調（特別 V7 含黑鍵）需調整 — Czerny *Op.500* 列各調具體 fingering。減七比照（4 音組，同 pattern）。
 
 ## 5. 跨八度延伸 arpeggio
 
