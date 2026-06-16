@@ -21,7 +21,7 @@ tags: [harmony, cadence, phrase_ending]
 關鍵特點：
 - 終止式發生在**樂句末尾**，不是隨便兩個和弦。
 - 它的功能是**結束感知**——或完全結束，或暫時結束，或出乎意料。
-- 不同終止式對應不同**功能流向**（見 [[concept_chord_function]]）。
+- 不同終止式對應不同**功能流向**（見 [concept_chord_function](concept_chord_function.md)）。
 
 ---
 
@@ -192,12 +192,12 @@ vi  (Am):  A–C–E   ●   ●       ●       ← 意外！（不是 C）
 
 你現在知道：和弦有功能（T/S/D），樂句有終止式（正格/半/變格/欺騙）。接下來，把這些放進更長的和弦進行裡——
 
-→ [[concept_progression]]：常見和弦進行（I–V–vi–IV 等）的結構分析
+→ [concept_progression](concept_progression.md)：常見和弦進行（I–V–vi–IV 等）的結構分析
 
 ---
 
 ## 延伸參考
 
-- [[concept_chord_function]] — 三大功能（T/S/D）與功能流向
-- [[concept_triad]] — 大三、小三和弦結構
-- [[concept_seventh_chord]] — V7 如何強化終止式的解決感
+- [concept_chord_function](concept_chord_function.md) — 三大功能（T/S/D）與功能流向
+- [concept_triad](concept_triad.md) — 大三、小三和弦結構
+- [concept_seventh_chord](concept_seventh_chord.md) — V7 如何強化終止式的解決感

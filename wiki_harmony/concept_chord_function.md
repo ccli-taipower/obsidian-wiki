@@ -175,13 +175,13 @@ i   (Am): A–C–E   ●   ●   ●
 
 注意 V（E major）裡 G# 的出現——那就是導音，負責製造回到 Am 的強烈渴望。
 
-**下一步**：瞭解和弦功能之後，接下來看樂句如何收尾——前往 [[concept_cadence]]，認識四種終止式（cadence）。
+**下一步**：瞭解和弦功能之後，接下來看樂句如何收尾——前往 [concept_cadence](concept_cadence.md)，認識四種終止式（cadence）。
 
 ---
 
 ## 延伸參考
 
-- [[concept_triad]] — 三和弦結構（大、小、減、增）
-- [[concept_seventh_chord]] — 加入七音後功能如何變化
-- [[concept_cadence]] — 功能流向在樂句結尾的具體應用
-- [[concept_progression]] — 常見和弦進行
+- [concept_triad](concept_triad.md) — 三和弦結構（大、小、減、增）
+- [concept_seventh_chord](concept_seventh_chord.md) — 加入七音後功能如何變化
+- [concept_cadence](concept_cadence.md) — 功能流向在樂句結尾的具體應用
+- [concept_progression](concept_progression.md) — 常見和弦進行

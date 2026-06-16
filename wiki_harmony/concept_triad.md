@@ -8,7 +8,7 @@ tags: [harmony, triad, chord, music_theory]
 
 三和弦是由**三個音**疊加而成的和弦（chord），是西洋調性音樂（tonal music）最基本的和聲單位。掌握三和弦，等於拿到了讀懂絕大多數流行、古典、爵士和弦進行的入場券。
 
-從 [[concept_interval]] 你已知道：三度音程（3rd）是和聲的主力色彩。三和弦的核心就是把**兩個三度疊在一起**——下方三度決定和弦的「大小性格」，上方三度決定「尾音的穩定感」。
+從 [concept_interval](concept_interval.md) 你已知道：三度音程（3rd）是和聲的主力色彩。三和弦的核心就是把**兩個三度疊在一起**——下方三度決定和弦的「大小性格」，上方三度決定「尾音的穩定感」。
 
 ---
 
@@ -83,7 +83,7 @@ C 大三和弦：**C–E–G**
 ```
 
 - 聽感：明亮、堅定、喜悅——是流行、古典中最常見的和弦。
-- 詳細 12 個調的大三和弦指法與圖表：[[chord_major]]
+- 詳細 12 個調的大三和弦指法與圖表：[chord_major](chord_major.md)
 
 ---
 
@@ -108,7 +108,7 @@ C 小三和弦：**C–E♭–G**（三音從 E 降半音變成 E♭）
 （鍵盤上 E♭ = D# 黑鍵，位於 D 右側）
 
 - 聽感：柔和、略帶憂鬱——相較大三和弦，只有三音低半音，但情緒對比明顯。
-- 詳細 12 個調的小三和弦指法與圖表：[[chord_minor]]
+- 詳細 12 個調的小三和弦指法與圖表：[chord_minor](chord_minor.md)
 
 ---
 
@@ -134,7 +134,7 @@ C 減三和弦：**C–E♭–G♭**（三音和五音都降半音）
 
 - 根音到五音形成**減五度（d5）= 三全音（tritone）**——是最不穩定的音程，和弦充滿強烈張力。
 - 聽感：收縮感、不安定，常出現在導音和弦（leading tone chord）位置。
-- 詳細圖表：[[chord_diminished]]
+- 詳細圖表：[chord_diminished](chord_diminished.md)
 
 ---
 
@@ -159,7 +159,7 @@ C 增三和弦：**C–E–G#**（五音從 G 升半音變成 G#）
 - 根音到五音形成**增五度（A5）= 8 半音**——五音被「撐開」，和弦充滿懸浮感。
 - 增三和弦有一個特殊性：三個音完全等距（各 4 半音），所以任何一個音都可以視為根音——它本身就是對稱的。
 - 聽感：神秘、飄浮，常用於過渡與轉調。
-- 詳細圖表：[[chord_augmented]]
+- 詳細圖表：[chord_augmented](chord_augmented.md)
 
 ---
 
@@ -331,7 +331,7 @@ V  = G–B–D   （大三）
 - **下屬功能（Subdominant，S）**：IV、ii — 中間張力，推向屬功能。
 - **屬功能（Dominant，D）**：V、vii° — 最大張力，強烈「想要」解決回主和弦。
 
-T → S → D → T 是西洋調性音樂最基本的動力循環。詳細說明見：[[concept_chord_function]]
+T → S → D → T 是西洋調性音樂最基本的動力循環。詳細說明見：[concept_chord_function](concept_chord_function.md)
 
 ---
 
@@ -348,13 +348,13 @@ T → S → D → T 是西洋調性音樂最基本的動力循環。詳細說明
                         再疊一個三度
 ```
 
-七和弦帶來更豐富的色彩與張力：C 大七和弦（Cmaj7）= C–E–G–B，C 屬七和弦（C7）= C–E–G–B♭。詳見：[[concept_seventh_chord]]
+七和弦帶來更豐富的色彩與張力：C 大七和弦（Cmaj7）= C–E–G–B，C 屬七和弦（C7）= C–E–G–B♭。詳見：[concept_seventh_chord](concept_seventh_chord.md)
 
 ### 各和弦的 12 個調詳表
 
 如果需要查特定調的和弦組成音、鍵盤圖示和指法，請參考各性質的和弦參考頁：
 
-- [[chord_major]] — 大三和弦（12 個調）
-- [[chord_minor]] — 小三和弦（12 個調）
-- [[chord_diminished]] — 減三和弦（12 個調）
-- [[chord_augmented]] — 增三和弦（12 個調）
+- [chord_major](chord_major.md) — 大三和弦（12 個調）
+- [chord_minor](chord_minor.md) — 小三和弦（12 個調）
+- [chord_diminished](chord_diminished.md) — 減三和弦（12 個調）
+- [chord_augmented](chord_augmented.md) — 增三和弦（12 個調）

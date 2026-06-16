@@ -122,7 +122,7 @@ tags: [harmony, extended_chord, ninth, eleventh, thirteenth]
 
 符號：**Cm9 / Cmin9**
 
-各調九和弦詳表：[[chord_9th]]
+各調九和弦詳表：[chord_9th](chord_9th.md)
 
 ---
 
@@ -219,8 +219,8 @@ B – F – A  +  G 低音（左手）
 
 | 和弦類型 | 詳細參考頁 |
 |---------|----------|
-| 九和弦（dom9 / Maj9 / m9）12 調 | [[chord_9th]] |
-| Sus 和弦（sus4 / sus2） | [[chord_sus]] |
-| Add 和弦（add9 / add11） | [[chord_add]] |
-| 六和弦（maj6 / m6） | [[chord_6th]] |
-| Sus 與 Add 的概念辨析 | [[concept_sus_add_chord]] |
+| 九和弦（dom9 / Maj9 / m9）12 調 | [chord_9th](chord_9th.md) |
+| Sus 和弦（sus4 / sus2） | [chord_sus](chord_sus.md) |
+| Add 和弦（add9 / add11） | [chord_add](chord_add.md) |
+| 六和弦（maj6 / m6） | [chord_6th](chord_6th.md) |
+| Sus 與 Add 的概念辨析 | [concept_sus_add_chord](concept_sus_add_chord.md) |

@@ -83,7 +83,7 @@ Csus4 → Am（常見替代解決）：
 懸掛感解決至小三和弦，情緒更柔和
 ```
 
-Sus 和弦常用在歌曲的 **intro / outro / 橋段**，製造期待感或開放感。詳見：[[chord_sus]]
+Sus 和弦常用在歌曲的 **intro / outro / 橋段**，製造期待感或開放感。詳見：[chord_sus](chord_sus.md)
 
 ---
 
@@ -128,7 +128,7 @@ Sus 和弦常用在歌曲的 **intro / outro / 橋段**，製造期待感或開�
 
 Add11 比 add9 少見，但常出現在特定風格的鋼琴聲位中。
 
-詳見：[[chord_add]]
+詳見：[chord_add](chord_add.md)
 
 ---
 
@@ -186,8 +186,8 @@ C11   = C – (E) – G – B♭ – D – F
 
 | 概念 / 參考頁 | 連結 |
 |-------------|------|
-| Sus 和弦 12 調列表 | [[chord_sus]] |
-| Add 和弦 12 調列表 | [[chord_add]] |
-| 九和弦 12 調列表 | [[chord_9th]] |
-| 六和弦（Maj6 / m6） | [[chord_6th]] |
-| 延伸和弦總覽 | [[concept_extended_chord]] |
+| Sus 和弦 12 調列表 | [chord_sus](chord_sus.md) |
+| Add 和弦 12 調列表 | [chord_add](chord_add.md) |
+| 九和弦 12 調列表 | [chord_9th](chord_9th.md) |
+| 六和弦（Maj6 / m6） | [chord_6th](chord_6th.md) |
+| 延伸和弦總覽 | [concept_extended_chord](concept_extended_chord.md) |

@@ -58,7 +58,7 @@ tags: [harmony, chord, major, triad]
 - 彈奏時確保三個音同時下鍵，手腕略放鬆，避免僵硬。
 - 第一轉位可用 **1–2–5** 或 **1–2–4**；第二轉位常用 **1–3–5**。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

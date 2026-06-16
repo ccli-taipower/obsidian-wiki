@@ -62,7 +62,7 @@ tags: [harmony, chord, seventh_chord, minor7]
 - 練習重點：Am7（A-C-E-G）→ Dm7（D-F-A-C）→ G7 → Cmaj7，完整一圈 ii-V-I。
 - 第三轉位（♭7 在低音）可作為低音聲部下行的中間站：Cmaj7 → Bm7（第三轉位）→ Am7。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

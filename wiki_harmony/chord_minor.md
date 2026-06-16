@@ -60,7 +60,7 @@ tags: [harmony, chord, minor, triad]
 - 與大三和弦指法相同，但注意降三音通常落在黑鍵，手指角度需微調。
 - 若根音在黑鍵（如 C#m），建議用 **1–2–4** 或 **2–3–5** 以利手腕擺位。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

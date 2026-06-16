@@ -65,7 +65,7 @@ tags: [harmony, chord, seventh_chord, dominant7]
 - 四音和弦跨度較大，初學者先熟悉根音位置，再練習各轉位。
 - 練習目標：12 個調的 G7→C 解決，左手低音同時下行。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

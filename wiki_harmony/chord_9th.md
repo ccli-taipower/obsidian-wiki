@@ -143,7 +143,7 @@ E♭ – G – B♭ – D（♭3rd + 5th + ♭7th + 9th）
 - 練習進路：先熟悉 G9 → Cmaj7（屬九解決至大七），再擴展至 12 個調。
 - 大九和弦（Cmaj9）的聲位 E–G–B–D 在鍵盤上跨度大，可以考慮第二轉位 G–B–D–E，壓縮在更小的音域。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ---
 

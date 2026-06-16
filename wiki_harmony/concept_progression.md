@@ -289,13 +289,13 @@ G 大調是練習移調最方便的選擇（鋼琴上只多一個黑鍵 F#）。
 
 很多流行歌的和弦進行在網路上都有 chord chart，找一首你喜歡的，對照本頁的 8 個進行，看看你能認出哪個骨架。
 
-> 想深入了解移調的系統方法，前往 [[concept_modulation]]。
+> 想深入了解移調的系統方法，前往 [concept_modulation](concept_modulation.md)。
 
 ---
 
 ## 延伸參考
 
-- [[concept_chord_function]] — T / S / D 功能體系，理解「為什麼這樣走」
-- [[concept_cadence]] — 進行的句末終止式（正格、半、變格、欺騙）
-- [[concept_seventh_chord]] — 加上七音之後進行的色彩變化（尤其 ii7、V7、Imaj7）
-- [[concept_modulation]] — 移調（轉調）的理論與鍵盤實作
+- [concept_chord_function](concept_chord_function.md) — T / S / D 功能體系，理解「為什麼這樣走」
+- [concept_cadence](concept_cadence.md) — 進行的句末終止式（正格、半、變格、欺騙）
+- [concept_seventh_chord](concept_seventh_chord.md) — 加上七音之後進行的色彩變化（尤其 ii7、V7、Imaj7）
+- [concept_modulation](concept_modulation.md) — 移調（轉調）的理論與鍵盤實作

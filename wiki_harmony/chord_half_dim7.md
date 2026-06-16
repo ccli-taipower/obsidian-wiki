@@ -73,7 +73,7 @@ tags: [harmony, chord, seventh_chord, half_dim7, minor7b5]
 - 重點練習：Bø7 → E7 → Am（A 小調 ii-V-i），是學爵士小調和聲的第一個核心進行。
 - 熟悉後嘗試 12 個調的 iiø7，每個調的 minor ii-V-i 都用得上。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

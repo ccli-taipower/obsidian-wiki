@@ -101,7 +101,7 @@ alto:          E4（四分）→ F4（四分）
 C4 先用 RH 3 按，再悄換 RH 2，讓 3 去按 E4
 ```
 
-詳見 → [[concept_counterpoint_basics]]，有完整的複音指法框架
+詳見 → [concept_counterpoint_basics](concept_counterpoint_basics.md)，有完整的複音指法框架
 
 ---
 
@@ -124,7 +124,7 @@ C4 先用 RH 3 按，再悄換 RH 2，讓 3 去按 E4
 - 邊 = 和弦間的換指代價（由聲部導進距離決定）
 - 最短路徑 = 最省力的和弦序列指法
 
-詳見 → [[concept_voice_leading]]，有聲部導進到指法成本的對應
+詳見 → [concept_voice_leading](concept_voice_leading.md)，有聲部導進到指法成本的對應
 
 ---
 
@@ -234,8 +234,8 @@ mm. 20–23  (Coda)   主音（簡化），最後幾小節和弦織體收尾
 
 ## 相關頁面
 
-- [[concept_voice_leading]] — 聲部導進原則，直接決定和弦織體的換指成本
-- [[concept_counterpoint_basics]] — 複音織體的指法框架：聲部分配、換指替代
+- [concept_voice_leading](concept_voice_leading.md) — 聲部導進原則，直接決定和弦織體的換指成本
+- [concept_counterpoint_basics](concept_counterpoint_basics.md) — 複音織體的指法框架：聲部分配、換指替代
 - `wiki_piano/concept_scale_fingering` — 旋律線 / 單音織體的基礎指法規則
 - `wiki_piano/concept_chord_fingering`（待建）— 和弦手型與指法選擇
 - `wiki_piano/concept_hand_distribution`（待建）— 聲部在雙手間的分配策略

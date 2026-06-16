@@ -8,7 +8,7 @@ tags: [harmony, chord, add, add9, add11, color_chord]
 
 Add 和弦（added tone chord）在三和弦的基礎上**直接加入一個音**，不需要先有七音。最常見的是 add9，讓三和弦多一道清亮的色彩，同時保持乾淨（無七音的複雜感）。
 
-概念詳解：[[concept_sus_add_chord]]
+概念詳解：[concept_sus_add_chord](concept_sus_add_chord.md)
 
 ---
 
@@ -126,7 +126,7 @@ E – G – D（或 D – G – E）
 - 練習進路：先彈 C → Cadd9 的對比，感受加入 D 後的色彩變化；再練 Gadd9 → Cadd9 的開放流行聲響。
 - Add9 和弦的九音（D in Cadd9）放在最高音時效果最佳，讓顏色在頂部「發光」。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ---
 

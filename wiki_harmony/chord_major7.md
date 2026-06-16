@@ -61,7 +61,7 @@ tags: [harmony, chord, seventh_chord, major7]
 - 第一轉位（E-G-B-C）常出現在聲部進行中，C 在頂端作為旋律音，指法可用 **1–2–4–5**。
 - 練習：Fmaj7 → Cmaj7，熟悉大調 IV → I 的大七色彩。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

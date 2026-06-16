@@ -61,7 +61,7 @@ tags: [harmony, chord, diminished, triad]
 - 由於根音到五音只有 6 個半音，手張開幅度比大/小三和弦略小，初學者反而較容易握持。
 - 彈奏時注意三音和五音通常落在黑鍵（視調而定），手腕宜稍微前傾以接近黑鍵。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

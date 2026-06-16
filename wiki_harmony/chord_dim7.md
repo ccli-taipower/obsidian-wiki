@@ -77,7 +77,7 @@ tags: [harmony, chord, seventh_chord, dim7, diminished7]
 - 常見練習：C°7 → Cmaj7/C（下行解決），或 B°7 → Cmaj7（半音上行導音解決）。
 - 由於對稱性，只需學 3 組指法即可涵蓋全部 12 個根音：C°7、C#°7、D°7。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 

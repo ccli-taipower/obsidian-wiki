@@ -8,7 +8,7 @@ tags: [harmony, chord, sus, sus4, sus2, color_chord]
 
 Sus 和弦（suspended chord）把三和弦的三音「換掉」，改用四音（sus4）或二音（sus2）替代。沒有三音，也就沒有大調或小調的明確性格——聽起來「懸而未決」，帶著開放感。
 
-概念詳解：[[concept_sus_add_chord]]
+概念詳解：[concept_sus_add_chord](concept_sus_add_chord.md)
 
 ---
 
@@ -126,7 +126,7 @@ Csus2 本身也可以作為終止和弦（不需要解決）
 - **Sus2 指法**（根音位置，右手）：**1–2–5**（拇指–食指–小指），食指與拇指只差一個音，注意放鬆。
 - 練習進路：先練 Csus4 → C 的解決，感受 F 到 E 的下行；再練 Gsus4 → G7 → C 的完整屬和弦序列。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ---
 

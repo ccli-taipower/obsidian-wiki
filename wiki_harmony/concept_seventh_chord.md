@@ -74,7 +74,7 @@ tags: [harmony, seventh_chord, chord, music_theory]
 
 - **聽感**：溫暖、成熟、夢幻，帶有「不完全的滿足」。是流行和爵士中常見的主和弦色彩。
 - 符號：**Cmaj7 / CM7 / CΔ7**
-- 詳細：[[chord_major7]]
+- 詳細：[chord_major7](chord_major7.md)
 
 ---
 
@@ -98,7 +98,7 @@ tags: [harmony, seventh_chord, chord, music_theory]
 
 - **聽感**：柔和、略帶憂鬱又帶圓潤感，相比小三和弦更加流動。大調中 ii 級、iii 級、vi 級的自然七和弦均為此類型。
 - 符號：**Cm7 / Cmin7**
-- 詳細：[[chord_minor7]]
+- 詳細：[chord_minor7](chord_minor7.md)
 
 ---
 
@@ -120,7 +120,7 @@ tags: [harmony, seventh_chord, chord, music_theory]
 
 - **聽感**：強烈張力，幾乎「必須」向前解決。三音（E）和七音（B♭）之間形成**三全音（tritone）**，是張力的來源。
 - 符號：**C7**（直接寫數字 7，不加其他標記）
-- 詳細：[[chord_dominant7]]
+- 詳細：[chord_dominant7](chord_dominant7.md)
 
 ---
 
@@ -144,7 +144,7 @@ tags: [harmony, seventh_chord, chord, music_theory]
 
 - **聽感**：極度緊張、驚悚、懸而未決。四個音完全等距（各 3 半音），整體和弦有完美對稱性——任何音都可視為根音。
 - 符號：**C°7 / Cdim7**
-- 詳細：[[chord_dim7]]
+- 詳細：[chord_dim7](chord_dim7.md)
 
 ---
 
@@ -166,7 +166,7 @@ tags: [harmony, seventh_chord, chord, music_theory]
 
 - **聽感**：比減七和弦稍緩和，保留緊張感但又帶點柔性哀愁。大調中 vii 級的自然七和弦即為此類型。
 - 符號：**Cø7 / Cm7♭5**（ø = half-diminished 符號）
-- 詳細：[[chord_half_dim7]]
+- 詳細：[chord_half_dim7](chord_half_dim7.md)
 
 ---
 
@@ -327,13 +327,13 @@ F：   C – F – A – C  （或 F–A–C 省略其中音）
 
 > 屬七和弦（V7）→ 主和弦（I）是西洋調性音樂裡**最強的和聲動力**。從巴哈到流行樂，這個進行無處不在。沒有 V7，音樂的「回家感」（cadence）就大打折扣。
 
-和弦功能的完整體系，見：[[concept_chord_function]]
+和弦功能的完整體系，見：[concept_chord_function](concept_chord_function.md)
 
 ---
 
 ## 5. 大調音階上的七和弦
 
-把 [[concept_triad]] 中每個級數的三和弦再往上疊一個三度，就得到七個**順階七和弦（diatonic seventh chords）**。
+把 [concept_triad](concept_triad.md) 中每個級數的三和弦再往上疊一個三度，就得到七個**順階七和弦（diatonic seventh chords）**。
 
 ### C 大調的七個順階七和弦
 
@@ -371,12 +371,12 @@ I     ii    iii   IV    V     vi    vii
                                距根音九度（= 八度 + 二度）
 ```
 
-這些「七音以上的延伸」稱為**延伸和弦（Extended Chords）**：9th、11th、13th。爵士和弦常以此堆疊，產生豐厚的色彩層次。詳見：[[concept_extended_chord]]
+這些「七音以上的延伸」稱為**延伸和弦（Extended Chords）**：9th、11th、13th。爵士和弦常以此堆疊，產生豐厚的色彩層次。詳見：[concept_extended_chord](concept_extended_chord.md)
 
 ### 各七和弦的 12 個調詳表
 
-- [[chord_major7]] — 大七和弦（12 個調）
-- [[chord_minor7]] — 小七和弦（12 個調）
-- [[chord_dominant7]] — 屬七和弦（12 個調）
-- [[chord_dim7]] — 減七和弦（12 個調）
-- [[chord_half_dim7]] — 半減七和弦（12 個調）
+- [chord_major7](chord_major7.md) — 大七和弦（12 個調）
+- [chord_minor7](chord_minor7.md) — 小七和弦（12 個調）
+- [chord_dominant7](chord_dominant7.md) — 屬七和弦（12 個調）
+- [chord_dim7](chord_dim7.md) — 減七和弦（12 個調）
+- [chord_half_dim7](chord_half_dim7.md) — 半減七和弦（12 個調）

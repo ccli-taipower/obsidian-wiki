@@ -23,7 +23,7 @@ tags: [harmony, chord, sixth, major6, minor6, color_chord]
 
 注意：兩種六和弦加的都是**大六度（major 6th）**，差異只在三音（大三 vs 小三）。
 
-六和弦和 [[chord_minor7]] 的關係：**Am7（A–C–E–G）= C6（C–E–G–A）的轉位**（同樣四個音）。這是爵士中常見的等音代換。
+六和弦和 [chord_minor7](chord_minor7.md) 的關係：**Am7（A–C–E–G）= C6（C–E–G–A）的轉位**（同樣四個音）。這是爵士中常見的等音代換。
 
 ---
 
@@ -117,7 +117,7 @@ tags: [harmony, chord, sixth, major6, minor6, color_chord]
 - **Cm6 鋼琴 ballad 聲位**：`E♭–G–A`，左手 C 低音，帶拉丁或電影配樂色彩
 - 練習進路：先練 C → C6 → Cmaj7 的色彩比較，感受三種頂音（G、A、B）的不同感受；再練 C6 → F6 → G7 → C6（傳統爵士進行）。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ---
 

@@ -427,4 +427,4 @@ C-D  D-E  E-F  F-G  G-A  A-B  B-C
 
 **三和弦（triad）**是下一個目標：任何三和弦都是兩個三度疊加而成。大三和弦（major triad）= M3 + m3；小三和弦（minor triad）= m3 + M3；減三和弦（diminished triad）= m3 + m3。認識音程之後，和弦的結構就變得透明。
 
-繼續閱讀：[[concept_triad]]
+繼續閱讀：[concept_triad — 三和弦](concept_triad.md)

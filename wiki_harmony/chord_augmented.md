@@ -75,7 +75,7 @@ tags: [harmony, chord, augmented, triad]
 - 增三和弦三音等距，轉位後手型幾乎相同，練習時可從一個手型入手，理解三種根音寫法共享同一個鍵盤形狀。
 - 遇到 G#+ 等根音在黑鍵的情形，建議用 **2–3–5** 或 **1–2–4**，視手掌大小而定。
 
-→ 指法詳見 [[../wiki_piano/concept_chord_fingering|和弦指法]]
+→ 指法詳見 [和弦指法](../wiki_piano/concept_chord_fingering.md)
 
 ## 聽覺特徵
 
