@@ -51,11 +51,28 @@ date_created: 2026-06-16
 - [chord_add](chord_add.md) — Add 和弦：add9/add11/add13、不含中間延伸音
 - [chord_6th](chord_6th.md) — 六和弦：大六/小六、與九和弦的等音關係
 
-## 和弦總表拼圖
+## 和弦總表
 
-![和弦總表拼圖](../raw/piano_fingering/IMG_1069_chord_chart.jpg)
+12 調 × 10 種和弦型，組成音速查。詳細說明見各 chord_ 參考頁。
 
-和弦對照圖（拼圖形式）：收錄各調大/小/屬七等常用和弦的根音排列與轉位，可作為速查參考。
+| 根音 | Major | Minor | Dim | Aug | Dom7 | Maj7 | Min7 | Dim7 | Sus4 | 6th |
+|------|-------|-------|-----|-----|------|------|------|------|------|-----|
+| **C** | C-E-G | C-E♭-G | C-E♭-G♭ | C-E-G# | C-E-G-B♭ | C-E-G-B | C-E♭-G-B♭ | C-E♭-G♭-A | C-F-G | C-E-G-A |
+| **C#/D♭** | C#-F-G# | C#-E-G# | C#-E-G | C#-F-A | C#-F-G#-B | C#-F-G#-C | C#-E-G#-B | C#-E-G-A# | C#-F#-G# | C#-F-G#-A# |
+| **D** | D-F#-A | D-F-A | D-F-A♭ | D-F#-A# | D-F#-A-C | D-F#-A-C# | D-F-A-C | D-F-A♭-B | D-G-A | D-F#-A-B |
+| **D#/E♭** | E♭-G-B♭ | E♭-G♭-B♭ | E♭-G♭-A | E♭-G-B | E♭-G-B♭-D♭ | E♭-G-B♭-D | E♭-G♭-B♭-D♭ | E♭-G♭-A-C | E♭-A♭-B♭ | E♭-G-B♭-C |
+| **E** | E-G#-B | E-G-B | E-G-B♭ | E-G#-C | E-G#-B-D | E-G#-B-D# | E-G-B-D | E-G-B♭-D♭ | E-A-B | E-G#-B-C# |
+| **F** | F-A-C | F-A♭-C | F-A♭-B | F-A-C# | F-A-C-E♭ | F-A-C-E | F-A♭-C-E♭ | F-A♭-B-D | F-B♭-C | F-A-C-D |
+| **F#/G♭** | F#-A#-C# | F#-A-C# | F#-A-C | F#-A#-D | F#-A#-C#-E | F#-A#-C#-F | F#-A-C#-E | F#-A-C-D# | F#-B-C# | F#-A#-C#-D# |
+| **G** | G-B-D | G-B♭-D | G-B♭-D♭ | G-B-D# | G-B-D-F | G-B-D-F# | G-B♭-D-F | G-B♭-D♭-E | G-C-D | G-B-D-E |
+| **G#/A♭** | A♭-C-E♭ | A♭-B-E♭ | A♭-B-D | A♭-C-E | A♭-C-E♭-G♭ | A♭-C-E♭-G | A♭-B-E♭-G♭ | A♭-B-D-F | A♭-D♭-E♭ | A♭-C-E♭-F |
+| **A** | A-C#-E | A-C-E | A-C-E♭ | A-C#-F | A-C#-E-G | A-C#-E-G# | A-C-E-G | A-C-E♭-G♭ | A-D-E | A-C#-E-F# |
+| **A#/B♭** | B♭-D-F | B♭-D♭-F | B♭-D♭-E | B♭-D-F# | B♭-D-F-A♭ | B♭-D-F-A | B♭-D♭-F-A♭ | B♭-D♭-E-G | B♭-E♭-F | B♭-D-F-G |
+| **B** | B-D#-F# | B-D-F# | B-D-F | B-D#-G | B-D#-F#-A | B-D#-F#-A# | B-D-F#-A | B-D-F-A♭ | B-E-F# | B-D#-F#-G# |
+
+> 和弦拼圖實物照（ccli's home & music）：
+>
+> ![和弦總表拼圖](../raw/piano_fingering/IMG_1069_chord_chart.jpg)
 
 ## 相關資源
 
