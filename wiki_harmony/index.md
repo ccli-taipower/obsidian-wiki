@@ -53,7 +53,7 @@ date_created: 2026-06-16
 
 ## 和弦總表拼圖
 
-![[../raw/piano_fingering/IMG_1069 (1).HEIC]]
+![[IMG_1069 (1).HEIC]]
 
 和弦對照圖（拼圖形式）：收錄各調大/小/屬七等常用和弦的根音排列與轉位，可作為速查參考。
 
@@ -61,6 +61,6 @@ date_created: 2026-06-16
 
 鋼琴彈奏對應（見 wiki_piano）：
 
-- [[../wiki_piano/concept_chord_fingering|和弦指法]] — 三和弦各轉位標準指法、音域適應、左手例外規則
-- [[../wiki_piano/concept_chord_voicing_fingering|和弦聲部突顯指法]] — top-voice / bass-voice / inner-voice 強指偏好
-- [[../wiki_piano/concept_standard_scale_arpeggio_fingering|標準音階琶音指法]] — 音階/琶音與和聲結構的連結
+- [[concept_chord_fingering|和弦指法]] — 三和弦各轉位標準指法、音域適應、左手例外規則
+- [[concept_chord_voicing_fingering|和弦聲部突顯指法]] — top-voice / bass-voice / inner-voice 強指偏好
+- [[concept_standard_scale_arpeggio_fingering|標準音階琶音指法]] — 音階/琶音與和聲結構的連結
