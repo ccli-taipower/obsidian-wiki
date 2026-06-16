@@ -69,11 +69,6 @@ date_created: 2026-06-16
 | **A** | A-C#-E | A-C-E | A-C-E♭ | A-C#-F | A-C#-E-G | A-C#-E-G# | A-C-E-G | A-C-E♭-G♭ | A-D-E | A-C#-E-F# |
 | **A#/B♭** | B♭-D-F | B♭-D♭-F | B♭-D♭-E | B♭-D-F# | B♭-D-F-A♭ | B♭-D-F-A | B♭-D♭-F-A♭ | B♭-D♭-E-G | B♭-E♭-F | B♭-D-F-G |
 | **B** | B-D#-F# | B-D-F# | B-D-F | B-D#-G | B-D#-F#-A | B-D#-F#-A# | B-D-F#-A | B-D-F-A♭ | B-E-F# | B-D#-F#-G# |
-
-> 和弦拼圖實物照（ccli's home & music）：
->
-> ![和弦總表拼圖](../raw/piano_fingering/IMG_1069_chord_chart.jpg)
-
 ## 相關資源
 
 鋼琴彈奏對應（見 wiki_piano）：
