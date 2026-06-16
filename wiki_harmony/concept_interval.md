@@ -425,6 +425,6 @@ C-D  D-E  E-F  F-G  G-A  A-B  B-C
 
 音程是和聲理論的原子（atom）——所有更複雜的結構都由它組成。掌握了音程的度數、性質、協和度和轉位，你就具備了讀懂和弦的基本語言。
 
-**三和弦（triad）**是下一個目標：任何三和弦都是兩個三度疊加而成。大三和弦（major triad）= M3 + m3；小三和弦（minor triad）= m3 + M3；減三和弦（diminished triad）= m3 + m3。認識音程之後，和弦的結構就變得透明。
+下一步是了解**音階與調性**——用全音和半音的排列模式組成大調和小調音階，認識調號和五度圈，為後續的和弦功能分析打底。
 
-繼續閱讀：[concept_triad — 三和弦](concept_triad.md)
+繼續閱讀：[concept_scale_and_key — 音階與調性](concept_scale_and_key.md)
