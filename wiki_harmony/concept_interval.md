@@ -407,7 +407,7 @@ C-D  D-E  E-F  F-G  G-A  A-B  B-C
 1. C → Ab（上行）= ？
 2. D → F（上行）= ？
 3. G → D'（上行）= ？
-4. E → C（下行，即 C 在上）= ？
+4. E → C'（上行）= ？
 
 <details>
 <summary>答案</summary>
