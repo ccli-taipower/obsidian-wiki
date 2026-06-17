@@ -19,7 +19,7 @@ date_created: 2026-06-16
 1. [concept_interval](concept_interval.md) — **音程基礎**：半音距離、音程品質（完全/大/小/增/減）、協和與不協和
 2. [concept_scale_and_key](concept_scale_and_key.md) — **音階與調性**：大調/小調音階、調號、關係調與平行調、五度圈、順階和弦
 3. [concept_triad](concept_triad.md) — **三和弦**：大/小/減/增四種品質、根音位/第一轉位/第二轉位
-4. [concept_seventh_chord](concept_seventh_chord.md) — **七和弦**：五種常見七和弦型、轉位記法、功能用途
+4. [concept_seventh_chord](concept_seventh_chord.md) — **七和弦**：8 種七和弦（4 種三和弦 × M3/m3 系統分類）、轉位記法、功能用途
 5. [concept_extended_chord](concept_extended_chord.md) — **延伸和弦（九/十一/十三）**：疊加三度、爵士聲部省略規則
 6. [concept_sus_add_chord](concept_sus_add_chord.md) — **Sus 與 Add 色彩和弦**：sus2/sus4、add9/add11、與延伸和弦的區別
 7. [concept_chord_function](concept_chord_function.md) — **功能和聲（T/S/D）**：主功能/下屬功能/屬功能、大調小調中的對應級數
