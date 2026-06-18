@@ -1,6 +1,6 @@
 	# Piano Fingering Wiki
 
-> Last updated: 2026-05-29 | Sources: 21 | Concepts: 24 | Analyses: 7 | Total: 54 active pages | Raw: 9 files
+> Last updated: 2026-05-29 | Sources: 21 | Concepts: 31 | Analyses: 7 | Total: 61 active pages | Raw: 9 files
 > 並列 wiki：[../wiki_phrase/index](../wiki_phrase/index.md) (樂句分段) + [../wiki_articulation/index](../wiki_articulation/index.md) (連結 / 斷奏 / 觸鍵詮釋) + [../wiki_harmony/index](../wiki_harmony/index.md) (和聲樂理)
 
 ## Sources — Computational Models
@@ -79,6 +79,13 @@
 - [Weak Finger Development](concept_weak_finger_development.md) — 弱指 4-5 訓練（Hanon/Czerny 派傳統）+ Schumann 失敗教訓 + 現代最佳實踐
 - [Hand Position Stability](concept_hand_position_stability.md) — 手位穩定性 + 與 thumb-pass / substitution / phrase boundary 互動
 - [Accompaniment Patterns](concept_accompaniment_patterns.md) — 伴奏型態：Block/Alberti/Arpeggio/流行/Bossa Nova/Swing/Rock/Latin
+- [Glissando 滑音技巧](concept_glissando.md) — 上行/下行手部動作、白鍵/黑鍵技巧、受傷風險與安全注意
+- [Ornaments 裝飾音](concept_ornaments.md) — 倚音/迴音/波音/裝飾顫音、巴洛克 vs 古典 vs 浪漫演奏慣例
+- [Legato & Staccato 連奏與斷奏](concept_legato_staccato.md) — 連跳交替、三種斷奏（手指/手腕/手臂）、圓滑度光譜
+- [Fast Passage Evenness 快速音群平均性](concept_fast_passage_evenness.md) — 時值/音量/音色均勻、節奏變化練習法、往返循環音型
+- [Single-Hand Polyphony 單手雙聲部](concept_single_hand_polyphony.md) — 持音 vs 移動手指分配、力度分層、換指替代應用
+- [Black Key Accuracy 黑鍵命中率](concept_black_key_accuracy.md) — 手位內移調整、拇指黑鍵例外、Chopin 自然手位觀點
+- [Practice Methodology 練習方法論](concept_practice_methodology.md) — 刻意練習、慢練迷思、分段/間隔練習、心理練習、練習計劃設計
 
 ## Analyses
 
