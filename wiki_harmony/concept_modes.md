@@ -41,6 +41,8 @@ tags: [harmony, modes, scale, music_theory]
 | VII | Locrian（洛克里安） | B | B C D E F G A | H-W-W-H-W-W-W |
 
 > **Ionian = 大調，Aeolian = 自然小調。** 你已經學過兩種了！
+>
+> 順序口訣：**「我的霹靂貓阿諾」**（**伊**奧尼安、**多**利安、**弗**里吉亞、**利**底亞、**混**合利底亞、**艾**奧利安、**洛**克里安）
 
 ---
 
