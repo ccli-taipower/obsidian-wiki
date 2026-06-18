@@ -30,15 +30,15 @@ tags: [harmony, modes, scale, music_theory]
 
 以下用 C 大調白鍵為例，展示七種調式的全半音排列。**這只是為了方便觀察——每種調式都能移到任何根音上（見 §4.5）。**
 
-| # | 調式名 | 起始音 | 音階 | 全半音公式 |
-|---|--------|--------|------|-----------|
-| I | Ionian（伊奧尼安） | C | C D E F G A B | W-W-H-W-W-W-H |
-| II | Dorian（多利安） | D | D E F G A B C | W-H-W-W-W-H-W |
-| III | Phrygian（弗里吉亞） | E | E F G A B C D | H-W-W-W-H-W-W |
-| IV | Lydian（利底亞） | F | F G A B C D E | W-W-W-H-W-W-H |
-| V | Mixolydian（混合利底亞） | G | G A B C D E F | W-W-H-W-W-H-W |
-| VI | Aeolian（艾奧利安） | A | A B C D E F G | W-H-W-W-H-W-W |
-| VII | Locrian（洛克里安） | B | B C D E F G A | H-W-W-H-W-W-W |
+| # | 調式名 | 類型 | 起始音 | 音階 | 全半音公式 |
+|---|--------|------|--------|------|-----------|
+| I | Ionian（伊奧尼安） | 大調型 | C | C D E F G A B | W-W-H-W-W-W-H |
+| II | Dorian（多利安） | 小調型 | D | D E F G A B C | W-H-W-W-W-H-W |
+| III | Phrygian（弗里吉亞） | 小調型 | E | E F G A B C D | H-W-W-W-H-W-W |
+| IV | Lydian（利底亞） | 大調型 | F | F G A B C D E | W-W-W-H-W-W-H |
+| V | Mixolydian（混合利底亞） | 大調型 | G | G A B C D E F | W-W-H-W-W-H-W |
+| VI | Aeolian（艾奧利安） | 小調型 | A | A B C D E F G | W-H-W-W-H-W-W |
+| VII | Locrian（洛克里安） | 小調型 | B | B C D E F G A | H-W-W-H-W-W-W |
 
 > **Ionian = 大調，Aeolian = 自然小調。** 你已經學過兩種了！
 >
