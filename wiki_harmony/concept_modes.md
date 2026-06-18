@@ -207,5 +207,5 @@ Lydian  Ionian  Mixolydian  Dorian  Aeolian  Phrygian  Locrian
 
 ## 下一步
 
-- [concept_scale_and_key](concept_scale_and_key.md) — 複習大調/小調音階與調號
+- [concept_triad](concept_triad.md) — 大/小/減/增四種三和弦的結構與轉位
 - [concept_chord_function](concept_chord_function.md) — 了解和弦在調性中的功能角色
