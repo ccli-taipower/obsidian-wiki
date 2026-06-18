@@ -207,5 +207,12 @@ Lydian  Ionian  Mixolydian  Dorian  Aeolian  Phrygian  Locrian
 
 ## 下一步
 
-- [concept_triad](concept_triad.md) — 大/小/減/增四種三和弦的結構與轉位
-- [concept_chord_function](concept_chord_function.md) — 了解和弦在調性中的功能角色
+- [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 另一種「不是大調也不是小調」的音階系統
+- [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — 每個順階和弦對應哪個調式？即興的起點
+- [concept_non_functional_harmony — 非功能和聲](concept_non_functional_harmony.md) — 調式和聲：不靠 V→I 驅動的和弦用法
+
+## 延伸參考
+
+- [concept_triad — 三和弦](concept_triad.md) — 各調式順階和弦的基礎結構
+- [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 全音、減音階等超越七聲框架的特殊音階
+- [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 回顧大調 / 小調基礎

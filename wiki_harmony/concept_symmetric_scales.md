@@ -367,6 +367,11 @@ m(maj7)           → 旋律小調
 
 ## 下一步
 
-- [concept_modes — 教會調式](concept_modes.md) — 回顧七種基本調式的結構與聽感
-- [concept_pentatonic_blues — 五聲音階與藍調音階](concept_pentatonic_blues.md) — 另一類「特殊」音階：用減法創造的五聲系統
-- [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 回到基礎，複習大調/小調音階的全音半音排列
+- [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — 對稱音階如何對應特定和弦（如 dim7 → 減音階）
+
+## 延伸參考
+
+- [concept_modes — 教會調式](concept_modes.md) — 回顧七種基本調式的結構
+- [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 用減法建構的五聲系統
+- [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — Altered Scale 是 ♭II7 代理的首選音階
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — 自然泛音 vs 人工對稱結構的對比

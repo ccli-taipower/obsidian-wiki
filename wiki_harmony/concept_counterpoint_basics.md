@@ -6,6 +6,9 @@ tags: [harmony, counterpoint, polyphony, fingering, piano]
 
 # 對位法基礎（Counterpoint Basics）
 
+> 前置知識：[concept_voice_leading — 聲部導進](concept_voice_leading.md)（共同音保留、級進移動）
+> 建議先讀：[concept_interval — 音程基礎](concept_interval.md)（協和 / 不協和音程的辨認）
+
 和聲學告訴我們「這一刻，這幾個音組成什麼和弦」；對位法則問「每條旋律線如何獨立地往前走」。對鋼琴演奏而言，認識對位法不只是樂理知識，更直接決定**雙手如何獨立配置指法**。
 
 ---
@@ -285,12 +288,13 @@ RH 上行超過五度時：
 
 ---
 
-## 9. 下一步
+## 下一步
 
-對位法的認識，幫助你選擇適合「幾條線、幾隻手」的指法策略。進一步了解：
+- [concept_texture — 音樂織體](concept_texture.md) — 什麼時候該用對位、什麼時候用主調織體
 
-- **和聲織體類型**（什麼時候是對位，什麼時候是主調）→ [concept_texture](concept_texture.md)
-- **和弦轉換時聲部如何連接** → [concept_voice_leading](concept_voice_leading.md)
-- **跨手聲部分界線** → [../wiki_piano/concept_cross_staff_voice_boundary.md](../wiki_piano/concept_cross_staff_voice_boundary.md)
-- **多聲部手部分配** → [../wiki_piano/concept_hand_distribution.md](../wiki_piano/concept_hand_distribution.md)
-- **同音換指技術** → [../wiki_piano/concept_finger_substitution.md](../wiki_piano/concept_finger_substitution.md)
+## 延伸參考
+
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 和弦連接中的聲部移動規則
+- [../wiki_piano/concept_cross_staff_voice_boundary — 跨譜表聲部邊界](../wiki_piano/concept_cross_staff_voice_boundary.md) — 指法接力不跨聲部
+- [../wiki_piano/concept_hand_distribution — 手部重分配](../wiki_piano/concept_hand_distribution.md) — 多聲部在雙手間的分配策略
+- [../wiki_piano/concept_finger_substitution — 換指技巧](../wiki_piano/concept_finger_substitution.md) — 連奏中的同音換指

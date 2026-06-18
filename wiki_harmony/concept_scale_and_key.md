@@ -310,10 +310,13 @@ B - E - A - D - G - C - F
 
 ---
 
-## 9. 下一步
+## 下一步
 
-- **[concept_modes — 教會調式](concept_modes.md)**：同樣七個音，從不同音開始 → 七種調式，爵士/電影/遊戲常用
-- **[concept_triad — 三和弦](concept_triad.md)**：深入四種三和弦的結構與辨認
-- **[concept_chord_function — 功能和聲](concept_chord_function.md)**：T / S / D 三大功能如何驅動和聲進行
-- **[concept_seventh_chord — 七和弦](concept_seventh_chord.md)**：在三和弦上再疊一個三度
-- **[concept_modulation — 轉調](concept_modulation.md)**：用五度圈規劃調性移動
+- [concept_modes — 教會調式](concept_modes.md) — 同樣七個音，從不同音開始 → 七種調式
+- [concept_triad — 三和弦](concept_triad.md) — 從音階中取出 1-3-5 級疊出和弦
+
+## 延伸參考
+
+- [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 用減法從七聲音階提煉出五聲系統
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — 順階和弦的 T / S / D 功能角色
+- [concept_modulation — 轉調](concept_modulation.md) — 用五度圈規劃調性移動

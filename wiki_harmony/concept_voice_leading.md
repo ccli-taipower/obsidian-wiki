@@ -6,6 +6,9 @@ tags: [harmony, voice_leading, fingering, piano]
 
 # 聲部導進（Voice Leading）
 
+> 前置知識：[concept_chord_function — 功能和聲](concept_chord_function.md)（T / S / D 功能流向）
+> 建議先讀：[concept_triad — 三和弦](concept_triad.md)（和弦組成音）、[concept_seventh_chord — 七和弦](concept_seventh_chord.md)（V7 解決）
+
 你已經知道和弦是什麼、它們有什麼功能、怎麼串成進行——但和弦與和弦「之間」發生了什麼事？每個音從舊和弦「走到」新和弦的路徑，就是**聲部導進（Voice Leading）**。
 
 同樣的 G7 → C，可以用很多種方式把每個音安排給不同手指——有的走法平滑、手指幾乎不需要移動；有的走法生硬、手要跳來跳去。聲部導進好不好，直接決定了這段音樂好不好彈。
@@ -363,14 +366,14 @@ RH：自由加旋律或上方音色
 
 ---
 
-## 9. 下一步
+## 下一步
 
-聲部導進處理的是和弦間的**橫向連接**——每個音如何移動到下一個音。當你把多條這樣的線同時疊起來、讓它們相互獨立又彼此呼應，就進入了**對位法（Counterpoint）**的領域：[concept_counterpoint_basics](concept_counterpoint_basics.md)。
+- [concept_counterpoint_basics — 對位法基礎](concept_counterpoint_basics.md) — 多條獨立旋律線的寫作規則
+- [concept_texture — 音樂織體](concept_texture.md) — 織體類型決定聲部導進的應用方式
 
-此外，聲部導進的考量會因為**織體類型（Texture）**不同而大幅改變——根音位置的柱式和弦（block chords）、分散和弦（arpeggios）、和旋律+伴奏的層次安排，各有不同的指法策略：[concept_texture](concept_texture.md)。
+## 延伸參考
 
-對於 V7 → I 終止式更完整的和聲脈絡，見 [concept_cadence](concept_cadence.md)；ii–V–I 在不同調上的轉換應用，見 [concept_modulation](concept_modulation.md)。
-
----
-
-*聲部導進的藝術，就是讓每個音都走最短的路回到新和弦——手指跟著聲部走，自然找到最省力的路徑。*
+- [concept_cadence — 終止式](concept_cadence.md) — V7 → I 終止式的完整聲部導進脈絡
+- [concept_chromatic_chords — 變化和弦](concept_chromatic_chords.md) — 增六和弦的半音聲部導進
+- [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — 代理和弦的半音解決邏輯
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 七音解決（下行級進）的聲部規則

@@ -6,6 +6,9 @@ tags: [harmony, cadence, phrase_ending]
 
 # 終止式（Cadence）
 
+> 前置知識：[concept_chord_function — 功能和聲](concept_chord_function.md)（T / S / D 三大功能）
+> 建議先讀：[concept_seventh_chord — 七和弦](concept_seventh_chord.md)（V7 的三全音與解決）
+
 學會了和弦功能（T / S / D），你已知道和聲在「移動」——那它在哪裡「停下來」？
 
 **終止式（Cadence）**是樂句結尾的和聲公式，就像語言裡的標點符號：句號讓你完全停下，逗號讓你暫停一下，驚嘆號帶來意外的轉折。音樂同樣用不同的終止式，傳遞「結束了」、「還沒完」、「意外！」的感覺。
@@ -221,16 +224,13 @@ vi  (Am):  A–C–E   ●   ●       ●       ← 意外！（不是 C）
 
 ---
 
-## 6. 下一步
+## 下一步
 
-你現在知道：和弦有功能（T/S/D），樂句有終止式（正格/半/變格/欺騙）。接下來，把這些放進更長的和弦進行裡——
-
-→ [concept_progression](concept_progression.md)：常見和弦進行（I–V–vi–IV 等）的結構分析
-
----
+- [concept_progression — 和弦進行](concept_progression.md) — 把終止式放進更長的和弦序列中分析
 
 ## 延伸參考
 
-- [concept_chord_function](concept_chord_function.md) — 三大功能（T/S/D）與功能流向
-- [concept_triad](concept_triad.md) — 大三、小三和弦結構
-- [concept_seventh_chord](concept_seventh_chord.md) — V7 如何強化終止式的解決感
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — T / S / D 功能流向：終止式的理論根基
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — V7 如何強化正格終止的解決感
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 終止式中各聲部的移動規則
+- [concept_chromatic_chords — 變化和弦](concept_chromatic_chords.md) — 拿坡里、增六和弦出現在終止式脈絡中

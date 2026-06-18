@@ -6,6 +6,9 @@ tags: [harmony, chord_function, tonic, subdominant, dominant]
 
 # 和弦功能（Chord Function）
 
+> 前置知識：[concept_triad — 三和弦](concept_triad.md)（四種三和弦品質）
+> 建議先讀：[concept_scale_and_key — 音階與調性](concept_scale_and_key.md)（順階和弦、調號）
+
 到目前為止你認識了大三和弦、小三和弦、各種七和弦……但這些和弦單獨聽起來只是「顏色」，放進音樂之後才有「意義」。**和弦功能（Chord Function）**就是回答這個問題：某個和弦在一段音樂裡扮演什麼角色？
 
 西方調性音樂（tonal music）把七個自然音階和弦歸納成三大功能，用**穩定 vs. 張力 vs. 渴望回家**來描述它們的關係。掌握這個框架，你就能理解為什麼 I–IV–V–I 聽起來如此「完整」，也能開始分析幾乎所有流行和古典音樂。
@@ -208,13 +211,15 @@ i   (Am): A–C–E   ●   ●   ●
 
 </details>
 
-**下一步**：瞭解和弦功能之後，接下來看樂句如何收尾——前往 [concept_cadence](concept_cadence.md)，認識四種終止式（cadence）。
-
 ---
+
+## 下一步
+
+- [concept_cadence — 終止式](concept_cadence.md) — T / S / D 的功能流向在樂句結尾如何收束
 
 ## 延伸參考
 
-- [concept_triad](concept_triad.md) — 三和弦結構（大、小、減、增）
-- [concept_seventh_chord](concept_seventh_chord.md) — 加入七音後功能如何變化
-- [concept_cadence](concept_cadence.md) — 功能流向在樂句結尾的具體應用
-- [concept_progression](concept_progression.md) — 常見和弦進行
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 加入七音後 V7 的解決驅動力更強
+- [concept_progression — 和弦進行](concept_progression.md) — 功能流向的實際應用：常見進行模式
+- [concept_non_functional_harmony — 非功能和聲](concept_non_functional_harmony.md) — 不靠 T→S→D→T 驅動的和弦邏輯
+- [concept_triad — 三和弦](concept_triad.md) — 回顧順階和弦的結構基礎

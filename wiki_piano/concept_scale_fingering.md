@@ -61,6 +61,20 @@ tags: [piano_fingering, scales, finger_groups, thumb_under, technique]
 - 保持手腕放鬆，不要把拇指強推到手下方
 - 詳見 [concept_thumb_technique](concept_thumb_technique.md)
 
+## 白鍵錨定 (White-Key Anchoring, 2026-06-15)
+
+**基本原則**：音階中拇指只能落在白鍵上。這是無爭議的演奏傳統，任何調的音階指法皆遵循此原則。
+
+### 貪心 3-or-4 算法的侷限
+
+`_compute_scale_pivots` 的貪心演算法（每隔 3 或 4 鍵切換拇指）在 C / G / D / A / E 等白鍵多的調上成立，因為這些調的白鍵恰好落在 3–4 鍵間距。然而在黑鍵密集調（C♯、E♭、A♭、D♭）上，貪心切割點可能落在黑鍵，違反基本原則。
+
+### 白鍵錨定修復
+
+`_white_key_anchored_pivots(seg, groups, hand)` 在貪心結果含黑鍵 pivot 時介入，重新搜尋各 pivot 附近最近的白鍵作為替代落點（engaged only when greedy lands on black）。`SCALE_THUMB_BLACK_PENALTY = 5.0` 在 `_run_phrase_dp` 的初始化迴圈與內層迴圈中對首音 thumb 落黑鍵施加 scale-local 懲罰，補強非 pivot 起始音的約束。兩者合力使長音階 DP 在所有調上都符合「拇指只落白鍵」的基本原則。
+
+**DP 對應**：`_compute_scale_pivots` / `_white_key_anchored_pivots` / `SCALE_THUMB_BLACK_PENALTY`（`program/run.py`，`USE_LONG_SCALE_THUMB_UNDER` flag）。
+
 ## 來源
 
 - [src_graham_fitch_video_series](src_graham_fitch_video_series.md)

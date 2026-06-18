@@ -339,6 +339,12 @@ D → Eb → E
 
 ## 下一步
 
-- [concept_modes — 教會調式](concept_modes.md) — 七種調式的結構與聽感，更多音階的「味道」變化
-- [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 回顧大調/小調音階的基礎
-- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 深入了解藍調中廣泛使用的屬七和弦
+- [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 全音音階、減音階等更多特殊音階
+- [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — 五聲音階在即興中的和弦對應用法
+
+## 延伸參考
+
+- [concept_modes — 教會調式](concept_modes.md) — 七種調式的結構與色彩：更多音階的「味道」變化
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 藍調中廣泛使用的屬七和弦
+- [concept_progression — 和弦進行](concept_progression.md) — 12 小節藍調也是一種和弦進行模式
+- [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 回顧大調 / 小調音階基礎

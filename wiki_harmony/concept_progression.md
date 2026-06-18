@@ -6,6 +6,9 @@ tags: [harmony, progression, pop, jazz, blues]
 
 # 和弦進行（Chord Progression）
 
+> 前置知識：[concept_chord_function — 功能和聲](concept_chord_function.md)（T / S / D 功能流向）
+> 建議先讀：[concept_cadence — 終止式](concept_cadence.md)（正格 / 半 / 變格 / 欺騙終止）
+
 ---
 
 ## 1. 什麼是和弦進行
@@ -326,9 +329,14 @@ G 大調是練習移調最方便的選擇（鋼琴上只多一個黑鍵 F#）。
 
 ---
 
+## 下一步
+
+- [concept_secondary_dominant — 副屬和弦](concept_secondary_dominant.md) — 在進行中「借用」其他調的 V，強化到達感
+
 ## 延伸參考
 
-- [concept_chord_function](concept_chord_function.md) — T / S / D 功能體系，理解「為什麼這樣走」
-- [concept_cadence](concept_cadence.md) — 進行的句末終止式（正格、半、變格、欺騙）
-- [concept_seventh_chord](concept_seventh_chord.md) — 加上七音之後進行的色彩變化（尤其 ii7、V7、Imaj7）
-- [concept_modulation](concept_modulation.md) — 移調（轉調）的理論與鍵盤實作
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — 理解進行背後的 T / S / D 驅動力
+- [concept_cadence — 終止式](concept_cadence.md) — 進行的句末如何收束
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — ii7–V7–Imaj7 等進行的色彩變化
+- [concept_modulation — 轉調](concept_modulation.md) — 當進行跨越調性邊界
+- [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 12 小節藍調進行

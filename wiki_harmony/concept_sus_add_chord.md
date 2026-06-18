@@ -6,6 +6,9 @@ tags: [harmony, sus, add, color_chord]
 
 # Sus 與 Add 和弦（Suspended & Added Tone Chords）
 
+> 前置知識：[concept_triad — 三和弦](concept_triad.md)（三和弦的三音與五音概念）
+> 建議先讀：[concept_extended_chord — 延伸和弦](concept_extended_chord.md)（九 / 十一 / 十三和弦的疊加邏輯）
+
 九和弦、十一和弦都必須先通過七和弦，再往上疊。但有兩類和弦走了「捷徑」：
 
 - **sus 和弦**：把三音換掉，改用別的音
@@ -215,12 +218,13 @@ C11   = C – (E) – G – B♭ – D – F
 
 ---
 
-## 5. 下一步
+## 下一步
 
-| 概念 / 參考頁 | 連結 |
-|-------------|------|
-| Sus 和弦 12 調列表 | [chord_sus](chord_sus.md) |
-| Add 和弦 12 調列表 | [chord_add](chord_add.md) |
-| 九和弦 12 調列表 | [chord_9th](chord_9th.md) |
-| 六和弦（Maj6 / m6） | [chord_6th](chord_6th.md) |
-| 延伸和弦總覽 | [concept_extended_chord](concept_extended_chord.md) |
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — sus4 的懸留解決與和弦功能的關係
+
+## 延伸參考
+
+- [chord_sus](chord_sus.md)、[chord_add](chord_add.md) — Sus / Add 和弦 12 調速查
+- [chord_9th](chord_9th.md)、[chord_6th](chord_6th.md) — 九和弦與六和弦速查
+- [concept_extended_chord — 延伸和弦](concept_extended_chord.md) — add9 vs 9th 的差異回顧
+- [concept_cadence — 終止式](concept_cadence.md) — sus4 → 3 解決常出現在終止式中

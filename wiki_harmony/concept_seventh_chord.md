@@ -6,6 +6,9 @@ tags: [harmony, seventh_chord, chord, music_theory]
 
 # 七和弦（Seventh Chord）
 
+> 前置知識：[concept_triad — 三和弦](concept_triad.md)（大 / 小 / 減 / 增四種品質）
+> 建議先讀：[concept_interval — 音程基礎](concept_interval.md)（大三度 vs 小三度的辨認）
+
 你已經掌握三和弦：根音 + 三音 + 五音，三個聲部。現在只需要**再疊一個三度**，就到達七和弦的世界。
 
 七和弦（seventh chord）= 三和弦 + 一個疊在五音上方的三度音，共四個音。最高音距根音七度（seventh），因此得名。七和弦讓和聲色彩更豐富，也帶來更強的張力與方向感——這是爵士、古典、流行中「大人感」聲響的來源。
@@ -447,23 +450,13 @@ I     ii    iii   IV    V     vi    vii
 
 ---
 
-## 7. 下一步
+## 下一步
 
-七和弦在五音上疊了一個三度，得到七音。如果繼續往上再疊一個三度：
+- [concept_extended_chord — 延伸和弦](concept_extended_chord.md) — 在七音上繼續疊三度：九和弦、十一和弦、十三和弦
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — V7 為何有最強的解決驅動力？
 
-```
- 七和弦：  根音 + 三音 + 五音 + 七音
- 九和弦：  根音 + 三音 + 五音 + 七音 + 九音
-                                        ↑
-                               距根音九度（= 八度 + 二度）
-```
+## 延伸參考
 
-這些「七音以上的延伸」稱為**延伸和弦（Extended Chords）**：9th、11th、13th。爵士和弦常以此堆疊，產生豐厚的色彩層次。詳見：[concept_extended_chord](concept_extended_chord.md)
-
-### 各七和弦的 12 個調詳表
-
-- [chord_major7](chord_major7.md) — 大七和弦（12 個調）
-- [chord_minor7](chord_minor7.md) — 小七和弦（12 個調）
-- [chord_dominant7](chord_dominant7.md) — 屬七和弦（12 個調）
-- [chord_dim7](chord_dim7.md) — 減七和弦（12 個調）
-- [chord_half_dim7](chord_half_dim7.md) — 半減七和弦（12 個調）
+- [chord_dominant7](chord_dominant7.md)、[chord_major7](chord_major7.md)、[chord_minor7](chord_minor7.md)、[chord_dim7](chord_dim7.md)、[chord_half_dim7](chord_half_dim7.md) — 五種七和弦 12 調速查
+- [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — 屬七和弦內的三全音是代理的理論基礎
+- [concept_cadence — 終止式](concept_cadence.md) — V7 → I 正格終止的完整脈絡

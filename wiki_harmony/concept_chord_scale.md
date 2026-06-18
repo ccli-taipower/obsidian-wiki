@@ -226,5 +226,14 @@ Cmaj7      →  C Ionian（C D E F G A B），注意 F 是避免音
 
 ## 下一步
 
-- [concept_modes](concept_modes.md) — 複習七種調式的結構、特徵音與色彩
-- [concept_tritone_substitution](concept_tritone_substitution.md) — 三全音代理：爵士和聲中最常見的重配和聲技巧
+即興分支至此完成。以下頁面可交叉參考：
+
+- [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — ♭II7 代理上的音階選擇（Lydian ♭7）
+- [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 減音階、全音音階的和弦對應
+
+## 延伸參考
+
+- [concept_modes — 教會調式](concept_modes.md) — 和弦音階對應的調式基礎
+- [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 五聲音階在即興中的萬用性
+- [concept_non_functional_harmony — 非功能和聲](concept_non_functional_harmony.md) — 調式和聲中的和弦選擇思維
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 和弦音階對應以七和弦為基本單位

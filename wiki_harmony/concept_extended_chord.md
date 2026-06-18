@@ -6,6 +6,9 @@ tags: [harmony, extended_chord, ninth, eleventh, thirteenth]
 
 # 延伸和弦（Extended Chord）
 
+> 前置知識：[concept_seventh_chord — 七和弦](concept_seventh_chord.md)（七和弦結構與轉位）
+> 建議先讀：[concept_triad — 三和弦](concept_triad.md)（三度疊加的基本原理）
+
 你已經掌握七和弦：根音 + 三音 + 五音 + 七音，四個聲部。**延伸和弦（extended chord）**就是繼續往上疊三度——九音、十一音、十三音——讓和聲色彩越來越豐富、複雜。這是爵士、流行、R&B 裡那些「有點酷、有點說不清楚」聲響的來源。
 
 ---
@@ -248,12 +251,13 @@ B – F – A  +  G 低音（左手）
 
 ---
 
-## 7. 下一步
+## 下一步
 
-| 和弦類型 | 詳細參考頁 |
-|---------|----------|
-| 九和弦（dom9 / Maj9 / m9）12 調 | [chord_9th](chord_9th.md) |
-| Sus 和弦（sus4 / sus2） | [chord_sus](chord_sus.md) |
-| Add 和弦（add9 / add11） | [chord_add](chord_add.md) |
-| 六和弦（maj6 / m6） | [chord_6th](chord_6th.md) |
-| Sus 與 Add 的概念辨析 | [concept_sus_add_chord](concept_sus_add_chord.md) |
+- [concept_sus_add_chord — Sus 與 Add 和弦](concept_sus_add_chord.md) — 不靠三度疊加的色彩和弦：sus2 / sus4 / add9
+
+## 延伸參考
+
+- [chord_9th](chord_9th.md) — 九和弦 12 調速查
+- [chord_sus](chord_sus.md)、[chord_add](chord_add.md)、[chord_6th](chord_6th.md) — Sus / Add / 六和弦速查
+- [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — 延伸音的選擇與避免音理論
+- [concept_progression — 和弦進行](concept_progression.md) — 延伸和弦在爵士進行中的實際用法

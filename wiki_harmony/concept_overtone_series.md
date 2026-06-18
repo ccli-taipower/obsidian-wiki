@@ -199,7 +199,13 @@ tags: [harmony, overtone, harmonic_series, timbre, acoustics, music_theory]
 
 ---
 
-## 9. 下一步
+## 下一步
 
-- **[concept_interval — 音程](concept_interval.md)**：複習音程的度數與性質，理解泛音列中各頻率比對應的音程
-- **[concept_triad — 三和弦](concept_triad.md)**：泛音列的第 4、5、6 泛音直接構成大三和弦——了解四種三和弦的結構與辨認
+- [concept_interval — 音程基礎](concept_interval.md) — 泛音列中的頻率比對應哪些音程
+- [concept_triad — 三和弦](concept_triad.md) — 第 4、5、6 泛音直接構成大三和弦
+
+## 延伸參考
+
+- [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 泛音列暗示了大調音階的自然基礎
+- [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 超越泛音列自然音程的人工音階結構
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — 屬→主的引力可追溯至泛音列中的五度關係

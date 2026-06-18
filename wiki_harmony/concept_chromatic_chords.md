@@ -252,18 +252,13 @@ Ger+6 → I64 → V    （德國增六通常先經過 I64）
 
 ---
 
-## 6. 下一步
+## 下一步
 
-變化和弦讓你在調性範圍內使用半音手法製造戲劇性效果。如果你想進一步了解其他半音化技巧：
-
-→ [concept_secondary_dominant — 副屬和弦](concept_secondary_dominant.md)：用「借來的 V」強化調內和弦的到達感
-
-→ [concept_modulation — 轉調](concept_modulation.md)：當音樂要「真正搬家」到新的調
-
----
+- [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — 另一種半音化手法：用 ♭II7 代替 V7
 
 ## 延伸參考
 
-- [concept_cadence — 終止式](concept_cadence.md) — 變化和弦幾乎都出現在終止式的脈絡中
-- [concept_chord_function — 和弦功能](concept_chord_function.md) — 理解 T/S/D 三大功能才能明白變化和弦為何「通往 V」
-- [concept_voice_leading — 聲部進行](concept_voice_leading.md) — 增六和弦的美感來自精巧的半音聲部進行
+- [concept_secondary_dominant — 副屬和弦](concept_secondary_dominant.md) — 用「借來的 V」強化調內和弦的到達感
+- [concept_modulation — 轉調](concept_modulation.md) — 當半音化手法推動音樂「搬家」到新調
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 增六和弦的美感來自精巧的半音聲部進行
+- [concept_cadence — 終止式](concept_cadence.md) — 變化和弦幾乎都出現在終止式脈絡中

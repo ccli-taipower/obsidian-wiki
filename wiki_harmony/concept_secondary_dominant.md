@@ -6,6 +6,9 @@ tags: [harmony, secondary_dominant, tonicization, chromatic]
 
 # 副屬和弦（Secondary Dominant）
 
+> 前置知識：[concept_chord_function — 功能和聲](concept_chord_function.md)（V → I 的解決引力）
+> 建議先讀：[concept_seventh_chord — 七和弦](concept_seventh_chord.md)（屬七和弦結構）
+
 你已經知道 V → I 是最強的和聲解決——屬和弦帶著張力，主和弦把它釋放。現在問：如果不想轉調，但想讓某個**非主和弦**（比如 Dm 或 Am）暫時感覺像「主角」，怎麼辦？
 
 答案是：**給它一個臨時的 V**。這個「借來的屬和弦」就是**副屬和弦（Secondary Dominant）**。
@@ -226,17 +229,13 @@ B♭ → A（半音下行解決）帶來了 F 和弦到來的張力釋放感。
 
 ---
 
-## 8. 下一步
+## 下一步
 
-副屬和弦讓你在不轉調的情況下「拜訪」其他和弦。如果音樂想要**真正搬家**——建立新的主調——那就是轉調了：
-
-→ [concept_modulation](concept_modulation.md)：轉調的方法與聽辨（包含共同和弦轉調、半音轉調等）
-
----
+- [concept_modulation — 轉調](concept_modulation.md) — 副屬和弦是短暫離調；轉調則是真正「搬家」
+- [concept_chromatic_chords — 變化和弦](concept_chromatic_chords.md) — 其他半音化手法：拿坡里、增六和弦
 
 ## 延伸參考
 
-- [concept_chord_function](concept_chord_function.md) — 三大功能（T/S/D）與功能引力
-- [concept_cadence](concept_cadence.md) — V → I 的終止式原理（副屬和弦就是在局部複製這個原理）
-- [concept_seventh_chord](concept_seventh_chord.md) — 屬七和弦結構（副屬和弦幾乎都做成屬七形式）
-- [concept_progression](concept_progression.md) — 常見進行中的副屬和弦應用
+- [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — 副屬和弦也能做三全音代理
+- [concept_cadence — 終止式](concept_cadence.md) — V → I 終止式原理（副屬和弦在局部複製這個原理）
+- [concept_progression — 和弦進行](concept_progression.md) — 副屬和弦在常見進行中的出現位置

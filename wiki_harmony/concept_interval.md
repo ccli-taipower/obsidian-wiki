@@ -6,6 +6,8 @@ tags: [harmony, interval, music_theory]
 
 # 音程（Interval）
 
+> 選讀前置：[concept_overtone_series — 泛音列](concept_overtone_series.md)（了解音程的物理基礎）
+
 音程是兩個音之間的距離（distance between two pitches）。它是和聲理論（harmony）的最小單位——所有和弦（chord）、音階（scale）、旋律（melody）都由音程堆疊而成。理解音程，等於拿到了讀懂和弦的鑰匙。
 
 ---
@@ -433,10 +435,13 @@ C-D  D-E  E-F  F-G  G-A  A-B  B-C
 
 ---
 
-## 8. 下一步
+## 下一步
 
-音程是和聲理論的原子（atom）——所有更複雜的結構都由它組成。掌握了音程的度數、性質、協和度和轉位，你就具備了讀懂和弦的基本語言。
+- [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 用全音與半音排列出大調、小調音階，認識調號與五度圈
+- [concept_triad — 三和弦](concept_triad.md) — 把音程疊起來：根音＋三度＋五度構成和弦
 
-下一步是了解**音階與調性**——用全音和半音的排列模式組成大調和小調音階，認識調號和五度圈，為後續的和弦功能分析打底。
+## 延伸參考
 
-繼續閱讀：[concept_scale_and_key — 音階與調性](concept_scale_and_key.md)
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — 音程的物理起源：頻率比與協和度
+- [concept_modes — 教會調式](concept_modes.md) — 同樣的音程排列從不同音開始 → 七種調式
+- [../wiki_piano/concept_chord_fingering — 和弦指法](../wiki_piano/concept_chord_fingering.md) — 音程跨度如何影響鍵盤指法選擇

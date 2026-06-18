@@ -245,19 +245,14 @@ C  →（+6 半音）→ F# / G♭     C7  ↔ F#7/G♭7
 
 ---
 
-## 8. 下一步
+## 下一步
 
-三全音代理讓你用半音移動取代五度圈移動，為和聲進行加入爵士風味的半音色彩。接下來可以探索更多半音和聲手法：
-
-→ [concept_chromatic_chords](concept_chromatic_chords.md)：半音和弦的系統整理（拿坡里和弦、增六和弦、半音經過和弦等）
-
-→ [concept_progression](concept_progression.md)：常見和弦進行（包含 ii–V–I 等爵士核心進行）
-
----
+- [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — ♭II7 代理上該用什麼音階即興？
 
 ## 延伸參考
 
-- [concept_seventh_chord](concept_seventh_chord.md) — 屬七和弦結構與三全音解決（三全音代理的理論基礎）
-- [concept_secondary_dominant](concept_secondary_dominant.md) — 副屬和弦（三全音代理可用於所有副屬和弦）
-- [concept_voice_leading](concept_voice_leading.md) — 聲部導進原則（理解半音解決的聲部移動）
-- [concept_chord_function](concept_chord_function.md) — 三大功能（T/S/D）與功能引力
+- [concept_chromatic_chords — 變化和弦](concept_chromatic_chords.md) — 增六和弦與三全音代理的歷史淵源
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 屬七和弦內的三全音：代理的理論根基
+- [concept_secondary_dominant — 副屬和弦](concept_secondary_dominant.md) — 所有副屬和弦都能做三全音代理
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 理解半音解決的聲部移動邏輯
+- [concept_progression — 和弦進行](concept_progression.md) — ii–V–I 等爵士進行中的代理應用

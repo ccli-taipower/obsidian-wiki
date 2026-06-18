@@ -6,6 +6,9 @@ tags: [harmony, texture, polyphony, homophony, fingering, piano]
 
 # 音樂織體（Musical Texture）
 
+> 前置知識：[concept_voice_leading — 聲部導進](concept_voice_leading.md)（聲部連接原則）
+> 建議先讀：[concept_counterpoint_basics — 對位法基礎](concept_counterpoint_basics.md)（複音織體的寫作規則）
+
 和弦決定「在這個時間點，哪些音同時響」；聲部導進決定「音如何從一個和弦走到下一個」；而**織體（texture）**決定的是更根本的東西：這些音層是怎麼**組織在一起**的？
 
 對鋼琴演奏而言，織體識別不只是樂理課題——它直接決定**你用哪套指法策略**。同一組音符，若它是主音織體中的分解和弦，指法邏輯完全不同於多聲部複音織體中兩條旋律線的交織。**DP 指法引擎在計算之前，必須先確定織體類型。**
@@ -265,10 +268,14 @@ mm. 20–23  (Coda)   主音（簡化），最後幾小節和弦織體收尾
 
 ---
 
-## 相關頁面
+## 下一步
 
-- [concept_voice_leading](concept_voice_leading.md) — 聲部導進原則，直接決定和弦織體的換指成本
-- [concept_counterpoint_basics](concept_counterpoint_basics.md) — 複音織體的指法框架：聲部分配、換指替代
-- `wiki_piano/concept_scale_fingering` — 旋律線 / 單音織體的基礎指法規則
-- `wiki_piano/concept_chord_fingering`（待建）— 和弦手型與指法選擇
-- `wiki_piano/concept_hand_distribution`（待建）— 聲部在雙手間的分配策略
+學習路線至此完成。可回到 [index — 和聲樂理目錄](index.md) 選擇其他分支繼續探索。
+
+## 延伸參考
+
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 直接決定和弦織體的聲部連接方式
+- [concept_counterpoint_basics — 對位法基礎](concept_counterpoint_basics.md) — 複音織體的指法框架
+- [../wiki_piano/concept_scale_fingering — 音階指法](../wiki_piano/concept_scale_fingering.md) — 旋律線 / 單音織體的指法規則
+- [../wiki_piano/concept_chord_fingering — 和弦指法](../wiki_piano/concept_chord_fingering.md) — 和弦織體的鍵盤指法
+- [../wiki_piano/concept_accompaniment_patterns — 伴奏型態](../wiki_piano/concept_accompaniment_patterns.md) — 主音織體的各種伴奏模式

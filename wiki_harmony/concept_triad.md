@@ -6,6 +6,9 @@ tags: [harmony, triad, chord, music_theory]
 
 # 三和弦（Triad）
 
+> 前置知識：[concept_interval — 音程基礎](concept_interval.md)（大三度、小三度、完全五度）
+> 建議先讀：[concept_scale_and_key — 音階與調性](concept_scale_and_key.md)（順階和弦的來源）
+
 三和弦是由**三個音**疊加而成的和弦（chord），是西洋調性音樂（tonal music）最基本的和聲單位。掌握三和弦，等於拿到了讀懂絕大多數流行、古典、爵士和弦進行的入場券。
 
 從 [concept_interval](concept_interval.md) 你已知道：三度音程（3rd）是和聲的主力色彩。三和弦的核心就是把**兩個三度疊在一起**——下方三度決定和弦的「大小性格」，上方三度決定「尾音的穩定感」。
@@ -368,26 +371,13 @@ T → S → D → T 是西洋調性音樂最基本的動力循環。詳細說明
 
 ---
 
-## 7. 下一步
+## 下一步
 
-### 加上第四個音：七和弦（Seventh Chord）
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 在三和弦上再疊一個三度，8 種七和弦的系統分類
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — 三和弦在調性中扮演的 T / S / D 角色
 
-三和弦是基礎，但實際音樂中常常在五音上再疊一個三度，形成**七和弦（seventh chord）**——因為根音到最高音是七度而得名。
+## 延伸參考
 
-```
- 三和弦：  根音 + 三音 + 五音
- 七和弦：  根音 + 三音 + 五音 + 七音
-                               ↑
-                        再疊一個三度
-```
-
-七和弦帶來更豐富的色彩與張力：C 大七和弦（Cmaj7）= C–E–G–B，C 屬七和弦（C7）= C–E–G–B♭。詳見：[concept_seventh_chord](concept_seventh_chord.md)
-
-### 各和弦的 12 個調詳表
-
-如果需要查特定調的和弦組成音、鍵盤圖示和指法，請參考各性質的和弦參考頁：
-
-- [chord_major](chord_major.md) — 大三和弦（12 個調）
-- [chord_minor](chord_minor.md) — 小三和弦（12 個調）
-- [chord_diminished](chord_diminished.md) — 減三和弦（12 個調）
-- [chord_augmented](chord_augmented.md) — 增三和弦（12 個調）
+- [chord_major](chord_major.md)、[chord_minor](chord_minor.md)、[chord_diminished](chord_diminished.md)、[chord_augmented](chord_augmented.md) — 四種三和弦 12 調速查
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 三和弦之間如何平滑連接
+- [../wiki_piano/concept_chord_fingering — 和弦指法](../wiki_piano/concept_chord_fingering.md) — 三和弦各轉位的標準鍵盤指法

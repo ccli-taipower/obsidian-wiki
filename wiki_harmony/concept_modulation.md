@@ -6,6 +6,9 @@ tags: [harmony, modulation, key_change, pivot_chord]
 
 # 轉調（Modulation）
 
+> 前置知識：[concept_secondary_dominant — 副屬和弦](concept_secondary_dominant.md)（離調 vs 轉調的區別）
+> 建議先讀：[concept_scale_and_key — 音階與調性](concept_scale_and_key.md)（五度圈、近系調 / 遠系調）
+
 在 [concept_secondary_dominant](concept_secondary_dominant.md) 裡，我們學了**離調**：短暫拜訪另一個和弦的調，但最終還是回家。**轉調（Modulation）**則不同——音樂**真的搬家了**，在新的調重新建立一個「家」的感覺，聽眾開始把新的主音當作新的參考點。
 
 離調 vs. 轉調的最直接區分：**離調走一兩個和弦就回頭；轉調在新的調停留夠久，讓你覺得「現在在這裡了」**。
@@ -267,21 +270,16 @@ C → Em → Am → E7 → Am → Dm → E7 → Am
 
 ---
 
-## 9. 下一步
+## 下一步
 
-轉調是和聲學習的高階主題。理解轉調之後，你就有能力分析整首曲子的調性結構——不只是幾個和弦，而是整個音樂敘事的地圖。
+主線學習至此完成。以下分支可依興趣探索：
 
-**回顧路徑**：
-- [concept_chord_function](concept_chord_function.md) — 和弦的功能（T/S/D），轉調的基礎
-- [concept_cadence](concept_cadence.md) — V → I 終止式（轉調靠這個確立新主音）
-- [concept_secondary_dominant](concept_secondary_dominant.md) — 離調（副屬和弦，轉調的「小版本」）
-- [concept_progression](concept_progression.md) — 常見進行中轉調的出現方式
-
----
+- [concept_chromatic_chords — 變化和弦](concept_chromatic_chords.md) — 拿坡里和弦、增六和弦等半音化手法
+- [concept_non_functional_harmony — 非功能和聲](concept_non_functional_harmony.md) — 不靠調性驅動的和弦邏輯
 
 ## 延伸參考
 
-- [concept_secondary_dominant](concept_secondary_dominant.md) — 離調（副屬和弦），與轉調的對比理解
-- [concept_chord_function](concept_chord_function.md) — 功能和聲體系，理解「為什麼 V → I 能確立新主音」
-- [concept_cadence](concept_cadence.md) — 終止式（每次轉調都需要在新調做一次終止式）
-- [concept_progression](concept_progression.md) — 和弦進行中的移調應用
+- [concept_secondary_dominant — 副屬和弦](concept_secondary_dominant.md) — 離調：轉調的「小版本」
+- [concept_cadence — 終止式](concept_cadence.md) — 每次轉調都需要在新調做一次終止確認
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — 理解 V → I 為何能確立新主音
+- [concept_progression — 和弦進行](concept_progression.md) — 進行中跨越調性的實例

@@ -220,16 +220,14 @@ C → E♭ → G♭ → A → C
 
 ---
 
-**下一步**：
+## 下一步
 
-- 回顧功能和聲的基礎 → [concept_chord_function — 和弦功能](concept_chord_function.md)
-- 深入調式的結構與色彩 → [concept_modes — 教會調式](concept_modes.md)
-- 認識常見和弦進行的骨架 → [concept_progression — 和弦進行](concept_progression.md)
-
----
+- [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — 調式和聲中每個和弦該用什麼音階即興？
 
 ## 延伸參考
 
-- [concept_cadence](concept_cadence.md) — 終止式：功能和聲的句號
-- [concept_modulation](concept_modulation.md) — 轉調：調性中心的移動
-- [concept_voice_leading](concept_voice_leading.md) — 聲部進行：和弦連接的細節
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — 回顧 T / S / D 功能邏輯，理解「非功能」的對比
+- [concept_modes — 教會調式](concept_modes.md) — 調式和聲的音階基礎
+- [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 全音音階平行移動、減音階對稱結構
+- [concept_progression — 和弦進行](concept_progression.md) — 功能進行 vs 非功能進行的對比
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 平行移動中的聲部處理
