@@ -5,34 +5,36 @@ date_created: 2026-06-16
 
 # Harmony Wiki（和聲樂理）
 
-> Last updated: 2026-06-16 | Concepts: 14 | Chord References: 13 | Total: 28 pages
+> Last updated: 2026-06-18 | Concepts: 15 | Chord References: 13 | Total: 29 pages
 > 並列 wiki：[../wiki_piano/index](../wiki_piano/index.md) (鋼琴指法) + [../wiki_phrase/index](../wiki_phrase/index.md) (樂句分段) + [../wiki_articulation/index](../wiki_articulation/index.md) (觸鍵詮釋)
 
 ## 學習路線圖
 
 ```
-音程 → 音階與調性 → 三和弦 → 七和弦 → 延伸和弦
+音程 → 音階與調性 → 教會調式
+                 ↘ 三和弦 → 七和弦 → 延伸和弦
                             ↘ sus/add 色彩和弦
                             ↘ 功能和聲 → 終止式 → 和弦進行 → 離調 → 轉調
 ```
 
 1. [concept_interval](concept_interval.md) — **音程基礎**：半音距離、音程品質（完全/大/小/增/減）、協和與不協和
 2. [concept_scale_and_key](concept_scale_and_key.md) — **音階與調性**：大調/小調音階、調號、關係調與平行調、五度圈、順階和弦
-3. [concept_triad](concept_triad.md) — **三和弦**：大/小/減/增四種品質、根音位/第一轉位/第二轉位
-4. [concept_seventh_chord](concept_seventh_chord.md) — **七和弦**：8 種七和弦（4 種三和弦 × M3/m3 系統分類）、轉位記法、功能用途
-5. [concept_extended_chord](concept_extended_chord.md) — **延伸和弦（九/十一/十三）**：疊加三度、爵士聲部省略規則
-6. [concept_sus_add_chord](concept_sus_add_chord.md) — **Sus 與 Add 色彩和弦**：sus2/sus4、add9/add11、與延伸和弦的區別
-7. [concept_chord_function](concept_chord_function.md) — **功能和聲（T/S/D）**：主功能/下屬功能/屬功能、大調小調中的對應級數
-8. [concept_cadence](concept_cadence.md) — **終止式**：正格/變格/半/偽終止、強弱與位置效果
-9. [concept_progression](concept_progression.md) — **和弦進行**：常見進行模式（I-IV-V-I、ii-V-I、I-V-vi-IV）、根音動向規律
-10. [concept_secondary_dominant](concept_secondary_dominant.md) — **副屬和弦（離調）**：V/V、V/ii 等借用、短暫離調 vs 真正轉調
-11. [concept_modulation](concept_modulation.md) — **轉調**：近系/遠系、樞紐和弦法、等音轉調、段落級 vs 局部轉調
+3. [concept_modes](concept_modes.md) — **教會調式**：七種調式（Ionian～Locrian）、平行法比較、特徵音與聽感、調式順階和弦
+4. [concept_triad](concept_triad.md) — **三和弦**：大/小/減/增四種品質、根音位/第一轉位/第二轉位
+5. [concept_seventh_chord](concept_seventh_chord.md) — **七和弦**：8 種七和弦（4 種三和弦 × M3/m3 系統分類）、轉位記法、功能用途
+6. [concept_extended_chord](concept_extended_chord.md) — **延伸和弦（九/十一/十三）**：疊加三度、爵士聲部省略規則
+7. [concept_sus_add_chord](concept_sus_add_chord.md) — **Sus 與 Add 色彩和弦**：sus2/sus4、add9/add11、與延伸和弦的區別
+8. [concept_chord_function](concept_chord_function.md) — **功能和聲（T/S/D）**：主功能/下屬功能/屬功能、大調小調中的對應級數
+9. [concept_cadence](concept_cadence.md) — **終止式**：正格/變格/半/偽終止、強弱與位置效果
+10. [concept_progression](concept_progression.md) — **和弦進行**：常見進行模式（I-IV-V-I、ii-V-I、I-V-vi-IV）、根音動向規律
+11. [concept_secondary_dominant](concept_secondary_dominant.md) — **副屬和弦（離調）**：V/V、V/ii 等借用、短暫離調 vs 真正轉調
+12. [concept_modulation](concept_modulation.md) — **轉調**：近系/遠系、樞紐和弦法、等音轉調、段落級 vs 局部轉調
 
 ### 和聲與對位（指法引擎支撐）
 
-12. [concept_voice_leading](concept_voice_leading.md) — **聲部導進**：共同音保留、級進移動、反向運動，與 DP transition cost 的對應
-13. [concept_counterpoint_basics](concept_counterpoint_basics.md) — **對位法基礎**：聲部運動類型、多聲部指法策略、聲部識別與模仿
-14. [concept_texture](concept_texture.md) — **音樂織體**：單音/主音/複音/和弦織體，決定指法策略的選擇
+13. [concept_voice_leading](concept_voice_leading.md) — **聲部導進**：共同音保留、級進移動、反向運動，與 DP transition cost 的對應
+14. [concept_counterpoint_basics](concept_counterpoint_basics.md) — **對位法基礎**：聲部運動類型、多聲部指法策略、聲部識別與模仿
+15. [concept_texture](concept_texture.md) — **音樂織體**：單音/主音/複音/和弦織體，決定指法策略的選擇
 
 ## 和弦速查索引
 
