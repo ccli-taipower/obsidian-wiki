@@ -1,6 +1,6 @@
 	# Piano Fingering Wiki
 
-> Last updated: 2026-05-29 | Sources: 21 | Concepts: 23 | Analyses: 7 | Total: 53 active pages | Raw: 9 files
+> Last updated: 2026-05-29 | Sources: 21 | Concepts: 24 | Analyses: 7 | Total: 54 active pages | Raw: 9 files
 > 並列 wiki：[../wiki_phrase/index](../wiki_phrase/index.md) (樂句分段) + [../wiki_articulation/index](../wiki_articulation/index.md) (連結 / 斷奏 / 觸鍵詮釋) + [../wiki_harmony/index](../wiki_harmony/index.md) (和聲樂理)
 
 ## Sources — Computational Models
@@ -78,6 +78,7 @@
 - [Finger Independence](concept_finger_independence.md) — 手指獨立性（4 最弱、5 中弱）+ 解剖限制 + 訓練 vs 解剖區分
 - [Weak Finger Development](concept_weak_finger_development.md) — 弱指 4-5 訓練（Hanon/Czerny 派傳統）+ Schumann 失敗教訓 + 現代最佳實踐
 - [Hand Position Stability](concept_hand_position_stability.md) — 手位穩定性 + 與 thumb-pass / substitution / phrase boundary 互動
+- [Accompaniment Patterns](concept_accompaniment_patterns.md) — 伴奏型態：Block/Alberti/Arpeggio/流行/Bossa Nova/Swing/Rock/Latin
 
 ## Analyses
 

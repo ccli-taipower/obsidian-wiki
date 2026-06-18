@@ -5,19 +5,21 @@ date_created: 2026-06-16
 
 # Harmony Wiki（和聲樂理）
 
-> Last updated: 2026-06-18 | Concepts: 19 | Chord References: 13 | Total: 33 pages
+> Last updated: 2026-06-18 | Concepts: 22 | Chord References: 13 | Total: 36 pages
 > 並列 wiki：[../wiki_piano/index](../wiki_piano/index.md) (鋼琴指法) + [../wiki_phrase/index](../wiki_phrase/index.md) (樂句分段) + [../wiki_articulation/index](../wiki_articulation/index.md) (觸鍵詮釋)
 
 ## 學習路線圖
 
 ```
-音程 → 音階與調性 → 教會調式
-                 ↘ 五聲音階與藍調
-                 ↘ 三和弦 → 七和弦 → 延伸和弦
-                            ↘ sus/add 色彩和弦
-                            ↘ 功能和聲 → 終止式 → 和弦進行 → 離調 → 轉調
-                                                              ↘ 變化和弦 → 三全音代理
-                                                              ↘ 非功能和聲
+泛音列 → 音程 → 音階與調性 → 教會調式
+                           ↘ 五聲音階與藍調
+                           ↘ 對稱與特殊音階
+                           ↘ 三和弦 → 七和弦 → 延伸和弦
+                                      ↘ sus/add 色彩和弦
+                                      ↘ 功能和聲 → 終止式 → 和弦進行 → 離調 → 轉調
+                                                                        ↘ 變化和弦 → 三全音代理
+                                                                        ↘ 非功能和聲
+                                      ↘ 和弦音階對應（即興）
 ```
 
 1. [concept_interval](concept_interval.md) — **音程基礎**：半音距離、音程品質（完全/大/小/增/減）、協和與不協和
@@ -33,21 +35,27 @@ date_created: 2026-06-16
 11. [concept_secondary_dominant](concept_secondary_dominant.md) — **副屬和弦（離調）**：V/V、V/ii 等借用、短暫離調 vs 真正轉調
 12. [concept_modulation](concept_modulation.md) — **轉調**：近系/遠系、樞紐和弦法、等音轉調、段落級 vs 局部轉調
 
+### 聲學基礎
+
+13. [concept_overtone_series](concept_overtone_series.md) — **泛音列**：泛音與基音、頻率比與音程、音色成因、低音程限制
+
 ### 音階延伸
 
-13. [concept_pentatonic_blues](concept_pentatonic_blues.md) — **五聲音階與藍調**：大調/小調五聲音階、藍調音階（blue note）、12 小節藍調進行
+14. [concept_pentatonic_blues](concept_pentatonic_blues.md) — **五聲音階與藍調**：大調/小調五聲音階、藍調音階（blue note）、12 小節藍調進行
+15. [concept_symmetric_scales](concept_symmetric_scales.md) — **對稱與特殊音階**：全音音階、減音階（H-W/W-H）、Altered Scale、旋律小調衍生
 
 ### 進階和聲技法
 
-14. [concept_chromatic_chords](concept_chromatic_chords.md) — **變化和弦**：拿坡里和弦（♭II）、增六和弦（It/Fr/Ger+6）、皮卡第三度
-15. [concept_tritone_substitution](concept_tritone_substitution.md) — **三全音代理**：共享三全音原理、半音低音線、與增六和弦的關係
-16. [concept_non_functional_harmony](concept_non_functional_harmony.md) — **非功能和聲**：平行移動、調式和聲、對稱結構、色彩優先的和弦選擇
+16. [concept_chromatic_chords](concept_chromatic_chords.md) — **變化和弦**：拿坡里和弦（♭II）、增六和弦（It/Fr/Ger+6）、皮卡第三度
+17. [concept_tritone_substitution](concept_tritone_substitution.md) — **三全音代理**：共享三全音原理、半音低音線、與增六和弦的關係
+18. [concept_non_functional_harmony](concept_non_functional_harmony.md) — **非功能和聲**：平行移動、調式和聲、對稱結構、色彩優先的和弦選擇
+19. [concept_chord_scale](concept_chord_scale.md) — **和弦音階對應**：順階和弦對應調式、避免音、屬七的多種音階選擇、即興思考流程
 
 ### 和聲與對位（指法引擎支撐）
 
-17. [concept_voice_leading](concept_voice_leading.md) — **聲部導進**：共同音保留、級進移動、反向運動，與 DP transition cost 的對應
-18. [concept_counterpoint_basics](concept_counterpoint_basics.md) — **對位法基礎**：聲部運動類型、多聲部指法策略、聲部識別與模仿
-19. [concept_texture](concept_texture.md) — **音樂織體**：單音/主音/複音/和弦織體，決定指法策略的選擇
+20. [concept_voice_leading](concept_voice_leading.md) — **聲部導進**：共同音保留、級進移動、反向運動，與 DP transition cost 的對應
+21. [concept_counterpoint_basics](concept_counterpoint_basics.md) — **對位法基礎**：聲部運動類型、多聲部指法策略、聲部識別與模仿
+22. [concept_texture](concept_texture.md) — **音樂織體**：單音/主音/複音/和弦織體，決定指法策略的選擇
 
 ## 和弦速查索引
 
