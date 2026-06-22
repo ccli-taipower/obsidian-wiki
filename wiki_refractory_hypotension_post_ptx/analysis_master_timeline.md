@@ -69,6 +69,8 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 2026/06/04 | 🩸 抽血 | **松禾診所例行月度抽血** | **iPTH 17.5 → 28.6（+63%）、K 6.0 → 5.0、Ca ↓ 8.5、P ↑、Hb 11.2 ↓、TSAT 7% 明確缺鐵** | 本頁上方 lab 表 |
 | **2026/06/04** | 💊 用藥 | **❌ Concor 暫停**（IDH 變嚴重）| 啟動 → 停藥僅 16 天 | [iatrogenic §4](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | 🔥 **2026/06/09** | 🔪 處置 | **AVG PTA #2**（葉聰賜醫師，地區醫院）| **SAME sites recurrent at 4 個月**：in-graft + graft-V junction 90% → Mustang 7.0×80 mm @ 20 bar, no thrombosis (high venous pressure 觸發), success | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
+| 🔥 **2026/06/22** | 💊 用藥 | **🔥 松禾診所換藥**：冠脂妥 10 mg → **脂瑞妥 (Cretrol) 10/10 mg**（rosuvastatin 10 + **ezetimibe 10 combo**）| 中午飯後 QD、健保給付（健保限制：statin 單方 3 個月未達標時開立）。 dr 未說明目標 LDL | [cad §Q4 LDL](analysis_cad_contribution_to_refractory_idh.md)、[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) |
+| **2026/07/02**（預定）| 🩸 抽血 | 松禾診所月度抽血 | **追蹤重點**：LDL（評估 ezetimibe add-on 效果，文獻預期 −25~30 mg/dL → ~70-75）+ LFT/CK（statin combo monitor）+ 例行（K/Ca/P/Hb/iPTH/TSAT） | [cad §Q4 LDL](analysis_cad_contribution_to_refractory_idh.md) |
 | **2026/07/13**（預定）| 評估 | Dipyridamole trial-off 8 週 evaluate | Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/29**（預定）| 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md) |
 | **2026/10/13**（預定）| 評估 | **AVG PTA #2 follow-up**（葉聰賜）| 主動討論：vein mapping / surveillance US 縮短間隔 / DCB / 備用通路啟動 timing | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |

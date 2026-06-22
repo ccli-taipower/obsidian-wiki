@@ -284,7 +284,15 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 5. 補上 K、anemia、AVG access 的非心臟修飾因子，整體 cardiac stress 才會降低
 6. **佳立鈣換非鈣型 binder**（**🥇 anti-vascular-calcification 戰略核心**）—— 冠脈鈣化 + adynamic bone + 缺鐵三合一解方。**這是 HD CAD 真正 driver 的直接介入**（見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)）。**個案首選 ferric citrate（鐵爾思 / Auryxia）**：6/4 lab 證實 TSAT 7% 缺鐵 → 一藥兩用是最匹配選擇；sevelamer 為次選（LDL bonus 在 HD 不重要）。詳見 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 
-7. **❌ LDL 100 不需要嚴控**——HD 病人 CAD 機轉跟一般人不同（Ca-P 軸主導、LDL 次要），4D/AURORA/SHARP 三大 RCT 證明 statin 在 HD 無 mortality benefit。KDIGO 2013 不建議 HD 病人**啟動或加強** statin/ezetimibe。**Q4「加 Ezetrol」議題降級**——不是「必做」是「可問可不問」。詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)
+7. **LDL 100 議題已被 prescriber 解決（2026/06/22 update）**——松禾診所將冠脂妥 10 mg → **脂瑞妥 (Cretrol) 10/10 mg combo**（rosuvastatin 10 + **ezetimibe 10**）= SHARP-style strategy。
+
+   - **跟 wiki paradigm 的張力**：concept_hd_cad_paradigm 主張 HD subgroup statin/ezetimibe benefit 弱（SHARP HD subgroup n=3,023 benefit 消失、4D Wanner / AURORA Fellström negative）→ KDIGO 2013 不建議 HD 病人**啟動加強** statin/ezetimibe。
+   - **但個案具備 secondary prevention 強 rationale**：post-LCX-PCI（2023）+ RCA CTO untreated + 2025/08 SPECT SSS=16 可逆缺血 → 不是「primary prevention 加藥」是「**post-PCI active CAD 加藥**」，paradigm 主要針對前者。
+   - **健保條件**：開立 Cretrol combo 需 statin 單方 3 個月未達標 → 暗示松禾判定 Crestor 10mg 單方 LDL 100 未達 < 70 secondary prevention target。
+   - **追蹤 plan**：7/2 松禾月度抽血看 LDL response（預期 −25~30 mg/dL → ~70-75）+ LFT/CK monitor。
+   - **7/2 lab 出來後可問 dr**：(1) target LDL 是 < 70 還是 < 55？(2) 若已達標，是否考慮回歸單方 statin？(3) Cretrol 對 Ca-P 軸無作用——是否考慮平行加 non-Ca binder（沿用 §6 Ferric citrate 推薦）？
+
+   詳見 [concept_hd_cad_paradigm 個案 prescribe 實況](concept_hd_cad_paradigm.md)。
 
 ## 引用來源
 
