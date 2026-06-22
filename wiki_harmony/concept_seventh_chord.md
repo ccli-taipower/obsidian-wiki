@@ -192,16 +192,16 @@ tags: [harmony, seventh_chord, chord, music_theory]
 
 #### 三度堆疊明細
 
-| 名稱 | 符號 | 根→三 | 三→五 | 五→七 | 根→七 | 常見度 |
-|------|------|-------|-------|-------|-------|--------|
-| 增大七 Augmented-major 7th | Cmaj7#5 | M3 | M3 | **m3** | M7 (11st) | ★ 少見 |
-| 增七 Augmented 7th | C7#5 | M3 | M3 | **d3 (2st)** | m7 (10st) | ★★ 爵士 |
-| 大七 Major 7th | Cmaj7 | M3 | m3 | **M3** | M7 (11st) | ★★★★★ |
-| 屬七 Dominant 7th | C7 | M3 | m3 | **m3** | m7 (10st) | ★★★★★ |
-| 小大七 Minor-major 7th | CmMaj7 | m3 | M3 | **M3** | M7 (11st) | ★★ 電影 |
-| 小七 Minor 7th | Cm7 | m3 | M3 | **m3** | m7 (10st) | ★★★★★ |
-| 半減七 Half-diminished 7th | Cø7 | m3 | m3 | **M3** | m7 (10st) | ★★★★ |
-| 減七 Diminished 7th | C°7 | m3 | m3 | **m3** | d7 (9st) | ★★★★ |
+| 名稱 | 符號 | 組成音 | 根→三 | 三→五 | 五→七 | 根→七 | 常見度 |
+|------|------|--------|-------|-------|-------|-------|--------|
+| 增大七 Augmented-major 7th | Cmaj7#5 | C-E-G#-B | M3 | M3 | **m3** | M7 (11st) | ★ 少見 |
+| 增七 Augmented 7th | C7#5 | C-E-G#-B♭ | M3 | M3 | **d3 (2st)** | m7 (10st) | ★★ 爵士 |
+| 大七 Major 7th | Cmaj7 | C-E-G-B | M3 | m3 | **M3** | M7 (11st) | ★★★★★ |
+| 屬七 Dominant 7th | C7 | C-E-G-B♭ | M3 | m3 | **m3** | m7 (10st) | ★★★★★ |
+| 小大七 Minor-major 7th | CmMaj7 | C-E♭-G-B | m3 | M3 | **M3** | M7 (11st) | ★★ 電影 |
+| 小七 Minor 7th | Cm7 | C-E♭-G-B♭ | m3 | M3 | **m3** | m7 (10st) | ★★★★★ |
+| 半減七 Half-diminished 7th | Cø7 | C-E♭-G♭-B♭ | m3 | m3 | **M3** | m7 (10st) | ★★★★ |
+| 減七 Diminished 7th | C°7 | C-E♭-G♭-B𝄫 | m3 | m3 | **m3** | d7 (9st) | ★★★★ |
 
 #### 口訣：疊大亮、疊小暗
 
