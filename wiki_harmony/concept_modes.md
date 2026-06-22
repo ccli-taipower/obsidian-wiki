@@ -153,13 +153,13 @@ Locrian:    H-W-W-H-W-W-W    ← 從第 7 個開始讀
 
 | 級數 | C Ionian（大調） | C Lydian（#4） | C Mixolydian（♭7） |
 |------|-----------------|---------------|-------------------|
-| I | **C**（大） | **C**（大） | **C**（大） |
-| ii | Dm（小） | **D**（大）★ | Dm（小） |
-| iii | Em（小） | Em（小） | **Edim**（減）★ |
-| IV | F（大） | **F#dim**（減）★ | F（大） |
-| V | G（大） | G（大） | **Gm**（小）★ |
-| vi | Am（小） | Am（小） | Am（小） |
-| vii° | Bdim（減） | **Bm**（小）★ | **B♭**（大）★ |
+| I | **C**（大）C-E-G | **C**（大）C-E-G | **C**（大）C-E-G |
+| ii | Dm（小）D-F-A | **D**（大）D-F#-A ★ | Dm（小）D-F-A |
+| iii | Em（小）E-G-B | Em（小）E-G-B | **Edim**（減）E-G-B♭ ★ |
+| IV | F（大）F-A-C | **F#dim**（減）F#-A-C ★ | F（大）F-A-C |
+| V | G（大）G-B-D | G（大）G-B-D | **Gm**（小）G-B♭-D ★ |
+| vi | Am（小）A-C-E | Am（小）A-C-E | Am（小）A-C-E |
+| vii° | Bdim（減）B-D-F | **Bm**（小）B-D-F# ★ | **B♭**（大）B♭-D-F ★ |
 
 ★ = 與 Ionian 不同的和弦（特徵音造成的差異）
 
@@ -167,13 +167,13 @@ Locrian:    H-W-W-H-W-W-W    ← 從第 7 個開始讀
 
 | 級數 | C Aeolian（自然小調） | C Dorian（♮6） | C Phrygian（♭2） |
 |------|---------------------|---------------|-----------------|
-| i | Cm（小） | Cm（小） | Cm（小） |
-| ii° / ii | Ddim（減） | Dm（小）★ | D♭（大）★ |
-| III | E♭（大） | E♭（大） | E♭（大） |
-| iv / IV | Fm（小） | **F**（大）★ | Fm（小） |
-| v / v° | Gm（小） | Gm（小） | **Gdim**（減）★ |
-| VI / vi° | A♭（大） | **Adim**（減）★ | A♭（大） |
-| VII | B♭（大） | B♭（大） | **B♭m**（小）★ |
+| i | Cm（小）C-E♭-G | Cm（小）C-E♭-G | Cm（小）C-E♭-G |
+| ii° / ii | Ddim（減）D-F-A♭ | Dm（小）D-F-A ★ | D♭（大）D♭-F-A♭ ★ |
+| III | E♭（大）E♭-G-B♭ | E♭（大）E♭-G-B♭ | E♭（大）E♭-G-B♭ |
+| iv / IV | Fm（小）F-A♭-C | **F**（大）F-A-C ★ | Fm（小）F-A♭-C |
+| v / v° | Gm（小）G-B♭-D | Gm（小）G-B♭-D | **Gdim**（減）G-B♭-D♭ ★ |
+| VI / vi° | A♭（大）A♭-C-E♭ | **Adim**（減）A-C-E♭ ★ | A♭（大）A♭-C-E♭ |
+| VII | B♭（大）B♭-D-F | B♭（大）B♭-D-F | **B♭m**（小）B♭-D♭-F ★ |
 
 ★ = 與 Aeolian 不同的和弦
 
