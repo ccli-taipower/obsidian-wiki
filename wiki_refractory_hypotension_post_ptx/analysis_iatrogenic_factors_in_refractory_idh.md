@@ -246,16 +246,53 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 → **IDH 變嚴重很可能是「多因素同時惡化」而非單獨 Concor 的鍋**。但臨床上停 BB 是「最容易嘗試的單一變數」，做為診斷性試驗合理。
 
-**Trial 失敗後的下一步選項**（待 NTUH 心內決定）：
+**Trial 失敗後的下一步選項**（待 NTUH 心內決定，2026/06/22 擴充）：
 
 | 選項 | 思路 |
 |------|------|
 | A. 維持停 BB | 接受沒有 BB 的保護，全力處理 Ca / Hb / iPTH 路徑；缺血保護靠 PCI |
 | B. 重新挑戰 BB（更慢滴定）| 譬如 1.25 mg 每 5 天 1 次（更稀疏）；同時補 Ca 防止 cardiac effect |
-| C. 換不同 BB | 譬如 metoprolol succinate（不同藥動）|
+| **C1. 換真正短效 BB** | **Metoprolol tartrate 12.5 mg BID**（t½ 3-7 hr），可避開透析日早上劑量，HD 前已 wash out。**不是** Betaloc succinate（後者長效跟 Concor 同問題）|
+| **C2. 換非 BB HR 控制 — Ivabradine** ⭐ | 抑制竇房結 If 通道，**只降 HR 不降 BP**。HFpEF + active ischemia + BB intolerant 教科書 indication。健保「stable angina + BB 不耐受」可給付。詳見下方 §4.5 |
+| **C3. 換非 hemodynamic 抗 ischemia** | **Ranolazine**（late Na current 抑制，需 CYP3A4 dose adj + QT monitor）或 **Trimetazidine**（代謝型，adjunct level）|
 | D. 處理多因素後再嘗試 | 先把 Hb 拉到 13、Ca 穩定 > 8.8、iPTH 在合理範圍，再試 BB |
 
-→ **推薦 D（先處理基底再 retry BB）**，這跟 wiki 整體 framework 一致——軸間 trade-off 需要把所有軸都先優化。
+→ **新推薦序列（2026/06/22 update）**：**C2 (ivabradine) > D (基底優化 + retry) > C1 (短效 BB) > A/B/C3**
+
+- **C2 ivabradine** 邏輯：你的 BB 不耐受**本質是 IDH 怕降 BP**，換一個「不降 BP 但達同樣 HR / 抗 ischemia 效果」的藥就解決矛盾 → **這是 textbook answer for your scenario**
+- **D 基底優化**仍是 long-term framework，但**不需要等基底優化完才有 HR 控制**——C2 可立刻 bridge
+- **C1 短效 BB** 是「if must use BB」的版本，但本質沒解決 BP 矛盾
+- **A** 是最後 fallback（接受裸奔等 RCA CTO PCI）
+
+### 4.5 Ivabradine 為什麼是你的 textbook answer（C2 詳述）
+
+| 機轉特性 | 效果 | 跟你的需求 fit |
+|---------|------|--------------|
+| 只抑制竇房結 If 通道、HR ↓ | ✅ 跟 BB 同效慢 HR | HFpEF 延長 diastolic filling ✅ |
+| **無 BP 影響**（不像 BB 同時 ↓ contractility + ↓ HR）| ✅ **不加重 IDH** | 解決你 BB 失敗的根本矛盾 ✅ |
+| 慢 HR → 心肌 O2 demand ↓ | ✅ | 抗 SSS=16 ischemia ✅ |
+| 無 post-MI mortality benefit | ❌ | 你 2023/03 PCI 已 3 年、不在此 window 內，這個 indication 弱化 |
+| 健保給付條件：stable angina + BB 不耐受 + HR > 70-75 sinus | ✅ | Concor 6/4 失敗已 demonstrate「BB 不耐受」、SSS=16 = stable angina active ischemia |
+| 不可用於 AF | — | 你是 sinus rhythm（無 AF 紀錄）|
+| 副作用 | 視覺光暈（phosphenes）多數可耐受、bradyarrhythmia | 服用後 monitor HR |
+| 劑量 | 5 mg BID start → 7.5 mg BID max | 起始極溫和 |
+
+**跟 cardiologist 對話框架**：
+
+> 「Concor 1.25 mg QOD trial（5/19-6/4）IDH 加重已停。但我仍有 HFpEF（E/A 0.62）+ active reversible ischemia（SSS=16）需要 HR 控制 + 抗 ischemia 保護。
+>
+> **能不能考慮 ivabradine** 取代 BB？它只降 HR、不降 BP，理論上對我的 IDH 是 BB intolerant 後的 ideal alternative。健保「stable angina + BB 不耐受」應該給付。
+>
+> 同時等 7/29 重複 SPECT 看 RCA CTO PCI 是否啟動——若 PCI 成功，可能根本不需要慢性 anti-anginal 藥物。」
+
+### 4.6 為什麼 RCA CTO PCI 才是 root cause 解（不是換藥）
+
+換 BB → 換 ivabradine → 換 ranolazine 都是**藥物層 patch**。真正 root cause 是 RCA CTO 沒開通：
+
+- 7/29 重複 cardiac SPECT 若 SSS 仍 16 + viability OK → PCI 啟動 → 缺血負擔直接 ↓
+- PCI 成功後可能 HFpEF physiology 也改善（缺血是 stiff ventricle 的推手之一）
+- 抗 ischemia 藥物需求**自動下降**
+- → C2 ivabradine 是 PCI 評估期的 **bridge therapy**，不是終點
 
 詳細處方理由見 [analysis_cad_contribution §β-blocker](analysis_cad_contribution_to_refractory_idh.md#β-blocker-在-hfpef--active-ischemia-的角色)
 

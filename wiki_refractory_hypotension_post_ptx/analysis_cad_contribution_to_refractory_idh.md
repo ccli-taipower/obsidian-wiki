@@ -75,12 +75,13 @@ HFpEF **目前沒有特效藥**（不像 HFrEF 有明確藥物修復收縮力）
 - RCA CTO 開通 + LCX 再評估 → 減少缺血面積 → 心室順應性可能改善
 - 不是治好 HFpEF，是**把惡化的推手拿掉**
 
-**第二：❌ Bisoprolol trial 失敗 — 2026/05/19 啟動、2026/06/04 停藥**
+**第二：❌ Bisoprolol trial 失敗 — 2026/05/19 啟動、2026/06/04 停藥 → ⭐ 換 Ivabradine 取代**
 - NTUH 心內 5/19 處方 Concor 1.25 mg QOD（T/Th/Sa 早上、極溫和）
 - **6/04 IDH 變嚴重 → 停藥**（trial 僅 16 天）
 - 多因素疊加假說：Concor 輕度貢獻 + **Ca 9.0 → 8.5（vit D 停的副作用）+ Hb 12.3 → 11.2（缺鐵惡化）**——多軸同時動的 trade-off
-- 詳細失敗分析與下一步選項見 [analysis_iatrogenic_factors §4](analysis_iatrogenic_factors_in_refractory_idh.md)
-- 在 Ca、Hb、iPTH 穩定前**不再重新挑戰 BB**——HFpEF 暫時只靠 cardiac-protective HD 處理
+- **新方向（2026/06/22）：考慮 ivabradine 取代 BB**——只降 HR 不降 BP，解決你 BB 不耐受的本質矛盾（BB 同時 ↓HR + ↓BP；HFpEF 要前者、IDH 怕後者）。健保「stable angina + BB 不耐受」可給付
+- 詳細選項分析（C1 短效 BB / **C2 ivabradine** / C3 ranolazine / D 基底優化）見 [analysis_iatrogenic §4](analysis_iatrogenic_factors_in_refractory_idh.md)
+- **真正 root cause 解：7/29 重複 SPECT → RCA CTO PCI**，PCI 成功則缺血負擔 ↓ 連帶 anti-anginal 藥物需求 ↓
 
 **第三：透析處方再微調**
 
