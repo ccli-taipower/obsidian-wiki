@@ -948,3 +948,43 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 - ESRD 病人 → 「腎功能 baseline」/「水分代謝」/「電解質」全套要重新校準
 
 → 永遠**先讀病人 baseline、再套衛教模板**。
+
+---
+
+## 2026-06-22 — §4 BB trial 失敗後的 alternatives 擴充：ivabradine 為主軸
+
+**觸發**：User 問「concor 的問題怎麼辦？有短效型的替代藥物嗎」——指出 §4 Trial 失敗後選項 C「換不同 BB（譬如 metoprolol succinate）」框架有洞：(1) succinate 也是長效跟 Concor 同問題、(2) 思維框架限於「換 BB」而非「換非 BB 達同樣目的」。
+
+**核心洞察**：BB 不耐受**本質是 IDH 怕降 BP**。換一個「只降 HR 不降 BP」的藥就解決矛盾——這正是 ivabradine 的 mechanism profile。
+
+**Wiki 三處更新**：
+
+1. `iatrogenic §4 Trial 失敗後的下一步選項` table 從 4 個選項擴成 6 個：
+   - 原 A/B 不變
+   - 原 C 拆成 **C1 短效 BB**（metoprolol tartrate 非 succinate）、**C2 ivabradine**、**C3 ranolazine/trimetazidine**
+   - 原 D 不變
+   - 新推薦序列：**C2 > D > C1 > A/B/C3**
+
+2. `iatrogenic §4.5 Ivabradine 為什麼是 textbook answer` 新增 section：
+   - 機轉特性 vs 你的需求 fit table（7 項）
+   - 健保給付條件 check：✅ Concor 6/4 失敗已 demonstrate「BB 不耐受」、SSS=16 = stable angina active ischemia
+   - 跟 cardiologist 對話框架
+
+3. `iatrogenic §4.6 RCA CTO PCI 才是 root cause 解` 新增 section：
+   - 強調換藥都是 patch、PCI 才是 root cause
+   - C2 ivabradine 定位為「PCI 評估期的 bridge therapy」
+
+4. `cad_contribution HFpEF §第二` 更新：
+   - 標題「❌ Bisoprolol trial 失敗」→「**❌ Bisoprolol trial 失敗 → ⭐ 換 Ivabradine 取代**」
+   - 加上「新方向 2026/06/22：考慮 ivabradine」框架
+   - 強調本質矛盾：BB 同時 ↓HR + ↓BP；HFpEF 要前者、IDH 怕後者
+   - 真正 root cause 解：7/29 → RCA CTO PCI
+
+5. `master_timeline 2026/07/29 預定 row` 更新：
+   - 加上「同次心內訪談主動提出 ivabradine 取代 Concor」
+
+**對話框架**（已寫進 §4.5）：
+
+> 「Concor 1.25 mg QOD trial（5/19-6/4）IDH 加重已停。但我仍有 HFpEF（E/A 0.62）+ active reversible ischemia（SSS=16）需要 HR 控制 + 抗 ischemia 保護。能不能考慮 ivabradine 取代 BB？它只降 HR、不降 BP，理論上對我的 IDH 是 BB intolerant 後的 ideal alternative。健保『stable angina + BB 不耐受』應該給付。同時等 7/29 重複 SPECT 看 RCA CTO PCI 是否啟動——若 PCI 成功，可能根本不需要慢性 anti-anginal 藥物。」
+
+**Meta 教訓**：之前 §4 Option C「換不同 BB（譬如 metoprolol succinate）」是**思維框架被「BB」這個藥物類別綁住**的錯誤——當一類藥失敗，要 step back 問「**原始 indication 用什麼藥物機轉達成？有沒有別的 mechanism 可達同樣目的？**」。Ivabradine 是「pure HR reducer」這個 mechanism 的代表，跨出 BB 類別才看得到。
