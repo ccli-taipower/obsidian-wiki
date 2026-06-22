@@ -5,7 +5,7 @@ date_created: 2026-06-16
 
 # Harmony Wiki（和聲樂理）
 
-> Last updated: 2026-06-18 | Concepts: 22 | Chord References: 13 | Total: 36 pages
+> Last updated: 2026-06-22 | Concepts: 22 | Chord References: 13 | Quiz: 1 | Total: 37 pages
 > 並列 wiki：[../wiki_piano/index](../wiki_piano/index.md) (鋼琴指法) + [../wiki_phrase/index](../wiki_phrase/index.md) (樂句分段) + [../wiki_articulation/index](../wiki_articulation/index.md) (觸鍵詮釋)
 
 ## 學習路線圖
@@ -34,6 +34,8 @@ date_created: 2026-06-16
 10. [concept_progression](concept_progression.md) — **和弦進行**：常見進行模式（I-IV-V-I、ii-V-I、I-V-vi-IV）、根音動向規律
 11. [concept_secondary_dominant](concept_secondary_dominant.md) — **副屬和弦（離調）**：V/V、V/ii 等借用、短暫離調 vs 真正轉調
 12. [concept_modulation](concept_modulation.md) — **轉調**：近系/遠系、樞紐和弦法、等音轉調、段落級 vs 局部轉調
+
+📝 [quiz_comprehensive](quiz_comprehensive.md) — **總測驗（50 題）**：涵蓋 Concepts 1–12，不與各頁小測驗重複
 
 ### 聲學基礎
 
