@@ -95,6 +95,41 @@ tags: [HD, ESRD, CAD, vascular_calcification, calcium_phosphate_axis, lipid_para
 | 🥉 維持 Crestor 10 mg | 中 | KDIGO 不建議啟動，但既有可續 |
 | **❌ 上調 statin 或加 Ezetrol** | **低** | **HD subgroup evidence 弱、機轉 mismatch、ROI 低** |
 
+## 🔥 個案 prescribe 實況 vs paradigm（2026/06/22 update）
+
+**事件**：2026/06/22 松禾診所將冠脂妥 10 mg → **脂瑞妥 (Cretrol) 10/10 mg combo**（rosuvastatin 10 + **ezetimibe 10**）。
+
+→ 這是 **SHARP-style strategy**（SHARP trial = simvastatin + ezetimibe combo）的 rosuvastatin 變形版。表面上跟本 paradigm「HD 病人加 ezetimibe 無強推薦」相衝突。但細看不矛盾：
+
+### 為什麼這個 prescribe 在 paradigm 內 defensible
+
+| Paradigm 適用情境 | 個案實況 | Fit |
+|----------------|---------|-----|
+| HD primary prevention（無 CAD 病史）| ❌ 個案不是——已有 LCX PCI 2023 + RCA CTO + SSS=16 active ischemia | paradigm 主要針對 primary prevention |
+| HD 但 post-PCI secondary prevention | ✅ 個案就是 | SHARP / 4D / AURORA 大部分 patients 為 primary/mixed，secondary prevention sub-analysis 結論較弱但**不是 negative** |
+| 健保條件 (statin 單方 3 個月未達標) | ✅ 暗示 Crestor 10mg → LDL 100 未達 < 70 target | 系統層級 trigger 是合理的 |
+| KDIGO 2013「不建議啟動加強」| ⚠️ Cretrol 是「加強」但是用 combo pill 形式 | grey zone：嚴格說是加強，但 ezetimibe 加在已啟動 statin 上 ≠ 「啟動」 |
+
+### Paradigm 沒有覆蓋到的：CAD secondary prevention subgroup 細節
+
+| Trial | HD subgroup design | 對 CAD secondary prevention 的 implication |
+|-------|--------------------|---------------------------------|
+| 4D (Wanner 2005) | T2DM + HD, mixed prev MI 18% | sub-analysis 在 prior CAD 病人 trend toward benefit 但 underpowered |
+| AURORA (Fellström 2009) | HD, prior CAD 39% | sub-analysis CAD subgroup HR 0.93 (NS) |
+| SHARP (Baigent 2011) | CKD/HD mixed, prior CAD ~15% | HD-only subgroup 整體 NS、CAD subgroup 未公開細分 |
+
+→ **HD + secondary CAD prevention 的 statin/ezetimibe 證據 is genuinely thin**——但這跟「不推薦」是兩件事。這是「**evidence sparse**」不是「**evidence against**」。
+
+### 7/2 lab 出來後可以問 dr 的三件事
+
+1. **Target LDL 是 < 70 還是 < 55**？（影響後續是否再 uptitrate）
+2. **若 LDL 已 < 70，是否考慮回歸單方 statin**？（簡化用藥 + 降低 polypharmacy）
+3. **Cretrol 對 Ca-P 軸無作用**——是否考慮**平行加 non-Ca binder**？（沿用本 wiki [§非鈣型 binder 推薦](analysis_iatrogenic_factors_in_refractory_idh.md)，**ferric citrate 首選**）
+
+### Meta 教訓
+
+Wiki paradigm 永遠是 **prior**，不是 **dogma**。當 prescriber 做出表面違反 paradigm 的 prescribe，**先 default to "他知道你不知道的"**（健保 trigger / 個案特異 history / 主治醫師臨床判斷），然後**用 paradigm 框架去追問細節**，而不是直接 challenge prescribe 對錯。
+
 ## 一般化的 paradigm shift（給其他 HD 病人也適用）
 
 對 HD 病人的 CAD 管理，跨論文 / 跨指引的核心共識：

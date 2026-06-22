@@ -859,3 +859,52 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 5. 跟移植時程整合（AVG 何時 abandon vs catheter bridge）
 
 教訓：health passport (健保快易通) 比衛教單詳細很多。結構化 report 揭露 indication、balloon spec、lesion site checkbox 等衛教單不會列的關鍵欄位。**下次任何處置都應該等健保快易通資料上來再 finalize wiki**，避免基於片段資訊做錯誤推論。
+
+---
+
+## 2026-06-22 — Crestor → Cretrol combo（rosuvastatin + ezetimibe）整合進 wiki
+
+**事件**：今天松禾診所將冠脂妥 10 mg → **脂瑞妥 (Cretrol) 10/10 mg combo**。User 初講「換藥」我以為 generic swap，websearch 確認**是 add-on（ezetimibe 10 mg 加入）**。
+
+**Cretrol = SHARP-style combo**：rosuvastatin 10 mg + ezetimibe 10 mg 同一顆，健保給付（條件：statin 單方 3 個月未達標）。
+
+**Drug details**:
+- Dose: 10/10 mg QD
+- Timing: 中午飯後（同舊 Crestor）
+- 健保 vs 自費: 健保（暗示 Crestor 單方 LDL 100 未達 < 70 secondary prevention target）
+- 醫生說明 target LDL: 無
+- 下次抽血: 2026/07/02（松禾月度）
+
+**對 wiki 既有 paradigm 的張力（誠實面對、不改 paradigm 結論）**：
+- `concept_hd_cad_paradigm` 主張 HD subgroup statin/ezetimibe benefit 弱（4D/AURORA negative、SHARP HD subgroup NS）
+- `cad_contribution §7` 之前寫「LDL 100 不需嚴控」「Q4 加 Ezetrol 議題降級」
+- 松禾的 prescribe 表面違反——**但用 secondary prevention rationale 可 defensible**：
+  - Post-LCX-PCI 2023 + RCA CTO + 2025/08 SSS=16 active ischemia
+  - paradigm 主要針對 primary prevention HD
+  - HD + secondary CAD prevention 證據 thin 但**不是 evidence against**——是「evidence sparse」
+- 健保 trigger 也合理：系統判定 Crestor 10mg 3 個月 LDL 100 ≠ < 70 → trigger combo
+
+**Wiki 五處更新**：
+1. `analysis_master_timeline`：
+   - 6/22 用藥變更 row（含 paradigm tension 提示）
+   - 7/2 預定抽血 row（追蹤重點：LDL + LFT/CK）
+2. `analysis_iatrogenic_factors`：
+   - 病人用藥表 line 26: 冠脂妥 → 脂瑞妥 combo（含 strikethrough 標記變更）
+   - 用藥狀態更新日期改為 2026/06/22、ezetrol mystery 解決
+3. `analysis_cad_contribution §7 LDL`：
+   - 標題從「❌ LDL 100 不需要嚴控」改為「LDL 100 議題已被 prescriber 解決 (2026/06/22 update)」
+   - 加入 paradigm tension 分析 + 7/2 lab 出來後可問 dr 的三件事
+4. `concept_hd_cad_paradigm`：
+   - 新增「🔥 個案 prescribe 實況 vs paradigm」section
+   - 加入 paradigm 適用情境 vs 個案實況 fit table
+   - 加入「HD + secondary CAD prevention 細節」3-trial sub-analysis
+   - **Meta 教訓**：「Wiki paradigm 永遠是 prior 不是 dogma」「先 default to prescriber 知道我不知道的、用 paradigm 框架追問細節而不是 challenge 對錯」
+5. `analysis_refractory_idh_treatment_plan`：無需更新（無 med list、藥單在 iatrogenic）
+
+**7/2 lab 出來後三件事可問 dr**:
+1. Target LDL 是 < 70 還是 < 55？
+2. 若已達標，是否考慮回歸單方 statin（簡化用藥）？
+3. Cretrol 對 Ca-P 軸無作用——是否考慮平行加 non-Ca binder（ferric citrate 首選）？
+
+**Meta 教訓 #1**：「換藥」這個詞可以是 generic swap 也可以是 add-on/upgrade，**永遠 websearch 確認成分**而不是 assume。
+**Meta 教訓 #2**：Wiki paradigm vs prescriber 衝突時，**先假設 prescriber 有 context 我沒有**，用 paradigm 結構去**追問**而非 challenge。

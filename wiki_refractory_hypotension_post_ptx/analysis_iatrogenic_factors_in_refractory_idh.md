@@ -23,7 +23,7 @@ tags: [refractory_IDH, medication_review, iatrogenic, dipyridamole, triple_antip
 |----------|------|------|------|
 | 保栓通 | Clopidogrel | P2Y12 抗血小板 | 75 mg QD |
 | 伯基 | Aspirin（腸溶錠） | COX-1 抗血小板 | 100 mg QD |
-| 冠脂妥 | Rosuvastatin | Statin | 10 mg QD |
+| ~~冠脂妥~~ → **脂瑞妥 (Cretrol)** | ~~Rosuvastatin 10~~ → **Rosuvastatin 10 + Ezetimibe 10 combo** | Statin + cholesterol-absorption inhibitor combo | 10/10 mg QD 中午飯後（**2026/06/22 松禾換藥**，健保給付，combo pill）|
 | **沛暢** | **Dipyridamole** | **PDE 抑制（抗血小板 + 血管擴張）** | **75 mg QD（劑量可能為 TID）** |
 | Midodrine | Midodrine | α-agonist | 洗前 5 mg + 中段加 5 mg |
 | **佳立鈣錠** | **Calcium carbonate** | **磷結合劑 + 鈣補充** | **500 mg × 2/餐 × 3 餐 = 6 顆/日（1,200 mg elemental Ca/日）** |
@@ -42,11 +42,11 @@ tags: [refractory_IDH, medication_review, iatrogenic, dipyridamole, triple_antip
 
 歷史一次性事件：**東元綜合醫院（新竹）2023/03 LCX PCI** → 東元無法處理 RCA CTO，自此之後病人未再回東元、心臟追蹤全轉 NTUH。**Ezetrol 停藥是 NTUH 內部 med simplification 之謎，非跨院 reconciliation 失誤**。
 
-**用藥狀態更新（2026/06/05）**：
+**用藥狀態更新（2026/06/22）**：
 - 沛暢 stopped 5/19（NTUH 心內）
 - 活性維生素 D stopped ~5/20（松禾）
 - **Concor 1.25 mg QOD started 5/19、stopped 6/4**（NTUH，IDH 變嚴重 → trial 失敗）
-- Ezetrol 不明何時 stopped（**NTUH 待釐清**）
+- ~~Ezetrol 不明何時 stopped~~ → **2026/06/22 松禾以 Cretrol combo (rosuvastatin 10 + ezetimibe 10) 取代單方 Crestor 10**（健保限制：statin 3 個月未達標才能開 combo → 暗示 Crestor 單方未達 LDL 目標。松禾未說明目標 LDL）。Q4 議題自動解決，但 paradigm tension 詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)
 - 確認過去是否用過 ACE/ARB 而停藥
 
 ## 核心發現：Dipyridamole 是可調整的醫源性 vasodilator
