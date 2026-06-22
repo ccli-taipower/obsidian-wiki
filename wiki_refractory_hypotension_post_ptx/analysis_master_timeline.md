@@ -21,6 +21,8 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | ESRD 起始 | 2015 |
 | 透析年資 | 11 年（PD 4.5 年 + HD 6.5 年）|
 | 移植 waiting list | 2015 起，已等 11 年 |
+| **尿量** | **無尿 anuric**（11 年透析，雙腎 TAE 後嚴重萎縮、膀胱 atrophic 見 2026/06/04 CT）|
+| **臨床 implication** | ❌ 任何 "watch your urine color / volume" 衛教**不適用**——rhabdo / 脫水 / 血尿等通常用尿液監測的事件，需改用症狀 + lab + dialysis 反應監測 |
 
 ### 🏥 兩院系統（重要 context）
 
