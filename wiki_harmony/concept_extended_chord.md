@@ -64,7 +64,7 @@ tags: [harmony, extended_chord, ninth, eleventh, thirteenth]
 
 ### 2a. 大九和弦（Major 9th / Maj9）
 
-**公式**：1 – 3 – 5 – 7 – 9  
+**公式**：1 – 3 – 5 – 7 – 9　（七→九 = **m3**，3 半音）  
 大七和弦（1–3–5–7）再加九音，色彩最清亮、精緻。
 
 **C 根音（Cmaj9）= C–E–G–B–D**
@@ -85,7 +85,7 @@ tags: [harmony, extended_chord, ninth, eleventh, thirteenth]
 
 ### 2b. 屬九和弦（Dominant 9th / dom9）
 
-**公式**：1 – 3 – 5 – ♭7 – 9  
+**公式**：1 – 3 – 5 – ♭7 – 9　（♭7→9 = **M3**，4 半音）  
 屬七和弦（1–3–5–♭7）再加上九音，是最帶張力也最常用的九和弦。
 
 **C 根音（C9）= C–E–G–B♭–D**
@@ -106,7 +106,7 @@ tags: [harmony, extended_chord, ninth, eleventh, thirteenth]
 
 ### 2c. 小九和弦（Minor 9th / m9）
 
-**公式**：1 – ♭3 – 5 – ♭7 – 9  
+**公式**：1 – ♭3 – 5 – ♭7 – 9　（♭7→9 = **M3**，4 半音）  
 小七和弦（1–♭3–5–♭7）再加九音，柔和而帶憂鬱的豐厚感。
 
 **C 根音（Cm9）= C–E♭–G–B♭–D**
