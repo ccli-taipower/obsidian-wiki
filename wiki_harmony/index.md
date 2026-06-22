@@ -5,7 +5,7 @@ date_created: 2026-06-16
 
 # Harmony Wiki（和聲樂理）
 
-> Last updated: 2026-06-22 | Concepts: 22 | Chord References: 13 | Quiz: 1 | Total: 37 pages
+> Last updated: 2026-06-22 | Concepts: 22 | Chord References: 13 | Quiz: 3 | Total: 39 pages
 > 並列 wiki：[../wiki_piano/index](../wiki_piano/index.md) (鋼琴指法) + [../wiki_phrase/index](../wiki_phrase/index.md) (樂句分段) + [../wiki_articulation/index](../wiki_articulation/index.md) (觸鍵詮釋)
 
 ## 學習路線圖
@@ -53,11 +53,15 @@ date_created: 2026-06-16
 18. [concept_non_functional_harmony](concept_non_functional_harmony.md) — **非功能和聲**：平行移動、調式和聲、對稱結構、色彩優先的和弦選擇
 19. [concept_chord_scale](concept_chord_scale.md) — **和弦音階對應**：順階和弦對應調式、避免音、屬七的多種音階選擇、即興思考流程
 
+📝 [quiz_advanced_harmony](quiz_advanced_harmony.md) — **進階和聲總測驗（30 題）**：涵蓋 Concepts 16–19
+
 ### 和聲與對位（指法引擎支撐）
 
 20. [concept_voice_leading](concept_voice_leading.md) — **聲部導進**：共同音保留、級進移動、反向運動，與 DP transition cost 的對應
 21. [concept_counterpoint_basics](concept_counterpoint_basics.md) — **對位法基礎**：聲部運動類型、多聲部指法策略、聲部識別與模仿
 22. [concept_texture](concept_texture.md) — **音樂織體**：單音/主音/複音/和弦織體，決定指法策略的選擇
+
+📝 [quiz_voice_texture](quiz_voice_texture.md) — **聲部與織體總測驗（30 題）**：涵蓋 Concepts 20–22
 
 ## 和弦速查索引
 
