@@ -66,14 +66,14 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 2026/04/09 | 抽血 | 完整 lab（最新）| K 6.0、Ca 9.0、P 4.6、Hb 12.3、ALP 61、LDL 100、Alb 4.2、MCV 69.2 | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
 | 2026/05 | 病程 | 49 歲生日 | — | — |
 | 2026/05/19 | 影像 | **下肢動脈超音波**（移植團隊 order）| 左 CFA moderate stenosis 但 < 50%，無症狀 | [prognosis](analysis_prognosis_without_transplant.md) |
-| 2026/05/19 | 💊 用藥 | **🔥 NTUH 心內處方變更**：沛暢暫停 + Concor 1.25 mg QOD 啟動 | 服藥日 T/Th/Sa AM | [iatrogenic](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| 2026/05/19 | 💊 用藥 | **🔥 NTUH 心內處方變更**：沛暢**處方 stop**（實際 cessation ~6/01，user-reported）+ Concor 1.25 mg QOD 啟動 | Concor 服藥日 T/Th/Sa AM | [iatrogenic](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **~2026/05** | 💊 用藥 | **🔥 松禾診所建議**：停活性維生素 D（執行 iPTH 回升計畫）| 結果見 6/4 lab | [IDH analysis](analysis_refractory_idh_treatment_plan.md) |
 | 2026/06/04 | 🩸 抽血 | **松禾診所例行月度抽血** | **iPTH 17.5 → 28.6（+63%）、K 6.0 → 5.0、Ca ↓ 8.5、P ↑、Hb 11.2 ↓、TSAT 7% 明確缺鐵** | 本頁上方 lab 表 |
 | **2026/06/04** | 💊 用藥 | **❌ Concor 暫停**（IDH 變嚴重）| 啟動 → 停藥僅 16 天 | [iatrogenic §4](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | 🔥 **2026/06/09** | 🔪 處置 | **AVG PTA #2**（葉聰賜醫師，地區醫院）| **SAME sites recurrent at 4 個月**：in-graft + graft-V junction 90% → Mustang 7.0×80 mm @ 20 bar, no thrombosis (high venous pressure 觸發), success | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 | 🔥 **2026/06/22** | 💊 用藥 | **🔥 松禾診所換藥**：冠脂妥 10 mg → **脂瑞妥 (Cretrol) 10/10 mg**（rosuvastatin 10 + **ezetimibe 10 combo**）| 中午飯後 QD、健保給付（健保限制：statin 單方 3 個月未達標時開立）。 dr 未說明目標 LDL | [cad §Q4 LDL](analysis_cad_contribution_to_refractory_idh.md)、[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) |
 | **2026/07/02**（預定）| 🩸 抽血 | 松禾診所月度抽血 | **追蹤重點**：LDL（評估 ezetimibe add-on 效果，文獻預期 −25~30 mg/dL → ~70-75）+ LFT/CK（statin combo monitor）+ 例行（K/Ca/P/Hb/iPTH/TSAT） | [cad §Q4 LDL](analysis_cad_contribution_to_refractory_idh.md) |
-| **2026/07/13**（預定）| 評估 | Dipyridamole trial-off 8 週 evaluate | Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| ~~2026/07/13~~ → **2026/07/27**（預定，校正）| 評估 | Dipyridamole trial-off 8 週 evaluate | 從**實際 cessation ~6/01** + 8 週 = ~7/27，跟 7/29 重複 SPECT 同一週 → 可**合併到 7/29 心內訪談**討論。Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/29**（預定）| 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI；**同次心內訪談主動提出 ivabradine 取代 Concor**（BB 不耐受後的 textbook alternative）| [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/10/13**（預定）| 評估 | **AVG PTA #2 follow-up**（葉聰賜）| 主動討論：vein mapping / surveillance US 縮短間隔 / DCB / 備用通路啟動 timing | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 
@@ -242,7 +242,7 @@ PTX 後降到 62.5 → 主動 +10 kg 上調乾體重嘗試解 IDH → IDH 仍頑
 | 藥物 | 學名 | 類別 | 目前狀態 |
 |------|------|------|---------|
 | Bokey | Aspirin 100 mg | COX-1 抗血小板 | ✅ 仍在用 |
-| Peysan | Dipyridamole 75 mg | PDE 抑制（抗血小板 + vasodilator）| ❌ **2026/05/19 停藥**（trial-off）|
+| Peysan | Dipyridamole 75 mg | PDE 抑制（抗血小板 + vasodilator）| ❌ **處方 stop 2026/05/19，實際 cessation ~2026/06/01**（trial-off；user-reported）|
 | **Norvasc** | **Amlodipine** | **CCB 降壓藥** | **❌ 已停**（PTX 後 BP 崩潰停藥）|
 | Crestor 10 mg | Rosuvastatin | Statin | ✅ 仍在用 |
 | **Ezetrol** | **Ezetimibe** | **腸道膽固醇吸收抑制** | **❌ 已停**（原因不明 — 待 Q4 釐清）|
