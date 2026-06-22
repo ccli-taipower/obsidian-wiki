@@ -908,3 +908,43 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 
 **Meta 教訓 #1**：「換藥」這個詞可以是 generic swap 也可以是 add-on/upgrade，**永遠 websearch 確認成分**而不是 assume。
 **Meta 教訓 #2**：Wiki paradigm vs prescriber 衝突時，**先假設 prescriber 有 context 我沒有**，用 paradigm 結構去**追問**而非 challenge。
+
+---
+
+## 2026-06-22 — Anuric 病人基線寫進 master_timeline（修正衛教模板誤套）
+
+**觸發事件**：我在 6/22 Cretrol 衛教 monitoring 寫「**肌肉酸痛 / 暗色尿** → 立刻告知（CK rhabdomyolysis 風險）」。User 指出「**我已經沒有尿很久了**」。
+
+**失誤分析**：
+- 病人 ADPKD ESRD 11 年透析、雙腎 TAE 後嚴重萎縮（TKV 3,407 → 1,030 mL）、膀胱 atrophic（2026/06/04 CT 證實）→ anuria 是 baseline、不是新狀態
+- 我套用了**非 ESRD 病人**的標準 statin rhabdo 衛教模板（"暗色尿/myoglobinuria"），對 anuric 病人完全 N/A
+- Wiki 之前**只在 log.md line 699 順帶提過一次** anuria（CT 膀胱 atrophic context），**沒有寫進病人 baseline section** → 我自己也容易忘
+
+**修正內容**：
+1. `master_timeline 病人 baseline` table 加兩行：
+   - 尿量: **無尿 anuric**
+   - 臨床 implication: 任何「watch your urine」衛教不適用
+2. **本 log 永久教訓**：給 anuric 病人的 monitoring/衛教模板**永遠去掉尿液訊號**
+
+### Rhabdo monitoring 給 anuric ESRD 病人的正確版本
+
+| 訊號 | 一般病人 | anuric ESRD 病人 |
+|------|---------|----------------|
+| 暗色尿 / myoglobinuria | ✅ 早期 marker | ❌ N/A |
+| 寡尿 oliguria | ✅ AKI signal | ❌ N/A（baseline 就無尿）|
+| 肌肉酸痛 / 無力 / 腫脹 | ✅ | ✅ **主要 subjective marker** |
+| 抽筋（要跟 IDH 抽筋區別）| 有點難 | ✅ 若性質改變 / 加重 → 警訊 |
+| HD 中高 K spike（突發、跟飲食不符）| — | ✅ **muscle breakdown release K → HD 監測獨有 marker** |
+| CK 例行 lab | 6-12 週 | **建議併入月度抽血**（無尿液訊號要更密 lab）|
+| LDH / AST 同步上升 | confirm | ✅ |
+| **目標**：開始 Cretrol 後 4-12 週測 CK 一次（7/2 松禾 lab 加進去）|
+
+### Meta 教訓
+
+衛教 / monitoring 模板都要先 check「**病人 baseline 是否使這個 marker 失效**」。anuric 是最常被遺漏的 baseline。其他類似 trap：
+- 截肢病人 → 「對側下肢檢查」內容要調整
+- 全身術後病人 → 「躺著休息」內容要調整
+- 失明病人 → 「視力變化警訊」要替代成其他感官
+- ESRD 病人 → 「腎功能 baseline」/「水分代謝」/「電解質」全套要重新校準
+
+→ 永遠**先讀病人 baseline、再套衛教模板**。
