@@ -988,3 +988,32 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 > 「Concor 1.25 mg QOD trial（5/19-6/4）IDH 加重已停。但我仍有 HFpEF（E/A 0.62）+ active reversible ischemia（SSS=16）需要 HR 控制 + 抗 ischemia 保護。能不能考慮 ivabradine 取代 BB？它只降 HR、不降 BP，理論上對我的 IDH 是 BB intolerant 後的 ideal alternative。健保『stable angina + BB 不耐受』應該給付。同時等 7/29 重複 SPECT 看 RCA CTO PCI 是否啟動——若 PCI 成功，可能根本不需要慢性 anti-anginal 藥物。」
 
 **Meta 教訓**：之前 §4 Option C「換不同 BB（譬如 metoprolol succinate）」是**思維框架被「BB」這個藥物類別綁住**的錯誤——當一類藥失敗，要 step back 問「**原始 indication 用什麼藥物機轉達成？有沒有別的 mechanism 可達同樣目的？**」。Ivabradine 是「pure HR reducer」這個 mechanism 的代表，跨出 BB 類別才看得到。
+
+---
+
+## 2026-06-22 — 沛暢實際停藥日校正：5/19 處方 → ~6/01 實際 cessation
+
+**User correction**：「沛暢大概六月初就停了」——揭露 wiki 多處將 **5/19 處方日**當成**停藥日**的錯誤。實際 cessation ~2026/06/01。
+
+**藥動分析**：dipyridamole IR t½ 10-12 hr → 6/01 停藥到 6/4 IDH 變嚴重，只洗掉 3-5 個 t½ = **~75-90% 清除**。「停沛暢的 IDH 改善效益」尚未完全顯現就被 Concor + Ca↓ + Hb↓ 三重壓力蓋過。
+
+**對 §4 多因素 IDH 惡化假說的影響（強化、不是反證）**：
+- 原本「停沛暢應該改善但效果不夠抵銷」 → 校正為「停沛暢效益**來不及登場**」
+- 這**強化**了「Concor 不是 6/4 IDH 惡化的單獨主因」的判斷
+- 6/4 那個時點的 net effect = (Concor 已 16 天 peak) + (Ca/Hb 中度下降) + (沛暢 wash-out 才 3 天) → 結局必然惡化
+
+**對 7/13 evaluate timing 的影響**：
+- 原 7/13 是「5/19 + 8 週」的計算
+- 校正：「~6/01 + 8 週 = ~7/27」，跟 **7/29 重複 SPECT 同一週**
+- → **合併到 7/29 心內訪談**討論 dipyridamole trial-off decision（留 / 停 / 升 Aggrenox ER）
+
+**Wiki 五處更新**：
+1. `iatrogenic 用藥狀態更新` line 46: 加「處方 stop 5/19 → 實際 cessation ~6/01」+ 藥動 implication
+2. `iatrogenic §4 multi-factor IDH 惡化 table`: 「停沛暢」行從「中等抵銷」改為「部分潛伏」+ 結尾「來不及登場」
+3. `master_timeline 5/19 row`: 加「實際 cessation ~6/01」括號
+4. `master_timeline 7/13 預定 row`: 「~~7/13~~ → 7/27」+ 註明合併到 7/29 SPECT 訪談
+5. `master_timeline 目前用藥 dipyridamole 行`: 「2026/05/19 停藥」改為「處方 stop 5/19、實際 cessation ~6/01」
+
+**Meta 教訓 #1：處方日 ≠ 實際停藥日**——病人手上有庫存藥、心理慣性、或漸進式減量都會讓 actual cessation 落在 prescription date 之後。wiki 直接寫「2026/05/19 停藥」是**將處方事件當成行為事件**的誤判。下次處方變更落 wiki 時必問「**你是當天就停、還是還會吃完手上的？**」。
+
+**Meta 教訓 #2：藥動分析要算到「事件時點還剩幾個 t½」**——不是粗略「停了就好」。dipyridamole 12 hr t½，到 6/4（停 3 天）約 75-90% 清除，**不是 100%**。任何「停 X 改善 Y」的推論都要驗證 t½ 計算。

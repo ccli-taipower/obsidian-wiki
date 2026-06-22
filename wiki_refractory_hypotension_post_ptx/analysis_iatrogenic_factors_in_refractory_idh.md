@@ -43,7 +43,7 @@ tags: [refractory_IDH, medication_review, iatrogenic, dipyridamole, triple_antip
 歷史一次性事件：**東元綜合醫院（新竹）2023/03 LCX PCI** → 東元無法處理 RCA CTO，自此之後病人未再回東元、心臟追蹤全轉 NTUH。**Ezetrol 停藥是 NTUH 內部 med simplification 之謎，非跨院 reconciliation 失誤**。
 
 **用藥狀態更新（2026/06/22）**：
-- 沛暢 stopped 5/19（NTUH 心內）
+- 沛暢：**處方 stop 2026/05/19（NTUH 心內）→ 實際 cessation ~2026/06/01**（user-reported approximate；可能因庫存藥延續服用至 6 月初）。**藥動 implication**：dipyridamole IR t½ 10-12 hr → 6/01 停藥到 6/04 IDH 變嚴重時，只完成 ~3-5 個半衰期、約 **75-90% 清除**，「停沛暢的 IDH 改善效益」尚未完全顯現
 - 活性維生素 D stopped ~5/20（松禾）
 - **Concor 1.25 mg QOD started 5/19、stopped 6/4**（NTUH，IDH 變嚴重 → trial 失敗）
 - ~~Ezetrol 不明何時 stopped~~ → **2026/06/22 松禾以 Cretrol combo (rosuvastatin 10 + ezetimibe 10) 取代單方 Crestor 10**（健保限制：statin 3 個月未達標才能開 combo → 暗示 Crestor 單方未達 LDL 目標。松禾未說明目標 LDL）。Q4 議題自動解決，但 paradigm tension 詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md)
@@ -242,9 +242,9 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 | Concor 1.25 mg QOD | 輕度加重（HR 反射代償減弱）| 弱-中 |
 | **vit D 停 → Ca 9.0 → 8.5** | **加重**（[concept_hypocalcemia_cardiac_effects](concept_hypocalcemia_cardiac_effects.md)：Shinoda 1992 Ca 7.8 即可誘發 cardiac issue）| 中 |
 | Hb 12.3 → 11.2 | 加重（心肌氧供應↓ → 缺血 ↑）| 中 |
-| 停沛暢 | 應該改善（消除 vasodilator）| 中（但效果不夠抵銷）|
+| **停沛暢（實際 ~6/01）** | 應該改善（消除 vasodilator），**但到 6/4 只 wash-out 3-5 個 t½** → 效益尚未完全顯現 | 中（**部分潛伏**，原假設高估了已展現的 benefit）|
 
-→ **IDH 變嚴重很可能是「多因素同時惡化」而非單獨 Concor 的鍋**。但臨床上停 BB 是「最容易嘗試的單一變數」，做為診斷性試驗合理。
+→ **IDH 變嚴重很可能是「多因素同時惡化」而非單獨 Concor 的鍋**。**2026/06/22 校正：沛暢實際 ~6/01 才停，到 6/4 只洗掉 75-90%**——「停沛暢 IDH 改善」效益尚未完全顯現就被 Concor + Ca↓ + Hb↓ 三重壓力蓋過。這**強化**了多因素假說（沛暢 benefit 不是「中等抵銷」而是「來不及登場」）。但臨床上停 BB 是「最容易嘗試的單一變數」，做為診斷性試驗合理。
 
 **Trial 失敗後的下一步選項**（待 NTUH 心內決定，2026/06/22 擴充）：
 
