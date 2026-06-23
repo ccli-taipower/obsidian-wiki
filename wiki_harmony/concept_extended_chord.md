@@ -17,6 +17,15 @@ tags: [harmony, extended_chord, ninth, eleventh, thirteenth]
 | **[Sus](concept_sus_add_chord.md#1-sus-和弦suspended-chord)** | 三音換成 2 或 4 | 失去大小性格，產生懸掛感 | Csus4、Csus2 |
 | **[Add](concept_sus_add_chord.md#2-add-和弦added-tone-chord)** | 跳過七音，直接加 9 或 11 | 三音保留，沒有七音張力 | Cadd9、Cadd11 |
 
+區分三條路線的關鍵就是**三音**和**七音**：
+
+|  | 有三音 | 無三音 |
+|--|--------|--------|
+| **有七音** | 延伸和弦（C9、C13） | Sus + 七音（C7sus4、C9sus4） |
+| **無七音** | Add 和弦（Cadd9） | Sus 和弦（Csus4、Csus2） |
+
+> 三音決定和弦的大小性格（有 = 知道大或小；沒有 = 懸掛狀態）。七音決定是三和弦層級還是七和弦層級。
+
 本頁講第一條路線：**延伸和弦（extended chord）**——在七和弦上繼續往上疊三度（九音、十一音、十三音），讓和聲色彩越來越豐富。這是爵士、流行、R&B 裡那些「有點酷、有點說不清楚」聲響的來源。
 
 ---
