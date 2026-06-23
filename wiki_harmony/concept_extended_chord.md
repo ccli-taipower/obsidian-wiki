@@ -9,7 +9,15 @@ tags: [harmony, extended_chord, ninth, eleventh, thirteenth]
 > 前置知識：[concept_seventh_chord — 七和弦](concept_seventh_chord.md)（七和弦結構與轉位）
 > 建議先讀：[concept_triad — 三和弦](concept_triad.md)（三度疊加的基本原理）
 
-你已經掌握七和弦：根音 + 三音 + 五音 + 七音，四個聲部。**延伸和弦（extended chord）**就是繼續往上疊三度——九音、十一音、十三音——讓和聲色彩越來越豐富、複雜。這是爵士、流行、R&B 裡那些「有點酷、有點說不清楚」聲響的來源。
+三和弦（1-3-5）是一切和弦的起點，從它出發有三條擴充路線：
+
+| 路線 | 做法 | 結果 | 例子 |
+|------|------|------|------|
+| **延伸**（本頁） | 往上堆疊 7→9→11→13 | 七音必須在，層層加厚 | C9、C13 |
+| **[Sus](concept_sus_add_chord.md#1-sus-和弦suspended-chord)** | 三音換成 2 或 4 | 失去大小性格，產生懸掛感 | Csus4、Csus2 |
+| **[Add](concept_sus_add_chord.md#2-add-和弦added-tone-chord)** | 跳過七音，直接加 9 或 11 | 三音保留，沒有七音張力 | Cadd9、Cadd11 |
+
+本頁講第一條路線：**延伸和弦（extended chord）**——在七和弦上繼續往上疊三度（九音、十一音、十三音），讓和聲色彩越來越豐富。這是爵士、流行、R&B 裡那些「有點酷、有點說不清楚」聲響的來源。
 
 ---
 
