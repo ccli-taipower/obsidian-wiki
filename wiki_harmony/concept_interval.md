@@ -196,7 +196,7 @@ C  D  E  F  G  A  B  C'
 | M2（大二度） | 輕微摩擦，需要解決 |
 | M7（大七度） | 緊張、不穩定 |
 | m7（小七度） | 張力略低，常作屬七和弦的特色 |
-| A4/d5（三全音） | 最不穩定，古代稱「魔鬼的音程」（diabolus in musica） |
+| A4/d5（三全音） | 最不穩定，古代稱「魔鬼的音程」（diabolus in musica）。頻率比 45:32，泛音幾乎不重疊，密集拍頻（詳見 [concept_overtone_series §3](concept_overtone_series.md)） |
 
 ### 為什麼這件事對和弦很重要？
 
