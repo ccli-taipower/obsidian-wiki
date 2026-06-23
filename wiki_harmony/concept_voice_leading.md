@@ -377,3 +377,4 @@ RH：自由加旋律或上方音色
 - [concept_chromatic_chords — 變化和弦](concept_chromatic_chords.md) — 增六和弦的半音聲部導進
 - [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — 代理和弦的半音解決邏輯
 - [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 七音解決（下行級進）的聲部規則
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — 平行五度為何使聲部失去獨立性（泛音過度融合）；低音程限制的物理解釋（§10）

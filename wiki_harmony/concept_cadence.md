@@ -234,3 +234,4 @@ vi  (Am):  A–C–E   ●   ●       ●       ← 意外！（不是 C）
 - [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — V7 如何強化正格終止的解決感
 - [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 終止式中各聲部的移動規則
 - [concept_chromatic_chords — 變化和弦](concept_chromatic_chords.md) — 拿坡里、增六和弦出現在終止式脈絡中
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — V7→I 的「張力→放鬆」感來自三全音拍頻的消失（§3）

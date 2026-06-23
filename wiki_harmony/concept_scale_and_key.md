@@ -320,3 +320,4 @@ B - E - A - D - G - C - F
 - [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 用減法從七聲音階提煉出五聲系統
 - [concept_chord_function — 功能和聲](concept_chord_function.md) — 順階和弦的 T / S / D 功能角色
 - [concept_modulation — 轉調](concept_modulation.md) — 用五度圈規劃調性移動
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — 大調音階為什麼「聽起來對」：音階音幾乎都在泛音列前幾個泛音中；律制比較（§8）

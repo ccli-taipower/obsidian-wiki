@@ -475,3 +475,4 @@ I     ii    iii   IV    V     vi    vii
 - [chord_dominant7](chord_dominant7.md)、[chord_major7](chord_major7.md)、[chord_minor7](chord_minor7.md)、[chord_dim7](chord_dim7.md)、[chord_half_dim7](chord_half_dim7.md) — 五種七和弦 12 調速查
 - [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — 屬七和弦內的三全音是代理的理論基礎
 - [concept_cadence — 終止式](concept_cadence.md) — V7 → I 正格終止的完整脈絡
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — 三全音為什麼不協和？頻率比 45:32 的泛音重疊分析（§3）

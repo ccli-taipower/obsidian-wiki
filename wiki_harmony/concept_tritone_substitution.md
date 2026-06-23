@@ -256,3 +256,4 @@ C  →（+6 半音）→ F# / G♭     C7  ↔ F#7/G♭7
 - [concept_secondary_dominant — 副屬和弦](concept_secondary_dominant.md) — 所有副屬和弦都能做三全音代理
 - [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 理解半音解決的聲部移動邏輯
 - [concept_progression — 和弦進行](concept_progression.md) — ii–V–I 等爵士進行中的代理應用
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — 三全音不協和的物理原因：泛音不重疊產生密集拍頻（§3）

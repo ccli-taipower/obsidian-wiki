@@ -39,7 +39,7 @@ date_created: 2026-06-16
 
 ### 聲學基礎
 
-13. [concept_overtone_series](concept_overtone_series.md) — **泛音列**：泛音與基音、頻率比與音程、音色成因、低音程限制
+13. [concept_overtone_series](concept_overtone_series.md) — **泛音列與聲學**：頻率比與協和度、三全音不協和解釋、樂器與人聲泛音比較、歌手共振峰、Pavarotti 案例研究、F1 調諧、高低音感知優勢、傅立葉分析、律制（畢氏/純律/平均律）、古樂運動、低音程限制（33 題小測驗）
 
 ### 音階延伸
 

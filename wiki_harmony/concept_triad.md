@@ -381,3 +381,4 @@ T → S → D → T 是西洋調性音樂最基本的動力循環。詳細說明
 - [chord_major](chord_major.md)、[chord_minor](chord_minor.md)、[chord_diminished](chord_diminished.md)、[chord_augmented](chord_augmented.md) — 四種三和弦 12 調速查
 - [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 三和弦之間如何平滑連接
 - [../wiki_piano/concept_chord_fingering — 和弦指法](../wiki_piano/concept_chord_fingering.md) — 三和弦各轉位的標準鍵盤指法
+- [concept_overtone_series — 泛音列](concept_overtone_series.md) — 大三和弦 = 泛音列第 4–5–6 泛音（4:5:6），為什麼它聽起來最自然

@@ -877,13 +877,19 @@ C → G → D → A → E → B → F# → C# → G# → D# → A# → F → (C)
 
 ---
 
-## 下一步
+## 相關連結
 
-- [concept_interval — 音程基礎](concept_interval.md) — 泛音列中的頻率比對應哪些音程
-- [concept_triad — 三和弦](concept_triad.md) — 第 4、5、6 泛音直接構成大三和弦
+### 直接相關（本頁物理理論的音樂應用）
 
-## 延伸參考
-
+- [concept_interval — 音程基礎](concept_interval.md) — 泛音列中的頻率比對應哪些音程；§3 協和度光譜的音樂分類
+- [concept_triad — 三和弦](concept_triad.md) — 第 4、5、6 泛音直接構成大三和弦（4:5:6）
+- [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 屬七和弦的三全音張力來自泛音不重疊的密集拍頻（§3）
+- [concept_tritone_substitution — 三全音代理](concept_tritone_substitution.md) — 共享三全音的物理基礎：兩個屬七和弦的拍頻模式相同
 - [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 泛音列暗示了大調音階的自然基礎
+
+### 延伸參考
+
+- [concept_chord_function — 功能和聲](concept_chord_function.md) — 屬→主的引力可追溯至泛音列中的五度關係（3:2）
+- [concept_cadence — 終止式](concept_cadence.md) — 正格終止的「張力→放鬆」感來自三全音拍頻的消失
+- [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 平行五度的禁忌源於泛音過度融合；低音程限制影響開放排列
 - [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 超越泛音列自然音程的人工音階結構
-- [concept_chord_function — 功能和聲](concept_chord_function.md) — 屬→主的引力可追溯至泛音列中的五度關係
