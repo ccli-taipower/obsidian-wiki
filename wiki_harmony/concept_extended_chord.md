@@ -304,3 +304,4 @@ B – F – A  +  G 低音（左手）
 - [chord_sus](chord_sus.md)、[chord_add](chord_add.md)、[chord_6th](chord_6th.md) — Sus / Add / 六和弦速查
 - [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — 延伸音的選擇與避免音理論
 - [concept_progression — 和弦進行](concept_progression.md) — 延伸和弦在爵士進行中的實際用法
+- [concept_overtone_series — 泛音列與聲學](concept_overtone_series.md) — 延伸音（9th、11th、13th）在泛音列中的位置與協和度排序（§2–§3）

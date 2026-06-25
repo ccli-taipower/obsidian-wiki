@@ -231,3 +231,4 @@ C → E♭ → G♭ → A → C
 - [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 全音音階平行移動、減音階對稱結構
 - [concept_progression — 和弦進行](concept_progression.md) — 功能進行 vs 非功能進行的對比
 - [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 平行移動中的聲部處理
+- [concept_overtone_series — 泛音列與聲學](concept_overtone_series.md) — 平行移動為什麼「聽起來對」：泛音融合的物理基礎；色彩和聲的聲學美感

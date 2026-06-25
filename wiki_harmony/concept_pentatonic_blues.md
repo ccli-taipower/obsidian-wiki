@@ -348,3 +348,4 @@ D → Eb → E
 - [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 藍調中廣泛使用的屬七和弦
 - [concept_progression — 和弦進行](concept_progression.md) — 12 小節藍調也是一種和弦進行模式
 - [concept_scale_and_key — 音階與調性](concept_scale_and_key.md) — 回顧大調 / 小調音階基礎
+- [concept_overtone_series — 泛音列與聲學](concept_overtone_series.md) — 藍調音的音高偏移與泛音列自然音程的關係；協和度光譜（§3）

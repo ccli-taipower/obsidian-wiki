@@ -237,3 +237,4 @@ Cmaj7      →  C Ionian（C D E F G A B），注意 F 是避免音
 - [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 五聲音階在即興中的萬用性
 - [concept_non_functional_harmony — 非功能和聲](concept_non_functional_harmony.md) — 調式和聲中的和弦選擇思維
 - [concept_seventh_chord — 七和弦](concept_seventh_chord.md) — 和弦音階對應以七和弦為基本單位
+- [concept_overtone_series — 泛音列與聲學](concept_overtone_series.md) — 和弦音階選擇背後的聲學基礎：頻率比與協和度（§3）

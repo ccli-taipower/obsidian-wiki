@@ -974,7 +974,7 @@ C → G → D → A → E → B → F# → C# → G# → D# → A# → F → (C)
 
 ## 9. 泛音在鋼琴上的體驗
 
-你可以用以下實驗親耳聽到泛音的存在：
+你可以用以下實驗親耳聽到泛音的存在（更多鋼琴相關內容見 [wiki_piano](../wiki_piano/index.md)）：
 
 ### 實驗一：共鳴實驗
 
@@ -1120,3 +1120,8 @@ C → G → D → A → E → B → F# → C# → G# → D# → A# → F → (C)
 - [concept_cadence — 終止式](concept_cadence.md) — 正格終止的「張力→放鬆」感來自三全音拍頻的消失
 - [concept_voice_leading — 聲部導進](concept_voice_leading.md) — 平行五度的禁忌源於泛音過度融合；低音程限制影響開放排列
 - [concept_symmetric_scales — 對稱音階](concept_symmetric_scales.md) — 超越泛音列自然音程的人工音階結構
+- [concept_pentatonic_blues — 五聲音階與藍調](concept_pentatonic_blues.md) — 藍調音的音高偏移與泛音列自然音程的張力
+- [concept_extended_chord — 延伸和弦](concept_extended_chord.md) — 9th、11th、13th 在泛音列中的位置
+- [concept_counterpoint_basics — 對位法基礎](concept_counterpoint_basics.md) — 平行五度禁忌的泛音融合解釋
+- [concept_chord_scale — 和弦音階對應](concept_chord_scale.md) — 即興音階選擇背後的協和度邏輯
+- [concept_non_functional_harmony — 非功能和聲](concept_non_functional_harmony.md) — 平行移動與泛音融合的色彩效果

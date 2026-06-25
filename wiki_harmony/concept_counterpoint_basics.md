@@ -298,3 +298,4 @@ RH 上行超過五度時：
 - [../wiki_piano/concept_cross_staff_voice_boundary — 跨譜表聲部邊界](../wiki_piano/concept_cross_staff_voice_boundary.md) — 指法接力不跨聲部
 - [../wiki_piano/concept_hand_distribution — 手部重分配](../wiki_piano/concept_hand_distribution.md) — 多聲部在雙手間的分配策略
 - [../wiki_piano/concept_finger_substitution — 換指技巧](../wiki_piano/concept_finger_substitution.md) — 連奏中的同音換指
+- [concept_overtone_series — 泛音列與聲學](concept_overtone_series.md) — 平行五度使聲部融合的物理原因（泛音過度重疊）；低音程限制（§10）
