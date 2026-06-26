@@ -1168,8 +1168,11 @@ Yamaha:       ███ ███ ██ ██ █        ← 高頻仍有能�
 **相關研究**
 
 - **Gabriel Weinreich**（密西根大學）：研究鋼琴的 coupled string 現象——中高音每個音有 3 根弦，弦間微小頻率差異產生鋼琴特有的「餘音（aftersound）」波動。不同品牌的弦間距和張力差異直接影響此效果。
+  - Weinreich, G. (1977). "Coupled piano strings." *Journal of the Acoustical Society of America*, 62(6), 1474–1484. [doi:10.1121/1.381677](https://doi.org/10.1121/1.381677)
 - **Haye Hinrichsen**（維爾茨堡大學）：量化了琴身長度對 inharmonicity 的影響——9 呎大琴的 inharmonicity 大約是 5 呎小琴的 1/3。
+  - Hinrichsen, H. (2012). "Entropy-based tuning of musical instruments." *Revista Brasileira de Ensino de Física*, 34(2), 2301. [doi:10.1590/S1806-11172012000200004](https://doi.org/10.1590/S1806-11172012000200004)
 - **Aalto 大學**（芬蘭）：用頻譜分析比較 Steinway、Bösendorfer、Yamaha，確認品牌間在 1–5 kHz 範圍的泛音能量分布有系統性差異。
+  - Välimäki, V., Pakarinen, J., Erkut, C., & Karjalainen, M. (2006). "Discrete-time modelling of musical instruments." *Reports on Progress in Physics*, 69(1), 1–78. [doi:10.1088/0034-4885/69/1/R01](https://doi.org/10.1088/0034-4885/69/1/R01)
 
 ### 名琴 vs 專業琴 vs 廉價琴——小提琴的泛音研究
 
@@ -1214,9 +1217,14 @@ Yamaha:       ███ ███ ██ ██ █        ← 高頻仍有能�
 **相關研究**
 
 - **Claudia Fritz 等人（2012, 2014, PNAS）**：巴黎雙盲測試——21 位專業小提琴家蒙眼試奏 Stradivari、Guarneri 與現代名琴，多數演奏者**無法可靠分辨**新舊琴。「最想帶回家」得票最高的是一把現代琴。
+  - Fritz, C. et al. (2012). "Player preferences among new and old violins." *PNAS*, 109(3), 760–763. [doi:10.1073/pnas.1114999109](https://doi.org/10.1073/pnas.1114999109)
+  - Fritz, C. et al. (2014). "Soloist evaluations of six Old Italian and six new violins." *PNAS*, 111(20), 7224–7229. [doi:10.1073/pnas.1323367111](https://doi.org/10.1073/pnas.1323367111)
 - **Joseph Nagyvary（德州農工大學）**：取得 Stradivari 碎片進行化學分析，發現木材經礦物處理（硼砂、鹽、明礬），改變了振動特性。
+  - Nagyvary, J., DiVerdi, J. A., Owen, N. L., & Tolley, H. D. (2006). "Wood used by Stradivari and Guarneri." *Nature*, 444, 565. [doi:10.1038/444565a](https://doi.org/10.1038/444565a)
 - **Hwan-Ching Tai 等人（2017, PNAS）**：用 X 光和紅外光譜分析 5 把 Stradivari，確認木材含鋁、鈣、銅，現代琴木沒有這些成分。
+  - Tai, H.-C. et al. (2017). "Chemical distinctions between Stradivari's maple and modern tonewood." *PNAS*, 114(1), 27–32. [doi:10.1073/pnas.1611253114](https://doi.org/10.1073/pnas.1611253114)
 - **Martin Schleske（德國製琴師/物理學家）**：用雷射振動測量掃描琴板，Stradivari 的振動模態分布特別均勻，沒有明顯「死區」。
+  - Schleske, M. (2002). "Empirical Tools in Contemporary Violin Making." *Catgut Acoustical Society Journal*, 4(5), 43–51. 另見其研究網站 [schleske.de](https://www.schleske.de)
 
 > **鋼琴 vs 小提琴的對比**：鋼琴品牌差異來自響板/琴槌/弦的**設計選擇**（可精確控制的工程問題）；小提琴差異來自木材的**微觀結構**（材料科學 + 300 年時間 + 運氣）。
 
