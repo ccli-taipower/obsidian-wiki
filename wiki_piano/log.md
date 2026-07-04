@@ -1,5 +1,9 @@
 # Piano Fingering Wiki Log
 
+## [2026-07-04c] standard scale fingering | 降記號 LH 上行頂音書版校正（5 調）
+
+user 對照實體哈農書：站方降記號調 LH 上行頂音 B♭/E♭/A♭/D♭=4、G♭=3 全錯。書版 = B♭/E♭/A♭ 用 **2**（與下行起始一致，迴轉無縫）、D♭=**3**、G♭=**4**（與中段循環同音同指）。`concept_standard_scale_arpeggio_fingering` 警訊區補記；站方已修。影響：哈農 vs 統一 DP 評比更新——A♭ 歸哈農側（+12.0），B♭/E♭ 優勢擴大（+30.5/+19.3），D♭/G♭ 統一優勢不變（−10/−11.5），總帳哈農 698.7 vs 統一 760.1。
+
 ## [2026-07-04b] thumb technique | 黑鍵墊高上行側鏡像（cross-over 落黑）
 
 user 指出 E♭ 左手上行哈農 3214 vs 統一 2143 的 1→4 跨越距離差（半音 vs 全音）。分析拆出兩成分：距離（relay slope 已弱捕捉 +0.75）＋跨越指落點鍵色（未建模）。§黑鍵墊高與穿越淨空補上行側：cross-over 落黑=升起鍵面迎向長指；落白=跨拇指後下潛。傳統降記號指法=雙向對齊黑鍵地形（下行黑鍵出發穿越＋上行半音落黑收跨）。DP 對應 `CROSS_OVER_BLACK_LANDING_DISCOUNT=0.5`（v1 `THUMB_PASS_UNDER_BLACK_DISCOUNT` 的上行鏡像）。
