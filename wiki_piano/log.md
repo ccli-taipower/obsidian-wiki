@@ -1,5 +1,9 @@
 # Piano Fingering Wiki Log
 
+## [2026-07-04b] thumb technique | 黑鍵墊高上行側鏡像（cross-over 落黑）
+
+user 指出 E♭ 左手上行哈農 3214 vs 統一 2143 的 1→4 跨越距離差（半音 vs 全音）。分析拆出兩成分：距離（relay slope 已弱捕捉 +0.75）＋跨越指落點鍵色（未建模）。§黑鍵墊高與穿越淨空補上行側：cross-over 落黑=升起鍵面迎向長指；落白=跨拇指後下潛。傳統降記號指法=雙向對齊黑鍵地形（下行黑鍵出發穿越＋上行半音落黑收跨）。DP 對應 `CROSS_OVER_BLACK_LANDING_DISCOUNT=0.5`（v1 `THUMB_PASS_UNDER_BLACK_DISCOUNT` 的上行鏡像）。
+
 ## [2026-07-04] thumb technique | 黑鍵墊高與穿越淨空新節
 
 `concept_thumb_technique.md` 新增「黑鍵墊高與穿越淨空」：thumb-under 難度取決於穿越當下淨空——長指按黑鍵時手被墊高、拇指下方淨空最大；全白鍵穿越手貼鍵面、提速時最先崩。這是傳統降記號調「長指配黑鍵」與蕭邦先教 B 大調的設計理由。與既有「Thumb on Black Keys」（拇指落點）互補：同一物理量（手的垂直高度）的兩側。發現脈絡同爬指節（hanon-fingering 站分析：哈農 B♭ 左手下行每次穿越都從黑鍵出發，統一版 C/F 錨點全白鍵穿越，DP 原計價幾乎相同）。DP 對應 `THUMB_PASS_UNDER_BLACK_DISCOUNT=0.5`。

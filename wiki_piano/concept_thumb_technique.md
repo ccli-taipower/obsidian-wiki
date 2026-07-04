@@ -79,8 +79,22 @@ G(4)→F(1)、D(3)→C(1) 全白鍵穿越，喪失墊高補償。
 與「Thumb on Black Keys」（§核心技巧）的區分：該節講拇指**落點**避免黑鍵；
 本節講穿越時**上方長指**的鍵色——兩者是同一物理量（手的垂直高度）的兩側。
 
-DP 對應：`THUMB_PASS_UNDER_BLACK_DISCOUNT`（`_transition_cost` thumb-under 出發指黑鍵折扣；
-落點側由 `THUMB_PASS_BLACK_PENALTY` 處理）。
+### 上行側鏡像：跨越指落黑鍵（cross-over black landing, 2026-07-04 補）
+
+同一物理量在 **cross-over 方向**（LH 上行／RH 下行，長指跨過拇指）的表現：
+跨越指**落在黑鍵**時，升起的鍵面「迎向」跨越中的長指，順勢落下即得；
+落白鍵則須跨過拇指後再下潛到鍵盤平面，拇指擋在路徑上，位移與時間都較長。
+跨越距離同時起作用：半音跨越（如 G(1)→A♭(4)）的側移最小。
+
+傳統降記號指法的完整圖像因此是**雙向對齊黑鍵地形**：
+- 下行 thumb-under：每次穿越都從黑鍵出發（上節）
+- 上行 cross-over：每次跨越都是半音、落黑鍵（B♭ 調 D1→E♭4／A1→B♭3；E♭ 調 G1→A♭4／D1→E♭4）
+
+固定白鍵錨點（如統一版 C、F）則使兩個方向都退化為全音、全白的跨越。
+
+DP 對應：`THUMB_PASS_UNDER_BLACK_DISCOUNT`（下行：thumb-under 出發指黑鍵折扣）＋
+`CROSS_OVER_BLACK_LANDING_DISCOUNT`（上行：cross-over 落黑折扣）；
+拇指自身落點由 `THUMB_PASS_BLACK_PENALTY` 處理；跨越距離由 relay slope（expected=interval/2）捕捉。
 
 ## 來源
 
