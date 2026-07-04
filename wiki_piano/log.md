@@ -1,5 +1,13 @@
 # Piano Fingering Wiki Log
 
+## [2026-07-04] thumb technique | 黑鍵墊高與穿越淨空新節
+
+`concept_thumb_technique.md` 新增「黑鍵墊高與穿越淨空」：thumb-under 難度取決於穿越當下淨空——長指按黑鍵時手被墊高、拇指下方淨空最大；全白鍵穿越手貼鍵面、提速時最先崩。這是傳統降記號調「長指配黑鍵」與蕭邦先教 B 大調的設計理由。與既有「Thumb on Black Keys」（拇指落點）互補：同一物理量（手的垂直高度）的兩側。發現脈絡同爬指節（hanon-fingering 站分析：哈農 B♭ 左手下行每次穿越都從黑鍵出發，統一版 C/F 錨點全白鍵穿越，DP 原計價幾乎相同）。DP 對應 `THUMB_PASS_UNDER_BLACK_DISCOUNT=0.5`。
+
+## [2026-07-04] thumb technique | 跨越的解剖學前提（拇指對掌性）新節
+
+`concept_thumb_technique.md` 新增「跨越的解剖學前提」：legato 跨越唯一可行形式是拇指參與（CMC 鞍狀關節對掌性）；非拇指跨指（爬指）連奏下近乎不可行。推論 cost 排序原則：爬指成本必須 > 標準拇指穿越。發現脈絡：分析 user 的 hanon-fingering 站兩套音階指法時，DP 把統一版左手上行頂端的爬指尾巴（…F=1 G=2 A=3 B♭=4）計價 8.25–9.0，**低於**標準拇指穿越的 10.5–12.0——排序違反解剖學。範圍：級進（≤2 半音）才算真跨越；staccato 豁免。DP 對應 `NONTHUMB_CROSSING_PENALTY=4.0`（恢復排序的最小值）。
+
 ## [2026-06-15] standard scale fingering | 全調 canonical 表（hanon-fingering 站轉錄）
 
 `concept_standard_scale_arpeggio_fingering.md` 加入 **15 大調 × RH/LH × 上下行的完整指法表**，來源 = user 自製查詢站 `github.com/ccli-taipower/hanon-fingering`（`index.html` 內 `DATA`/`SCALES`）。原本「待驗證」段問的「黑鍵調精確 thumb-under 分組」現有 explicit ground truth。
