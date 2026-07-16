@@ -1,5 +1,9 @@
 # Piano Fingering Wiki Log
 
+## [2026-07-16c] fingering principles | 同指異音重定位新節＋DP 落地
+
+`concept_piano_fingering_principles` 新增 §同指異音重定位：>2 半音的同指異音 = 手指離鍵裸重定位（飛行中無準備指＋單指重複負荷＋relay 換指近乎免費），與同指級進（≤2，已接受樂章常態=容忍類）邊界恰在級進/重定位交界（Inv1-8 實證）。DP：`SAME_FINGER_REPOSITION_PENALTY=4.0`（級進分支 >2 加罰＋大跳分支入口攔截 cf==pf 取代 relay 計價＋weak surcharge 延伸到重定位 band——距離無關，2026-06-25 step-only gate 是 artifact）。結果：Inv12/13 single→single 重定位歸零；收割 Inv3-R m3/m45（1→1 大跳→12345, −29.2）、Inv3-L m38、Inv4-L m51（= m47 同型病灶通用化）。**殘餘獨立問題**：Inv12 主力病灶（RH16/LH12）在 arpeggio-merge 接縫——邊緣同指可 edge-adjacency 計價；bottom-to-bottom 1→1 被拇指最低音枚舉硬約束強制，需放寬 merged 群組枚舉（設計決策待定）。
+
 ## [2026-07-16b] standard scale fingering | 兩力模型定稿：RH swing vs LH 2 的方向結構判準（user）
 
 user 確認 G♭ RH 1 3 1 正確並給出定稿機制：**兩力模型**——頂音之後的下行在兩手用不同跨越機制，主導成本不同。RH 頂音往下 = cross-over（拇指不內彎）→ 成本 = **手指張開力**：swing 3 省一次 thumb-under 張手且**同音同指**自動保持；LH 頂音往下 = thumb-under → 成本 = **拇指內彎曲度**：2→1 最淺（E♭ LH 取 1 2 1 不取 1 3 1）。表面規則衝突實為鏡像結構差異。深度上限保留為 swing 適用條件（省張開力論證單獨套 D♭ 會預測 1 4 1，書版 = 1 2 1 → swing 只在 swing 指 = 3 時省力）。G♭ ⏳ 撤銷改 ✅。
