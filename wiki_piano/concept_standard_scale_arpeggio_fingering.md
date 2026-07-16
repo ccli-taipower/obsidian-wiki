@@ -75,8 +75,9 @@ tags: [piano_fingering, pedagogy, scales, arpeggios, thumb_under, convention]
 
 **定位修訂**：哈農因此是**兩層規則系統**——句內循環規則＋生物力學可推導的邊界規則。有層級的規則覆蓋是設計，不是自相矛盾；2026-07-04 雙軸評比中「頂音例外理論推不出、恰好打對」的措辭據此撤回。自洽軸統一版仍勝（一層規則同時導出中段與頂音），但差距縮小為「一層 vs 兩層」。呼應樂句=呼吸原則：迴轉點 = reset 單位，邊界另有邊界最優解，不受句內循環邏輯管轄。
 
-**DP 對應**：
-- **LH 分支**不需顯式規則——DP 是帶前瞻的全局最小化，只要穿越成本隨出發指加深而遞增（2→1 < 3→1 < 4→1，現況成立，見 `[[concept_thumb_technique]]` §跨越的解剖學前提），迴轉點自然選 2。實證：B♭ LH 合成音階的 DP 即使中段錨點還錯在統一家族（C/F），頂音兩方向都已自行選 2。規則系統需要邊界補丁，全局優化不需要。
+**DP 對應**（2026-07-16 B♭ LH 修正 session 實作定稿）：
+- **LH 分支已顯式落地**（比「自然湧現」多需兩個機制）：(1) **頂音邊界錨移**——黑鍵頂音的 LH-desc segment，3/4 alternation 相位錨在 idx1 而非 idx0（top=2 → 拇指立刻落頂音下方），五個降記號調（含 C#/F# 異名）全部湧現傳統錨點（B♭→A/D、E♭→D/G、A♭→G/C、D♭→C/F、G♭→F/C♭），連黑落 repair 都不再需要；(2) **邊界 base-only refund**——pivot cancellation 在邊界（desc offset 0 / asc 末音）只退 WRONG_DIRECTION 基額、保留深度斜率，使 2→1 對 3→1/4→1 維持深度分級（否則全額 refund 抹平深度差，DP 選 3）。「自然湧現」的前提（深度遞增訊號到達 DP）本身要靠 refund 設計保住——這是 2026-07-14 版低估的部分。
+- **LH-asc 退化 1-2 交替根因**：`lh_thumb_pass_natural`（1→2 上行 ≤3 半音 = 0）與 LH {1,2} ostinato 折扣是**伴奏型規則**，在 len≥7 長音階段內補貼退化走法；gate 掉後（短 segment 保留，無 pivot 出口）B♭ LH asc 湧現書版逐音全等 `3 2 1 4 3 2 1 3 2 1 4 3 2 1 2`。真實曲目收割：Bach Inv4-L m20 長上行的 1-2-1-2 修成正規 thumb-over 跨越（cost −8.2、拇指落黑不變）。
 - **RH 分支（2026-07-16 D♭ 證偽後反轉）**：D♭ 選 2 正是 pairwise DP 的天然行為（1→4 over-cross 罰重於 1→2 收攏）——深度上限版 v2 比 v1 對 DP **更友善**。真正超出 pairwise Markov 的只剩 G♭ 選 3 一個 case（「commit-then-revoke 手位」是三音窗 E♭-3, F-1, G♭-X 的二階脈絡，兩條路徑的 pairwise 成本幾乎全同，只差 1↔X 一對）。但 span 區間制可能意外接住：半音的 (1,2) 壓縮深度（comfort 下界 5，欠 4）大於 (1,3)（下界 4，欠 3），DP 或已偏向 3——待小 harness 驗證（B♭ 錨點修正 session 一併做）。
 
 ## 小調
