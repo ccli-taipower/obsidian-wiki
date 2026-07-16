@@ -1,5 +1,9 @@
 # Piano Fingering Wiki Log
 
+## [2026-07-16d] fingering principles | arpeggio-merge 接縫延伸（edge 計價＋接縫相鄰枚舉放寬）
+
+§同指異音重定位第二段落地：Inv12 主力病灶在 merge 接縫，(a) edge-adjacency 計價（前組時間尾音 vs 後組時間頭音，同指 >2 半音 → 重定位價；chord anchor 計價對此全盲）；(b) bottom-to-bottom 1→1 被拇指最低音硬約束強制 → **接縫相鄰 merged 群組放寬枚舉**（user 核准選項：只放寬相鄰者，獨立琶音/真和弦不動）。Inv12 接縫 RH 16→7（≤天花板 8）、LH 12→0、Inv13 LH 9→1；Inv3-L m24、Inv4-L m42 收割。
+
 ## [2026-07-16c] fingering principles | 同指異音重定位新節＋DP 落地
 
 `concept_piano_fingering_principles` 新增 §同指異音重定位：>2 半音的同指異音 = 手指離鍵裸重定位（飛行中無準備指＋單指重複負荷＋relay 換指近乎免費），與同指級進（≤2，已接受樂章常態=容忍類）邊界恰在級進/重定位交界（Inv1-8 實證）。DP：`SAME_FINGER_REPOSITION_PENALTY=4.0`（級進分支 >2 加罰＋大跳分支入口攔截 cf==pf 取代 relay 計價＋weak surcharge 延伸到重定位 band——距離無關，2026-06-25 step-only gate 是 artifact）。結果：Inv12/13 single→single 重定位歸零；收割 Inv3-R m3/m45（1→1 大跳→12345, −29.2）、Inv3-L m38、Inv4-L m51（= m47 同型病灶通用化）。**殘餘獨立問題**：Inv12 主力病灶（RH16/LH12）在 arpeggio-merge 接縫——邊緣同指可 edge-adjacency 計價；bottom-to-bottom 1→1 被拇指最低音枚舉硬約束強制，需放寬 merged 群組枚舉（設計決策待定）。
