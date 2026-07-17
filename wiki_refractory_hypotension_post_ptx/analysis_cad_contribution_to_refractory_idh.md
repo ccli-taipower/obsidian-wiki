@@ -200,10 +200,19 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 - **介入**：佳立鈣換**非鈣型 binder**——**個案首選 ferric citrate（鐵爾思 / Auryxia）**：6/4 lab 證實缺鐵（TSAT 7%、Ferritin 35.3）+ 一藥兩用解 Ca-P 軸 + 缺鐵 + 移植 PRA 保護。Sevelamer / Fosrenol 為次選。**所有非鈣型 binder 都是 anti-vascular-calcification 戰略核心**（不只是「LDL bonus」），詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) 與 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 - 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升 + 減少未來輸血需求
 
-### B. 高血鉀（K 6.0，上升趨勢）
+### B. 高血鉀（**2026/07/04 復發 K 6.6 HH**，framing 再次升級）
+
+**Trajectory**：3/19: 5.7 → 4/9: 6.0 → 5/9: 5.4 → **6/4: 5.0**（短暫穩定）→ **7/4: 6.6 HH**（雙 High flag，一個月 +1.6）
+
 - 直接加重洗腎後段抽筋
-- 在 active ischemia + ADPKD 心律不整風險上升
-- **介入**：飲食 review、考慮 Lokelma (sodium zirconium cyclosilicate) 或 Patiromer、透析液 K 微調（從 2.0 mEq/L 試 1.5）
+- **7/4 是 pre-HD long interval (F→Sat) 未終點就 6.6** → Monday HD 前可能更高
+- 在 active reversible ischemia（SSS=16）+ LCX-stent + RCA CTO + LAD 三血管 CAD 下，K 6.6 是**心律不整 substrate**——這是本頁 3 個 modifier factor 中**唯一「立刻」等級的**
+- **介入（8/4 或提早跟松禾談）**：
+  1. 飲食 review（水果、椰子水、代鹽、堅果、番薯、菠菜）
+  2. **透析液 K 從 2.0 → 1.5 mEq/L**
+  3. **Lokelma**（sodium zirconium cyclosilicate）或 Patiromer
+  4. 檢查便秘 / 代謝性酸中毒（K 外移）
+- 詳見 [iatrogenic §6](analysis_iatrogenic_factors_in_refractory_idh.md)（K/binder decision interaction）
 
 ### C. AVG 反覆狹窄（**2 次 PTA at SAME sites in 4 個月**，2026/06/09 更新）
 
@@ -290,8 +299,9 @@ HFpEF 不會消失，但可以把衝擊降到最低：
    - **跟 wiki paradigm 的張力**：concept_hd_cad_paradigm 主張 HD subgroup statin/ezetimibe benefit 弱（SHARP HD subgroup n=3,023 benefit 消失、4D Wanner / AURORA Fellström negative）→ KDIGO 2013 不建議 HD 病人**啟動加強** statin/ezetimibe。
    - **但個案具備 secondary prevention 強 rationale**：post-LCX-PCI（2023）+ RCA CTO untreated + 2025/08 SPECT SSS=16 可逆缺血 → 不是「primary prevention 加藥」是「**post-PCI active CAD 加藥**」，paradigm 主要針對前者。
    - **健保條件**：開立 Cretrol combo 需 statin 單方 3 個月未達標 → 暗示松禾判定 Crestor 10mg 單方 LDL 100 未達 < 70 secondary prevention target。
-   - **追蹤 plan**：7/2 松禾月度抽血看 LDL response（預期 −25~30 mg/dL → ~70-75）+ LFT/CK monitor。
-   - **7/2 lab 出來後可問 dr**：(1) target LDL 是 < 70 還是 < 55？(2) 若已達標，是否考慮回歸單方 statin？(3) Cretrol 對 Ca-P 軸無作用——是否考慮平行加 non-Ca binder（沿用 §6 Ferric citrate 推薦）？
+   - **追蹤 plan**：~~7/2~~ **7/4 松禾月度抽血**看 LDL response（預期 −25~30 mg/dL → ~70-75）+ LFT/CK monitor。
+   - **🔥 2026/07/04 update**：松禾「A 檢」panel 只包含一般生化 + 血液，**LDL / CK 都沒抽**（!）→ Cretrol 換藥 12 天無 lipid feedback、rhabdo 也無 objective monitor。**必須主動請松禾在 8/4 加測 lipid panel + CK**。可幸的是 **ALT 10 / AST 11 正常** → 肝毒性初步 clear，第一個安全門檻過關。
+   - **8/4 lab 加測 + 出來後可問 dr**：(1) LDL 有沒有降到 < 70？(2) target 是 < 70 還是 < 55？(3) 若已達標，是否考慮回歸單方 statin？(4) Cretrol 對 Ca-P 軸無作用——是否考慮平行加 non-Ca binder（沿用 §6 Ferric citrate 推薦）？
 
    詳見 [concept_hd_cad_paradigm 個案 prescribe 實況](concept_hd_cad_paradigm.md)。
 

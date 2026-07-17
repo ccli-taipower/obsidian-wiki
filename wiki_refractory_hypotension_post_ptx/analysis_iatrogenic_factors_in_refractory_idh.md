@@ -329,18 +329,37 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 這三個都是 LCX-stent 後 mandatory 保護，停藥的 stent thrombosis / re-MI / CV death 風險遠大於 IDH 帶來的不適。
 
-### 6. 高血鉀 — ✅ 已大幅改善（2026/06 update）
+### 6. 高血鉀 — 🚨 **2026/07/04 復發 K 6.6 HH**（framing 再次升級）
 
 | 時點 | K | 評估 |
 |------|---|------|
 | 2026/03/19 | 5.7 | 偏高 |
 | 2026/04/09 | 6.0 | ⚠️ 高峰 |
 | 2026/05/09 | 5.4 | 改善中 |
-| **2026/06/04** | **5.0** | ✅ **正常範圍** |
+| 2026/06/04 | **5.0** | ✅ 曾以為穩定（premature 判斷） |
+| 🔥 **2026/07/04** | **6.6 HH**（大安檢驗所雙 High flag）| 🚨 **arrhythmia substrate**（在 SSS=16 active ischemia 下風險加倍）|
 
-→ K 已從「需處理」變「已穩定」。可能因素：飲食調整、透析液 K 微調、利尿食物減少等。**本項從「modifiable factor」降為「正常 follow-up」**，無需 Lokelma / Patiromer 等介入。
+→ **2026/07/04 校正**：本項從「已穩定」再次升級回「重大 modifiable factor」。6/4 → 7/4 一個月 K 上升 +1.6 mEq/L，**pre-HD、long interval（F→Sat）尚未終點就 6.6** → 週一 HD 前可能更高。
 
-繼續監測即可，特別在飲食 / 藥物變動時複測。
+**加重風險組合**：
+- Active reversible ischemia（SSS=16）+ hyperK → arrhythmia substrate
+- LCX-stent + RCA CTO + LAD 未處理三血管 CAD baseline
+- HFpEF diastolic dysfunction（E/A 0.62）→ 心律不整耐受度低
+
+**8/4 或提早 review**（跟松禾談）：
+| 介入 | 邏輯 |
+|------|------|
+| 飲食 review | 高 K 食物（水果、椰子水、代鹽、堅果、番薯、菠菜）系統性盤點 |
+| **透析液 K 從 2.0 → 1.5 mEq/L** | 直接增加透析 K removal |
+| **Lokelma**（sodium zirconium cyclosilicate）| 選擇性結合腸道 K、無 Na 負擔（vs Kayexalate）|
+| **Patiromer**（Veltassa）| 替代選項；Ca-based binder → 可能加重佳立鈣鈣負擔問題（見 §7）|
+| **檢查便秘 / 代謝性酸中毒**（K 外移）| Bicarbonate 是否 low |
+
+**跟 §7 binder 決策的 interaction**：
+- 若換 **ferric citrate**（見 §7 首選）→ K 中性或**略有幫助**（citrate 代謝為 bicarbonate → 改善 metabolic acidosis → K 進入細胞內）
+- 若換 **Sevelamer carbonate** → K 中性、bicarbonate form 對 acidosis 溫和
+- 若換 **Fosrenol** → K 中性
+- → **K 6.6 現況不改變 §7 ferric citrate 首選判斷**；反而 citrate 對代謝性酸中毒可能有輕度益處。K 管理走 §6 內獨立路徑（Lokelma / 透析液 / 飲食）
 
 ### 7. 🥇 佳立鈣 1,200 mg/日 → 換非鈣型 binder —— **anti-vascular-calcification 戰略核心**
 
@@ -381,15 +400,18 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 **問題定位：**
 
 1. **KDIGO 上限警戒**：CKD-MBD 患者建議 binder 來源 Ca < 1,500 mg/日，**加上透析液 + 飲食總計遠超此值**
-2. **磷已控制良好**（P=4.6）→ 不需要這麼強的 binder 壓制
+2. ~~磷已控制良好（P=4.6）→ 不需要這麼強的 binder 壓制~~
+   → **🔥 2026/07/04 update：磷失控 P 6.3 H**（vs 5.6 in 6/4，vs 4.6 in 4/9）→ **framing 從「不需要壓制」翻轉為「binder 明顯不足需要升級」**。佳立鈣 1,200 mg + 飲食吸收控制**已達不到 KDOQI < 5.5 target**
 3. **adynamic bone 強烈懷疑**（iPTH 17.5 + ALP 61 偏低）→ 骨頭無法吸收鈣 → **多餘鈣跑到血管 / 軟組織**
 4. **腹部 MRI 證實**：主動脈 + 冠狀動脈鈣化 → 雙高設定持續加重這個進展
-5. **🔥 缺鐵性貧血已明確化（2026/06/04 lab）**：
-   - **Ferritin 35.3**（HD target > 100）
-   - **TSAT 7.0%**（20/287，target > 20%）
-   - **Hb 12.3 → 11.2**（−1.1，已影響造血）
-   - **Platelet 505 → 747**（典型缺鐵反應性血小板增多）
+5. **🔥 缺鐵性貧血 6/4 明確化 + 7/4 仍未解**：
+   - **6/4**：Ferritin 35.3、TSAT 7.0%、Hb 12.3 → 11.2、Platelet 505 → 747
+   - **7/4**：Hb 12.9 大幅回升（+1.7）、Platelet 747 → 458（缺鐵性反應性 thrombocytosis 回落）、**但 MCV 73.4 L / MCH 20.4 L / MCHC 27.9 L / RDW 21.0 H — iron-restricted erythropoiesis 型態未解**（松禾 A 檢 panel 沒重測 TSAT/Ferritin，8/4 需主動加測）
    - → 補鐵從「建議」升級為**「必做」**——換 ferric citrate 或加 IV iron 二選一，不能再拖
+6. **🔥 2026/07/04 兩個 converging 硬觸發**：
+   - P 6.3 → binder 升級
+   - MCV 73 / RDW 21 → 缺鐵未解
+   - → **ferric citrate 完美 fit**（三合一：非鈣型 binder + 補鐵 + 減 Ca load）
 
 **Sequencing 關鍵：先換 binder，不要先動透析液**
 

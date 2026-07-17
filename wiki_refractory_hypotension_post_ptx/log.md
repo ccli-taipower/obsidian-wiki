@@ -1017,3 +1017,69 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 **Meta 教訓 #1：處方日 ≠ 實際停藥日**——病人手上有庫存藥、心理慣性、或漸進式減量都會讓 actual cessation 落在 prescription date 之後。wiki 直接寫「2026/05/19 停藥」是**將處方事件當成行為事件**的誤判。下次處方變更落 wiki 時必問「**你是當天就停、還是還會吃完手上的？**」。
 
 **Meta 教訓 #2：藥動分析要算到「事件時點還剩幾個 t½」**——不是粗略「停了就好」。dipyridamole 12 hr t½，到 6/4（停 3 天）約 75-90% 清除，**不是 100%**。任何「停 X 改善 Y」的推論都要驗證 t½ 計算。
+
+---
+
+## 2026-07-04 → 2026-07-14 — 松禾 7/4 lab 整合進 wiki（Option A：確認數據先落地）
+
+**事件**：user 提供 7/4 松禾月度抽血兩份 PDF（大安聯合檢驗所 A 檢 panel）。核心發現：
+
+### 🚨 Critical
+- **K 6.6 HH**（雙 High flag）：一個月 +1.6（vs 6/4 5.0），pre-HD、long interval Sat 未到終點 → active CAD SSS=16 下 arrhythmia substrate
+- **P 6.3 H**（vs 5.6 in 6/4，vs 4.6 in 4/9）：KDOQI < 5.5 未達，binder 明顯不足
+
+### ✅ Good news
+- **Hb 12.9**（+1.7 vs 6/4 11.2）：大幅回升，達 KDIGO 上緣
+- **Ca 8.9**（+0.4 vs 6/4 8.5）：持續從停 vit D nadir 回升
+- **ALT 10 / AST 11**：Cretrol 換藥 12 天肝毒性初步 clear
+- **Platelet 458**（−289 vs 6/4 747）：缺鐵反應性 thrombocytosis 回落
+- **Albumin 4.3**（+0.5 vs 6/4 3.8）：營養回升
+
+### ⚠️ Persistent
+- 缺鐵 markers 未解：MCV 73.4 L / MCH 20.4 L / MCHC 27.9 L / RDW 21.0 H
+- iron-restricted erythropoiesis 型態明顯（新舊 RBC 混雜）
+
+### ❌ 松禾 A panel 沒抽的關鍵 lab（framing 重點）
+- **LDL** — Cretrol 換藥後主 KPI，但 A 檢不含
+- **CK** — anuric 病人唯一 statin rhabdo objective marker
+- **iPTH** — 6/4 是 28.6，trajectory 未知
+- **TSAT / Ferritin / Iron / TIBC** — iron decision 基礎
+
+→ **8/4 需主動請松禾加測**，這是 A 檢 panel 的**盲區**。Meta：即使規律月度 lab，「A 檢 panel」有固定內容，重大 event（換藥、trend 需追蹤）時要主動說「加測 X」。
+
+**Wiki 更新（5 處）**：
+
+1. `master_timeline`：
+   - 7/2 預定 row → 7/4 實際 row（含 K/P/Ca/Hb/LFT/URR 全部要點 + ❌ 未測 4 項標註）
+   - 加 8/4 預定 row（主動請求加測 LDL/CK/iPTH/TSAT）
+   - 加「🔥 2026/07/04 松禾 A 檢 update」sub-section（生化 + 血液 兩個 6/4 vs 7/4 對照表 + 未測列表 + 三個 immediate 議題）
+
+2. `iatrogenic §6 高血鉀`：
+   - 標題從「✅ 已大幅改善」→「🚨 2026/07/04 復發 K 6.6 HH（framing 再次升級）」
+   - K trajectory table 加 7/4 6.6 HH row
+   - 加重風險組合（active CAD + LCX-stent + RCA CTO + HFpEF）
+   - 8/4 五項介入表（飲食 review / 透析液 K / Lokelma / Patiromer / acidosis check）
+   - 跟 §7 binder decision 的 interaction 分析（citrate 對 acidosis 益處、ferric citrate 首選判斷不改變）
+
+3. `iatrogenic §7 換 binder`：
+   - 問題定位 5 → 6 項
+   - 原「磷已控制良好 P=4.6」翻轉為「🔥 2026/07/04 update：P 6.3 H → binder 明顯不足需要升級」
+   - 缺鐵 6/4 明確化 + 7/4 未解對照更新
+   - 新增 第 6 項「2026/07/04 兩個 converging 硬觸發」（P 6.3 + MCV 73/RDW 21 → ferric citrate 完美 fit）
+
+4. `cad_contribution §B 高血鉀`：
+   - K trajectory 完整版（3/19 → 7/4）
+   - 強調 7/4 是 pre-HD long interval → Mon HD 前更高
+   - 8/4 或提早跟松禾談的 4 項介入
+
+5. `cad_contribution §7 LDL`：
+   - 追蹤 plan 更新：~~7/2~~ → 7/4，但 A 檢**沒抽 LDL / CK**（!）
+   - ALT/AST 正常 = 肝毒性初步 clear、第一安全門檻過關
+   - 8/4 lab 加測 + 出來後 4 個 dr 問題（原 3 個 + 「LDL 有沒有降到 < 70?」）
+
+**校正紀錄**：初稿寫「ferric citrate 有輕度 K 上升可能」——**這是錯誤**。citrate 代謝為 bicarbonate → 改善 metabolic acidosis → K 進入細胞內。ferric citrate 對 K 是**中性或略有幫助**、不是 worsen。已在 §6 內 correction。
+
+**Meta 教訓**：
+1. **Panel 盲區**：規律月度 lab 有固定 panel，重大 event 時必須主動加測。
+2. **Framing 翻轉要即時**：wiki §7 之前寫「磷已控制良好 P=4.6」，7/4 P 6.3 直接翻轉「不需要 binder 升級」的結論——不校正會誤導後續決策。「已穩定」的結論永遠有時限。
+3. **不要 spillover assumption**：ferric citrate 對 K 的影響應用機轉推論而非直覺（「鐵劑會不會影響 K？」直覺 unclear，機轉分析 citrate → HCO3 → K 進細胞 = 有益）。用機轉推論、驗證後再落 wiki。
