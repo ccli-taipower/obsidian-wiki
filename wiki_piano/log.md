@@ -1,5 +1,9 @@
 # Piano Fingering Wiki Log
 
+## [2026-07-20] standard scale fingering | RH turnaround-junction DP 落地（swing v2 + pre-commit gate 拓寬）
+
+§頂音邊界規則「RH DP 落地」小節：harness 證實 span 區間制沒接住 swing（G♭ DP `3 4 5 4 3` vs 書版 `3 1 3 1 3`）→ 三機制鏡像 LH：(1) `turn_top` end-guard 放寬（拇指落導音）；(2) position-guard 豁免；(3) 兩力成本項 `RH_TURN_REPOSITION_COST=5.5`（swing 指純幾何 3/4，深度分級靠 relay slope 湧現）。**關鍵 pre-commit 修正**：size-3 swing 群組（G♭/F♯）末 landing 到頂音恰 5 音 = 5 指，DP 可零跨越 `3 4 5` 爬頂不放拇指，post-commit（`pf==1`）surcharge 攔不到 → 拿掉 `pf==1`（swing 免費、其餘皆付 force = 計價手指張開力）。五降記號調迴轉窗全對齊書版；PIG total 持平 / RH +0.1pp / L byte-identical；production 只 K283-R·K545-R 變（皆真迴轉，K545 消同指 3-3 缺陷）。E♭/A♭ top=3 推導待對書；G♭ 1 3 1 待書面二確認（坍縮設定=常數歸零）。詳 score-claude memory *project_rh_turnaround_junction_2026-07-20*。
+
 ## [2026-07-16d] fingering principles | arpeggio-merge 接縫延伸（edge 計價＋接縫相鄰枚舉放寬）
 
 §同指異音重定位第二段落地：Inv12 主力病灶在 merge 接縫，(a) edge-adjacency 計價（前組時間尾音 vs 後組時間頭音，同指 >2 半音 → 重定位價；chord anchor 計價對此全盲）；(b) bottom-to-bottom 1→1 被拇指最低音硬約束強制 → **接縫相鄰 merged 群組放寬枚舉**（user 核准選項：只放寬相鄰者，獨立琶音/真和弦不動）。Inv12 接縫 RH 16→7（≤天花板 8）、LH 12→0、Inv13 LH 9→1；Inv3-L m24、Inv4-L m42 收割。
