@@ -1,5 +1,9 @@
 # Piano Fingering Wiki Log
 
+## [2026-07-24] standard scale fingering | 五調 RH 迴轉頂音全對書定稿 + 四案分類 + 站方同步
+
+user 翻實體哈農書確認 **E♭=3、A♭=3、G♭=3**（連同 swing v2 已定的 B♭=4、D♭=2）→ 全命中程式現值、零 DP 改動、兩力模型定稿。§頂音邊界規則兩處修訂：(1) 修正 stale 矛盾——舊文把 B♭/E♭/A♭ 一律講成「順指用 4」，實為 E♭/A♭=3；改寫為 **五調四案分類**：RH 迴轉頂音 = 末拇指落點順指數到頂音（B♭ 落 n-3→4 / E♭·A♭ 落 n-2→3 / D♭·G♭ 落導音 n-1→裝置決定 swing-3 或重定位-2）。(2) 證據狀態更新。score-claude 端定稿（test docstring + line 87/140）。**站方 `index.html` 同步 push**（commit 22803de）：G♭ 頂音 2→3、C#←D♭ / F#←G♭ 等音對齊（截短非對齊字串換完整 15 音）、RULES 新增迴轉頂音規則、撤回「恰好打對」措辭（改為邊界規則的必然結果、加註頂音全 2 僅限 LH）。詳 score-claude memory *project_rh_turnaround_junction_2026-07-20* + [[reference-hanon-scale-fingering-site]]。
+
 ## [2026-07-20] standard scale fingering | RH turnaround-junction DP 落地（swing v2 + pre-commit gate 拓寬）
 
 §頂音邊界規則「RH DP 落地」小節：harness 證實 span 區間制沒接住 swing（G♭ DP `3 4 5 4 3` vs 書版 `3 1 3 1 3`）→ 三機制鏡像 LH：(1) `turn_top` end-guard 放寬（拇指落導音）；(2) position-guard 豁免；(3) 兩力成本項 `RH_TURN_REPOSITION_COST=5.5`（swing 指純幾何 3/4，深度分級靠 relay slope 湧現）。**關鍵 pre-commit 修正**：size-3 swing 群組（G♭/F♯）末 landing 到頂音恰 5 音 = 5 指，DP 可零跨越 `3 4 5` 爬頂不放拇指，post-commit（`pf==1`）surcharge 攔不到 → 拿掉 `pf==1`（swing 免費、其餘皆付 force = 計價手指張開力）。五降記號調迴轉窗全對齊書版；PIG total 持平 / RH +0.1pp / L byte-identical；production 只 K283-R·K545-R 變（皆真迴轉，K545 消同指 3-3 缺陷）。E♭/A♭ top=3 推導待對書；G♭ 1 3 1 待書面二確認（坍縮設定=常數歸零）。詳 score-claude memory *project_rh_turnaround_junction_2026-07-20*。
