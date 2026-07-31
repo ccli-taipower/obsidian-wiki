@@ -329,7 +329,7 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 這三個都是 LCX-stent 後 mandatory 保護，停藥的 stent thrombosis / re-MI / CV death 風險遠大於 IDH 帶來的不適。
 
-### 6. 高血鉀 — 🚨 **2026/07/04 復發 K 6.6 HH**（framing 再次升級）
+### 6. 高血鉀 — 🚨 **2026/07/04 spike → ✅ 2026/07/29 已 recovered**（management success）
 
 | 時點 | K | 評估 |
 |------|---|------|
@@ -338,6 +338,12 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 | 2026/05/09 | 5.4 | 改善中 |
 | 2026/06/04 | **5.0** | ✅ 曾以為穩定（premature 判斷） |
 | 🔥 **2026/07/04** | **6.6 HH**（大安檢驗所雙 High flag）| 🚨 **arrhythmia substrate**（在 SSS=16 active ischemia 下風險加倍）|
+| **2026/07/23** | **5.0** | ✅ **松禾介入見效**（3 週控制）|
+| **2026/07/29** | **5.3** | ✅ 穩定 |
+
+**2026/07/29 update**：K 已回到穩定範圍。**7/4 → 7/23** 期間松禾具體介入手段 ⏳ pending user 補充（可能：飲食 review / 透析液 K 2.0→1.5 / Lokelma / Patiromer）——確認後寫進 wiki 作為 K management case study。
+
+**未升級到 arrhythmic event 是幸運 + 及時介入 combined**：active CAD SSS=16 substrate 下 K 6.6 是高風險 window，度過即勝。**Standing question**：若無 daily maintenance 措施，會不會下個月又 spike？→ **8/4 lab 若 K 再度 > 5.5 = 需長期 solution**（Lokelma daily）而非事件式介入。
 
 → **2026/07/04 校正**：本項從「已穩定」再次升級回「重大 modifiable factor」。6/4 → 7/4 一個月 K 上升 +1.6 mEq/L，**pre-HD、long interval（F→Sat）尚未終點就 6.6** → 週一 HD 前可能更高。
 
