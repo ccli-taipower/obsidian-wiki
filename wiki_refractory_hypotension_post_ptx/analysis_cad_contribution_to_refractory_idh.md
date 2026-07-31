@@ -200,18 +200,20 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 - **介入**：佳立鈣換**非鈣型 binder**——**個案首選 ferric citrate（鐵爾思 / Auryxia）**：6/4 lab 證實缺鐵（TSAT 7%、Ferritin 35.3）+ 一藥兩用解 Ca-P 軸 + 缺鐵 + 移植 PRA 保護。Sevelamer / Fosrenol 為次選。**所有非鈣型 binder 都是 anti-vascular-calcification 戰略核心**（不只是「LDL bonus」），詳見 [concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) 與 [analysis_iatrogenic_factors §7](analysis_iatrogenic_factors_in_refractory_idh.md)
 - 預期：Hb 拉到 13-14 → 疲倦改善 + IDH tolerance 提升 + 減少未來輸血需求
 
-### B. 高血鉀（**2026/07/04 復發 K 6.6 HH**，framing 再次升級）
+### B. 高血鉀（**2026/07/04 spike → 7/29 已 recovered**，management success case study）
 
-**Trajectory**：3/19: 5.7 → 4/9: 6.0 → 5/9: 5.4 → **6/4: 5.0**（短暫穩定）→ **7/4: 6.6 HH**（雙 High flag，一個月 +1.6）
+**Trajectory**：3/19: 5.7 → 4/9: 6.0 → 5/9: 5.4 → 6/4: 5.0 → **7/4: 6.6 HH** 🚨 → **7/23: 5.0** ✅ → **7/29: 5.3** ✅
 
-- 直接加重洗腎後段抽筋
-- **7/4 是 pre-HD long interval (F→Sat) 未終點就 6.6** → Monday HD 前可能更高
-- 在 active reversible ischemia（SSS=16）+ LCX-stent + RCA CTO + LAD 三血管 CAD 下，K 6.6 是**心律不整 substrate**——這是本頁 3 個 modifier factor 中**唯一「立刻」等級的**
-- **介入（8/4 或提早跟松禾談）**：
-  1. 飲食 review（水果、椰子水、代鹽、堅果、番薯、菠菜）
-  2. **透析液 K 從 2.0 → 1.5 mEq/L**
-  3. **Lokelma**（sodium zirconium cyclosilicate）或 Patiromer
-  4. 檢查便秘 / 代謝性酸中毒（K 外移）
+**2026/07/29 update**：K 已回到穩定範圍（3 週控制）。**7/4 → 7/23** 期間松禾具體介入手段 ⏳ pending user 補充（可能：飲食 review / 透析液 K 微調 2.0→1.5 / Lokelma / Patiromer）——確認後寫進 wiki 作為 K management case study。
+
+**核心 lesson**（無論具體介入為何）：
+- surveillance 及時（7/4 pre-HD lab 抓到 6.6）
+- 快速介入（3 週內從 6.6 恢復到 5.0）
+- 未升級到 arrhythmic event（active CAD SSS=16 substrate 下高風險 window 度過）
+
+**Standing risk & 8/4 追蹤**：
+- 已 recovered ≠ 已 solved：需 8/4 lab 確認穩定 trend
+- 若 8/4 K 再度 > 5.5 → 需長期 solution（Lokelma daily）而非事件式介入
 - 詳見 [iatrogenic §6](analysis_iatrogenic_factors_in_refractory_idh.md)（K/binder decision interaction）
 
 ### C. AVG 反覆狹窄（**2 次 PTA at SAME sites in 4 個月**，2026/06/09 更新）
@@ -300,8 +302,20 @@ HFpEF 不會消失，但可以把衝擊降到最低：
    - **但個案具備 secondary prevention 強 rationale**：post-LCX-PCI（2023）+ RCA CTO untreated + 2025/08 SPECT SSS=16 可逆缺血 → 不是「primary prevention 加藥」是「**post-PCI active CAD 加藥**」，paradigm 主要針對前者。
    - **健保條件**：開立 Cretrol combo 需 statin 單方 3 個月未達標 → 暗示松禾判定 Crestor 10mg 單方 LDL 100 未達 < 70 secondary prevention target。
    - **追蹤 plan**：~~7/2~~ **7/4 松禾月度抽血**看 LDL response（預期 −25~30 mg/dL → ~70-75）+ LFT/CK monitor。
-   - **🔥 2026/07/04 update**：松禾「A 檢」panel 只包含一般生化 + 血液，**LDL / CK 都沒抽**（!）→ Cretrol 換藥 12 天無 lipid feedback、rhabdo 也無 objective monitor。**必須主動請松禾在 8/4 加測 lipid panel + CK**。可幸的是 **ALT 10 / AST 11 正常** → 肝毒性初步 clear，第一個安全門檻過關。
-   - **8/4 lab 加測 + 出來後可問 dr**：(1) LDL 有沒有降到 < 70？(2) target 是 < 70 還是 < 55？(3) 若已達標，是否考慮回歸單方 statin？(4) Cretrol 對 Ca-P 軸無作用——是否考慮平行加 non-Ca binder（沿用 §6 Ferric citrate 推薦）？
+   - **🔥 2026/07/04 update**：松禾「A 檢」panel 只包含一般生化 + 血液，**LDL / CK 都沒抽**（!）→ Cretrol 換藥 12 天無 lipid feedback。可幸的是 **ALT 10 / AST 11 正常** → 肝毒性初步 clear。
+   - 🎉 **2026/07/29 NTUH cardiac visit lab 全部到齊**：
+     - **LDL 60**（100 → 60，−40 mg/dL）**已達 secondary prevention < 70 target**、甚至 borderline < 55 aggressive target
+     - **CK 60**（30-200 正常）→ **rhabdomyolysis 零跡象、statin 肌肉安全門檻過**
+     - ALT 11 持續正常 → 肝毒性 clear
+     - T-CHO 148 → 116、TG 222 → 187（皆改善）
+     - HDL 32（低但 HD 病人 baseline、無有效藥物補救）
+     - Lp(a) 10.2 nmol/L（極低、低 CV 遺傳風險）
+   - **→ 松禾 6/22 換藥決策完全 vindicated**：Cretrol combo 12 天達 secondary prevention target，超越文獻預期 −25~30 → 實際 −40。**paradigm tension 已由結果解決**——secondary prevention rationale 是正確判斷（詳見 [concept_hd_cad_paradigm 個案 prescribe 實況 update](concept_hd_cad_paradigm.md)）。
+   - **下次跟 dr 討論 4 件事**（LDL 60 已達 → framing 從「等結果」變「討論下一步」）：
+     1. Target LDL 是 < 70 還是 < 55？（若目標 < 55、60 是 borderline）
+     2. 是否考慮回歸 Crestor 10mg 單方 + Ezetrol 10mg 分開處方（簡化 combo 依賴）？
+     3. Cretrol 對 Ca-P 軸無作用——是否平行加 non-Ca binder（沿用 §6 Ferric citrate 推薦）？
+     4. HDL 32 是否需 lifestyle 介入（運動 / omega-3）？——藥物無效但生活型態可微幅提升
 
    詳見 [concept_hd_cad_paradigm 個案 prescribe 實況](concept_hd_cad_paradigm.md)。
 

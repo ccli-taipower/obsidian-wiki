@@ -1083,3 +1083,92 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 1. **Panel 盲區**：規律月度 lab 有固定 panel，重大 event 時必須主動加測。
 2. **Framing 翻轉要即時**：wiki §7 之前寫「磷已控制良好 P=4.6」，7/4 P 6.3 直接翻轉「不需要 binder 升級」的結論——不校正會誤導後續決策。「已穩定」的結論永遠有時限。
 3. **不要 spillover assumption**：ferric citrate 對 K 的影響應用機轉推論而非直覺（「鐵劑會不會影響 K？」直覺 unclear，機轉分析 citrate → HCO3 → K 進細胞 = 有益）。用機轉推論、驗證後再落 wiki。
+
+---
+
+## 2026-07-30 — NTUH 7/29 cardiac visit lab 整合進 wiki（Option A 先落地確定數據）
+
+**事件**：user 提供 2026/07/29 健保快易通 comprehensive lab（cardiac-focused panel，跟 松禾 A 檢完全不同 → 判斷為 NTUH 7/29 cardiac SPECT day 相關 lab）。
+
+### 🎉 三個大 wins
+
+**Win 1: LDL 60 — Cretrol combo 完美達標**
+- 100 (4/9 baseline) → 60 (7/29) = **−40 mg/dL、達 secondary prevention < 70**
+- 甚至 borderline < 55 aggressive target
+- 超越文獻預期 −25~30 → 實際 −40
+- **松禾 6/22 換藥決策 empirical vindicated**
+- paradigm tension（HD subgroup evidence sparse）由 outcome data 解決
+
+**Win 2: CK 60 — Cretrol 肌肉安全 clear**
+- Normal range 30-200 → 60 完全正常
+- + ALT 11 → rhabdomyolysis 零跡象
+- 之前 wiki 擔心 anuric 沒尿色 marker（6/22 log meta 教訓）→ CK 現在給 objective 證據解除警報
+
+**Win 3: K 6.6 → 5.3 管理成功（3 週控制）**
+- 6/4: 5.0 → 7/4: 6.6 HH → 7/23: 5.0 → 7/29: 5.3
+- 未升級到 arrhythmic event（active CAD substrate 下高風險 window 度過）
+- **松禾具體介入手段 ⏳ pending user 補充**
+
+### ⚠️ 兩個新關注
+
+**A. Hb 12.9 → 10.9（−2.0 大幅回落）**
+- 可能：iron depletion / ESA 減 / dilutional (NT-proBNP 614 hints volume) / 隱形出血
+- MCV 73.5 / MCH 20.2 / MCHC 27.5 仍全 low → iron-restricted 未解
+- **8/4 松禾 lab 必查 TSAT / Ferritin**、**啟動 ferric citrate 更急迫**
+
+**B. NT-proBNP 614（HFpEF baseline 建立）**
+- HD 病人 baseline 常 500-3,000 → 614 相對輕度
+- 跟 E/A 0.62 HFpEF physiology 一致
+- 第一次量測、無 baseline 可比、下次追蹤建立 trend
+
+### 順便的好消息
+- HbA1c 5.4 明確非糖尿病
+- T-CHO 148 → 116（改善）、TG 222 → 187（改善）
+- HDL 32 low（HD baseline，無有效藥物補救）
+- Lp(a) 10.2 極低（低 CV 遺傳風險）
+- RDW 21 → 19（略改善）
+- Platelet 458 → 397 完全 normalize
+
+### 7/29 沒抽（等 8/4 松禾）
+- P（磷）、Ca、Albumin、ALP、BUN、Ferritin/TSAT、iPTH、AST
+- 8/4 lab 新緊急項：**TSAT/Ferritin**（Hb −2.0 硬觸發）+ **P**（tracking after 7/4 6.3）
+
+### 待補完（等 user）
+- **⏳ 7/29 SPECT 結果** — SSS 是否降低？決定 RCA CTO PCI 啟動？
+- **⏳ 7/29 心內對話** — ivabradine 提案 dr 回應？NT-proBNP 解讀？Cretrol 反饋？
+- **⏳ 7/4 → 7/23 松禾 K 介入手段** — 飲食？透析液？Lokelma？
+
+### Wiki 更新（5 處）
+
+1. `master_timeline`：
+   - 7/29 lab row（含 LDL/CK/K/Hb/NT-proBNP/HbA1c/lipid 全部要點）
+   - 7/23 K interim row
+   - 7/29 SPECT row 標「⏳ 結果待 user 補充」
+   - 新增「🔥 2026/07/29 NTUH cardiac visit lab」大 sub-section：3 wins + 2 concerns + 完整生化/血脂/血液/心臟 marker 表 + 8/4 應做清單
+
+2. `cad_contribution §7 LDL`：
+   - framing 從「等結果」變「LDL 60 達標」
+   - 加 7/29 完整 lipid panel + CK safety
+   - dr 討論從 3 個問題升 4 個（含 HDL 32 lifestyle 問題）
+
+3. `cad_contribution §B K`：
+   - framing 從「復發、arrhythmia substrate」改為「management success case study」
+   - K trajectory 完整版 6/4 → 7/29
+   - Standing risk: 8/4 若 K > 5.5 = 需長期 solution 而非事件式
+
+4. `iatrogenic §6 K`：
+   - 標題「復發」→「spike → 已 recovered」
+   - K table 加 7/23 5.0 + 7/29 5.3 rows
+   - Standing question：無 daily maintenance 會不會 spike again
+
+5. `concept_hd_cad_paradigm`：
+   - 新增「🔥 2026/07/29 結果 update — paradigm tension resolved」段
+   - Prediction vs Reality table（文獻 −25~30 → 實際 −40）
+   - **重新校準 paradigm framing**：「HD primary prevention 加強推薦弱；**HD post-PCI secondary prevention 有個案 evidence 支持**」
+   - 7/29 outcome 出來後 4 個 dr 問題（升級版）
+   - Meta 教訓補強：Bayesian posture wins（若當初 challenge 就會錯過）
+
+### Meta 教訓
+1. **Panel 面向判斷 = 快速識別 lab context**：7/29 lab panel 內容（NT-proBNP + HbA1c + full lipid + CK）就足以推斷「這是 NTUH cardiac 相關」而非松禾月度。**panel 內容本身是 metadata**、告訴你哪個 provider ordering、什麼 clinical purpose。
+2. **Outcome resolves paradigm tension**：wiki 6/22 update 誠實面對「表面違反 paradigm 但 secondary prevention rationale 可 defensible」的 tension，7/29 outcome (LDL 60) 由 empirical data resolve。這是「**paradigm 是 prior，data 是 posterior**」的實例。
+3. **好消息 grouping 一次寫、壞消息獨立寫**：本次 wiki update 三個 wins 一起 highlight（LDL 60 / CK 60 / K recovered），但 Hb drop 跟 NT-proBNP 分開獨立 sub-section 各自展開——**good news benefit from grouping (reinforces confidence), bad news benefit from isolation (each gets full attention)**。

@@ -75,7 +75,9 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 🔥 **2026/07/04** | 🩸 抽血 | **松禾例行月度**（大安聯合檢驗所 A 檢 panel，洗前）| 🚨 **K 6.6 HH**（+1.6 vs 6/4，雙 High flag）、🚨 **P 6.3 H**（KDOQI < 5.5 未達）、✅ **Hb 12.9**（+1.7 recovery）、✅ **Ca 8.9**（持續回升）、✅ **ALT 10/AST 11**（Cretrol 肝毒性 clear）、⚠️ 缺鐵 pattern 未解（MCV 73.4/MCH 20.4/MCHC 27.9/RDW 21.0）、URR 68.5%。**❌ 未測**：LDL / CK / iPTH / TSAT / Ferritin（**松禾 A panel 不含、需主動請求加測**）| 本頁下方 §7/04 lab 表 |
 | **2026/08/04**（預定）| 🩸 抽血 | 松禾月度 | **主動請求加測**：**LDL**（Cretrol 換藥後首次量測，−25~30 mg/dL 預期）+ **CK**（anuric 病人 rhabdo 唯一 objective marker）+ **iPTH**（6/4 28.6 後 trajectory）+ **TSAT/Ferritin**（iron 決策 + ferric citrate 啟動基礎）| [cad §Q4 LDL](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §7](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | ~~2026/07/13~~ → **2026/07/27**（預定，校正）| 評估 | Dipyridamole trial-off 8 週 evaluate | 從**實際 cessation ~6/01** + 8 週 = ~7/27，跟 7/29 重複 SPECT 同一週 → 可**合併到 7/29 心內訪談**討論。Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
-| **2026/07/29**（預定）| 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI；**同次心內訪談主動提出 ivabradine 取代 Concor**（BB 不耐受後的 textbook alternative）| [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| **2026/07/23** | 🩸 抽血 | 松禾透析日 K interim check | K **5.0**（confirms 7/4 6.6 → 7/23 5.0 大幅改善、K 管理成功）| 本頁 §7/29 lab 表 |
+| 🔥 **2026/07/29** | 🩸 抽血 | **NTUH 心臟訪談 comprehensive lab**（cardiac panel：full lipid + NT-proBNP + HbA1c + CK）| 🎉 **LDL 60**（Cretrol 換藥後首次量、達 secondary prevention < 70 target，−40 vs 4/9 baseline 100）、🎉 **CK 60 正常**（Cretrol rhabdo 零跡象）、✅ **K 5.3**（6.6 → 5.3 管理成功）、⚠️ **Hb 10.9**（12.9 → 10.9 −2.0 大幅回落）、⚠️ **NT-proBNP 614**（HFpEF baseline 建立）、✅ HbA1c 5.4 非糖尿病、T-CHO 116、TG 187（↓ vs 222）、HDL 32 low、Lp(a) 10.2 低 CV 遺傳風險 | 本頁 §7/29 lab 表 |
+| **2026/07/29** | 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI；**同次心內訪談 ivabradine 提案**——⏳ **結果待 user 補充**（決定後回頭更新 wiki）| [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/10/13**（預定）| 評估 | **AVG PTA #2 follow-up**（葉聰賜）| 主動討論：vein mapping / surveillance US 縮短間隔 / DCB / 備用通路啟動 timing | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 
 ---
@@ -204,6 +206,125 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 🚨 **K 6.6 HH** | pre-HD，long interval Sat 未到終點就 6.6 → Mon HD 前可能更高 | 飲食 review（水果 / 椰子水 / 代鹽）+ 考慮 Lokelma or Patiromer + 透析液 K 從 2.0 → 1.5 |
 | 🚨 **P 6.3 + 缺鐵未解** | 佳立鈣 1,200 mg 明顯不夠、iron restrictive 未解 | **啟動 ferric citrate**（binder + 補鐵 + 減 Ca load 三合一）——[iatrogenic §7](analysis_iatrogenic_factors_in_refractory_idh.md) framework 完美 fit |
 | ❌ **LDL / CK / iPTH / TSAT 沒測** | Cretrol 換藥 12 天無 feedback、iron 決策無基礎 | 8/4 lab 前**主動告訴松禾要加測**（Cretrol context + 換 binder decision）|
+
+### 🔥 2026/07/29 NTUH cardiac visit lab（cardiac-focused panel）
+
+面向：跟 7/4 松禾 A 檢完全不同 panel。7/29 是 NTUH cardiac SPECT day 相關 lab，重點在 lipid full panel + NT-proBNP + HbA1c + CK。
+
+#### 🎉 三個大 wins
+
+##### Win 1: **LDL 60 → Cretrol combo 完美達標**
+
+| 時點 | LDL | 事件 |
+|------|-----|------|
+| 2026/04/09 | 100 | baseline，Crestor 10mg 單方 |
+| **2026/06/22** | — | **換 Cretrol combo（rosuvastatin 10 + ezetimibe 10）** |
+| **2026/07/29** | **60** | 🎉 **−40 mg/dL、達 secondary prevention < 70 target、甚至 borderline < 55 aggressive target** |
+
+→ 松禾 6/22 換藥策略**完全 vindicated**。文獻預期 ezetimibe add-on −25~30 → 實際 −40，超越預期。**paradigm tension 已由結果證明合理**（見 [concept_hd_cad_paradigm 個案 prescribe 實況](concept_hd_cad_paradigm.md)：secondary prevention rationale 是正確的判斷）。
+
+##### Win 2: **CK 60 → Cretrol 肌肉安全 clear**
+
+- Normal ~30-200 U/L → 你 60 **完全正常**
+- ALT 11 也正常（AST 未測，7/4 是 11）
+- → **rhabdomyolysis 零跡象、statin 安全門檻全過**
+- 之前 wiki 擔心 anuric 沒尿色 marker（[log 2026-06-22 rhabdo monitoring for anuric ESRD](log.md)）→ **CK 現在給出 objective 證據**、警報解除
+
+##### Win 3: **K 6.6 → 5.3 管理成功（3 週恢復）**
+
+| 時點 | K | 事件 |
+|------|---|------|
+| 6/4 | 5.0 | baseline |
+| **7/4** | **6.6 HH** | 🚨 危險 spike |
+| **7/23** | **5.0** | ✅ **松禾介入見效**（waiting user 補充：飲食？透析液 K？Lokelma？）|
+| **7/29** | 5.3 | ✅ 穩定 |
+
+→ K management case study：**7/4 alarm 到 7/23 恢復 = 3 週控制**。詳細介入手段 pending user 補充。
+
+#### ⚠️ 兩個需追蹤的新發現
+
+##### A. **Hb 12.9 → 10.9（−2.0 大幅回落）**
+
+| 時點 | Hb | Trend |
+|------|-----|-------|
+| 6/4 | 11.2 | 缺鐵 nadir |
+| 7/4 | **12.9** | +1.7 恢復 peak |
+| **7/29** | **10.9** | ⚠️ **−2.0 又掉下來** |
+
+**可能原因**：
+- 6/9 AVG PTA 已 7 週前 → 不太可能延遲出血
+- Iron depletion 未解（MCV 73.5 / MCH 20.2 / MCHC 27.5 仍全 low）→ 7/4 peak 可能 dilutional/transient、iron 空無法維持
+- ESA 劑量調整（松禾看 7/4 Hb 12.9 可能減 EPO？）
+- Dilutional（NT-proBNP 614 亦暗示 volume 上升）
+- 隱形出血（GI / AVG 週邊）？
+
+→ **8/4 松禾 lab 必查 TSAT / Ferritin**。也是**啟動 ferric citrate 更急迫的信號**（P/iron/binder 三合一）。
+
+##### B. **NT-proBNP 614（HFpEF 新 baseline）**
+
+- 一般人 normal < 125 pg/mL
+- **HD 病人 baseline 因清除率下降通常升高** 500-3,000 pg/mL
+- 614 對 HD 病人算「**相對輕度**」，跟 E/A 0.62 HFpEF physiology 一致
+- **第一次量測、無 baseline 可比**——8/4 或下次 NTUH follow-up 建立 trend 才有意義
+- 用途：cardiac SPECT 訪談時可跟醫師討論 volume management implication
+
+#### 完整生化 + 血液
+
+##### 生化
+
+| 項目 | 6/4 | 7/4 | **7/29** | Ref | 評估 |
+|------|-----|-----|---------|-----|------|
+| **LDL-C** | (未測) | (未測) | **60** | < 100 | 🎉 secondary prevention < 70 達 |
+| **CK** | (未測) | (未測) | **60** | 30-200 | ✅ Cretrol 肌肉安全 |
+| **K** | 5.0 | 6.6 HH | **5.3** | 3.5-5.1 | ✅ recovered |
+| ALT | 9 | 10 | **11** | 8-44 | ✅ LFT 正常 |
+| Creatinine | 11.68 | 12.23 | **11.88** | 0.7-1.3 | ESRD baseline |
+| Uric acid | 7.7 | 7.2 | **6.9** | < 7 | 略降、marginal |
+| Glucose AC | — | 66 L | **86** | 70-99 | ✅ 正常 |
+| Na | 141 | 137 | **138** | 136-145 | 正常 |
+| **HbA1c** | (未測) | (未測) | **5.4** | < 5.7 | ✅ 確定非糖尿病 |
+| eGFR (CKD-EPI) | — | 4.59 | **4.76** | > 60 | ESRD baseline（formality）|
+| eGFR (MDRD) | — | — | **4.9** | — | 同上 |
+
+##### 血脂 panel（完整）
+
+| 項目 | 6/4 | **7/29** | Ref | 評估 |
+|------|-----|---------|-----|------|
+| **T-CHO** | 148 | **116** | < 200 | ✅ 大幅改善 |
+| **LDL-C** | (未測) | **60** | < 100 | 🎉 達 secondary target < 70 |
+| HDL-C | — | **32** | > 40 (男) | ⚠️ low、HD 病人常低、無有效藥物補救 |
+| **TG** | 222 | **187** | < 150 | ⬇️ 改善但未達 target |
+| **Lipoprotein(a)** | (未測) | **10.2 nmol/L** | < 75 | ✅ 極低（低 CV 遺傳風險）|
+
+##### 血液
+
+| 項目 | 6/4 | 7/4 | **7/29** | Ref | Δ | 評估 |
+|------|-----|-----|---------|-----|---|------|
+| **Hb** | 11.2 | 12.9 | **10.9** | 12.3-18.3 | ⬇️ **−2.0** | ⚠️ 大幅回落、需查 iron/EPO/bleeding |
+| Hct | 39.4 | 46.3 | **39.6** | 39-53 | ⬇️ | 對應 Hb 掉 |
+| RBC | 5.51 | 6.31 | **5.39** | 4.2-6.2 | ⬇️ | 正常 |
+| MCV | 71.5 | 73.4 | **73.5** | 80-99 | 持平 | ⚠️ 仍 microcytic 未解 |
+| MCH | 20.3 | 20.4 | **20.2** | 26-34 | 持平 | ⚠️ 缺鐵 |
+| MCHC | 28.4 | 27.9 | **27.5** | 30-36 | ⬇️ 小幅 | ⚠️ 同上 |
+| RDW-CV | 21.2 | 21.0 | **19.0** | 11.5-15 | ⬇️ | ✅ 略改善 |
+| Platelet | 747 | 458 | **397** | 150-400 | ⬇️ | ✅ 完全 normalize |
+| WBC | 9.1 | 9.1 | **8.18** | 3.5-10 | ⬇️ 小幅 | 正常 |
+
+##### 心臟 marker
+
+| 項目 | **7/29** | Ref | 評估 |
+|------|---------|-----|------|
+| **NT-proBNP** | **614** | < 125（一般人）；HD 500-3000 常見 | HFpEF baseline 建立、跟 E/A 0.62 一致；trend 建立需下次追蹤 |
+
+#### 8/4 松禾月度應做（原計劃 unchanged + 新緊急項）
+
+| 項目 | 原因 | 新緊急度 |
+|------|------|---------|
+| **TSAT / Ferritin / Iron** | 7/4 已標「必做」；**7/29 Hb 掉 −2.0 → 更急** | 🚨 |
+| **P（磷）** | 7/4 P 6.3 未追蹤 | 🚨 |
+| **Ca** | 7/4 8.9 tracking | 中 |
+| **iPTH** | 6/4 28.6 trajectory | 中 |
+| ALP / Albumin / BUN | 例行 | 低 |
 
 ### 關鍵歷史 baseline
 

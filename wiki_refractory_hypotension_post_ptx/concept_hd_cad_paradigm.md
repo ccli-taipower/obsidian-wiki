@@ -120,15 +120,38 @@ tags: [HD, ESRD, CAD, vascular_calcification, calcium_phosphate_axis, lipid_para
 
 → **HD + secondary CAD prevention 的 statin/ezetimibe 證據 is genuinely thin**——但這跟「不推薦」是兩件事。這是「**evidence sparse**」不是「**evidence against**」。
 
-### 7/2 lab 出來後可以問 dr 的三件事
+### 🔥 2026/07/29 結果 update — paradigm tension resolved
 
-1. **Target LDL 是 < 70 還是 < 55**？（影響後續是否再 uptitrate）
-2. **若 LDL 已 < 70，是否考慮回歸單方 statin**？（簡化用藥 + 降低 polypharmacy）
-3. **Cretrol 對 Ca-P 軸無作用**——是否考慮**平行加 non-Ca binder**？（沿用本 wiki [§非鈣型 binder 推薦](analysis_iatrogenic_factors_in_refractory_idh.md)，**ferric citrate 首選**）
+**LDL 60**（100 → 60，−40 mg/dL）在 NTUH 7/29 lab 確認，Cretrol combo 12 天（實際 5 週距 6/22）**達 secondary prevention < 70 target**。
+
+| Prediction vs Reality | 值 |
+|---------------------|-----|
+| 文獻預期 ezetimibe add-on | −25~30 mg/dL |
+| **個案實際** | **−40 mg/dL** |
+| Target achievement | ✅ **達成 < 70、borderline < 55** |
+| CK safety | ✅ 60 正常（zero rhabdo signal）|
+| ALT/AST safety | ✅ 11/(未測) 正常 |
+
+→ **松禾 prescribe 完全 vindicated by outcome**。paradigm tension（HD subgroup evidence sparse）**由 empirical result 解決**——這位病人（secondary prevention + BB intolerant + active reversible ischemia）就是 paradigm sparse zone 的正確 fit。
+
+**重新校準的 paradigm framing**（依 2026/07/29 outcome data）：
+- 原本：「HD + statin/ezetimibe 加強推薦弱」
+- 修正：「HD **primary prevention** + statin/ezetimibe 加強推薦弱；**HD post-PCI secondary prevention 有個案 evidence 支持**（本案為單一 case study，需大型 subgroup RCT 才能推論至群體）」
+
+### 7/29 outcome 出來後跟 dr 討論的四件事（升級版）
+
+原三個問題（LDL 是否達標？是否簡化？是否加 binder？）→ 現在 LDL 60 已知，framing 從「等結果」變「討論下一步」：
+
+1. **Target LDL 是 < 70 還是 < 55**？（若 < 55、60 是 borderline）
+2. **是否考慮回歸單方 Crestor 10mg + Ezetrol 10mg 分開處方**？（簡化 combo 依賴 + 未來 titration 彈性）
+3. **Cretrol 對 Ca-P 軸無作用**——是否**平行加 non-Ca binder**（ferric citrate 首選、7/29 Hb 掉 −2.0 讓補鐵更急）？
+4. **HDL 32 是否需 lifestyle 介入**？（運動 / omega-3；藥物無效但生活型態可微幅提升）
 
 ### Meta 教訓
 
 Wiki paradigm 永遠是 **prior**，不是 **dogma**。當 prescriber 做出表面違反 paradigm 的 prescribe，**先 default to "他知道你不知道的"**（健保 trigger / 個案特異 history / 主治醫師臨床判斷），然後**用 paradigm 框架去追問細節**，而不是直接 challenge prescribe 對錯。
+
+**7/29 教訓補強**：本個案 outcome data（−40 mg/dL, target hit）證明**這個 default (「先假設 prescriber 有 context」) 是正確 posture**——若 wiki 當初 challenge 這個 prescribe 或 push 病人回歸單方，就會錯過 secondary prevention target 達成的成功。**Bayesian posture wins**。
 
 ## 一般化的 paradigm shift（給其他 HD 病人也適用）
 
