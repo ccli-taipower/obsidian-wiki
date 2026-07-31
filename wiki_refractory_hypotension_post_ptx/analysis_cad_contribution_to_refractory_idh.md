@@ -204,17 +204,23 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 
 **Trajectory**：3/19: 5.7 → 4/9: 6.0 → 5/9: 5.4 → 6/4: 5.0 → **7/4: 6.6 HH** 🚨 → **7/23: 5.0** ✅ → **7/29: 5.3** ✅
 
-**2026/07/29 update**：K 已回到穩定範圍（3 週控制）。**7/4 → 7/23** 期間松禾具體介入手段 ⏳ pending user 補充（可能：飲食 review / 透析液 K 微調 2.0→1.5 / Lokelma / Patiromer）——確認後寫進 wiki 作為 K management case study。
+**2026/07/29 update**：K 已回到穩定範圍（3 週控制）。**松禾具體介入手段（user 2026/07/30 補充）**：**加麗美粉（Kalimate = Calcium Polystyrene Sulfonate）3 包/週**，event-triggered maintenance。腸道釋 Ca 交換結合 K → K 隨糞便排出。
 
-**核心 lesson**（無論具體介入為何）：
+**核心 lesson**：
 - surveillance 及時（7/4 pre-HD lab 抓到 6.6）
 - 快速介入（3 週內從 6.6 恢復到 5.0）
 - 未升級到 arrhythmic event（active CAD SSS=16 substrate 下高風險 window 度過）
 
+**⚠️ Kalimate 的 hidden long-term issue（cardiac 視角）**：
+- Kalimate = **鈣型 K binder** → 再多一個 Ca 源進入 Ca-P-vascular calcification 循環
+- 這個 patient 已有主動脈 + 冠脈鈣化（2025/12 MRI），**每加一個 Ca 源就多一分血管鈣化推動力**
+- 短期 K management 有效 vs 長期 CV outcome（medial calcification 加速）trade-off
+- → **8/4 lab 若 K 穩定 → 應跟松禾談 tapering off Kalimate 或轉 Lokelma（Ca-neutral）**
+- 詳見 [iatrogenic §6](analysis_iatrogenic_factors_in_refractory_idh.md) K management case study 完整版 + [iatrogenic §7](analysis_iatrogenic_factors_in_refractory_idh.md) Kalimate 為 ferric citrate 第 4 個 converging trigger
+
 **Standing risk & 8/4 追蹤**：
 - 已 recovered ≠ 已 solved：需 8/4 lab 確認穩定 trend
-- 若 8/4 K 再度 > 5.5 → 需長期 solution（Lokelma daily）而非事件式介入
-- 詳見 [iatrogenic §6](analysis_iatrogenic_factors_in_refractory_idh.md)（K/binder decision interaction）
+- 若 8/4 K 再度 > 5.5 → 需**長期 solution**（Lokelma daily > Kalimate 加量）而非事件式介入
 
 ### C. AVG 反覆狹窄（**2 次 PTA at SAME sites in 4 個月**，2026/06/09 更新）
 
