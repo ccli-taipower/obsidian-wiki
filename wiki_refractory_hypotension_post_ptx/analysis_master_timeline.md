@@ -236,10 +236,10 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 |------|---|------|
 | 6/4 | 5.0 | baseline |
 | **7/4** | **6.6 HH** | 🚨 危險 spike |
-| **7/23** | **5.0** | ✅ **松禾介入見效**（waiting user 補充：飲食？透析液 K？Lokelma？）|
+| **7/23** | **5.0** | ✅ **松禾介入見效**：**加麗美粉 (Kalimate) 3 包/週**（Calcium Polystyrene Sulfonate 陽離子交換樹脂）|
 | **7/29** | 5.3 | ✅ 穩定 |
 
-→ K management case study：**7/4 alarm 到 7/23 恢復 = 3 週控制**。詳細介入手段 pending user 補充。
+→ K management case study：**7/4 alarm 到 7/23 恢復 = 3 週控制**。松禾用 Kalimate 是**臨床上正確且見效**，但**跟 §7 換非鈣型 binder 的戰略有 tension**（Kalimate 也是 Ca 源）——詳見 [iatrogenic §6 K management + Kalimate hidden trade-off](analysis_iatrogenic_factors_in_refractory_idh.md) 與 [iatrogenic §7 ferric citrate 4 converging triggers](analysis_iatrogenic_factors_in_refractory_idh.md)。
 
 #### ⚠️ 兩個需追蹤的新發現
 
@@ -422,16 +422,17 @@ PTX 後降到 62.5 → 主動 +10 kg 上調乾體重嘗試解 IDH → IDH 仍頑
 | **Ezetrol** | **Ezetimibe** | **腸道膽固醇吸收抑制** | **❌ 已停**（原因不明 — 待 Q4 釐清）|
 | Plavix | Clopidogrel 75 mg | P2Y12 抗血小板 | ✅ 仍在用 |
 
-### 目前用藥（2026/05/20 confirmed）
+### 目前用藥（2026/07/30 confirmed）
 
 | 藥物 | 學名 | 劑量 | 用途 | 啟動日 |
 |------|------|------|------|-------|
 | 保栓通 | Clopidogrel | 75 mg QD | 抗血小板（PCI 保護）| 2023/03 |
 | 伯基 | Aspirin（腸溶錠）| 100 mg QD | 抗血小板（PCI 保護）| 長期 |
-| 冠脂妥 | Rosuvastatin | 10 mg QD | Statin（CV 保護）| 長期 |
+| ~~冠脂妥 10mg~~ → **脂瑞妥 (Cretrol)** | Rosuvastatin 10 + **Ezetimibe 10 combo** | 10/10 mg QD 中午飯後 | Statin + cholesterol-absorption inhibitor（LDL 60 已達 target < 70）| **2026/06/22** 松禾換藥（healthcare 給付） |
 | 佳立鈣 | Calcium carbonate | 500 mg × 6/日 = 3 g/日 = 1,200 mg elemental Ca/日 | 磷結合劑 | PTX 後 |
+| **加麗美粉 (Kalimate)** | **Calcium Polystyrene Sulfonate** | **3 包/週** | **K binder**（腸道釋 Ca 交換 K；⚠️ 也加 Ca 負擔）| **2026/07** 松禾（K 6.6 HH 後啟動）|
 | Midodrine | Midodrine | 5 mg（2.5×2）洗前 + 中段加 5 mg | α-agonist 預防 IDH | PTX 後 |
-| ~~Concor~~ | ~~Bisoprolol~~ | ~~1.25 mg QOD~~ | ❌ **trial 失敗、2026/06/04 停藥**（IDH 變嚴重） | 5/19 起、6/4 止 |
+| ~~Concor~~ | ~~Bisoprolol~~ | ~~1.25 mg QOD~~ | ❌ **trial 失敗、2026/06/04 停藥**（IDH 變嚴重）；⏳ ivabradine 提案待 7/29 心內回應 | 5/19 起、6/4 止 |
 
 ### 預期未來變動
 

@@ -27,6 +27,7 @@ tags: [refractory_IDH, medication_review, iatrogenic, dipyridamole, triple_antip
 | **沛暢** | **Dipyridamole** | **PDE 抑制（抗血小板 + 血管擴張）** | **75 mg QD（劑量可能為 TID）** |
 | Midodrine | Midodrine | α-agonist | 洗前 5 mg + 中段加 5 mg |
 | **佳立鈣錠** | **Calcium carbonate** | **磷結合劑 + 鈣補充** | **500 mg × 2/餐 × 3 餐 = 6 顆/日（1,200 mg elemental Ca/日）** |
+| **加麗美粉 (Kalimate)** | **Calcium Polystyrene Sulfonate (CPS)** | **陽離子交換樹脂（K binder）** | **3 包/週**（松禾 2026/07/04 K 6.6 HH 後啟動、event-triggered maintenance；**釋出 Ca 交換 K**，見 §6）|
 
 未列出但臨床上重要的觀察（撰寫時 2026/05/11 狀態）：**沒有 β-blocker、沒有 ACE/ARB、沒有非鈣型 phosphate binder**。
 
@@ -341,9 +342,46 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 | **2026/07/23** | **5.0** | ✅ **松禾介入見效**（3 週控制）|
 | **2026/07/29** | **5.3** | ✅ 穩定 |
 
-**2026/07/29 update**：K 已回到穩定範圍。**7/4 → 7/23** 期間松禾具體介入手段 ⏳ pending user 補充（可能：飲食 review / 透析液 K 2.0→1.5 / Lokelma / Patiromer）——確認後寫進 wiki 作為 K management case study。
+**2026/07/29 update**：K 已回到穩定範圍。**松禾具體介入手段（user 2026/07/30 補充）**：
 
-**未升級到 arrhythmic event 是幸運 + 及時介入 combined**：active CAD SSS=16 substrate 下 K 6.6 是高風險 window，度過即勝。**Standing question**：若無 daily maintenance 措施，會不會下個月又 spike？→ **8/4 lab 若 K 再度 > 5.5 = 需長期 solution**（Lokelma daily）而非事件式介入。
+| 介入 | 細節 |
+|------|------|
+| **加麗美粉（Kalimate）** | Calcium Polystyrene Sulfonate（CPS）、**3 包/週**（松禾處方）、event-triggered maintenance |
+
+**Kalimate 機轉**：陽離子交換樹脂在腸道**釋出 Ca**、交換**結合 K** → K 隨糞便排出。
+
+**為什麼有效**：直接在腸道抓 K、繞過 HD 的間歇性 K clearance limitation，即使 3 包/週也足以壓住 spike。**7/4 6.6 → 7/23 5.0 = 3 週控制、未升級 arrhythmic event**（active CAD substrate 下高風險 window 度過）。
+
+### 🔥 Kalimate 的 hidden trade-off — 再多一個 Ca 來源
+
+Wiki §7 的核心論證是「**移除 Ca 來源**」（換非鈣型 binder）。**Kalimate 是鈣型 K binder**——雖然 K management 有效，但**對 Ca-P 軸戰略是逆向**：
+
+| Ca 來源 | 每日估計 mg |
+|---------|-----------|
+| 佳立鈣 1,200 mg | 1,200（elemental Ca）|
+| **Kalimate 3 包/週**（新，2026/07 起）| **~30-90 mg 吸收**（絕對量少但方向錯）|
+| 透析液（3.0 mEq/L）| ~65-170 |
+| 飲食 | 400-800 |
+| **總計** | **~1,700-2,300 mg/日**（KDIGO < 1,500 已明確超標）|
+
+→ **臨床上 Kalimate 3/週劑量不多、Ca 增加絕對量少**，但**戰略上跟 §7 移除 Ca 方向對立**。這強化了 §7 換 ferric citrate 的急迫性（見 §7 update）。
+
+### 8/4 松禾 talking points（升級版）
+
+**Standing question**：若無 daily maintenance 措施，會不會下個月又 spike？→ **8/4 lab 若 K 再度 > 5.5 = 需長期 solution**。
+
+| 選項 | Ca 影響 | 適合度 | 備註 |
+|------|--------|-------|------|
+| Kalimate 加量到 daily | ⚠️ 加 Ca 負擔 | 短期可、長期跟 §7 衝突 | 目前 3/週已在用 |
+| **Lokelma**（sodium zirconium cyclosilicate）| ✅ **Ca-neutral** | ⭐ **長期首選**（若 K 反覆 > 5.5）| Na 也 minimal（無 Kayexalate 水腫問題）|
+| Patiromer（Veltassa）| ⚠️ 也含 Ca（不同 salt form 但仍釋 Ca）| 跟 Kalimate 同 trade-off | — |
+| **透析液 K 2.0 → 1.5** | ✅ 零藥物 | ⭐ 首選補強 | 松禾可調 |
+| **飲食 K review** | ✅ 零藥物 | ⭐ 必做基礎 | 水果 / 椰子水 / 代鹽 / 堅果 / 番薯 / 菠菜 |
+| 檢查便秘 / 代謝性酸中毒 | — | rule out contributor | K 外移機轉 |
+
+**Kalimate 何時停？**
+- 若 8/4 K 穩定 < 5.5 + 上述非藥物介入到位 → **可跟松禾談 tapering off Kalimate**、避免無限期使用一個逆向 Ca 戰略的藥
+- 若 K 仍 > 5.5 → 從 Kalimate 過渡到 **Lokelma**（Ca-neutral 長期 solution）
 
 → **2026/07/04 校正**：本項從「已穩定」再次升級回「重大 modifiable factor」。6/4 → 7/4 一個月 K 上升 +1.6 mEq/L，**pre-HD、long interval（F→Sat）尚未終點就 6.6** → 週一 HD 前可能更高。
 
@@ -414,10 +452,12 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
    - **6/4**：Ferritin 35.3、TSAT 7.0%、Hb 12.3 → 11.2、Platelet 505 → 747
    - **7/4**：Hb 12.9 大幅回升（+1.7）、Platelet 747 → 458（缺鐵性反應性 thrombocytosis 回落）、**但 MCV 73.4 L / MCH 20.4 L / MCHC 27.9 L / RDW 21.0 H — iron-restricted erythropoiesis 型態未解**（松禾 A 檢 panel 沒重測 TSAT/Ferritin，8/4 需主動加測）
    - → 補鐵從「建議」升級為**「必做」**——換 ferric citrate 或加 IV iron 二選一，不能再拖
-6. **🔥 2026/07/04 兩個 converging 硬觸發**：
-   - P 6.3 → binder 升級
-   - MCV 73 / RDW 21 → 缺鐵未解
-   - → **ferric citrate 完美 fit**（三合一：非鈣型 binder + 補鐵 + 減 Ca load）
+6. **🔥 2026/07/04 → 2026/07/29 update：四個 converging 硬觸發**（急迫性再升級）：
+   - **P 6.3**（7/4 lab）→ binder 升級
+   - **MCV 73 / RDW 21**（7/4）→ 缺鐵未解
+   - **Hb 12.9 → 10.9（7/29 lab 掉 −2.0）** → iron 決策更急、EPO / dilutional / bleeding 排查全跟 iron 狀態 coupled
+   - **🔥 Kalimate 3 包/週已加入處方（2026/07 松禾 K management）** → **再多一個 Ca 釋出源**、跟本節「移除 Ca 來源」核心戰略對立、加速 ferric citrate 換藥的戰略必要性
+   - → **ferric citrate 完美 fit**（四合一：非鈣型 binder + 補鐵 + 減 Ca load + 為 Lokelma 替代 Kalimate 的 pivot 鋪路）
 
 **Sequencing 關鍵：先換 binder，不要先動透析液**
 

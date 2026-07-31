@@ -1172,3 +1172,39 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 1. **Panel 面向判斷 = 快速識別 lab context**：7/29 lab panel 內容（NT-proBNP + HbA1c + full lipid + CK）就足以推斷「這是 NTUH cardiac 相關」而非松禾月度。**panel 內容本身是 metadata**、告訴你哪個 provider ordering、什麼 clinical purpose。
 2. **Outcome resolves paradigm tension**：wiki 6/22 update 誠實面對「表面違反 paradigm 但 secondary prevention rationale 可 defensible」的 tension，7/29 outcome (LDL 60) 由 empirical data resolve。這是「**paradigm 是 prior，data 是 posterior**」的實例。
 3. **好消息 grouping 一次寫、壞消息獨立寫**：本次 wiki update 三個 wins 一起 highlight（LDL 60 / CK 60 / K recovered），但 Hb drop 跟 NT-proBNP 分開獨立 sub-section 各自展開——**good news benefit from grouping (reinforces confidence), bad news benefit from isolation (each gets full attention)**。
+
+---
+
+## 2026-07-30 — Kalimate 3/週為 松禾 7/4→7/23 K 6.6 spike 介入手段（user 補充）
+
+**Event**：user 補齊「7/4 → 7/23 松禾 K 介入手段」= **加麗美粉 3 包/週**。Websearch 確認 = Kalimate = **Calcium Polystyrene Sulfonate (CPS)**、鈣型陽離子交換樹脂 K binder。
+
+**臨床上正確且見效**：3 週控制 K 6.6 → 5.0，未升級 arrhythmic event。**但戰略上跟 wiki §7 換非鈣型 binder 的核心論證有 tension**——Kalimate 是**再多一個 Ca 釋出源**。
+
+### Trade-off 分析（wiki §6/§7 已寫進）
+
+| 面向 | Kalimate |
+|------|---------|
+| K management 短期 | ✅ 有效、cheap、familiar |
+| Ca 負擔（vs §7 戰略）| ⚠️ 增加 ~30-90 mg/day 吸收（絕對量少但方向錯）|
+| 長期 CV outcome | ⚠️ 加速 medial calcification（每個 Ca 源都推）|
+
+### 替代 long-term options（8/4 lab 若 K 穩定就談 tapering，若 K 仍 > 5.5 就轉 Lokelma）
+
+- **Lokelma (sodium zirconium cyclosilicate)**：Ca-neutral、⭐ **長期首選**
+- Patiromer：也含 Ca 不解決 trade-off
+- 透析液 K 2.0 → 1.5：零藥物、首選補強
+- 飲食 K review：零藥物、必做基礎
+
+### Wiki 5 處更新
+
+1. `iatrogenic 病人用藥現況表` line 29 後: 新增 Kalimate row
+2. `iatrogenic §6 K`：K management case study 加 Kalimate 具體 intervention + 「Kalimate 的 hidden trade-off — 再多一個 Ca 來源」新 section（Ca 來源 table）+ 8/4 松禾 talking points 升級版（Lokelma/Patiromer/透析液/飲食 options）+ Kalimate 何時停 decision tree
+3. `iatrogenic §7 binder`：問題定位第 6 項從「2 個 converging trigger」升「**4 個 converging trigger**」（加 Hb 7/29 掉 −2.0 + Kalimate 新 Ca 源）。ferric citrate 定位「四合一：非鈣型 binder + 補鐵 + 減 Ca load + 為 Lokelma 替代 Kalimate 鋪路」
+4. `cad_contribution §B K`：case study 加 Kalimate 具體 intervention + 「Kalimate 的 hidden long-term issue（cardiac 視角）」段（vascular calcification 加速視角）
+5. `master_timeline 目前用藥表`：**日期從 2026/05/20 → 2026/07/30 confirmed**、Crestor row 更新為 Cretrol combo（含 6/22 換藥）、新增 Kalimate row、Concor row 加「⏳ ivabradine 提案待 7/29 心內回應」
+
+### Meta 教訓
+1. **Kalimate = 鈣型 K binder** 這個細節容易被漏——「K binder」聽起來中性，但「Calcium polystyrene sulfonate」揭露 Ca 源。**websearch 確認成分再套 clinical framework**，別假設 K binder 都是 Ca-neutral。
+2. **短期 clinical 見效 vs 長期戰略對齊**：松禾用 Kalimate 是 SOP standard 且有效，但 wiki 的 Ca-P 軸 framework 提醒「這個藥選擇跟你 vascular calcification 大戰略反向」。**GP practice 面 clinical event、wiki 面 lifetime trajectory**——兩個都對、但需要 reconcile。
+3. **8/4 talking point 升級 = 從「discussing」到「tapering」**：K management 事件成功後，wiki 給出的下一步不是「持續 Kalimate」而是「若 K 穩定則 tapering off + 轉 Lokelma」——**event-triggered acute intervention 不該預設變 chronic 用藥**。
