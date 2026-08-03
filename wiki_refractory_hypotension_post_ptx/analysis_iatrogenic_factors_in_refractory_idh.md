@@ -269,33 +269,53 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 
 | 機轉特性 | 效果 | 跟你的需求 fit |
 |---------|------|--------------|
-| 只抑制竇房結 If 通道、HR ↓ | ✅ 跟 BB 同效慢 HR | HFpEF 延長 diastolic filling ✅ |
+| 只抑制竇房結 If 通道、HR ↓ | ✅ 跟 BB 同效慢 HR | HFpEF 延長 diastolic filling ✅（**7/29 SPECT small LV cavity 53/59 mL confirmed restrictive HFpEF 極需 HR 控制**）|
 | **無 BP 影響**（不像 BB 同時 ↓ contractility + ↓ HR）| ✅ **不加重 IDH** | 解決你 BB 失敗的根本矛盾 ✅ |
-| 慢 HR → 心肌 O2 demand ↓ | ✅ | 抗 SSS=16 ischemia ✅ |
-| 無 post-MI mortality benefit | ❌ | 你 2023/03 PCI 已 3 年、不在此 window 內，這個 indication 弱化 |
-| 健保給付條件：stable angina + BB 不耐受 + HR > 70-75 sinus | ✅ | Concor 6/4 失敗已 demonstrate「BB 不耐受」、SSS=16 = stable angina active ischemia |
+| 慢 HR → 心肌 O2 demand ↓ | ✅ | ~~抗 SSS=16 ischemia~~ → **7/29 SD% 1.5% 缺血 minimal、anti-ischemia rationale 弱化但仍有 residual 2% + 4% scar**|
+| 無 post-MI mortality benefit | ❌ | 你 2023/03 PCI 已 3 年、不在此 window 內 |
+| 健保給付條件：stable angina + BB 不耐受 + HR > 70-75 sinus | ✅ | Concor 6/4 失敗已 demonstrate「BB 不耐受」、**7/29 SPECT 4% scar + 2% residual ischemia = 仍符合 stable angina 診斷** |
 | 不可用於 AF | — | 你是 sinus rhythm（無 AF 紀錄）|
 | 副作用 | 視覺光暈（phosphenes）多數可耐受、bradyarrhythmia | 服用後 monitor HR |
 | 劑量 | 5 mg BID start → 7.5 mg BID max | 起始極溫和 |
 
-**跟 cardiologist 對話框架**：
+**🔥 2026/07/29 update — Ivabradine 主 indication shift**：
+- ~~HFpEF + active ischemia + BB intolerant~~
+- → **HFpEF（primary indication，restrictive small-cavity HFpEF 極 preload-sensitive）+ BB intolerant**
+- 主要收益從「anti-ischemia + HR 控制」→「純 HR 控制 for diastolic filling」
+- 健保條件仍成立（stable CAD 診斷未消失、只是 ischemic burden 大幅降低）
 
-> 「Concor 1.25 mg QOD trial（5/19-6/4）IDH 加重已停。但我仍有 HFpEF（E/A 0.62）+ active reversible ischemia（SSS=16）需要 HR 控制 + 抗 ischemia 保護。
+**跟 cardiologist 對話框架（8/11 版本）**：
+
+> 「Concor 1.25 mg QOD trial（5/19-6/4）IDH 加重已停。7/29 SPECT 顯示 SD% 從 16% 大幅降到 1.5%——CAD 這方面改善很多，但我的 HFpEF physiology（E/A 0.62 + small LV cavity 53/59 mL）沒變、still preload-sensitive extreme case、still 需要 HR 控制延長 diastolic filling。
 >
-> **能不能考慮 ivabradine** 取代 BB？它只降 HR、不降 BP，理論上對我的 IDH 是 BB intolerant 後的 ideal alternative。健保「stable angina + BB 不耐受」應該給付。
+> **能不能考慮 ivabradine** 取代 BB？它只降 HR、不降 BP，對我 BB intolerant 的 IDH 是 ideal alternative。健保「stable angina（4% scar + 2% residual ischemia）+ BB 不耐受」應該給付。
 >
-> 同時等 7/29 重複 SPECT 看 RCA CTO PCI 是否啟動——若 PCI 成功，可能根本不需要慢性 anti-anginal 藥物。」
+> 另外 SPECT SD% 1.5% 這個結果，**RCA CTO PCI 是不是可以不做了**？guideline 要 > 10% burden 才有 revasc benefit。」
 
-### 4.6 為什麼 RCA CTO PCI 才是 root cause 解（不是換藥）
+### 4.6 ~~為什麼 RCA CTO PCI 才是 root cause 解~~ → 🔥 **RCA CTO PCI 已無 hard evidence-based indication（2026/07/29 update）**
 
-換 BB → 換 ivabradine → 換 ranolazine 都是**藥物層 patch**。真正 root cause 是 RCA CTO 沒開通：
+**前版論證**：換 BB → 換 ivabradine → 換 ranolazine 都是藥物層 patch，真正 root cause 是 RCA CTO 沒開通。
 
-- 7/29 重複 cardiac SPECT 若 SSS 仍 16 + viability OK → PCI 啟動 → 缺血負擔直接 ↓
-- PCI 成功後可能 HFpEF physiology 也改善（缺血是 stiff ventricle 的推手之一）
-- 抗 ischemia 藥物需求**自動下降**
-- → C2 ivabradine 是 PCI 評估期的 **bridge therapy**，不是終點
+**7/29 SPECT 翻轉**：
+- SD% 從 16% → 1.5%（−14.5% massive improvement）
+- **ISCHEMIA trial + modern guidelines**：需 > 10% ischemic burden 才有 revasc benefit
+- 你的 1.5% << threshold
+- 4% 是 scar（PCI 無法救）、剩 2% residual ischemia（太少不夠 justify）
+- → **RCA CTO PCI 從「root cause 解」變「沒有 hard indication」**
 
-詳細處方理由見 [analysis_cad_contribution §β-blocker](analysis_cad_contribution_to_refractory_idh.md#β-blocker-在-hfpef--active-ischemia-的角色)
+**Framing reversal implications**：
+- **Ivabradine 不再是「PCI bridge therapy」**、直接是**主 therapy for HFpEF diastolic filling**
+- 藥物層 patch 對 CAD 部分**已無明確 upgrade path**（PCI 沒指徵、藥物已極大化）
+- 治療重心從「CAD 缺血 minimization」→「HFpEF preload management + PTH/Ca/Hb 三軸優化」
+- Wiki §7 換 ferric citrate 相對重要度**進一步升級**（因為 Ca-P 軸 remains 唯一大 modifier）
+
+**Caveats 保留**（等 8/11 dr 確認）：
+1. Submaximal SPECT（79% max HR）可能 mild masking
+2. 3-vessel CAD anatomy 沒變（LCX stent + RCA CTO + LAD 未處理）
+3. Symptom-driven revasc 仍可能（若有 angina 症狀）
+4. 每個 dr 判讀不同、8/11 心內意見以 dr 為準
+
+詳細見 [analysis_cad_contribution CAD 維度的關鍵更新](analysis_cad_contribution_to_refractory_idh.md#cad-維度的關鍵更新--20260729-spect-大幅-reframing)
 
 **為什麼這個 schedule 設計聰明：**
 
