@@ -77,7 +77,9 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | ~~2026/07/13~~ → **2026/07/27**（預定，校正）| 評估 | Dipyridamole trial-off 8 週 evaluate | 從**實際 cessation ~6/01** + 8 週 = ~7/27，跟 7/29 重複 SPECT 同一週 → 可**合併到 7/29 心內訪談**討論。Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/23** | 🩸 抽血 | 松禾透析日 K interim check | K **5.0**（confirms 7/4 6.6 → 7/23 5.0 大幅改善、K 管理成功）| 本頁 §7/29 lab 表 |
 | 🔥 **2026/07/29** | 🩸 抽血 | **NTUH 心臟訪談 comprehensive lab**（cardiac panel：full lipid + NT-proBNP + HbA1c + CK）| 🎉 **LDL 60**（Cretrol 換藥後首次量、達 secondary prevention < 70 target，−40 vs 4/9 baseline 100）、🎉 **CK 60 正常**（Cretrol rhabdo 零跡象）、✅ **K 5.3**（6.6 → 5.3 管理成功）、⚠️ **Hb 10.9**（12.9 → 10.9 −2.0 大幅回落）、⚠️ **NT-proBNP 614**（HFpEF baseline 建立）、✅ HbA1c 5.4 非糖尿病、T-CHO 116、TG 187（↓ vs 222）、HDL 32 low、Lp(a) 10.2 低 CV 遺傳風險 | 本頁 §7/29 lab 表 |
-| **2026/07/29** | 影像 | **重複 cardiac SPECT** | 跟 2025/08 SSS=16 比較 → 決定 cath / RCA CTO PCI；**同次心內訪談 ivabradine 提案**——⏳ **結果待 user 補充**（決定後回頭更新 wiki）| [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| 🔥 **2026/07/29** | 影像 | **重複 cardiac SPECT（NTUH，Bruce exercise stress，Tc-99m MIBI 1-day）** | 🎉 **SSS 16 → 4（-75%，severe → mild）、SDS = 1、SD%（ischemic burden）16% → 1.5%**、Scars 4%、Post-stress LVEF 67%、Resting LVEF 74%（small LV cavity 造成 overestimate）、無 regional WMA、mild RV overload post-stress。Method 跟 2025/08 一樣是 exercise stress（user 2026/08/03 確認）→ apples-to-apples 比較、**改善是真實臨床改善不是 test artifact**。⚠️ Peak HR 79% max（submaximal，dyspnea 提前終止）→ 保守 caveat 但降幅遠超 noise。**⏳ dr 訪談 8/11 才進行、all treatment decisions 待該次確認** | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.6](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| 🔥 **2026/08/10**（預定）| 評估 | **移植門診**（NTUH）| **黃金 window 第 1 天**：帶著 SPECT SD% 1.5% 這個關鍵改善去推 cardiac clearance + active listing 進度。討論：(1) SPECT 結果能否加速 active listing？(2) 免疫 PRA 44% + 解剖 TKV stable 對決策影響？(3) 目前 waiting list status 位次？ | [prognosis](analysis_prognosis_without_transplant.md) |
+| 🔥 **2026/08/11**（預定）| 評估 | **NTUH 心內門診**（7/29 SPECT report 討論）| **黃金 window 第 2 天** 4 議題一次到位：(1) SD% 1.5% → RCA CTO PCI 是否 no longer indicated？(2) Concor 失敗後**ivabradine 提案**（BB 不耐受、HFpEF 需 HR 控制、健保 stable angina + BB 不耐受可給付）？(3) NT-proBNP 614 trend 追蹤頻率？(4) LDL 60 已達 target < 70，dr target 是 < 70 還是 < 55？| [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md)、[iatrogenic §4.6](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/10/13**（預定）| 評估 | **AVG PTA #2 follow-up**（葉聰賜）| 主動討論：vein mapping / surveillance US 縮短間隔 / DCB / 備用通路啟動 timing | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 
 ---
@@ -325,6 +327,65 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | **Ca** | 7/4 8.9 tracking | 中 |
 | **iPTH** | 6/4 28.6 trajectory | 中 |
 | ALP / Albumin / BUN | 例行 | 低 |
+
+### 🔥 2026/07/29 SPECT 報告完整版（Bruce exercise stress）
+
+#### 對比 2025/08
+
+| 參數 | 2025/08 | **2026/07/29** | Δ | 意義 |
+|------|---------|---------------|---|------|
+| **SSS**（summed stress score）| **16**（severe）| **4**（mild）| 🎉 **−12** | 跨兩個 severity 等級 |
+| SS%（perfusion deficit）| 16% | 5.9% | ⬇️ −10% | LV 心肌受影響面積大幅減少 |
+| **SDS**（summed difference score）| — | **1** | 🎉 極低 | **可逆缺血 essentially 消失** |
+| **SD%（ischemic burden）** | **16%** | **1.5%** | 🎉 **−14.5%** | ⭐ **關鍵：低於 ISCHEMIA trial 10% threshold** |
+| Scars | — | **4%** | — | 舊 subendocardial scar（不可逆、PCI 無法救）|
+| Ischemia 位置 | apex + 基底前壁 + 側壁 + 下壁 | mid-to-basal inferior wall only | ⬇️ | 只剩單一 RCA 遠端區域 |
+| Post-stress LVEF | — | 67% | ✅ 正常 | — |
+| Resting LVEF | 73.7%（4/2026 echo）| 74% | ✅ consistent | Small LV cavity 造成 overestimate |
+| Regional WMA | — | **None** | ✅ | 無新 wall motion abnormality |
+| Stress method | Exercise（跑步機）| **Exercise（Bruce）** | apples-to-apples | ✅ user 2026/08/03 確認、非藥物差異 artifact |
+
+#### 為什麼改善這麼大（多因素 hypothesis）
+
+1. **停沛暢**（實際 ~2026/06/01）— 停 vasodilator → 血管張力恢復 → 冠脈血流重分配改善
+2. **LDL 100 → 60**（Cretrol combo 6/22 起、SPECT 前 5 週）— plaque stabilization
+3. **DAPT 3 年**（Plavix 75 + Aspirin 100）— 抗血栓成熟
+4. **潛在 collateral 發展** — RCA CTO 側支循環慢慢長出
+5. **K/Ca/P 較穩定**（大部分期間）— microvascular 改善
+
+#### ⚠️ Caveat：submaximal stress
+
+- Peak HR 79% max predicted（因 dyspnea 提前終止 5 min Bruce）
+- 一般要 ≥ 85% 才是 diagnostic maximal
+- **可能有 mild masked ischemia**、但 16 → 4 降幅**遠超 noise range**
+
+#### HFpEF picture（未改變、但被 quantify）
+
+- Post-stress **LV EDV 53 mL、ESV 17 mL**（SV ~36 mL）
+- Resting LV EDV 59 mL、ESV 16 mL（SV ~43 mL）
+- **Very small LV cavity → restrictive-pattern small-cavity HFpEF**
+- 完美 explain **IDH 頑固**：preload 稍降 = SV 大降 = BP 崩
+- Note: EF was overestimated due to small LV cavity
+- Mild RV overload after stress — HD 病人 fluid shifts 常見
+
+#### 🎉 Clinical implication — cascading impact 到多個 wiki 頁面
+
+**1. RCA CTO PCI 的 evidence-based indication 已消失**（cad_contribution + iatrogenic §4.6）
+- ISCHEMIA trial + modern guidelines：need **> 10% ischemic burden** for revasc benefit
+- 你的 **1.5% < threshold**
+- 4% 是 scar（無法救）、剩 2% residual ischemia
+- → RCA CTO PCI **從「應該做」變「沒有 hard indication」**
+
+**2. Ivabradine 提案 rationale 微調**（iatrogenic §4.5）
+- HFpEF diastolic filling 需求仍在（E/A 0.62 + small LV cavity）→ **ivabradine 仍 valid**
+- Anti-ischemia rationale **弱化**（缺血從 16% 降到 1.5%）
+- 主要 indication 從「HFpEF + active ischemia + BB intolerant」→「HFpEF + BB intolerant」
+- 健保「stable angina + BB 不耐受」條件**仍成立**（4% scar + 2% residual ischemia = 仍有 stable CAD 診斷）
+
+**3. 移植 cardiac clearance 展望大幅改善**（prognosis_without_transplant）
+- 三大關卡：① 心臟 從 severe barrier → mild barrier
+- 8/10 移植門診**帶這個結果去推 active listing**
+- 這**可能是啟動 active waitlist 的 trigger**
 
 ### 關鍵歷史 baseline
 

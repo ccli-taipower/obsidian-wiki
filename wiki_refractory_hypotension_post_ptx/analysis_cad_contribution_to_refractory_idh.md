@@ -17,7 +17,8 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 |------|------|
 | PCI 史 | 2023/03 LCX 支架；RCA CTO 未處理 |
 | 心超 2026/04 | **EF 73.7%（hyperdynamic）、E/A 0.62（impaired LV relaxation）、WMSI 1.19、LV mass 103.2** |
-| 核醫 2025/08 | **SSS=16（severe）、ΔTPD=16%、可逆缺血、心尖+基底前壁+側壁+下壁** |
+| 核醫 2025/08 | ~~SSS=16（severe）、ΔTPD=16%、可逆缺血、心尖+基底前壁+側壁+下壁~~（見下方 2026/07/29 update）|
+| 🔥 核醫 **2026/07/29** | **SSS=4（mild）、SD%=1.5%、SDS=1**、Scars 4%、mid-to-basal inferior wall only、Post-stress LVEF 67% / Resting LVEF 74%、無 WMA。**跟 2025/08 都是 exercise stress → 改善是真實臨床改善** |
 | 腦部 MRI/MRA 2023/12 | 顱內動脈瘤陰性、無微出血、輕微 WMH |
 | CTR | 0.4（正常，排除心因性容量過載） |
 
@@ -29,14 +30,14 @@ tags: [refractory_IDH, CAD, RCA_CTO, LCX_stent, HFpEF, diastolic_dysfunction, se
 
 - **EF 73.7% — hyperdynamic 收縮**（不是低 EF）
 - **E/A 0.62 — 舒張功能異常 / impaired LV relaxation**（HFpEF physiology）
-- **SSS=16, ΔTPD=16% — severe reversible ischemia**，且**缺血擴及 LAD/LCX territory**，不只 RCA 下壁——表示 active progressing CAD
+- ~~SSS=16, ΔTPD=16% — severe reversible ischemia~~ → **🔥 2026/07/29 update：SD% 16% → 1.5%（−14.5% massive improvement）、SSS 4 mild、SDS 1、缺血限於 mid-to-basal inferior wall**——**active progressive CAD framing 已被推翻**、剩下的主要是 4% scar（已死心肌）+ 2% residual ischemia
 
-→ 這是兩個**獨立**的心臟問題疊加，不是單純的 CAD：
+→ **原來兩個獨立心臟問題疊加、現在剩一個顯著**：
 
-1. **HFpEF 生理**：心室 stiff，要靠高 LVEDP 才能 fill；超濾一脫水就立刻減少 SV → BP 掉
-2. **進展中的多血管 CAD**：缺血範圍超出原 RCA 區，表示其他冠脈（含 LCX 支架近端 / LAD）也有問題
+1. **HFpEF 生理**（未改變）：心室 stiff，要靠高 LVEDP 才能 fill；超濾一脫水就立刻減少 SV → BP 掉。**7/29 SPECT LV EDV 53/59 mL confirmed small LV cavity → restrictive-pattern HFpEF、preload-sensitive extreme case**
+2. ~~進展中的多血管 CAD~~ → **7/29 update：ischemic burden 從 16% 降 1.5%、well below ISCHEMIA trial 10% threshold**、RCA CTO PCI 從「應該做」變「沒有 hard indication」
 
-加上 PTH 過度抑制（血管路徑 2 失能）+ BRS 受損 → **四維崩潰**而非三維。
+加上 PTH 過度抑制（血管路徑 2 失能）+ BRS 受損 → 現在是 **三維崩潰**（HFpEF + PTH↓ + BRS↓）為主、CAD 從主軸降為 modifier。
 
 ## 為何 HFpEF 生理對 IDH 特別致命
 
@@ -116,25 +117,52 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 
 **不是治好 HFpEF，是把壓在它上面的四座山搬開。**
 
-## CAD 維度的關鍵更新
+## CAD 維度的關鍵更新（🔥 2026/07/29 SPECT 大幅 reframing）
 
-### Active progressing 而非穩定狀態
-- 核醫 2025/08：**SSS=16（severe abnormal, >13）、ΔTPD=16%（severe, ≥15%）**
-- 缺血部位包含心尖、基底前壁、側壁、下壁 → **跨 LAD/LCX/RCA territory**
-- LAD/LCX 區域出現缺血表示**冠脈疾病已超出已知的 RCA CTO 與 LCX 支架**，需重新評估：
-  - LCX 支架有 in-stent restenosis？
-  - LAD 是否有新病灶？
-  - RCA collateral 是否惡化？
+### 從「Active progressing」→「主要為 stable scar + minimal residual ischemia」
 
-### RCA CTO 在 transplant 評估中的關鍵性
-- 病人已登記等待腎臟移植
-- 移植前 cardiac evaluation 是必經步驟，severe reversible ischemia 是移植障礙
-- → **RCA CTO 開通與 LCX 重評估**的首要動機**不是改善 IDH**（不保證），而是：
-  - 改善缺血負擔（核醫 SSS=16 是 hard finding）
-  - 保護左心室長期功能
-  - **為移植鋪路**
+**核醫 trajectory**：
+- 2025/08：SSS 16（severe）、ΔTPD 16%（severe）、multi-territory 可逆缺血
+- **2026/07/29**：**SSS 4（mild）、SD% 1.5%（極低）、SDS 1**、缺血限於 mid-to-basal inferior wall（單一 RCA 遠端區域）、**4% scar + 2% residual ischemia**
+- Method: 兩次都是 exercise stress（Bruce protocol）、apples-to-apples → **改善是真實臨床改善**
 
-這個視角讓 PCI of CTO 的成本/效益分析重新對齊：即使對 IDH 無立即助益，本身已有獨立價值。
+**改善的多因素 hypothesis**：
+1. 停沛暢（~2026/06/01）— vasodilator 停用 → 血管張力恢復 → 冠脈血流重分配改善
+2. LDL 100 → 60（Cretrol combo 6/22 起）— plaque stabilization
+3. DAPT + Aspirin 持續 3 年 — 抗血栓成熟
+4. 潛在 collateral 發展（RCA CTO 側支循環慢慢長出）
+5. K/Ca/P 較穩定（大部分期間）— microvascular 改善
+
+⚠️ **Caveat**：submaximal stress（peak HR 79% max、dyspnea 提前終止）→ 可能 mild masking，但 16 → 4 降幅遠超 noise。
+
+### RCA CTO PCI 的定位翻轉（原「應該做」→ 現「沒有 hard indication」）
+
+**原論證**（wiki 前版）：
+- SSS 16 + 16% 可逆缺血 → RCA CTO PCI 需啟動評估
+- 為移植鋪路
+- 保護左心室
+
+**2026/07/29 update 後**：
+- **ISCHEMIA trial + modern guidelines**：需 **> 10% ischemic burden** 才有 revasc mortality/MACE benefit
+- 你的 **SD% 1.5% << threshold**
+- 4% 是 scar（已死心肌、PCI 無法救）
+- 剩 2% residual ischemia → 太少不夠 revasc justification
+- → **RCA CTO PCI 已無 hard evidence-based indication**
+
+**Nuances 仍然要考量**：
+1. **Submaximal test（79% max HR）** — 保守 caveat，但改善幅度遠超 noise
+2. **Anatomy 沒改變** — 仍是 3-vessel CAD（LCX stent + RCA CTO + LAD 未處理），只是 functional 缺血 burden 降了
+3. **Symptom-driven revasc** — 若有 angina 症狀仍可考慮；目前無明確 angina
+4. **Function preserved** — LVEF 67-74% + 無 WMA → 無 large ischemic territory 的 functional 證據
+
+### 對移植 cardiac clearance 的影響（🎉 mostly resolved）
+
+- 病人已登記等待腎臟移植 11 年
+- ~~severe reversible ischemia 是移植障礙~~ → **7/29 SDS 1.5% = mild、可爭取 cardiac clearance**
+- **8/10 移植門診**應主動 present 這個結果、推動 active listing
+- 這**可能是啟動 active waitlist 的 trigger**
+
+**8/11 心內門診 talking point**：SPECT SD% 1.5% → 是否 no longer need RCA CTO PCI？如果 dr 仍推 PCI，理由是什麼（symptom? anatomy? sensitivity concern?）。
 
 ## 藥物層面（心臟軸的修正）
 

@@ -1208,3 +1208,107 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 1. **Kalimate = 鈣型 K binder** 這個細節容易被漏——「K binder」聽起來中性，但「Calcium polystyrene sulfonate」揭露 Ca 源。**websearch 確認成分再套 clinical framework**，別假設 K binder 都是 Ca-neutral。
 2. **短期 clinical 見效 vs 長期戰略對齊**：松禾用 Kalimate 是 SOP standard 且有效，但 wiki 的 Ca-P 軸 framework 提醒「這個藥選擇跟你 vascular calcification 大戰略反向」。**GP practice 面 clinical event、wiki 面 lifetime trajectory**——兩個都對、但需要 reconcile。
 3. **8/4 talking point 升級 = 從「discussing」到「tapering」**：K management 事件成功後，wiki 給出的下一步不是「持續 Kalimate」而是「若 K 穩定則 tapering off + 轉 Lokelma」——**event-triggered acute intervention 不該預設變 chronic 用藥**。
+
+---
+
+## 2026-08-03 — 2026/07/29 SPECT dramatic improvement 整合 wiki (RCA CTO PCI evidence-based indication 消失)
+
+**Event**：user 提供 NTUH 2026/07/29 SPECT 報告（Bruce exercise stress, Tc-99m MIBI）+ 確認 2025/08 也是 exercise stress (apples-to-apples comparison)。
+
+### Headline: SD% 16% → 1.5% (−14.5%) massive improvement
+
+| 參數 | 2025/08 | 2026/07/29 | Δ |
+|------|---------|-----------|---|
+| SSS | 16 (severe) | 4 (mild) | −12 |
+| SS% | 16% | 5.9% | −10% |
+| SDS | — | 1 | 極低 |
+| **SD%** | **16%** | **1.5%** | **−14.5%** |
+| Scars | — | 4% | 已死心肌 |
+| Ischemia location | apex+基底前壁+側壁+下壁 (multi-territory) | mid-to-basal inferior only (single RCA territory) | 縮小 |
+| LVEF stress/rest | — | 67% / 74% | 正常 |
+| LV cavity | — | EDV 53/59 mL, ESV 17/16 mL | **very small → restrictive HFpEF** |
+| Stress method | Exercise (Bruce) | Exercise (Bruce) | ✅ apples-to-apples |
+
+### 改善多因素 hypothesis
+1. 停沛暢 (~2026/06/01) — vasodilator 停 → 血管張力恢復
+2. LDL 100 → 60 (Cretrol combo 6/22, 前 5 週) — plaque stabilization
+3. DAPT 3 年 — 抗血栓成熟
+4. 潛在 RCA CTO collateral 發展
+5. K/Ca/P 較穩定 — microvascular 改善
+
+### ⚠️ Caveat
+- Submaximal stress (peak HR 79% max, dyspnea 提前終止)
+- 需要 ≥ 85% 才 diagnostic maximal
+- 可能 mild masking，但 16 → 4 遠超 noise range
+
+### 🎉 Cascading implications
+
+**1. RCA CTO PCI evidence-based indication 消失**
+- ISCHEMIA trial + guidelines 需 > 10% ischemic burden 才 revasc benefit
+- 你的 SD% 1.5% << threshold
+- 4% scar (PCI 無法救) + 2% residual ischemia (太少不 justify)
+- → 從「應該做」→「沒有 hard indication」
+
+**2. Ivabradine 主 indication shift**
+- 原本：HFpEF + active ischemia + BB intolerant
+- 現在：**HFpEF (primary，restrictive small-cavity, extreme preload-sensitive) + BB intolerant**
+- Anti-ischemia rationale 弱化
+- 健保條件仍成立 (4% scar + 2% residual = stable CAD 診斷未消失)
+
+**3. 移植 cardiac clearance 展望大幅改善**
+- 三大關卡 landscape shift:
+  - ① 心臟: severe barrier → mild barrier (最擋的變第二擋)
+  - ② 免疫 PRA 44%: **現在成為最大 remaining barrier**
+  - ③ 解剖: 仍是最好的
+- **8/10 移植門診黃金 window** 主動 present SPECT 結果
+
+**4. HFpEF picture quantified**
+- LV EDV 53/59 mL, ESV 17/16 mL, SV 36-43 mL
+- **restrictive small-cavity HFpEF**
+- 完美 explain IDH 頑固: preload 稍降 = SV 大降 = BP 崩
+- "EF was overestimated due to small LV cavity" 呼應 4/2026 echo
+
+### Wiki 5 處更新
+
+1. `master_timeline`:
+   - 7/29 SPECT row 從「⏳ 待補」→ 完整結果
+   - 新增 8/10 移植門診預定 row (黃金 window 第 1 天 + 3 個 talking points)
+   - 新增 8/11 心內門診預定 row (黃金 window 第 2 天 + 4 個 talking points)
+   - 新增大 sub-section「🔥 2026/07/29 SPECT 報告完整版」(對比 2025/08 完整表 + 改善多因素 + submaximal caveat + HFpEF quantified + cascading impact)
+
+2. `cad_contribution 診斷資料表`:
+   - 2025/08 SPECT strikethrough + 新增 7/29 SPECT row
+
+3. `cad_contribution 簡答段`:
+   - 「active progressing CAD」→「主要為 stable scar + minimal residual ischemia」
+   - 「四維崩潰」→「三維崩潰 + CAD 為 modifier」
+   - LV EDV 53/59 mL confirmed small cavity 用來 explain HFpEF preload-sensitive
+
+4. `cad_contribution CAD 維度的關鍵更新`:
+   - MAJOR 重寫: SPECT trajectory + 改善多因素 + RCA CTO PCI 定位翻轉 + nuances still valid + 移植 clearance implication
+   - 8/11 talking point 加入
+
+5. `iatrogenic §4.5 Ivabradine`:
+   - 機轉 fit table 三個 rows 加 2026/07/29 update markers
+   - 新增「🔥 Ivabradine 主 indication shift」段
+   - Cardiologist 對話框架更新為 8/11 版本 (含 SPECT 結果 + RCA CTO PCI 反對意見)
+
+6. `iatrogenic §4.6`:
+   - 標題從「RCA CTO PCI 才是 root cause 解」→ ~~刪除~~ → 「RCA CTO PCI 已無 hard evidence-based indication」
+   - 前版論證保留為 context，翻轉論證加入
+   - Framing reversal implications: Ivabradine 不再是 bridge、CAD 藥物層無 upgrade path、治療重心轉 HFpEF + PTH/Ca/Hb 三軸、§7 換 ferric citrate 相對重要度升級
+   - Caveats 保留等 8/11 dr 確認
+
+7. `prognosis_without_transplant 三道關卡 table`:
+   - ① 心臟 row 從「嚴重可逆缺血、需先處理」→「7/29 SPECT SD% 1.5% mild、可爭取 clearance」
+   - 新增「三大關卡 landscape shift」段:
+     - ①最擋的變第二擋
+     - ②免疫成為最大 remaining barrier
+     - ③解剖仍是最好的
+   - 8/10 移植門診 golden window 動作提示
+
+### Meta 教訓
+1. **Apples-to-apples 比較確認前不要下結論**: 若 2025/08 是 pharmacological stress (patient on daily dipyridamole 沛暢) + 2026/07/29 是 exercise stress，SSS 差異可能是 test method artifact。**User 確認兩次都是 exercise 才敢說改善是真實**。
+2. **Guideline threshold matters**: ISCHEMIA trial 10% ischemic burden threshold 是 RCA CTO PCI 定位翻轉的 hard evidence。「> 10%」是 hard number、不是 subjective judgment。**單一 lab number 可以 flip 整個治療策略框架**。
+3. **好消息 cascade 的 wiki 責任**: 一個 SPECT dramatic improvement 影響 5 個 wiki 頁面、多個 framing 需 reverse。**大好消息比大壞消息更容易被 wiki 遺漏更新**（因為沒有 urgency 推）。要主動 audit cascade。
+4. **黃金 window recognition**: 8/10 移植門診 + 8/11 心內門診 = 兩天內用同一個 SPECT 結果 leverage 兩個不同 clinical goals（active listing + treatment plan）。wiki 主動 flag 黃金 window 幫助 user prep 兩次 talking points。

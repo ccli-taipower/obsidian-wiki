@@ -111,11 +111,17 @@ MFI 563 / 355 均偏低 → 抗體存在但**強度不高**：
 
 | 關卡 | 狀態 | 對策 |
 |------|------|------|
-| **① 心臟（SSS=16）** | 嚴重可逆缺血，移植前需先處理 | RCA CTO 開通 + LCX 再評估；2026/07/29 重複核醫定奪 |
+| **① 心臟** | ~~SSS=16 嚴重可逆缺血，移植前需先處理~~ → 🔥 **2026/07/29 重複 SPECT: SD% 1.5%（極低）、SSS 4 mild、剩 4% scar + 2% residual ischemia**——**severe barrier 降為 mild barrier** | 🟢 **可爭取 cardiac clearance**（RCA CTO PCI evidence-based indication 已消失）、8/10 移植門診主動 present 這個結果 |
 | **② 免疫（PRA Class I 44%）** | 中度致敏，配對池縮小 | SAB 細分 + acceptable mismatch + 活體評估 |
 | **③ 解剖（ADPKD 巨腎 + 髂股動脈 anatomy）** | TKV 3,407 → 1,030-1,048 mL（−69-70%）已落在「邊緣值」；**6/4 CT 拆分 R 427.7 + L 602.3（右側比左側小 41%）+ 半年 stable**；左 CFA moderate < 50% 無症狀 | 🟢 **green light 升級**：血管面 ✅ + 巨腎右側 ✅（**移植側偏小、不需切原生腎論證更強**）|
 
-三個關卡都需要**主動積極處理**，不能被動等待。**好消息**：解剖關卡兩個面向都接近 green light——血管（5/19 下肢動脈超音波無 hemodynamically significant 狹窄）+ TKV（雙腎 TAE 後從幾乎不可能直接移植，變成可能不需切原生腎）。
+**🔥 2026/07/29 重大 update — 三大關卡 landscape shift**：
+- ① 心臟：**最擋的變第二擋**——SPECT 大幅改善把 cardiac clearance 從「需先做 PCI」→「可爭取通過」
+- ② 免疫：**現在成為最大 remaining barrier**——PRA 44% 未改變，需要 SAB + acceptable mismatch 積極處理
+- ③ 解剖：仍是最好的（green light 未變）
+- → **8/10 移植門診黃金 window**：帶 SPECT 結果主動 push active listing 進度
+
+三個關卡都需要**主動積極處理**，不能被動等待。**好消息**：解剖關卡兩個面向都接近 green light（血管 + TKV）**加上心臟關卡大幅改善** → 現在**免疫是唯一 significant barrier**。
 
 ### 免疫對策建議
 
