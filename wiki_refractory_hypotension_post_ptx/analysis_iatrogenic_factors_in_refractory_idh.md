@@ -361,6 +361,7 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 | 🔥 **2026/07/04** | **6.6 HH**（大安檢驗所雙 High flag）| 🚨 **arrhythmia substrate**（在 SSS=16 active ischemia 下風險加倍）|
 | **2026/07/23** | **5.0** | ✅ **松禾介入見效**（3 週控制）|
 | **2026/07/29** | **5.3** | ✅ 穩定 |
+| 🔥 **2026/08/06** | **4.5** | ✅ **完全穩定**（一個月連續 3 次 < 5.5、進入 Kalimate taper 討論 window）|
 
 **2026/07/29 update**：K 已回到穩定範圍。**松禾具體介入手段（user 2026/07/30 補充）**：
 
@@ -402,6 +403,16 @@ Wiki §7 的核心論證是「**移除 Ca 來源**」（換非鈣型 binder）�
 **Kalimate 何時停？**
 - 若 8/4 K 穩定 < 5.5 + 上述非藥物介入到位 → **可跟松禾談 tapering off Kalimate**、避免無限期使用一個逆向 Ca 戰略的藥
 - 若 K 仍 > 5.5 → 從 Kalimate 過渡到 **Lokelma**（Ca-neutral 長期 solution）
+
+**🔥 2026/08/06 update — Kalimate taper 條件已滿足**：
+- 8/6 K = **4.5**（連續 3 次 < 5.5：7/23 5.0、7/29 5.3、8/6 4.5）
+- **Kalimate taper 討論 window 已 open**——建議跟松禾談：
+  1. **先減量**（3/週 → 2/週 → 1/週）而非直接停
+  2. **每 2-4 週追 K**（避免 rebound spike 錯過）
+  3. **taper 期間平行做**：飲食 K 教育強化 + 透析液 K 微調預備（若 rebound 走這條，避免 Kalimate 加量）
+  4. **若 taper 完 K 仍 stable** → **完全 stop Kalimate**、每月 K 追蹤即可
+  5. **若 taper 中 K 反彈 > 5.5** → 直接跳到 **Lokelma**（Ca-neutral），不要回頭加 Kalimate
+- 這個 decision 支持 [§7 換非鈣型 binder 戰略](analysis_iatrogenic_factors_in_refractory_idh.md)——**每移除一個 Ca 源都是 Ca-P 軸的 win**
 
 → **2026/07/04 校正**：本項從「已穩定」再次升級回「重大 modifiable factor」。6/4 → 7/4 一個月 K 上升 +1.6 mEq/L，**pre-HD、long interval（F→Sat）尚未終點就 6.6** → 週一 HD 前可能更高。
 
@@ -472,12 +483,13 @@ Wiki §7 的核心論證是「**移除 Ca 來源**」（換非鈣型 binder）�
    - **6/4**：Ferritin 35.3、TSAT 7.0%、Hb 12.3 → 11.2、Platelet 505 → 747
    - **7/4**：Hb 12.9 大幅回升（+1.7）、Platelet 747 → 458（缺鐵性反應性 thrombocytosis 回落）、**但 MCV 73.4 L / MCH 20.4 L / MCHC 27.9 L / RDW 21.0 H — iron-restricted erythropoiesis 型態未解**（松禾 A 檢 panel 沒重測 TSAT/Ferritin，8/4 需主動加測）
    - → 補鐵從「建議」升級為**「必做」**——換 ferric citrate 或加 IV iron 二選一，不能再拖
-6. **🔥 2026/07/04 → 2026/07/29 update：四個 converging 硬觸發**（急迫性再升級）：
-   - **P 6.3**（7/4 lab）→ binder 升級
-   - **MCV 73 / RDW 21**（7/4）→ 缺鐵未解
-   - **Hb 12.9 → 10.9（7/29 lab 掉 −2.0）** → iron 決策更急、EPO / dilutional / bleeding 排查全跟 iron 狀態 coupled
-   - **🔥 Kalimate 3 包/週已加入處方（2026/07 松禾 K management）** → **再多一個 Ca 釋出源**、跟本節「移除 Ca 來源」核心戰略對立、加速 ferric citrate 換藥的戰略必要性
+6. **🔥 2026/07/04 → 2026/08/06 update：四個 converging 硬觸發**（急迫性再升級、跨越多次 lab 驗證）：
+   - **P 6.3（7/4）→ 6.1（8/6）**→ binder 明顯不足（KDOQI < 5.5 未達 2 個月連續）
+   - **MCV 73（7/4）→ 72.7（8/6）+ MCH 20.1 + MCHC 27.6 + RDW 20.6** → 缺鐵 pattern **3 個月未改善**
+   - **Hb 12.9 → 10.9 → 12.8（波動 pattern）** → iron-restricted erythropoiesis: EPO 力大但 iron 供給 barely keeps up
+   - **Kalimate 3 包/週（2026/07 起）**→ 再多一個 Ca 釋出源、跟本節「移除 Ca 來源」核心戰略對立
    - → **ferric citrate 完美 fit**（四合一：非鈣型 binder + 補鐵 + 減 Ca load + 為 Lokelma 替代 Kalimate 的 pivot 鋪路）
+   - **8/11 心內門診 talking point**：「P 6.1 + MCV 72.7 兩個月連續 → 能不能討論換 ferric citrate？如果心內不 order，請 refer 腎科」
 
 **Sequencing 關鍵：先換 binder，不要先動透析液**
 

@@ -73,7 +73,7 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 🔥 **2026/06/09** | 🔪 處置 | **AVG PTA #2**（葉聰賜醫師，地區醫院）| **SAME sites recurrent at 4 個月**：in-graft + graft-V junction 90% → Mustang 7.0×80 mm @ 20 bar, no thrombosis (high venous pressure 觸發), success | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 | 🔥 **2026/06/22** | 💊 用藥 | **🔥 松禾診所換藥**：冠脂妥 10 mg → **脂瑞妥 (Cretrol) 10/10 mg**（rosuvastatin 10 + **ezetimibe 10 combo**）| 中午飯後 QD、健保給付（健保限制：statin 單方 3 個月未達標時開立）。 dr 未說明目標 LDL | [cad §Q4 LDL](analysis_cad_contribution_to_refractory_idh.md)、[concept_hd_cad_paradigm](concept_hd_cad_paradigm.md) |
 | 🔥 **2026/07/04** | 🩸 抽血 | **松禾例行月度**（大安聯合檢驗所 A 檢 panel，洗前）| 🚨 **K 6.6 HH**（+1.6 vs 6/4，雙 High flag）、🚨 **P 6.3 H**（KDOQI < 5.5 未達）、✅ **Hb 12.9**（+1.7 recovery）、✅ **Ca 8.9**（持續回升）、✅ **ALT 10/AST 11**（Cretrol 肝毒性 clear）、⚠️ 缺鐵 pattern 未解（MCV 73.4/MCH 20.4/MCHC 27.9/RDW 21.0）、URR 68.5%。**❌ 未測**：LDL / CK / iPTH / TSAT / Ferritin（**松禾 A panel 不含、需主動請求加測**）| 本頁下方 §7/04 lab 表 |
-| **2026/08/04**（預定）| 🩸 抽血 | 松禾月度 | **主動請求加測**：**LDL**（Cretrol 換藥後首次量測，−25~30 mg/dL 預期）+ **CK**（anuric 病人 rhabdo 唯一 objective marker）+ **iPTH**（6/4 28.6 後 trajectory）+ **TSAT/Ferritin**（iron 決策 + ferric citrate 啟動基礎）| [cad §Q4 LDL](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §7](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| ~~2026/08/04~~ 🔥 **2026/08/06** | 🩸 抽血 | **松禾月度 A 檢**（實際 8/6 抽、與 8/10 移植 + 8/11 心內門診接續）| ✅ **K 4.5**（6.6 → 4.5 完全穩定，Kalimate taper candidate）、✅ **Hb 12.8**（10.9 → 12.8 恢復，波動 pattern：dilutional？）、✅ Ca 8.7 正常、✅ ALT 11/AST 7 Cretrol clear、⚠️ **P 6.1**（仍 > 5.5 target、佳立鈣不夠）、⚠️ 缺鐵 pattern 未解（MCV 72.7 / MCH 20.1 / MCHC 27.6 / RDW 20.6 / Plt 550）、⚠️ **Glucose 105**（新 marginal、需觀察 trend）。**❌ 松禾 A 檢連續 3 個月未抽**：LDL / CK / iPTH / TSAT / Ferritin（**需 8/11 心內或腎科另 order**）| 本頁 §8/6 lab 表 |
 | ~~2026/07/13~~ → **2026/07/27**（預定，校正）| 評估 | Dipyridamole trial-off 8 週 evaluate | 從**實際 cessation ~6/01** + 8 週 = ~7/27，跟 7/29 重複 SPECT 同一週 → 可**合併到 7/29 心內訪談**討論。Decision tree → 留 / 停 / 升 Aggrenox ER | [iatrogenic §2](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | **2026/07/23** | 🩸 抽血 | 松禾透析日 K interim check | K **5.0**（confirms 7/4 6.6 → 7/23 5.0 大幅改善、K 管理成功）| 本頁 §7/29 lab 表 |
 | 🔥 **2026/07/29** | 🩸 抽血 | **NTUH 心臟訪談 comprehensive lab**（cardiac panel：full lipid + NT-proBNP + HbA1c + CK）| 🎉 **LDL 60**（Cretrol 換藥後首次量、達 secondary prevention < 70 target，−40 vs 4/9 baseline 100）、🎉 **CK 60 正常**（Cretrol rhabdo 零跡象）、✅ **K 5.3**（6.6 → 5.3 管理成功）、⚠️ **Hb 10.9**（12.9 → 10.9 −2.0 大幅回落）、⚠️ **NT-proBNP 614**（HFpEF baseline 建立）、✅ HbA1c 5.4 非糖尿病、T-CHO 116、TG 187（↓ vs 222）、HDL 32 low、Lp(a) 10.2 低 CV 遺傳風險 | 本頁 §7/29 lab 表 |
@@ -327,6 +327,67 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | **Ca** | 7/4 8.9 tracking | 中 |
 | **iPTH** | 6/4 28.6 trajectory | 中 |
 | ALP / Albumin / BUN | 例行 | 低 |
+
+### 🔥 2026/08/06 松禾 A 檢 update（緊接 SPECT 後、8/10-8/11 門診前）
+
+#### 三個持續 good trend
+
+| 項目 | 6/4 | 7/4 | 7/29 | **8/6** | 評估 |
+|------|-----|-----|------|--------|------|
+| **K 鉀** | 5.0 | 6.6 HH | 5.3 | **4.5** | ✅ **完全穩定**、**Kalimate taper 候選** |
+| **Hb** | 11.2 | 12.9 | 10.9 ⬇️ | **12.8** | 🎉 恢復（波動 pattern：見下方 iron 討論）|
+| **Ca** | 8.5 | 8.9 | 未測 | **8.7** | ✅ 停 vit D 後穩定 normal range |
+| **ALT / AST** | 9/12 | 10/11 | 11/未 | **11/7** | ✅ Cretrol 肝毒性持續 clear |
+| **Alb** | 3.8 | 4.3 | 未測 | **4.2** | ✅ 營養 OK |
+| URR (BUN 前/後)| 70.5% | 68.5% | 未測 | **69.6%** | ✅ HD 充分 |
+
+#### 一個 persistent problem
+
+| 項目 | 4/9 | 6/4 | 7/4 | **8/6** | 評估 |
+|------|-----|-----|-----|--------|------|
+| **P 磷** | 4.6 | 5.6 | 6.3 | **6.1** | 略降但**仍 > 5.5 target、佳立鈣 1,200 mg 明顯不夠** |
+| **MCV** | 69.2 | 71.5 | 73.4 | **72.7 L** | 缺鐵 pattern 持續 |
+| **MCH** | 21.0 | 20.3 | 20.4 | **20.1 L** | 同上 |
+| **MCHC** | — | 28.4 | 27.9 | **27.6 L** | 同上 |
+| **RDW-CV** | 19.3 | 21.2 | 21.0 | **20.6 H** | anisocytosis 持續 |
+| **Platelet** | 505 | 747 | 458 | **550** | 波動、reactive thrombocytosis pattern |
+
+→ **§7 換 ferric citrate 的 4 個 converging triggers 全部 still valid**（P 未達 target + iron 未解 + Hb 大波動 + Kalimate 新 Ca 源）。
+
+#### 🆕 一個新 marginal observation — Glucose 105
+
+- 7/4: 66 L → 7/29: 86 → **8/6: 105**（> 99 threshold）
+- HbA1c 7/29 = 5.4 → **明確非糖尿病**
+- 一次量測 105 可能：非真正 fasting / stress / 時間變異
+- 不緊急、觀察 trend、下次抽血再看
+
+#### 🔍 Hb 波動 pattern 解讀
+
+**Trajectory**: 11.2 → 12.9 → **10.9** → **12.8**（3 個月內 −1.7、+1.7、−2.0、+1.9）
+
+- MCV/MCH/MCHC 全程都 low = iron-restricted **從未改善**
+- **假設**：EPO 力大、iron 供給 barely keeps up → Hb 一被稀釋（fluid overload / 補水多）就掉、脫水就升
+- 7/29 掉的時候 NT-proBNP 614 也高 → 那次可能真的 volume 較滿 → **dilutional 而非真掉**
+- 8/6 Hb 恢復可能是自然反彈 or ESA/iron 因素
+- **關鍵未知：iron 儲備到底剩多少** — 這 **3 個月都沒抽 TSAT/Ferritin**
+
+#### ❌ 松禾 A 檢 panel 3 個月連續 gap（8/11 心內 or 腎科 order 加測）
+
+| Missing | 上次量測 | 為何持續重要 |
+|---------|---------|------------|
+| **iPTH** | 6/4: 28.6 | 停 vit D 後 trajectory 未追、可能已 overshoot |
+| **TSAT / Ferritin / Iron** | 6/4: TSAT 7%, Ferritin 35.3 | **Hb 大幅波動 + MCV 持續 low + 換 ferric citrate 決策都需要當前 iron 狀態** |
+| **LDL** | 7/29: 60 ✅ | Cretrol 換藥後 maintenance 追蹤 |
+| **CK** | 7/29: 60 ✅ | Statin rhabdo quarterly monitor |
+
+→ **明確告訴 8/11 心內**：「松禾 A 檢連續 3 個月沒抽 iPTH/TSAT/Ferritin/LDL/CK，能不能今天加抽？或請腎科 order 一次完整 CKD-MBD panel？」
+
+#### 對 8/10-8/11 兩門診 talking points 加碼
+
+| 門診 | 加碼（除了 SPECT SD% 1.5%）|
+|------|--------------------------|
+| **8/10 移植** | K 從 6.6 → 4.5 完全 controlled、Hb 12.8 stable、乾體重穩定、Alb 4.2 → **你目前身體狀態是近幾個月最好的移植 candidate 條件** |
+| **8/11 心內** | (1) **多要求加測 iPTH/TSAT/Ferritin/LDL/CK**（松禾 panel 缺 3 個月）(2) **K 已穩定 4.5 → Kalimate 是否可 taper**（減 Ca 負擔支持 §7 戰略）(3) **P 6.1 仍未達 target → 討論 ferric citrate**（可能需腎科 order）|
 
 ### 🔥 2026/07/29 SPECT 報告完整版（Bruce exercise stress）
 

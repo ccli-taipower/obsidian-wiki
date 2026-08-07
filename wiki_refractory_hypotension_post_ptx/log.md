@@ -1312,3 +1312,57 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 2. **Guideline threshold matters**: ISCHEMIA trial 10% ischemic burden threshold 是 RCA CTO PCI 定位翻轉的 hard evidence。「> 10%」是 hard number、不是 subjective judgment。**單一 lab number 可以 flip 整個治療策略框架**。
 3. **好消息 cascade 的 wiki 責任**: 一個 SPECT dramatic improvement 影響 5 個 wiki 頁面、多個 framing 需 reverse。**大好消息比大壞消息更容易被 wiki 遺漏更新**（因為沒有 urgency 推）。要主動 audit cascade。
 4. **黃金 window recognition**: 8/10 移植門診 + 8/11 心內門診 = 兩天內用同一個 SPECT 結果 leverage 兩個不同 clinical goals（active listing + treatment plan）。wiki 主動 flag 黃金 window 幫助 user prep 兩次 talking points。
+
+---
+
+## 2026-08-07 — 2026/08/06 松禾月度 lab 整合 (K taper 條件 + P/iron persistent)
+
+**事件**：user 提供 2026/08/06 松禾 A 檢 panel。整體 trajectory 好——K 進一步穩定、Hb 又恢復。3 個月連續無 iron studies 的 gap 越來越明顯。
+
+### 三個持續 good trend
+- **K 4.5**（連續 3 次 < 5.5：7/23 5.0、7/29 5.3、8/6 4.5）→ **Kalimate taper 條件已滿足**
+- **Hb 12.8**（10.9 → 12.8 恢復 +1.9）→ 7/29 drop 可能是 dilutional（NT-proBNP 614 呼應 volume 較滿）
+- **Ca 8.7、ALT 11/AST 7、Alb 4.2、URR 69.6%** → 全部持續正常
+
+### 一個 persistent problem
+- **P 6.1**（vs 6.3 in 7/4）→ 略降但仍 > 5.5、佳立鈣 1,200 mg 明顯不夠
+- **MCV 72.7 / MCH 20.1 / MCHC 27.6 / RDW 20.6** → iron-restricted pattern **3 個月未改善**
+- **Platelet 550** → reactive thrombocytosis 波動
+
+### 一個新 marginal observation
+- **Glucose 105**（> 99 threshold, first time above）
+- 但 HbA1c 7/29 = 5.4 明確非糖尿病 → 一次量測不緊急、觀察 trend
+
+### Hb 波動 pattern 假說
+- MCV/MCH/MCHC 全程都 low = iron-restricted 從未改善
+- **假設**：EPO 力大、iron 供給 barely keeps up → Hb 一被稀釋（fluid overload）就掉、脫水就升
+- 7/29 掉時 NT-proBNP 614 也高 → dilutional 而非真掉
+- **關鍵未知：iron 儲備到底剩多少** → 3 個月都沒抽 TSAT/Ferritin
+
+### ❌ 松禾 A 檢連續 3 個月 gap
+- iPTH（6/4 後未追）、TSAT/Ferritin（6/4 後未追）、LDL（7/29 60、NTUH 抽的、松禾 A 檢沒有）、CK（同上）
+- **8/11 心內門診 talking point**：主動要求加測、或 refer 腎科 order CKD-MBD panel
+
+### Wiki 4 處更新
+
+1. `master_timeline`：
+   - 8/4 預定 row → 8/6 實際 row（含 K/Hb/P/Ca/Cretrol/Glucose 全 highlights + panel gap 標註）
+   - 新增大 sub-section「🔥 2026/08/06 松禾 A 檢 update」（三 good trend + 一 persistent + Glucose 新觀察 + Hb 波動 pattern 假說 + panel gap 分析 + 8/10-8/11 talking points 加碼）
+
+2. `iatrogenic §6 K`：
+   - K trajectory table 加 8/6 4.5 row
+   - Kalimate 何時停 section 新增「🔥 2026/08/06 update — Kalimate taper 條件已滿足」5 步 decision tree（3→2→1→0/週、每 2-4 週追 K、rebound 走 Lokelma 不加 Kalimate）
+
+3. `iatrogenic §7 binder`：
+   - 問題定位第 6 項四個 converging triggers update 為 8/6 lab data
+   - P 6.3 → 6.1（連續 2 個月未達 target）
+   - MCV / MCH / MCHC / RDW 3 個月數據 rows
+   - 加 8/11 心內 talking point：「換 ferric citrate、心內不 order 就 refer 腎科」
+
+4. `cad_contribution §B K`：
+   - K trajectory 加 8/6 4.5 row + 註記「Kalimate taper candidate」
+
+### Meta 教訓
+1. **Kalimate taper 是雙贏 opportunity**：K 穩定 3 次 = taper 條件、每移除一個 Ca 源 = §7 戰略的 win。**不要因為「事件解決」就 default 變 chronic 用藥**。
+2. **Panel gap 3 個月 = 系統性問題**：松禾 A 檢固定 panel 缺 iPTH/TSAT/Ferritin/LDL/CK 是 chronic gap、不是偶發。**得跨機構 solve**（心內 or 腎科 order CKD-MBD panel）而非期待松禾改 panel。
+3. **波動 pattern 需要機轉假說 vs 隨機 noise**：Hb 4 個月內 4 次大幅上下、若沒 iron-restricted 假說就會被當成 noise。有機轉才能 predict + 有 action（8/11 要求 iron studies）。

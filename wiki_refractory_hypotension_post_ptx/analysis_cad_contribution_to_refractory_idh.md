@@ -230,7 +230,7 @@ HFpEF 不會消失，但可以把衝擊降到最低：
 
 ### B. 高血鉀（**2026/07/04 spike → 7/29 已 recovered**，management success case study）
 
-**Trajectory**：3/19: 5.7 → 4/9: 6.0 → 5/9: 5.4 → 6/4: 5.0 → **7/4: 6.6 HH** 🚨 → **7/23: 5.0** ✅ → **7/29: 5.3** ✅
+**Trajectory**：3/19: 5.7 → 4/9: 6.0 → 5/9: 5.4 → 6/4: 5.0 → **7/4: 6.6 HH** 🚨 → **7/23: 5.0** ✅ → **7/29: 5.3** ✅ → **8/6: 4.5** ✅（連續 3 次 < 5.5，Kalimate taper candidate）
 
 **2026/07/29 update**：K 已回到穩定範圍（3 週控制）。**松禾具體介入手段（user 2026/07/30 補充）**：**加麗美粉（Kalimate = Calcium Polystyrene Sulfonate）3 包/週**，event-triggered maintenance。腸道釋 Ca 交換結合 K → K 隨糞便排出。
 
