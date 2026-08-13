@@ -16,6 +16,14 @@ tags: [piano_fingering, scales, finger_groups, thumb_under, technique]
 - **C 大調左手**：5-4-3-2-1 | 3-2-1 | （長組 + 短組）
 - 練習法：先分組練再連起來
 
+指群結構的直接推論：**同一組內每個音用不同手指**，換組靠拇指穿越。
+跑動中途重複同一手指等於把指群切斷——手必須在原地滑動或抬起重放，
+既破壞圓滑也打亂下一次穿越的落點。此推論與手指強弱無關，
+是幾何性質而非負荷性質。
+
+**DP 對應（2026-08-13）**：`SCALE_REPEAT_FINGER_PENALTY` 對 scale segment 內的
+同指異音收固定罰（與 `FINGER_AGILITY` 無關，區別於 `SAME_FINGER_WEAK_PENALTY`）。
+
 ## 指法家族
 
 同一套指法適用於多個調：

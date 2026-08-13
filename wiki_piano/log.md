@@ -294,3 +294,15 @@ Findings:
 - 15 concept pages 補上 `date_created` 欄位（依 git 首次 commit 日期）
 
 Total pages: 42, all healthy.
+
+## [2026-08-13] update | concept_scale_fingering §指群法 — 組內每音一指推論
+
+在既有的短組（3 指）／長組（4 指）交替說明之後，補上該結構的直接推論：組內每個
+音用不同手指、換組靠拇指穿越，跑動中途重複同一手指等於打斷指群結構——是幾何性質，
+與手指強弱無關（區別於「弱指反覆負荷」類推論）。此前該頁只寫了結構本身，未明文
+寫出這條推論。
+
+加上一行 inline「DP 對應（2026-08-13）」註記，指向 `SCALE_REPEAT_FINGER_PENALTY`
+（`program/run.py`，對 scale segment 內同指異音收固定罰，不隨 `FINGER_AGILITY`
+加權）。純知識性補充，實作進度與驗收數字留在 score-claude repo 的
+memory/project_scale_repeat_finger_2026-08-13.md。
