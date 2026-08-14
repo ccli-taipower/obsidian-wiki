@@ -1366,3 +1366,67 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 1. **Kalimate taper 是雙贏 opportunity**：K 穩定 3 次 = taper 條件、每移除一個 Ca 源 = §7 戰略的 win。**不要因為「事件解決」就 default 變 chronic 用藥**。
 2. **Panel gap 3 個月 = 系統性問題**：松禾 A 檢固定 panel 缺 iPTH/TSAT/Ferritin/LDL/CK 是 chronic gap、不是偶發。**得跨機構 solve**（心內 or 腎科 order CKD-MBD panel）而非期待松禾改 panel。
 3. **波動 pattern 需要機轉假說 vs 隨機 noise**：Hb 4 個月內 4 次大幅上下、若沒 iron-restricted 假說就會被當成 noise。有機轉才能 predict + 有 action（8/11 要求 iron studies）。
+
+---
+
+## 2026-08-13 — 2026/08/10 FlowPRA 大幅下降整合 wiki (三大關卡全 essentially cleared)
+
+**Event**：user 提供 2026/08/10 健保快易通 FlowPRA 4 個數值（門診完抽血、dr 8/10 未見結果）。User 確認我判讀順序：Class I 1% / MFI 289 / Class II 6% / MFI 301。
+
+### PRA trajectory 大幅改善
+
+| 時點 | Class I % | Class I MFI | Class II % | Class II MFI |
+|------|----------|-----------|-----------|------------|
+| 2026/03/02 | **44%** ⚠️ | 563 | 11% | 355 |
+| **2026/08/10** | **1%** ✅ | 289 | 6% | 301 |
+| Δ | **−43 pp** | −274 | −5 pp | −54 |
+
+→ **免疫關卡從最大 remaining barrier → essentially cleared**。5 個月內大幅下降、無 desensitization intervention。
+
+### 自然下降 mechanism hypothesis
+1. Original sensitizing events (~2019 HD/permcath period) 已 7 年久遠
+2. 無新致敏事件（男性 + 近期無輸血）
+3. 免疫優勢抗體自然 wane
+4. HD-related 免疫調節
+5. Assay variability 貢獻部分
+
+### 三大關卡 landscape (2026/08/13)
+
+| 關卡 | 5 月 baseline | 8 月現況 | 狀態 |
+|------|-------------|---------|------|
+| ① 心臟 | SSS 16 severe | SD% 1.5% | ✅ cleared |
+| ② 免疫 | PRA I 44% 中度致敏 | PRA I 1% | ✅ cleared |
+| ③ 解剖 | TKV stable + 右側小 | 未變 | ✅ green light |
+
+→ **三大關卡全 essentially cleared**——過去 11 年 waiting list 生涯前所未有的窗口。
+
+### ⚠️ Tactical: dr 8/10 未見此結果
+
+- 8/10 lab 是門診完才抽的、dr 訪談時尚未看到 PRA 1%
+- **User 手上有 dr 尚不知的證據**
+- **Next steps**: 下次移植門診主動 present、要求 active listing 加速評估
+
+### Wiki 2 處更新
+
+1. `master_timeline`:
+   - 8/10 移植門診 row：從「預定」→「已完成、dr 立場待補」
+   - **新增 8/10 FlowPRA re-test row**（含 4 個數值 + 免疫關卡 essentially cleared + tactical 註記）
+
+2. `prognosis_without_transplant`:
+   - 三大關卡 table：② 免疫 row 更新（44% → 1%、from barrier to cleared）+ ① 心臟 row 簡化為 essentially cleared
+   - 更新「landscape shift」段：**8/13 版**——三大關卡全 essentially cleared
+   - **新增大 sub-section「🔥 PRA 大幅下降 trajectory 分析 (2026/03 → 2026/08)」**：
+     - PRA trajectory table (Class I/II % + MFI)
+     - 5 個機轉 hypothesis
+     - 6 個 next steps 建議（present lab + SAB + active listing + re-test frequency + cross-match + 活體 donor）
+
+### Next steps 給 user 8/11 心內 + 下次移植門診
+
+**下次移植門診 talking points（含 PRA）**：
+> 「8/10 門診完抽的 FlowPRA 結果出來了——**Class I 從 44% 降到 1%**，Class II 從 11% 降到 6%。加上 7/29 SPECT SD% 1.5%、解剖 TKV stable 右側小——**三大關卡都 clear 了**。想討論：(1) active listing 加速？(2) 加做 SAB 精確 characterize 剩餘 6%？(3) PRA re-test 頻率？(4) 有 potential donor 時 cross-match 準備？(5) 活體 donor 評估？」
+
+### Meta 教訓
+
+1. **好消息 cascade 的 tactical 意義**：連續 3 個 win（LDL 60、SPECT SD% 1.5%、PRA 1%）不是 wiki 分別記錄就夠——需**主動整合成 tactical package** 帶去 dr 面前。**Wiki 是私人 evidence archive、需要 timely delivery 給 clinicians**。
+2. **Timing insight — lab drawn after clinic**：8/10 抽血在門診後、dr 未見結果是 tactical advantage。**wiki 需要 track 這種 information asymmetry**，提示 user 主動 present。
+3. **自然 PRA 下降是 documented 但少被討論的現象**：wiki 之前 default「PRA 不會自然下降、需要 desensitization」的 framing 是被 5 個月數據推翻的 prior。**paradigm 是 prior、data 是 posterior**（again）。
