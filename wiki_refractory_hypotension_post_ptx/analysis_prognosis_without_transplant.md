@@ -111,17 +111,48 @@ MFI 563 / 355 均偏低 → 抗體存在但**強度不高**：
 
 | 關卡 | 狀態 | 對策 |
 |------|------|------|
-| **① 心臟** | ~~SSS=16 嚴重可逆缺血，移植前需先處理~~ → 🔥 **2026/07/29 重複 SPECT: SD% 1.5%（極低）、SSS 4 mild、剩 4% scar + 2% residual ischemia**——**severe barrier 降為 mild barrier** | 🟢 **可爭取 cardiac clearance**（RCA CTO PCI evidence-based indication 已消失）、8/10 移植門診主動 present 這個結果 |
-| **② 免疫（PRA Class I 44%）** | 中度致敏，配對池縮小 | SAB 細分 + acceptable mismatch + 活體評估 |
-| **③ 解剖（ADPKD 巨腎 + 髂股動脈 anatomy）** | TKV 3,407 → 1,030-1,048 mL（−69-70%）已落在「邊緣值」；**6/4 CT 拆分 R 427.7 + L 602.3（右側比左側小 41%）+ 半年 stable**；左 CFA moderate < 50% 無症狀 | 🟢 **green light 升級**：血管面 ✅ + 巨腎右側 ✅（**移植側偏小、不需切原生腎論證更強**）|
+| **① 心臟** | ~~SSS=16 嚴重可逆缺血~~ → 🔥 **2026/07/29 SPECT: SD% 1.5%、SSS 4 mild、剩 4% scar + 2% residual ischemia** | 🟢 **essentially cleared**（RCA CTO PCI evidence-based indication 已消失）|
+| **② 免疫** | ~~PRA Class I 44%（中度致敏，配對池縮小）~~ → 🔥🔥 **2026/08/10 FlowPRA: Class I 1%、MFI 289；Class II 6%、MFI 301**（−43 pp Class I 大幅下降）| 🟢 **essentially cleared**（非致敏水平、配對池 restore）；⚠️ SAB 細分仍建議做 characterize |
+| **③ 解剖（ADPKD 巨腎 + 髂股動脈 anatomy）** | TKV 3,407 → 1,030-1,048 mL（−69-70%）已落在「邊緣值」；**6/4 CT 拆分 R 427.7 + L 602.3（右側比左側小 41%）+ 半年 stable**；左 CFA moderate < 50% 無症狀 | 🟢 **green light 升級**：血管面 ✅ + 巨腎右側 ✅ |
 
-**🔥 2026/07/29 重大 update — 三大關卡 landscape shift**：
-- ① 心臟：**最擋的變第二擋**——SPECT 大幅改善把 cardiac clearance 從「需先做 PCI」→「可爭取通過」
-- ② 免疫：**現在成為最大 remaining barrier**——PRA 44% 未改變，需要 SAB + acceptable mismatch 積極處理
-- ③ 解剖：仍是最好的（green light 未變）
-- → **8/10 移植門診黃金 window**：帶 SPECT 結果主動 push active listing 進度
+**🔥🔥 2026/08/13 landscape shift（8/10 FlowPRA 大幅改善後）——三大關卡全 essentially cleared**：
+- ① 心臟：SPECT SD% 1.5% cleared（RCA CTO PCI 無 indication）
+- ② 免疫：**PRA Class I 44% → 1% cleared**（非致敏水平）
+- ③ 解剖：green light（TKV stable + 右側小）
+- → **三大關卡全 clear 是過去 11 年 waiting list 生涯前所未有的窗口**
 
-三個關卡都需要**主動積極處理**，不能被動等待。**好消息**：解剖關卡兩個面向都接近 green light（血管 + TKV）**加上心臟關卡大幅改善** → 現在**免疫是唯一 significant barrier**。
+⚠️ **user 手上的 tactical advantage**：8/10 lab 是門診完才抽的，**dr 尚未看到 PRA 1% 結果**——user 需在下次移植門診主動 present、要求 **active listing 加速評估**。
+
+### 🔥 PRA 大幅下降 trajectory 分析（2026/03 → 2026/08）
+
+| 時點 | Class I % | Class I MFI | Class II % | Class II MFI | 臨床意義 |
+|------|----------|-----------|-----------|------------|---------|
+| 2026/03/02 | **44%** | 563 | 11% | 355 | ⚠️ 中度致敏、配對池縮小 |
+| **2026/08/10** | **1%** | **289** | **6%** | **301** | 🎉 **essentially non-sensitized** |
+| Δ | **−43 pp** | **−274 MFI** | −5 pp | −54 MFI | 5 個月間大幅下降 |
+
+#### 為什麼 PRA 會自然下降（機轉 hypothesis）
+
+無 desensitization intervention（IVIG / plasma exchange / rituximab）記錄 → 自然下降 mechanism 假說：
+
+1. **原始 sensitizing events 已久遠**：可能是 2019 permcath insertion / HD 啟動期血液產品接觸，距今 7 年
+2. **無新致敏事件**：男性（無懷孕）、近期無輸血、wiki 一貫策略避免不必要輸血
+3. **免疫優勢抗體 (immunodominant antibody) 自然 wane**：長期無 booster stimulation → 抗體 titer 逐年降
+4. **HD-related 免疫調節**：長期透析 chronic uremia 環境對抗體產生也有影響
+5. **Assay variability** 貢獻部分（不能單一 measurement 定案）
+
+#### 建議 next steps
+
+| 建議 | 為什麼 |
+|------|--------|
+| **1. 下次移植門診主動 present 8/10 lab** | dr 8/10 訪談時未見此結果 |
+| **2. 要求 SAB (Single Antigen Bead)** | 精確 characterize 剩餘 6% Class II 是哪些 HLA、判斷是否真 clinically significant |
+| **3. 討論 active listing 加速** | 三大關卡全 cleared 是 upgrade waitlist status 的 trigger |
+| **4. 確認 PRA re-test 頻率** | 一次低 reading 不保證持續、需 quarterly monitor |
+| **5. 討論 cross-match 準備** | 有 potential donor 時 direct cross-match 是最終決定 |
+| **6. 活體捐贈評估** | PRA 1% 大幅提高活體 donor 交叉試驗成功機會 |
+
+三個關卡都需要**主動積極處理**，不能被動等待。**現在的定位是「主動 push 加速」而非「等待改善」**——身體狀態已達 optimal window、tactical 動作是把好消息帶回移植 team。
 
 ### 免疫對策建議
 
