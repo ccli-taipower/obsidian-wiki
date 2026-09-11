@@ -80,7 +80,8 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 🔥 **2026/07/29** | 影像 | **重複 cardiac SPECT（NTUH，Bruce exercise stress，Tc-99m MIBI 1-day）** | 🎉 **SSS 16 → 4（-75%，severe → mild）、SDS = 1、SD%（ischemic burden）16% → 1.5%**、Scars 4%、Post-stress LVEF 67%、Resting LVEF 74%（small LV cavity 造成 overestimate）、無 regional WMA、mild RV overload post-stress。Method 跟 2025/08 一樣是 exercise stress（user 2026/08/03 確認）→ apples-to-apples 比較、**改善是真實臨床改善不是 test artifact**。⚠️ Peak HR 79% max（submaximal，dyspnea 提前終止）→ 保守 caveat 但降幅遠超 noise。**⏳ dr 訪談 8/11 才進行、all treatment decisions 待該次確認** | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.6](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | 🔥 **2026/08/10** | 評估 | **移植門診（NTUH，已完成）**| 黃金 window 第 1 天：帶著 SPECT SD% 1.5% 去推 cardiac clearance + active listing。**⏳ dr 立場待 user 補充**（8/13 handover 未含門診對話細節）| [prognosis](analysis_prognosis_without_transplant.md) |
 | 🔥 **2026/08/10** | 🩸 抽血 | **NTUH 移植門診後 FlowPRA re-test**（門診完抽血、dr 8/10 未看到此結果）| 🎉🎉 **Class I 44% → 1%（−43 pp）、Class I MFI 563 → 289、Class II 11% → 6%、Class II MFI 355 → 301**——**免疫關卡從最大 barrier → essentially cleared**。**下次移植門診 user 需主動 present 這個結果**、推動 active listing 加速決策 | [prognosis 三大關卡](analysis_prognosis_without_transplant.md) |
-| 🔥 **2026/08/11**（預定）| 評估 | **NTUH 心內門診**（7/29 SPECT report 討論）| **黃金 window 第 2 天** 4 議題一次到位：(1) SD% 1.5% → RCA CTO PCI 是否 no longer indicated？(2) Concor 失敗後**ivabradine 提案**（BB 不耐受、HFpEF 需 HR 控制、健保 stable angina + BB 不耐受可給付）？(3) NT-proBNP 614 trend 追蹤頻率？(4) LDL 60 已達 target < 70，dr target 是 < 70 還是 < 55？| [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md)、[iatrogenic §4.6](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| 🔥 **2026/08/11**（預定）| 評估 | **NTUH 心內門診**（7/29 SPECT report 討論）| **黃金 window 第 2 天** 4 議題一次到位：(1) SD% 1.5% → RCA CTO PCI 是否 no longer indicated？(2) Concor 失敗後**ivabradine 提案**（BB 不耐受、HFpEF 需 HR 控制、健保 stable angina + BB 不耐受可給付）？(3) NT-proBNP 614 trend 追蹤頻率？(4) LDL 60 已達 target < 70，dr target 是 < 70 還是 < 55？⏳ **結果待 user 補充** | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md)、[iatrogenic §4.6](analysis_iatrogenic_factors_in_refractory_idh.md) |
+| 🔥🚨 **2026/09/10** | 🩸 抽血 | **月度 lab（含 iron studies 完整組——3 個月 gap 終於補上）**| 🚨🚨 **絕對嚴重缺鐵：Ferritin 35.3 → 6.9（catastrophic drop）、TSAT 5.3%（vs 6/4 7.0%）、Iron 18、TIBC 339**、⚠️ **Hb 12.8 → 11.5**（sustained drop、非 dilutional）、⚠️ **MCV 70.1 / MCH 19.0 / MCHC 27.1** 全部更差、⚠️ **P 5.9**（略降但仍 > 5.5）、⚠️ **URR 62.7% 首次 < 65% target**（HD 效率下降需追查、可能 AVG restenosis）、K 5.3 stable、Ca 9.0、ALT 10/AST 7 Cretrol clear、Glucose 86 恢復正常。**❌ LDL/CK/iPTH 仍未測** | 本頁 §9/10 lab 表 |
 | **2026/10/13**（預定）| 評估 | **AVG PTA #2 follow-up**（葉聰賜）| 主動討論：vein mapping / surveillance US 縮短間隔 / DCB / 備用通路啟動 timing | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 
 ---
@@ -328,6 +329,109 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | **Ca** | 7/4 8.9 tracking | 中 |
 | **iPTH** | 6/4 28.6 trajectory | 中 |
 | ALP / Albumin / BUN | 例行 | 低 |
+
+### 🔥🚨 2026/09/10 月度 lab update — Iron panel 3 月 gap 補齊、揭露 catastrophic 缺鐵
+
+**Panel 特性**：這次終於**包含完整 iron studies + 生化 + 血液 + Cholesterol/TG**，補齊 3 個月 gap。仍缺 LDL/CK/iPTH。
+
+#### 🚨 Iron studies — 4 個 parameters 全部同向指向絕對嚴重缺鐵
+
+| 項目 | Ref | 6/4 | **9/10** | 評估 |
+|------|-----|-----|---------|------|
+| **Ferritin** | HD target > 100 | 35.3 | **🚨 6.9** | **catastrophic drop（−28.4）、絕對缺鐵** |
+| **Iron 血清** | 60-170 | 20 | **18** | 持續 low |
+| **TIBC 總** | 240-450 | 287 | **339** | 升高 = transferrin 找鐵找不到 |
+| **TSAT (Iron/TIBC)** | HD target > 20% | 7.0% | **5.3%** | 更嚴重 |
+
+→ EPO 力大但**無鐵可用**——這 3 個月 Hb 波動的機轉終於實證確認：**Iron-restricted erythropoiesis + iron 儲備完全空**。
+
+#### 🩸 血液 — Hb 開始 sustained drop（不再是 dilutional 波動）
+
+| 項目 | 7/4 | 8/6 | **9/10** | Trend |
+|------|-----|-----|---------|------|
+| **Hb** | 12.9 | 12.8 | **11.5 ⚠️** | ⬇️ −1.3（3 週）|
+| Hct | 46.3 | 46.4 | **42.4** | ⬇️ 對應 |
+| MCV | 73.4 L | 72.7 L | **70.1 L** | ⬇️ **更 microcytic** |
+| MCH | 20.4 L | 20.1 L | **19.0 L** | ⬇️ 更差 |
+| MCHC | 27.9 L | 27.6 L | **27.1 L** | ⬇️ 更差 |
+| RDW | 21.0 H | 20.6 H | **20.3 H** | 持續 anisocytosis |
+| Platelet | 458 | 550 | **557 H** | 持續 reactive thrombocytosis |
+
+→ **上次 Hb 12.8 恢復很可能是 dilutional artifact**（NT-proBNP 614 呼應 volume 較滿）；**iron 空的本體事實從未變**。
+
+#### 🔴 電解質
+
+| 項目 | 8/6 | **9/10** | 評估 |
+|------|-----|---------|------|
+| K 鉀 | 4.5 | **5.3** | 稍升但 normal（Kalimate 有效、taper 需再等一次）|
+| P 磷 | 6.1 H | **5.9 H** | 略降但**仍 > 5.5、佳立鈣一樣不夠** |
+| Ca 鈣 | 8.7 | **9.0** | ✅ 穩定 |
+| Na 鈉 | 138 | 138 | 正常 |
+
+#### 🟡 腎功能 — **URR 首次 < target**
+
+| 項目 | 8/6 | **9/10** | 評估 |
+|------|-----|---------|------|
+| BUN 洗前 | 73.8 | 67.5 | 略降 |
+| BUN 洗後 | 22.4 | **25.2** | 升 |
+| **URR** | 69.6% | **🚨 62.7%** | ⬇️ **首次 < 65% target** |
+| Creatinine | 12.16 | 11.17 | 略降 |
+| Uric acid | 6.7 | 6.4 | 略降 |
+
+→ **HD 效率下降需追查**：
+- Blood pump flow rate 有維持嗎？
+- Treatment time 沒縮短？
+- **AVG access recirculation**（6/9 PTA #2 site 是否 restenosis 再度發生？）→ **值得排 access ultrasound**
+- Dialyzer performance degraded？
+
+#### 💛 血脂（部分）
+
+| 項目 | 7/29 | **9/10** | 評估 |
+|------|------|---------|------|
+| Cholesterol 總 | 116 | **133** | ⬆️ 小幅升 |
+| Triglyceride | 187 | **219** | ⬆️ > 200 |
+| **LDL / HDL** | 60 / 32 | **未測** | ❌ 沒 breakdown、Cretrol maintenance trend 建立不了 |
+
+#### 🟢 肝功能 + 營養 + 血糖
+
+| 項目 | 8/6 | **9/10** | 評估 |
+|------|-----|---------|------|
+| ALT / AST | 11 / 7 | **10 / 7** | ✅ Cretrol 3 個月肝毒性 clear |
+| Albumin | 4.2 | **4.1** | ✅ 正常 |
+| Alk Phos | 62 | **57** | ✅ |
+| Glucose | 105 | **86** | ✅ 8/6 那次 105 是 one-off |
+
+#### 🚨 4 個 immediate clinical issues + 移植 window 風險
+
+**1. 絕對嚴重缺鐵——不能再等**
+
+Ferritin 6.9 + TSAT 5.3% + Hb 開始 sustained drop → 兩條路必選其一（或平行）：
+
+| 選項 | 優點 | 缺點 | 對你 |
+|------|------|------|------|
+| **IV iron**（Venofer 100mg × 每次透析）| 最快補鐵、繞過腸道吸收 | 需醫囑、per session dose | 松禾透析中可 give |
+| **Ferric citrate（鐵爾思）PO** | 一藥兩用（binder + 補鐵）| 吸收較慢、GI 副作用可能 | wiki §7 4 triggers 首推 |
+| **兩者並行** | 快速補 + 長期維持 | 監測 iron overload | 最佳 |
+
+**2. P 5.9 → binder 3 個月 > target**
+
+雖略降但仍 > 5.5——加上 iron 危急、**ferric citrate 從「4 triggers」升「now-critical urgency」**。
+
+**3. URR 62.7% 掉出 target**
+
+**懷疑 AVG access recirculation**（6/9 PTA #2 same-site restenosis pattern → 4 個月又到）→ 排 access ultrasound。
+
+**4. 移植 window 的 hidden threat**
+
+**Hb 若持續掉到需輸血 → PRA 反彈風險** → 讓 8/10 好不容易的 PRA Class I 1% 一夕逆轉。這是 **8/10 移植 window 現在必須加速 leverage 的另一個急迫理由**：
+- 移植 window 開了但不會永遠開
+- Iron 惡化是 pre-transplant 的 hidden barrier（新增到三大關卡外的 modifier）
+- **搶 timing**：把 8/10 PRA 1% + 7/29 SPECT SD% 1.5% 帶去下次移植門診推 active listing **before** 需要輸血
+
+#### 下次任何門診的 top 2 priorities
+
+1. **「Ferritin 6.9 catastrophic → 立刻 IV iron + 啟動 ferric citrate」**（P + iron + binder 一次解）
+2. **「URR 62.7% < target → 排 AVG access ultrasound」**（怕 6/9 PTA #2 site restenosis）
 
 ### 🔥 2026/08/06 松禾 A 檢 update（緊接 SPECT 後、8/10-8/11 門診前）
 

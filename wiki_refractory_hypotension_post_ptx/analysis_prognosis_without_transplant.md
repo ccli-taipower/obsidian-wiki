@@ -123,6 +123,29 @@ MFI 563 / 355 均偏低 → 抗體存在但**強度不高**：
 
 ⚠️ **user 手上的 tactical advantage**：8/10 lab 是門診完才抽的，**dr 尚未看到 PRA 1% 結果**——user 需在下次移植門診主動 present、要求 **active listing 加速評估**。
 
+### 🚨 2026/09/11 window 急迫性升級 — Iron 惡化 = hidden modifier barrier
+
+**9/10 lab 新事件**：Ferritin 35.3 → **6.9 catastrophic drop**、TSAT 5.3%、Hb 12.8 → 11.5 sustained drop（詳見 [master_timeline §9/10 lab](analysis_master_timeline.md)）。
+
+**對移植 window 的 hidden threat**：
+- 三大關卡全 clear 是 8/10 拍攝的照片
+- Iron 惡化不是新 barrier，但**可能反向摧毀 ② 免疫 clear 狀態**：
+  - Hb 若持續掉到 8-9 g/dL → 可能需要輸血
+  - **輸血 = 高機率 PRA 反彈**（新致敏事件、antibody titer 升）
+  - → 8/10 好不容易的 PRA I 1% 可能一夕逆轉
+- **時間拉越長、風險越高**
+
+**Tactical implication**：
+| Before 9/10 | After 9/10 |
+|------------|-----------|
+| 8/10 window 「值得 push、但不急」| 8/10 window 「**必須加速 leverage before 需輸血**」|
+| PRA 1% 假設 stable | PRA 1% **有 hidden expiration date**（跟 Hb 掉的速度耦合）|
+| 平行處理 iron 即可 | **iron 是首要 protect PRA window 的動作** |
+
+→ **下次移植門診雙 present**：
+1. PRA 1% + SPECT SD% 1.5% → 推 active listing 加速
+2. Ferritin 6.9 → 要求 IV iron + ferric citrate **立刻**，avoid transfusion（**保護 PRA window**）
+
 ### 🔥 PRA 大幅下降 trajectory 分析（2026/03 → 2026/08）
 
 | 時點 | Class I % | Class I MFI | Class II % | Class II MFI | 臨床意義 |
