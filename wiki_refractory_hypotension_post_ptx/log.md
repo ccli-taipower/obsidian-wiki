@@ -1430,3 +1430,76 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 1. **好消息 cascade 的 tactical 意義**：連續 3 個 win（LDL 60、SPECT SD% 1.5%、PRA 1%）不是 wiki 分別記錄就夠——需**主動整合成 tactical package** 帶去 dr 面前。**Wiki 是私人 evidence archive、需要 timely delivery 給 clinicians**。
 2. **Timing insight — lab drawn after clinic**：8/10 抽血在門診後、dr 未見結果是 tactical advantage。**wiki 需要 track 這種 information asymmetry**，提示 user 主動 present。
 3. **自然 PRA 下降是 documented 但少被討論的現象**：wiki 之前 default「PRA 不會自然下降、需要 desensitization」的 framing 是被 5 個月數據推翻的 prior。**paradigm 是 prior、data 是 posterior**（again）。
+
+---
+
+## 2026-09-11 — 2026/09/10 lab: Iron 3 月 gap 補齊揭露 catastrophic 缺鐵 + URR 首次 < target
+
+**Event**：user 提供 2026/09/10 lab。**這次 panel 終於包含 iron studies** — 補齊 6/4 之後 3 個月的 gap。結果揭露絕對嚴重缺鐵 + Hb sustained drop + URR 掉出 target。
+
+### 🚨 Iron studies 4 個 parameters 全部同向 — 絕對嚴重缺鐵
+
+| 項目 | 6/4 | **9/10** | Δ |
+|------|-----|---------|---|
+| **Ferritin** | 35.3 | **6.9** | catastrophic drop (target > 100) |
+| Iron | 20 | 18 | 持續 low |
+| TIBC | 287 | 339 | 升高 = transferrin 找不到鐵 |
+| **TSAT** | 7.0% | **5.3%** | 更嚴重 (target > 20%) |
+
+→ 3 個月 Hb 波動 pattern 的機轉終於實證確認：**iron 儲備完全空、EPO 力大但無鐵可用**。
+
+### 🩸 Hb 開始 sustained drop（非 dilutional）
+- 12.9 → 12.8 → 11.5 (9/10 = −1.3 vs 8/6)
+- MCV/MCH/MCHC 全部更差（70.1 / 19.0 / 27.1）
+- **上次 8/6 Hb 12.8 恢復很可能是 dilutional artifact**（NT-proBNP 614 呼應 volume 較滿時 Hb 假高）
+- Iron 空的本體事實從未變
+
+### 🚨 URR 62.7% 首次 < 65% target
+- 7/4: 68.5% → 8/6: 69.6% → **9/10: 62.7%**
+- **懷疑 AVG access recirculation**（6/9 PTA #2 same-site restenosis pattern，剛好 3 個月又到）
+- 需排 access ultrasound
+
+### 其他
+- K 5.3 stable
+- P 5.9（略降但仍 > 5.5、3 個月連續 fail target）
+- Ca 9.0、ALT 10/AST 7 Cretrol clear、Glucose 86 恢復正常
+- LDL/CK/iPTH **仍未測**
+
+### 🎯 對 8/10 移植 window 的 hidden threat（新 framing）
+
+- 三大關卡全 clear 是 8/10 拍攝的照片
+- **Iron 惡化 = 可能反向摧毀 ② 免疫 clear 狀態**：
+  - Hb 若持續掉到 8-9 → 需輸血 → **高機率 PRA 反彈**
+  - 8/10 PRA I 1% 一夕逆轉
+- **PRA 1% 有 hidden expiration date（跟 Hb 掉的速度耦合）**
+- → 8/10 window 從「值得 push、但不急」→「**必須加速 leverage before 需輸血**」
+- **Iron 是首要 protect PRA window 的動作**
+
+### Wiki 4 處更新
+
+1. `master_timeline`：
+   - 9/10 lab row（Iron 4 項 + Hb + URR + P + missing LDL/CK/iPTH）
+   - 新增大 sub-section「🔥🚨 2026/09/10 月度 lab update — Iron panel 3 月 gap 補齊、揭露 catastrophic 缺鐵」：iron 4 表 + Hb trajectory + 電解質 + 腎功能 + 血脂 + 肝功能 + 4 immediate issues + 移植 window hidden threat + 下次門診 top 2 priorities
+
+2. `iatrogenic §6 K`：
+   - K trajectory 加 9/10 5.3 row（Kalimate taper 建議暫緩觀察一次）
+
+3. `iatrogenic §7 binder`：
+   - 問題定位第 6 項「4 converging triggers」→「**now-critical urgency**」
+   - 加入 Ferritin 6.9 catastrophic drop + Hb sustained drop + URR fail
+   - 加入「移植 window hidden threat」framing
+   - 建議 **ferric citrate PO + IV iron 平行**（PO 吸收慢、Hb 已 sustained drop 需 IV 快補）
+
+4. `cad_contribution §B K`：
+   - K trajectory 加 9/10 5.3 row
+
+5. `prognosis_without_transplant`：
+   - 新增段「🚨 2026/09/11 window 急迫性升級 — Iron 惡化 = hidden modifier barrier」
+   - Before/after 9/10 tactical implication 對照
+   - 下次移植門診雙 present（PRA/SPECT + Ferritin/iron urgent action）
+
+### Meta 教訓
+1. **Panel gap 補齊後、假說被 iron studies data 實證**：wiki 之前 hypothesis「Hb 波動是 iron-restricted」→ 9/10 lab 直接 confirm。**假說有 hypothesis 才會有 confirmable data、gap 補齊的價值 = 假說被 test 掉**。
+2. **Good news 有 hidden expiration date**：8/10 PRA 1% 不是 permanent。任何 win 都要 **check「什麼會讓它 revert」**——這次是輸血 → PRA 反彈的 coupling。
+3. **URR 下降 = access flow 警訊**：ESRD 病人 HD 效率變差時 always 想到 access（recirculation）。6/9 PTA #2 restenosis pattern 每 4 個月 → 又到時間了。
+4. **「Iron 是 preserve PRA window 的動作」** — 這是 wiki cross-axis reasoning 的一個例子：iron 表面是 §7 binder 議題、但對 ② 免疫關卡有 protection 功能。**wiki 的價值是 catch 這種 cross-domain coupling**。

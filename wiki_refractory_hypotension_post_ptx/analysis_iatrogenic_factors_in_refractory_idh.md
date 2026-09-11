@@ -362,6 +362,7 @@ PCI 後標準是 **DAPT（aspirin + P2Y12）**：6-12 個月，之後 aspirin �
 | **2026/07/23** | **5.0** | ✅ **松禾介入見效**（3 週控制）|
 | **2026/07/29** | **5.3** | ✅ 穩定 |
 | 🔥 **2026/08/06** | **4.5** | ✅ **完全穩定**（一個月連續 3 次 < 5.5、進入 Kalimate taper 討論 window）|
+| **2026/09/10** | **5.3** | ✅ normal 但稍升（Kalimate taper 建議暫緩、觀察一次；仍在 target range 內）|
 
 **2026/07/29 update**：K 已回到穩定範圍。**松禾具體介入手段（user 2026/07/30 補充）**：
 
@@ -483,13 +484,17 @@ Wiki §7 的核心論證是「**移除 Ca 來源**」（換非鈣型 binder）�
    - **6/4**：Ferritin 35.3、TSAT 7.0%、Hb 12.3 → 11.2、Platelet 505 → 747
    - **7/4**：Hb 12.9 大幅回升（+1.7）、Platelet 747 → 458（缺鐵性反應性 thrombocytosis 回落）、**但 MCV 73.4 L / MCH 20.4 L / MCHC 27.9 L / RDW 21.0 H — iron-restricted erythropoiesis 型態未解**（松禾 A 檢 panel 沒重測 TSAT/Ferritin，8/4 需主動加測）
    - → 補鐵從「建議」升級為**「必做」**——換 ferric citrate 或加 IV iron 二選一，不能再拖
-6. **🔥 2026/07/04 → 2026/08/06 update：四個 converging 硬觸發**（急迫性再升級、跨越多次 lab 驗證）：
-   - **P 6.3（7/4）→ 6.1（8/6）**→ binder 明顯不足（KDOQI < 5.5 未達 2 個月連續）
-   - **MCV 73（7/4）→ 72.7（8/6）+ MCH 20.1 + MCHC 27.6 + RDW 20.6** → 缺鐵 pattern **3 個月未改善**
-   - **Hb 12.9 → 10.9 → 12.8（波動 pattern）** → iron-restricted erythropoiesis: EPO 力大但 iron 供給 barely keeps up
-   - **Kalimate 3 包/週（2026/07 起）**→ 再多一個 Ca 釋出源、跟本節「移除 Ca 來源」核心戰略對立
-   - → **ferric citrate 完美 fit**（四合一：非鈣型 binder + 補鐵 + 減 Ca load + 為 Lokelma 替代 Kalimate 的 pivot 鋪路）
-   - **8/11 心內門診 talking point**：「P 6.1 + MCV 72.7 兩個月連續 → 能不能討論換 ferric citrate？如果心內不 order，請 refer 腎科」
+6. **🔥🚨 2026/09/10 update：從「4 converging triggers」升「now-critical urgency」**（Iron studies 3 月 gap 補齊後揭露絕對嚴重缺鐵）：
+   - **Ferritin 35.3（6/4）→ 6.9（9/10）** → 🚨 **catastrophic drop、絕對缺鐵**（target > 100）
+   - **TSAT 7%（6/4）→ 5.3%（9/10）**、Iron 20 → 18、TIBC 287 → 339（transferrin 找鐵找不到）
+   - **Hb 12.8（8/6）→ 11.5（9/10）** → 🚨 **sustained drop**、不再是 dilutional 波動，是**真的缺鐵性貧血惡化**
+   - **MCV 73 → 72.7 → 70.1**、MCH 19.0、MCHC 27.1 → 缺鐵 pattern **每月更差**
+   - **P 6.3 → 6.1 → 5.9** → binder 3 個月連續 > 5.5 target
+   - **Kalimate 3 包/週** → 逆向 Ca 加碼、跟本節戰略對立
+   - **移植 window hidden threat**：Hb 若掉到需輸血 → PRA 反彈風險 → 8/10 好不容易 PRA I 1% 一夕逆轉
+   - → **ferric citrate 已從「可選」→「必做」**（四合一：非鈣型 binder + 補鐵 + 減 Ca load + 為 Lokelma 替代 Kalimate 鋪路）
+   - **平行 IV iron 建議**（Venofer 100mg × 每次透析）：ferric citrate PO 吸收慢、Hb 已 sustained drop → 需 IV 快補
+   - **下次任何門診的 top talking point**：「Ferritin 6.9 catastrophic + Hb 11.5 sustained drop → 立刻 IV iron + 啟動 ferric citrate；若心內不 order 請 refer 腎科」
 
 **Sequencing 關鍵：先換 binder，不要先動透析液**
 
