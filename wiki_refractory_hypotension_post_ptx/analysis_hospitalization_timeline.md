@@ -54,6 +54,8 @@ tags: [hospitalization_timeline, ADPKD, TAE, renal_embolization, LCX_stent, PTX,
 
 ### 🔥 TKV（總腎臟體積）變化軌跡 — TAE 策略極為成功
 
+> **TAE 機轉詳解**：見 [concept_tae_adpkd_mechanism](concept_tae_adpkd_mechanism.md)——4 個縮小機轉（缺血性萎縮 / 停止液體分泌 / 阻止細胞增殖 / 纖維化塌陷）+ 時間軸 + 為什麼囊腫不再長 + 對移植的 enabler 意義。
+
 > **術語提醒**：TKV = Total Kidney Volume = **雙腎合計**（左 + 右腎臟體積加起來）。ADPKD 文獻、Mayo Clinic Imaging Classification、CRISP trial 都用同一定義，可以直接逐次比對。
 
 | 時點 | 檢查 | TKV 合計 | R / L 拆分 | 跟正常比 | Grade |
