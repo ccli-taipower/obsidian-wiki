@@ -1503,3 +1503,28 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 2. **Good news 有 hidden expiration date**：8/10 PRA 1% 不是 permanent。任何 win 都要 **check「什麼會讓它 revert」**——這次是輸血 → PRA 反彈的 coupling。
 3. **URR 下降 = access flow 警訊**：ESRD 病人 HD 效率變差時 always 想到 access（recirculation）。6/9 PTA #2 restenosis pattern 每 4 個月 → 又到時間了。
 4. **「Iron 是 preserve PRA window 的動作」** — 這是 wiki cross-axis reasoning 的一個例子：iron 表面是 §7 binder 議題、但對 ② 免疫關卡有 protection 功能。**wiki 的價值是 catch 這種 cross-domain coupling**。
+
+---
+
+## 2026-09-24 — 新增 concept_tae_adpkd_mechanism.md（TAE 教學頁）
+
+**觸發**：user 問「TAE 為什麼可以讓我的 TKV 變小？水泡還會繼續長嗎」——之前 wiki 有 TAE 事件記錄但沒有 mechanism 教學頁、每次被問到都需要 re-explain。
+
+**新頁內容 (concept_tae_adpkd_mechanism.md)**：
+- TAE 4 個縮小機轉：(1) 缺血性萎縮 (2) 停止液體分泌 (3) 阻止細胞增殖 (4) 纖維化塌陷
+- Timeline：立刻無變化 → 3-6 個月開始 → 1-2 年大部分完成 → 進入 plateau
+- 個案數據：3,407 → 1,030 mL（-69.8%）超越 typical -50-70% 上限
+- 「囊腫還會繼續長嗎」分 4 塊：已 TAE 原生腎不會、未完全 embolize 殘餘極少、肝囊腫會慢慢長（多囊肝 Grade II）、移植腎不會
+- 3 個 direct implications for transplant：(1) 不需 pre-transplant nephrectomy (2) 右髂窩選擇加強 (3) 移植腎不會被 ADPKD 侵犯
+- Meta 觀察：2019 TAE 是 6 年後 leverage 為 transplant candidate 的 keystone
+
+**Cross-link 更新（3 處）**：
+1. `analysis_prognosis_without_transplant §ADPKD 巨腎`：加 concept_tae_adpkd_mechanism 連結
+2. `analysis_hospitalization_timeline §TKV 變化軌跡`：加 blockquote 指向 concept 頁
+3. `index.md`：Concepts 段新增第 6 個 concept + last updated 日期 + Pages 25 → 26
+
+**引用 3 篇文獻**：Ubukata 2007、Sakuhara 2015、Suwabe 2018（TAE 對 ADPKD volume reduction 的 canonical 論文）
+
+**Meta 教訓**：
+1. **教育型問題 = concept page opportunity**：user 問 mechanism 而非 update data 時，答完直接 offer 存成 concept page。未來被同樣問題再問時、直接 point 到 concept 頁而非 re-explain。
+2. **Wiki 有 fact accumulation vs mechanism explanation 兩種頁面**：analysis + timeline = fact，concept = mechanism。教學價值最高、也最容易被反覆需要。
