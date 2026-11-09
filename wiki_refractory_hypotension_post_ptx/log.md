@@ -1528,3 +1528,29 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 **Meta 教訓**：
 1. **教育型問題 = concept page opportunity**：user 問 mechanism 而非 update data 時，答完直接 offer 存成 concept page。未來被同樣問題再問時、直接 point 到 concept 頁而非 re-explain。
 2. **Wiki 有 fact accumulation vs mechanism explanation 兩種頁面**：analysis + timeline = fact，concept = mechanism。教學價值最高、也最容易被反覆需要。
+
+---
+
+## 2026-11-09 — 2026/10/08 + 2026/11/05 松禾月度 lab（健康存摺）
+
+**Event**：user 提供健康存摺截圖（115/10/08 部分 + 115/11/05 完整 CBC + 生化）。
+
+### 三個正面變化
+
+1. **P 5.9→4.2**：磷首次達標 < 5.5（連續 fail 後突破），可能 ferric citrate 已啟動或 binder 調整
+2. **URR 62.7%→74.0%**：HD 效率大幅回升（BUN 後 25.2→18.5），9/10 access recirculation 疑慮暫解
+3. **Platelet 557→480**：reactive thrombocytosis 持續改善
+
+### 仍未改善
+
+- Hb 11.3 持平、MCV/MCH/MCHC 完全未動 = iron-restricted erythropoiesis 本體未變
+- RDW 22.6 更高 = anisocytosis 加劇
+
+### 關鍵 gap — 兩大指標仍空白
+
+- **Iron studies（Ferritin/TSAT）**：9/10 Ferritin 6.9 catastrophic 後 2 個月未追蹤
+- **iPTH**：6/4 的 28.6 後**半年**未追蹤，停 vit D 策略效果完全不知
+
+### Wiki 更新
+
+1. `analysis_master_timeline`：在 9/10 段前新增「2026/10/08 + 2026/11/05 松禾月度 lab update」段——血液、電解質、肝功能、腎功能 4 表 + 綜合評估 + 下次 priorities

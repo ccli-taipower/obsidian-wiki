@@ -330,6 +330,81 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | **iPTH** | 6/4 28.6 trajectory | 中 |
 | ALP / Albumin / BUN | 例行 | 低 |
 
+### 2026/10/08 + 2026/11/05 松禾月度 lab update
+
+**來源**：健康存摺截圖（115/10/08 + 115/11/05）。10/08 僅部分項目（ALT/AST/Albumin/ALP），11/05 為完整 CBC + 生化。**仍缺 iron studies（Ferritin/TSAT/Iron/TIBC）、iPTH、LDL/CK**。
+
+#### 🩸 血液 — Hb 穩住但 microcytic anemia 持續
+
+| 項目 | 9/10 | **11/05** | Trend |
+|------|------|---------|-------|
+| **Hb** | 11.5 | **11.3** | 持平（未再 sustained drop）|
+| Hct | 42.4 | **41.8** | 對應 |
+| MCV | 70.1 L | **70.4 L** | 持續 microcytic，未改善 |
+| MCH | 19.0 L | **19.0 L** | 不變 |
+| MCHC | 27.1 L | **27.0 L** | 不變 |
+| RDW-CV | 20.3 H | **22.6 H** | ⬆️ anisocytosis 更嚴重 |
+| **Platelet** | 557 H | **480** | ⬇️ 改善（reactive thrombocytosis 減輕）|
+| RBC | — | **5.94** | 偏高（EPO 力大、但做出的是 microcytic 小紅血球）|
+| WBC | — | **9.2** | 正常 |
+
+→ Hb 穩在 11.3 未再急掉，但 **MCV/MCH/MCHC 完全沒動** = iron-restricted erythropoiesis 本體未改善。RDW 22.6 更高 = 紅血球大小不均加劇。**Platelet 從 747→557→480 持續下降是正面訊號**，可能反映部分鐵補充有效（或 reactive stimulus 減少）。
+
+⚠️ **Iron studies 仍未追蹤**——Ferritin 6.9（9/10）之後已 2 個月，不知 IV iron 是否已開始、效果如何。
+
+#### 🔴 電解質 — P 大幅改善
+
+| 項目 | 9/10 | **11/05** | 評估 |
+|------|------|---------|------|
+| **P 磷** | 5.9 H | **4.2** | ✅ **大幅改善**（連續 fail target → 首次達標 < 5.5）|
+| K 鉀 | 5.3 | **5.0** | ✅ 穩定 |
+| Ca 鈣 | 9.0 | **8.6** | 略降，追蹤 |
+| Na 鈉 | 138 | **135** | 略低，觀察 |
+
+→ **P 5.9→4.2 是近半年最大正面變化**。可能原因：(1) ferric citrate 已啟動？(2) 佳立鈣劑量調整？(3) 飲食控制改善？**如果是 ferric citrate 啟動，這同時也在補鐵——需 iron studies 驗證**。
+
+#### 🟢 肝功能 + 營養 — 全面穩定
+
+| 項目 | 9/10 | 10/08 | **11/05** | 評估 |
+|------|------|-------|---------|------|
+| ALT / AST | 10 / 7 | 13 / 9 | **9 / 8** | ✅ Cretrol 5 個月肝毒性 clear |
+| **Albumin** | 4.1 | 4.3 | **4.3** | ✅ 營養狀態良好且穩定 |
+| **ALP** | 57 | 60 | **56** | ✅ 穩定偏低（vs 6/4 的 69）|
+| Glucose | 86 | — | **111** | 略高（可能非空腹）|
+| Uric acid | 6.4 | — | **7.2** | 偏高，觀察 |
+
+→ ALP 56 穩定、不再上升 = adynamic bone 骨活化訊號趨平。Albumin 4.3 連續兩個月 = 營養狀態良好。
+
+#### 🟡 腎功能 — URR 待算
+
+| 項目 | 9/10 | **11/05** | 評估 |
+|------|------|---------|------|
+| BUN 洗前 | 67.5 | **71.2** | 略升 |
+| BUN 洗後 | 25.2 | **18.5** | ⬇️ 改善 |
+| **URR** | 🚨 62.7% | **74.0%** | ✅ **大幅回升**（回到 > 65% target）|
+| Creatinine | 11.17 | **11.50** | 持平 |
+
+→ **URR 62.7%→74.0% 回升是重大正面訊號**。如果 9 月有做 PTA #3 或 access 處理，這就是直接效果。即使沒做 PTA，也可能是 access flow 自然改善或透析處方調整。
+
+#### 📊 綜合評估 — 3 個正面 + 2 個待解
+
+**正面：**
+1. **P 5.9→4.2**：首次達標（可能 ferric citrate 已上？）
+2. **URR 62.7%→74.0%**：HD 效率大幅恢復
+3. **Platelet 557→480**：reactive thrombocytosis 改善中
+
+**仍待解：**
+1. **Iron studies（Ferritin/TSAT）仍未追蹤**——9/10 Ferritin 6.9 catastrophic 之後 2 個月空白，不知補鐵進度
+2. **iPTH 仍未追蹤**——6/4 的 28.6 之後半年空白，停 vit D 策略的效果完全不知
+
+#### 下次門診 priorities
+
+1. **追 iron studies**（Ferritin/TSAT/Iron/TIBC）——確認補鐵有沒有效、Ferritin 6.9 有回升嗎？
+2. **追 iPTH**——停 vit D 半年了，iPTH 到底升到多少？是否 overshoot？
+3. **P 4.2 的原因**——是 ferric citrate 啟動了嗎？還是佳立鈣加量？需確認 binder strategy
+
+---
+
 ### 🔥🚨 2026/09/10 月度 lab update — Iron panel 3 月 gap 補齊、揭露 catastrophic 缺鐵
 
 **Panel 特性**：這次終於**包含完整 iron studies + 生化 + 血液 + Cholesterol/TG**，補齊 3 個月 gap。仍缺 LDL/CK/iPTH。
