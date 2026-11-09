@@ -414,6 +414,16 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 
 > **一句話總結**：透析充分性大幅改善（URR 62.7→74.0%）、磷代謝首次達標（P 4.2）、Ca×P 風險驟降，但 iron-restricted erythropoiesis 尚未解除，鐵指標與 iPTH 連續 5 個月空白是最大盲區。
 
+##### 📊 趨勢圖
+
+| URR 透析充分性 | P 磷 + Platelet |
+|:---:|:---:|
+| ![URR](img/trend_urr.png) | ![P+Plt](img/trend_p_plt.png) |
+
+| Red cell indices | Ca×P 乘積 |
+|:---:|:---:|
+| ![RBC](img/trend_rbc_indices.png) | ![CaxP](img/trend_caxp.png) |
+
 ##### URR — 透析充分性逐月回升
 
 | 日期 | BUN pre | BUN post | **URR** | 評估 |

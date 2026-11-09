@@ -1561,3 +1561,4 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 1. `analysis_master_timeline`：在 9/10 段前新增「2026/10/08 + 2026/11/05 松禾月度 lab update」段——包含完整 3 個月對照（9/10 vs 10/08 vs 11/05）：血液、電解質、肝功能、腎功能 4 表 + 介入時間推斷 + 綜合評估 + 下次 priorities
 2. `analysis_master_timeline`：新增「三個月趨勢綜合分析（9/10→10/08→11/05）」含 URR 計算表（62.7→69.2→74.0%）、磷+Ca×P 變化（56.4→36.1）、iron-restricted erythropoiesis 評估、三大改善+三大盲區結論、下次 lab 預期觀察項
 3. `analysis_master_timeline` Master Timeline 表：新增 10/08 + 11/05 兩列（9/10 已有），含 P 首次達標、URR 74%、ferric citrate 推斷等摘要
+4. `img/trend_*.png`（4 張）：URR 趨勢、P+Plt 雙軸圖（含 ferric citrate 介入標註）、RBC indices 柱狀圖（含正常值線）、Ca×P 柱狀圖（含高風險線）——嵌入三個月趨勢分析段
