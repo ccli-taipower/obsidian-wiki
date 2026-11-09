@@ -82,6 +82,8 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 | 🔥 **2026/08/10** | 🩸 抽血 | **NTUH 移植門診後 FlowPRA re-test**（門診完抽血、dr 8/10 未看到此結果）| 🎉🎉 **Class I 44% → 1%（−43 pp）、Class I MFI 563 → 289、Class II 11% → 6%、Class II MFI 355 → 301**——**免疫關卡從最大 barrier → essentially cleared**。**下次移植門診 user 需主動 present 這個結果**、推動 active listing 加速決策 | [prognosis 三大關卡](analysis_prognosis_without_transplant.md) |
 | 🔥 **2026/08/11**（預定）| 評估 | **NTUH 心內門診**（7/29 SPECT report 討論）| **黃金 window 第 2 天** 4 議題一次到位：(1) SD% 1.5% → RCA CTO PCI 是否 no longer indicated？(2) Concor 失敗後**ivabradine 提案**（BB 不耐受、HFpEF 需 HR 控制、健保 stable angina + BB 不耐受可給付）？(3) NT-proBNP 614 trend 追蹤頻率？(4) LDL 60 已達 target < 70，dr target 是 < 70 還是 < 55？⏳ **結果待 user 補充** | [CAD analysis](analysis_cad_contribution_to_refractory_idh.md)、[iatrogenic §4.5](analysis_iatrogenic_factors_in_refractory_idh.md)、[iatrogenic §4.6](analysis_iatrogenic_factors_in_refractory_idh.md) |
 | 🔥🚨 **2026/09/10** | 🩸 抽血 | **月度 lab（含 iron studies 完整組——3 個月 gap 終於補上）**| 🚨🚨 **絕對嚴重缺鐵：Ferritin 35.3 → 6.9（catastrophic drop）、TSAT 5.3%（vs 6/4 7.0%）、Iron 18、TIBC 339**、⚠️ **Hb 12.8 → 11.5**（sustained drop、非 dilutional）、⚠️ **MCV 70.1 / MCH 19.0 / MCHC 27.1** 全部更差、⚠️ **P 5.9**（略降但仍 > 5.5）、⚠️ **URR 62.7% 首次 < 65% target**（HD 效率下降需追查、可能 AVG restenosis）、K 5.3 stable、Ca 9.0、ALT 10/AST 7 Cretrol clear、Glucose 86 恢復正常。**❌ LDL/CK/iPTH 仍未測** | 本頁 §9/10 lab 表 |
+| 🔥 **2026/10/08** | 🩸 抽血 | **松禾月度完整 panel**（健康存摺 115/10/08）| **P 6.2 H**（9/10 5.9→6.2 持續惡化）、Plt **650 H**（reactive thrombocytosis peak）、Hb 11.5 穩定、**URR 69.2%**（回升 +6.5pp、重新達標）、Cr 12.52、K 5.0、Ca 9.1、Na 134、Glucose 105、Uric acid 8.0、ALT 13/AST 9、Alb 4.3、ALP 60。**❌ 仍缺**：iron studies / iPTH / LDL / CK | 本頁 §10/08+11/05 lab 表 |
+| 🔥 **2026/11/05** | 🩸 抽血 | **松禾月度完整 panel**（健康存摺 115/11/05）| 🎉 **P 4.2 首次達標**（6.2→4.2 斷崖式 −32%、推斷 ferric citrate 介入）、Plt **480**（650→480 驟降、citrate 抗血小板效應）、Hb 11.3 穩定、🎉 **URR 74.0%**（三月 trajectory 62.7→69.2→74.0、HD 效率持續改善）、Ca 8.6（略降、ferric citrate 取代部分 CaCO3）、Ca×P 36.1（−35% vs 10/08）、K 5.0、Na 135、Glucose 111、Uric acid 7.2、ALT 9/AST 8、Alb 4.3、ALP 56。**❌ 仍缺**：iron studies / iPTH / LDL / CK——**連續 5 個月未追蹤** | 本頁 §10/08+11/05 lab 表 |
 | **2026/10/13**（預定）| 評估 | **AVG PTA #2 follow-up**（葉聰賜）| 主動討論：vein mapping / surveillance US 縮短間隔 / DCB / 備用通路啟動 timing | [CAD §C](analysis_cad_contribution_to_refractory_idh.md) |
 
 ---
@@ -407,6 +409,77 @@ tags: [master_timeline, medical_history, surgical_history, imaging_history, lab_
 1. **追 iron studies**（Ferritin/TSAT/Iron/TIBC）——確認補鐵有沒有效、Ferritin 6.9 有回升嗎？
 2. **追 iPTH**——停 vit D 半年了，iPTH 到底升到多少？是否 overshoot？
 3. **確認 P 4.2 的原因**——是 ferric citrate 啟動了嗎？何時開始？劑量？佳立鈣有減嗎？
+
+#### 📈 三個月趨勢綜合分析（9/10 → 10/08 → 11/05）
+
+> **一句話總結**：透析充分性大幅改善（URR 62.7→74.0%）、磷代謝首次達標（P 4.2）、Ca×P 風險驟降，但 iron-restricted erythropoiesis 尚未解除，鐵指標與 iPTH 連續 5 個月空白是最大盲區。
+
+##### URR — 透析充分性逐月回升
+
+| 日期 | BUN pre | BUN post | **URR** | 評估 |
+|------|---------|----------|---------|------|
+| 9/10 | 67.5 | 25.2 | **62.7%** 🚨 | < 65% 不達標 |
+| 10/08 | 71.0 | 21.9 | **69.2%** ✅ | 回升至達標 |
+| 11/05 | 71.2 | 18.5 | **74.0%** ✅ | 超過 KDOQI 目標 |
+
+計算：URR = (BUN_pre − BUN_post) / BUN_pre × 100%
+
+→ 透析前 BUN 穩定（67–71），改善完全來自透析後 BUN 下降（25.2→21.9→18.5）= **透析效率本身在進步**。可能原因：AVG PTA #2 後 access flow 自然 remodeling、透析處方調整。三個月 +11.3 個百分點，是穩定回升而非一次跳躍。
+
+##### 磷 — 斷崖式改善 + ferric citrate 介入推斷
+
+| | 9/10 | 10/08 | 11/05 | Δ |
+|--|------|-------|-------|---|
+| **P** | 5.9 H | **6.2 H** ↑ | **4.2** ✅ | −32%（10→11 月）|
+| **Ca** | 9.0 | 9.1 | 8.6 | 略降 |
+| **Ca×P** | 53.1 | 56.4 | **36.1** | **−35%**（10→11 月）|
+| **Plt** | 557 H | **650 H** ↑ | **480** ↓ | 同步驟降 |
+
+→ P 10 月還在惡化（5.9→6.2），11 月斷崖降至 4.2（−32%）。Platelet 同步 650→480。**最可能解釋：10 月中至 11 月初之間啟用 ferric citrate（拿百磷）**，同時結合磷（P↓）+ 提供鐵（Plt 不再 reactive↓）+ 取代部分 CaCO3（Ca 略↓）。Ca×P 從 56.4 降至 36.1，**血管鈣化風險大幅下降**。
+
+##### 血液學 — iron-restricted erythropoiesis 持續未解
+
+| | 9/10 | 10/08 | 11/05 | 正常下限 | 評估 |
+|--|------|-------|-------|---------|------|
+| Hb | 11.5 | 11.5 | 11.3 | 11.0 | 穩定 |
+| **MCV** | 70.1 L | 72.6 L | 70.4 L | **80** | 持續 microcytic |
+| **MCH** | 19.0 L | 19.2 L | 19.0 L | **27** | 嚴重偏低 |
+| **MCHC** | 27.1 L | 26.5 L | 27.0 L | **32** | 持續偏低 |
+| **RDW** | 20.3 H | 22.0 H | 22.6 H | <15 | 持續惡化 |
+
+→ **MCV/MCH/MCHC 三個月完全不動** = 鐵缺乏本體未改善。RDW 持續上升（20.3→22.6）= anisocytosis 加劇。9/10 的 Ferritin 6.9 + TSAT 5.3% 確認嚴重鐵缺乏後，**已連續 2 個月未追蹤鐵指標**。若 ferric citrate 確實啟用，MCV/MCH 回升需 2–3 個月（紅血球壽命週期），預計 12 月或 1 月開始可見。RDW 惡化是過渡期預期現象（新舊紅血球大小不均）。
+
+##### 電解質與代謝 — 穩定，Glucose 值得觀察
+
+| | 9/10 | 10/08 | 11/05 | 評估 |
+|--|------|-------|-------|------|
+| K | 5.3 | 5.0 | 5.0 | ✅ 穩定 |
+| Na | 138 | 134 | 135 | 略低但穩定 |
+| Cr | 11.17 | 12.52 | 11.50 | 10 月偏高、11 月回落 |
+| Uric acid | — | 8.0 | 7.2 | 偏高，改善中 |
+| **Glucose** | 86 | 105 | **111** | ⚠️ 上升趨勢（86→111），觀察 |
+
+##### 肝功能 + 營養 — 全面穩定
+
+ALT/AST 持續正常（9–13/7–9），Cretrol 肝毒性 clear。Albumin 4.1→4.3→4.3 營養良好。ALP 56–60 窄幅波動。
+
+##### 🎯 結論與行動項
+
+**✅ 三大改善：**
+1. **URR 74%** — 透析充分性從不達標回升到超標，+11.3pp
+2. **P 4.2 首次達標** — Ca×P 36.1，血管鈣化風險驟降
+3. **Hb 穩定 + 營養良好** — Alb 4.3，肝功能 clear
+
+**⚠️ 三大盲區（下次門診 must-do）：**
+1. **Iron studies（Ferritin/TSAT/Iron/TIBC）** — Ferritin 6.9（9/10）後 2 個月空白，無法評估補鐵效果
+2. **iPTH** — 6/4 的 28.6 後**半年空白**，停 vit D 策略成效完全未知，是否 overshoot？
+3. **確認 ferric citrate** — 何時啟動、劑量多少、佳立鈣有減量嗎？
+
+**📊 預期下次 lab（~12 月）應觀察：**
+- MCV/MCH 是否開始回升（ferric citrate 啟用後 2–3 個月效應）
+- Ferritin 是否 > 100（KDIGO target）、TSAT 是否 > 20%
+- iPTH 是否在 150–300 目標區間內
+- Glucose 是否持續上升
 
 ---
 
