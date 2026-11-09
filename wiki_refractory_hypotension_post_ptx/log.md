@@ -1533,18 +1533,23 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 
 ## 2026-11-09 — 2026/10/08 + 2026/11/05 松禾月度 lab（健康存摺）
 
-**Event**：user 提供健康存摺截圖（115/10/08 部分 + 115/11/05 完整 CBC + 生化）。
+**Event**：user 提供健康存摺截圖。初次提供 11/05 完整 + 10/08 僅 4 項；後追加 10/08 完整 panel（CBC + 生化 + 電解質全組）。
 
-### 三個正面變化
+### 關鍵發現：10→11 月之間有明確介入
 
-1. **P 5.9→4.2**：磷首次達標 < 5.5（連續 fail 後突破），可能 ferric citrate 已啟動或 binder 調整
-2. **URR 62.7%→74.0%**：HD 效率大幅回升（BUN 後 25.2→18.5），9/10 access recirculation 疑慮暫解
-3. **Platelet 557→480**：reactive thrombocytosis 持續改善
+10/08 的 P **6.2**（比 9/10 更高）+ Platelet **650**（近期最高）→ 11/05 P **4.2** + Platelet **480** = **斷崖式改善**。10 月中到 11 月初之間一定有介入，最可能是 **ferric citrate 啟動**（同時解釋 P↓ + Platelet↓ + Ca 9.1→8.6）。
+
+### 四個正面變化
+
+1. **P 6.2→4.2**：斷崖式達標（連續 5 個月 fail → 首次 < 5.5）
+2. **URR 62.7→69.2→74.0**：HD 效率逐月穩定回升（非一次跳躍）
+3. **Platelet 650→480**：10 月 peak 後明顯下降
+4. **Hb 11.3-11.5 穩定 2 個月**：未再 sustained drop
 
 ### 仍未改善
 
-- Hb 11.3 持平、MCV/MCH/MCHC 完全未動 = iron-restricted erythropoiesis 本體未變
-- RDW 22.6 更高 = anisocytosis 加劇
+- MCV/MCH/MCHC 完全未動 = iron-restricted erythropoiesis 本體未變
+- RDW 22.0→22.6 = anisocytosis 更嚴重
 
 ### 關鍵 gap — 兩大指標仍空白
 
@@ -1553,4 +1558,4 @@ User query：「那我的意思是如果考慮足部血管狀態，移植要放�
 
 ### Wiki 更新
 
-1. `analysis_master_timeline`：在 9/10 段前新增「2026/10/08 + 2026/11/05 松禾月度 lab update」段——血液、電解質、肝功能、腎功能 4 表 + 綜合評估 + 下次 priorities
+1. `analysis_master_timeline`：在 9/10 段前新增「2026/10/08 + 2026/11/05 松禾月度 lab update」段——包含完整 3 個月對照（9/10 vs 10/08 vs 11/05）：血液、電解質、肝功能、腎功能 4 表 + 介入時間推斷 + 綜合評估 + 下次 priorities
